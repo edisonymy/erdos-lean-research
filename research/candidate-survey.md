@@ -33,21 +33,21 @@ resolved.
 | Problem | Shape | Why active | Principal risk |
 |---|---|---|---|
 | #128 | finite triangle-free graph census | complete graph catalogues permit exact small-order exclusions and a counterexample is directly checkable | catalogue completeness and UNSAT solver runs are external trust boundaries; the universal problem is far beyond the finite range |
+| #167 | finite graph counterexample to Tuza's conjecture | Puleo's theorem reduces order 11 to a tractable residual now closed by independent witness screens | the result is bounded and depends on nauty catalogue completeness; order 12 needs another major reduction |
 | #366 | explicit 2-full/3-full consecutive-number witness | a witness would be a tiny checkable certificate | no general witness is known and the public search already reaches `10^22` |
 | #488 | universal density inequality | elementary finite-set/divisibility language; faithful corrected Lean statement | substantial 2026 partial work and no known general argument |
 | #699 | common large prime divisor of binomial coefficients | strong Mathlib support and exact Kummer reductions | a public computation through `n = 100000` dominates finite search |
+| #742 | finite extremal graph counterexample | order 25 is the first case beyond Fan's explicit small-order theorem, and any SAT edge list is directly checkable | the current public CNF searches are computationally large and any UNSAT result needs a proof certificate |
 | #982 | finite planar-geometry counterexample | noncocircular rational or integer coordinates give an exact convexity-and-distance certificate | every cyclic polygon automatically satisfies the target; a July 25 unverified partial-proof claim and public floating-point benchmarks must be monitored |
 
 ## Next queue
 
 | Problem | Opportunity | Reason not yet primary |
 |---|---|---|
-| #167 | finite graph counterexample to Tuza's conjecture | the exact order-10 extension is complete; order 11 has vastly more unlabeled graphs and needs a stronger structural reduction before another full catalogue attack |
 | #64 | finite graph counterexample | small cubic/minimum-degree-three ranges now collide with July work; a meaningful continuation needs certificate-backed replication at orders 30/31 or an all-cubic order-32 search including 32-cycles |
 | #196 | infinite permutation construction | three Rethlas attempts produced no verified blueprint; finite avoiding prefixes do not address the required infinite bijection |
 | #273 | covering system with moduli `p-1` | July repositories already prove `p>877`, exclude period `55440`, and certify all moduli at most `57` as impossible; a construction now needs a genuinely new large-modulus idea |
 | #672 | perfect-power product in a long coprime arithmetic progression | structured SAT/valuation search; known work excludes lengths through 34 |
-| #742 | finite extremal hypergraph counterexample | a counterexample would be checkable, but the current public order/size search is already computationally large and any UNSAT result needs a proof certificate |
 | #677 | interval-LCM inequality | decidable and elementary; uniform statement appears structurally hard |
 
 ## Rejected or deprioritized examples

@@ -1,0 +1,24 @@
+{
+  "result": "pass",
+  "native_cardinality_assignment_checks": 1536,
+  "maximality_witness_assignment_checks": 1098,
+  "small_graphs": {
+    "all_labelled_graphs": 33868,
+    "triangle_free_graphs": 6229,
+    "maximal_extensions": 6229,
+    "normalized_maximum_independent_sets": 15226
+  },
+  "ramsey_3_4_8": {
+    "records": 3,
+    "normalized_maximum_independent_sets": 30
+  },
+  "order16_model_lifting_fixture": {
+    "seed": 0,
+    "edges": 44,
+    "alpha": 6,
+    "chosen_independent_set": [0, 1, 2, 5, 6, 13],
+    "normalized_cross_degree": 1,
+    "sorted_cross_codes": [6, 14, 25, 38, 49, 56, 62, 62, 63],
+    "minimum_half_edges": 2
+  }
+}

@@ -62,3 +62,11 @@ over all vertices is still four throughout the strictly convex family.
 
 The smallest integer member is `a=3,b=2`, independently verified in the
 noncyclic exact search output.
+
+Two larger no-go results subsume this calculation in different directions:
+
+- `D2_OCTAGON_NO_GO.md` allows unequal horizontal/vertical axis radii and
+  unequal diagonal coordinates, and proves the target for the entire
+  four-parameter real family;
+- `TWO_RADIUS_DIHEDRAL_NO_GO.md` keeps alternating regular orbits but allows
+  every order `2m` and every real radius in the strict-convexity interval.

@@ -1,0 +1,30 @@
+{
+  "public_repository": "https://github.com/Open-Galapagos/evolution-fine-tuning",
+  "commit": "aac2e79be773715ab35b7945f5d9028e46675f02",
+  "finding": "scale-dependent false positive; not a counterexample to Erd\u0151s 982",
+  "cause": "distance gaps are divided by max(|d1|,|d2|,1), while convexity and coincidence use fixed absolute thresholds",
+  "records": [
+    {
+      "benchmark": "erdos_982_convex_distances",
+      "n": 10,
+      "scale": 2.3e-05,
+      "evaluator_sha256": "d85b76d5c988b1e271d2182b7b9cca6364266c9c9325efbafb96bb6a2c2310ad",
+      "evaluator_accepted": true,
+      "evaluator_metric": 1,
+      "mathematical_regular_polygon_metric": 5,
+      "minimum_pairwise_distance": 1.421478174124758e-05,
+      "minimum_consecutive_cross_product": 1.1876789980530024e-10
+    },
+    {
+      "benchmark": "erdos_982_convex_n12",
+      "n": 12,
+      "scale": 2.9e-05,
+      "evaluator_sha256": "5830389b4f9197249dfcd63d9ee051c4348052f08c05f8654886262c55bd68ae",
+      "evaluator_accepted": true,
+      "evaluator_metric": 1,
+      "mathematical_regular_polygon_metric": 6,
+      "minimum_pairwise_distance": 1.5011504615946189e-05,
+      "minimum_consecutive_cross_product": 1.1267263541728696e-10
+    }
+  ]
+}

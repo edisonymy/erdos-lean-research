@@ -1,0 +1,22 @@
+{
+  "reference": "experiments\\erdos982\\d2_octagon_bound40.json",
+  "matches": true,
+  "audit": {
+    "bound": 40,
+    "strictly_convex_full_tuple_count": 156402,
+    "strictly_convex_candidates": 45,
+    "both_axial_orbits_at_most_three": 0,
+    "counterexamples": 0,
+    "best": {
+      "A": 13,
+      "B": 11,
+      "C": 11,
+      "D": 10,
+      "Profile": [
+        3,
+        4,
+        7
+      ]
+    }
+  }
+}

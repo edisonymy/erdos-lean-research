@@ -37,13 +37,17 @@ Repeat the gate before publishing, because status can change during a long campa
 
 | Problem | Recent finding | Consequence |
 |---|---|---|
-| #128 | `cormundus/erdos-128-census`, commit `52e43ab4a6e9bc9a56951e113c823b340d706fe6`, updated 26 July | compare every finite claim; the prior work covers named SRGs and heuristic searches, not the complete Ramsey-catalogue exclusion through `n=15` |
+| #128 | `cormundus/erdos-128-census`, commit `52e43ab4a6e9bc9a56951e113c823b340d706fe6`, updated 26 July; live page/forum and repository search repeated 1 August | compare every finite claim; the prior work covers named SRGs and heuristic searches, not the complete Ramsey-catalogue exclusion through `n=15` or the new conditional double-solver exclusion at `n=16`; no exact public `n=16` closure was found, but novelty is not claimed |
+| #167 | 24 July report closes only order 9; a 26 July note discusses order-10 feasibility; current public Lean/Aristotle material still labels the full conjecture unproved | the conditional order-11 residual computation appears non-duplicative in the searched record, but is published only as a bounded result with no priority claim |
 | #196 | `Sageder/erdos-196` was created/updated 27 July but is an empty repository | no mathematical collision found; retain as a monitored target |
 | #273 | two July repositories give stronger range and certified finite obstructions, including period `55,440` | stop the redundant SAT siege; retain only independently useful non-overlapping obstructions |
 | #366 | no matching recent Zenodo or dedicated GitHub repository found; current page and June frontier audit still describe it as open/verifiable | retain, with the public `n<10^22` exclusion as prior art |
 | #488 | extensive current forum work exists; no full corrected-multiples resolution located | retain only with explicit comparison against the forum and Chojecki note |
 | #617, `r=5` | Zenodo DOI `10.5281/zenodo.21535386`, deposited 24 July; exact source and preprint hashes matched | withdraw target and stop all searches; all-`r` conjecture remains open |
 | #699 | public 22 July computation reaches `n=100000`; a dashboard's “done” flag selects only the auxiliary Sylvester–Schur theorem | finite search is non-novel; retain only faithful reductions/formal lemmas |
+
+| #742 | live page, VibeMathed, recent arXiv/Zenodo/SciNet/Constellate, and Formal Conjectures issue/PR searches found statements and restricted results but no full proof, counterexample, or public order-25 verdict | retain the candidate-first order-25 search; independently check any SAT graph, and never promote uncertified UNSAT output |
+| #982 | a 25 July Kominers working paper claims a stronger partial coefficient but not the conjectured `n/2` bound; public SkyDiscover `n=10`/`n=12` evaluators contain a scale-sensitive acceptance bug | retain exact family attacks, but treat neither the unverified paper claim nor floating-point benchmark output as a solution or exact certificate |
 
 ## #617 primary-record check
 

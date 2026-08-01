@@ -1,10 +1,14 @@
 # Erdős Problem 128: audit and finite search
 
 Status as of 2026-08-01: **no solution or counterexample is claimed here**.
-The general problem remains open.  The strongest completed result in this
-directory is a reproducible, catalogue-based exclusion of counterexamples on
-at most 15 vertices.  This is a finite partial result, not a proof of the open
-problem and not a claimed novel theorem.
+The general problem remains open.  The catalogue checks give a reproducible
+exclusion through 15 vertices.  At order 16, two independently constructed
+native-cardinality encodings and different exact solvers now both return
+UNSAT in all three exhaustive structural cases.  Regenerated CNFs for those
+cases now also have retained LRAT certificates accepted by a separate checker.
+The order-16 exclusion remains conditional on McKay catalogue completeness,
+the documented reduction, and checker correctness.  It is a finite partial
+result, not a proof of the open problem and not a claimed novel theorem.
 
 ## Exact statement and fidelity
 
@@ -135,7 +139,7 @@ python experiments/erdos128/check_g6_family.py experiments/erdos128/r36_15.g6.gz
 The separate `checker.py` validates any concrete edge-list counterexample
 emitted by the exploratory SAT scripts.  No such edge list was found.
 
-## Order-16 SAT experiment and proof contingency
+## Order-16 exact searches and proof contingency
 
 At `n=16`, Razborov gives `alpha(G) <= 6` for a counterexample, while the
 complete `(3,6,16)` catalogue exclusion above rules out `alpha(G) <= 5`.
@@ -145,16 +149,38 @@ therefore lossless. `cnf_search.py` now supports this symmetry with
 `--fix-independent-size 6` and supports deterministic DIMACS generation with
 `--build-only`.
 
-A direct MapleSAT search of this remaining case was launched on 2026-08-01 and
-had not terminated when this note was updated. It has 1,698,960 variables and
-3,203,775 clauses. No SAT or UNSAT result is claimed from the running process.
+A direct MapleSAT search of this remaining case was launched on 2026-08-01.
+It had consumed about 11,588 CPU seconds without terminating when it was
+stopped in favor of the proof-producing reduced cases.  It had 1,698,960
+variables and 3,203,775 clauses; no result is claimed from that stopped run.
 
-`PROOF_PIPELINE.md` documents a pinned CaDiCaL-to-DRAT-to-LRAT contingency.
+`Z3_CROSS_SEARCH.md` gives a stronger lossless reduction.  A counterexample
+may be extended to a maximal triangle-free one; choose a remaining independent
+six-set `I`, then choose an outside vertex of minimum `I`-degree `d`.  One has
+`1 <= d <= 3`, and relabelling makes its neighbourhood a prefix of `I`.
+Z3's native pseudo-Boolean QF_FD backend returned UNSAT for `d=1,2,3` in
+64.781, 76.110, and 91.813 seconds.  A separately constructed MiniCard
+native-cardinality encoding, deliberately omitting Z3's ordering of the other
+nine outside vertices, independently returned UNSAT in all three cases.  Its
+`d=3` run took 823.094 wall seconds.
+
+The exact logs and a small-model/model-lifting audit are retained in
+`cross_results/`.  The audit exhaustively checked all 33,868 labelled graphs
+through order 6, all maximum independent sets in the three Ramsey `(3,4,8)`
+graphs, native-cardinality semantics, maximality-witness clauses, and a
+concrete order-16 alpha-six symmetry lift.  This substantially reduces the
+risk of an encoding or symmetry error, but it is not an UNSAT certificate.
+
+`PROOF_PIPELINE.md` documents the pinned CaDiCaL-to-DRAT-to-LRAT tool chain.
 The small known-UNSAT `n=8` smoke case produced byte-identical artifacts on
 repeat runs and was accepted independently by `drat-trim` and `lrat-check`.
-The order-16 proof run was deliberately not launched: it would compete with
-the active search, and every available volume was below the wrapper's 50 GB
-free-space safety floor. Even that floor is not a proof-size guarantee.
+After disk capacity became available, the capped order-16 pipeline completed
+all three cases.  CaDiCaL returned UNSAT, `drat-trim` verified each DRAT and
+emitted LRAT, and `lrat-check` accepted every LRAT.  The `d=3` case produced
+the largest intermediate DRAT at 896,522,879 bytes; its checked LRAT is
+132,721,364 bytes.  `CROSS_PROOF_PIPELINE.md` records all dimensions and
+hashes.  The compressed LRATs, manifest, and clean replay script are retained
+in `cross_certificates/`.
 
 ## What is and is not certified
 
@@ -166,6 +192,15 @@ Certified by the local checker:
 - every supplied record has an explicit floor-sized sparse subset;
 - all file hashes and record counts match `MANIFEST.json`.
 
+Independently reproduced computational evidence:
+
+- Z3 QF_FD and MiniCard agree that all three exhaustive order-16 cross-degree
+  cases are UNSAT;
+- the separate reduction audit passes the exact checks listed in
+  `Z3_CROSS_SEARCH.md`;
+- regenerated CNFs for all three cases match their recorded hashes, and the
+  retained LRATs are accepted by the pinned `lrat-check` executable.
+
 External dependency:
 
 - completeness up to isomorphism of each Ramsey catalogue is taken from the
@@ -176,12 +211,14 @@ Not certified or claimed:
 
 - a proof or disproof for arbitrary `n`;
 - a Lean proof of the finite exclusion;
-- novelty of the `n <= 15` synthesis;
-- any order-16 result from the active direct CNF search;
+- novelty of either the `n <= 15` synthesis or the conditional order-16
+  computation;
+- any result from the stopped direct MapleSAT CNF search;
 - any theorem-level conclusion from the proof pipeline's `n=8` smoke test.
   Its two native proof checkers share one upstream repository and are not
-  formally verified; a future order-16 UNSAT claim should also use a formally
-  verified LRAT checker such as CakeML `cake_lpr`.
+  formally verified.  The retained order-16 LRATs should additionally be
+  replayed with a formally verified checker such as CakeML `cake_lpr` before
+  treating the computational trust boundary as closed at theorem level.
 
 The computation is therefore a rigorous, reproducible attack artifact with a
 clear trust boundary, but it does not solve Erdős Problem 128.

@@ -1,0 +1,28 @@
+{
+  "problem": "Erdos 982, n=8",
+  "exact": true,
+  "family": "(\u002B/-a,0), (0,\u002B/-c), (\u002B/-b,\u002B/-d)",
+  "normalization": "positive integers a,b,c,d \u003C= bound; coordinate-axis interchange fixes a\u003E=c",
+  "strict_convexity": "a\u003Eb, c\u003Ed, ad\u002Bbc\u003Eac",
+  "completeness_note": "a counterexample needs \u003C=3 distances at (a,0); its four possible values force d^2 to one of the four enumerated expressions (the remaining possibility c^2=3a^2 has no positive integer solutions)",
+  "bound": 1000,
+  "threads": 8,
+  "elapsed_seconds": 0.7178084,
+  "parameter_triples": 333333000,
+  "square_d_candidates": 557329,
+  "strictly_convex_candidates": 107825,
+  "both_axial_orbits_at_most_three": 0,
+  "counterexamples": 0,
+  "best": {
+    "A": 13,
+    "B": 11,
+    "C": 11,
+    "D": 10,
+    "Profile": [
+      3,
+      4,
+      7
+    ]
+  },
+  "counterexample": null
+}

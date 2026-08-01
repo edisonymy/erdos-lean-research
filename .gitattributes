@@ -1,3 +1,14 @@
 # The order-10 certificate manifest hashes exact bytes; keep its tracked
 # text artifacts byte-stable on Windows as well as Unix.
 experiments/erdos167_order10/** text eol=lf
+
+# The order-16 #128 record also hashes exact source/result bytes.
+experiments/erdos128/z3_cross_search.py text eol=lf
+experiments/erdos128/minicard_cross_search.py text eol=lf
+experiments/erdos128/audit_cross_reduction.py text eol=lf
+experiments/erdos128/cross_results/** text eol=lf
+experiments/erdos128/cross_certificates/*.zst binary
+
+# The #982 integrity manifest hashes exact bytes; keep its text artifacts
+# stable across Windows and Unix checkouts.
+experiments/erdos982/** text eol=lf

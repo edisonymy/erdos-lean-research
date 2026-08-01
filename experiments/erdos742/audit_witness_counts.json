@@ -1,0 +1,63 @@
+{
+  "max_n": 6,
+  "witness_mismatches": 0,
+  "count_inequality_violations": 0,
+  "rows": [
+    {
+      "n": 2,
+      "diameter_two_graphs": 0,
+      "edge_instances": 0,
+      "diameter_two_critical_graphs": 0,
+      "maximum_edges": -1,
+      "murty_simon_bound": 1,
+      "minimum_D_plus_2S_minus_m": null,
+      "count_inequality_equalities": 0
+    },
+    {
+      "n": 3,
+      "diameter_two_graphs": 3,
+      "edge_instances": 6,
+      "diameter_two_critical_graphs": 3,
+      "maximum_edges": 2,
+      "murty_simon_bound": 2,
+      "minimum_D_plus_2S_minus_m": 2,
+      "count_inequality_equalities": 0
+    },
+    {
+      "n": 4,
+      "diameter_two_graphs": 25,
+      "edge_instances": 102,
+      "diameter_two_critical_graphs": 7,
+      "maximum_edges": 4,
+      "murty_simon_bound": 4,
+      "minimum_D_plus_2S_minus_m": 0,
+      "count_inequality_equalities": 3
+    },
+    {
+      "n": 5,
+      "diameter_two_graphs": 367,
+      "edge_instances": 2390,
+      "diameter_two_critical_graphs": 27,
+      "maximum_edges": 6,
+      "murty_simon_bound": 6,
+      "minimum_D_plus_2S_minus_m": 0,
+      "count_inequality_equalities": 10
+    },
+    {
+      "n": 6,
+      "diameter_two_graphs": 10923,
+      "edge_instances": 102405,
+      "diameter_two_critical_graphs": 571,
+      "maximum_edges": 9,
+      "murty_simon_bound": 9,
+      "minimum_D_plus_2S_minus_m": 0,
+      "count_inequality_equalities": 25
+    }
+  ],
+  "definitions": {
+    "D": "edges whose endpoints have no common neighbour",
+    "S": "nonedges whose endpoints have exactly one common neighbour",
+    "tested_inequality": "|E| <= D + 2*S"
+  },
+  "claim_scope": "exhaustive falsification test; the lemmas also have direct proofs"
+}

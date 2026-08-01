@@ -1,0 +1,12 @@
+{
+  "schema": "tuza-order-11-puleo-residual-union-v1",
+  "canonical_input_records": {
+    "family_a.g6": 1850130,
+    "family_b.g6": 4686848,
+    "family_c.g6": 10485760,
+    "family_d.g6": 51480
+  },
+  "union_records": 2174357,
+  "union_sha256": "5997409f26372eea577b7a6bec6b94e3f26282ba7ba5473ae9f54ab69ad98889",
+  "order": "ordinal graph6"
+}

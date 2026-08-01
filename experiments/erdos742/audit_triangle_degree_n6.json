@@ -1,0 +1,13 @@
+{
+  "n": 6,
+  "source_sha256": "91d0cea090decf6652a680c34efd05acde6951d318dcbd892dc532f78fc48bc9",
+  "assignments": 32768,
+  "cnf_accepted": 2,
+  "degree_order": true,
+  "fix_triangle": true,
+  "no_dominating_edge": false,
+  "min_edges": null,
+  "max_edges": null,
+  "mismatches": [],
+  "pass": true
+}

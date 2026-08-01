@@ -1,0 +1,12 @@
+{
+  "n": 10,
+  "edges": [
+    [0, 1], [0, 4], [0, 5], [1, 2], [1, 3], [1, 7],
+    [2, 5], [2, 6], [3, 6], [3, 8], [3, 9], [4, 5],
+    [4, 6], [4, 7], [5, 7], [5, 8], [5, 9]
+  ],
+  "maximum_cut_side_containing_zero": [0, 2, 6, 7, 8, 9],
+  "maximum_cut_size": 14,
+  "unmatchable_internal_edge": [2, 6],
+  "falsified_claim": "some maximum cut admits a matching from all internal edges to cross nonedges having a unique common neighbour incident with that internal edge"
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "erdos128-order16-cross-lrat-certificates-v1",
+  "generated_utc_date": "2026-08-01",
+  "cases": [
+    {
+      "cross_degree": 1,
+      "cnf_variables": 1703084,
+      "cnf_clauses": 3212091,
+      "cnf_bytes": 64881959,
+      "cnf_sha256": "1c7318ff62724cbc69eeec406a27f79572e3854702af69c1370c8743983fedf5",
+      "drat_bytes": 13249374,
+      "drat_sha256": "3f69b459e628c67fe0b7e4af18f4ec8f99b152e37ec4b507bb3279896b11d4b7",
+      "lrat_bytes": 24705572,
+      "lrat_sha256": "6d5d7639a19f864f9db49526726a1343e1596dab7e847dd997c02b723df36d97",
+      "compressed_lrat": "erdos128_n16_d1.lrat.zst",
+      "compressed_bytes": 816440,
+      "compressed_sha256": "ecb20dc728f28fd3cd1a496bba89537cefd468aecd8abe31cd018e499132b8a8"
+    },
+    {
+      "cross_degree": 2,
+      "cnf_variables": 1703164,
+      "cnf_clauses": 3212221,
+      "cnf_bytes": 64884508,
+      "cnf_sha256": "74a6d906a39f8f7b845eb5478c9ba33b285369d044770181a14f1701b9e1109d",
+      "drat_bytes": 13012693,
+      "drat_sha256": "0b59f39f237d54af43c74e9fd52cf6a9863142e012298e83f11370bfdd2a7207",
+      "lrat_bytes": 24774296,
+      "lrat_sha256": "7fb7a857212817cd7722371a0218d7210194535a36cadd528548140e216250da",
+      "compressed_lrat": "erdos128_n16_d2.lrat.zst",
+      "compressed_bytes": 402891,
+      "compressed_sha256": "cf008fddee23429dc35692e59945112f189c98d46e8df2a5e71c1c3c01390c02"
+    },
+    {
+      "cross_degree": 3,
+      "cnf_variables": 1703174,
+      "cnf_clauses": 3212261,
+      "cnf_bytes": 64885197,
+      "cnf_sha256": "f0da7d0f65d2da43e68a75a468b313e6ca242979084d4b7c1febd128322c1e09",
+      "drat_bytes": 896522879,
+      "drat_sha256": "9f9f1822cf7664e68a15621619e3ca734b990649c02727042516081dafd9ae10",
+      "lrat_bytes": 132721364,
+      "lrat_sha256": "d6249fa72a2fe2fef350edbe1d91fd1251df5e358596cde05b96153041bfbd0a",
+      "compressed_lrat": "erdos128_n16_d3.lrat.zst",
+      "compressed_bytes": 23605830,
+      "compressed_sha256": "77e4da03b445abe2cd32eda97eefc4b5e32c7c60bf0c0fd53a0d20bb2cedf887"
+    }
+  ],
+  "proof_tools": {
+    "cadical_commit": "146207318796f094dcded87349a64f0c6927309e",
+    "cadical_sha256": "0ffcd0bb1265203c8744b677dcd8d37185d24cbe00f723d53f2431ade02d0750",
+    "drat_trim_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "drat_trim_sha256": "fe99e01a4990e34789c61a17966a5c13bcdea5eb4c6fbf94f06d55b4718d0b2d",
+    "lrat_check_sha256": "8a5c1bde335526ac3778cc25ab6174ca2374659adb5df4a5cd5ddabce5b0f5d9"
+  },
+  "scope": "Certificate-backed finite exclusion at order 16, conditional on the documented Ramsey-catalogue completeness and reduction; not a proof of Erdos problem 128 at all orders."
+}

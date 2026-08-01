@@ -14,11 +14,13 @@ original mathematical problem.
 
 - **Erdős #64:** counterexample-first search for minimum-degree-three graphs without
   power-of-two cycles, currently focused beyond the reported public order-31 frontier.
-- **Erdős #128:** exact finite census of the triangle-free sparse-half condition, with a
-  symmetry-broken order-16 SAT experiment in progress and a proof-producing
-  DRAT/LRAT contingency prepared.
-- **Erdős #167:** exact independently replayed exclusion through order 10 for Tuza's
-  triangle covering/packing conjecture; this is a bounded result only.
+- **Erdős #128:** exact finite census of the triangle-free sparse-half condition. Two
+  independent native-cardinality encodings exclude the three remaining order-16 cases
+  conditional on the Ramsey catalogue and reduction; retained LRAT certificates for all
+  three cases pass a separate checker.  This remains a bounded result only.
+- **Erdős #167:** exact independently replayed exclusion through order 11 for Tuza's
+  triangle covering/packing conjecture, conditional on Puleo's reduction and nauty
+  catalogue completeness; this is a bounded result only.
 - **Erdős #196:** an audited negative Rethlas attempt on monotone four-term progressions in
   permutations of the naturals; no proof, counterexample, or verified blueprint resulted.
 - **Erdős #366:** exact exclusion of the restricted families `n+1=x^3` and
@@ -26,9 +28,12 @@ original mathematical problem.
 - **Erdős #488:** attack the density-doubling inequality for unions of multiples.
 - **Erdős #699:** faithful Lean reductions for common prime divisors of binomial
   coefficients.
-- **Erdős #982:** the cyclic-polygon direction is retired by an elementary
-  two-circle-intersection proof; a noncyclic exact search excludes integer octagons
-  through span 7 and gives an infinite rational equality family, but no counterexample.
+- **Erdős #742:** candidate-first order-25 SAT searches for a Murty--Simon
+  counterexample, backed by an independent definition-level checker; no candidate or
+  certified UNSAT result has been found.
+- **Erdős #982:** two unconditional arguments exclude all `D2`-symmetric octagons and
+  all alternating two-radius dihedral polygons; independent exact searches found no
+  counterexample, and the general problem remains open.
 
 The earlier #617 `r = 5` campaign is stopped and retained only as an explicitly
 superseded audit. A 24 July 2026 Zenodo preprint records Robert Sneiderman's proof and
@@ -39,10 +44,11 @@ The source programs and retained search logs live in [`experiments/`](experiment
 are provisional until independently checked and summarized in the research notes.
 
 The strongest new bounded result in this wave is documented in
-[`experiments/erdos167_order10/`](experiments/erdos167_order10/): the complete
-12,005,168-class order-10 graph catalogue reduces to 4,769 exact cases, all of
-which satisfy Tuza's inequality under independent optimization replays. This
-does not resolve the universal conjecture.
+[`experiments/erdos167_order11/`](experiments/erdos167_order11/): Puleo's
+published maximum-average-degree theorem reduces the order-11 case to a
+2,174,357-class complement residual. Two independent packing/cover witness
+screens close every class, and two nauty versions reproduce the exact residual.
+This does not resolve the universal conjecture.
 
 The active portfolio is deliberately counterexample-first when the conjecture is finitely
 falsifiable. A candidate is promoted only after an independent exact checker accepts a small
