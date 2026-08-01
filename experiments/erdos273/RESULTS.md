@@ -113,7 +113,11 @@ In particular:
 * `L = 100,800` has `D(L) = 11,201/11,200` and
   `epsilon = 1/11,200`, so it is impossible.
 
-The `L = 100,800` CNF was also independently reported UNSAT by CaDiCaL:
+Both CNFs were also independently reported UNSAT by CaDiCaL.  For
+`L = 65,520`, the run used 490,655 clauses and 281,859 variables after
+auxiliary variables, returning UNSAT in 64.205 seconds including 63.659
+seconds of encoding time (`cdcl_cuts_65520.log`).  For `L = 100,800`, the
+run used
 2,858,994 clauses, 442,202 variables after auxiliary variables, 11 conflicts,
 and 189.289 seconds including 187.478 seconds of encoding time.  The exact
 run is in `cdcl_cuts_100800.log`; the elementary proof above does not depend
