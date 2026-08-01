@@ -1,0 +1,4 @@
+*.exe
+__pycache__/
+*_hits*.txt
+*_4e9*.log

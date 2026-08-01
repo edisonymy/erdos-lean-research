@@ -15,7 +15,8 @@ original mathematical problem.
 - **Erdős #128:** exact finite census of the triangle-free sparse-half condition.
 - **Erdős #196:** construction/reduction search for monotone four-term progressions in
   permutations of the naturals.
-- **Erdős #366:** exact restricted searches for a 2-full/3-full consecutive pair.
+- **Erdős #366:** exact exclusion of the restricted families `n+1=x^3` and
+  `n+1=x^4` for `2 <= x <= 2^32-1`; no unrestricted witness or proof.
 - **Erdős #488:** attack the density-doubling inequality for unions of multiples.
 - **Erdős #699:** faithful Lean reductions for common prime divisors of binomial
   coefficients.

@@ -1,0 +1,2 @@
+﻿power=3 xmax=4294967295 seed=366 canonical_powerful_count=140008 candidates_checked=185335 hits=0 elapsed_seconds=36.527
+This exhausts only n+1=x^3, with x<=4294967295.
