@@ -1,0 +1,258 @@
+{
+  "problem": "Erdos 982, n=8",
+  "exact": true,
+  "scope": "all integer 8-point configurations whose larger coordinate span is at most 7, up to translation and coordinate-axis interchange",
+  "normalization": "min x=min y=0; max x=side\u003E=max y; sides 2..max_side",
+  "threshold": 4,
+  "threads": 16,
+  "elapsed_seconds": 305.2579968,
+  "found_counterexample": false,
+  "sides": [
+    {
+      "side": 2,
+      "normalized_subsets": 9,
+      "strictly_convex": 0,
+      "noncocircular": 0,
+      "maximum_histogram": [],
+      "best_maximum": 8,
+      "best_margin": 4,
+      "best_polygon": null,
+      "counterexample": null
+    },
+    {
+      "side": 3,
+      "normalized_subsets": 11404,
+      "strictly_convex": 1,
+      "noncocircular": 0,
+      "maximum_histogram": [],
+      "best_maximum": 8,
+      "best_margin": 4,
+      "best_polygon": null,
+      "counterexample": null
+    },
+    {
+      "side": 4,
+      "normalized_subsets": 735345,
+      "strictly_convex": 294,
+      "noncocircular": 293,
+      "maximum_histogram": [
+        {
+          "maximum": 6,
+          "count": 12
+        },
+        {
+          "maximum": 7,
+          "count": 281
+        }
+      ],
+      "best_maximum": 6,
+      "best_margin": 2,
+      "best_polygon": [
+        {
+          "X": 0,
+          "Y": 3
+        },
+        {
+          "X": 1,
+          "Y": 1
+        },
+        {
+          "X": 2,
+          "Y": 0
+        },
+        {
+          "X": 3,
+          "Y": 0
+        },
+        {
+          "X": 4,
+          "Y": 2
+        },
+        {
+          "X": 4,
+          "Y": 3
+        },
+        {
+          "X": 2,
+          "Y": 4
+        },
+        {
+          "X": 0,
+          "Y": 4
+        }
+      ],
+      "counterexample": null
+    },
+    {
+      "side": 5,
+      "normalized_subsets": 15474216,
+      "strictly_convex": 14386,
+      "noncocircular": 14384,
+      "maximum_histogram": [
+        {
+          "maximum": 6,
+          "count": 173
+        },
+        {
+          "maximum": 7,
+          "count": 14211
+        }
+      ],
+      "best_maximum": 6,
+      "best_margin": 2,
+      "best_polygon": [
+        {
+          "X": 0,
+          "Y": 4
+        },
+        {
+          "X": 1,
+          "Y": 1
+        },
+        {
+          "X": 2,
+          "Y": 0
+        },
+        {
+          "X": 5,
+          "Y": 0
+        },
+        {
+          "X": 5,
+          "Y": 1
+        },
+        {
+          "X": 4,
+          "Y": 4
+        },
+        {
+          "X": 3,
+          "Y": 5
+        },
+        {
+          "X": 0,
+          "Y": 5
+        }
+      ],
+      "counterexample": null
+    },
+    {
+      "side": 6,
+      "normalized_subsets": 175091086,
+      "strictly_convex": 268902,
+      "noncocircular": 268896,
+      "maximum_histogram": [
+        {
+          "maximum": 4,
+          "count": 1
+        },
+        {
+          "maximum": 5,
+          "count": 4
+        },
+        {
+          "maximum": 6,
+          "count": 650
+        },
+        {
+          "maximum": 7,
+          "count": 268241
+        }
+      ],
+      "best_maximum": 4,
+      "best_margin": 0,
+      "best_polygon": [
+        {
+          "X": 0,
+          "Y": 3
+        },
+        {
+          "X": 1,
+          "Y": 1
+        },
+        {
+          "X": 3,
+          "Y": 0
+        },
+        {
+          "X": 5,
+          "Y": 1
+        },
+        {
+          "X": 6,
+          "Y": 3
+        },
+        {
+          "X": 5,
+          "Y": 5
+        },
+        {
+          "X": 3,
+          "Y": 6
+        },
+        {
+          "X": 1,
+          "Y": 5
+        }
+      ],
+      "counterexample": null
+    },
+    {
+      "side": 7,
+      "normalized_subsets": 1325958084,
+      "strictly_convex": 2773169,
+      "noncocircular": 2772761,
+      "maximum_histogram": [
+        {
+          "maximum": 5,
+          "count": 6
+        },
+        {
+          "maximum": 6,
+          "count": 962
+        },
+        {
+          "maximum": 7,
+          "count": 2771793
+        }
+      ],
+      "best_maximum": 5,
+      "best_margin": 1,
+      "best_polygon": [
+        {
+          "X": 0,
+          "Y": 7
+        },
+        {
+          "X": 1,
+          "Y": 3
+        },
+        {
+          "X": 2,
+          "Y": 1
+        },
+        {
+          "X": 4,
+          "Y": 0
+        },
+        {
+          "X": 6,
+          "Y": 1
+        },
+        {
+          "X": 7,
+          "Y": 3
+        },
+        {
+          "X": 6,
+          "Y": 5
+        },
+        {
+          "X": 4,
+          "Y": 6
+        }
+      ],
+      "counterexample": null
+    }
+  ]
+}

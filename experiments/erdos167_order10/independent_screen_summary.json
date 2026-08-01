@@ -1,0 +1,8 @@
+{
+  "schema": "tuza-order-10-independent-node-screen-v1",
+  "catalogue_records": 12005168,
+  "residual_records": 4769,
+  "catalogue_compressed_sha256": "a16f47a95e3e174f4b08042fec95dce8b67712b0e465b5097ffd9334dde2faf8",
+  "catalogue_uncompressed_sha256": "923cabf28082cba3ee296251d23eee21b32056b36cf4952e42958d468357df36",
+  "residual_graph6_sha256": "a91c1ad52596a676edae8ff67fcd08490d6da80d757e3d92ebc13c529fafd130"
+}

@@ -1,0 +1,413 @@
+{
+  "source": "experiments\\erdos982\\lattice8_span7.json",
+  "verified_results": [
+    {
+      "n": 8,
+      "strictly_convex_counterclockwise": true,
+      "minimum_edge_vertex_determinant": 1,
+      "distinct_squared_distance_counts": [
+        6,
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "maximum": 6,
+      "threshold": 4,
+      "margin": 2,
+      "counterexample": false,
+      "cocircular": false,
+      "circle_determinants": [
+        6,
+        24,
+        28,
+        20,
+        2
+      ],
+      "sorted_squared_distances": [
+        [
+          1,
+          5,
+          5,
+          13,
+          16,
+          17,
+          18
+        ],
+        [
+          2,
+          5,
+          5,
+          10,
+          10,
+          10,
+          13
+        ],
+        [
+          1,
+          2,
+          8,
+          13,
+          13,
+          16,
+          20
+        ],
+        [
+          1,
+          5,
+          5,
+          10,
+          17,
+          18,
+          25
+        ],
+        [
+          1,
+          5,
+          8,
+          8,
+          10,
+          17,
+          20
+        ],
+        [
+          1,
+          5,
+          10,
+          13,
+          13,
+          16,
+          17
+        ],
+        [
+          4,
+          5,
+          5,
+          8,
+          10,
+          16,
+          17
+        ],
+        [
+          1,
+          4,
+          10,
+          17,
+          20,
+          20,
+          25
+        ]
+      ],
+      "coordinate_span": 4
+    },
+    {
+      "n": 8,
+      "strictly_convex_counterclockwise": true,
+      "minimum_edge_vertex_determinant": 1,
+      "distinct_squared_distance_counts": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "maximum": 6,
+      "threshold": 4,
+      "margin": 2,
+      "counterexample": false,
+      "cocircular": false,
+      "circle_determinants": [
+        18,
+        32,
+        48,
+        40,
+        -2
+      ],
+      "sorted_squared_distances": [
+        [
+          1,
+          10,
+          10,
+          16,
+          20,
+          34,
+          41
+        ],
+        [
+          2,
+          10,
+          16,
+          17,
+          17,
+          18,
+          20
+        ],
+        [
+          2,
+          9,
+          10,
+          20,
+          20,
+          26,
+          29
+        ],
+        [
+          1,
+          9,
+          17,
+          17,
+          29,
+          41,
+          50
+        ],
+        [
+          1,
+          10,
+          10,
+          16,
+          20,
+          34,
+          41
+        ],
+        [
+          2,
+          10,
+          16,
+          17,
+          17,
+          18,
+          20
+        ],
+        [
+          2,
+          9,
+          10,
+          20,
+          20,
+          26,
+          29
+        ],
+        [
+          1,
+          9,
+          17,
+          17,
+          29,
+          41,
+          50
+        ]
+      ],
+      "coordinate_span": 5
+    },
+    {
+      "n": 8,
+      "strictly_convex_counterclockwise": true,
+      "minimum_edge_vertex_determinant": 3,
+      "distinct_squared_distance_counts": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "maximum": 4,
+      "threshold": 4,
+      "margin": 0,
+      "counterexample": false,
+      "cocircular": false,
+      "circle_determinants": [
+        12,
+        18,
+        24,
+        18,
+        12
+      ],
+      "sorted_squared_distances": [
+        [
+          5,
+          5,
+          18,
+          18,
+          29,
+          29,
+          36
+        ],
+        [
+          5,
+          5,
+          16,
+          16,
+          29,
+          29,
+          32
+        ],
+        [
+          5,
+          5,
+          18,
+          18,
+          29,
+          29,
+          36
+        ],
+        [
+          5,
+          5,
+          16,
+          16,
+          29,
+          29,
+          32
+        ],
+        [
+          5,
+          5,
+          18,
+          18,
+          29,
+          29,
+          36
+        ],
+        [
+          5,
+          5,
+          16,
+          16,
+          29,
+          29,
+          32
+        ],
+        [
+          5,
+          5,
+          18,
+          18,
+          29,
+          29,
+          36
+        ],
+        [
+          5,
+          5,
+          16,
+          16,
+          29,
+          29,
+          32
+        ]
+      ],
+      "coordinate_span": 6
+    },
+    {
+      "n": 8,
+      "strictly_convex_counterclockwise": true,
+      "minimum_edge_vertex_determinant": 2,
+      "distinct_squared_distance_counts": [
+        4,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5
+      ],
+      "maximum": 5,
+      "threshold": 4,
+      "margin": 1,
+      "counterexample": false,
+      "cocircular": false,
+      "circle_determinants": [
+        60,
+        168,
+        252,
+        256,
+        192
+      ],
+      "sorted_squared_distances": [
+        [
+          17,
+          17,
+          40,
+          40,
+          65,
+          65,
+          72
+        ],
+        [
+          5,
+          17,
+          18,
+          18,
+          29,
+          29,
+          36
+        ],
+        [
+          5,
+          5,
+          16,
+          29,
+          29,
+          32,
+          40
+        ],
+        [
+          5,
+          5,
+          18,
+          18,
+          29,
+          36,
+          65
+        ],
+        [
+          5,
+          5,
+          16,
+          16,
+          29,
+          29,
+          72
+        ],
+        [
+          5,
+          5,
+          18,
+          18,
+          29,
+          36,
+          65
+        ],
+        [
+          5,
+          5,
+          16,
+          29,
+          29,
+          32,
+          40
+        ],
+        [
+          5,
+          17,
+          18,
+          18,
+          29,
+          29,
+          36
+        ]
+      ],
+      "coordinate_span": 7
+    }
+  ]
+}

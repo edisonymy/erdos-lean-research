@@ -135,6 +135,27 @@ python experiments/erdos128/check_g6_family.py experiments/erdos128/r36_15.g6.gz
 The separate `checker.py` validates any concrete edge-list counterexample
 emitted by the exploratory SAT scripts.  No such edge list was found.
 
+## Order-16 SAT experiment and proof contingency
+
+At `n=16`, Razborov gives `alpha(G) <= 6` for a counterexample, while the
+complete `(3,6,16)` catalogue exclusion above rules out `alpha(G) <= 5`.
+Conditional on that catalogue's completeness, any remaining counterexample has
+`alpha(G)=6`; relabelling one independent six-set to vertices `0..5` is
+therefore lossless. `cnf_search.py` now supports this symmetry with
+`--fix-independent-size 6` and supports deterministic DIMACS generation with
+`--build-only`.
+
+A direct MapleSAT search of this remaining case was launched on 2026-08-01 and
+had not terminated when this note was updated. It has 1,698,960 variables and
+3,203,775 clauses. No SAT or UNSAT result is claimed from the running process.
+
+`PROOF_PIPELINE.md` documents a pinned CaDiCaL-to-DRAT-to-LRAT contingency.
+The small known-UNSAT `n=8` smoke case produced byte-identical artifacts on
+repeat runs and was accepted independently by `drat-trim` and `lrat-check`.
+The order-16 proof run was deliberately not launched: it would compete with
+the active search, and every available volume was below the wrapper's 50 GB
+free-space safety floor. Even that floor is not a proof-size guarantee.
+
 ## What is and is not certified
 
 Certified by the local checker:
@@ -156,9 +177,11 @@ Not certified or claimed:
 - a proof or disproof for arbitrary `n`;
 - a Lean proof of the finite exclusion;
 - novelty of the `n <= 15` synthesis;
-- any result from the direct Z3/CNF encodings.  Those exploratory encodings
-  timed out on small UNSAT cases and produced no independently checked UNSAT
-  proof, so they are not used in the result above.
+- any order-16 result from the active direct CNF search;
+- any theorem-level conclusion from the proof pipeline's `n=8` smoke test.
+  Its two native proof checkers share one upstream repository and are not
+  formally verified; a future order-16 UNSAT claim should also use a formally
+  verified LRAT checker such as CakeML `cake_lpr`.
 
 The computation is therefore a rigorous, reproducible attack artifact with a
 clear trust boundary, but it does not solve Erdős Problem 128.

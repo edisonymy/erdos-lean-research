@@ -1,0 +1,21 @@
+{
+  "catalogue_records": 12005168,
+  "catalogue_uncompressed_sha256": "923cabf28082cba3ee296251d23eee21b32056b36cf4952e42958d468357df36",
+  "family_bit_counts": {
+    "1": 3710,
+    "2": 142,
+    "3": 743,
+    "4": 36,
+    "5": 4,
+    "6": 14,
+    "7": 120
+  },
+  "family_bits": {
+    "1": "complement has at most 10 edges",
+    "2": "delete one complement vertex and at most 4 edges remain",
+    "4": "two complement vertices cover every complement edge"
+  },
+  "residual_graph6_sha256": "a91c1ad52596a676edae8ff67fcd08490d6da80d757e3d92ebc13c529fafd130",
+  "residual_records": 4769,
+  "schema": "tuza-order-10-puleo-residual-screen-v1"
+}

@@ -12,14 +12,23 @@ original mathematical problem.
 
 ## Current campaigns
 
-- **Erdős #128:** exact finite census of the triangle-free sparse-half condition.
-- **Erdős #196:** construction/reduction search for monotone four-term progressions in
-  permutations of the naturals.
+- **Erdős #64:** counterexample-first search for minimum-degree-three graphs without
+  power-of-two cycles, currently focused beyond the reported public order-31 frontier.
+- **Erdős #128:** exact finite census of the triangle-free sparse-half condition, with a
+  symmetry-broken order-16 SAT experiment in progress and a proof-producing
+  DRAT/LRAT contingency prepared.
+- **Erdős #167:** exact independently replayed exclusion through order 10 for Tuza's
+  triangle covering/packing conjecture; this is a bounded result only.
+- **Erdős #196:** an audited negative Rethlas attempt on monotone four-term progressions in
+  permutations of the naturals; no proof, counterexample, or verified blueprint resulted.
 - **Erdős #366:** exact exclusion of the restricted families `n+1=x^3` and
   `n+1=x^4` for `2 <= x <= 2^32-1`; no unrestricted witness or proof.
 - **Erdős #488:** attack the density-doubling inequality for unions of multiples.
 - **Erdős #699:** faithful Lean reductions for common prime divisors of binomial
   coefficients.
+- **Erdős #982:** the cyclic-polygon direction is retired by an elementary
+  two-circle-intersection proof; a noncyclic exact search excludes integer octagons
+  through span 7 and gives an infinite rational equality family, but no counterexample.
 
 The earlier #617 `r = 5` campaign is stopped and retained only as an explicitly
 superseded audit. A 24 July 2026 Zenodo preprint records Robert Sneiderman's proof and
@@ -28,6 +37,17 @@ problem remains open. See [`research/recency-audit.md`](research/recency-audit.m
 
 The source programs and retained search logs live in [`experiments/`](experiments/). Results
 are provisional until independently checked and summarized in the research notes.
+
+The strongest new bounded result in this wave is documented in
+[`experiments/erdos167_order10/`](experiments/erdos167_order10/): the complete
+12,005,168-class order-10 graph catalogue reduces to 4,769 exact cases, all of
+which satisfy Tuza's inequality under independent optimization replays. This
+does not resolve the universal conjecture.
+
+The active portfolio is deliberately counterexample-first when the conjecture is finitely
+falsifiable. A candidate is promoted only after an independent exact checker accepts a small
+certificate, the formal statement is audited, and the announcement-level recency search is
+repeated. Solver output without a checkable proof or witness remains exploratory evidence.
 
 ## Pinned upstream inputs
 

@@ -1,0 +1,3 @@
+# The order-10 certificate manifest hashes exact bytes; keep its tracked
+# text artifacts byte-stable on Windows as well as Unix.
+experiments/erdos167_order10/** text eol=lf

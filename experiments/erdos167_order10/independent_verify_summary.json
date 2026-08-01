@@ -1,0 +1,12 @@
+{
+  "cover_decision_searches": 3920,
+  "elapsed_seconds": 111.866699,
+  "mantel_closed_covers": 849,
+  "maximum_gap": -4,
+  "packing_decision_searches": 116,
+  "parity_closed_packings": 4653,
+  "records": 4769,
+  "records_sha256": "f57a18bcb2c8c7b821f85f73e02ad768b352416fa17ff4e8fe694ad6dd40c047",
+  "schema": "tuza-order-10-independent-verifier-v1",
+  "violations": 0
+}
