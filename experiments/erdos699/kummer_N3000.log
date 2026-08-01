@@ -1,0 +1,21 @@
+checked n=250 pairs=643250
+checked n=500 pairs=5177125
+checked n=750 pairs=17507875
+checked n=1000 pairs=41541750
+checked n=1250 pairs=81185000
+checked n=1500 pairs=140343875
+checked n=1750 pairs=222924625
+checked n=2000 pairs=332833500
+checked n=2250 pairs=473976750
+checked n=2500 pairs=650260625
+checked n=2750 pairs=865591375
+checked n=3000 pairs=1123875250
+CERT max_n=3000 pairs=1123875250 weak_counterexamples=0 strong_exceptions=8 elapsed_seconds=69.5971
+STRONG_EXCEPTION 10 3 5
+STRONG_EXCEPTION 16 2 6
+STRONG_EXCEPTION 28 3 14
+STRONG_EXCEPTION 28 5 14
+STRONG_EXCEPTION 244 3 122
+STRONG_EXCEPTION 512 2 147
+STRONG_EXCEPTION 2048 2 713
+STRONG_EXCEPTION 2188 3 1094

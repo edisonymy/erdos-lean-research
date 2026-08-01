@@ -1,0 +1,6 @@
+tmp/
+*.pdf
+*.exe
+*.obj
+erdos-szekeres-1978.txt
+kummer_N1000.log
