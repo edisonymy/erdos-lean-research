@@ -12,3 +12,6 @@ experiments/erdos128/cross_certificates/*.zst binary
 # The #982 integrity manifest hashes exact bytes; keep its text artifacts
 # stable across Windows and Unix checkouts.
 experiments/erdos982/** text eol=lf
+
+# The analytic #128 bridge ships a byte-level SHA-256 manifest.
+research/full_solution_bridges/** text eol=lf
