@@ -1,0 +1,6 @@
+iteration=1 result=True clauses_added=0 elapsed=0.016 stats={'restarts': 1, 'conflicts': 0, 'decisions': 57, 'propagations': 5682}
+iteration=1 violations=796
+iteration=2 result=True clauses_added=796 elapsed=0.953 stats={'restarts': 21, 'conflicts': 7679, 'decisions': 12591, 'propagations': 2739082}
+iteration=2 violations=4600
+iteration=3 result=False clauses_added=5396 elapsed=103.406 stats={'restarts': 2457, 'conflicts': 1011075, 'decisions': 1364276, 'propagations': 285954000}
+UNSAT

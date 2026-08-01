@@ -1,0 +1,3 @@
+iteration=1 violations=29388 new_clauses=27202 total_clauses=27202 elapsed=0.500
+iteration=2 violations=9402 new_clauses=9000 total_clauses=36202 elapsed=0.844
+iteration=3 violations=12979 new_clauses=12119 total_clauses=48321 elapsed=1.390

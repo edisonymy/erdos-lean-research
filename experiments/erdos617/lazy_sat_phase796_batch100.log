@@ -1,0 +1,170 @@
+iteration=1 result=True clauses_added=0 elapsed=0.016 stats={'restarts': 1, 'conflicts': 0, 'decisions': 942, 'propagations': 1626}
+iteration=1 violations=796
+iteration=2 result=True clauses_added=100 elapsed=0.625 stats={'restarts': 2, 'conflicts': 2, 'decisions': 1809, 'propagations': 3260}
+iteration=2 violations=9389
+iteration=3 result=True clauses_added=200 elapsed=1.250 stats={'restarts': 3, 'conflicts': 3, 'decisions': 2640, 'propagations': 4947}
+iteration=3 violations=15215
+iteration=4 result=True clauses_added=300 elapsed=1.922 stats={'restarts': 4, 'conflicts': 6, 'decisions': 3453, 'propagations': 6626}
+iteration=4 violations=17863
+iteration=5 result=True clauses_added=400 elapsed=2.641 stats={'restarts': 5, 'conflicts': 10, 'decisions': 4262, 'propagations': 8301}
+iteration=5 violations=18067
+iteration=6 result=True clauses_added=500 elapsed=3.266 stats={'restarts': 6, 'conflicts': 11, 'decisions': 5106, 'propagations': 9999}
+iteration=6 violations=21829
+iteration=7 result=True clauses_added=600 elapsed=3.875 stats={'restarts': 7, 'conflicts': 11, 'decisions': 5899, 'propagations': 11625}
+iteration=7 violations=23170
+iteration=8 result=True clauses_added=700 elapsed=4.453 stats={'restarts': 8, 'conflicts': 14, 'decisions': 6766, 'propagations': 13589}
+iteration=8 violations=25811
+iteration=9 result=True clauses_added=800 elapsed=5.078 stats={'restarts': 9, 'conflicts': 15, 'decisions': 7564, 'propagations': 15266}
+iteration=9 violations=24970
+iteration=10 result=True clauses_added=900 elapsed=5.703 stats={'restarts': 10, 'conflicts': 19, 'decisions': 8446, 'propagations': 17119}
+iteration=10 violations=24023
+iteration=11 result=True clauses_added=1000 elapsed=6.281 stats={'restarts': 11, 'conflicts': 21, 'decisions': 9279, 'propagations': 18756}
+iteration=11 violations=26322
+iteration=12 result=True clauses_added=1100 elapsed=6.906 stats={'restarts': 12, 'conflicts': 22, 'decisions': 10144, 'propagations': 20382}
+iteration=12 violations=24400
+iteration=13 result=True clauses_added=1200 elapsed=7.500 stats={'restarts': 13, 'conflicts': 22, 'decisions': 10973, 'propagations': 22008}
+iteration=13 violations=22906
+iteration=14 result=True clauses_added=1300 elapsed=8.125 stats={'restarts': 14, 'conflicts': 25, 'decisions': 11790, 'propagations': 23753}
+iteration=14 violations=26244
+iteration=15 result=True clauses_added=1400 elapsed=8.797 stats={'restarts': 15, 'conflicts': 26, 'decisions': 12591, 'propagations': 25445}
+iteration=15 violations=25280
+iteration=16 result=True clauses_added=1500 elapsed=9.359 stats={'restarts': 16, 'conflicts': 30, 'decisions': 13389, 'propagations': 27211}
+iteration=16 violations=25831
+iteration=17 result=True clauses_added=1600 elapsed=9.969 stats={'restarts': 17, 'conflicts': 43, 'decisions': 14207, 'propagations': 29379}
+iteration=17 violations=22826
+iteration=18 result=True clauses_added=1700 elapsed=10.594 stats={'restarts': 18, 'conflicts': 45, 'decisions': 15069, 'propagations': 31140}
+iteration=18 violations=23250
+iteration=19 result=True clauses_added=1800 elapsed=11.172 stats={'restarts': 19, 'conflicts': 53, 'decisions': 15883, 'propagations': 33176}
+iteration=19 violations=25483
+iteration=20 result=True clauses_added=1900 elapsed=11.766 stats={'restarts': 20, 'conflicts': 56, 'decisions': 16702, 'propagations': 34973}
+iteration=20 violations=25185
+iteration=21 result=True clauses_added=2000 elapsed=12.375 stats={'restarts': 21, 'conflicts': 63, 'decisions': 17505, 'propagations': 37024}
+iteration=21 violations=24780
+iteration=22 result=True clauses_added=2100 elapsed=12.922 stats={'restarts': 22, 'conflicts': 65, 'decisions': 18321, 'propagations': 38688}
+iteration=22 violations=25145
+iteration=23 result=True clauses_added=2200 elapsed=13.531 stats={'restarts': 23, 'conflicts': 76, 'decisions': 19116, 'propagations': 40886}
+iteration=23 violations=28090
+iteration=24 result=True clauses_added=2300 elapsed=14.109 stats={'restarts': 24, 'conflicts': 81, 'decisions': 19932, 'propagations': 42633}
+iteration=24 violations=23653
+iteration=25 result=True clauses_added=2400 elapsed=14.656 stats={'restarts': 26, 'conflicts': 90, 'decisions': 21616, 'propagations': 46209}
+iteration=25 violations=24617
+iteration=26 result=True clauses_added=2500 elapsed=15.250 stats={'restarts': 27, 'conflicts': 92, 'decisions': 22418, 'propagations': 47853}
+iteration=26 violations=22545
+iteration=27 result=True clauses_added=2600 elapsed=15.812 stats={'restarts': 28, 'conflicts': 104, 'decisions': 23206, 'propagations': 50149}
+iteration=27 violations=22649
+iteration=28 result=True clauses_added=2700 elapsed=16.391 stats={'restarts': 29, 'conflicts': 110, 'decisions': 24107, 'propagations': 51959}
+iteration=28 violations=23793
+iteration=29 result=True clauses_added=2800 elapsed=16.984 stats={'restarts': 30, 'conflicts': 111, 'decisions': 24968, 'propagations': 53713}
+iteration=29 violations=25956
+iteration=30 result=True clauses_added=2900 elapsed=17.562 stats={'restarts': 31, 'conflicts': 116, 'decisions': 25796, 'propagations': 55756}
+iteration=30 violations=24107
+iteration=31 result=True clauses_added=3000 elapsed=18.156 stats={'restarts': 32, 'conflicts': 118, 'decisions': 26591, 'propagations': 57447}
+iteration=31 violations=27029
+iteration=32 result=True clauses_added=3100 elapsed=18.766 stats={'restarts': 33, 'conflicts': 133, 'decisions': 27417, 'propagations': 59540}
+iteration=32 violations=25456
+iteration=33 result=True clauses_added=3200 elapsed=19.312 stats={'restarts': 34, 'conflicts': 147, 'decisions': 28309, 'propagations': 61908}
+iteration=33 violations=24299
+iteration=34 result=True clauses_added=3300 elapsed=19.875 stats={'restarts': 35, 'conflicts': 152, 'decisions': 29155, 'propagations': 63916}
+iteration=34 violations=23145
+iteration=35 result=True clauses_added=3400 elapsed=20.500 stats={'restarts': 36, 'conflicts': 153, 'decisions': 29958, 'propagations': 65565}
+iteration=35 violations=21485
+iteration=36 result=True clauses_added=3500 elapsed=21.047 stats={'restarts': 38, 'conflicts': 169, 'decisions': 31598, 'propagations': 69389}
+iteration=36 violations=24271
+iteration=37 result=True clauses_added=3600 elapsed=21.641 stats={'restarts': 39, 'conflicts': 183, 'decisions': 32398, 'propagations': 71459}
+iteration=37 violations=23596
+iteration=38 result=True clauses_added=3700 elapsed=22.234 stats={'restarts': 40, 'conflicts': 190, 'decisions': 33191, 'propagations': 73451}
+iteration=38 violations=24864
+iteration=39 result=True clauses_added=3800 elapsed=22.781 stats={'restarts': 41, 'conflicts': 210, 'decisions': 34031, 'propagations': 75987}
+iteration=39 violations=23575
+iteration=40 result=True clauses_added=3900 elapsed=23.344 stats={'restarts': 43, 'conflicts': 220, 'decisions': 35646, 'propagations': 79538}
+iteration=40 violations=22656
+iteration=41 result=True clauses_added=4000 elapsed=23.953 stats={'restarts': 44, 'conflicts': 252, 'decisions': 36455, 'propagations': 83326}
+iteration=41 violations=23775
+iteration=42 result=True clauses_added=4100 elapsed=24.500 stats={'restarts': 45, 'conflicts': 256, 'decisions': 37274, 'propagations': 85095}
+iteration=42 violations=23138
+iteration=43 result=True clauses_added=4200 elapsed=25.094 stats={'restarts': 46, 'conflicts': 263, 'decisions': 38095, 'propagations': 86968}
+iteration=43 violations=21820
+iteration=44 result=True clauses_added=4300 elapsed=25.719 stats={'restarts': 48, 'conflicts': 296, 'decisions': 39838, 'propagations': 91366}
+iteration=44 violations=25470
+iteration=45 result=True clauses_added=4400 elapsed=26.297 stats={'restarts': 49, 'conflicts': 312, 'decisions': 40623, 'propagations': 93986}
+iteration=45 violations=22946
+iteration=46 result=True clauses_added=4500 elapsed=26.953 stats={'restarts': 50, 'conflicts': 317, 'decisions': 41437, 'propagations': 96007}
+iteration=46 violations=25472
+iteration=47 result=True clauses_added=4600 elapsed=27.594 stats={'restarts': 51, 'conflicts': 356, 'decisions': 42301, 'propagations': 99221}
+iteration=47 violations=23917
+iteration=48 result=True clauses_added=4700 elapsed=28.203 stats={'restarts': 52, 'conflicts': 418, 'decisions': 43446, 'propagations': 104813}
+iteration=48 violations=23984
+iteration=49 result=True clauses_added=4800 elapsed=28.828 stats={'restarts': 53, 'conflicts': 442, 'decisions': 44282, 'propagations': 106878}
+iteration=49 violations=23261
+iteration=50 result=True clauses_added=4900 elapsed=29.453 stats={'restarts': 55, 'conflicts': 477, 'decisions': 45883, 'propagations': 110745}
+iteration=50 violations=26414
+iteration=51 result=True clauses_added=5000 elapsed=30.031 stats={'restarts': 57, 'conflicts': 532, 'decisions': 47460, 'propagations': 116443}
+iteration=51 violations=26093
+iteration=52 result=True clauses_added=5100 elapsed=30.641 stats={'restarts': 59, 'conflicts': 586, 'decisions': 49147, 'propagations': 121483}
+iteration=52 violations=25698
+iteration=53 result=True clauses_added=5200 elapsed=31.203 stats={'restarts': 61, 'conflicts': 636, 'decisions': 50758, 'propagations': 126929}
+iteration=53 violations=21914
+iteration=54 result=True clauses_added=5300 elapsed=31.844 stats={'restarts': 64, 'conflicts': 775, 'decisions': 53372, 'propagations': 137777}
+iteration=54 violations=25381
+iteration=55 result=True clauses_added=5400 elapsed=32.516 stats={'restarts': 66, 'conflicts': 823, 'decisions': 55004, 'propagations': 142678}
+iteration=55 violations=25781
+iteration=56 result=True clauses_added=5500 elapsed=33.125 stats={'restarts': 70, 'conflicts': 1021, 'decisions': 58230, 'propagations': 160039}
+iteration=56 violations=26113
+iteration=57 result=True clauses_added=5600 elapsed=33.687 stats={'restarts': 71, 'conflicts': 1042, 'decisions': 59004, 'propagations': 162252}
+iteration=57 violations=22064
+iteration=58 result=True clauses_added=5700 elapsed=34.266 stats={'restarts': 75, 'conflicts': 1258, 'decisions': 62689, 'propagations': 179330}
+iteration=58 violations=23365
+iteration=59 result=True clauses_added=5800 elapsed=34.844 stats={'restarts': 80, 'conflicts': 1499, 'decisions': 67132, 'propagations': 199621}
+iteration=59 violations=24396
+iteration=60 result=True clauses_added=5900 elapsed=35.422 stats={'restarts': 83, 'conflicts': 1651, 'decisions': 69899, 'propagations': 211152}
+iteration=60 violations=25108
+iteration=61 result=True clauses_added=6000 elapsed=35.984 stats={'restarts': 85, 'conflicts': 1740, 'decisions': 71654, 'propagations': 219507}
+iteration=61 violations=23934
+iteration=62 result=True clauses_added=6100 elapsed=36.578 stats={'restarts': 91, 'conflicts': 2145, 'decisions': 77295, 'propagations': 249755}
+iteration=62 violations=22638
+iteration=63 result=True clauses_added=6200 elapsed=37.141 stats={'restarts': 96, 'conflicts': 2454, 'decisions': 81735, 'propagations': 271916}
+iteration=63 violations=23802
+iteration=64 result=True clauses_added=6300 elapsed=37.750 stats={'restarts': 99, 'conflicts': 2674, 'decisions': 84667, 'propagations': 286841}
+iteration=64 violations=24795
+iteration=65 result=True clauses_added=6400 elapsed=38.406 stats={'restarts': 102, 'conflicts': 2828, 'decisions': 87290, 'propagations': 298551}
+iteration=65 violations=22121
+iteration=66 result=True clauses_added=6500 elapsed=39.016 stats={'restarts': 105, 'conflicts': 3224, 'decisions': 90670, 'propagations': 320937}
+iteration=66 violations=23537
+iteration=67 result=True clauses_added=6600 elapsed=39.625 stats={'restarts': 108, 'conflicts': 3362, 'decisions': 93254, 'propagations': 333668}
+iteration=67 violations=19545
+iteration=68 result=True clauses_added=6700 elapsed=40.203 stats={'restarts': 115, 'conflicts': 4588, 'decisions': 100199, 'propagations': 380454}
+iteration=68 violations=22058
+iteration=69 result=True clauses_added=6800 elapsed=40.844 stats={'restarts': 133, 'conflicts': 7267, 'decisions': 118561, 'propagations': 504070}
+iteration=69 violations=23803
+iteration=70 result=True clauses_added=6900 elapsed=41.547 stats={'restarts': 136, 'conflicts': 10941, 'decisions': 125263, 'propagations': 579320}
+iteration=70 violations=20518
+iteration=71 result=True clauses_added=7000 elapsed=42.203 stats={'restarts': 141, 'conflicts': 12200, 'decisions': 130775, 'propagations': 618019}
+iteration=71 violations=22252
+iteration=72 result=True clauses_added=7100 elapsed=43.062 stats={'restarts': 161, 'conflicts': 25039, 'decisions': 162635, 'propagations': 917873}
+iteration=72 violations=23186
+iteration=73 result=True clauses_added=7200 elapsed=43.672 stats={'restarts': 171, 'conflicts': 26425, 'decisions': 172381, 'propagations': 982188}
+iteration=73 violations=22052
+iteration=74 result=True clauses_added=7300 elapsed=44.391 stats={'restarts': 201, 'conflicts': 33424, 'decisions': 205487, 'propagations': 1205830}
+iteration=74 violations=22362
+iteration=75 result=True clauses_added=7400 elapsed=45.312 stats={'restarts': 244, 'conflicts': 49849, 'decisions': 259950, 'propagations': 1639031}
+iteration=75 violations=21451
+iteration=76 result=True clauses_added=7500 elapsed=47.516 stats={'restarts': 459, 'conflicts': 115815, 'decisions': 508974, 'propagations': 3532346}
+iteration=76 violations=22297
+iteration=77 result=True clauses_added=7600 elapsed=48.922 stats={'restarts': 639, 'conflicts': 146797, 'decisions': 688454, 'propagations': 4666994}
+iteration=77 violations=23010
+iteration=78 result=True clauses_added=7700 elapsed=51.516 stats={'restarts': 872, 'conflicts': 222305, 'decisions': 962478, 'propagations': 6773565}
+iteration=78 violations=22664
+iteration=79 result=True clauses_added=7800 elapsed=52.312 stats={'restarts': 891, 'conflicts': 228314, 'decisions': 984456, 'propagations': 6937741}
+iteration=79 violations=22164
+iteration=80 result=True clauses_added=7900 elapsed=54.031 stats={'restarts': 1005, 'conflicts': 263779, 'decisions': 1116942, 'propagations': 7960553}
+iteration=80 violations=19583
+iteration=81 result=True clauses_added=8000 elapsed=58.312 stats={'restarts': 1472, 'conflicts': 379154, 'decisions': 1617092, 'propagations': 11485871}
+iteration=81 violations=20612
+iteration=82 result=True clauses_added=8100 elapsed=80.219 stats={'restarts': 3910, 'conflicts': 1054397, 'decisions': 4309798, 'propagations': 31184826}
+iteration=82 violations=22039
+iteration=83 result=True clauses_added=8200 elapsed=91.109 stats={'restarts': 4920, 'conflicts': 1331452, 'decisions': 5421815, 'propagations': 39276845}
+iteration=83 violations=22202
+iteration=84 result=True clauses_added=8300 elapsed=99.734 stats={'restarts': 5695, 'conflicts': 1542766, 'decisions': 6272546, 'propagations': 45464245}
+iteration=84 violations=20307
+iteration=85 result=None clauses_added=8400 elapsed=120.031 stats={'restarts': 7252, 'conflicts': 1995176, 'decisions': 7992269, 'propagations': 58270482}
+UNKNOWN timeout

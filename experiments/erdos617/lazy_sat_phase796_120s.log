@@ -1,0 +1,12 @@
+iteration=1 result=True clauses_added=0 elapsed=0.000 stats={'restarts': 1, 'conflicts': 0, 'decisions': 942, 'propagations': 1626}
+iteration=1 violations=796
+iteration=2 result=True clauses_added=796 elapsed=0.640 stats={'restarts': 2, 'conflicts': 0, 'decisions': 1803, 'propagations': 3252}
+iteration=2 violations=11978
+iteration=3 result=True clauses_added=12774 elapsed=1.375 stats={'restarts': 3, 'conflicts': 61, 'decisions': 2661, 'propagations': 5602}
+iteration=3 violations=16095
+iteration=4 result=True clauses_added=28869 elapsed=2.156 stats={'restarts': 4, 'conflicts': 66, 'decisions': 3446, 'propagations': 7573}
+iteration=4 violations=35878
+iteration=5 result=True clauses_added=64747 elapsed=3.093 stats={'restarts': 9, 'conflicts': 1635, 'decisions': 7675, 'propagations': 47003}
+iteration=5 violations=28746
+iteration=6 result=None clauses_added=93493 elapsed=120.015 stats={'restarts': 10178, 'conflicts': 2859403, 'decisions': 7549682, 'propagations': 65682140}
+UNKNOWN timeout

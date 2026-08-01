@@ -10,10 +10,12 @@ from __future__ import annotations
 import argparse
 import itertools
 import json
+import random
 import threading
 import time
 from pathlib import Path
 
+from pysat.card import CardEnc, EncType
 from pysat.solvers import Solver
 
 
@@ -48,7 +50,19 @@ def affine_phase() -> list[int]:
     return phase
 
 
-def base_solver(name: str, symmetry: bool) -> Solver:
+def candidate_phase(path: Path) -> list[int]:
+    data = json.loads(path.read_text())
+    matrix = data["matrix"]
+    phase = []
+    for e, (u, v) in enumerate(EDGES):
+        chosen = matrix[u][v]
+        phase.extend(var(e, c) if c == chosen else -var(e, c) for c in range(COLORS))
+    return phase
+
+
+def base_solver(name: str, symmetry: bool, affine_budget: int | None,
+                phase_path: Path | None, edge_lower_bound: bool,
+                candidate_budget: int | None) -> Solver:
     solver = Solver(name=name)
     for e in range(len(EDGES)):
         solver.add_clause([var(e, c) for c in range(COLORS)])
@@ -65,7 +79,48 @@ def base_solver(name: str, symmetry: bool) -> Solver:
             for c in range(COLORS):
                 for d in range(c):
                     solver.add_clause([-var(left, c), -var(right, d)])
-    solver.set_phases(affine_phase())
+    top_id = len(EDGES) * COLORS
+    if affine_budget is not None:
+        changed_literals = []
+        for e, (u, v) in enumerate(EDGES):
+            if v == 25:
+                continue
+            x1, y1 = divmod(u, 5)
+            x2, y2 = divmod(v, 5)
+            if x1 == x2:
+                continue
+            original = ((y2 - y1) * pow((x2 - x1) % 5, -1, 5)) % 5
+            # With exactly-one colors, not(original-color) is precisely the
+            # indicator that this fixed-slope edge was changed.
+            changed_literals.append(-var(e, original))
+        cardinality = CardEnc.atmost(changed_literals, bound=affine_budget,
+                                     top_id=top_id,
+                                     encoding=EncType.seqcounter)
+        solver.append_formula(cardinality.clauses)
+        top_id = cardinality.nv
+    if candidate_budget is not None:
+        if phase_path is None:
+            raise ValueError("--candidate-budget requires --phase-candidate")
+        data = json.loads(phase_path.read_text())
+        matrix = data["matrix"]
+        changed_literals = [-var(e, matrix[u][v]) for e, (u, v) in enumerate(EDGES)]
+        cardinality = CardEnc.atmost(changed_literals, bound=candidate_budget,
+                                     top_id=top_id, encoding=EncType.seqcounter)
+        solver.append_formula(cardinality.clauses)
+        top_id = cardinality.nv
+    if edge_lower_bound:
+        # Every valid color graph G_c and its complement are K_6-free.  If
+        # e(G_c) <= 58 then the complement has at least 267 edges; Brouwer's
+        # exact Turan-stability theorem makes it 5-partite.  Its five parts
+        # are cliques of G_c, one of size at least 6, contradiction.  Hence
+        # every color has at least 59 edges.
+        for c in range(COLORS):
+            cardinality = CardEnc.atleast([var(e, c) for e in range(len(EDGES))],
+                                          bound=59, top_id=top_id,
+                                          encoding=EncType.seqcounter)
+            solver.append_formula(cardinality.clauses)
+            top_id = cardinality.nv
+    solver.set_phases(candidate_phase(phase_path) if phase_path else affine_phase())
     return solver
 
 
@@ -106,14 +161,28 @@ def main() -> None:
     parser.add_argument("--mode", choices=("lazy", "full"), default="lazy")
     parser.add_argument("--timeout", type=float, default=600.0)
     parser.add_argument("--no-symmetry", action="store_true")
+    parser.add_argument("--affine-budget", type=int,
+                        help="allow at most this many changes to the 250 nonvertical affine edges")
+    parser.add_argument("--phase-candidate", type=Path,
+                        help="prefer colors from this local-search JSON model")
+    parser.add_argument("--batch", type=int,
+                        help="in lazy mode add at most this many randomly selected violations per iteration")
+    parser.add_argument("--seed", type=int, default=617)
+    parser.add_argument("--edge-lower-bound", action="store_true")
+    parser.add_argument("--candidate-budget", type=int,
+                        help="allow at most this many edge changes from --phase-candidate")
     parser.add_argument("--output", type=Path, default=Path(__file__).with_name("full_sat_candidate.json"))
     args = parser.parse_args()
 
     start = time.monotonic()
     deadline = start + args.timeout if args.timeout > 0 else None
-    solver = base_solver(args.solver, not args.no_symmetry)
+    use_symmetry = not args.no_symmetry and args.affine_budget is None
+    solver = base_solver(args.solver, use_symmetry, args.affine_budget,
+                         args.phase_candidate, args.edge_lower_bound,
+                         args.candidate_budget)
     added = 0
     iteration = 0
+    rng = random.Random(args.seed)
 
     if args.mode == "full":
         for es in sixsets():
@@ -155,6 +224,8 @@ def main() -> None:
             return
         if args.mode == "full":
             raise RuntimeError("full encoding returned a violating model")
+        if args.batch is not None and len(violations) > args.batch:
+            violations = rng.sample(violations, args.batch)
         for es, c in violations:
             solver.add_clause([var(e, c) for e in es])
             added += 1

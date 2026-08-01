@@ -31,6 +31,7 @@ struct Search {
   array<array<int, N>, N> edge_id{};
   array<pair<int, int>, E> endpoints{};
   array<uint8_t, E> color{};
+  array<int, C> color_edges{};
   vector<array<uint8_t, C>> count;
   array<int, E> break_count{};
   array<array<int, C>, E> make_count{};
@@ -70,25 +71,33 @@ struct Search {
   int random_int(int n) { return uniform_int_distribution<int>(0, n - 1)(rng); }
   double random_real() { return uniform_real_distribution<double>(0.0, 1.0)(rng); }
 
-  void initialize(bool affine) {
+  void initialize(bool affine, bool balanced_init) {
     if (!affine) {
       for (int e = 0; e < E; ++e) color[e] = static_cast<uint8_t>(random_int(C));
     } else {
       // Standard affine plane on vertices (x,y) = divmod(v,5), with all
       // vertical and new-vertex edges randomized.
+      vector<int> flexible;
       for (int e = 0; e < E; ++e) {
         auto [u, v] = endpoints[e];
         if (v == 25) {
-          color[e] = static_cast<uint8_t>(random_int(C));
+          flexible.push_back(e);
           continue;
         }
         int x1 = u / 5, y1 = u % 5, x2 = v / 5, y2 = v % 5;
-        if (x1 == x2) color[e] = static_cast<uint8_t>(random_int(C));
+        if (x1 == x2) flexible.push_back(e);
         else {
           int dx = (x2 - x1 + 5) % 5, dy = (y2 - y1 + 5) % 5;
           static constexpr int inv[5] = {0, 1, 3, 2, 4};
           color[e] = static_cast<uint8_t>((dy * inv[dx]) % 5);
         }
+      }
+      if (balanced_init) {
+        shuffle(flexible.begin(), flexible.end(), rng);
+        for (int i = 0; i < static_cast<int>(flexible.size()); ++i)
+          color[flexible[i]] = static_cast<uint8_t>(i / 15);
+      } else {
+        for (int e : flexible) color[e] = static_cast<uint8_t>(random_int(C));
       }
     }
     rebuild();
@@ -116,6 +125,8 @@ struct Search {
     for (auto &a : make_count) a.fill(0);
     fill(bad_pos.begin(), bad_pos.end(), -1);
     bad.clear();
+    color_edges.fill(0);
+    for (int e = 0; e < E; ++e) ++color_edges[color[e]];
     fill(weight.begin(), weight.end(), 1);
     bad_cost = 0;
     for (int si = 0; si < static_cast<int>(sets.size()); ++si) {
@@ -170,6 +181,8 @@ struct Search {
       ++count[si][nc];
     }
     color[e] = static_cast<uint8_t>(nc);
+    --color_edges[oc];
+    ++color_edges[nc];
     ++steps;
   }
 
@@ -208,6 +221,9 @@ int main(int argc, char **argv) {
   double noise = 0.03;
   bool affine = true;
   bool breakout = false;
+  bool swap_moves = false;
+  bool balanced_init = false;
+  int min_edges = 0;
   string output = "candidate.json";
   for (int i = 1; i < argc; ++i) {
     string a = argv[i];
@@ -218,6 +234,9 @@ int main(int argc, char **argv) {
     else if (a == "--noise") noise = stod(need());
     else if (a == "--random-init") affine = false;
     else if (a == "--breakout") breakout = true;
+    else if (a == "--swap") swap_moves = true;
+    else if (a == "--balanced-init") balanced_init = true;
+    else if (a == "--min-edges") min_edges = stoi(need());
     else if (a == "--output") output = need();
     else { cerr << "unknown argument: " << a << "\n"; return 2; }
   }
@@ -225,14 +244,17 @@ int main(int argc, char **argv) {
   cout << "seed=" << seed << " max_steps=" << max_steps << " restarts=" << restarts
        << " noise=" << noise << " init=" << (affine ? "affine" : "random")
        << " breakout=" << breakout
+       << " swap=" << swap_moves
+       << " balanced_init=" << balanced_init << " min_edges=" << min_edges
        << " six_sets=" << s.sets.size() << "\n" << flush;
   int global_best = 1000000000;
   auto start = chrono::steady_clock::now();
   for (int r = 0; r < restarts; ++r) {
-    s.initialize(affine);
+    s.initialize(affine, balanced_init);
     int restart_best = static_cast<int>(s.bad.size());
     if (restart_best < global_best) {
       global_best = restart_best;
+      s.save_json(output, seed, r);
       cout << "best=" << global_best << " restart=" << r << " step=0\n" << flush;
     }
     for (long long step = 0; step < max_steps && !s.bad.empty(); ++step) {
@@ -243,7 +265,8 @@ int main(int argc, char **argv) {
         // Search all 1300 genuine recolorings.  A negative score strictly
         // reduces weighted violation cost.  At a local minimum, breakout
         // weights reshape the landscape before choosing again.
-        for (int e = 0; e < E; ++e) for (int c = 0; c < C; ++c) if (c != s.color[e]) {
+        for (int e = 0; e < E; ++e) for (int c = 0; c < C; ++c)
+          if (c != s.color[e] && s.color_edges[s.color[e]] > min_edges) {
           int delta = s.break_count[e] - s.make_count[e][c];
           if (delta < best_delta) { best_delta = delta; chosen = e; target = c; ties = 1; }
           else if (delta == best_delta && s.random_int(++ties) == 0) { chosen = e; target = c; }
@@ -251,7 +274,8 @@ int main(int argc, char **argv) {
         if (best_delta >= 0) {
           s.breakout_bump();
           chosen = -1; best_delta = 1000000000; ties = 0;
-          for (int e = 0; e < E; ++e) for (int c = 0; c < C; ++c) if (c != s.color[e]) {
+          for (int e = 0; e < E; ++e) for (int c = 0; c < C; ++c)
+            if (c != s.color[e] && s.color_edges[s.color[e]] > min_edges) {
             int delta = s.break_count[e] - s.make_count[e][c];
             if (delta < best_delta) { best_delta = delta; chosen = e; target = c; ties = 1; }
             else if (delta == best_delta && s.random_int(++ties) == 0) { chosen = e; target = c; }
@@ -261,26 +285,54 @@ int main(int argc, char **argv) {
           int code = s.bad[s.random_int(static_cast<int>(s.bad.size()))];
           int si = code / C;
           target = code % C;
-          chosen = s.sets[si][s.random_int(K)];
+          vector<int> eligible;
+          for (int e : s.sets[si]) if (s.color_edges[s.color[e]] > min_edges) eligible.push_back(e);
+          if (eligible.empty()) continue;
+          chosen = eligible[s.random_int(static_cast<int>(eligible.size()))];
         }
       } else {
         int code = s.bad[s.random_int(static_cast<int>(s.bad.size()))];
         int si = code / C;
         target = code % C;
-        if (random_walk) chosen = s.sets[si][s.random_int(K)];
+        if (random_walk) {
+          vector<int> eligible;
+          for (int e : s.sets[si]) if (s.color_edges[s.color[e]] > min_edges) eligible.push_back(e);
+          if (eligible.empty()) continue;
+          chosen = eligible[s.random_int(static_cast<int>(eligible.size()))];
+        }
         else {
           for (int e : s.sets[si]) {
+            if (s.color_edges[s.color[e]] <= min_edges) continue;
             int delta = s.break_count[e] - s.make_count[e][target];
             if (delta < best_delta) { best_delta = delta; chosen = e; ties = 1; }
             else if (delta == best_delta && s.random_int(++ties) == 0) chosen = e;
           }
         }
       }
-      s.move_edge(chosen, target);
+      if (chosen < 0) continue;
+      if (!swap_moves) {
+        s.move_edge(chosen, target);
+      } else {
+        // Preserve all five global color counts: first make the selected
+        // missing color, then recolor a different edge of that color back to
+        // the displaced color.  The second score is exact in the intermediate
+        // state.
+        int displaced = s.color[chosen];
+        s.move_edge(chosen, target);
+        int second = -1, second_delta = 1000000000, second_ties = 0;
+        for (int f = 0; f < E; ++f) if (f != chosen && s.color[f] == target) {
+          int delta = s.break_count[f] - s.make_count[f][displaced];
+          if (delta < second_delta) { second_delta = delta; second = f; second_ties = 1; }
+          else if (delta == second_delta && s.random_int(++second_ties) == 0) second = f;
+        }
+        if (second < 0) abort();
+        s.move_edge(second, displaced);
+      }
       int now = static_cast<int>(s.bad.size());
       if (now < restart_best) restart_best = now;
       if (now < global_best) {
         global_best = now;
+        s.save_json(output, seed, r);
         auto sec = chrono::duration<double>(chrono::steady_clock::now() - start).count();
         cout << "best=" << global_best << " restart=" << r << " step=" << step + 1
              << " total_steps=" << s.steps << " seconds=" << fixed << setprecision(3) << sec << "\n" << flush;

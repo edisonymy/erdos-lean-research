@@ -1,0 +1,55 @@
+seed=618 max_steps=200000 restarts=1 noise=0.01 init=affine breakout=0 swap=1 six_sets=230230
+best=3262 restart=0 step=0
+best=3009 restart=0 step=1 total_steps=2 seconds=0.008
+best=2826 restart=0 step=2 total_steps=4 seconds=0.008
+best=2617 restart=0 step=3 total_steps=6 seconds=0.009
+best=2448 restart=0 step=4 total_steps=8 seconds=0.011
+best=2232 restart=0 step=5 total_steps=10 seconds=0.012
+best=2227 restart=0 step=7 total_steps=14 seconds=0.014
+best=2156 restart=0 step=8 total_steps=16 seconds=0.014
+best=2132 restart=0 step=9 total_steps=18 seconds=0.015
+best=2114 restart=0 step=11 total_steps=22 seconds=0.016
+best=2079 restart=0 step=12 total_steps=24 seconds=0.017
+best=1823 restart=0 step=13 total_steps=26 seconds=0.018
+best=1791 restart=0 step=14 total_steps=28 seconds=0.018
+best=1474 restart=0 step=15 total_steps=30 seconds=0.019
+best=1434 restart=0 step=16 total_steps=32 seconds=0.020
+best=1372 restart=0 step=17 total_steps=34 seconds=0.021
+best=1292 restart=0 step=18 total_steps=36 seconds=0.021
+best=1264 restart=0 step=19 total_steps=38 seconds=0.022
+best=1263 restart=0 step=20 total_steps=40 seconds=0.022
+best=1240 restart=0 step=21 total_steps=42 seconds=0.023
+best=1220 restart=0 step=22 total_steps=44 seconds=0.024
+best=1217 restart=0 step=23 total_steps=46 seconds=0.024
+best=1204 restart=0 step=24 total_steps=48 seconds=0.025
+best=1192 restart=0 step=25 total_steps=50 seconds=0.025
+best=1120 restart=0 step=26 total_steps=52 seconds=0.025
+best=1111 restart=0 step=27 total_steps=54 seconds=0.026
+best=1088 restart=0 step=28 total_steps=56 seconds=0.026
+best=1025 restart=0 step=29 total_steps=58 seconds=0.027
+best=1022 restart=0 step=30 total_steps=60 seconds=0.028
+best=988 restart=0 step=33 total_steps=66 seconds=0.030
+best=972 restart=0 step=35 total_steps=70 seconds=0.031
+best=958 restart=0 step=36 total_steps=72 seconds=0.032
+best=955 restart=0 step=37 total_steps=74 seconds=0.032
+best=947 restart=0 step=47 total_steps=94 seconds=0.038
+best=940 restart=0 step=77 total_steps=154 seconds=0.049
+best=937 restart=0 step=81 total_steps=162 seconds=0.051
+best=931 restart=0 step=84 total_steps=168 seconds=0.053
+best=925 restart=0 step=90 total_steps=180 seconds=0.056
+best=923 restart=0 step=135 total_steps=270 seconds=0.072
+best=919 restart=0 step=136 total_steps=272 seconds=0.073
+best=904 restart=0 step=137 total_steps=274 seconds=0.073
+best=902 restart=0 step=138 total_steps=276 seconds=0.074
+best=894 restart=0 step=142 total_steps=284 seconds=0.076
+best=881 restart=0 step=173 total_steps=346 seconds=0.092
+best=879 restart=0 step=905 total_steps=1810 seconds=0.421
+best=876 restart=0 step=906 total_steps=1812 seconds=0.422
+best=870 restart=0 step=907 total_steps=1814 seconds=0.422
+best=864 restart=0 step=925 total_steps=1850 seconds=0.431
+best=859 restart=0 step=35933 total_steps=71866 seconds=15.803
+best=858 restart=0 step=57086 total_steps=114172 seconds=23.951
+best=855 restart=0 step=113651 total_steps=227302 seconds=46.680
+best=853 restart=0 step=113652 total_steps=227304 seconds=46.681
+restart_done=0 restart_best=853 final=1198 total_steps=400000
+NOT_FOUND global_best=853 total_steps=400000

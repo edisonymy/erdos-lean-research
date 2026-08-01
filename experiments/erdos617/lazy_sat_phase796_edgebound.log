@@ -1,0 +1,6 @@
+iteration=1 result=True clauses_added=0 elapsed=0.140 stats={'restarts': 1, 'conflicts': 0, 'decisions': 956, 'propagations': 75876}
+iteration=1 violations=243004
+iteration=2 result=True clauses_added=243004 elapsed=1.703 stats={'restarts': 10, 'conflicts': 517, 'decisions': 7833, 'propagations': 839682}
+iteration=2 violations=42369
+iteration=3 result=None clauses_added=285373 elapsed=120.015 stats={'restarts': 3894, 'conflicts': 1118391, 'decisions': 2643639, 'propagations': 208900267}
+UNKNOWN timeout
