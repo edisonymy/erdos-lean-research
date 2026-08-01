@@ -34,13 +34,18 @@ git clone https://github.com/leon2k2k2k/Rethlas.git third_party/rethlas-runner
 git -C third_party/rethlas-runner checkout 622bc663d4212333ade4c4802af1db3da92262c0
 ```
 
-Its verifier and generation MCP dependencies were installed into separate `uv` virtual
-environments. No model-consuming Rethlas pool run has been launched. The runner's Linux-only
-network-egress interposer is unavailable on this native Windows host, so any future Windows run
-must not be described as a cryptographically or OS-level blind/frozen-world run.
+Its verifier and generation MCP dependencies were installed into separate uv virtual
+environments. Stage-one non-blind runs were launched for problems 273, 488, and 617 with Codex
+CLI 0.146.0, model gpt-5.6-sol, and xhigh reasoning. The runner's Linux-only network-egress
+interposer is unavailable on this native Windows host, so these runs are explicitly
+BLIND_RUN=0 and are not described as blind or frozen-world experiments.
+
+The public problem inputs are in [rethlas/problems/](../rethlas/problems/), and
+[scripts/run_rethlas_problem.sh](../scripts/run_rethlas_problem.sh) is the Git Bash launcher.
+The runner checkout, raw transcripts, memory files, and untrusted verifier artifacts remain
+ignored until they have been independently audited and distilled into research notes.
 
 ## Generated artifacts
 
 Compiled binaries, `.obj` files, Python bytecode, Lean caches, cloned upstream repositories, and
 virtual environments are ignored. Rebuild compiled search tools from their checked-in source.
-
