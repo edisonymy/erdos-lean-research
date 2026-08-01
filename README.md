@@ -12,10 +12,18 @@ original mathematical problem.
 
 ## Current campaigns
 
-- **Erdős #273:** search for a strict covering system whose distinct moduli are all `p - 1`
-  for primes `p ≥ 5`.
+- **Erdős #128:** exact finite census of the triangle-free sparse-half condition.
+- **Erdős #196:** construction/reduction search for monotone four-term progressions in
+  permutations of the naturals.
+- **Erdős #366:** exact restricted searches for a 2-full/3-full consecutive pair.
 - **Erdős #488:** attack the density-doubling inequality for unions of multiples.
-- **Erdős #617:** search for a finite edge-colouring certificate at the first open case.
+- **Erdős #699:** faithful Lean reductions for common prime divisors of binomial
+  coefficients.
+
+The earlier #617 `r = 5` campaign is stopped and retained only as an explicitly
+superseded audit. A 24 July 2026 Zenodo preprint records Robert Sneiderman's proof and
+Ramazan Kara's independent Lean verification of exactly that fixed case. The all-`r`
+problem remains open. See [`research/recency-audit.md`](research/recency-audit.md).
 
 The source programs and retained search logs live in [`experiments/`](experiments/). Results
 are provisional until independently checked and summarized in the research notes.
@@ -46,6 +54,9 @@ Any eventual solution package must include all of the following:
 7. an independent human-readable proof; and
 8. a clear account of AI and computational involvement.
 
+Before compute-intensive work begins, the target must also pass the announcement-level
+recency gate in [`research/recency-audit.md`](research/recency-audit.md); a database `OPEN`
+label is not sufficient evidence.
+
 The current candidate survey is in
 [`research/candidate-survey.md`](research/candidate-survey.md).
-

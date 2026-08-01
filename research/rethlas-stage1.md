@@ -1,5 +1,9 @@
 # Rethlas stage-one campaign
 
+> Historical note (2026-08-01): the #617 fixed-`r=5` prompt in this wave was
+> superseded by Zenodo DOI `10.5281/zenodo.21535386`. Its search was stopped;
+> see `research/recency-audit.md`.
+
 This campaign uses the public Rethlas runner at pinned commit 622bc663d4212333ade4c4802af1db3da92262c0 as an idea-generation and informal-referee harness. It is deliberately non-blind (BLIND_RUN=0) because the targets are currently open and no historical benchmark isolation is being claimed.
 
 The first wave contains exact statements for Erdős problems 196, 273, 366, 488, 617, and 699. Each prompt accepts only a proof of the full quantified statement or a complete counterexample/construction as a solution. Smaller subcases are retained as research progress but are not promoted as solutions.

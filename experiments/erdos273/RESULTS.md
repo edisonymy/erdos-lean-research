@@ -8,6 +8,26 @@ No covering system for the `p >= 5` target was found.  The open problem is
 **not solved** here.  The results below are rigorous finite obstructions,
 reproducible exact-search results, and explicitly labelled heuristic failures.
 
+## Prior-art correction — 2026-08-01
+
+Two July repositories materially predate and dominate parts of this computation:
+
+- [`idealombrer/erdos-273-covering-pm1`](https://github.com/idealombrer/erdos-273-covering-pm1)
+  at commit `9d81d4ba5dea78fa66a2fb8ae21212fe5a8a7760` proves that any solution
+  uses a prime `p > 877`, formalizes the parity reduction in Lean, and applies an exact
+  distortion sieve to exclude periods including `55,440`, `110,880`, `166,320`, and
+  `720,720`.
+- [`Sanexxxx777/erdos-computational-bounds`](https://github.com/Sanexxxx777/erdos-computational-bounds)
+  at commit `b43e5c30839dc9b89ca667400b9ce7b5c761aa9a` supplies independently
+  checked LRAT certificates excluding coverings whose allowed moduli are at most `57`.
+
+The first repository's `unsat_lemmas_sieve.py` was rerun locally in exact rational
+arithmetic: it returned `η = 0.833943... < 1` for period `55,440`. Accordingly, the
+SAT timeout below is not an unresolved mathematical case. Our distinct results are the
+elementary parity-triangle obstruction for 63 periods through one million and its exact
+applications to `65,520` and `100,800`; no novelty claim is made for those results without
+a further literature review.
+
 ## Lean statement audit
 
 `FormalConjectures/ErdosProblems/273.lean` at commit
@@ -123,7 +143,7 @@ and 189.289 seconds including 187.478 seconds of encoding time.  The exact
 run is in `cdcl_cuts_100800.log`; the elementary proof above does not depend
 on trusting the SAT result.
 
-## The first unresolved period: 55,440
+## The first density-feasible period: 55,440 (known UNSAT)
 
 The 43 admissible moduli are recorded in `sat_55440.log` and
 `cdcl_55440.log`.  Its excess is `2,421/55,440 = 269/6,160`, so the simple
@@ -138,7 +158,7 @@ greater than `269/6,160`, that pair is impossible.  Normalizing the modulus-4
 residue to zero forces the modulus-6 and modulus-10 residues to be odd and
 gives further incompatibilities involving moduli 12, 16, and 18.
 
-Neither exact solver finished this instance within the attempted caps:
+Neither exact solver in this repository finished this instance within the attempted caps:
 
 * Z3 built the 55,440 coverage constraints in 97.262 seconds, then remained
   unresolved until the bounded outer process ended.
@@ -146,7 +166,9 @@ Neither exact solver finished this instance within the attempted caps:
   both the baseline and strengthened five-minute attempts ended without a
   SAT/UNSAT result.
 
-Therefore `L = 55,440` remains **unknown**, not UNSAT.
+Those timeouts are only `UNKNOWN` for these encodings. They were superseded by the prior
+exact distortion-sieve proof described above, which establishes that `L = 55,440` is
+UNSAT. A longer local solver process was stopped once this collision was identified.
 
 ## Selfridge `p >= 3` regression fixture
 

@@ -1,10 +1,31 @@
-# Erdős 617, first open case `r = 5`: computational handoff
+# Erdős 617 at `r = 5`: superseded computational handoff
+
+## Priority correction — 2026-08-01
+
+This directory is **not an attack on an open fixed case**. On 24 July 2026,
+Ramazan Kara deposited
+[`Machine verification of the fixed r = 5 case of Erdős Problem 617`](https://doi.org/10.5281/zenodo.21535386).
+The record attributes the mathematical proof to Robert Sneiderman and archives the
+unconditional Lean theorem
+`Erdos617.e058Problem617AtFive : Problem617At 5`, with the reported assumptions
+`propext`, `Classical.choice`, and `Quot.sound`. The exact source archive and preprint
+hashes from Zenodo were independently matched during this campaign. The independent
+verification repository is
+[`RamazanKara/erdos-617-r5-formal-verification`](https://github.com/RamazanKara/erdos-617-r5-formal-verification),
+and the mathematical source is pinned at Sneiderman commit
+`735c2eeffcb5c8abe92f8a6be04be2fa3c8bb6ab`.
+
+The Erdős Problems page still displayed the older `OPEN` description when this campaign
+began. Treating that lagging page as sufficient status evidence was a research-process
+error. All unrestricted #617 searches were stopped after the collision was found. The
+all-`r ≥ 3` conjecture remains open, and the cited preprint says independent expert review
+is still pending.
 
 ## Bottom line
 
 No balanced 5-coloring of `K_26` was found. No certificate passed the exhaustive
-checker. Consequently these experiments do **not** prove or disprove Erdős 617,
-even for `r = 5`.
+checker. These historical experiments do **not** contribute to the already proved
+positive `r = 5` result.
 
 What is rigorous here is limited to several explicitly restricted UNSAT results,
 plus a useful general edge-count lemma and reproducible unrestricted near-misses.

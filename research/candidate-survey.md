@@ -32,20 +32,19 @@ resolved.
 
 | Problem | Shape | Why active | Principal risk |
 |---|---|---|---|
-| #273 | finite covering certificate | low visible collision risk; CRT/covering motif matches prior AI successes | certificate may require an enormous period or a new structural idea |
+| #128 | finite triangle-free graph census | complete graph catalogues permit exact small-order exclusions | catalogue completeness is an external trust boundary; the universal problem is far beyond the finite range |
+| #196 | infinite permutation construction | compact combinatorics and an empty July 2026 repository claim rather than a published result | intrinsically infinite; finite avoidance data cannot resolve it |
+| #366 | explicit 2-full/3-full consecutive-number witness | a witness would be a tiny checkable certificate | no general witness is known and the public search already reaches `10^22` |
 | #488 | universal density inequality | elementary finite-set/divisibility language; faithful corrected Lean statement | substantial 2026 partial work and no known general argument |
-| #617 | finite edge-colouring certificate | first open case has 230,230 local six-set constraints, suitable for SAT/local search | a certificate may not exist at the first attempted parameter or may resist symmetry reduction |
+| #699 | common large prime divisor of binomial coefficients | strong Mathlib support and exact Kummer reductions | a public computation through `n = 100000` dominates finite search |
 
 ## Next queue
 
 | Problem | Opportunity | Reason not yet primary |
 |---|---|---|
-| #196 | monotone four-term AP in every permutation of `ℕ` | compact combinatorics, but intrinsically infinite |
-| #128 | finite triangle-free graph counterexample search | promising certificate; theorem had a recently fixed quantifier bug and needs extra fidelity scrutiny |
-| #366 | explicit 2-full/3-full consecutive-number witness | tiny eventual Lean certificate; no known witness below a very large range |
+| #273 | covering system with moduli `p-1` | July repositories already prove `p>877`, exclude period `55440`, and certify all moduli at most `57` as impossible; a construction now needs a genuinely new large-modulus idea |
 | #672 | perfect-power product in a long coprime arithmetic progression | structured SAT/valuation search; known work excludes lengths through 34 |
 | #677 | interval-LCM inequality | decidable and elementary; uniform statement appears structurally hard |
-| #699 | common large prime divisor of two binomial coefficients | excellent Mathlib support; negative computation through `n = 100000` weakens brute-force prospects |
 
 ## Rejected or deprioritized examples
 
@@ -57,12 +56,16 @@ resolved.
 - **#647:** current work excludes an enormous finite interval.
 - **#1041:** recent AI proof claims have reported topology gaps, and the Lean length notion
   raises a material fidelity issue.
+- **#617 at `r=5`:** withdrawn as a target. Zenodo DOI
+  [`10.5281/zenodo.21535386`](https://doi.org/10.5281/zenodo.21535386), deposited
+  24 July 2026, archives an independent Lean verification of Robert Sneiderman's proof.
+  The database page was stale; the all-`r` conjecture remains open.
 - **#409/#319:** exact-answer formulations risk proving a tautological optimizer identity
   without resolving the intended asymptotic question.
 
 ## Claim discipline
 
 No item above is a claimed solution or proof of novelty. Open labels and absence from
-VibeMathed are only screening evidence. Every promoted target still requires current literature,
-forum, repository-history, and statement-provenance review.
-
+VibeMathed are only screening evidence. Every promoted target must pass the multi-source,
+announcement-level protocol in [`recency-audit.md`](recency-audit.md), followed by a
+statement-provenance review.

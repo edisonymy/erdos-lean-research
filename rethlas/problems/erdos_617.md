@@ -1,5 +1,10 @@
 # Erdos Problem 617
 
+> **DO NOT RUN THIS TARGET.** This prompt predates the discovery of Zenodo DOI
+> `10.5281/zenodo.21535386` (24 July 2026), which archives Robert Sneiderman's
+> proof and an independent Lean verification of the fixed `r = 5` case. The
+> all-`r` conjecture remains open, but the finite target below is superseded.
+
 ## Target Statement
 
 Prove or disprove the following exact statement. For every integer r >= 3, every r-edge-coloring of the complete graph K_(r^2+1) contains a set S of r+1 vertices and a color k such that no edge induced by S has color k.
@@ -15,4 +20,3 @@ The public Lean target is FormalConjectures/ErdosProblems/617.lean in google-dee
 ## Requested Output
 
 If disproving, provide an explicit symmetric edge-color matrix or concise construction plus an exhaustive verification argument. If proving, expose all Ramsey/extremal estimates. Otherwise report precise subcases eliminated and reusable constraints without claiming success.
-
