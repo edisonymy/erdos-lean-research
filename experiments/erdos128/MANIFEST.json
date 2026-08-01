@@ -1,0 +1,55 @@
+{
+  "source_catalogue": "https://users.cecs.anu.edu.au/~bdm/data/ramsey.html",
+  "mirror": "https://huggingface.co/datasets/linxy/RamseyGraph",
+  "files": [
+    {
+      "name": "r34_8.g6",
+      "sha256": "3068e421da9548f92c0c16196d8dc8f032eb83401716b01d96de8025a9614798",
+      "records": 3
+    },
+    {
+      "name": "r35_11.g6",
+      "sha256": "d5c52b2209e25080868adeef2dd52fa32835e5143208aceef129332c9184f16e",
+      "records": 105
+    },
+    {
+      "name": "r35_12.g6",
+      "sha256": "322e7a54e67f4201bd37998ab420afb3eee41b1dcd6b277b7f055bda152da95e",
+      "records": 12
+    },
+    {
+      "name": "r35_13.g6",
+      "sha256": "eb4d3f787f07ed14c0a82a83bee170ed096c24b6a7e971fded185ca1a760798f",
+      "records": 1
+    },
+    {
+      "name": "r36_13.g6.gz",
+      "sha256": "12d94cdedc18c56f55cc1fc08ddad4852f43e5d3ea20bf0e00cdbedfc5036604",
+      "decoded_sha256": "bf59b7a5c3cb6d018f40b35928aeb30473d4491a8e6311eec10129bde741e0d1",
+      "records": 275086
+    },
+    {
+      "name": "r36_14.g6.gz",
+      "sha256": "cd041a1c465e28affc104f9131a3d0e5ff88432f7bcdd6a4640d55ec25c157a0",
+      "decoded_sha256": "de08a9594fa7928fd12226f7e2fa76bddbd9fbdf61c73ab52d0aa5006967eaa1",
+      "records": 263520
+    },
+    {
+      "name": "r36_15.g6.gz",
+      "sha256": "f3ebfbba8e8d0847f2940c8a4f683f45a3b945a3481a041dbfa32f760246da1c",
+      "decoded_sha256": "9cd20155677af5fa130284a150f82cf5e99087771b4dc780dfe04e0459a9040e",
+      "records": 64732
+    },
+    {
+      "name": "r36_16.g6.gz",
+      "sha256": "5fd4e68d880e1d4ed05337b97cba0ce15387e1f545744aed80b91bb4b2186f25",
+      "decoded_sha256": "25e35e1bb46b3131ff00b430b56e4679fcde7988211aefd9036c1e4c0cd7d2bf",
+      "records": 2576
+    },
+    {
+      "name": "r36_17.g6",
+      "sha256": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+      "records": 7
+    }
+  ]
+}
