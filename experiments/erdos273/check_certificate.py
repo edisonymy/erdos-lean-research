@@ -21,6 +21,7 @@ def is_prime(n: int) -> bool:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("certificate", type=Path)
+    parser.add_argument("--allow-two", action="store_true")
     args = parser.parse_args()
     data = json.loads(args.certificate.read_text())
     period = int(data["period"])
@@ -29,7 +30,8 @@ def main() -> None:
     assert classes, "empty certificate"
     moduli = [m for _, m in classes]
     assert len(moduli) == len(set(moduli)), "moduli are not distinct"
-    assert all(m >= 4 and m % 2 == 0 and is_prime(m + 1) for m in moduli)
+    minimum = 2 if args.allow_two else 4
+    assert all(m >= minimum and m % 2 == 0 and is_prime(m + 1) for m in moduli)
     assert all(0 <= r < m for r, m in classes)
     assert all(period % m == 0 for m in moduli), "period not common multiple"
 

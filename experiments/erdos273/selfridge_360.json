@@ -1,0 +1,65 @@
+{
+  "period": 360,
+  "classes": [
+    {
+      "modulus": 2,
+      "prime": 3,
+      "residue": 0
+    },
+    {
+      "modulus": 4,
+      "prime": 5,
+      "residue": 1
+    },
+    {
+      "modulus": 6,
+      "prime": 7,
+      "residue": 3
+    },
+    {
+      "modulus": 10,
+      "prime": 11,
+      "residue": 1
+    },
+    {
+      "modulus": 12,
+      "prime": 13,
+      "residue": 11
+    },
+    {
+      "modulus": 18,
+      "prime": 19,
+      "residue": 7
+    },
+    {
+      "modulus": 30,
+      "prime": 31,
+      "residue": 7
+    },
+    {
+      "modulus": 36,
+      "prime": 37,
+      "residue": 19
+    },
+    {
+      "modulus": 40,
+      "prime": 41,
+      "residue": 3
+    },
+    {
+      "modulus": 60,
+      "prime": 61,
+      "residue": 19
+    },
+    {
+      "modulus": 72,
+      "prime": 73,
+      "residue": 31
+    },
+    {
+      "modulus": 180,
+      "prime": 181,
+      "residue": 175
+    }
+  ]
+}
