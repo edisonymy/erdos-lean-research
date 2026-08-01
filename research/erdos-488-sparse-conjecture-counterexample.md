@@ -54,5 +54,14 @@ Source note: https://www.ulam.ai/research/erdos488.pdf
 
 This campaign finding has not yet undergone a comprehensive priority search, so no novelty
 claim is made. Its value here is operational: it prevents further effort from being spent on a
-false intermediate conjecture and identifies the weaker reciprocal-density inequality as a
-possible replacement route.
+false intermediate conjecture.
+
+The initially tempting weaker replacement also fails. If A consists of 2p for every odd prime
+p <= 499 and n = 19960, then A has 94 primitive generators, F_A(n) = 7861 < n/2, but exact
+rational arithmetic gives
+
+    sum(a in A) 1/a = 0.798354776419... >
+    2 F_A(n)/n = 7861/9980 = 0.787675350701....
+
+Therefore the direct reciprocal-density majorant cannot prove the full problem either. The
+original Erdős #488 statement remains neither proved nor refuted.
