@@ -43,6 +43,21 @@ the five edge counts have only 30 edges of total slack above this lower bound.
 Reference for the precise form used: Brouwer's theorem is quoted as Theorem 1.1
 in [Exact stability for Turán's Theorem](https://people.maths.ox.ac.uk/scott/Papers/turanstability.pdf).
 
+The constant 59 is sharp even under both Ramsey constraints. The exact SAT
+encoding in `ramsey_edge_bound.py` found a 26-vertex graph with exactly 59
+edges, no `K_6`, and no independent six-set. Its explicit edge list is
+`ramsey_bound59.json`; the solver transcript is `ramsey_bound59.log`.
+`verify_ramsey_graph.py` exhaustively checks all 230,230 six-sets without using
+the SAT solver:
+
+```powershell
+python experiments\erdos617\verify_ramsey_graph.py `
+  experiments\erdos617\ramsey_bound59.json
+```
+
+This proves that no stronger per-color lower bound can settle the five-color
+case by summing edge counts alone: `5 * 59 = 295 < 325`.
+
 ## Exact restricted UNSAT results
 
 ### Fixed affine slopes; 75 free edges
@@ -140,6 +155,11 @@ This is only a local-neighborhood statement about that labeled near-miss.
 - `local_search.cpp`: incremental unrestricted heuristic.
 - `verify_candidate.py`: independent exhaustive JSON checker; a real candidate
   must report `PASS ... six_sets_checked=230230`.
+- `ramsey_edge_bound.py`: exact SAT search for a sparse graph with neither a
+  six-clique nor a six-independent set.
+- `ramsey_bound59.json`: independently checkable sharpness certificate for the
+  59-edge lemma.
+- `verify_ramsey_graph.py`: solver-independent exhaustive certificate checker.
 - `affine_lines_sat.py`: experimental family in which each affine line is
   monochromatic. Runs were unresolved, so they provide no UNSAT conclusion.
 
