@@ -1,0 +1,33 @@
+{
+  "audit": "PASS",
+  "claim": "If R(3,10)=40, every K4-free graph G on 40 vertices satisfies beta(G)>=10.",
+  "date_utc": "2026-08-02",
+  "encoding": "UTF-8",
+  "full_erdos_151_solution": false,
+  "hashes_sha256": {
+    "arithmetic_checker": "07fc9216299d0d25cf07a34de3c6e449bcc18bd40306b1ca70489d153de55a4b",
+    "arithmetic_result": "b20eccb2d2ac6fa62c3e42f3e2edd46a8bd7a92b282b99138248fba4103fedfe",
+    "independent_audit": "271d05bcc4bf6675a00b94999c8e355b694744e2c70d6b84b75803c93806140f",
+    "priority_audit": "18c14587f7871ea7706c5003f93b74c0610acf7122d3fda80a5d6e048fd48f13",
+    "proof": "7dbe21b190e5f59f1b312344483725f1fafe3db66c76ea3a83b6bf6ce26371f7",
+    "projection_probe": "023692904fd97fe3f45297c445db949f741a6c7758fdd83515c7a5f0ecf766b1",
+    "projection_result": "71d2a4de74a63b8311ef0b7a6709bd122b5a6dc96b1cb884212b1e8310ddbb7b",
+    "reproduction_readme": "7fde8c523bc71ebadb2d7f945dd42febf19a5f82e37968996b03e1f213ac9be9"
+  },
+  "line_endings": "LF",
+  "order40_erdos151_consequence": "The K4-free order-40 lane is cleared: the displayed claim applies if R(3,10)=40; if R(3,10)=41, beta>=9 follows from the verified order-39 theorem by monotonicity.",
+  "primary_dependencies": [
+    {
+      "citation": "A. Bikov, Small minimal (3,3)-Ramsey graphs, Theorem 8.2 and Figure 13",
+      "url": "https://arxiv.org/abs/1604.03716"
+    },
+    {
+      "citation": "O. V. Borodin and A. V. Kostochka, On an Upper Bound of a Graph's Chromatic Number, Depending on the Graph's Degree and Density, Corollary 2",
+      "url": "https://doi.org/10.1016/0095-8956(77)90037-5"
+    }
+  ],
+  "public_claim": true,
+  "public_release": "https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos151-k4free-order40-2026-08-02",
+  "scope": "Conditional strong theorem for the K4-free order-40 lane only. Clique numbers four and five, and the full Erdős problem, remain outside this result.",
+  "status": "VERIFIED"
+}

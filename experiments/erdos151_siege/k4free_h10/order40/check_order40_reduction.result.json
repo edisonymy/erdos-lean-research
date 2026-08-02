@@ -1,0 +1,92 @@
+{
+  "equality_checks": {
+    "r10_fibre_triples": 120,
+    "r10_triangles": 100,
+    "r8_fibre_pairs": 28,
+    "r8_max_blocked_by_one_link": 12
+  },
+  "rows": [
+    {
+      "r": 2,
+      "survivors": []
+    },
+    {
+      "r": 3,
+      "survivors": []
+    },
+    {
+      "r": 4,
+      "survivors": []
+    },
+    {
+      "r": 5,
+      "survivors": []
+    },
+    {
+      "r": 6,
+      "survivors": []
+    },
+    {
+      "r": 7,
+      "survivors": []
+    },
+    {
+      "r": 8,
+      "survivors": [
+        {
+          "boundary_endpoints": 24,
+          "core_degree9": 0,
+          "nonempty_fibres": 8,
+          "weights": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "r": 9,
+      "survivors": []
+    },
+    {
+      "r": 10,
+      "survivors": [
+        {
+          "boundary_endpoints": 30,
+          "core_degree9": 0,
+          "nonempty_fibres": 10,
+          "weights": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Integer fibre funnel and displayed counts only; external theorems and graph-semantic lemmas require proof audit.",
+  "script_sha256": "07fc9216299d0d25cf07a34de3c6e449bcc18bd40306b1ca70489d153de55a4b",
+  "small_remainder": {
+    "nine_per_pair_total": 252,
+    "r0": {
+      "pair_score_sum_lower": 260
+    },
+    "r1": {
+      "pair_score_sum_lower": 254
+    }
+  },
+  "status": "VERIFIED_ARITHMETIC"
+}

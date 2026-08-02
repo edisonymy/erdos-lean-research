@@ -15,7 +15,12 @@ The independently audited
 proves `beta(G)>=10` for every `K4`-free graph on 41 vertices, without assuming
 an exact value of `R(3,10)` or clearing order 40 first.  This removes
 `omega(G)<=3` from the order-41 frontier, but does not settle the remaining
-`omega in {4,5}` cases or the conditional order-40 lane.
+`omega in {4,5}` cases.  The separately audited
+[`K4`-free order-40 theorem](general/k4free_h10/order40/ORDER40_RESIDUAL.md)
+proves `beta(G)>=10` there if `R(3,10)=40`; if `R(3,10)=41`, the required
+order-40 bound is nine and follows from the through-order-39 theorem.  Hence
+the `K4`-free order-40/41 lane is closed for #151, but the unrestricted
+problem and all later Ramsey jumps remain open.
 
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum

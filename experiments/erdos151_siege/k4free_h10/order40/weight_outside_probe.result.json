@@ -1,0 +1,456 @@
+{
+  "rows": [
+    {
+      "feasible_weight_core_degree_rows": 21,
+      "maximum_lonely_edge_projection": {
+        "b_core_degree9": 0,
+        "boundary_endpoints": 0,
+        "core_incident_lonely_upper": 20,
+        "outside": {
+          "degrees": [],
+          "edges": [],
+          "lonely_count": 0,
+          "lonely_edges": []
+        },
+        "q": 40,
+        "r": 0,
+        "total_lonely_upper": 20,
+        "weights": []
+      },
+      "q": 40,
+      "r": 0
+    },
+    {
+      "feasible_weight_core_degree_rows": 32,
+      "maximum_lonely_edge_projection": {
+        "b_core_degree9": 0,
+        "boundary_endpoints": 9,
+        "core_incident_lonely_upper": 24,
+        "outside": {
+          "degrees": [
+            0
+          ],
+          "edges": [],
+          "lonely_count": 0,
+          "lonely_edges": []
+        },
+        "q": 39,
+        "r": 1,
+        "total_lonely_upper": 24,
+        "weights": [
+          9
+        ]
+      },
+      "q": 39,
+      "r": 1
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 38,
+      "r": 2
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 37,
+      "r": 3
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 36,
+      "r": 4
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 35,
+      "r": 5
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 34,
+      "r": 6
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 33,
+      "r": 7
+    },
+    {
+      "feasible_weight_core_degree_rows": 1,
+      "maximum_lonely_edge_projection": {
+        "b_core_degree9": 0,
+        "boundary_endpoints": 24,
+        "core_incident_lonely_upper": 28,
+        "outside": {
+          "degrees": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              7
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ]
+          ],
+          "lonely_count": 0,
+          "lonely_edges": []
+        },
+        "q": 32,
+        "r": 8,
+        "total_lonely_upper": 28,
+        "weights": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "q": 32,
+      "r": 8
+    },
+    {
+      "feasible_weight_core_degree_rows": 0,
+      "maximum_lonely_edge_projection": null,
+      "q": 31,
+      "r": 9
+    },
+    {
+      "feasible_weight_core_degree_rows": 1,
+      "maximum_lonely_edge_projection": {
+        "b_core_degree9": 0,
+        "boundary_endpoints": 30,
+        "core_incident_lonely_upper": 30,
+        "outside": {
+          "degrees": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              9
+            ]
+          ],
+          "lonely_count": 25,
+          "lonely_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              8
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              9
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              4,
+              8
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              9
+            ]
+          ]
+        },
+        "q": 30,
+        "r": 10,
+        "total_lonely_upper": 55,
+        "weights": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      "q": 30,
+      "r": 10
+    }
+  ],
+  "scope": "Necessary outside/fibre conditions only; no core graph, arrowing, beta, or marked-link semantics are encoded.",
+  "script_sha256": "023692904fd97fe3f45297c445db949f741a6c7758fdd83515c7a5f0ecf766b1",
+  "status": "CHECKED_PROJECTION_ONLY"
+}

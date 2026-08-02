@@ -89,8 +89,25 @@ component count.  The result is unconditional on the unresolved value
 `R(3,10) in {40,41}`.  Its separate adversarial audit and primary-source
 check are in
 [`general/k4free_h10/INDEPENDENT_AUDIT.md`](general/k4free_h10/INDEPENDENT_AUDIT.md).
-The analogous order-40 argument leaves a sharply constrained finite core
-case and is not a theorem.
+The companion order-40 theorem below closes that residual case.
+
+## Conditional strong K4-free theorem at order 40
+
+The independently audited proof in
+[`general/k4free_h10/order40/ORDER40_RESIDUAL.md`](general/k4free_h10/order40/ORDER40_RESIDUAL.md)
+establishes
+
+```text
+R(3,10)=40, |V(G)|=40, and omega(G)<=3  ==>  beta(G)>=10.
+```
+
+Its separate audit is
+[`general/k4free_h10/order40/INDEPENDENT_AUDIT.md`](general/k4free_h10/order40/INDEPENDENT_AUDIT.md).
+If instead `R(3,10)=41`, the order-40 target is only `beta(G)>=9`, inherited
+from the verified order-39 theorem.  Together with the unconditional
+order-41 theorem, this closes the `K4`-free lane at the unresolved `h=10`
+jump.  It does not settle clique numbers four or five, later jumps, or full
+Erdős #151.
 
 ## Fixed-clique double CEGAR
 
@@ -149,5 +166,5 @@ The highest-value live actions are:
    authors or reconstruct only the degree-compatible slices reproducibly;
 3. develop an `L≠empty` aggregation that counts `L`-independent 10-sets
    sharply while retaining anchor/exchange correlations;
-4. attack the remaining conditional order-40 `K4`-free core residue using the
-   audited degree/link/fibre constraints.
+4. attack the unresolved `omega in {4,5}` cases analytically at order 40 and
+   by the independently auditable fixed-clique search at order 41.

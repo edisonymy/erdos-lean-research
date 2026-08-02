@@ -36,8 +36,11 @@ because the original problem lacked a public Lean statement.
   jump order, and new Folkman-core coloring arguments exclude the jumps at
   28 and 36.  A separately audited theorem now proves `beta(G)>=10` for every
   `K4`-free graph on 41 vertices, unconditionally removing clique numbers at
-  most three from the order-41 frontier.  With `40<=R(3,10)<=41`, orders 40
-  and the order-41 `omega in {4,5}` cases remain.  This is substantial
+  most three from the order-41 frontier.  A second independently audited
+  theorem proves the corresponding strong order-40 statement conditional on
+  `R(3,10)=40`; if the Ramsey number is 41, the required order-40 bound follows
+  from monotonicity.  Thus the `K4`-free order-40/41 lane is closed, while the
+  `omega in {4,5}` cases and all later Ramsey jumps remain.  This is substantial
   finite-order progress, not a solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
