@@ -5,6 +5,10 @@ solve a genuinely open Erdős problem with a kernel-checked Lean 4 proof.
 
 > **Status: active research. No open problem is claimed solved.**
 
+The central record of the campaign—its strategy, active and paused problems,
+claim hierarchy, failures, publication history, and exact current frontier—is
+[`research/campaign-dossier.md`](research/campaign-dossier.md).
+
 The project prioritizes statement fidelity, novelty checks, reproducible computation, and
 formal verification over producing a dramatic claim. A successful Lean compilation will not
 be treated as a solution unless the formal theorem is independently audited against the
@@ -38,8 +42,9 @@ original mathematical problem.
 - **Erdős #742:** candidate-first order-25 SAT searches for a Murty--Simon
   counterexample. Independently replayed LRAT certificates exclude counterexamples
   having an order-five automorphism of cycle type `1^5 5^4` or `1^10 5^3`, conditional
-  on the cited published reductions. These are bounded symmetry-class results, not a
-  solution.
+  on the cited published reductions. The fixed-15 class is split into 21 cases;
+  17 have checked native certificates, while `t=62,67,72,77` remain unresolved
+  at the dossier snapshot. These are bounded symmetry-class results, not a solution.
 - **Erdős #982:** two unconditional arguments exclude all `D2`-symmetric octagons and
   all alternating two-radius dihedral polygons; independent exact searches found no
   counterexample, and the general problem remains open.
