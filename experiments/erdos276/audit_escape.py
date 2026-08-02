@@ -19,7 +19,7 @@ Q = int(
     "2025195406541068394745828231264515958532145970461367703231950382110924410768870"
 )
 
-# (prime, Fibonacci rank used in the paper, covered residue, c, q mod prime)
+# (prime, Fibonacci index m used in the paper, covered residue, c, q mod prime)
 ROWS = [
     (2, 3, 1, 1, 0), (5, 5, 1, 2, 0), (13, 7, 1, 5, 0),
     (17, 9, 3, 11, 11), (29, 14, 2, 5, 20), (41, 20, 4, 3, 34),
