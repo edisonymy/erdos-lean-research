@@ -493,3 +493,26 @@ publication preparation.  Independent agent agreement is treated as a bug-
 finding technique, not peer review.  Every claim remains subject to expert
 mathematical review, and the public artifacts disclose the exact computational
 and formal trust boundaries.
+
+## 15. Full-solution funnel update: Erdős #151
+
+On 2 August 2026, the first promoted unformalized target produced a structural
+bridge rather than a solver witness.  Writing `beta(G)` for the largest vertex
+set containing no nontrivial inclusion-maximal clique, the campaign derived
+
+```text
+beta(G) >= |I| + beta(G-N[I])
+```
+
+for every independent set `I`.  A second agent independently audited the
+maximality direction, all base cases, the strong induction, and the exact
+Ramsey thresholds.  The result proves the conjectured #151 bound for every
+graph of order at most 17.  It also confines a smallest counterexample with
+`h=H(n)` to `R(3,h) <= n <= R(3,h-1)+h-1`; the first surviving order is 18.
+
+The order-14 SAT portfolio was stopped after 1,024.859 seconds because the
+structural proof makes a counterexample there impossible.  It produced no
+candidate and no solver conclusion, and is recorded as
+`STOPPED_AFTER_STRUCTURAL_PROOF`, not `UNSAT`.  The proof, audit boundary,
+order-18 constraints, and machine-readable record are published in
+[`erdos151/`](erdos151/).  The universal Erdős problem remains open.

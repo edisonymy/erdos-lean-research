@@ -1,0 +1,39 @@
+{
+  "schema": "erdos151-structural-result-v1",
+  "published_utc": "2026-08-02T11:37:37Z",
+  "problem": 151,
+  "full_problem_status": "OPEN_NOT_SOLVED_BY_THIS_RESULT",
+  "verified_claims": [
+    "tau(G) <= n - H(n) for every graph G of order n <= 17",
+    "beta(G) >= |I| + beta(G - N[I]) for every independent set I",
+    "a smallest counterexample with h=H(n) satisfies R(3,h) <= n <= R(3,h-1)+h-1",
+    "n=18 is the first order not eliminated by the structural argument"
+  ],
+  "ramsey_dependencies": {
+    "R(3,3)": 6,
+    "R(3,4)": 9,
+    "R(3,5)": 14,
+    "R(3,6)": 18
+  },
+  "independent_proof_audit": "VERIFIED",
+  "order9_cross_check": {
+    "unlabeled_graphs": 274668,
+    "counterexamples": 0,
+    "maximum_tau": 5,
+    "graph6_sha256": "a9c1a5a0a15d21986a1e1525eaa14b6864e867c2825bb5b7315b2285fc81c11a",
+    "geng_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "implementations": 2
+  },
+  "superseded_order14_probe": {
+    "status": "STOPPED_AFTER_STRUCTURAL_PROOF",
+    "runs": 4,
+    "wall_seconds": 1024.859,
+    "candidates": 0,
+    "solver_conclusions": 0,
+    "proof_logging": false,
+    "cnf_sha256": "c90e3e3e5f11e004a1a401f7269c53f5a5cb3832de16aa1ca2ec28af7d18eeb2",
+    "files_deleted": []
+  },
+  "novelty_boundary": "Targeted searches found no public statement of this finite-order result or recurrence; full older-literature comparison and expert review remain pending.",
+  "ai_disclosure": "AI agents performed discovery, audit, computation, documentation, and publication preparation under Edison Yi's direction."
+}
