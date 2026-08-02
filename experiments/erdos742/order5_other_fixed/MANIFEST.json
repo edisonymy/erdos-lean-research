@@ -11,11 +11,36 @@
     "file": "audit_search.py",
     "sha256": "fa88ed413de90e2f850d598f44467237d324b4070c88a46b9d4dbeec3e26fee9",
     "report": "AUDIT.md",
-    "report_sha256": "5e5714709a01ba54dd0823e34339adb4582c3ff4423eea728fac183b70415c80",
+    "report_sha256": "267cec2b84ecd048c880bd5b571ead39603422df22d0440f339f7feaa3ff9361",
     "exhaustive_small_graphs": 18944,
     "random_fixed10_graphs": 5000,
     "invariant_complete_bipartite_graphs": 4095,
     "mismatches": 0
+  },
+  "kernel_arithmetic": {
+    "file": "OrbitArithmetic.lean",
+    "sha256": "053c7ea69f48621f373e68a3bcae7338520982bec033faaa1555324a2fe8d226",
+    "lean_version": "4.27.0",
+    "sorry_free": true,
+    "theorems": 5,
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "scope": "Kernel-checked residue, fixed-point-free impossibility, fixed-ten count enumeration, and fixed-15/fixed-20 split-range arithmetic; not a formalization of the graph/CNF correspondence."
+  },
+  "split_continuation": {
+    "search_file": "search_split_case.py",
+    "search_sha256": "4e2c8759bd30a2d98b61bb23434e01fa9b3901891e0902beefef204ea0e8648d",
+    "audit_file": "audit_split_search.py",
+    "audit_sha256": "4bfa12e5840da365be1dc6de3b623869b0edc5ecaa98711d4f63cf54b14bbb3f",
+    "audit_status": "PASS",
+    "fixed15_cases": 21,
+    "fixed20_cases": 23,
+    "count_pairs_checked": 8633,
+    "mismatches": 0,
+    "scope": "Audited attack strategy for unresolved fixed-15 and fixed-20 cycle types; no split-case SAT or UNSAT result is claimed in this manifest."
   },
   "case": {
     "cycle_type": "1^10 5^3",

@@ -127,3 +127,53 @@ Run the independent implementation audit from the repository root with:
 
 Its claim scope is implementation validation only; it does not accept or
 promote the current UNSAT result.
+
+## Independent audit of the fixed-15/fixed-20 split search
+
+`search_split_case.py` replaces the monolithic weighted edge-count automaton
+by disjoint ordinary-cardinality cases while leaving the graph constraints and
+centralizer lex leaders unchanged. `audit_split_search.py` independently
+checks this refactoring.
+
+The audit recovered exactly 21 fixed-15 count pairs and 23 fixed-20 count
+pairs. It checked all 4,240 possible singleton/moving count pairs for fixed 15
+and all 4,393 for fixed 20: the monolithic encoding accepted exactly 21 and 23
+pairs respectively, while each selected split encoding accepted exactly its
+one intended pair. There were zero mismatches.
+
+Before cardinality clauses, the monolithic and split production formulas are
+byte-identical clause sequences. Their prefix hashes are:
+
+```text
+fixed 15: ad5895fc8d4147be6e06d6e992d6e2f207f5316617f11c6eb0736eebe5477640
+fixed 20: 5fabf5cfe3b4642043b57e1a70a18797a5adde4f756e50b0ebf820d91c652c21
+```
+
+The audit additionally compared the encoded centralizer lex predicates with
+their direct Boolean-vector definition on 500 deterministic assignments for
+each cycle type, and compared monolithic/split production semantics with
+direct graph checks on 30 fully fixed assignments per type. All comparisons
+matched. These random production tests are falsification tests, not a formal
+proof of the full encoder.
+
+Run the audit from the repository root with:
+
+```powershell
+.venv\Scripts\python.exe `
+  experiments\erdos742\order5_other_fixed\audit_split_search.py
+```
+
+An individual fixed-15 case, for example, is launched with:
+
+```powershell
+.venv\Scripts\python.exe `
+  experiments\erdos742\order5_other_fixed\search_split_case.py `
+  --fixed 15 --fixed-edge-count 57 `
+  --cnf .research-cache\f15_t57\case.cnf `
+  --metadata .research-cache\f15_t57\metadata.json `
+  --candidate .research-cache\f15_t57\candidate.json
+```
+
+No split case is promoted merely because a trusted solver returns UNSAT;
+publication still requires a hash-locked DRAT/LRAT certificate and independent
+replay. Any SAT candidate must pass the direct graph verifier.

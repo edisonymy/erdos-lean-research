@@ -48,6 +48,36 @@ on 18,944 exhaustive small multi-cycle graphs, 5,000 deterministic random
 fixed-ten graphs, and 4,095 invariant complete-bipartite graphs. There were
 zero mismatches. See `AUDIT.md` for the full audit and remaining trust boundary.
 
+## Kernel-checked orbit arithmetic
+
+`OrbitArithmetic.lean` checks the arithmetic layer in Lean 4.27.0: every
+157-edge invariant graph has a singleton-orbit count congruent to two modulo
+five; the fixed-point-free cycle type is impossible; the fixed-ten type has
+exactly the nine count pairs above; and the fixed-15/fixed-20 split ranges are
+characterized exactly. It compiles without `sorry`. Its axiom audit reports
+only the standard Mathlib foundations `propext`, `Classical.choice`, and
+`Quot.sound` (the two simplest lemmas do not need `Classical.choice`).
+
+From the pinned Formal Conjectures checkout:
+
+```powershell
+lake env lean `
+  ..\..\experiments\erdos742\order5_other_fixed\OrbitArithmetic.lean
+```
+
+This formalizes the orbit-count arithmetic, not the graph/CNF correspondence
+or the native LRAT checker.
+
+## Split continuation for the remaining cycle types
+
+The fixed-15 and fixed-20 searches can be partitioned into 21 and 23 disjoint
+fixed-edge-count cases using `search_split_case.py`. This replaces the large
+weighted automaton by two ordinary exact-cardinality constraints in each case.
+`audit_split_search.py` independently verifies the partition, the unchanged
+production prefix, the cardinality projections, and the centralizer lex
+semantics. `AUDIT.md` records the exact checks. These scripts are an attack
+strategy for the still-open cycle types, not part of the fixed-ten theorem.
+
 ## Proof certificate
 
 Pinned CaDiCaL 1.9.5 returned UNSAT and emitted a 419,261,312-byte binary DRAT
