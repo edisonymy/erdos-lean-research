@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "cases": {
+    "F3_N41": {
+      "n": 41,
+      "fixed_clique_size": 3,
+      "forbidden_clique_size": 4,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "lazy",
+      "admissibility_batch_size": 8,
+      "scope": "labelled graphs containing the fixed K3 on vertices 0..2 and containing no K4"
+    },
+    "F3_N41_EAGER": {
+      "n": 41,
+      "fixed_clique_size": 3,
+      "forbidden_clique_size": 4,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "eager",
+      "admissibility_batch_size": 8,
+      "scope": "labelled graphs containing the fixed K3 on vertices 0..2; all K4 clauses are materialized statically"
+    },
+    "F4_N41": {
+      "n": 41,
+      "fixed_clique_size": 4,
+      "forbidden_clique_size": 5,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "lazy",
+      "admissibility_batch_size": 8,
+      "scope": "labelled graphs containing the fixed K4 on vertices 0..3 and containing no K5"
+    },
+    "F4_N41_EAGER": {
+      "n": 41,
+      "fixed_clique_size": 4,
+      "forbidden_clique_size": 5,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "eager",
+      "admissibility_batch_size": 8,
+      "scope": "labelled graphs containing the fixed K4 on vertices 0..3; all K5 clauses are materialized statically"
+    },
+    "F5_N41": {
+      "n": 41,
+      "fixed_clique_size": 5,
+      "forbidden_clique_size": 6,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "lazy",
+      "admissibility_batch_size": 8,
+      "scope": "labelled graphs containing the fixed K5 on vertices 0..4 and containing no K6"
+    }
+  }
+}
+

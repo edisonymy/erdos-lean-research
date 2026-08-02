@@ -10,6 +10,13 @@ It does **not** claim a solution of problem 151.  Since the current published
 bounds are `40<=R(3,10)<=41`, the next possible least-counterexample order is
 40 or 41.
 
+The independently audited
+[`K4`-free order-41 theorem](general/k4free_h10/K4FREE_ORDER41.md) additionally
+proves `beta(G)>=10` for every `K4`-free graph on 41 vertices, without assuming
+an exact value of `R(3,10)` or clearing order 40 first.  This removes
+`omega(G)<=3` from the order-41 frontier, but does not settle the remaining
+`omega in {4,5}` cases or the conditional order-40 lane.
+
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum
 independence number among triangle-free graphs on `n` vertices.  The open
@@ -89,8 +96,13 @@ independent structural result.
   theorem through order 39.
 - [`order40_41_frontier.md`](order40_41_frontier.md) records the current
   audited saturation, Ramsey-core, fixed-clique CEGAR, and fractional
-  aggregation attacks at the next jump, with their exact negative-result
-  and computation boundaries.  It does not claim an order-40/41 theorem.
+  aggregation attacks at the next jump, including the audited unconditional
+  `K4`-free order-41 theorem and the exact computation boundaries.  It does
+  not claim the full order-40/41 frontier is settled.
+- [`general/k4free_h10/K4FREE_ORDER41.md`](general/k4free_h10/K4FREE_ORDER41.md)
+  proves `beta(G)>=10` for every `K4`-free graph of order 41; its independent
+  quantifier, citation, and arithmetic audit is in
+  [`INDEPENDENT_AUDIT.md`](general/k4free_h10/INDEPENDENT_AUDIT.md).
 - [`audit_order28_36.md`](audit_order28_36.md) records three adversarial proof
   passes, the exact dependency boundary, and two exhaustive finite checks.
 - [`general/TOP_WINDOW_RAMSEY_CORE.md`](general/TOP_WINDOW_RAMSEY_CORE.md)

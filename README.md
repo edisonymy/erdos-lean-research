@@ -34,9 +34,11 @@ because the original problem lacked a public Lean statement.
   vertices.  A sorry-free Lean file verifies the foundational recurrence
   alone.  Induced-subgraph monotonicity reduces each Ramsey plateau to its
   jump order, and new Folkman-core coloring arguments exclude the jumps at
-  28 and 36.  With `40<=R(3,10)<=41`, the next possible least-counterexample
-  order is 40 or 41.  This is substantial finite-order progress, not a
-  solution of the full problem.  See
+  28 and 36.  A separately audited theorem now proves `beta(G)>=10` for every
+  `K4`-free graph on 41 vertices, unconditionally removing clique numbers at
+  most three from the order-41 frontier.  With `40<=R(3,10)<=41`, orders 40
+  and the order-41 `omega in {4,5}` cases remain.  This is substantial
+  finite-order progress, not a solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
   without power-of-two cycles, last focused beyond the reported public order-31 frontier.

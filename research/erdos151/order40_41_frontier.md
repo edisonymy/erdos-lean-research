@@ -73,6 +73,25 @@ catalogue was located for Bikov's 3,041 order-12 or 306,635 order-13 cores,
 and order 14 is not fully classified.  The missing catalogues therefore
 remain a real boundary, not silently treated as exhausted.
 
+## Unconditional K4-free theorem at order 41
+
+The independently audited theorem in
+[`general/k4free_h10/K4FREE_ORDER41.md`](general/k4free_h10/K4FREE_ORDER41.md)
+proves
+
+```text
+|V(G)|=41 and omega(G)<=3  ==>  beta(G)>=10.
+```
+
+It uses an edge-minimal `(3,3)`-Ramsey core, Bikov's classified degree-eight
+links, an ambient unique-common-neighbor injection, and a Brooks-coloring
+component count.  The result is unconditional on the unresolved value
+`R(3,10) in {40,41}`.  Its separate adversarial audit and primary-source
+check are in
+[`general/k4free_h10/INDEPENDENT_AUDIT.md`](general/k4free_h10/INDEPENDENT_AUDIT.md).
+The analogous order-40 argument leaves a sharply constrained finite core
+case and is not a theorem.
+
 ## Fixed-clique double CEGAR
 
 The candidate-first implementation is in
@@ -90,17 +109,19 @@ exhaustively checked on all small test instances.  Hash-chained journals,
 exclusive writer locks, preset binding, and cross-linked candidate/result
 provenance passed 14 regression tests.
 
-The cases cover ambient clique numbers 4 and 5 only.  The `omega=3`
-K4-free lane remains outside this search.  Bare inner or outer UNSAT is not
+The cases cover ambient clique numbers 4 and 5 only; the theorem above now
+settles the complementary `omega<=3` lane at order 41.  Bare inner or outer UNSAT is not
 proof-grade: any terminal UNSAT requires proof-producing reruns and an
 independent certificate checker.  Any candidate requires the separate
 definition-level verifier and checked certificates for both semantic UNSAT
 formulas.
 
-The first bounded production pulse uses `F5_N41`, because an order-41 hit is
-an unconditional counterexample.  Its exact journaled state is kept in
-`experiments/erdos151_siege/fixed_clique_cegar/runs/F5_N41_20260802_a/`;
-intermediate cut counts are search progress only.
+The first bounded v1 production pulses used `F5_N41` and `F4_N41`, because an
+order-41 hit is an unconditional counterexample.  They stopped at their time
+limits with respectively 5,577 and 10,368 audited exact cuts, no candidate,
+and no terminal result.  These prefixes are `AUDIT_OK` but are not exhaustion
+claims.  The audited batched v2 successor and frozen migration hashes are in
+`experiments/erdos151_siege/fixed_clique_cegar_v2/`.
 
 ## Fractional aggregation audit
 
@@ -128,5 +149,5 @@ The highest-value live actions are:
    authors or reconstruct only the degree-compatible slices reproducibly;
 3. develop an `L≠empty` aggregation that counts `L`-independent 10-sets
    sharply while retaining anchor/exchange correlations;
-4. keep the K4-free (`omega=3`) core lane explicit rather than implying the
-   fixed-clique searches cover it.
+4. attack the remaining conditional order-40 `K4`-free core residue using the
+   audited degree/link/fibre constraints.

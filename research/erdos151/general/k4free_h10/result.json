@@ -1,0 +1,17 @@
+{
+  "claim": "Every K4-free graph G on 41 vertices satisfies beta(G) >= 10.",
+  "date_utc": "2026-08-02",
+  "full_erdos_151_solution": false,
+  "hashes_sha256": {
+    "audit": "9ba41aeeecee2cf9241c133df9936a14426105b30a3f040e9c9689de4b1bfcc1",
+    "checker": "87a1a2abe28354946ad54a4407306b71f235ceed7cdfcdbe73380241d0646ff3",
+    "proof": "a06ddc79c5db44af51b098b404b2355055835866ddae0edfbee5606aa195e7a4"
+  },
+  "independent_audit": "PASS",
+  "primary_dependency": {
+    "citation": "A. Bikov, Small minimal (3,3)-Ramsey graphs, Theorem 8.2 and Figure 13",
+    "url": "https://arxiv.org/abs/1604.03716"
+  },
+  "scope": "Unconditional finite-order K4-free theorem. Order 40 and order-41 clique numbers 4 and 5 remain unresolved.",
+  "status": "VERIFIED"
+}

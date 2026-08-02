@@ -1,0 +1,25 @@
+{
+  "audit_status": "AUDIT_OK",
+  "candidate": null,
+  "case": "F5_N41",
+  "cut_count": 5577,
+  "cut_counts": {
+    "admissibility": 3615,
+    "forbidden_clique": 1962
+  },
+  "journal_file_sha256": "fa29b555a76f603fe7669bf1a9f2049d609147bd2a03f20dc6dd15c393698795",
+  "journal_head_sha256": "0a812d81f817251308d4602621239d49beeec07f8e71a3e80ed38c373f7fb7d8",
+  "progress_file_sha256": "bb7878cbed1c02671a1795762b9d5dfc3cc3c222407bed732c1eb5fb09b384dd",
+  "progress_status": "PAUSED_AT_LIMIT",
+  "result": null,
+  "run_id": "488a0dc9-b78d-44aa-b7a3-14fc0b511d67",
+  "source_sha256": {
+    "cases.json": "001343ad3f49cd7c501ae63483c56a58068f301d45f3eb90afec9a5d8c9d606a",
+    "cegar.py": "c0795a26297d0b3a9d624b418f69857bb68884c0125ff8f941b38ab52a0232e6",
+    "requirements.txt": "34ffbeff9bca7b83c0acfb0b8614db5c391c7c9b4a28eb8c2b7539afd85d6169",
+    "verify_candidate.py": "2979e842e681b66c1a0c82c590b037c80a0457196fd6c4889b4e85ad1413d363"
+  },
+  "static_clause_sha256": "fed301c324475822abdc1531a04521939f99ce797b832664cdbd6ac0abcda4aa",
+  "scope": "Audited time-limited v1 journal prefix only; no candidate, result, or exhaustion conclusion.",
+  "verified_utc": "2026-08-02T17:43:00+00:00"
+}
