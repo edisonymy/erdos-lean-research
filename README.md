@@ -55,6 +55,12 @@ because the original problem lacked a public Lean statement.
 - **Erdős #167:** exact independently replayed exclusion through order 11 for Tuza's
   triangle covering/packing conjecture, conditional on Puleo's reduction and nauty
   catalogue completeness; this is a bounded result only.
+- **Erdős #719:** an independently audited elementary argument proves the
+  `r=3`, order-nine, packing-number-at-most-one slice of the Erdős--Sauer
+  decomposition conjecture.  It uses the classification of 3-intersecting
+  four-set families and the exact value `ex_3(9,K4^3)=54`; adversarial
+  standard-library checkers backstop the finite ingredients.  This is a
+  bounded theorem, not a solution of #719.
 - **Erdős #196:** an audited negative Rethlas attempt on monotone four-term progressions in
   permutations of the naturals; no proof, counterexample, or verified blueprint resulted.
 - **Erdős #274:** an exact GAP/Python search excludes distinct-index right-coset

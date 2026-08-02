@@ -1,0 +1,53 @@
+{
+  "schema": "erdos719-n9-k1-result-v1",
+  "date": "2026-08-02",
+  "problem": 719,
+  "full_erdos_719_solution": false,
+  "status": "VERIFIED_BOUNDED_NEGATIVE_RESULT",
+  "claim": "Every 3-uniform hypergraph G on 9 vertices with edge-disjoint K_4^3 packing number nu(G)<=1 satisfies e(G)-3*nu(G)<=54=ex_3(9,K_4^3).",
+  "counterexample_found": false,
+  "scope": {
+    "r": 3,
+    "n": 9,
+    "packing_number_upper_bound": 1
+  },
+  "proof": {
+    "method": "3-intersecting 4-set dichotomy plus a three-triple completion of the fixed-five missing-edge hitter",
+    "structure_check": "VERIFIED_FINITE_STRUCTURE",
+    "ex_3_9_certificate": "standard-library exact t_7 computation, deletion inequalities, and checked cyclic constructions",
+    "ex_3_9": 54
+  },
+  "near_miss": {
+    "independently_checked_edges": 55,
+    "independently_checked_packing_number": 1,
+    "independently_checked_minimum_parts": 52,
+    "margin_over_ex": -2,
+    "solver_evidence_for_overall_packing_one_maximum": [55, 56]
+  },
+  "completed_solver_queries_without_proof_logs": [
+    {
+      "branch": "all K_4^3 copies inside a fixed five-set",
+      "edge_threshold": 58,
+      "status": "UNSAT",
+      "seconds": 32.063
+    },
+    {
+      "branch": "all K_4^3 copies inside a fixed five-set",
+      "edge_threshold": 57,
+      "status": "UNSAT",
+      "seconds": 155.5
+    },
+    {
+      "branch": "fixed five-set with anchored K_4^3 on 0123",
+      "edge_threshold": 57,
+      "status": "UNSAT",
+      "seconds": 114.5
+    }
+  ],
+  "priority_gate": {
+    "search_cutoff": "2026-08-02T19:10:00Z",
+    "verdict": "no prior public proof or counterexample located",
+    "public_claim_made": false
+  },
+  "kill_decision": "STOP_NO_LARGER_SLICE_WITHOUT_NEW_SIGNAL"
+}

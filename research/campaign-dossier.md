@@ -298,6 +298,7 @@ Primary documentation:
 | #488 | barrier result | Exact sparse counterexample `A={4,6,9,10,14,15,21,22,25,26}`, `n=91` disproves the proposed auxiliary incidence inequality, not Erdős #488. | Any proof must preserve floor-position information more finely. |
 | #617, `r=5` | withdrawn | Local Ramsey/SAT work is superseded by Sneiderman's proof and Kara's independent Lean verification deposited 24 July 2026. | Permanently exclude this fixed case from target claims; all-`r` remains open. |
 | #699 | formal reductions, paused | Sorry-free Lean proves the weak/strict boundary split, a large-prime sufficient condition, and a concrete `(28,5,14)` certificate. Independent searches reproduce known data but do not improve the public `n<=100000` computation. | The unresolved core is simultaneous Kummer digit avoidance, not finite enumeration. |
+| #719 | bounded result | For every nine-vertex 3-graph with edge-disjoint tetrahedron packing number at most one, the exact minimum decomposition size is at most `54=ex_3(9,K4^3)`.  The elementary proof and finite backstops passed two adversarial audits. | The full conjecture remains open; do not expand to order 10 or packing number two without a new structural signal. |
 | #742 | active | See Section 5. | Sole live lane during conservation. |
 | #982 | family theorems, paused | Exact integer-octagon exclusion through span 7; a rational equality family; all-order exclusion of alternating two-radius dihedral polygons; exact proof for a four-parameter `D2` octagon family. | Stop bounded symmetric enumeration; a future lane must attack arbitrary configurations. |
 
@@ -399,6 +400,7 @@ Published releases, in chronological scope:
 | [`erdos742-order5-fixed10-2026-08-02`](https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos742-order5-fixed10-2026-08-02) | native certificate package for `1^10 5^3` |
 | [`erdos742-order5-fixed5-lean-2026-08-02`](https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos742-order5-fixed5-lean-2026-08-02) | Lean imports for all six fixed-five CNFs |
 | [`erdos742-order5-fixed15-t57-2026-08-02`](https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos742-order5-fixed15-t57-2026-08-02) | 6.52 GB direct-LRAT `t=57` checkpoint and clean replay assets |
+| [`erdos719-n9-packing1-2026-08-02`](https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos719-n9-packing1-2026-08-02) | independently audited bounded packing-one theorem; not a full #719 solution |
 
 The latest source package before this dossier is commit
 [`2e82b92b951bc34fe506fd9cd97974dae2e3e67a`](https://github.com/edisonymy/erdos-lean-research/commit/2e82b92b951bc34fe506fd9cd97974dae2e3e67a).

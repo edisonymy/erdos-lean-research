@@ -1,0 +1,8 @@
+{
+  "edges": [],
+  "link_threshold": 18,
+  "old_edge_count": 38,
+  "schema": "erdos719-n8-nearmiss-extension-v1",
+  "solver": "cadical195",
+  "status": "unsat"
+}

@@ -1,0 +1,40 @@
+{
+  "counterexample": false,
+  "edge_count": 55,
+  "ex_certificate": {
+    "deletion_identity": "(n-3)*t_n >= n*t_(n-1)",
+    "t7_exact_standard_library": 12,
+    "t8_checked_construction_edges": 36,
+    "t8_deletion_lower": 20,
+    "t9_checked_construction_edges": 54,
+    "t9_deletion_lower": 30
+  },
+  "exact_edge_disjoint_packing_number": 1,
+  "exact_ex_3_9": 54,
+  "exact_minimum_decomposition_parts": 52,
+  "margin_over_ex": -2,
+  "n": 9,
+  "present_k4_3_vertex_sets": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      0,
+      1,
+      2,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      5
+    ]
+  ],
+  "r": 3,
+  "schema": "erdos719-n9-definition-check-v1",
+  "status": "VERIFIED_GRAPH_QUANTITIES"
+}

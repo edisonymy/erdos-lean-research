@@ -1,0 +1,25 @@
+{
+  "classification_configurations_checked": 18900,
+  "consequence_with_t9_30": "missing>=27, hence edges<=57 and edges-3<=54",
+  "four_set_count": 126,
+  "internal_cover_triples": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "internal_four_set_count": 5,
+  "schema": "erdos719-n9-structure-check-v1",
+  "status": "VERIFIED_FINITE_STRUCTURE"
+}

@@ -25,3 +25,7 @@ experiments/erdos64/sms_n32_frontier/** text eol=lf
 
 # The #274 batch record hashes exact source and replay bytes.
 experiments/erdos274_order1440/** text eol=lf
+
+# The #719 bounded-theorem package carries a byte-level integrity manifest.
+experiments/erdos719_n9_k1/** text eol=lf
+experiments/erdos719_n9_k1/*.json binary

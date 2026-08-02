@@ -1,0 +1,13 @@
+{
+  "anchor_k4_0123": true,
+  "cardinality_clauses": 4031,
+  "edge_threshold": 57,
+  "edges": [],
+  "forbidden_four_set_clauses": 121,
+  "n": 9,
+  "r": 3,
+  "schema": "erdos719-n9-k1-fixed5-threshold-v1",
+  "seconds": 114.5,
+  "solver": "cadical195",
+  "status": "unsat"
+}
