@@ -1,0 +1,32 @@
+{
+  "artifact_type": "fixed_clique_cegar_candidate",
+  "config": {
+    "admissibility_batch_size": 8,
+    "degree_max": 9,
+    "degree_min": 5,
+    "fixed_clique_size": 4,
+    "forbidden_clique_size": 5,
+    "forbidden_mode": "lazy",
+    "n": 41,
+    "name": "F4_N41",
+    "residual_admissibility_target_size": 7,
+    "residual_beta_bound": 22,
+    "scope": "labelled order-41 graphs containing the fixed K4 on vertices 0..3, containing no K5, satisfying |Z_c|<=22, with complete-forbidden then arrowing-first, residual admissible-7, generic-global separation",
+    "target_set_size": 10
+  },
+  "content_sha256": "f1c987bf3db2c006b7268e05c16b953625a71e65e6c263510fdef204ce1d701d",
+  "created_utc": "2000-01-01T00:00:00Z",
+  "graph": {
+    "degrees": [3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    "edge_count": 6,
+    "edges": [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]],
+    "edges_hex": "07000000000300000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "graph_sha256": "ed961c383ee8ed11689c1c9b2caa8574a0f4457dbecec7f10e3bb8a1fbdf24f9",
+    "n": 41,
+    "triangle_count": 4
+  },
+  "independent_verification": {"fixture": "not a search result"},
+  "oracle_results": {"fixture": "not a search result"},
+  "run": {"fixture": "synthetic-noncandidate-only"},
+  "schema_version": 5
+}

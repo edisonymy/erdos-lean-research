@@ -48,3 +48,14 @@ Only a fresh v5 run root may be created.  A writer lock is required, and a
 resume checks schema 5, `fixed_clique_cegar_v5_arrowfirst`, current source
 hashes (or the explicit drift policy), metadata content hash, journal record
 hash chain, cut replay, and candidate verifier/source/preset command binding.
+
+## Terminal handling
+
+- A candidate should first pass the bundled independent verifier and then the
+  separately implemented checker in
+  `research/erdos151/general/checks/candidate_fastpath/`. Neither screening
+  result substitutes for a proof certificate.
+- A preserved `OUTER_UNSAT_NO_PROOF_CERTIFICATE` run can be reconstructed by
+  [`proof_export.py`](proof_export.py); see [`PROOF_EXPORT.md`](PROOF_EXPORT.md).
+  The exporter produces a hash-bound DIMACS input only. A checked DRAT/LRAT
+  proof is still required before any exhaustion claim.
