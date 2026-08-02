@@ -1,9 +1,10 @@
 # Priority and literature audit
 
-**Cutoff:** 2 August 2026, with an announcement-level repeat at 13:09 UTC.
+**Cutoff:** 2 August 2026, with announcement-level repeats at 13:09 and
+15:03 UTC.
 **Conclusion:** no prior proof, counterexample, recurrence, or explicit
-verification through order 18, 22, or 27 specific to Erdős problem 151 was
-found.  This is absence of evidence, not proof of novelty.
+verification through order 18, 22, 27, or 39 specific to Erdős problem 151
+was found.  This is absence of evidence, not proof of novelty.
 
 ## Current status and recent-claim sweep
 
@@ -21,6 +22,12 @@ found.  This is absence of evidence, not proof of novelty.
   fresh exact-title/formula/problem-number sweep again found no matching
   preprint or announcement.  The database warning that its status can lag was
   treated as a reason to search, not as evidence of novelty.
+- Immediately before the through-order-39 result was prepared, another sweep
+  searched the exact inequality, problem number, original paper title,
+  clique-free-number terminology, Ramsey values `R(3,9)` and `R(3,10)`, and
+  Folkman/minimal-Ramsey formulations.  It found the original problem,
+  general clique-transversal literature, and the recent asymptotic Ulam note,
+  but no matching bounded theorem or proof mechanism.
 - The April 2026 Ulam note
   [*A note on the clique-transversal number*](https://www.ulam.ai/research/erdos610.pdf)
   concerns the asymptotic problem #610.  It explicitly leaves the stronger
@@ -68,9 +75,9 @@ triangle-edge-coloring argument, or the finite verification recorded here.
 
 ## Calibrated novelty assessment
 
-- About **95% confidence** that no prior public full resolution or explicit
-  finite verification through order 18, 22, or 27 was present in the searched
-  venues before this publication.
+- About **95% confidence** that no prior public full resolution was present in
+  the searched venues before this publication, and about **92% confidence**
+  that no explicit finite verification through order 39 was present.
 - About **90% confidence** that the recurrence and Ramsey-interval strategy do
   not occur in the searched literature.
 - **No novelty claim** for the complementary parameter or `tau+beta=n`.

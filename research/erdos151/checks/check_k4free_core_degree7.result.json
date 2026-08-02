@@ -1,0 +1,21 @@
+{
+  "all_labelled_graph_masks_considered": 2097152,
+  "check": "signed_triangle_free_link_degree_at_most_7",
+  "claim": "Every red/blue edge-signed triangle-free graph on at most seven vertices has a spoke assignment in which no edge has both endpoint spokes equal to its sign.",
+  "edge_signings_checked": 1348032,
+  "elapsed_seconds": 4.928017,
+  "expected_edge_signings": 1348032,
+  "expected_maximal_triangle_free_graphs": 1743,
+  "finished_utc": "2026-08-02T14:46:39.938550Z",
+  "maximal_triangle_free_graphs": 1743,
+  "method": "Enumerate all labelled maximal triangle-free graphs on seven vertices, every edge signing, and cover-test all 128 spoke assignments using Python integer bitsets.",
+  "obstruction": null,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "script": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\erdos151\\checks\\check_k4free_core_degree7.py",
+  "script_sha256": "ae08af0e380ad4147f3ad9d51327336a8c395f707a1e753c0a3b3b3b75e3e316",
+  "spoke_assignments_per_signing": 128,
+  "started_utc": "2026-08-02T14:46:35.008866Z",
+  "status": "VERIFIED",
+  "vertices": 7
+}

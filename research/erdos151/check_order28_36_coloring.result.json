@@ -1,0 +1,11 @@
+{
+  "check": "order28_36_finite_coloring_lemmas",
+  "status": "VERIFIED",
+  "date": "2026-08-02",
+  "method": "Exhaust every red/blue edge-colored graph on at most four vertices with no monochromatic triangle, excluding the K4 link, and every color prescription on a matching of K4.",
+  "cone_colored_link_cases": 555,
+  "matching_prescription_cases": 25,
+  "script": "research/erdos151/check_order28_36_coloring.py",
+  "script_sha256": "19fa7222a421bad4bbfa9cdb73c86e44673b790f2a51b26952c7b7c69a09c573",
+  "dependencies": "Python standard library only"
+}

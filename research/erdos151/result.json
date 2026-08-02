@@ -1,18 +1,22 @@
 {
-  "schema": "erdos151-structural-result-v5",
+  "schema": "erdos151-structural-result-v6",
   "published_utc": "2026-08-02T12:36:11Z",
-  "updated_utc": "2026-08-02T13:37:49Z",
+  "updated_utc": "2026-08-02T15:02:35Z",
   "problem": 151,
   "full_problem_status": "OPEN_NOT_SOLVED_BY_THIS_RESULT",
   "verified_claims": [
-    "tau(G) <= n - H(n) for every graph G of order n <= 27",
+    "tau(G) <= n - H(n) for every graph G of order n <= 39",
     "beta(G) >= |I| + beta(G - N[I]) for every independent set I",
     "a smallest counterexample with h=H(n) satisfies R(3,h) <= n <= R(3,h-1)+h-1",
     "no order-18 counterexample exists",
     "beta(G) >= 7 for every graph G of every order n >= 23",
     "no order-23 counterexample exists",
     "no order-24 counterexample exists",
-    "the next possible first-counterexample orders are n=28, n=29, and n=30"
+    "beta is monotone from induced subgraphs: if F is induced in G, then beta(G) >= beta(F)",
+    "a least-order counterexample can occur only at an exact Ramsey jump n=R(3,h)",
+    "no order-28 counterexample exists",
+    "no order-36 counterexample exists",
+    "the next possible first-counterexample order is R(3,10), currently either 40 or 41"
   ],
   "ramsey_dependencies": {
     "R(3,2)": 3,
@@ -21,13 +25,53 @@
     "R(3,5)": 14,
     "R(3,6)": 18,
     "R(3,7)": 23,
-    "R(3,8)": 28
+    "R(3,8)": 28,
+    "R(3,9)": 36,
+    "R(3,10)_lower_bound": 40,
+    "R(3,10)_upper_bound": 41
   },
   "classical_theorem_dependencies": {
     "Brooks_theorem": "A connected graph has chromatic number at most its maximum degree unless it is complete or an odd cycle.",
-    "Gallai_low_vertex_theorem": "In a k-critical graph, the subgraph induced by the degree-(k-1) vertices is a Gallai forest."
+    "Gallai_low_vertex_theorem": "In a k-critical graph, the subgraph induced by the degree-(k-1) vertices is a Gallai forest.",
+    "Bikov_minimal_Ramsey_degree": "A minimal (3,3)-Ramsey graph with clique number three has minimum degree at least eight; the bounded specialization used here is also independently exhaustively checked."
   },
-  "independent_proof_audit": "VERIFIED_THROUGH_ORDER_27",
+  "independent_proof_audit": "VERIFIED_THROUGH_ORDER_39",
+  "order28_36_verification": {
+    "status": "VERIFIED",
+    "proof": "order28_36.md",
+    "proof_sha256": "ebdfa23d129183fce4c47220bae8c5a5f02a75631c89dcae9a386997780ef11d",
+    "audit": "audit_order28_36.md",
+    "audit_sha256": "23f425230da80edd6871043acd223f0bb5b885249a2af28dd82367b3f852d0dd",
+    "verified_theorem": "tau(G) <= n-H(n) for every graph G of order n <= 39",
+    "excluded_jump_orders": [28, 36],
+    "next_possible_jump_order": "R(3,10), currently 40 or 41",
+    "independent_audits": [
+      "SOL_MAX_ORDER28_ADVERSARIAL_RECONSTRUCTION",
+      "FRESH_SOL_MAX_ORDER28_36_RECONSTRUCTION",
+      "SOL_MAX_ORDER36_DEPENDENCY_AUDIT",
+      "PRIMARY_AGENT_END_TO_END_RECONSTRUCTION"
+    ],
+    "finite_coloring_check": {
+      "source": "check_order28_36_coloring.py",
+      "source_sha256": "19fa7222a421bad4bbfa9cdb73c86e44673b790f2a51b26952c7b7c69a09c573",
+      "result": "check_order28_36_coloring.result.json",
+      "result_sha256": "1ec5e5650c805ff16ae22a782af5db9b17a23148caf0884859f3c96394f7b519",
+      "colored_link_cases": 555,
+      "matching_prescription_cases": 25,
+      "status": "VERIFIED"
+    },
+    "k4free_core_check": {
+      "source": "checks/check_k4free_core_degree7.py",
+      "source_sha256": "ae08af0e380ad4147f3ad9d51327336a8c395f707a1e753c0a3b3b3b75e3e316",
+      "result": "checks/check_k4free_core_degree7.result.json",
+      "result_sha256": "207bf54c93cf3f08cd58459ba434633a3fb82867111abbaa70656e3a1e7c4bdf",
+      "labelled_graph_masks": 2097152,
+      "maximal_triangle_free_graphs": 1743,
+      "edge_signings": 1348032,
+      "obstructions": 0,
+      "status": "VERIFIED"
+    }
+  },
   "order23_verification": {
     "status": "VERIFIED",
     "proof": "order23.md",
@@ -75,9 +119,9 @@
     "independent_semantic_audit": "VERIFIED"
   },
   "literature_audit": {
-    "as_of_utc": "2026-08-02T13:09:38Z",
+    "as_of_utc": "2026-08-02T15:03:00Z",
     "prior_full_solution_or_matching_finite_result_found": false,
-    "estimated_confidence_no_prior_public_matching_result": 0.95,
+    "estimated_confidence_no_prior_public_matching_result": 0.92,
     "estimated_confidence_recurrence_is_new_to_searched_literature": 0.9,
     "known_parameter_prior_art": [
       "Bhat-Bhat-Bhat, Clique Free Number of a Graph (2023)",

@@ -29,14 +29,14 @@ because the original problem lacked a public Lean statement.
 
 ## Current campaigns
 
-- **Erdős #151:** an independently derived recurrence, local link counts,
-  and Ramsey/critical-graph arguments prove the conjectured
-  clique-transversal bound for every graph on at most 27 vertices.  A
-  sorry-free Lean file verifies the recurrence alone.  A multiply audited
-  induced-subgraph monotonicity lemma reduces every Ramsey plateau to its
-  jump order, so only order 28 remains in the next plateau; a clique-residual
-  lemma forces any such least counterexample to be `K5`-free.
-  This is structural finite-order progress, not a solution of the full problem.  See
+- **Erdős #151:** independently audited analytic arguments prove the
+  conjectured clique-transversal bound for every graph on at most 39
+  vertices.  A sorry-free Lean file verifies the foundational recurrence
+  alone.  Induced-subgraph monotonicity reduces each Ramsey plateau to its
+  jump order, and new Folkman-core coloring arguments exclude the jumps at
+  28 and 36.  With `40<=R(3,10)<=41`, the next possible least-counterexample
+  order is 40 or 41.  This is substantial finite-order progress, not a
+  solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
   without power-of-two cycles, last focused beyond the reported public order-31 frontier.

@@ -1,14 +1,14 @@
-# Erdős problem 151: structural reductions through the first Ramsey interval
+# Erdős problem 151: verified through order 39
 
 **Public status (2 August 2026):** the full Erdős--Gallai--Tuza conjecture
 remains open.  This package proves the conjectured inequality for every graph
-on at most 27 vertices.  The proof excludes the order-18, order-23, and
-order-24 cores analytically and then propagates the resulting lower bounds by
-the independent-set recurrence.  It does **not** claim a solution of problem
-151.  The initial next first-counterexample interval was orders 28--30.  The
-independently audited induced-subgraph monotonicity lemma now shows that a
-least counterexample can occur only at an exact Ramsey jump.  Thus the entire
-next first-counterexample search is reduced to order 28 alone.
+on at most 39 vertices.  Earlier files establish the bound through order 27.
+The independently audited proof in [`order28_36.md`](order28_36.md) excludes
+the next two exact Ramsey jumps, orders 28 and 36; induced-subgraph
+monotonicity propagates those exclusions through the intervening plateaus.
+It does **not** claim a solution of problem 151.  Since the current published
+bounds are `40<=R(3,10)<=41`, the next possible least-counterexample order is
+40 or 41.
 
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum
@@ -63,20 +63,19 @@ seven-set is avoiding.  Strong induction with the recurrence gives
 conjectured bound through order 27.  It does not settle any later Ramsey
 interval.
 
-Three further structural theorems sharpen the first open interval without
-claiming to settle it.  The
+Three structural theorems first sharpened the order-28 attack.  The
 [`induced-subgraph monotonicity lemma`](general/INDUCED_MONOTONICITY.md)
-reduces every Ramsey plateau to its first order; consequently, clearing order
-28 alone would prove the conjecture through order 35.  The
+reduces every Ramsey plateau to its first order.  The
 [`top-window Ramsey-core inequality`](general/TOP_WINDOW_RAMSEY_CORE.md)
 shows that an order-30 least counterexample would contain an edge-minimal
 `(3,3)`-arrowing core whose degrees are simultaneously at most four and at
 least five, a contradiction.  The independently audited
 [`clique-residual lemma`](general/CLIQUE_RESIDUAL.md) proves that every least
 counterexample at orders 28--30 is `K5`-free, strengthening the working bound
-to `omega(G)<=4`.  The top-window theorem is now operationally superseded by
-the stronger monotonicity reduction, but remains a valid independent
-structural result.
+to `omega(G)<=4`.  These ingredients, the Folkman reduction, two elementary
+coloring lemmas, and a small exact link check now exclude orders 28 and 36 in
+[`order28_36.md`](order28_36.md).  The top-window theorem remains a valid
+independent structural result.
 
 ## Evidence and audit
 
@@ -85,20 +84,25 @@ structural result.
 - [`order23.md`](order23.md) gives the independently audited order-23 proof.
 - [`order24.md`](order24.md) gives the independently audited order-24 proof
   and its `beta>=7` propagation corollary.
+- [`order28_36.md`](order28_36.md) gives the independently reconstructed
+  analytic exclusions of the Ramsey jumps at 28 and 36 and the resulting
+  theorem through order 39.
+- [`audit_order28_36.md`](audit_order28_36.md) records three adversarial proof
+  passes, the exact dependency boundary, and two exhaustive finite checks.
 - [`general/TOP_WINDOW_RAMSEY_CORE.md`](general/TOP_WINDOW_RAMSEY_CORE.md)
-  gives the twice-audited top-window core inequality and the exact reduction
-  from orders 28--30 to orders 28--29.
+  gives the twice-audited top-window core inequality that first reduced
+  orders 28--30 to orders 28--29.
 - [`general/INDUCED_MONOTONICITY.md`](general/INDUCED_MONOTONICITY.md) gives
   the twice-audited reduction from an entire Ramsey plateau to its jump order;
-  it supersedes the 28--29 operational scope above by leaving order 28 alone.
+  it then reduced that plateau to order 28, which `order28_36.md` now excludes.
 - [`general/CLIQUE_RESIDUAL.md`](general/CLIQUE_RESIDUAL.md) gives the
   twice-audited `omega<=4` reduction for the first open interval.
 - [`audit.md`](audit.md) records the independent maximality, induction, Ramsey,
   and computation checks.
 - [`literature.md`](literature.md) records the current priority search and the
   exact boundary between known parameter prior art and the present proof method.
-- [`result.json`](result.json) records the exact claim, dependency thresholds,
-  and the disposition of the superseded order-14 computation.
+- [`result.json`](result.json) records the exact through-order-39 claim,
+  dependency thresholds, hashes, and the disposition of superseded searches.
 - [`lean/Erdos151Recurrence.lean`](lean/Erdos151Recurrence.lean) is a
   sorry-free Lean 4/mathlib verification of the independent-set recurrence
   alone.  It does not formalize the Ramsey inputs, the order-18 argument, or
@@ -111,6 +115,9 @@ structural result.
 - A different Sol/max agent independently reconstructed every step of the
   order-23 proof, including both coloring extensions and the Gallai-forest
   block count, before publication.
+- Three independent adversarial passes reconstructed the new order-28/36
+  proof.  The two finite coloring inputs were also exhaustively checked by
+  separate programs using only the Python standard library.
 - [`checks/marked_neighborhood6.py`](checks/marked_neighborhood6.py) is a
   small optional exhaustive sanity check for the six-vertex link lemma.  The
   analytic proof does not depend on it.
