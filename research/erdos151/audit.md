@@ -1,10 +1,12 @@
 # Independent audit record
 
-**Status:** `VERIFIED` on 2 August 2026.
+**Status:** `VERIFIED` through order 22 on 2 August 2026.
 
-This audit was performed by a separate agent after the proof was proposed and
-before the order-14 solver portfolio was stopped.  It verifies a bounded
-theorem and structural reduction only, not the full Erdős problem.
+The initial through-17 audit was performed by a separate agent before the
+order-14 solver portfolio was stopped.  The order-18 extension received a
+fresh independent Sol/max audit before the later order-18 portfolio was
+stopped.  These audits verify a bounded theorem and structural reduction only,
+not the full Erdős problem.
 
 ## Checks performed
 
@@ -24,11 +26,22 @@ theorem and structural reduction only, not the full Erdős problem.
 6. **Strong induction.**  For orders 10--13 the residual has order at least
    six; for orders 14--17 it has order at least nine.  No order outside the
    established induction range is invoked.
-7. **Ramsey dependencies.**  The values of `H` use exactly
-   `R(3,3)=6`, `R(3,4)=9`, `R(3,5)=14`, and `R(3,6)=18`.
-8. **Order-18 constraints.**  The independent-set recurrence was reapplied
-   with `r=1,2,3,4`; the clique-number argument was checked using maximal
-   rather than maximum cliques.
+7. **Ramsey dependencies.**  The small-order proof and order-18 reduction use
+   `R(3,2)=3`, `R(3,3)=6`, `R(3,4)=9`, `R(3,5)=14`, and `R(3,6)=18`.
+8. **Order-18 reduction.**  The independent-set recurrence was reapplied with
+   `r=1,2,3,4`; the clique-number argument was checked using maximal rather
+   than maximum cliques.
+9. **Mixed degree sequences.**  A fresh Sol/max audit independently checked
+   the nonbacktracking length-two-walk identity, every multiplicity bound, and
+   all 30 admissible `(p,s)` entries in the degree-four link table.  No even
+   `p<18` is feasible.
+10. **5-regular case.**  The audit checked the second walk count, the exact
+    three possible link graphs, the triangle-component classification, and
+    every mixture of `L`- and matching-edges in the auxiliary graph.
+11. **Ramsey conclusion.**  An independent six-set in the triangle-free
+    auxiliary graph avoids maximal edges via `L` and all larger cliques via
+    the triangle-hitting matching.  `R(3,7)=23` and odd-degree parity then
+    propagate the result through order 22.
 
 ## Computational cross-check
 
@@ -43,7 +56,7 @@ geng SHA-256:     64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7
 ```
 
 One implementation enumerated maximal cliques and optimized `beta`; the other
-directly tested every subset of each four-set with a separate graph6 parser.
+searched every submask of every four-set with a separate graph6 parser.
 All graph counts, edge histograms, hashes, and counterexample counts agreed.
 This computation is only a sanity check because the public proof is analytic.
 
@@ -58,9 +71,27 @@ no SAT/UNSAT conclusion.  Their exact status is
 `STOPPED_AFTER_STRUCTURAL_PROOF`; all CNF, source, metadata, and log artifacts
 remain preserved locally, and no file was deleted.
 
+## Superseded order-18 search
+
+Before the analytic order-18 contradiction was found, direct candidate CNFs
+were built for degree-four counts `q=0,2,4`.  An independent clause-multiset
+auditor reconstructed every semantic clause and verified all three instances:
+
+```text
+q=0: 371,229 clauses, SHA-256 7743cdb0016c3637627e6b9b5c7e835e4ba7c3f491740115ec14d4469658b1e1
+q=2: 355,453 clauses, SHA-256 44e7e22569ef763c0790f21bc61f8133335e372e3e2febbd4e9f569afb7074e8
+q=4: 339,677 clauses, SHA-256 2305301e0d74c7696b5082c613ee3991e4991152c1bf995b6251ba5093b2aea2
+```
+
+The three proof-free CaDiCaL workers were identity-checked and stopped after
+the fresh analytic audit succeeded.  None had emitted a candidate, result, or
+solver conclusion.  Their status is `STOPPED_AFTER_STRUCTURAL_PROOF`, with
+`unsat_claim=false`; all artifacts were preserved and nothing was deleted.
+
 ## Remaining trust boundary
 
 The proof is not yet kernel-formalized and has not yet received human peer
-review.  The older-literature comparison is targeted rather than exhaustive.
-Those boundaries affect novelty and uptake, not the internal validity of the
-elementary argument recorded in [`proof.md`](proof.md).
+review.  The `beta` duality is prior art (Bhat--Bhat--Bhat, 2023); the search
+for prior occurrences of the recurrence and through-22 result is targeted
+rather than exhaustive.  Those boundaries affect novelty and uptake, not the
+internal validity of the elementary argument recorded in [`proof.md`](proof.md).

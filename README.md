@@ -29,11 +29,10 @@ because the original problem lacked a public Lean statement.
 
 ## Current campaigns
 
-- **Erdős #151:** a new closed-neighborhood recurrence proves the conjectured
-  clique-transversal bound for every graph on at most 17 vertices and reduces
-  the first possible counterexample to a connected order-18 graph with degrees
-  4/5 and clique number at most four.  This is structural finite-order progress,
-  not a solution of the full problem.  See
+- **Erdős #151:** an independently derived independent-set recurrence and local link argument
+  prove the conjectured clique-transversal bound for every graph on at most 22
+  vertices.  The next possible first-counterexample orders are 23 and 24.
+  This is structural finite-order progress, not a solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
   without power-of-two cycles, last focused beyond the reported public order-31 frontier.

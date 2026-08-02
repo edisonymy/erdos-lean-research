@@ -506,13 +506,25 @@ beta(G) >= |I| + beta(G-N[I])
 
 for every independent set `I`.  A second agent independently audited the
 maximality direction, all base cases, the strong induction, and the exact
-Ramsey thresholds.  The result proves the conjectured #151 bound for every
-graph of order at most 17.  It also confines a smallest counterexample with
-`h=H(n)` to `R(3,h) <= n <= R(3,h-1)+h-1`; the first surviving order is 18.
+Ramsey thresholds.  The first result proves the conjectured #151 bound for
+every graph of order at most 17 and confines a smallest counterexample with
+`h=H(n)` to `R(3,h) <= n <= R(3,h-1)+h-1`.  A second, separately audited
+local-link argument excludes the first surviving order 18.  Parity and
+`R(3,7)=23` then propagate the result through order 22.
 
 The order-14 SAT portfolio was stopped after 1,024.859 seconds because the
 structural proof makes a counterexample there impossible.  It produced no
 candidate and no solver conclusion, and is recorded as
-`STOPPED_AFTER_STRUCTURAL_PROOF`, not `UNSAT`.  The proof, audit boundary,
-order-18 constraints, and machine-readable record are published in
+`STOPPED_AFTER_STRUCTURAL_PROOF`, not `UNSAT`.  Three later order-18
+candidate runs (`q=0,2,4`) were stopped under the same label after the analytic
+contradiction passed a fresh Sol/max audit; they likewise produced no solver
+conclusion.  The proof, audit boundary, order-18 contradiction, and
+machine-readable record are published in
 [`erdos151/`](erdos151/).  The universal Erdős problem remains open.
+
+A dedicated priority sweep found prior art for the complementary parameter
+and identity `tau+beta=n` (Bhat--Bhat--Bhat 2023, with the equivalent
+maximal-clique-free parameter in McDiarmid--Mitsche--Prałat 2019), but no
+public occurrence of the recurrence, Ramsey interval, or through-22 result.
+Novelty confidence is about 90%, not a substitute for expert literature
+review.
