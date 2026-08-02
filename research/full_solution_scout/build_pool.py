@@ -30,6 +30,10 @@ HUNTER_DIR = HERE / "llm-hunter-live" / "attacks" / "erdos"
 HUNTER_REPO = HERE / "llm-hunter-live"
 FORMAL_REPO = HERE / "formal-conjectures-live"
 PROBLEMS_REPO = HERE / "erdosproblems-live"
+PROBLEMS_URL = "https://github.com/teorth/erdosproblems.git"
+FORMAL_URL = "https://github.com/google-deepmind/formal-conjectures.git"
+HUNTER_URL = "https://github.com/mehmetmars7/Erdosproblems-llm-hunter.git"
+VIBEMATHED_URL = "https://vibemathed.com/api/dataset"
 
 # Problems already active, paused, audited, scouted, or scratched in this
 # campaign (dossier sections 5-7 plus untracked scratch directories).
@@ -73,9 +77,14 @@ def public_path(path: Path | None) -> str | None:
         return path.name
 
 
-def source_record(path: Path | None, repo: Path | None = None) -> dict:
+def source_record(
+    path: Path | None,
+    repo: Path | None = None,
+    url: str | None = None,
+) -> dict:
     return {
         "path": public_path(path),
+        "url": url,
         "sha256": sha256_file(path),
         "git_commit": git_head(repo) if repo is not None else None,
         "modified_utc": (
@@ -190,10 +199,17 @@ def main() -> None:
     out = {
         "generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
         "sources": {
-            "problems_yaml": source_record(PROBLEMS_YAML, PROBLEMS_REPO),
-            "vibemathed_snapshot": source_record(vibe_path),
-            "llm_hunter": source_record(None, HUNTER_REPO),
-            "formal_conjectures": source_record(None, FORMAL_REPO),
+            "problems_yaml": source_record(
+                PROBLEMS_YAML, PROBLEMS_REPO, PROBLEMS_URL
+            ),
+            "vibemathed_snapshot": source_record(
+                vibe_path, url=VIBEMATHED_URL
+            ),
+            "vibemathed_claimed_problem_numbers": sorted(claimed),
+            "llm_hunter": source_record(None, HUNTER_REPO, HUNTER_URL),
+            "formal_conjectures": source_record(
+                None, FORMAL_REPO, FORMAL_URL
+            ),
         },
         "counts": {
             "database_problems": len(problems),

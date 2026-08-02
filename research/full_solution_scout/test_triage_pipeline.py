@@ -2,7 +2,10 @@ from __future__ import annotations
 
 import unittest
 
-import triage_pipeline as pipeline
+try:
+    from . import triage_pipeline as pipeline
+except ImportError:  # Direct `python test_triage_pipeline.py` invocation.
+    import triage_pipeline as pipeline
 
 
 def valid_row() -> dict:
@@ -44,6 +47,12 @@ class TriagePipelineTests(unittest.TestCase):
         row["stale_suspicion"] = True
         errors = pipeline.validate_row(row, pipeline.Path("test.json"), True)
         self.assertTrue(any("stale_why required" in error for error in errors))
+
+    def test_live_row_requires_its_problem_page(self) -> None:
+        row = valid_row()
+        row["source_urls"] = ["https://example.org/paper"]
+        errors = pipeline.validate_row(row, pipeline.Path("test.json"), True)
+        self.assertTrue(any("include the live problem page" in error for error in errors))
 
     def test_scope_partition(self) -> None:
         rows = [

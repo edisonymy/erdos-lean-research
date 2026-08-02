@@ -147,6 +147,14 @@ def validate_row(row: Any, source: Path, require_live: bool) -> list[str]:
                 for url in urls
             ):
                 errors.append(f"{source}: #{number}: source_urls must be nonempty URLs")
+            elif (
+                isinstance(number, int)
+                and not isinstance(number, bool)
+                and f"https://www.erdosproblems.com/{number}" not in urls
+            ):
+                errors.append(
+                    f"{source}: #{number}: source_urls must include the live problem page"
+                )
             if not isinstance(row["recognition_path"], bool):
                 errors.append(f"{source}: #{number}: recognition_path must be Boolean")
     return errors

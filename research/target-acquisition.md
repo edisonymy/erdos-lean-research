@@ -54,8 +54,10 @@ deterministically from the three local database snapshots:
 
 ### Tier 1 — statement triage (hours, whole pool)
 
-Score every pooled problem on the five axes below from its statement
-(Formal Conjectures docstring or live problem page).  No solver time.
+Score every pooled problem on five numeric axes from its statement (Formal
+Conjectures docstring or live problem page), then apply the recognition gate
+and formalization bonus below.  No solver time.  For collision, a higher
+numeric score means safer / less competitive.
 
 | Axis | Question | Weight |
 |---|---|---|

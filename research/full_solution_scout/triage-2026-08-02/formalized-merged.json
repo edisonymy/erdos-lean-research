@@ -1,9 +1,9 @@
 {
   "schema": "erdos-target-triage-v2",
-  "generated_utc": "2026-08-02T10:35:11.204885+00:00",
+  "generated_utc": "2026-08-02T10:50:34.725053+00:00",
   "pool": {
     "path": "research\\full_solution_scout\\pool-2026-08-02.json",
-    "sha256": "3c490675a43f63bd29dd67b0d8ae29e9cc0389deb9eedf6af9b8b4f059d8c238"
+    "sha256": "c4501027af21b431d165ec3b6ff02aea9d787ee2243540709ed10d5378737821"
   },
   "scope": "formalized-open",
   "require_live_evidence": false,

@@ -1,0 +1,54 @@
+{
+  "schema": "erdos-private-triage-commitment-v1",
+  "committed_utc": "2026-08-02T10:50:55.3888596Z",
+  "scope": "non-formalized-open",
+  "reason_private": "The identities and target-specific rows of newly promoted probes are withheld only during the campaign's initial <=24 hour tactical embargo.",
+  "embargo_deadline_utc": "2026-08-03T10:35:11.292427Z",
+  "release_early_on": [
+    "verified full result",
+    "probe killed"
+  ],
+  "pool": {
+    "path": "research/full_solution_scout/pool-2026-08-02.json",
+    "bytes": 204177,
+    "sha256": "c4501027af21b431d165ec3b6ff02aea9d787ee2243540709ed10d5378737821"
+  },
+  "private_merge": {
+    "generated_utc": "2026-08-02T10:50:34.821148+00:00",
+    "bytes": 186608,
+    "sha256": "b61bf930139a60f663ffa49594201f2abc9428d00e2fbe79b9fe792e1a96fc5d",
+    "expected_count": 269,
+    "row_count": 269,
+    "complete": true,
+    "probe_grade_count": 2,
+    "status_counts": {
+      "known_partial": 149,
+      "open_no_collision_found": 87,
+      "possible_collision": 17,
+      "known_full_solution": 6,
+      "unclear": 10
+    }
+  },
+  "private_inputs": [
+    {
+      "batch": 1,
+      "bytes": 39227,
+      "sha256": "b4bc5fbf2788a2451d2737a25968cc0831e75eeba21790aee34e47ca68594bf0"
+    },
+    {
+      "batch": 2,
+      "bytes": 40732,
+      "sha256": "44919e893f767f19c0c2a8c45696305d1ffc82a33e132341e9d373a7ca557128"
+    },
+    {
+      "batch": 3,
+      "bytes": 31813,
+      "sha256": "d26b0c734cfc413ad032674260a2a30720f990778efb0b8c6fbf8e544e6ba2ab"
+    },
+    {
+      "batch": 4,
+      "bytes": 32738,
+      "sha256": "763b55f066d81dded0524c145407b1bdf8fb4bf7a793169d8518604b4f67019a"
+    }
+  ]
+}
