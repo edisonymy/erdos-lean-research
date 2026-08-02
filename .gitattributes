@@ -19,6 +19,7 @@ research/full_solution_bridges/** text eol=lf
 # The #742 LRAT package and #64 SMS frontier contain byte-level manifests.
 experiments/erdos742/order5_fixed5/** text eol=lf
 experiments/erdos742/order5_fixed5/certificates/*.zst binary
+experiments/erdos742/order5_fixed5/lean_certificates/*.zst binary
 experiments/erdos742/order5_other_fixed/** text eol=lf
 experiments/erdos64/sms_n32_frontier/** text eol=lf
 

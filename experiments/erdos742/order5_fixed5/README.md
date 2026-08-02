@@ -11,8 +11,10 @@ This directory certifies the following restricted result.
 Equivalently, no order-25 counterexample to the Murty–Simon conjecture has an
 automorphism with cycle type `1^5 5^4`.
 
-This is **not a solution of Erdős Problem 742**, does not close order 25, and
-is not a Lean proof. The theorem depends on the published reductions and the
+This is **not a solution of Erdős Problem 742** and does not close order 25.
+Lean 4 now certifies that each of the six exact generated DIMACS formulas is
+unsatisfiable, but the graph-to-CNF correspondence is not formalized in Lean.
+The graph theorem therefore still depends on the published reductions and the
 explicit computational trust boundary below. No novelty claim is made without
 external literature review.
 
@@ -102,6 +104,37 @@ powershell -ExecutionPolicy Bypass -File `
 The replay requires `zstd`, WSL, and the pinned proof tools already documented
 under `third_party/`.
 
+## Lean CNF-unsatisfiability theorems
+
+`LeanCNF/Main.lean` imports six direct LRAT certificates through
+[LRAT-Catcher](https://github.com/leansolving/lrat-catcher), pinned at commit
+`4ec2168b810636e789da3349ab3e670af338187c`, and registers one ordinary Lean
+theorem of type `(parseDimacs <exact CNF text>).Unsat` per finite case. The
+compressed direct certificates and exact hashes are in `lean_certificates/`
+and `LEAN_MANIFEST.json`.
+
+The direct LRATs were emitted by pinned CaDiCaL 1.9.5 with `--lrat
+--no-binary`. Before the Lean import, the separately compiled, hash-pinned
+native `lrat-check` also reported `c VERIFIED` for all six direct proofs. The
+older `drat-trim`-converted LRATs are retained for the original replay but are
+not used by this Lean package.
+
+On Windows, a clean replay regenerates and hashes the CNFs, decompresses and
+hashes the direct LRATs, fetches the pinned Lean dependency, and checks all six
+proofs:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File `
+  experiments\erdos742\order5_fixed5\verify_lean.ps1
+```
+
+Every theorem's `#print axioms` output consists of `propext`,
+`Classical.choice`, `Quot.sound`, and one theorem-specific `native_decide`
+axiom. Thus native mode trusts the Lean kernel and compiler. The theorem
+statements embed the exact DIMACS text, so the remaining non-formal step is
+specifically the graph-to-CNF encoding and the cited mathematical reductions,
+not SAT proof checking.
+
 ## Statement fidelity and trust boundary
 
 At Formal Conjectures commit
@@ -119,12 +152,14 @@ mathematical theorem additionally depends on:
 2. the published maximum-degree and dominating-edge reductions;
 3. the hand-audited equivalence between the graph property and the generated
    quotient CNFs, including the safety of the orbit and lex reductions; and
-4. correctness of the native `lrat-check` executable, which is independently
-   compiled and hash-pinned but not formally verified here.
+4. for the older replay path, correctness of the native `lrat-check`
+   executable. The new Lean replay removes that checker from the trust base for
+   CNF unsatisfiability, replacing it with Lean's verified LRAT checker in
+   native mode (kernel plus compiler).
 
-There is no exhaustive order-25 definition audit and no kernel-checked Lean
-formalization of this restricted theorem. The exact recency search is recorded
-in `RECENCY_AUDIT.md`.
+There is no exhaustive order-25 definition audit and no end-to-end Lean
+formalization of this restricted graph theorem. The exact recency search is
+recorded in `RECENCY_AUDIT.md`.
 
 ## Research recommendation
 

@@ -1,0 +1,7 @@
+name = "Erdos742Fixed5LeanCNF"
+version = "0.1.0"
+
+[[require]]
+name = "LRATCatcher"
+git = "https://github.com/leansolving/lrat-catcher"
+rev = "4ec2168b810636e789da3349ab3e670af338187c"

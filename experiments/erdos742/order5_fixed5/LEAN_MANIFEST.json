@@ -1,0 +1,91 @@
+{
+  "schema": "erdos742-order5-fixed5-lean-cnf-v1",
+  "generated_utc_date": "2026-08-02",
+  "scope": "Six Lean theorems stating that the exact generated DIMACS CNFs for the fixed-five symmetry class are unsatisfiable. This does not formalize the graph-to-CNF correspondence and does not solve Erdos Problem 742.",
+  "lean": {
+    "version": "4.30.0",
+    "lrat_catcher_repository": "https://github.com/leansolving/lrat-catcher",
+    "lrat_catcher_commit": "4ec2168b810636e789da3349ab3e670af338187c",
+    "mode": "native_decide",
+    "axioms_per_theorem": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound",
+      "<theorem>._native.native_decide.ax_1_1"
+    ]
+  },
+  "direct_lrat_generation": {
+    "cadical_version": "1.9.5",
+    "cadical_commit": "146207318796f094dcded87349a64f0c6927309e",
+    "cadical_sha256": "0ffcd0bb1265203c8744b677dcd8d37185d24cbe00f723d53f2431ade02d0750",
+    "flags": ["--lrat", "--no-binary"]
+  },
+  "independent_native_cross_check": {
+    "checker": "drat-trim/lrat-check",
+    "checker_sha256": "8a5c1bde335526ac3778cc25ab6174ca2374659adb5df4a5cd5ddabce5b0f5d9",
+    "verified_cases": 6,
+    "status": "VERIFIED"
+  },
+  "cases": [
+    {
+      "name": "t2_path",
+      "theorem": "Erdos742.Fixed5.t2_path_unsat",
+      "cnf_sha256": "7e5b25c058f43a8266a1d06127085978294cec2a272601355e2e89f007206dfb",
+      "direct_lrat_bytes": 31186225,
+      "direct_lrat_sha256": "9bf212caa27b40698976c2d57bc523be8fabe70e80f304473656aa84f39c39fd",
+      "compressed_lrat": "lean_certificates/t2_path.direct.lrat.zst",
+      "compressed_bytes": 4658837,
+      "compressed_sha256": "293e0453615883cdf3ce58ee1919a0ac82e6adea2ffc50189a306f2d66affa41"
+    },
+    {
+      "name": "t2_matching",
+      "theorem": "Erdos742.Fixed5.t2_matching_unsat",
+      "cnf_sha256": "cc9519b7de586be789d1e6ec392f4f29a84f39a7df4b679e307cdb0da9bc87d3",
+      "direct_lrat_bytes": 14415918,
+      "direct_lrat_sha256": "0c424e6aa924d3a93ceb04407de983de91867d17f247ae9f6b5ff93632156eb5",
+      "compressed_lrat": "lean_certificates/t2_matching.direct.lrat.zst",
+      "compressed_bytes": 1938525,
+      "compressed_sha256": "f2ab2518c52bf6b3a1bedc2fa35565b745475f9e63bade4a278aae5b195813c5"
+    },
+    {
+      "name": "t7_comp_triangle",
+      "theorem": "Erdos742.Fixed5.t7_comp_triangle_unsat",
+      "cnf_sha256": "1fd8ac53a321dfc0415baa57090b17d64bbf391a00a96caf9d4e93552433229f",
+      "direct_lrat_bytes": 1347164,
+      "direct_lrat_sha256": "296ea645a0839bff4f25344fc360055198298eb0cf10bde821f372b4ab7ae54c",
+      "compressed_lrat": "lean_certificates/t7_comp_triangle.direct.lrat.zst",
+      "compressed_bytes": 205254,
+      "compressed_sha256": "c181bd27253ed67e07ea809da23e8526263b5fec039a2418171ebc40d5050a7b"
+    },
+    {
+      "name": "t7_comp_star",
+      "theorem": "Erdos742.Fixed5.t7_comp_star_unsat",
+      "cnf_sha256": "b6abfca385882c9a0e448b36b62d3bf8cb7f9657a62f63f114128212841057c1",
+      "direct_lrat_bytes": 8831132,
+      "direct_lrat_sha256": "7b9499e9f5522c38fcb3351d322051098994a934dc04da297660b7b1e160fc1a",
+      "compressed_lrat": "lean_certificates/t7_comp_star.direct.lrat.zst",
+      "compressed_bytes": 1300887,
+      "compressed_sha256": "4bba37e9f0bbebe723da0c9ab8fd20a60a7e7393f9c080820aea826e0bb84f0f"
+    },
+    {
+      "name": "t7_comp_path4",
+      "theorem": "Erdos742.Fixed5.t7_comp_path4_unsat",
+      "cnf_sha256": "98f30175bced0a1e93212607665b75be9cf67975b2188d6f3bfdc57501d2a1ef",
+      "direct_lrat_bytes": 6902055,
+      "direct_lrat_sha256": "14f0b2bdfde86345243b3e208356533d4d88b068734cdc07e2715e7d160c8b86",
+      "compressed_lrat": "lean_certificates/t7_comp_path4.direct.lrat.zst",
+      "compressed_bytes": 974247,
+      "compressed_sha256": "4d879ed5034552d191de025979e392785720d2dbf535b226b880c6c2b3740dac"
+    },
+    {
+      "name": "t7_comp_path3_edge",
+      "theorem": "Erdos742.Fixed5.t7_comp_path3_edge_unsat",
+      "cnf_sha256": "6dff5e1a36168fc4c18d214406e6f7715188f3ccbd95ccd770f73225efa75e88",
+      "direct_lrat_bytes": 11962119,
+      "direct_lrat_sha256": "2ddcf85fb8eea3aa4076d8cc30f6eb29e43e2e3b380c240ce87d4886c6d2f482",
+      "compressed_lrat": "lean_certificates/t7_comp_path3_edge.direct.lrat.zst",
+      "compressed_bytes": 1655157,
+      "compressed_sha256": "3e44a8c77e19ff4217de2fcc5db75cdc188a42b05be1e784cf39da3591e66dc6"
+    }
+  ]
+}
