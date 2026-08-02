@@ -1,0 +1,31 @@
+{
+  "schema_version": 5,
+  "cases": {
+    "F4_N41": {
+      "n": 41,
+      "fixed_clique_size": 4,
+      "forbidden_clique_size": 5,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "lazy",
+      "admissibility_batch_size": 8,
+      "residual_beta_bound": 22,
+      "residual_admissibility_target_size": 7,
+      "scope": "labelled order-41 graphs containing the fixed K4 on vertices 0..3, containing no K5, satisfying |Z_c|<=22, with complete-forbidden then arrowing-first, residual admissible-7, generic-global separation"
+    },
+    "F5_N41": {
+      "n": 41,
+      "fixed_clique_size": 5,
+      "forbidden_clique_size": 6,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "forbidden_mode": "lazy",
+      "admissibility_batch_size": 8,
+      "residual_beta_bound": 17,
+      "residual_admissibility_target_size": 6,
+      "scope": "labelled order-41 graphs containing the fixed K5 on vertices 0..4, containing no K6, satisfying |Z_c|<=17, with complete-forbidden then arrowing-first, residual admissible-6, generic-global separation"
+    }
+  }
+}

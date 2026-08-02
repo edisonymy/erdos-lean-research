@@ -1,0 +1,67 @@
+{
+  "schema": "erdos719-exact61-sha256-manifest-v1",
+  "algorithm": "SHA-256",
+  "scope": "Every source, configuration, documentation, and raw output in this directory except this manifest itself",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5523,
+      "sha256": "476c8700a17cbe9cd33d620fc726ba6fc796e3b702f1178b8450bee22ff3a0de"
+    },
+    {
+      "path": "audit_replay.py",
+      "bytes": 13172,
+      "sha256": "12376bc613b5f7eb0d90f944d8253a77587271168b5588bb4caac53b8786d0c4"
+    },
+    {
+      "path": "certify_ex54.py",
+      "bytes": 7051,
+      "sha256": "36180e1f98656e4e8cbd0c12a202dbf94c7056edf2e629d0ba5311c016545cd9"
+    },
+    {
+      "path": "probe_config.json",
+      "bytes": 883,
+      "sha256": "6a56e8cbd004cf734299eb8e72588fba7c8cc7d348fa1dc55cccf496adc7163d"
+    },
+    {
+      "path": "probe_exact61.py",
+      "bytes": 9788,
+      "sha256": "7824942c5239ac10451542597f44507195c29ecca7f8c6551b5205028b36318c"
+    },
+    {
+      "path": "raw/audit_result.json",
+      "bytes": 2003,
+      "sha256": "a77e86b449609c3aea6c9d98ea4b914563f470aab67ddc995ccc4d97e32095d7"
+    },
+    {
+      "path": "raw/base_exact61.cnf",
+      "bytes": 78365,
+      "sha256": "3a0ead452ccb59640109498abdd9af185680289904f29fe406e406ba26ab4408"
+    },
+    {
+      "path": "raw/ex54_certificate.json",
+      "bytes": 10816,
+      "sha256": "36bf2d84c2c1eac051a4bc07816ff42a5b7bca1b0a58d01e5203af408de83ec3"
+    },
+    {
+      "path": "raw/model_definition.json",
+      "bytes": 31108,
+      "sha256": "9037868c4a9a1fdb35300fdd58a633c55160554157c976a9f763432be94cdb2d"
+    },
+    {
+      "path": "raw/packing3_cuts.jsonl",
+      "bytes": 3162120,
+      "sha256": "65d60e40ca85f08fda49148d0296a62b36c8ad80096963fcd6108e919911c590"
+    },
+    {
+      "path": "raw/probe_trace.json",
+      "bytes": 13562,
+      "sha256": "6b658878446bd1de364d896bf8d62205cdb182345e421479cefa53ba1b01f3d3"
+    },
+    {
+      "path": "verify_hashes.py",
+      "bytes": 1520,
+      "sha256": "ba06cd61716ce6d93c4e6c733f52d65120affa7b3ebf64c9286d2ab1b6441104"
+    }
+  ]
+}

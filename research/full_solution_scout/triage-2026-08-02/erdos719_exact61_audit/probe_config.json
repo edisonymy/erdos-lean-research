@@ -1,0 +1,24 @@
+{
+  "schema": "erdos719-exact61-lazy-packing3-config-v1",
+  "n": 9,
+  "r": 3,
+  "target_edge_count": 61,
+  "maximum_allowed_packing": 2,
+  "solver": "cadical195",
+  "cardinality_encoding": "pysat.card.EncType.seqcounter",
+  "conflict_budget_per_solve": 20000,
+  "maximum_rounds": 20,
+  "edge_order": "lexicographic itertools.combinations(range(9), 3), variables 1..84",
+  "tetrahedron_order": "lexicographic itertools.combinations(range(9), 4), ids 1..126",
+  "cut_order": "lexicographic combinations of present tetrahedra; sorted union of 12 edge variables; first occurrence only",
+  "expected_terminal_status": "CONFLICT_CAP_UNKNOWN",
+  "expected_round_signature": [
+    [1, 61, 45, 5325, 5325],
+    [2, 61, 45, 5919, 11244],
+    [3, 61, 28, 1542, 12786],
+    [4, 61, 26, 1198, 13984],
+    [5, 61, 30, 1849, 15833],
+    [6, 61, 28, 1227, 17060],
+    [7, 61, 29, 1343, 18403]
+  ]
+}

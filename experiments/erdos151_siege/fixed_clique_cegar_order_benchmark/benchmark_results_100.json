@@ -1,0 +1,209 @@
+{
+  "benchmark": "F4_N41 in-memory dynamic separation-order diagnostic",
+  "caveats": [
+    "No SearchSession or run directory is created; this script cannot read, resume, lock, stop, or modify a production run.",
+    "The model cap is the primary matched budget; the wall cap is only a safety limit checked between models.",
+    "Fresh trials are deterministic under the pinned solver's default configuration; no solver seed option is exposed by this engine.",
+    "Different sound cuts make later SAT trajectories diverge, so this is a bounded scheduling diagnostic, not an exhaustion forecast or an UNSAT claim."
+  ],
+  "comparison": {
+    "arrowing_first": {
+      "median_elapsed_seconds": 7.179282,
+      "median_outer_models": 100.0,
+      "median_total_logical_cuts": 104.0,
+      "trials": [
+        {
+          "cut_batches": {
+            "arrowing": 93,
+            "forbidden_clique": 7
+          },
+          "elapsed_seconds": 7.195833,
+          "k5_free_models": 93,
+          "logical_cuts": {
+            "arrowing": 93,
+            "forbidden_clique": 11
+          },
+          "models_reaching_oracle": {
+            "arrowing": 93
+          },
+          "oracle_seconds": {
+            "arrowing": 3.247314
+          },
+          "order": "arrowing_first",
+          "outer_models": 100,
+          "terminal": "MODEL_LIMIT",
+          "total_logical_cuts": 104,
+          "trial": 0
+        },
+        {
+          "cut_batches": {
+            "arrowing": 93,
+            "forbidden_clique": 7
+          },
+          "elapsed_seconds": 6.899344,
+          "k5_free_models": 93,
+          "logical_cuts": {
+            "arrowing": 93,
+            "forbidden_clique": 11
+          },
+          "models_reaching_oracle": {
+            "arrowing": 93
+          },
+          "oracle_seconds": {
+            "arrowing": 3.175614
+          },
+          "order": "arrowing_first",
+          "outer_models": 100,
+          "terminal": "MODEL_LIMIT",
+          "total_logical_cuts": 104,
+          "trial": 1
+        },
+        {
+          "cut_batches": {
+            "arrowing": 93,
+            "forbidden_clique": 7
+          },
+          "elapsed_seconds": 7.179282,
+          "k5_free_models": 93,
+          "logical_cuts": {
+            "arrowing": 93,
+            "forbidden_clique": 11
+          },
+          "models_reaching_oracle": {
+            "arrowing": 93
+          },
+          "oracle_seconds": {
+            "arrowing": 3.193568
+          },
+          "order": "arrowing_first",
+          "outer_models": 100,
+          "terminal": "MODEL_LIMIT",
+          "total_logical_cuts": 104,
+          "trial": 2
+        }
+      ]
+    },
+    "residual_first": {
+      "median_elapsed_seconds": 8.732848,
+      "median_outer_models": 100.0,
+      "median_total_logical_cuts": 620.0,
+      "trials": [
+        {
+          "cut_batches": {
+            "forbidden_clique": 38,
+            "residual_admissibility": 62
+          },
+          "elapsed_seconds": 8.987556,
+          "k5_free_models": 62,
+          "logical_cuts": {
+            "forbidden_clique": 372,
+            "residual_admissibility": 248
+          },
+          "models_reaching_oracle": {
+            "residual": 62
+          },
+          "oracle_seconds": {
+            "residual": 0.895825
+          },
+          "order": "residual_first",
+          "outer_models": 100,
+          "terminal": "MODEL_LIMIT",
+          "total_logical_cuts": 620,
+          "trial": 0
+        },
+        {
+          "cut_batches": {
+            "forbidden_clique": 38,
+            "residual_admissibility": 62
+          },
+          "elapsed_seconds": 8.732848,
+          "k5_free_models": 62,
+          "logical_cuts": {
+            "forbidden_clique": 372,
+            "residual_admissibility": 248
+          },
+          "models_reaching_oracle": {
+            "residual": 62
+          },
+          "oracle_seconds": {
+            "residual": 0.907247
+          },
+          "order": "residual_first",
+          "outer_models": 100,
+          "terminal": "MODEL_LIMIT",
+          "total_logical_cuts": 620,
+          "trial": 1
+        },
+        {
+          "cut_batches": {
+            "forbidden_clique": 38,
+            "residual_admissibility": 62
+          },
+          "elapsed_seconds": 8.431098,
+          "k5_free_models": 62,
+          "logical_cuts": {
+            "forbidden_clique": 372,
+            "residual_admissibility": 248
+          },
+          "models_reaching_oracle": {
+            "residual": 62
+          },
+          "oracle_seconds": {
+            "residual": 0.902634
+          },
+          "order": "residual_first",
+          "outer_models": 100,
+          "terminal": "MODEL_LIMIT",
+          "total_logical_cuts": 620,
+          "trial": 2
+        }
+      ]
+    }
+  },
+  "limits": {
+    "outer_model_cap_per_trial": 100,
+    "repeats": 3,
+    "wall_cap_seconds_per_trial": 30.0
+  },
+  "matched_first_k5_free_probe": {
+    "arrowing_found": true,
+    "generic_found": true,
+    "generic_logical_cuts": 8,
+    "graph_sha256": "02c7e2c99fd95d0a2df7b81dcbdf247474297471f06b8a2cc4a8eae84328ef86",
+    "oracle_seconds": {
+      "arrowing": 0.026983,
+      "generic_admissibility": 0.001916,
+      "residual": 0.003855
+    },
+    "outer_models": 1,
+    "residual_found": true,
+    "residual_logical_cuts": 4,
+    "terminal": "MATCHED_K5_FREE_MODEL"
+  },
+  "orders": {
+    "arrowing_first": [
+      "complete_forbidden_cliques",
+      "arrowing",
+      "residual",
+      "generic_admissibility"
+    ],
+    "residual_first": [
+      "complete_forbidden_cliques",
+      "residual",
+      "generic_admissibility",
+      "arrowing"
+    ]
+  },
+  "source_sha256": {
+    "pinned-v3/cases.json": "84355cdfd9dcf6bed7781b34fe6ba5d13d3e496ce96fd24f310f955df337963f",
+    "pinned-v3/cegar.py": "47085d027ac908e1af0851db904f19160d278bbf257048d599a9d8bedbdc8197",
+    "pinned-v3/requirements.txt": "63022582ca3ae3a45911331f74428edb2b38f471c15ceda82bac4dbe9377865a",
+    "pinned-v3/verify_candidate.py": "df776a5c79ac438fd59c8e98447dd961059613a861bf12f8a563ab5dddfff5c4",
+    "pinned-v3/verify_static.py": "b93588581b6b6b2a440c01f5dedc54c477894b5a0f97d668e44d635213d77c97",
+    "v4/cases.json": "99ff2a46c9e758d1ba5ac300af2041bf9478582131ac0923d8daf61ba10b04fb",
+    "v4/cegar.py": "d606eddc63991284b67d93050775925d2997a0d758f0ebce1634446e57ff6cb2",
+    "v4/requirements.txt": "7208fc39e062996f401bbaa1e04a1312dd468ae47a110f9ca55986616c179aa3",
+    "v4/verify_candidate.py": "a8285433945d9f3a99b6c871e41c4e6d5949d27267444d0991e87269f847d42d",
+    "v4/verify_static.py": "71fe9f06d3a2b7c2c2845d59deb71dab10704dca0f45e6a92cc0c285e36c51c8"
+  }
+}

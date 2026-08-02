@@ -35,5 +35,10 @@ experiments/erdos719_n9_k1/*.json binary
 research/erdos151/** text eol=lf
 experiments/erdos151_siege/beta_bb.py text eol=lf
 experiments/erdos151_siege/beta_lib.py text eol=lf
+experiments/erdos151_siege/fixed_clique_cegar_order_benchmark/** text eol=lf
+experiments/erdos151_siege/fixed_clique_cegar_v5_arrowfirst/** text eol=lf
 research/erdos151/general/ORDER41_K5_PRIORITY.md whitespace=-trailing-space
 research/erdos151/general/ORDER41_K5_EXCLUSION_FINAL_AUDIT.md whitespace=-trailing-space,-blank-at-eof
+
+# The bounded #719 reserve probe has a byte-level replay manifest.
+research/full_solution_scout/triage-2026-08-02/erdos719_exact61_audit/** text eol=lf

@@ -1,0 +1,90 @@
+{
+  "artifact_sha256": {
+    "base_exact61.cnf": "3a0ead452ccb59640109498abdd9af185680289904f29fe406e406ba26ab4408",
+    "ex54_certificate.json": "36bf2d84c2c1eac051a4bc07816ff42a5b7bca1b0a58d01e5203af408de83ec3",
+    "model_definition.json": "9037868c4a9a1fdb35300fdd58a633c55160554157c976a9f763432be94cdb2d",
+    "packing3_cuts.jsonl": "65d60e40ca85f08fda49148d0296a62b36c8ad80096963fcd6108e919911c590",
+    "probe_config.json": "6a56e8cbd004cf734299eb8e72588fba7c8cc7d348fa1dc55cccf496adc7163d",
+    "probe_trace.json": "6b658878446bd1de364d896bf8d62205cdb182345e421479cefa53ba1b01f3d3"
+  },
+  "cardinality_cnf_checks": {
+    "clause_count": 5612,
+    "semantic_assignment_checks": 121,
+    "total_variable_count": 2890
+  },
+  "claim_boundary": "The replay validates the recorded bounded UNKNOWN transcript and the finite extremal value 54; it does not settle #719.",
+  "extremal_certificate_checks": {
+    "exact_ex_3_9": 54,
+    "exact_t7": 12,
+    "exact_t8": 20,
+    "exact_t9": 30
+  },
+  "model_checks": {
+    "edge_variable_count": 84,
+    "tetrahedron_count": 126
+  },
+  "schema": "erdos719-exact61-audit-replay-v1",
+  "status": "PASS",
+  "tamper_tests_rejected": [
+    "model-count-tamper",
+    "61-cardinality-tamper",
+    "packing3-cut-tamper",
+    "ex54-certificate-tamper"
+  ],
+  "transcript_checks": {
+    "packing3_cuts_checked": 18403,
+    "round_count": 7,
+    "round_signature": [
+      [
+        1,
+        61,
+        45,
+        5325,
+        5325
+      ],
+      [
+        2,
+        61,
+        45,
+        5919,
+        11244
+      ],
+      [
+        3,
+        61,
+        28,
+        1542,
+        12786
+      ],
+      [
+        4,
+        61,
+        26,
+        1198,
+        13984
+      ],
+      [
+        5,
+        61,
+        30,
+        1849,
+        15833
+      ],
+      [
+        6,
+        61,
+        28,
+        1227,
+        17060
+      ],
+      [
+        7,
+        61,
+        29,
+        1343,
+        18403
+      ]
+    ],
+    "stored_models_checked": 7
+  }
+}

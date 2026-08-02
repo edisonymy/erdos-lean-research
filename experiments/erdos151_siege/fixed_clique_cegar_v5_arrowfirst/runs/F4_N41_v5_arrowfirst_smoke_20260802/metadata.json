@@ -1,0 +1,790 @@
+{
+  "config": {
+    "admissibility_batch_size": 8,
+    "degree_max": 9,
+    "degree_min": 5,
+    "fixed_clique_size": 4,
+    "forbidden_clique_size": 5,
+    "forbidden_mode": "lazy",
+    "n": 41,
+    "name": "F4_N41",
+    "residual_admissibility_target_size": 7,
+    "residual_beta_bound": 22,
+    "scope": "labelled order-41 graphs containing the fixed K4 on vertices 0..3, containing no K5, satisfying |Z_c|<=22, with complete-forbidden then arrowing-first, residual admissible-7, generic-global separation",
+    "target_set_size": 10
+  },
+  "content_sha256": "6755a8649b00b65e67339fe0ac32a65c588697a6e74a7418404423b944021bfa",
+  "created_utc": "2026-08-02T22:54:19+00:00",
+  "implementation": {
+    "config_sha256": "635ceeba6925f87cd4e1b6501203979f680721300a6eee6a78f654a00e66f93c",
+    "dynamic_extension": "arrowing-first, then induced-admissibility separation translated through the global cut encoder",
+    "engine": "fixed_clique_cegar_v5_arrowfirst",
+    "journal_unit": "one candidate with a conjunctive batch of independently hashed cuts",
+    "pinned_v3_source_sha256": {
+      "cases.json": "84355cdfd9dcf6bed7781b34fe6ba5d13d3e496ce96fd24f310f955df337963f",
+      "cegar.py": "47085d027ac908e1af0851db904f19160d278bbf257048d599a9d8bedbdc8197",
+      "requirements.txt": "63022582ca3ae3a45911331f74428edb2b38f471c15ceda82bac4dbe9377865a",
+      "verify_candidate.py": "df776a5c79ac438fd59c8e98447dd961059613a861bf12f8a563ab5dddfff5c4",
+      "verify_static.py": "b93588581b6b6b2a440c01f5dedc54c477894b5a0f97d668e44d635213d77c97"
+    },
+    "schema": 5
+  },
+  "run_id": "81384bd3-4c12-4fc4-afb6-ec2ae195fa32",
+  "runtime": {
+    "outer_solver": "Cadical195",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pysat": "1.9.dev7",
+    "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]"
+  },
+  "schema_version": 5,
+  "semantics": {
+    "residual_admissibility_cut": "S is admissible in G[Z_c], then (M\\{c}) union S is globally admissible and is encoded by the exact global admissibility generator",
+    "residual_maximality_direction": "ambient-maximal clique contained in Z_c implies maximal in the induced graph G[Z_c]",
+    "separation_order": "complete forbidden clique, arrowing, residual admissibility for every c, generic global admissibility",
+    "v3_static_encoding": "unchanged exact residual reification and cardinality bounds"
+  },
+  "source_sha256": {
+    "pinned-v3/cases.json": "84355cdfd9dcf6bed7781b34fe6ba5d13d3e496ce96fd24f310f955df337963f",
+    "pinned-v3/cegar.py": "47085d027ac908e1af0851db904f19160d278bbf257048d599a9d8bedbdc8197",
+    "pinned-v3/requirements.txt": "63022582ca3ae3a45911331f74428edb2b38f471c15ceda82bac4dbe9377865a",
+    "pinned-v3/verify_candidate.py": "df776a5c79ac438fd59c8e98447dd961059613a861bf12f8a563ab5dddfff5c4",
+    "pinned-v3/verify_static.py": "b93588581b6b6b2a440c01f5dedc54c477894b5a0f97d668e44d635213d77c97",
+    "v5-arrowfirst/cases.json": "91c04de8867c54884104656c2faaf0c868ba0954879b121eccf6998fba54bd1c",
+    "v5-arrowfirst/cegar.py": "d94bdaa3d5eceec833010ddf0afc15deafe6fc3456f76485e4d210769db6ca09",
+    "v5-arrowfirst/requirements.txt": "7208fc39e062996f401bbaa1e04a1312dd468ae47a110f9ca55986616c179aa3",
+    "v5-arrowfirst/verify_candidate.py": "b3aa7b6d090bdbe97780e962168c9a1aaa909f55b13418c6a2be425ee9913b65",
+    "v5-arrowfirst/verify_static.py": "64dee5f735a857a1f461476d1b2fff026050e503b62cc03ad57cd1509d258ef1"
+  },
+  "static_encoding": {
+    "auxiliary_variable_count": 20082,
+    "clause_count": 40110,
+    "clause_sha256": "58c3e5add5949ea566cc0dacb848286adf2e0e3fe9b3bdd9273ac2df4d5434f3",
+    "eager_forbidden_clause_count": 0,
+    "edge_variable_count": 820,
+    "forbidden_mode": "lazy",
+    "last_variable": 20902,
+    "residual_beta_cuts": {
+      "auxiliary_variable_count": 1468,
+      "base_last_variable": 19434,
+      "bound_per_c": 22,
+      "clause_count": 3204,
+      "clause_sha256": "f148e21d8b60691f4a8094e82c8667c616cf09284094962b51bc6acad7e4696c",
+      "first_variable": 19435,
+      "fixed_clique_vertices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "last_variable": 20902,
+      "outside_vertices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "per_c": [
+        {
+          "auxiliary_variable_count": 367,
+          "c": 0,
+          "cardinality": {
+            "bound": 22,
+            "counter_first_variable": 19472,
+            "counter_last_variable": 19801,
+            "counter_variable_count": 330,
+            "encoding": "pysat_seqcounter_atmost_v1",
+            "input_count": 37
+          },
+          "clause_count": 801,
+          "clause_sha256": "1c0e8efd1c5d9e9d83d0e3f37c792e7d91b9ff4b29b753e9b113e1a27fd3ce1e",
+          "first_variable": 19435,
+          "last_variable": 19801,
+          "z_variables": [
+            {
+              "variable": 19435,
+              "x": 4
+            },
+            {
+              "variable": 19436,
+              "x": 5
+            },
+            {
+              "variable": 19437,
+              "x": 6
+            },
+            {
+              "variable": 19438,
+              "x": 7
+            },
+            {
+              "variable": 19439,
+              "x": 8
+            },
+            {
+              "variable": 19440,
+              "x": 9
+            },
+            {
+              "variable": 19441,
+              "x": 10
+            },
+            {
+              "variable": 19442,
+              "x": 11
+            },
+            {
+              "variable": 19443,
+              "x": 12
+            },
+            {
+              "variable": 19444,
+              "x": 13
+            },
+            {
+              "variable": 19445,
+              "x": 14
+            },
+            {
+              "variable": 19446,
+              "x": 15
+            },
+            {
+              "variable": 19447,
+              "x": 16
+            },
+            {
+              "variable": 19448,
+              "x": 17
+            },
+            {
+              "variable": 19449,
+              "x": 18
+            },
+            {
+              "variable": 19450,
+              "x": 19
+            },
+            {
+              "variable": 19451,
+              "x": 20
+            },
+            {
+              "variable": 19452,
+              "x": 21
+            },
+            {
+              "variable": 19453,
+              "x": 22
+            },
+            {
+              "variable": 19454,
+              "x": 23
+            },
+            {
+              "variable": 19455,
+              "x": 24
+            },
+            {
+              "variable": 19456,
+              "x": 25
+            },
+            {
+              "variable": 19457,
+              "x": 26
+            },
+            {
+              "variable": 19458,
+              "x": 27
+            },
+            {
+              "variable": 19459,
+              "x": 28
+            },
+            {
+              "variable": 19460,
+              "x": 29
+            },
+            {
+              "variable": 19461,
+              "x": 30
+            },
+            {
+              "variable": 19462,
+              "x": 31
+            },
+            {
+              "variable": 19463,
+              "x": 32
+            },
+            {
+              "variable": 19464,
+              "x": 33
+            },
+            {
+              "variable": 19465,
+              "x": 34
+            },
+            {
+              "variable": 19466,
+              "x": 35
+            },
+            {
+              "variable": 19467,
+              "x": 36
+            },
+            {
+              "variable": 19468,
+              "x": 37
+            },
+            {
+              "variable": 19469,
+              "x": 38
+            },
+            {
+              "variable": 19470,
+              "x": 39
+            },
+            {
+              "variable": 19471,
+              "x": 40
+            }
+          ]
+        },
+        {
+          "auxiliary_variable_count": 367,
+          "c": 1,
+          "cardinality": {
+            "bound": 22,
+            "counter_first_variable": 19839,
+            "counter_last_variable": 20168,
+            "counter_variable_count": 330,
+            "encoding": "pysat_seqcounter_atmost_v1",
+            "input_count": 37
+          },
+          "clause_count": 801,
+          "clause_sha256": "345cccd45d7e76f2e249782d4c9088d93f1f6124869953a710451105a92bd71d",
+          "first_variable": 19802,
+          "last_variable": 20168,
+          "z_variables": [
+            {
+              "variable": 19802,
+              "x": 4
+            },
+            {
+              "variable": 19803,
+              "x": 5
+            },
+            {
+              "variable": 19804,
+              "x": 6
+            },
+            {
+              "variable": 19805,
+              "x": 7
+            },
+            {
+              "variable": 19806,
+              "x": 8
+            },
+            {
+              "variable": 19807,
+              "x": 9
+            },
+            {
+              "variable": 19808,
+              "x": 10
+            },
+            {
+              "variable": 19809,
+              "x": 11
+            },
+            {
+              "variable": 19810,
+              "x": 12
+            },
+            {
+              "variable": 19811,
+              "x": 13
+            },
+            {
+              "variable": 19812,
+              "x": 14
+            },
+            {
+              "variable": 19813,
+              "x": 15
+            },
+            {
+              "variable": 19814,
+              "x": 16
+            },
+            {
+              "variable": 19815,
+              "x": 17
+            },
+            {
+              "variable": 19816,
+              "x": 18
+            },
+            {
+              "variable": 19817,
+              "x": 19
+            },
+            {
+              "variable": 19818,
+              "x": 20
+            },
+            {
+              "variable": 19819,
+              "x": 21
+            },
+            {
+              "variable": 19820,
+              "x": 22
+            },
+            {
+              "variable": 19821,
+              "x": 23
+            },
+            {
+              "variable": 19822,
+              "x": 24
+            },
+            {
+              "variable": 19823,
+              "x": 25
+            },
+            {
+              "variable": 19824,
+              "x": 26
+            },
+            {
+              "variable": 19825,
+              "x": 27
+            },
+            {
+              "variable": 19826,
+              "x": 28
+            },
+            {
+              "variable": 19827,
+              "x": 29
+            },
+            {
+              "variable": 19828,
+              "x": 30
+            },
+            {
+              "variable": 19829,
+              "x": 31
+            },
+            {
+              "variable": 19830,
+              "x": 32
+            },
+            {
+              "variable": 19831,
+              "x": 33
+            },
+            {
+              "variable": 19832,
+              "x": 34
+            },
+            {
+              "variable": 19833,
+              "x": 35
+            },
+            {
+              "variable": 19834,
+              "x": 36
+            },
+            {
+              "variable": 19835,
+              "x": 37
+            },
+            {
+              "variable": 19836,
+              "x": 38
+            },
+            {
+              "variable": 19837,
+              "x": 39
+            },
+            {
+              "variable": 19838,
+              "x": 40
+            }
+          ]
+        },
+        {
+          "auxiliary_variable_count": 367,
+          "c": 2,
+          "cardinality": {
+            "bound": 22,
+            "counter_first_variable": 20206,
+            "counter_last_variable": 20535,
+            "counter_variable_count": 330,
+            "encoding": "pysat_seqcounter_atmost_v1",
+            "input_count": 37
+          },
+          "clause_count": 801,
+          "clause_sha256": "9e6b279a1cd413ccbe9ecdc7b473c105c3713ad70c2acb7423e4c51ca209050f",
+          "first_variable": 20169,
+          "last_variable": 20535,
+          "z_variables": [
+            {
+              "variable": 20169,
+              "x": 4
+            },
+            {
+              "variable": 20170,
+              "x": 5
+            },
+            {
+              "variable": 20171,
+              "x": 6
+            },
+            {
+              "variable": 20172,
+              "x": 7
+            },
+            {
+              "variable": 20173,
+              "x": 8
+            },
+            {
+              "variable": 20174,
+              "x": 9
+            },
+            {
+              "variable": 20175,
+              "x": 10
+            },
+            {
+              "variable": 20176,
+              "x": 11
+            },
+            {
+              "variable": 20177,
+              "x": 12
+            },
+            {
+              "variable": 20178,
+              "x": 13
+            },
+            {
+              "variable": 20179,
+              "x": 14
+            },
+            {
+              "variable": 20180,
+              "x": 15
+            },
+            {
+              "variable": 20181,
+              "x": 16
+            },
+            {
+              "variable": 20182,
+              "x": 17
+            },
+            {
+              "variable": 20183,
+              "x": 18
+            },
+            {
+              "variable": 20184,
+              "x": 19
+            },
+            {
+              "variable": 20185,
+              "x": 20
+            },
+            {
+              "variable": 20186,
+              "x": 21
+            },
+            {
+              "variable": 20187,
+              "x": 22
+            },
+            {
+              "variable": 20188,
+              "x": 23
+            },
+            {
+              "variable": 20189,
+              "x": 24
+            },
+            {
+              "variable": 20190,
+              "x": 25
+            },
+            {
+              "variable": 20191,
+              "x": 26
+            },
+            {
+              "variable": 20192,
+              "x": 27
+            },
+            {
+              "variable": 20193,
+              "x": 28
+            },
+            {
+              "variable": 20194,
+              "x": 29
+            },
+            {
+              "variable": 20195,
+              "x": 30
+            },
+            {
+              "variable": 20196,
+              "x": 31
+            },
+            {
+              "variable": 20197,
+              "x": 32
+            },
+            {
+              "variable": 20198,
+              "x": 33
+            },
+            {
+              "variable": 20199,
+              "x": 34
+            },
+            {
+              "variable": 20200,
+              "x": 35
+            },
+            {
+              "variable": 20201,
+              "x": 36
+            },
+            {
+              "variable": 20202,
+              "x": 37
+            },
+            {
+              "variable": 20203,
+              "x": 38
+            },
+            {
+              "variable": 20204,
+              "x": 39
+            },
+            {
+              "variable": 20205,
+              "x": 40
+            }
+          ]
+        },
+        {
+          "auxiliary_variable_count": 367,
+          "c": 3,
+          "cardinality": {
+            "bound": 22,
+            "counter_first_variable": 20573,
+            "counter_last_variable": 20902,
+            "counter_variable_count": 330,
+            "encoding": "pysat_seqcounter_atmost_v1",
+            "input_count": 37
+          },
+          "clause_count": 801,
+          "clause_sha256": "9eecf2b58a2deb76164cfeb76c8924e4ada0b2992207579e8087ac9de2fe9c41",
+          "first_variable": 20536,
+          "last_variable": 20902,
+          "z_variables": [
+            {
+              "variable": 20536,
+              "x": 4
+            },
+            {
+              "variable": 20537,
+              "x": 5
+            },
+            {
+              "variable": 20538,
+              "x": 6
+            },
+            {
+              "variable": 20539,
+              "x": 7
+            },
+            {
+              "variable": 20540,
+              "x": 8
+            },
+            {
+              "variable": 20541,
+              "x": 9
+            },
+            {
+              "variable": 20542,
+              "x": 10
+            },
+            {
+              "variable": 20543,
+              "x": 11
+            },
+            {
+              "variable": 20544,
+              "x": 12
+            },
+            {
+              "variable": 20545,
+              "x": 13
+            },
+            {
+              "variable": 20546,
+              "x": 14
+            },
+            {
+              "variable": 20547,
+              "x": 15
+            },
+            {
+              "variable": 20548,
+              "x": 16
+            },
+            {
+              "variable": 20549,
+              "x": 17
+            },
+            {
+              "variable": 20550,
+              "x": 18
+            },
+            {
+              "variable": 20551,
+              "x": 19
+            },
+            {
+              "variable": 20552,
+              "x": 20
+            },
+            {
+              "variable": 20553,
+              "x": 21
+            },
+            {
+              "variable": 20554,
+              "x": 22
+            },
+            {
+              "variable": 20555,
+              "x": 23
+            },
+            {
+              "variable": 20556,
+              "x": 24
+            },
+            {
+              "variable": 20557,
+              "x": 25
+            },
+            {
+              "variable": 20558,
+              "x": 26
+            },
+            {
+              "variable": 20559,
+              "x": 27
+            },
+            {
+              "variable": 20560,
+              "x": 28
+            },
+            {
+              "variable": 20561,
+              "x": 29
+            },
+            {
+              "variable": 20562,
+              "x": 30
+            },
+            {
+              "variable": 20563,
+              "x": 31
+            },
+            {
+              "variable": 20564,
+              "x": 32
+            },
+            {
+              "variable": 20565,
+              "x": 33
+            },
+            {
+              "variable": 20566,
+              "x": 34
+            },
+            {
+              "variable": 20567,
+              "x": 35
+            },
+            {
+              "variable": 20568,
+              "x": 36
+            },
+            {
+              "variable": 20569,
+              "x": 37
+            },
+            {
+              "variable": 20570,
+              "x": 38
+            },
+            {
+              "variable": 20571,
+              "x": 39
+            },
+            {
+              "variable": 20572,
+              "x": 40
+            }
+          ]
+        }
+      ],
+      "proof_dependency": "fixed clique is maximum after the forbidden K_(s+1) constraint; beta(G)<=9 and the theorem through order 39 imply beta(G[Z_c])<=10-s",
+      "reification": "z[x,c] iff every edge x-p with p in M\\{c} is absent",
+      "semantic_name": "order_41_residual_beta_bound"
+    }
+  }
+}

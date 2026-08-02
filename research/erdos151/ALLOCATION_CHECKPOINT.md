@@ -107,3 +107,35 @@ is available.  It is whether the next unit of agent/solver time has a better
 chance of producing a **full, first, creditable resolution** than the best
 available alternative target.  Momentum counts only insofar as it changes
 that probability.
+
+## Live-cycle amendment: 2 August 2026, 22:57 UTC
+
+Evidence gathered after this checkpoint was written justifies an earlier
+*implementation* gate without changing the mathematical allocation:
+
+- the residual-first F4 run remained healthy, but its first 1,189 outer
+  models produced only forbidden-`K5` and residual-admissibility cuts; no
+  model reached global admissibility or arrowing, and its five-minute model
+  rate fell from 140 near launch to roughly 35--60 later in the run;
+- an isolated, sound 100-model comparison put arrowing immediately after
+  complete forbidden-`K5` separation.  Every one of its 93 `K5`-free models
+  failed arrowing before the residual/global oracles, with median elapsed
+  time 7.179 seconds versus 8.733 seconds for residual-first and 104 versus
+  620 logical cuts.  This is bounded scheduling evidence, not an exhaustion
+  forecast;
+- the broader four-residual incidence probe stopped at its declared
+  1,000-model cap with no SAT/UNSAT conclusion.  It reached residual
+  independence numbers `(6,6,6,6)` but only global `alpha=11`, and its final
+  model still failed the H3 seeded-anchor condition in all four residuals;
+- no outside target cleared the promotion gate.  #719 remains the first
+  reserve, but its initial exact finite probe ended `UNKNOWN`; #561 has acute
+  live collision risk.
+
+Accordingly, if the residual-first production run reaches **1,500 committed
+cuts or two wall-clock hours**, whichever comes first, with zero global or
+arrowing cuts, and the isolated schema-5 arrowing-first engine has passed
+independent replay and source/hash checks, preserve and stop residual-first
+and give arrowing-first the remainder of this single production slot.  Do not
+run both production searches concurrently.  This is a reversible scheduler
+change inside the already authorized #151 cycle, not an automatic renewal of
+that cycle and not evidence for the conjecture in either direction.
