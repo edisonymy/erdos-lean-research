@@ -29,9 +29,11 @@ because the original problem lacked a public Lean statement.
 
 ## Current campaigns
 
-- **Erdős #151:** an independently derived independent-set recurrence and local link argument
-  prove the conjectured clique-transversal bound for every graph on at most 22
-  vertices.  The next possible first-counterexample orders are 23 and 24.
+- **Erdős #151:** an independently derived recurrence, local link counts,
+  and Ramsey/critical-graph arguments prove the conjectured
+  clique-transversal bound for every graph on at most 27 vertices.  A
+  sorry-free Lean file verifies the recurrence alone.  The next possible
+  first-counterexample interval is orders 28--30.
   This is structural finite-order progress, not a solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs

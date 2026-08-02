@@ -328,3 +328,10 @@ n <= R(3,5)+5 = 19.
 At `n=19`, (3) forces every degree to equal five, impossible by the handshake
 lemma on an odd number of vertices.  Hence no counterexample exists through
 order 22.  The next orders admitted by (4) are 23 and 24.
+
+The two remaining cores can also be excluded.  [`order23.md`](order23.md)
+uses Ramsey-minimal and critical-graph structure, while
+[`order24.md`](order24.md) uses a different local triangle count and an
+edge-coloring lemma.  Together they give `beta(G)>=7` for every order at
+least 23.  With `R(3,8)=28`, this proves the conjectured inequality through
+order 27.  The next possible first-counterexample orders are 28--30.

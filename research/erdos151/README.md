@@ -1,10 +1,11 @@
-# Erdős problem 151: structural reduction and the first live order
+# Erdős problem 151: structural reductions through the first Ramsey interval
 
 **Public status (2 August 2026):** the full Erdős--Gallai--Tuza conjecture
-remains open.  This package proves the conjectured inequality for all graphs
-on at most 22 vertices.  The proof reduces the only live order below 23 to a
-constrained order-18 graph and then excludes that graph analytically.  It does
-**not** claim a solution of problem 151.
+remains open.  This package proves the conjectured inequality for every graph
+on at most 27 vertices.  The proof excludes the order-18, order-23, and
+order-24 cores analytically and then propagates the resulting lower bounds by
+the independent-set recurrence.  It does **not** claim a solution of problem
+151.  The next possible first-counterexample interval is orders 28--30.
 
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum
@@ -35,16 +36,37 @@ counterexample with `h=H(n)` can exist only when
 R(3,h) <= n <= R(3,h-1) + h - 1.
 ```
 
-The first surviving order is `n=18`.  The detailed argument in
+The first initially surviving order is `n=18`.  The detailed argument in
 [`proof.md`](proof.md) excludes it: mixed degree-4/5 sequences contradict a
 local link count, while a 5-regular candidate yields a triangle-free auxiliary
 graph whose Ramsey independent six-set avoids every maximal clique.  The
 minimal-counterexample interval and parity then exclude orders 19--22.
 
+The separate [`order23.md`](order23.md) argument excludes the only remaining
+order below 24.  If a candidate graph were edge-Ramsey for triangles, a
+Ramsey-minimal subgraph, exact link counts, Brooks' theorem, and Gallai's
+low-vertex theorem would force an impossible 6-critical graph.  If it were
+not edge-Ramsey, a two-edge-coloring directly produces the required avoiding
+seven-set.
+
+The [`order24.md`](order24.md) argument proves `beta(G)>=7` for every
+24-vertex graph.  A putative counterexample is forced to be 6-regular.  Local
+two-walk counts show that every vertex lies in at most three triangles; a new
+edge-coloring lemma then partitions its edges into two triangle-free classes.
+This produces a triangle-free auxiliary graph whose Ramsey independent
+seven-set is avoiding.  Strong induction with the recurrence gives
+`beta(G)>=7` for every order `n>=24`.  Together the two arguments give
+`beta(G)>=7` for every order `n>=23`; since `R(3,8)=28`, this proves the
+conjectured bound through order 27.  It does not settle any later Ramsey
+interval.
+
 ## Evidence and audit
 
 - [`proof.md`](proof.md) gives the complete human-readable argument through
   order 22.
+- [`order23.md`](order23.md) gives the independently audited order-23 proof.
+- [`order24.md`](order24.md) gives the independently audited order-24 proof
+  and its `beta>=7` propagation corollary.
 - [`audit.md`](audit.md) records the independent maximality, induction, Ramsey,
   and computation checks.
 - [`literature.md`](literature.md) records the current priority search and the
@@ -57,6 +79,15 @@ minimal-counterexample interval and parity then exclude orders 19--22.
   the through-order-22 theorem; see its [scope note](lean/README.md).
 - A second agent independently checked every use of inclusion-maximality, the
   base cases, the induction, and the Ramsey thresholds before publication.
+- A fresh Sol/max agent adversarially reconstructed the order-24 argument;
+  it also exhaustively checked all labeled graphs on seven vertices against
+  the proof's triangle-edge-coloring lemma.
+- A different Sol/max agent independently reconstructed every step of the
+  order-23 proof, including both coloring extensions and the Gallai-forest
+  block count, before publication.
+- [`checks/marked_neighborhood6.py`](checks/marked_neighborhood6.py) is a
+  small optional exhaustive sanity check for the six-vertex link lemma.  The
+  analytic proof does not depend on it.
 - As a computational sanity check, two separate implementations exhaustively
   processed all 274,668 unlabeled graphs on nine vertices and found maximum
   `tau=5` and no counterexample.  The analytic proof supersedes this census.
@@ -68,6 +99,11 @@ proof-free runs produced no solver conclusion; they are recorded as
 `STOPPED_AFTER_STRUCTURAL_PROOF`, never as `UNSAT`.  All local artifacts were
 preserved and nothing was deleted.
 
+A candidate-first SAT encoding was designed privately for orders 23 and 24,
+but the analytic proofs arrived before any DIMACS instance was materialized
+or any solver was launched.  The design therefore produced no candidate,
+SAT/UNSAT status, certificate, or computational claim.
+
 ## Novelty boundary
 
 The live [Erdős Problems entry](https://www.erdosproblems.com/151) still marks
@@ -76,7 +112,7 @@ the full question open.  Bhat, Bhat, and Bhat (2023) already define the same
 with the clique-transversal number; McDiarmid, Mitsche, and Prałat (2019) use
 the equivalent maximal-clique-free parameter in random graphs.  Targeted
 searches have not found the independent-set recurrence,
-minimal-counterexample interval, or through-22 result, but the older-literature
+minimal-counterexample interval, or through-27 result, but the older-literature
 comparison is not exhaustive.  This is a timestamped, independently derived
 research note offered for expert review, not an assertion that every lemma is
 new to the literature.
@@ -97,6 +133,16 @@ agreement is a bug-finding measure, not peer review.
 - S. Radziszowski,
   [*Small Ramsey Numbers*](https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1),
   Dynamic Survey 1, Electronic Journal of Combinatorics.
+- B. D. McKay and Zhang Ke Min,
+  [*The value of the Ramsey number R(3,8)*](https://doi.org/10.1002/jgt.3190160111),
+  Journal of Graph Theory 16 (1992), 99--105.
+- R. L. Brooks,
+  [*On colouring the nodes of a network*](https://doi.org/10.1017/S030500410002168X),
+  Proceedings of the Cambridge Philosophical Society 37 (1941), 194--197.
+- T. Gallai,
+  [*Kritische Graphen, I*](https://real.mtak.hu/201435/),
+  A Magyar Tudományos Akadémia Matematikai Kutató Intézetének Közleményei
+  8(1--2) (1963), 165--192.
 - S. R. Bhat, R. Bhat, and S. G. Bhat,
   [*Clique Free Number of a Graph*](https://www.engineeringletters.com/issues_v31/issue_4/EL_31_4_55.pdf),
   Engineering Letters 31(4) (2023), 1832--1836.

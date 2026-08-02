@@ -1,9 +1,9 @@
 # Priority and literature audit
 
-**Cutoff:** 2 August 2026.  **Conclusion:** no prior proof, counterexample,
-recurrence, or explicit verification through order 18 or 22 specific to
-Erdős problem 151 was found.  This is absence of evidence, not proof of
-novelty.
+**Cutoff:** 2 August 2026, with an announcement-level repeat at 13:09 UTC.
+**Conclusion:** no prior proof, counterexample, recurrence, or explicit
+verification through order 18, 22, or 27 specific to Erdős problem 151 was
+found.  This is absence of evidence, not proof of novelty.
 
 ## Current status and recent-claim sweep
 
@@ -17,6 +17,10 @@ novelty.
 - Searches of GitHub, Formal Conjectures, VibeMathed, Mathlib, arXiv, Ulam,
   general web indexes, and date-restricted July--August 2026 results found no
   #151 solution or finite-order claim.
+- Immediately before the order-24 result was prepared for publication, a
+  fresh exact-title/formula/problem-number sweep again found no matching
+  preprint or announcement.  The database warning that its status can lag was
+  treated as a reason to search, not as evidence of novelty.
 - The April 2026 Ulam note
   [*A note on the clique-transversal number*](https://www.ulam.ai/research/erdos610.pdf)
   concerns the asymptotic problem #610.  It explicitly leaves the stronger
@@ -59,13 +63,13 @@ campaign recurrence
 beta(G) >= |I| + beta(G-N[I]),
 ```
 
-the resulting minimal-counterexample interval, or a verification through
-order 22.
+the resulting minimal-counterexample interval, the order-24
+triangle-edge-coloring argument, or the finite verification recorded here.
 
 ## Calibrated novelty assessment
 
 - About **95% confidence** that no prior public full resolution or explicit
-  finite verification through order 18 or 22 was present in the searched
+  finite verification through order 18, 22, or 27 was present in the searched
   venues before this publication.
 - About **90% confidence** that the recurrence and Ramsey-interval strategy do
   not occur in the searched literature.

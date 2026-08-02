@@ -510,7 +510,15 @@ Ramsey thresholds.  The first result proves the conjectured #151 bound for
 every graph of order at most 17 and confines a smallest counterexample with
 `h=H(n)` to `R(3,h) <= n <= R(3,h-1)+h-1`.  A second, separately audited
 local-link argument excludes the first surviving order 18.  Parity and
-`R(3,7)=23` then propagate the result through order 22.
+`R(3,7)=23` then propagate the result through order 22.  Two further
+independently audited analytic arguments exclude orders 23 and 24.  The
+order-23 proof combines a Ramsey-minimal subgraph, exact link counts,
+Brooks' theorem, and Gallai's low-vertex theorem.  The order-24 proof uses a
+triangle-edge-coloring lemma after forcing a putative candidate to be
+6-regular.  Strong induction gives `beta(G)>=7` at every order at least 23;
+with `R(3,8)=28`, the conjectured #151 inequality therefore holds through
+order 27.  The next possible first-counterexample interval is 28--30, so the
+universal problem remains open.
 
 The order-14 SAT portfolio was stopped after 1,024.859 seconds because the
 structural proof makes a counterexample there impossible.  It produced no
@@ -522,9 +530,14 @@ conclusion.  The proof, audit boundary, order-18 contradiction, and
 machine-readable record are published in
 [`erdos151/`](erdos151/).  The universal Erdős problem remains open.
 
+The recurrence itself now has a sorry-free Lean 4/mathlib verification with
+a separate semantic audit.  Its public scope is deliberately narrow: the
+Ramsey inputs and finite-order arguments are prose proofs, not formalized
+theorems.
+
 A dedicated priority sweep found prior art for the complementary parameter
 and identity `tau+beta=n` (Bhat--Bhat--Bhat 2023, with the equivalent
 maximal-clique-free parameter in McDiarmid--Mitsche--Prałat 2019), but no
-public occurrence of the recurrence, Ramsey interval, or through-22 result.
+public occurrence of the recurrence, Ramsey interval, or through-27 result.
 Novelty confidence is about 90%, not a substitute for expert literature
 review.

@@ -1,15 +1,18 @@
 {
-  "schema": "erdos151-structural-result-v3",
+  "schema": "erdos151-structural-result-v5",
   "published_utc": "2026-08-02T12:36:11Z",
-  "updated_utc": "2026-08-02T12:48:15Z",
+  "updated_utc": "2026-08-02T13:37:49Z",
   "problem": 151,
   "full_problem_status": "OPEN_NOT_SOLVED_BY_THIS_RESULT",
   "verified_claims": [
-    "tau(G) <= n - H(n) for every graph G of order n <= 22",
+    "tau(G) <= n - H(n) for every graph G of order n <= 27",
     "beta(G) >= |I| + beta(G - N[I]) for every independent set I",
     "a smallest counterexample with h=H(n) satisfies R(3,h) <= n <= R(3,h-1)+h-1",
     "no order-18 counterexample exists",
-    "the next possible first-counterexample orders are n=23 and n=24"
+    "beta(G) >= 7 for every graph G of every order n >= 23",
+    "no order-23 counterexample exists",
+    "no order-24 counterexample exists",
+    "the next possible first-counterexample orders are n=28, n=29, and n=30"
   ],
   "ramsey_dependencies": {
     "R(3,2)": 3,
@@ -17,9 +20,47 @@
     "R(3,4)": 9,
     "R(3,5)": 14,
     "R(3,6)": 18,
-    "R(3,7)": 23
+    "R(3,7)": 23,
+    "R(3,8)": 28
   },
-  "independent_proof_audit": "VERIFIED_THROUGH_ORDER_22",
+  "classical_theorem_dependencies": {
+    "Brooks_theorem": "A connected graph has chromatic number at most its maximum degree unless it is complete or an odd cycle.",
+    "Gallai_low_vertex_theorem": "In a k-critical graph, the subgraph induced by the degree-(k-1) vertices is a Gallai forest."
+  },
+  "independent_proof_audit": "VERIFIED_THROUGH_ORDER_27",
+  "order23_verification": {
+    "status": "VERIFIED",
+    "proof": "order23.md",
+    "proof_sha256": "0bdbb9e4e7e3f9d1deaa12bd13c98f4a5af964acdc5592ee19659141a8348f37",
+    "verified_theorem": "beta(G) >= 7 for every graph G of order 23",
+    "method": "Ramsey-minimal subgraph, exact link counts, Brooks theorem, and Gallai low-vertex theorem",
+    "independent_audits": [
+      "SOL_MAX_ADVERSARIAL_RECONSTRUCTION",
+      "FRESH_SOL_MAX_PROOF_AND_CITATION_RECONSTRUCTION"
+    ],
+    "link_sanity_check": {
+      "source": "checks/marked_neighborhood6.py",
+      "source_sha256": "5916d9c8d1d36e6123b8c7dca958452e924f3cec9a1b5a138749cc96858b3a26",
+      "ternary_states": 14348907,
+      "eligible_marked_colored_links": 745032,
+      "minimum_link_edges": 7,
+      "role": "nonessential bug-finding check; the published proof is analytic"
+    }
+  },
+  "order24_verification": {
+    "status": "VERIFIED",
+    "proof": "order24.md",
+    "proof_sha256": "cb2c8086d6974be12e6d91767c6dd4dbe4019478982605066c07e47f5b73ea9f",
+    "verified_theorem": "beta(G) >= 7 for every graph G of order 24",
+    "propagated_theorem": "beta(G) >= 7 for every graph G of every order n >= 24",
+    "independent_audit": "SOL_MAX_ADVERSARIAL_RECONSTRUCTION",
+    "coloring_lemma_cross_check": {
+      "labeled_graphs_on_order7": 2097152,
+      "graphs_satisfying_hypothesis": 1159326,
+      "counterexamples": 0
+    },
+    "scope_boundary": "This order-24 argument and R(3,8)=28 prove the Erdős #151 inequality at orders 24 through 27. Order 23 is handled separately in order23.md; later Ramsey intervals remain open."
+  },
   "lean_recurrence_verification": {
     "status": "VERIFIED_NARROW_SCOPE",
     "source": "lean/Erdos151Recurrence.lean",
@@ -30,13 +71,13 @@
     "formal_conjectures_commit": "735aee074327b8e78b0d92bb1ee8ea00937c3f51",
     "sorry_free": true,
     "reported_axioms": ["propext", "Classical.choice", "Quot.sound"],
-    "scope": "Definitions, induced-maximality direction, residual lift, finite avoiding-set maximum, and beta recurrence only; excludes tau duality, Ramsey inputs, the order-18 argument, and the through-order-22 theorem.",
+    "scope": "Definitions, induced-maximality direction, residual lift, finite avoiding-set maximum, and beta recurrence only; excludes tau duality, Ramsey inputs, and all finite-order theorems.",
     "independent_semantic_audit": "VERIFIED"
   },
   "literature_audit": {
-    "as_of_utc": "2026-08-02T12:36:11Z",
-    "prior_full_solution_or_through22_result_found": false,
-    "estimated_confidence_no_prior_public_through22_result": 0.95,
+    "as_of_utc": "2026-08-02T13:09:38Z",
+    "prior_full_solution_or_matching_finite_result_found": false,
+    "estimated_confidence_no_prior_public_matching_result": 0.95,
     "estimated_confidence_recurrence_is_new_to_searched_literature": 0.9,
     "known_parameter_prior_art": [
       "Bhat-Bhat-Bhat, Clique Free Number of a Graph (2023)",
@@ -74,6 +115,15 @@
     },
     "files_deleted": []
   },
-  "novelty_boundary": "The beta duality appears in Bhat-Bhat-Bhat (2023), with an earlier maximal-clique-free synonym in McDiarmid-Mitsche-Pralat (2019). Targeted searches found no public statement of the recurrence or through-22 result; full older-literature comparison and expert review remain pending.",
+  "superseded_order23_24_probe": {
+    "status": "DESIGN_ONLY_STOPPED_AFTER_ANALYTIC_PROOFS",
+    "cnf_materialized": false,
+    "solver_launched": false,
+    "candidates": 0,
+    "solver_conclusions": 0,
+    "proof_logging": false,
+    "files_deleted": []
+  },
+  "novelty_boundary": "The beta duality appears in Bhat-Bhat-Bhat (2023), with an earlier maximal-clique-free synonym in McDiarmid-Mitsche-Pralat (2019). Targeted searches found no public statement of the recurrence, order-24 coloring argument, or recorded finite-order results; full older-literature comparison and expert review remain pending.",
   "ai_disclosure": "AI agents performed discovery, audit, computation, documentation, and publication preparation under Edison Yi's direction."
 }

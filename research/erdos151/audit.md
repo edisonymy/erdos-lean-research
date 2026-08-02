@@ -1,6 +1,6 @@
 # Independent audit record
 
-**Status:** `VERIFIED` through order 22 on 2 August 2026.
+**Status:** `VERIFIED` through order 27 on 2 August 2026.
 
 The initial through-17 audit was performed by a separate agent before the
 order-14 solver portfolio was stopped.  The order-18 extension received a
@@ -49,6 +49,40 @@ not the full Erdős problem.
     sorry-free.  `#print axioms` reports no axioms for the induced-maximality
     lemma and only `propext`, `Classical.choice`, and `Quot.sound` for the
     principal recurrence chain.  This check covers the recurrence only.
+13. **Order-24 reduction.**  A fresh Sol/max audit independently checked the
+    weak order-23 bound, component additivity/budget argument, regularity,
+    `K_6` exclusion, common-neighbor cap, neighborhood-swap lemma, and every
+    two-walk and link inequality in [`order24.md`](order24.md).
+14. **Triangle-edge coloring.**  The audit reconstructed the deletion
+    induction and the classification of a residual core as vertex-disjoint
+    `K_4` components.  As a bug-finding cross-check, it also exhaustively
+    tested all 2,097,152 graphs on a fixed labeled seven-vertex set; all 1,159,326
+    graphs satisfying the lemma's hypothesis admitted the required coloring.
+    The human proof, not this finite check, establishes the general lemma.
+15. **Ramsey and propagation.**  The audit checked that `J=L union M` is
+    triangle-free and that its independent seven-set avoids every ambient
+    inclusion-maximal clique.  It also checked the strong induction proving
+    `beta(G)>=7` for all orders at least 24.  The conversion to #151 at orders
+    24--27 explicitly uses `R(3,8)=28`.
+16. **Order-23 Ramsey reduction.**  A separate Sol/max agent reconstructed
+    the reduction to a subgraph-minimal `(3,3)`-Ramsey graph, the implication
+    `chi>=6`, every use of Brooks' theorem, and the proof that every edge of
+    the Ramsey-minimal graph lies in at least two triangles.
+17. **Order-23 link count.**  The audit checked both spoke-coloring
+    extensions for a six-edge link (`C_6` and `2C_3`), the exact walk identity,
+    the equality case `t=7`, the direction of the neighborhood-swap lemma,
+    and the proof that the Ramsey-minimal graph has a unique degree-six
+    vertex.  An independent ternary link enumerator was used only as a sanity
+    check; the published proof is analytic.
+18. **Critical-graph finish.**  The audit checked the existence and exact
+    degree pattern of the 6-critical subgraph and the application of Gallai's
+    low-vertex theorem.  Leaf blocks, cut vertices, disconnected components,
+    odd-cycle blocks, and clique blocks are all explicitly accounted for.
+    The resulting degree-four vertex count is impossible.
+19. **Fresh citation/proof audit.**  A further independent Sol/max pass caught
+    and corrected a pre-publication bibliographic error: Gallai's low-vertex
+    theorem is Satz E.1 of *Kritische Graphen, I*, not part II.  It then
+    reconstructed the corrected proof from scratch and returned `VERIFIED`.
 
 ## Computational cross-check
 
@@ -95,12 +129,20 @@ the fresh analytic audit succeeded.  None had emitted a candidate, result, or
 solver conclusion.  Their status is `STOPPED_AFTER_STRUCTURAL_PROOF`, with
 `unsat_claim=false`; all artifacts were preserved and nothing was deleted.
 
+## Superseded order-23/24 design
+
+A private candidate-first SAT encoding was designed, smoke-tested on small
+semantics, and size-estimated.  The analytic proofs arrived before any large
+CNF was materialized or any solver was launched.  It produced no candidate,
+SAT/UNSAT status, certificate, or computational claim and is not used by the
+proofs.
+
 ## Remaining trust boundary
 
 The recurrence is kernel-checked, but the clique-transversal duality, Ramsey
-inputs, order-18 local argument, and through-order-22 conclusion are not yet
-formalized and the complete proof has not received human peer review.  The
-`beta` duality is prior art (Bhat--Bhat--Bhat, 2023); the search for prior
-occurrences of the recurrence and through-22 result is targeted rather than
+inputs, order-18, order-23, and order-24 arguments, and finite-order
+conclusions are not yet formalized, and the complete proof has not received
+human peer review.  The `beta` duality is prior art (Bhat--Bhat--Bhat, 2023);
+the search for prior occurrences of the recurrence and through-27 result is targeted rather than
 exhaustive.  Those boundaries affect novelty and uptake, not the internal
 validity of the elementary argument recorded in [`proof.md`](proof.md).
