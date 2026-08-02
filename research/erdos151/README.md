@@ -5,7 +5,10 @@ remains open.  This package proves the conjectured inequality for every graph
 on at most 27 vertices.  The proof excludes the order-18, order-23, and
 order-24 cores analytically and then propagates the resulting lower bounds by
 the independent-set recurrence.  It does **not** claim a solution of problem
-151.  The next possible first-counterexample interval is orders 28--30.
+151.  The initial next first-counterexample interval was orders 28--30.  The
+independently audited induced-subgraph monotonicity lemma now shows that a
+least counterexample can occur only at an exact Ramsey jump.  Thus the entire
+next first-counterexample search is reduced to order 28 alone.
 
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum
@@ -60,6 +63,21 @@ seven-set is avoiding.  Strong induction with the recurrence gives
 conjectured bound through order 27.  It does not settle any later Ramsey
 interval.
 
+Three further structural theorems sharpen the first open interval without
+claiming to settle it.  The
+[`induced-subgraph monotonicity lemma`](general/INDUCED_MONOTONICITY.md)
+reduces every Ramsey plateau to its first order; consequently, clearing order
+28 alone would prove the conjecture through order 35.  The
+[`top-window Ramsey-core inequality`](general/TOP_WINDOW_RAMSEY_CORE.md)
+shows that an order-30 least counterexample would contain an edge-minimal
+`(3,3)`-arrowing core whose degrees are simultaneously at most four and at
+least five, a contradiction.  The independently audited
+[`clique-residual lemma`](general/CLIQUE_RESIDUAL.md) proves that every least
+counterexample at orders 28--30 is `K5`-free, strengthening the working bound
+to `omega(G)<=4`.  The top-window theorem is now operationally superseded by
+the stronger monotonicity reduction, but remains a valid independent
+structural result.
+
 ## Evidence and audit
 
 - [`proof.md`](proof.md) gives the complete human-readable argument through
@@ -67,6 +85,14 @@ interval.
 - [`order23.md`](order23.md) gives the independently audited order-23 proof.
 - [`order24.md`](order24.md) gives the independently audited order-24 proof
   and its `beta>=7` propagation corollary.
+- [`general/TOP_WINDOW_RAMSEY_CORE.md`](general/TOP_WINDOW_RAMSEY_CORE.md)
+  gives the twice-audited top-window core inequality and the exact reduction
+  from orders 28--30 to orders 28--29.
+- [`general/INDUCED_MONOTONICITY.md`](general/INDUCED_MONOTONICITY.md) gives
+  the twice-audited reduction from an entire Ramsey plateau to its jump order;
+  it supersedes the 28--29 operational scope above by leaving order 28 alone.
+- [`general/CLIQUE_RESIDUAL.md`](general/CLIQUE_RESIDUAL.md) gives the
+  twice-audited `omega<=4` reduction for the first open interval.
 - [`audit.md`](audit.md) records the independent maximality, induction, Ramsey,
   and computation checks.
 - [`literature.md`](literature.md) records the current priority search and the

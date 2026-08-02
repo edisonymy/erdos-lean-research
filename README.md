@@ -32,8 +32,10 @@ because the original problem lacked a public Lean statement.
 - **Erdős #151:** an independently derived recurrence, local link counts,
   and Ramsey/critical-graph arguments prove the conjectured
   clique-transversal bound for every graph on at most 27 vertices.  A
-  sorry-free Lean file verifies the recurrence alone.  The next possible
-  first-counterexample interval is orders 28--30.
+  sorry-free Lean file verifies the recurrence alone.  A multiply audited
+  induced-subgraph monotonicity lemma reduces every Ramsey plateau to its
+  jump order, so only order 28 remains in the next plateau; a clique-residual
+  lemma forces any such least counterexample to be `K5`-free.
   This is structural finite-order progress, not a solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
