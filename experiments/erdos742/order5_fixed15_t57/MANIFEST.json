@@ -1,0 +1,117 @@
+{
+  "schema": "erdos742-order5-fixed15-t57-lrat-v1",
+  "generated_utc_date": "2026-08-02",
+  "scope": "The exact hash-locked fixed-15, t=57 split CNF is certified UNSAT. The graph-to-CNF correspondence, symmetry reduction, and published graph-theoretic reductions remain external. This does not complete the fixed-15 class or solve Erdos Problem 742.",
+  "case": {
+    "cycle_type": "1^15 5^2",
+    "fixed_vertices": 15,
+    "five_cycles": 2,
+    "fixed_edge_count": 57,
+    "moving_edge_orbit_count": 20,
+    "total_edges": 157,
+    "cnf_header": "p cnf 45439 260659"
+  },
+  "sources": {
+    "split_search": {
+      "file": "experiments/erdos742/order5_other_fixed/search_split_case.py",
+      "bytes": 4000,
+      "sha256": "4e2c8759bd30a2d98b61bb23434e01fa9b3901891e0902beefef204ea0e8648d"
+    },
+    "split_audit": {
+      "file": "experiments/erdos742/order5_other_fixed/audit_split_search.py",
+      "bytes": 13105,
+      "sha256": "4bfa12e5840da365be1dc6de3b623869b0edc5ecaa98711d4f63cf54b14bbb3f"
+    },
+    "centralizer_search": {
+      "file": "experiments/erdos742/order5_other_fixed/search.py",
+      "bytes": 4951,
+      "sha256": "1b6a97c67533cd2334c241ddfacd36fc75a763589f42829bb2cc5c2a77f62248"
+    },
+    "base_generator": {
+      "file": "experiments/erdos742/order5_fixed5/generate_cases.py",
+      "bytes": 23220,
+      "sha256": "8f84f0250fcc354e0417e2eddeb28da46dde6c086b0c0384dd58f4a41dd0e366"
+    }
+  },
+  "solver": {
+    "name": "CaDiCaL 1.9.5",
+    "commit": "146207318796f094dcded87349a64f0c6927309e",
+    "binary_sha256": "0ffcd0bb1265203c8744b677dcd8d37185d24cbe00f723d53f2431ade02d0750",
+    "flags": ["--lrat", "--no-binary"],
+    "exit_code": 20,
+    "process_seconds": 2168.17,
+    "real_seconds": 3285.56,
+    "conflicts": 9646024
+  },
+  "proof": {
+    "format": "direct ASCII LRAT",
+    "bytes": 6520830008,
+    "sha256": "aab63b00d30be593e657abe4be75e8c4246f147e8fb4f1cee7115ec5a3823c56"
+  },
+  "checker": {
+    "name": "drat-trim/lrat-check",
+    "binary_sha256": "8a5c1bde335526ac3778cc25ab6174ca2374659adb5df4a5cd5ddabce5b0f5d9",
+    "exit_code": 0,
+    "result": "c VERIFIED",
+    "verification_seconds": 851.56,
+    "added_clauses": 13775162,
+    "deleted_clauses": 13589392,
+    "max_live_clauses": 415309
+  },
+  "assets": {
+    "cnf": {
+      "file": "case.cnf",
+      "bytes": 4633176,
+      "sha256": "98491c7d778f10360df5f2d75b085c42863c860e42ee0324765e912052915b12"
+    },
+    "compressed_lrat": {
+      "file": "case.direct.lrat.zst",
+      "compression": "zstd level 3, one thread",
+      "bytes": 1504219052,
+      "sha256": "84820d2c0e32921d9796b8c8459c95740995cbe0e26e92cde8b156948bcd8c43"
+    },
+    "result": {
+      "file": "result.json",
+      "bytes": 2622,
+      "sha256": "ba610aa34188bda5beb0714daa1d0cbfd2dd0a7b503c8b2e77acd0e7643017bf"
+    },
+    "build_metadata": {
+      "file": "build.json",
+      "bytes": 2940,
+      "sha256": "388861b8271abe8f4970a100b7d3c0ff0d6574d797a3cf2bcdab13900b4cb196"
+    },
+    "solver_log": {
+      "file": "cadical.log",
+      "bytes": 84056,
+      "sha256": "6d3551c38bb5ec5486d2df83ef596089ac80504841605351ccd809006de0f8cf"
+    },
+    "checker_log": {
+      "file": "lrat-check.log",
+      "bytes": 357,
+      "sha256": "1fb1fe136b95bfedee02c54d1cd76c4c19c6ed6027e102efc9ea98a95c898420"
+    },
+    "lrat_checker": {
+      "file": "lrat-check-linux-x86_64",
+      "bytes": 24432,
+      "sha256": "8a5c1bde335526ac3778cc25ab6174ca2374659adb5df4a5cd5ddabce5b0f5d9"
+    }
+  },
+  "package_files": {
+    "readme": {
+      "file": "experiments/erdos742/order5_fixed15_t57/README.md",
+      "bytes": 3130,
+      "sha256": "260e8bf904fe9c84610f8ccf5dc5484ea481264aeb4ed42b748a1585d4b6a93d"
+    },
+    "recency_audit": {
+      "file": "experiments/erdos742/order5_fixed15_t57/RECENCY_AUDIT.md",
+      "bytes": 1541,
+      "sha256": "2d83cce941049ef36518a91f8cf53f76583af72808c8deb8c27746accb844d3b"
+    },
+    "verifier": {
+      "file": "experiments/erdos742/order5_fixed15_t57/verify.ps1",
+      "bytes": 4975,
+      "sha256": "7b83a73bf7ebad3c90225b374f4a61f61f7f5313a2bf9826faacdb2f9e2de9ca"
+    }
+  },
+  "public_record": "https://github.com/edisonymy/erdos-lean-research/issues/1#issuecomment-5155917851"
+}
