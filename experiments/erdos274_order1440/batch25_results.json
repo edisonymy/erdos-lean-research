@@ -1,0 +1,68 @@
+{
+  "schema": "erdos274-smallgroups1440-batch25-v1",
+  "date": "2026-08-02",
+  "claim_scope": "For each listed GAP SmallGroup(1440,gid), the exact normalized right-coset search found no partition of the group by more than one right coset of subgroups having pairwise distinct indices, after the documented necessary-condition pruning. This is a result for 25 specified groups of order 1440, not for every group of order 1440 and not a solution of Erdos problem 274.",
+  "repository_head_at_final_audit": "678645d4351966834227d281b0019594b6b868b7",
+  "cache_note": "The hs274 directory is ignored and is not contained in the repository commit above.",
+  "runtime": {
+    "python": "3.12.4",
+    "gap": "4.10.2",
+    "gap_container": "gapsystem/gap-container:latest",
+    "gap_container_digest": "sha256:b93bd242335adf5d0fc575e8e9d1bda840e711ff133b528722deb8b43f9fc66a"
+  },
+  "source_hashes_sha256": {
+    "search_batch_exact.py": "0b16e730ddf7d32114e8dfcb8e40c43257ed0d75f0c4289b573e37c91e7b8f57",
+    "analyze_spectra.py": "3bd71ca9322aa4fdc8c17d51e7aee778f868fcfa671925dfdea5ffa837a6e989",
+    "export_batch.g": "8b72a49a81fa11e6cbee80cbf0922f42f863f98362f8f5879c30cdeb3e58c83f",
+    "solvable_subgroup_stats.g": "44dde1cfae2242ed13fa689dbd15c1ffa6f257df295b75b59f4feef401135f3e",
+    "solvable_subgroup_stats.tsv": "a586d23e5bf708da71f60f3b8a746029421bd47ec3f48d25d8382302205a210b",
+    "replay1625_full.jsonl": "c991dd0dd46a50245ac34a1280fc144ab5b1903432bc833e40a41593008136a4"
+  },
+  "search_parameters": {
+    "order": 1440,
+    "pattern_node_cap": 5000000,
+    "ordinary_group_seconds": 600,
+    "clean_1625_replay_seconds": 3600,
+    "normalization": "Translate a selected right coset globally to its subgroup, then conjugate the subgroup to one representative of its subgroup conjugacy class; branch over every such representative at the cheapest selected index.",
+    "pruning": [
+      "indices greater than 2",
+      "distinct indices with sum(1/index)=1",
+      "pairwise gcd(index_i,index_j)>1",
+      "Margolis-Schnabel Proposition 4.2 forbidden even-index triple"
+    ]
+  },
+  "discarded_runs": [
+    {
+      "groups": [1625, 1628, 2547, 2524],
+      "reason": "The four-way orchestration wrapper was killed by its 620-second outer timeout before returning any child JSON. No conclusion from this run is counted. Every group was subsequently rerun."
+    }
+  ],
+  "selection_order": [655, 659, 2641, 2642, 267, 657, 265, 255, 2666, 2667, 74, 654, 1881, 4109, 1624, 4108, 2549, 2522, 1625, 1629, 1628, 2547, 2524, 256, 2542],
+  "groups": [
+    {"gid":655,"coset_rows":21279,"cosets_sha256":"2f49dface22cecaaeddc462ba7ba48f1547bb57b6e25862dba8639dee8a95490","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5427,"nodes":2460439,"max_pattern_nodes":5171,"cap_patterns":0},
+    {"gid":659,"coset_rows":22479,"cosets_sha256":"1be23310e2299dfbaacae6631cc55038fe4c6764364aa50d806c599ef6600eb6","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":192614,"max_pattern_nodes":355,"cap_patterns":0},
+    {"gid":2641,"coset_rows":23789,"cosets_sha256":"d7cec08d3fa807fad9077203c4bab7d484697a0ccff476dcf421b350086ca698","status":"COMPLETE_UNSAT","patterns":4972,"fixed_cases":5056,"nodes":2085457,"max_pattern_nodes":1694,"cap_patterns":0},
+    {"gid":2642,"coset_rows":23789,"cosets_sha256":"94e8285e29a8dc32391131ea6763f4bec813ae4244aecae7d4cdc03b90a514de","status":"COMPLETE_UNSAT","patterns":4972,"fixed_cases":5056,"nodes":2102425,"max_pattern_nodes":1694,"cap_patterns":0},
+    {"gid":267,"coset_rows":27427,"cosets_sha256":"fb41d4b168bb8fe4cf639cb0e318172c5456860ad4b9a659e2f12dc23b99914b","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":190006,"max_pattern_nodes":243,"cap_patterns":0},
+    {"gid":657,"coset_rows":29319,"cosets_sha256":"6499a994bb292e20a2878ade949e0831a5d8eda75227c82adbb32c5198154ace","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":244622,"max_pattern_nodes":46,"cap_patterns":0},
+    {"gid":265,"coset_rows":29779,"cosets_sha256":"d33580edc87fbc46879a5fe57d4556b2e23f0cf9ae0fd3cc07d66343c2fed58e","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":215834,"max_pattern_nodes":355,"cap_patterns":0},
+    {"gid":255,"coset_rows":31731,"cosets_sha256":"6ce33d2bc33c5101ef79ec365d5a109afea40a1675df4fba469404d3b2028e98","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":237334,"max_pattern_nodes":355,"cap_patterns":0},
+    {"gid":2666,"coset_rows":31989,"cosets_sha256":"6a8c193ffaeeb6610f465d7ad1295bdad0dae8a61466a1bceaa35a6bd58fc035","status":"COMPLETE_UNSAT","patterns":4972,"fixed_cases":5056,"nodes":2085457,"max_pattern_nodes":1694,"cap_patterns":0},
+    {"gid":2667,"coset_rows":31989,"cosets_sha256":"9ce48ba9014b79ce39ebca711ba360460fb4f082c24d2f2b3faa813641baad5c","status":"COMPLETE_UNSAT","patterns":4972,"fixed_cases":5056,"nodes":2102425,"max_pattern_nodes":1694,"cap_patterns":0},
+    {"gid":74,"coset_rows":32189,"cosets_sha256":"547c1c7297c85322e556da87a5d32322cbe98440c942e4e904c9a9ec40371378","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":244622,"max_pattern_nodes":46,"cap_patterns":0},
+    {"gid":654,"coset_rows":32775,"cosets_sha256":"880bd28f0abd57ccd109addf3a5d8fd137b94ab679702582ac94cb826eea0d8f","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":244622,"max_pattern_nodes":46,"cap_patterns":0},
+    {"gid":1881,"coset_rows":33293,"cosets_sha256":"57487243b98c25e81ce239f5dd041d86880041c41c586a8a76a5b747a5bc4b1b","status":"COMPLETE_UNSAT","patterns":4972,"fixed_cases":4972,"nodes":674740,"max_pattern_nodes":880,"cap_patterns":0},
+    {"gid":4109,"coset_rows":33465,"cosets_sha256":"8c28f919d3b3634369e1e24ee2a08773d9d9e978e8e4224719fa60ec3d933713","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":164206,"max_pattern_nodes":243,"cap_patterns":0},
+    {"gid":1624,"coset_rows":35555,"cosets_sha256":"a06bfefbd51ef1e7a5f4735b1e9d3bfb391efb6babe04ab70cbeab6526f32c7b","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":250694,"max_pattern_nodes":625,"cap_patterns":0},
+    {"gid":4108,"coset_rows":36249,"cosets_sha256":"c091ca8dc6bedcf4cf20e9e65c01f48eee7f8ca6e73bd327ecb452cc72e5928c","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":205733,"max_pattern_nodes":145,"cap_patterns":0},
+    {"gid":2549,"coset_rows":36597,"cosets_sha256":"1694b54fe5b44ec39aa2b560fb83343ce2305d762eadfc11f52b2f274ca4dd9e","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":161626,"max_pattern_nodes":243,"cap_patterns":0},
+    {"gid":2522,"coset_rows":38085,"cosets_sha256":"b66d6a084a1df101be7a6ceda5b0664fc85b7224da5ed7e50a4f47b12a046a4d","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":205733,"max_pattern_nodes":145,"cap_patterns":0},
+    {"gid":1625,"coset_rows":38579,"cosets_sha256":"035b416c78c6bdc90dfc0b4c5c1115afa1a981d567c63a342c49e92114beff06","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5427,"nodes":3004731,"max_pattern_nodes":9793,"cap_patterns":0,"clean_full_replay":true,"segmented_provenance":[{"completed_range":"1-4118","status":"TIMEOUT","nodes":1800000,"fixed_cases":4119,"max_completed_pattern_nodes":5761,"cap_patterns":0},{"completed_range":"4119-5373","status":"TIMEOUT","nodes":1200000,"fixed_cases":1256,"max_completed_pattern_nodes":9793,"cap_patterns":0},{"completed_range":"5374-5402","status":"COMPLETE_UNSAT","nodes":9750,"fixed_cases":54,"max_pattern_nodes":5761,"cap_patterns":0}]},
+    {"gid":1629,"coset_rows":38909,"cosets_sha256":"bf23ddfac0bfd07e48e3c625d96d813064dce105591002a9d9026e79fba79af0","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":140210,"max_pattern_nodes":37,"cap_patterns":0},
+    {"gid":1628,"coset_rows":39347,"cosets_sha256":"543746e08ceec66c99b282b7f07737e63a106839dbad1187e9c4c454da4612f8","status":"COMPLETE_UNSAT_BY_SEGMENTS","patterns":5402,"cap_patterns":0,"segments":[{"completed_range":"1-4530","status":"TIMEOUT","nodes":1900000,"fixed_cases":4531,"max_completed_pattern_nodes":3265,"cap_patterns":0},{"completed_range":"4531-5402","status":"COMPLETE_UNSAT","nodes":634845,"fixed_cases":897,"max_pattern_nodes":5857,"cap_patterns":0}]},
+    {"gid":2547,"coset_rows":39381,"cosets_sha256":"b4d1d53d88d4c3bb0d8f257e21a0f6ab6ee015d21dd9b7081926251a58aab640","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":203153,"max_pattern_nodes":145,"cap_patterns":0},
+    {"gid":2524,"coset_rows":42213,"cosets_sha256":"09d6153a464aca28f9ee636aadd42f6fa0b1f2024dbd73cefe93729d8576d1b4","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":164206,"max_pattern_nodes":243,"cap_patterns":0},
+    {"gid":256,"coset_rows":43203,"cosets_sha256":"5f70a74547666be2e1e36bc7792b4b0e4a5b997bc06a1257073d4845419fee00","status":"COMPLETE_UNSAT_BY_SEGMENTS","patterns":5402,"cap_patterns":0,"segments":[{"completed_range":"1-4609","status":"TIMEOUT","nodes":1900000,"fixed_cases":4610,"max_completed_pattern_nodes":2531,"cap_patterns":0},{"completed_range":"4610-5402","status":"COMPLETE_UNSAT","nodes":504350,"fixed_cases":818,"max_pattern_nodes":5171,"cap_patterns":0}]},
+    {"gid":2542,"coset_rows":43825,"cosets_sha256":"177afa4ee05ebef95a653f0931ead77ed78d9fe8279c559dc12f7369f6ae7c64","status":"COMPLETE_UNSAT","patterns":5402,"fixed_cases":5402,"nodes":171946,"max_pattern_nodes":243,"cap_patterns":0}
+  ]
+}

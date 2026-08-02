@@ -26,6 +26,10 @@ original mathematical problem.
   catalogue completeness; this is a bounded result only.
 - **Erdős #196:** an audited negative Rethlas attempt on monotone four-term progressions in
   permutations of the naturals; no proof, counterexample, or verified blueprint resulted.
+- **Erdős #274:** an exact GAP/Python search excludes distinct-index right-coset
+  partitions for 25 explicitly listed solvable non-supersolvable groups of order 1440.
+  This is an easiest-first finite batch, not an exhaustive order-1440 result, and it
+  relies on GAP data and the audited search implementation rather than proof certificates.
 - **Erdős #366:** exact exclusion of the restricted families `n+1=x^3` and
   `n+1=x^4` for `2 <= x <= 2^32-1`; no unrestricted witness or proof.
 - **Erdős #488:** attack the density-doubling inequality for unions of multiples.
