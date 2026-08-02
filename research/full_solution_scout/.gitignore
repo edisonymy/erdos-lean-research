@@ -1,0 +1,8 @@
+*-live/
+prior-*/
+__pycache__/
+
+# Initial non-formalized triage contains the identities of live probes.  Keep
+# it local during the campaign's <=24 h tactical embargo; publish with `-f`
+# only after a probe is killed or a verified result has been announced.
+triage-*/unformalized*.json

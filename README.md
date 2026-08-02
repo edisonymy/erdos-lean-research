@@ -1,23 +1,36 @@
-# Erdős–Lean research campaign
+# Erdős problem full-resolution campaign
 
 This repository records an AI-assisted attempt to identify and, if realistically possible,
-solve a genuinely open Erdős problem with a kernel-checked Lean 4 proof.
+be first to solve a genuinely open Erdős problem.  On the current one-week horizon,
+the controlling objective is the probability of a novel, publicly creditable **full
+resolution**.  Lean remains a preferred verification and communication tool when it
+materially improves confidence, but an existing formalization is no longer a target gate.
 
 > **Status: active research. No open problem is claimed solved.**
 
 The central record of the campaign—its strategy, active and paused problems,
 claim hierarchy, failures, publication history, and exact current frontier—is
-[`research/campaign-dossier.md`](research/campaign-dossier.md).
+[`research/campaign-dossier.md`](research/campaign-dossier.md).  Since
+2 August 2026 the operating allocation strategy is
+[`research/target-acquisition.md`](research/target-acquisition.md): a
+tiered target-acquisition funnel optimizing for full resolutions, with
+bounded-certificate work demoted to justified background lanes.
 
-The project prioritizes statement fidelity, novelty checks, reproducible computation, and
-formal verification over producing a dramatic claim. A successful Lean compilation will not
-be treated as a solution unless the formal theorem is independently audited against the
-original mathematical problem.
+To avoid turning a public research log into a target list for a fast-moving
+priority race, newly promoted probes may remain local for at most their first
+24-hour budget.  Verified full results are published immediately; killed probes
+and their lessons are then added to the public record.
+
+The project prioritizes statement fidelity, novelty checks, reproducible computation,
+independent verification, and expert review over producing a dramatic claim. A successful
+Lean compilation will not be treated as a solution unless the formal theorem is independently
+audited against the original mathematical problem; conversely, a result is not excluded merely
+because the original problem lacked a public Lean statement.
 
 ## Current campaigns
 
-- **Erdős #64:** counterexample-first search for minimum-degree-three graphs without
-  power-of-two cycles, currently focused beyond the reported public order-31 frontier.
+- **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
+  without power-of-two cycles, last focused beyond the reported public order-31 frontier.
   An exact SMS/Glasgow computation excludes three documented Carr-structured
   order-32 degree families (`h = 8, 10, 12`); `h = 4, 6` and the unrestricted
   case remain unknown, and these trusted-solver results are not LRAT-certified.
@@ -86,13 +99,14 @@ for the reproducible setup.
 
 Any eventual solution package must include all of the following:
 
-1. an unchanged or explicitly audited public theorem statement;
+1. an exact, explicitly audited mathematical statement with authoritative provenance;
 2. evidence that the exact informal problem was open before the work;
 3. a fresh literature and priority search;
-4. a sorry-free Lean proof in the pinned environment;
-5. complete axiom output and unfinished-proof scans;
-6. concrete tests of the formal definitions and hypotheses;
-7. an independent human-readable proof; and
+4. reproducible independent verification proportionate to the result (for a finite
+   witness, two definition-level checkers; for a proof, line-by-line mathematical review);
+5. a sorry-free Lean proof and axiom audit when Lean is used;
+6. an independent human-readable proof or verification account;
+7. a clear expert-review and dissemination path; and
 8. a clear account of AI and computational involvement.
 
 Before compute-intensive work begins, the target must also pass the announcement-level

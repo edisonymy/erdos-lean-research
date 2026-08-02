@@ -465,7 +465,26 @@ symmetry class would be a publishable bounded theorem, but it would not by
 itself justify allowing certificate production to consume the campaign at the
 expense of full counterexample or general-proof searches.
 
-## 13. AI disclosure
+## 13. Strategy revision, 2 August 2026
+
+A same-day strategic review (Claude Fable 5, cross-examined by GPT 5.6)
+concluded that the portfolio was over-weighted toward famous, believed-true
+conjectures where counterexample-first search has a near-zero prior, and
+that bounded certificate production had displaced the full-resolution
+objective exactly as failure-ledger lesson 10 warns.  The allocation
+ranking in section 12 is superseded by
+[`target-acquisition.md`](target-acquisition.md): a tiered funnel
+(scripted pool construction → statement triage → recency-lite plus
+one-CPU-day probes → at most three evidence-gated sieges), with #742
+certification demoted to justified background work.  On user direction later
+that day, the controlling objective was simplified to being first to a
+publicly creditable full resolution within roughly one week.  Existing Lean
+formalization is therefore a bonus rather than a selection gate; verification,
+novelty, reproducibility, expert review, and accurate scope remain mandatory.
+The witness announcement fast path is
+[`announcement-template.md`](announcement-template.md).
+
+## 14. AI disclosure
 
 This is an AI-assisted research campaign directed by Edison Yi.  Codex agents
 performed literature triage, mathematical experimentation, solver orchestration,
