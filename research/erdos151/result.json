@@ -1,6 +1,7 @@
 {
-  "schema": "erdos151-structural-result-v2",
+  "schema": "erdos151-structural-result-v3",
   "published_utc": "2026-08-02T12:36:11Z",
+  "updated_utc": "2026-08-02T12:48:15Z",
   "problem": 151,
   "full_problem_status": "OPEN_NOT_SOLVED_BY_THIS_RESULT",
   "verified_claims": [
@@ -19,6 +20,19 @@
     "R(3,7)": 23
   },
   "independent_proof_audit": "VERIFIED_THROUGH_ORDER_22",
+  "lean_recurrence_verification": {
+    "status": "VERIFIED_NARROW_SCOPE",
+    "source": "lean/Erdos151Recurrence.lean",
+    "source_sha256": "49495023c83c36403b2af408c1c2d152703cb922e958b0a353d03f7f12737e0e",
+    "lean_version": "4.27.0",
+    "lean_commit": "db93fe1608548721853390a10cd40580fe7d22ae",
+    "mathlib_commit": "a3a10db0e9d66acbebf76c5e6a135066525ac900",
+    "formal_conjectures_commit": "735aee074327b8e78b0d92bb1ee8ea00937c3f51",
+    "sorry_free": true,
+    "reported_axioms": ["propext", "Classical.choice", "Quot.sound"],
+    "scope": "Definitions, induced-maximality direction, residual lift, finite avoiding-set maximum, and beta recurrence only; excludes tau duality, Ramsey inputs, the order-18 argument, and the through-order-22 theorem.",
+    "independent_semantic_audit": "VERIFIED"
+  },
   "literature_audit": {
     "as_of_utc": "2026-08-02T12:36:11Z",
     "prior_full_solution_or_through22_result_found": false,

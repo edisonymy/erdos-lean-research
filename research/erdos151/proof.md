@@ -64,6 +64,12 @@ maximal in G and contained in F  =>  maximal in F.
 
 It does not use the false converse.
 
+This recurrence, including the required one-way maximality implication, has
+also been checked in Lean 4/mathlib.  The formalization is deliberately scoped
+to Lemma 2 and is available in
+[`lean/Erdos151Recurrence.lean`](lean/Erdos151Recurrence.lean); it does not
+formalize the remaining argument in this note.
+
 ## Theorem: the conjecture holds through order 17
 
 The exact thresholds

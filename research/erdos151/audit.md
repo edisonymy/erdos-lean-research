@@ -42,6 +42,13 @@ not the full Erdős problem.
     auxiliary graph avoids maximal edges via `L` and all larger cliques via
     the triangle-hitting matching.  `R(3,7)=23` and odd-degree parity then
     propagate the result through order 22.
+12. **Lean recurrence check.**  The definitions of nontrivial
+    inclusion-maximal clique and avoiding set, the induced-maximality
+    direction, the residual lifting argument, and the finite-cardinality
+    recurrence were compiled with Lean 4.27.0/mathlib 4.27.0.  The source is
+    sorry-free.  `#print axioms` reports no axioms for the induced-maximality
+    lemma and only `propext`, `Classical.choice`, and `Quot.sound` for the
+    principal recurrence chain.  This check covers the recurrence only.
 
 ## Computational cross-check
 
@@ -90,8 +97,10 @@ solver conclusion.  Their status is `STOPPED_AFTER_STRUCTURAL_PROOF`, with
 
 ## Remaining trust boundary
 
-The proof is not yet kernel-formalized and has not yet received human peer
-review.  The `beta` duality is prior art (Bhat--Bhat--Bhat, 2023); the search
-for prior occurrences of the recurrence and through-22 result is targeted
-rather than exhaustive.  Those boundaries affect novelty and uptake, not the
-internal validity of the elementary argument recorded in [`proof.md`](proof.md).
+The recurrence is kernel-checked, but the clique-transversal duality, Ramsey
+inputs, order-18 local argument, and through-order-22 conclusion are not yet
+formalized and the complete proof has not received human peer review.  The
+`beta` duality is prior art (Bhat--Bhat--Bhat, 2023); the search for prior
+occurrences of the recurrence and through-22 result is targeted rather than
+exhaustive.  Those boundaries affect novelty and uptake, not the internal
+validity of the elementary argument recorded in [`proof.md`](proof.md).

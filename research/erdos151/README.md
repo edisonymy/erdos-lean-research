@@ -51,6 +51,10 @@ minimal-counterexample interval and parity then exclude orders 19--22.
   exact boundary between known parameter prior art and the present proof method.
 - [`result.json`](result.json) records the exact claim, dependency thresholds,
   and the disposition of the superseded order-14 computation.
+- [`lean/Erdos151Recurrence.lean`](lean/Erdos151Recurrence.lean) is a
+  sorry-free Lean 4/mathlib verification of the independent-set recurrence
+  alone.  It does not formalize the Ramsey inputs, the order-18 argument, or
+  the through-order-22 theorem; see its [scope note](lean/README.md).
 - A second agent independently checked every use of inclusion-maximality, the
   base cases, the induction, and the Ramsey thresholds before publication.
 - As a computational sanity check, two separate implementations exhaustively
