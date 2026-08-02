@@ -1,0 +1,75 @@
+{
+  "schema": "erdos742-order5-fixed10-lrat-v1",
+  "generated_utc_date": "2026-08-02",
+  "search": {
+    "file": "search.py",
+    "sha256": "1b6a97c67533cd2334c241ddfacd36fc75a763589f42829bb2cc5c2a77f62248",
+    "imported_generator": "../order5_fixed5/generate_cases.py",
+    "imported_generator_sha256": "8f84f0250fcc354e0417e2eddeb28da46dde6c086b0c0384dd58f4a41dd0e366"
+  },
+  "independent_audit": {
+    "file": "audit_search.py",
+    "sha256": "fa88ed413de90e2f850d598f44467237d324b4070c88a46b9d4dbeec3e26fee9",
+    "report": "AUDIT.md",
+    "report_sha256": "5e5714709a01ba54dd0823e34339adb4582c3ff4423eea728fac183b70415c80",
+    "exhaustive_small_graphs": 18944,
+    "random_fixed10_graphs": 5000,
+    "invariant_complete_bipartite_graphs": 4095,
+    "mismatches": 0
+  },
+  "case": {
+    "cycle_type": "1^10 5^3",
+    "fixed_vertices": 10,
+    "five_cycles": 3,
+    "edge_orbits": 96,
+    "cnf_variables": 56164,
+    "cnf_clauses": 240029,
+    "cnf_asset": "case.cnf",
+    "cnf_bytes": 4182257,
+    "cnf_sha256": "d76aa6ff29e65423b3bb72a8f11451d7d4d8b6fb80943e2929b85bd9e179658f",
+    "drat_bytes": 419261312,
+    "drat_sha256": "78e6b94acf81d8f3ba7ff495dda5b363d9b34c500a9c23827135f3abf02541a2",
+    "lrat_bytes": 2193318873,
+    "lrat_sha256": "86e35dcfd075be8a9a1ac5d6248f3074817c28b255d8d3cea59585a30b2f255e",
+    "compressed_lrat_asset": "case.lrat.zst",
+    "compressed_lrat_bytes": 407165840,
+    "compressed_lrat_sha256": "c8d97f2d10add1c96c38a03b442d20e6fd1150143fbf20ed17dcd41475e35e0c",
+    "solver_result": "UNSAT",
+    "solver_conflicts": 1945654,
+    "solver_decisions": 4311125,
+    "solver_propagations": 4206675577,
+    "drat_trim_result": "s VERIFIED",
+    "lrat_check_result": "c VERIFIED"
+  },
+  "release_logs": {
+    "build_metadata": {
+      "asset": "build.json",
+      "sha256": "d122689f17a8dda3bda479f0f3bfdd1d2559ff8460ccf9754009bb56f8226ba4"
+    },
+    "cadical": {
+      "asset": "cadical.log",
+      "bytes": 148994,
+      "sha256": "c2f9d54b12500a57918841cd3dc29b0111c11a7bf326b85af31dd52d3742a16d"
+    },
+    "drat_trim": {
+      "asset": "drat_trim.log",
+      "bytes": 978,
+      "sha256": "d25f263f31f52ebf7108957a328d4ec1fa03a411a579de74f4c53efa68d13f97"
+    },
+    "lrat_check": {
+      "file": "logs/lrat_check.log",
+      "sha256": "f7e93173c54524b2577ce59f83d27221e28f79387cb9b76b596067017e713cdc",
+      "result": "c VERIFIED",
+      "verification_seconds": 179.59
+    }
+  },
+  "proof_tools": {
+    "cadical_version": "1.9.5",
+    "cadical_commit": "146207318796f094dcded87349a64f0c6927309e",
+    "cadical_sha256": "0ffcd0bb1265203c8744b677dcd8d37185d24cbe00f723d53f2431ade02d0750",
+    "drat_trim_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "drat_trim_sha256": "fe99e01a4990e34789c61a17966a5c13bcdea5eb4c6fbf94f06d55b4718d0b2d",
+    "lrat_check_sha256": "8a5c1bde335526ac3778cc25ab6174ca2374659adb5df4a5cd5ddabce5b0f5d9"
+  },
+  "scope": "No order-25 Murty-Simon counterexample can have an automorphism of order five with exactly ten fixed vertices (cycle type 1^10 5^3), conditional on the cited published edge-count, maximum-degree, and dominating-edge reductions. This does not solve Erdős Problem 742."
+}

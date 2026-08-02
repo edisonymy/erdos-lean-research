@@ -36,9 +36,10 @@ original mathematical problem.
 - **Erdős #699:** faithful Lean reductions for common prime divisors of binomial
   coefficients.
 - **Erdős #742:** candidate-first order-25 SAT searches for a Murty--Simon
-  counterexample. Six independently replayed LRAT certificates exclude counterexamples
-  having an order-five automorphism of cycle type `1^5 5^4`, conditional on the cited
-  published reductions. This is a bounded symmetry-class result, not a solution.
+  counterexample. Independently replayed LRAT certificates exclude counterexamples
+  having an order-five automorphism of cycle type `1^5 5^4` or `1^10 5^3`, conditional
+  on the cited published reductions. These are bounded symmetry-class results, not a
+  solution.
 - **Erdős #982:** two unconditional arguments exclude all `D2`-symmetric octagons and
   all alternating two-radius dihedral polygons; independent exact searches found no
   counterexample, and the general problem remains open.
