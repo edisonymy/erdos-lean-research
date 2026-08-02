@@ -14,6 +14,9 @@ original mathematical problem.
 
 - **Erdős #64:** counterexample-first search for minimum-degree-three graphs without
   power-of-two cycles, currently focused beyond the reported public order-31 frontier.
+  An exact SMS/Glasgow computation excludes three documented Carr-structured
+  order-32 degree families (`h = 8, 10, 12`); `h = 4, 6` and the unrestricted
+  case remain unknown, and these trusted-solver results are not LRAT-certified.
 - **Erdős #128:** exact finite census of the triangle-free sparse-half condition. Two
   independent native-cardinality encodings exclude the three remaining order-16 cases
   conditional on the Ramsey catalogue and reduction; retained LRAT certificates for all
@@ -29,8 +32,9 @@ original mathematical problem.
 - **Erdős #699:** faithful Lean reductions for common prime divisors of binomial
   coefficients.
 - **Erdős #742:** candidate-first order-25 SAT searches for a Murty--Simon
-  counterexample, backed by an independent definition-level checker; no candidate or
-  certified UNSAT result has been found.
+  counterexample. Six independently replayed LRAT certificates exclude counterexamples
+  having an order-five automorphism of cycle type `1^5 5^4`, conditional on the cited
+  published reductions. This is a bounded symmetry-class result, not a solution.
 - **Erdős #982:** two unconditional arguments exclude all `D2`-symmetric octagons and
   all alternating two-radius dihedral polygons; independent exact searches found no
   counterexample, and the general problem remains open.

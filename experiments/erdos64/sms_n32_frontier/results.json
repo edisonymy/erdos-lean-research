@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-02",
+  "order": 32,
+  "forbidden_cycle_lengths": [4, 8, 16, 32],
+  "toolchain": {
+    "sms": "464f12f1fd36b496e7ba9dcbb622b079de02dce4",
+    "glasgow": "1217f5b82ce62c2c2f227002eedb029765da74f3",
+    "cadical_sms": "b023aaf059babf867a7fdfc5fb342d52ffbccb25"
+  },
+  "structured_encoding": {
+    "degree_four_vertices": "0..h-1, degree exactly four",
+    "other_vertices": "h..31, degree exactly three",
+    "high_independent": true,
+    "every_vertex_has_cubic_neighbour": true,
+    "connected": true,
+    "sms_initial_partition": ["h", "32-h"]
+  },
+  "unrestricted_run": {
+    "encoding": "minimum degree at least three on all 32 vertices",
+    "status": "INTERRUPTED_NO_WITNESS",
+    "seconds": 1375.518921,
+    "returncode": -2,
+    "command": ["smsg", "--vertices", "32", "--forbidden-subgraph-file", "/work/sms_n32/cycles_4_8_16_32.txt", "--dimacs", "/work/sms_n32/min3_n32.cnf"],
+    "note": "candidate-first run was cleanly interrupted with SIGINT; this is not UNSAT"
+  },
+  "runs": [
+    {"high": 4, "status": "TIMEOUT", "seconds": 900.013096, "minimality_calls": 531912, "glasgow_calls": 498566, "glasgow_added_clauses": 418180},
+    {"high": 6, "status": "TIMEOUT", "seconds": 900.012690, "minimality_calls": 453594, "glasgow_calls": 434386, "glasgow_added_clauses": 372920},
+    {"high": 8, "status": "UNSAT", "seconds": 201.257112, "minimality_calls": 161262, "glasgow_calls": 155495, "glasgow_added_clauses": 140429},
+    {"high": 10, "status": "UNSAT", "seconds": 0.247656, "minimality_calls": 859, "glasgow_calls": 830, "glasgow_added_clauses": 655},
+    {"high": 12, "status": "UNSAT", "seconds": 0.376587, "minimality_calls": 627, "glasgow_calls": 608, "glasgow_added_clauses": 205}
+  ],
+  "sanity_checks": {
+    "h10_static_cnf": "SAT under independent local PySAT/CaDiCaL; decoded model has 53 edges, ten degree-4 vertices, twenty-two degree-3 vertices, independent high set, and a cubic neighbour at every vertex",
+    "bundled_runner_h12_replay": "UNSAT in 0.296799 seconds; generated DIMACS retained in replay_h12/encoding.cnf",
+    "witnesses_emitted": 0
+  }
+}

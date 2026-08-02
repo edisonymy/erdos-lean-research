@@ -8,6 +8,12 @@ candidate-search pipeline for the first order not covered by Fan's theorem,
 `n = 25`.  Any eventual UNSAT response is exploratory unless it is accompanied
 by a separately checked proof certificate.
 
+The restricted package [`order5_fixed5/`](order5_fixed5/) now supplies exactly
+such certificates for one symmetry class: conditional on the documented
+published reductions, no counterexample has an order-five automorphism with
+cycle type `1^5 5^4`. All six cases have independently replayed LRAT proofs.
+This does not close order 25 or solve Erdős #742.
+
 The target is a finite simple graph `G` of diameter exactly two such that
 deleting every edge makes the diameter different from two, with
 

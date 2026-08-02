@@ -1,0 +1,23 @@
+{
+  "n": 32,
+  "high": 12,
+  "status": "UNSAT",
+  "result": 20,
+  "elapsed": 0.29679894799846807,
+  "timeout": 30,
+  "command": [
+    "smsg",
+    "--vertices",
+    "32",
+    "--connected",
+    "--initial-partition",
+    "12",
+    "20",
+    "--forbidden-subgraph-file",
+    "/work/replay_h12/cycles.txt",
+    "--dimacs",
+    "/work/replay_h12/encoding.cnf",
+    "--timeout",
+    "30"
+  ]
+}

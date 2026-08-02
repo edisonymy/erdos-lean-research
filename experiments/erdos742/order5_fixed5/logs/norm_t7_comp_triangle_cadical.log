@@ -1,0 +1,126 @@
+﻿c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2023 A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt
+c 
+c Version 1.9.5
+c g++-13.2.1 20240309
+c Feb 28 2024 15:59:11
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write '/mnt/host/c/Users/Edison Yi/Documents/Math Frontier/.tmp/erdos742_order5/norm_t7_comp_triangle.drat'
+c writing binary proof trace to '/mnt/host/c/Users/Edison Yi/Documents/Math Frontier/.tmp/erdos742_order5/norm_t7_comp_triangle.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from '/mnt/host/c/Users/Edison Yi/Documents/Math Frontier/.tmp/erdos742_order5/norm_t7_comp_triangle.cnf'
+c opening file to read '/mnt/host/c/Users/Edison Yi/Documents/Math Frontier/.tmp/erdos742_order5/norm_t7_comp_triangle.cnf'
+c found 'p cnf 19317 117877' header
+c parsed 117877 clauses in 0.08 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c all options are set to their default value
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reductions  redundant  irredundant
+c         MB    restarts       trail       variables
+c          level   conflicts       glue         remaining
+c 
+c *  0.08 19  0 0   0    0    0  0% 0 117259 18114 94%
+c {  0.08 19  0 0   0    0    0  0% 0 117259 18114 94%
+c i  0.08 19 781 0   0    1    0 37% 0 117259 18113 94%
+c i  0.08 19 782 0   0   11    9 37% 1 117259 18112 94%
+c i  0.08 19 782 0   0   15   12 37% 1 117259 18101 94%
+c i  0.08 19 741 0   1   20   15 35% 2 117259 18098 94%
+c i  0.09 19 289 0   9   57   44 32% 4 117259 18097 94%
+c i  0.09 19 284 0   9   58   44 31% 4 117259 18096 94%
+c -  0.12 18 76 1  24  300  194 31% 4 108992 18096 94%
+c i  0.14 19 58 1  31  436  314 33% 5 108992 18095 94%
+c i  0.14 19 58 1  31  437  314 33% 5 108992 18094 94%
+c i  0.19 19 46 1  59  828  586 33% 5 108990 18093 94%
+c i  0.19 19 45 1  59  829  586 33% 5 108990 18092 94%
+c i  0.19 19 45 1  59  830  586 33% 5 108990 18091 94%
+c i  0.19 19 45 1  60  831  586 33% 5 108990 18090 94%
+c i  0.19 19 45 1  60  832  586 33% 5 108990 18089 94%
+c i  0.20 19 44 1  70  906  637 33% 5 108989 17707 92%
+c -  0.24 20 43 2  73  922  607 33% 5 101340 17664 91%
+c }  0.25 21 41 2  90 1000  673 33% 5 101340 17664 91%
+c [  0.25 21  0 2  90 1000  673  0% 0 101340 17664 91%
+c 
+c  seconds  reductions  redundant  irredundant
+c         MB    restarts       trail       variables
+c          level   conflicts       glue         remaining
+c 
+c O  0.25 21  7 2  90 1005  678 26% 4 101340 17664 91%
+c -  0.34 20 21 3  90 1827 1152 36% 7 101335 17664 91%
+c i  0.38 21 18 3  91 2071 1289 35% 7 101334 17218 89%
+c i  0.42 20 18 3  91 2073  312 13% 7 95471 16778 87%
+c i  0.42 20 18 3  91 2074  312 12% 7 95471 16249 84%
+c ]  0.43 20 18 3  91 2076  312 12% 7 95471 14907 77%
+c 0  0.43 20 18 3  91 2076  312 12% 7 95471 14907 77%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file '/mnt/host/c/Users/Edison Yi/Documents/Math Frontier/.tmp/erdos742_order5/norm_t7_comp_triangle.drat' closed
+c DRAT 9779 added clauses 26.26%
+c DRAT 27462 deleted clauses 73.74%
+c DRAT 322280 bytes (0.31 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.35   99.59% search
+c         0.17   49.57% stable
+c         0.17   49.32% unstable
+c         0.08   22.88% parse
+c         0.00    0.66% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.35   81.24% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:              1062        51.16 %  of conflicts
+c conflicts:                  2076      5983.16    per second
+c decisions:                  6800     19598.01    per second
+c fixed:                      4410        22.83 %  of all variables
+c learned:                    1911        92.05 %  per conflict
+c learned_lits:              66439       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                  36224        54.52 %  learned literals
+c minishrunken:               5649         8.50 %  learned literals
+c otfs:                         34         1.64 %  of conflict
+c propagations:            1831182         5.28 M  per second
+c reduced:                     153         7.37 %  per conflict
+c rephased:                      1      2076.00    interval
+c restarts:                     91        22.81    interval
+c stabilizing:                   1        51.54 %  of conflicts
+c subsumed:                    456         0.38 %  of all clauses
+c strengthened:                 21         0.02 %  of all clauses
+c trail reuses:                  0         0.00 %  of incremental calls
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.43    seconds
+c total real time since initialization:            0.86    seconds
+c maximum resident set size of process:           24.58    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20

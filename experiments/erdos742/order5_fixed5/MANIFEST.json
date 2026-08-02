@@ -1,0 +1,117 @@
+{
+  "schema": "erdos742-order5-fixed5-lrat-v1",
+  "generated_utc_date": "2026-08-02",
+  "generator": {
+    "file": "generate_cases.py",
+    "sha256": "8f84f0250fcc354e0417e2eddeb28da46dde6c086b0c0384dd58f4a41dd0e366"
+  },
+  "reduction_audit": {
+    "file": "audit_reduction.py",
+    "sha256": "cd602f0d5e54e90e6121c9e0bd2054eea4872c46187d8f4579d91ae318ff0b9a"
+  },
+  "small_quotient_audit": {
+    "file": "audit_small_quotient.py",
+    "sha256": "639ccda76ecf9f145b5c48ad7a0e759371fed500fbddd5471936cd4c730d83b9",
+    "invariant_graphs": 135468,
+    "mismatches": 0
+  },
+  "cases": [
+    {
+      "name": "t2_path",
+      "cnf_variables": 19449,
+      "cnf_clauses": 118359,
+      "cnf_bytes": 1942610,
+      "cnf_sha256": "7e5b25c058f43a8266a1d06127085978294cec2a272601355e2e89f007206dfb",
+      "drat_bytes": 6821509,
+      "drat_sha256": "7d8285ee81635379935c98d729c3bde1edcc6148351c12badc7787ab55f9076a",
+      "lrat_bytes": 16320810,
+      "lrat_sha256": "2d9a1b23204aa4ee7aa5d0fb63f590d91726095c146c4cf34b8bc2da57fdbd7c",
+      "compressed_lrat": "certificates/t2_path.lrat.zst",
+      "compressed_bytes": 2700368,
+      "compressed_sha256": "55c50ad05a34e0e2ded284312d20d94777de5ee53ec0c71a1c09daa251f2ac69"
+    },
+    {
+      "name": "t2_matching",
+      "cnf_variables": 19311,
+      "cnf_clauses": 117865,
+      "cnf_bytes": 1933604,
+      "cnf_sha256": "cc9519b7de586be789d1e6ec392f4f29a84f39a7df4b679e307cdb0da9bc87d3",
+      "drat_bytes": 3476295,
+      "drat_sha256": "8475e337ba29cd7f17778b76ffb7127b47cc50c673e9bc3d34f01e48d819482b",
+      "lrat_bytes": 8452575,
+      "lrat_sha256": "8ba0b2f1608e5bbaa32dd2abb13349c6b3522076bfdd916a41508ea9b6428652",
+      "compressed_lrat": "certificates/t2_matching.lrat.zst",
+      "compressed_bytes": 1288622,
+      "compressed_sha256": "7def9a7cd3eabbd1421d595e1c2cd3ebae8534e83120235a1e3d1322a2e43c6e"
+    },
+    {
+      "name": "t7_comp_triangle",
+      "cnf_variables": 19317,
+      "cnf_clauses": 117877,
+      "cnf_bytes": 1933813,
+      "cnf_sha256": "1fd8ac53a321dfc0415baa57090b17d64bbf391a00a96caf9d4e93552433229f",
+      "drat_bytes": 322280,
+      "drat_sha256": "b38a40f6288a0eb606e0963b5918b8a22280e93f5b1fa53bd5c1ad76917d8862",
+      "lrat_bytes": 1264475,
+      "lrat_sha256": "4fa1f96c9375db78bfa08a312bb8766760a2398d1b2cd75c03dffaf4f34a0b41",
+      "compressed_lrat": "certificates/t7_comp_triangle.lrat.zst",
+      "compressed_bytes": 242298,
+      "compressed_sha256": "89357b4d439dfc04ab77722c303c3207a69cf4a22d1de36d45a30e6a42991560"
+    },
+    {
+      "name": "t7_comp_star",
+      "cnf_variables": 19455,
+      "cnf_clauses": 118371,
+      "cnf_bytes": 1942859,
+      "cnf_sha256": "b6abfca385882c9a0e448b36b62d3bf8cb7f9657a62f63f114128212841057c1",
+      "drat_bytes": 2625456,
+      "drat_sha256": "0b637ecdf9bceb1c663e72a08e2c78ed61b7f7e6cac21d6029aa8f2ed0f0e227",
+      "lrat_bytes": 4129714,
+      "lrat_sha256": "59ca78c8fca009ace2dda0f644ec9741fd748927ac5578a06d5f08cef76128b0",
+      "compressed_lrat": "certificates/t7_comp_star.lrat.zst",
+      "compressed_bytes": 680946,
+      "compressed_sha256": "06e8d25da666bc5d2cbbef3944bfc3440bf55c63df061ae2f83c6b458f49c628"
+    },
+    {
+      "name": "t7_comp_path4",
+      "cnf_variables": 19317,
+      "cnf_clauses": 117877,
+      "cnf_bytes": 1933813,
+      "cnf_sha256": "98f30175bced0a1e93212607665b75be9cf67975b2188d6f3bfdc57501d2a1ef",
+      "drat_bytes": 2031064,
+      "drat_sha256": "59cdb6ffad1560ff53ae279fee6c26c830291d1af2a4f4ac0b51dac6f7c50540",
+      "lrat_bytes": 3456091,
+      "lrat_sha256": "b067447eb3d154e85d6cf0701d089c999f9a31eddcc85e45794e3ac1196d32ee",
+      "compressed_lrat": "certificates/t7_comp_path4.lrat.zst",
+      "compressed_bytes": 584327,
+      "compressed_sha256": "c93459d25242fabcfbd132f1c0532f21db63b1837383aec2782b956790cb6823"
+    },
+    {
+      "name": "t7_comp_path3_edge",
+      "cnf_variables": 19317,
+      "cnf_clauses": 117877,
+      "cnf_bytes": 1933813,
+      "cnf_sha256": "6dff5e1a36168fc4c18d214406e6f7715188f3ccbd95ccd770f73225efa75e88",
+      "drat_bytes": 3301068,
+      "drat_sha256": "fb714546a6fa4f082035a586f44e9935c0f3fad16fe4f008275ea340f4011d90",
+      "lrat_bytes": 6613610,
+      "lrat_sha256": "d4dd0eae39c18ff25092e4e8c4a390b13794e92035240827453fb2431cd78f62",
+      "compressed_lrat": "certificates/t7_comp_path3_edge.lrat.zst",
+      "compressed_bytes": 1055821,
+      "compressed_sha256": "6a55aa16f1035bb6a09635c76ad4654bb3d7a4fd82daece437f3bb2b056f6423"
+    }
+  ],
+  "proof_tools": {
+    "cadical_commit": "146207318796f094dcded87349a64f0c6927309e",
+    "cadical_sha256": "0ffcd0bb1265203c8744b677dcd8d37185d24cbe00f723d53f2431ade02d0750",
+    "drat_trim_commit": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "drat_trim_sha256": "fe99e01a4990e34789c61a17966a5c13bcdea5eb4c6fbf94f06d55b4718d0b2d",
+    "lrat_check_sha256": "8a5c1bde335526ac3778cc25ab6174ca2374659adb5df4a5cd5ddabce5b0f5d9"
+  },
+  "formal_conjectures": {
+    "commit": "735aee074327b8e78b0d92bb1ee8ea00937c3f51",
+    "file": "FormalConjectures/ErdosProblems/742.lean",
+    "file_sha256": "25f7c5cdc8235d2618d3bc1ccd78ecabdafd91559fefa5a5ac80c9aadca80d5f"
+  },
+  "scope": "No order-25 Murty-Simon counterexample can have an automorphism of order five with exactly five fixed vertices (cycle type 1^5 5^4), conditional on the cited published edge-count, maximum-degree, and dominating-edge reductions. This does not solve Erdős Problem 742."
+}

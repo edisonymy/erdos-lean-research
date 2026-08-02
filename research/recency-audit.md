@@ -50,7 +50,7 @@ Repeat the gate before publishing, because status can change during a long campa
 | #617, `r=5` | Zenodo DOI `10.5281/zenodo.21535386`, deposited 24 July; exact source and preprint hashes matched | withdraw target and stop all searches; all-`r` conjecture remains open |
 | #699 | public 22 July computation reaches `n=100000`; a dashboard's “done” flag selects only the auxiliary Sylvester–Schur theorem | finite search is non-novel; retain only faithful reductions/formal lemmas |
 
-| #742 | live page, VibeMathed, recent arXiv/Zenodo/SciNet/Constellate, and Formal Conjectures issue/PR searches found statements and restricted results but no full proof, counterexample, or public order-25 verdict | retain the candidate-first order-25 search; independently check any SAT graph, and never promote uncertified UNSAT output |
+| #742 | the 2 August announcement-level audit found no full proof, counterexample, public order-25 verdict, or matching order-five symmetry exclusion | publish the certificate-backed `1^5 5^4` exclusion with its exact trust boundary; retain the unrestricted candidate-first search |
 | #982 | a 25 July Kominers working paper claims a stronger partial coefficient but not the conjectured `n/2` bound; public SkyDiscover `n=10`/`n=12` evaluators contain a scale-sensitive acceptance bug | retain exact family attacks, but treat neither the unverified paper claim nor floating-point benchmark output as a solution or exact certificate |
 
 ## #617 primary-record check

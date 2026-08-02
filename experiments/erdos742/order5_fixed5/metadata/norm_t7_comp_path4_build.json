@@ -1,0 +1,100 @@
+{
+  "schema": "erdos742-order5-automorphism-v1",
+  "n": 25,
+  "fixed_vertices": 5,
+  "five_cycles": 4,
+  "exact_edges": 157,
+  "quotient_encoding": true,
+  "edge_orbits": 68,
+  "orbit_size_histogram": {
+    "1": 10,
+    "5": 58
+  },
+  "edge_variables": 68,
+  "semantic_pair_representatives": 68,
+  "diameter_auxiliaries": 1564,
+  "no_common_markers": 68,
+  "unique_path_markers": 3128,
+  "semantic_variables": 9452,
+  "semantic_clauses": 93636,
+  "max_degree_encoding": {
+    "bound": 17,
+    "vertex_orbit_representatives": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20
+    ],
+    "variables": 4642,
+    "clauses": 11298
+  },
+  "no_dominating_edge_encoding": {
+    "markers": 1564,
+    "variables": 3060,
+    "clauses": 7616
+  },
+  "unique_witness_markers": true,
+  "normalizer_lex_encoding": {
+    "generators": [
+      "swap_cycles_0_1",
+      "swap_cycles_1_2",
+      "swap_cycles_2_3",
+      "rotate_cycle_0",
+      "rotate_cycle_1",
+      "rotate_cycle_2",
+      "rotate_cycle_3"
+    ],
+    "variables": 483,
+    "clauses": 2863
+  },
+  "cardinality_variables": 1680,
+  "cardinality_clauses": 3360,
+  "cardinality_case": {
+    "fixed_edge_count": 7,
+    "moving_orbit_count": 30,
+    "fixed_graph_type": "t7_comp_path4"
+  },
+  "automorphism_equality_clauses": 0,
+  "total_variables": 19317,
+  "total_clauses": 117877,
+  "permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    5,
+    11,
+    12,
+    13,
+    14,
+    10,
+    16,
+    17,
+    18,
+    19,
+    15,
+    21,
+    22,
+    23,
+    24,
+    20
+  ],
+  "clause_normalization": {
+    "clauses_before": 118783,
+    "clauses_after": 117877,
+    "duplicate_literals_removed": 2764,
+    "tautological_clauses_removed": 906
+  },
+  "cnf_sha256": "98f30175bced0a1e93212607665b75be9cf67975b2188d6f3bfdc57501d2a1ef",
+  "build_seconds": 0.36176680000062333
+}

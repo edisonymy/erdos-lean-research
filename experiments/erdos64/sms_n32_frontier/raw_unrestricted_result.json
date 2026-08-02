@@ -1,0 +1,16 @@
+{
+  "returncode": -2,
+  "elapsed": 1375.518920942999,
+  "command": [
+    "smsg",
+    "--vertices",
+    "32",
+    "--forbidden-subgraph-file",
+    "/work/sms_n32/cycles_4_8_16_32.txt",
+    "--dimacs",
+    "/work/sms_n32/min3_n32.cnf"
+  ],
+  "termination": "SIGINT after bounded first-candidate search",
+  "stdout": "empty; no graph emitted",
+  "stderr": "empty"
+}

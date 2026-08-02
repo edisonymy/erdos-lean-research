@@ -1,0 +1,16 @@
+Maximal depth: 238
+Average depth: 42.264514
+Statistics for MinimalityChecker:
+	Calls: 627
+	Time in seconds: 0.0246
+	Added clauses: 571
+Statistics for ConnectedChecker:
+	Calls: 0
+	Time in seconds: 0.0000
+	Added clauses: 0
+Statistics for ForbiddenSubgraphCheckerGlasgow:
+	Calls: 608
+	Time in seconds: 0.0671
+	Added clauses: 205
+Result: 20
+Total time: 0.273170
