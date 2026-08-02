@@ -1,0 +1,60 @@
+{
+  "schema": "erdos151-order41-k5-overlap-remediation-v1",
+  "status": "PASS_AFTER_AUDIT_REMEDIATION",
+  "date": "2026-08-02",
+  "defect": "A newly created exact-isomorphism class stored one seed alignment instead of the seed's full orbit under every automorphism of the representative.",
+  "repair": "Close every new-class seed pattern under all representative automorphisms and assert the corrected exact totals.",
+  "corrected_outputs": {
+    "dominating_partitions": 4368,
+    "exact_common_U_isomorphism_classes": 786,
+    "automorphism_closed_aligned_patterns": 1963,
+    "row_T_classes_before_D0": 10,
+    "row_T_classes_after_D0": 0,
+    "row_D_surviving_common_U_cores": 17,
+    "restored_row_D_graph6": [
+      "K`_PYYCE@BGQ",
+      "K??P`XMUCKyG",
+      "K`_PYWWOkHCI",
+      "K@?JKhheagT?",
+      "K@hWOHacbAqK"
+    ]
+  },
+  "immutable_original_FAIL_audit": {
+    "audit_markdown": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_AUDIT.md",
+    "audit_markdown_sha256": "bde66a3d221f5e1762e218cc7b40de70ca690e019c3c99c93a1b0cd1d2120567",
+    "audit_json": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_AUDIT.json",
+    "audit_json_sha256": "6f3411401846cc7304264c0025da252f4421467c15190a19572b94b270a19165",
+    "audited_original_note_sha256": "5522f26889d086193e9d74694d51e7b56c48d66d877ecf3b071488f9a857fcfa",
+    "audited_original_result_sha256": "ab425f156f0f7d4c3f4a64ef8801d5c45442399fe13b4513b388cfd53217c1f7",
+    "audited_original_checker_sha256": "5711a2e1f7e3bc75aa1bf725d9d65a8a8d7d130676a159abdef207c5ac9cf754"
+  },
+  "repaired_artifacts": {
+    "note": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md",
+    "note_sha256": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca",
+    "result": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_RESULT.json",
+    "result_sha256": "02452b459e79c672b79089c550fd48b1f0eba7cf6257b90c0e891f01efc9d987",
+    "checker": "research/erdos151/general/checks/check_order41_k5_overlap.py",
+    "checker_sha256": "d4eee390c83862f5b166b9bbd6c71415929d0bf428e7f62aeec2817ba3cc3d95",
+    "order16_witness": "research/erdos151/general/checks/order16_beta5_triangle_witness.json",
+    "order16_witness_sha256": "b3778f99571afed723c088143df118e00ab36515083167445b37f024a6e5ad36",
+    "remediation_markdown": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REMEDIATION.md",
+    "remediation_markdown_sha256": "d5e7b337867bf449f946472e690ce3119f1f6f8c4e351d583567bb5f2d02896f"
+  },
+  "pinned_dependencies": {
+    "r36_17": "experiments/erdos128/r36_17.g6",
+    "r36_17_sha256": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+    "r36_16_gzip": "experiments/erdos128/r36_16.g6.gz",
+    "r36_16_gzip_sha256": "5fd4e68d880e1d4ed05337b97cba0ce15387e1f545744aed80b91bb4b2186f25",
+    "r36_16_decoded_sha256": "25e35e1bb46b3131ff00b430b56e4679fcde7988211aefd9036c1e4c0cd7d2bf",
+    "manifest": "experiments/erdos128/MANIFEST.json",
+    "manifest_sha256": "ef41bb5eb474a58503549a21b411f13a77217f70edbcc63479f00247c11c92fc",
+    "beta_engine_A_sha256": "228c8d82de6a0c292f0f1c89b4a5fc9411feef051d9ddf9cb0950faa1fe6ffac",
+    "beta_engine_B_sha256": "4f8d7fe9361d56119a4ed651ca46acb81366fba612916891178f7d28d06531d6"
+  },
+  "verification": {
+    "fresh_checker": "PASS",
+    "manifest_verifier": "PASS",
+    "catalogue_checks": "PASS"
+  },
+  "claim_boundary": "This repairs and verifies the finite overlap reduction only. Conditional on catalogue completeness, row T is excluded and row D is reduced to 17 cores. Row D and the rigid row remain open; there is no order-41 closure or solution of Erdos problem 151."
+}

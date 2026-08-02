@@ -144,6 +144,16 @@ compute and a standing kill review every 24 h.
    announcement path, or when the probe is killed.  It must never be used to
    hide an error, overstate priority, or postpone a significant result.
 
+## Active siege checkpoint: Erdős #151
+
+The #151 campaign has an explicit, revisable allocation guard in
+[`erdos151/ALLOCATION_CHECKPOINT.md`](erdos151/ALLOCATION_CHECKPOINT.md).
+It authorizes one further evidence-gated cycle centred on a genuinely global
+order-41 `omega=4` counterexample model, while reserving capacity for outside
+scouting.  It also records positive renewal signals, rabbit-hole indicators,
+and a default 12-hour/first-global-run reassessment.  Local lemmas alone do
+not renew the siege.
+
 ## Workspace hygiene ledger (2 August)
 
 - `experiments/erdos742/order5_fixed15/LeanCNF/Main.lean` previously

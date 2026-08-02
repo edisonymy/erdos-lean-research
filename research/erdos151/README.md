@@ -14,13 +14,19 @@ The independently audited
 [`K4`-free order-41 theorem](general/k4free_h10/K4FREE_ORDER41.md) additionally
 proves `beta(G)>=10` for every `K4`-free graph on 41 vertices, without assuming
 an exact value of `R(3,10)` or clearing order 40 first.  This removes
-`omega(G)<=3` from the order-41 frontier, but does not settle the remaining
-`omega in {4,5}` cases.  The separately audited
+`omega(G)<=3` from the order-41 frontier.  The independently audited
+[`omega=5` theorem](general/ORDER41_K5_EXCLUSION.md) additionally proves
+`beta(G)>=10` for every order-41 graph with clique number five, conditional
+only on completeness of the published seven-record Ramsey `(3,6;17)`
+catalogue.  The local bytes and properties are checked; external catalogue
+completeness is not proved here.  Its analytic profile exclusions leave only
+`omega(G)=4` at order 41 under that premise.  The separately audited
 [`K4`-free order-40 theorem](general/k4free_h10/order40/ORDER40_RESIDUAL.md)
 proves `beta(G)>=10` there if `R(3,10)=40`; if `R(3,10)=41`, the required
 order-40 bound is nine and follows from the through-order-39 theorem.  Hence
-the `K4`-free order-40/41 lane is closed for #151, but the unrestricted
-problem and all later Ramsey jumps remain open.
+the `K4`-free order-40/41 lane is closed for #151.  If `R(3,10)=40`, the
+unrestricted order-40 clique-number-four and clique-number-five cases also
+remain.  The full problem and all later Ramsey jumps remain open.
 
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum
@@ -108,6 +114,14 @@ independent structural result.
   proves `beta(G)>=10` for every `K4`-free graph of order 41; its independent
   quantifier, citation, and arithmetic audit is in
   [`INDEPENDENT_AUDIT.md`](general/k4free_h10/INDEPENDENT_AUDIT.md).
+- [`general/ORDER41_K5_EXCLUSION.md`](general/ORDER41_K5_EXCLUSION.md)
+  gives the independently audited conditional theorem for clique number five.
+  Its sole external premise is completeness of the pinned seven-record Ramsey
+  `(3,6;17)` catalogue; the row proofs, finite guards, failed first overlap
+  audit, repair, and post-repair audits are retained beside it.
+- [`ALLOCATION_CHECKPOINT.md`](ALLOCATION_CHECKPOINT.md) records the explicit
+  evidence-based rule for continuing or reducing the #151 siege after the
+  first genuinely global `omega=4` run.
 - [`audit_order28_36.md`](audit_order28_36.md) records three adversarial proof
   passes, the exact dependency boundary, and two exhaustive finite checks.
 - [`general/TOP_WINDOW_RAMSEY_CORE.md`](general/TOP_WINDOW_RAMSEY_CORE.md)

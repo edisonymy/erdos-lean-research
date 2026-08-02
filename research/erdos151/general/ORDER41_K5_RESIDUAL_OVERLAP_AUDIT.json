@@ -1,0 +1,117 @@
+{
+  "schema": "erdos151-order41-k5-residual-overlap-audit-binding-v1",
+  "date": "2026-08-02",
+  "audit_status": "FAIL",
+  "scope": "Independent audit of the order-41 omega=5 residual-overlap package; no source implementation edit, CEGAR run, commit, push, publication, or full order-41 claim",
+  "binding_policy": {
+    "noncircular": true,
+    "rule": "This JSON binds the completed audit Markdown and every audited input. The audit Markdown does not contain this JSON's hash, and this JSON intentionally does not contain its own hash.",
+    "audit_markdown": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_AUDIT.md",
+    "audit_markdown_sha256": "bde66a3d221f5e1762e218cc7b40de70ca690e019c3c99c93a1b0cd1d2120567"
+  },
+  "audited_artifacts_sha256": {
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md": "5522f26889d086193e9d74694d51e7b56c48d66d877ecf3b071488f9a857fcfa",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_RESULT.json": "ab425f156f0f7d4c3f4a64ef8801d5c45442399fe13b4513b388cfd53217c1f7",
+    "research/erdos151/general/checks/check_order41_k5_overlap.py": "5711a2e1f7e3bc75aa1bf725d9d65a8a8d7d130676a159abdef207c5ac9cf754",
+    "research/erdos151/general/checks/order16_beta5_triangle_witness.json": "b3778f99571afed723c088143df118e00ab36515083167445b37f024a6e5ad36",
+    "experiments/erdos128/r36_17.g6": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+    "experiments/erdos128/r36_16.g6.gz": "5fd4e68d880e1d4ed05337b97cba0ce15387e1f545744aed80b91bb4b2186f25",
+    "experiments/erdos128/MANIFEST.json": "ef41bb5eb474a58503549a21b411f13a77217f70edbcc63479f00247c11c92fc",
+    "experiments/erdos151_siege/beta_lib.py": "228c8d82de6a0c292f0f1c89b4a5fc9411feef051d9ddf9cb0950faa1fe6ffac",
+    "experiments/erdos151_siege/beta_bb.py": "4f8d7fe9361d56119a4ed651ca46acb81366fba612916891178f7d28d06531d6"
+  },
+  "derived_hashes_sha256": {
+    "decoded_experiments/erdos128/r36_16.g6": "25e35e1bb46b3131ff00b430b56e4679fcde7988211aefd9036c1e4c0cd7d2bf"
+  },
+  "catalogue_provenance": {
+    "repository_commit": "b8064fdef93ef6fa760ddf0f35e34155273cb961",
+    "official_page": "https://users.cecs.anu.edu.au/~bdm/data/ramsey.html",
+    "official_page_wording": "All Ramsey(3,6)-graphs; 2576 at order 16 and 7 at order 17",
+    "mirror": "https://huggingface.co/datasets/linxy/RamseyGraph",
+    "historical_catalogue_citation": "S. P. Radziszowski and D. L. Kreher, On (3,k) Ramsey graphs: theoretical and computational results, J. Combin. Math. Combin. Comput. 4 (1988), 37-52",
+    "completeness_treatment": "external premise, correctly stated conditionally",
+    "byte_and_property_audit": "PASS"
+  },
+  "verdicts": {
+    "three_profile_ledger": "PASS",
+    "residual_beta_and_quantifier_direction": "PASS",
+    "residual_K4_exclusion": "PASS",
+    "degree_nine_domination": "PASS",
+    "D0_clique_lemma": "PASS",
+    "order17_triangle_edge_disjoint_and_J_argument": "PASS_CONDITIONAL_ON_CATALOGUE_COMPLETENESS",
+    "catalogue_inference": "PASS_CONDITIONAL_ON_CATALOGUE_COMPLETENESS",
+    "fan_partition_count": "PASS",
+    "common_U_isomorphism_class_count": "PASS",
+    "automorphism_alignment_enumeration": "FAIL",
+    "T_row_exclusion": "PASS_CONDITIONAL_ON_CATALOGUE_COMPLETENESS_WITH_CORRECTED_PRECOUNT",
+    "D_row_twelve_core_claim": "FAIL",
+    "D_row_necessary_condition_logic": "PASS_WITH_CORRECTED_SEVENTEEN_CORE_OUTPUT",
+    "order16_falsifier_properties": "PASS",
+    "order16_beta_equals_5_independent_exhaustion": "PASS",
+    "overall_package": "FAIL"
+  },
+  "checker_replay": {
+    "fresh_process": true,
+    "bytecode_writing_disabled": true,
+    "exit_code": 0,
+    "reported_status": "VERIFIED",
+    "reported_counts": {
+      "dominating_partitions": 4368,
+      "common_U_classes": 786,
+      "T_pre": 6,
+      "T_post": 0,
+      "D_cores": 12,
+      "order16_beta": 5
+    },
+    "shipped_classifier_pattern_total_observed_separately": 1920,
+    "audit_interpretation": "Replay succeeds but is not validating: the checker omits seed automorphism orbits and asserts the resulting incorrect counts."
+  },
+  "independent_crosscheck": {
+    "method": "Separate short-form graph6 parser, stable-refinement plus exact adjacency backtracking isomorphism enumeration, complete automorphism transport, independent bounded-sum DP, and exhaustive 2^16 subset beta calculation",
+    "counts": {
+      "dominating_partitions": 4368,
+      "common_U_classes": 786,
+      "aligned_patterns": 1963,
+      "classes_missing_seed_orbit_patterns_in_shipped_checker": 39,
+      "missing_aligned_patterns_in_shipped_checker": 43,
+      "T_pre": 10,
+      "T_post": 0,
+      "D_cores": 17,
+      "order16_beta": 5
+    },
+    "order17_partition_counts_by_catalogue_record": [
+      620,
+      602,
+      471,
+      625,
+      470,
+      772,
+      808
+    ],
+    "omitted_D_core_representatives_graph6": [
+      "K`_PYYCE@BGQ",
+      "K??P`XMUCKyG",
+      "K`_PYWWOkHCI",
+      "K@?JKhheagT?",
+      "K@hWOHacbAqK"
+    ],
+    "order16_independent_admissible_witness": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  "root_cause": {
+    "checker_function": "exact_common_core_classes",
+    "checker_lines": "215-223",
+    "description": "A newly created class stores only the seed cross-degree vector. It does not transport that vector through Aut(U), although later records are transported through every VF2 isomorphism."
+  },
+  "blockers": [
+    "Close every seed pattern under the full automorphism group of its common-U representative.",
+    "Recompute and emit the corrected T preliminary count 10 and D survivor count 17, including the five omitted D representatives.",
+    "Update the proof note and source result JSON, then independently replay and rebind them to the corrected checker."
+  ],
+  "safe_claim_boundary": "The elementary lemmas and the catalogue-conditional exclusion of T survive. R remains open. D remains open and is reduced by the stated necessary conditions to 17, not 12, common cores. No order-41 theorem, SAT/UNSAT result, or solution of Erdos problem 151 is established."
+}

@@ -29,3 +29,11 @@ experiments/erdos274_order1440/** text eol=lf
 # The #719 bounded-theorem package carries a byte-level integrity manifest.
 experiments/erdos719_n9_k1/** text eol=lf
 experiments/erdos719_n9_k1/*.json binary
+
+# The #151 theorem/result/audit ledgers hash exact text bytes.  Keep the
+# mathematical package and its isolated checkers byte-stable on Windows.
+research/erdos151/** text eol=lf
+experiments/erdos151_siege/beta_bb.py text eol=lf
+experiments/erdos151_siege/beta_lib.py text eol=lf
+research/erdos151/general/ORDER41_K5_PRIORITY.md whitespace=-trailing-space
+research/erdos151/general/ORDER41_K5_EXCLUSION_FINAL_AUDIT.md whitespace=-trailing-space,-blank-at-eof

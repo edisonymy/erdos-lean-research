@@ -1,0 +1,119 @@
+{
+  "schema": "erdos151-order41-k5-double-saturation-post-strengthening-reaudit-v1",
+  "date": "2026-08-02",
+  "status": "PASS",
+  "scope": "Independent adversarial re-audit of the strengthened row-D proof, especially the triangle-free 12-vertex edge minimum and equality uniqueness, its combination with the audited e(U)<=10 bound, and the exact remaining Ramsey-catalogue conditionality; no full order-41, Erdos 151, UNSAT, publication, novelty, or priority claim",
+  "binding_policy": {
+    "noncircular": true,
+    "audit_markdown": "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_REAUDIT.md",
+    "audit_markdown_sha256": "af7a974a02891d02a7bb72596ecf5ae442975acb8c3c196aa137c09190e0dbcf",
+    "rule": "This JSON binds the completed re-audit Markdown and audited inputs but intentionally omits its own hash."
+  },
+  "audited_inputs_sha256": {
+    "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION.md": "8353be6fde22d8e6edeb455187169b5eae4f6093ae971debcae353e7debddebd",
+    "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_ADDENDUM.md": "96af57c9754f8b8be871c89787845b7ec1146c91863793df42dba6a63d7ae4d4",
+    "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_AUDIT.md": "760a2a904e6416e907fac2c569298704a41f216f2a3b53e5321820f3163d6d4d",
+    "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_AUDIT.json": "e4895962c37fd6ce32636717ba0afb6b041068267542ecc118632db0c0e2656b",
+    "research/erdos151/general/checks/double_saturation_trianglefree/check_trianglefree_12_profile.py": "68a73ad39d1a4f3857b512b23bb85b90b3cfc73a58784f4c82d5a5e53eb1a325",
+    "research/erdos151/general/checks/double_saturation_reaudit/check_trianglefree_12_enumerator.py": "d67ea28044f9ca66816eb94d8a92148a7a34ed6146dafc941c31f3d7201cf691",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca",
+    "experiments/erdos128/r36_17.g6": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361"
+  },
+  "analytic_lemma_audit": [
+    {
+      "claim": "A triangle-free 12-vertex graph with alpha at most five has at most three components",
+      "status": "PASS",
+      "reason": "R(3,3)=6 caps an alpha-two component at five vertices; alpha-one components have at most two. Four components cover at most 5+2+2+2=11 vertices, five cover at most ten, and six already give alpha at least six."
+    },
+    {
+      "claim": "Such a graph cannot have at most ten edges",
+      "status": "PASS",
+      "reason": "For k=1 connectedness needs at least 11 edges; k=2 forces a forest; k=3 has total cycle rank at most one. Tree ceil(s/2) and unicyclic floor(s/2) independence bounds, with parity at total order 12, force alpha at least six."
+    },
+    {
+      "claim": "The bicyclic equality branch contains no counterexample",
+      "status": "PASS",
+      "reason": "Theta and figure-eight cores, and dumbbells with at most one odd core cycle, have a vertex meeting all odd cycles, so deletion leaves a bipartite graph and the component contributes at least floor(s/2). The only remaining two-odd-cycle dumbbell forces two C5s joined by an edge plus two isolated components and still has an independent six-set. The independent spanning-tree-extension enumeration confirms this branch exhaustively."
+    },
+    {
+      "claim": "Equality at 11 edges is unique up to isomorphism",
+      "status": "PASS",
+      "reason": "The only surviving cycle-rank distribution is two non-bipartite odd-order unicyclic components plus one even tree. Triangle-freeness and total order force sizes 5,5,2, hence C5 disjoint-union C5 disjoint-union K2."
+    }
+  ],
+  "independent_exact_enumerator": {
+    "command": ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\double_saturation_reaudit\\check_trianglefree_12_enumerator.py",
+    "exit_code": 0,
+    "reported_status": "VERIFIED",
+    "method": "One representative of every unlabelled tree from NetworkX 3.5, followed by all one- and two-nonedge additions; separate bitset triangle and exact-alpha routines; no import or call of the supplied profile checker",
+    "coverage_argument": "Deleting the one or two non-tree edges of any connected unicyclic or bicyclic graph yields a spanning tree, so the construction covers every relevant connected isomorphism type, with harmless duplicates.",
+    "unlabelled_tree_counts_orders_1_through_12": [1, 1, 1, 2, 3, 6, 11, 23, 47, 106, 235, 551],
+    "raw_unicyclic_spanning_tree_extensions": 16440,
+    "triangle_free_unicyclic_extensions": 10588,
+    "raw_bicyclic_spanning_tree_extensions": 90852,
+    "triangle_free_bicyclic_extensions": 31513,
+    "r33_labelled_graphs_checked": 32768,
+    "r33_triangle_free_labelled_graphs": 5789,
+    "r33_counterexamples_with_alpha_at_most_two": 0,
+    "edge_at_most_10_profiles_checked": 150,
+    "edge_at_most_10_profiles_with_alpha_at_most_five": 0,
+    "edge_equal_11_profiles_checked": 109,
+    "edge_equal_11_normalized_survivors": [
+      {
+        "component_orders": [2, 5, 5],
+        "cycle_ranks": [0, 1, 1],
+        "alpha": 5,
+        "isomorphism_type": "K2 disjoint-union C5 disjoint-union C5"
+      }
+    ],
+    "status": "PASS"
+  },
+  "row_D_combination": {
+    "standing_core_order": 12,
+    "spokes": 5,
+    "vertices_per_spoke": 5,
+    "minimum_cut_per_spoke": 19,
+    "shared_w_U_degree_r_maximum": 7,
+    "U_degree_budget": 108,
+    "identity": "sum_{u in U} d_G(u) = 2e(U)+sum_c e(U,B_c)-r",
+    "derived_inequality": "108 >= 2e(U)+5*19-7 = 2e(U)+88",
+    "analytic_upper_bound_e_U": 10,
+    "triangle_free_lemma_lower_bound_e_U": 11,
+    "status": "PASS"
+  },
+  "catalogue_local_check": {
+    "parser": "Independent short-form graph6 decoder in the re-audit enumerator",
+    "records": 7,
+    "order_each": 17,
+    "all_triangle_free": true,
+    "alpha_each": [5, 5, 5, 5, 5, 5, 5],
+    "edge_histogram": {
+      "40": 2,
+      "41": 3,
+      "42": 2
+    },
+    "minimum_degree_each": [4, 4, 4, 4, 4, 4, 4],
+    "file_hash_matches": true,
+    "external_completeness_proved": false,
+    "status": "PASS_LOCAL_PROPERTIES_ONLY"
+  },
+  "conditionality": {
+    "unconditional_under_standing_row_D_hypotheses": [
+      "the singleton-fibre and five-spoke argument gives e(U)<=10",
+      "every triangle-free graph U on 12 vertices with alpha(U)<=5 has e(U)>=11",
+      "equality in the sparse lemma is uniquely C5 disjoint-union C5 disjoint-union K2"
+    ],
+    "conditional_result": "Row D is impossible",
+    "external_premise": "The pinned seven records exhaust up to isomorphism all triangle-free order-17 graphs with independence number at most five",
+    "dependency_use": "The external premise enters only through the previously proved lemma that an order-17 beta-at-most-five residual is triangle-free",
+    "repository_proves_external_premise": false,
+    "D17_overlap_enumeration_required": false,
+    "order16_catalogue_required": false,
+    "source_states_premise_explicitly": true
+  },
+  "nonblocking_observations": [
+    "The source reuses display label (7) for the sparse lower bound and the later D17 edge range; no argument depends ambiguously on the duplicated number."
+  ],
+  "blockers": [],
+  "final_claim_boundary": "PASS confirms the strengthened analytic lemma and the explicitly catalogue-conditional row-D exclusion. It does not establish external catalogue completeness, a whole-graph UNSAT result, the full order-41 theorem, publication priority, or Erdos problem 151."
+}

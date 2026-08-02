@@ -91,6 +91,26 @@ check are in
 [`general/k4free_h10/INDEPENDENT_AUDIT.md`](general/k4free_h10/INDEPENDENT_AUDIT.md).
 The companion order-40 theorem below closes that residual case.
 
+## Conditional clique-number-five theorem at order 41
+
+The independently audited theorem in
+[`general/ORDER41_K5_EXCLUSION.md`](general/ORDER41_K5_EXCLUSION.md) proves,
+conditional only on completeness of the published seven-record Ramsey
+`(3,6;17)` catalogue,
+
+```text
+|V(G)|=41 and omega(G)=5  ==>  beta(G)>=10.
+```
+
+The catalogue enters only through residual triangle-freeness.  Three exact
+incidence profiles are then excluded analytically by simultaneous
+maximum-neighbourhood saturation and a sharp sparse 12-vertex lemma.  A
+repaired residual-overlap computation is retained as independent
+corroboration, not a theorem premise.  The local catalogue hash, records, and
+graph properties are checked; external completeness is not proved by this
+repository.  Together with the unconditional `K4`-free theorem, this leaves
+only `omega(G)=4` at order 41 under the stated premise.
+
 ## Conditional strong K4-free theorem at order 40
 
 The independently audited proof in
@@ -126,8 +146,9 @@ exhaustively checked on all small test instances.  Hash-chained journals,
 exclusive writer locks, preset binding, and cross-linked candidate/result
 provenance passed 14 regression tests.
 
-The cases cover ambient clique numbers 4 and 5 only; the theorem above now
-settles the complementary `omega<=3` lane at order 41.  Bare inner or outer UNSAT is not
+The cases cover ambient clique numbers 4 and 5 only.  The theorems above now
+settle the complementary `omega<=3` lane unconditionally and the `omega=5`
+lane conditional on the stated Ramsey-catalogue completeness premise.  Bare inner or outer UNSAT is not
 proof-grade: any terminal UNSAT requires proof-producing reruns and an
 independent certificate checker.  Any candidate requires the separate
 definition-level verifier and checked certificates for both semantic UNSAT
@@ -161,10 +182,16 @@ the coarse marginal program is retired.
 
 The highest-value live actions are:
 
-1. continue the checkpointed `F5_N41` candidate hunt, then `F4_N41`;
+1. run one checkpointed, genuinely global `F4_N41` counterexample cycle,
+   starting from the surviving four-residual local abstraction; do not resume
+   `F5_N41` unless the analytic theorem's premise or audit fails;
 2. obtain the missing full order-12/13 Ramsey-core catalogues from their
    authors or reconstruct only the degree-compatible slices reproducibly;
 3. develop an `L≠empty` aggregation that counts `L`-independent 10-sets
    sharply while retaining anchor/exchange correlations;
-4. attack the unresolved `omega in {4,5}` cases analytically at order 40 and
-   by the independently auditable fixed-clique search at order 41.
+4. attack the unresolved `omega in {4,5}` cases analytically at order 40 when
+   `R(3,10)=40`, and the remaining `omega=4` case at order 41.
+
+The resource renewal and exit criteria are in
+[`ALLOCATION_CHECKPOINT.md`](ALLOCATION_CHECKPOINT.md).  Another local lemma
+does not by itself renew the siege.

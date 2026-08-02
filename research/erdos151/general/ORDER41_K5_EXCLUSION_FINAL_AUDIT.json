@@ -1,0 +1,177 @@
+{
+  "schema": "erdos151-order41-omega5-final-cleanroom-audit-v1",
+  "date": "2026-08-02",
+  "status": "PASS_CONDITIONAL",
+  "verdict": "The frozen conditional theorem is mathematically sound. After accepting completeness and identification of the pinned seven Ramsey (3,6;17) classes, no conjectural or unaudited computational step remains.",
+  "binding_policy": {
+    "noncircular": true,
+    "audit_markdown": "research/erdos151/general/ORDER41_K5_EXCLUSION_FINAL_AUDIT.md",
+    "audit_markdown_sha256": "67d75a073499e38be26f20663380653d8290e04304c984040dda72b2a1b010e0",
+    "audit_json_omits_own_hash": true,
+    "frozen_theorem": "research/erdos151/general/ORDER41_K5_EXCLUSION.md",
+    "frozen_theorem_sha256": "5cf0cfafb919ca3f6b8e81cc1ec66b94d1b72471fba657ec3e489cf95474462d",
+    "frozen_result": "research/erdos151/general/ORDER41_K5_EXCLUSION_RESULT.json",
+    "frozen_result_sha256": "494ff5b1ced797fd6b44ab3cdf0847b9b405f0ef47c5621f0fca32ce8da5e453"
+  },
+  "audited_theorem": {
+    "premise": "The complete list up to isomorphism of triangle-free graphs on 17 vertices with independence number at most five is the seven-record catalogue pinned in experiments/erdos128/r36_17.g6.",
+    "conclusion": "Every graph G on 41 vertices with omega(G)=5 has beta(G)>=10.",
+    "sole_unverified_premise": "External completeness and identification of the pinned seven Ramsey (3,6;17) isomorphism classes",
+    "catalogue_used_only_for": "Triangle-freeness of each full order-17 beta-five residual, and therefore of its induced common core U",
+    "overlap_enumeration_logically_required": false
+  },
+  "cleanroom_method": {
+    "trusted_prior_agent_proofs_without_reconstruction": false,
+    "independent_graph6_parser": true,
+    "independent_profile_enumeration": true,
+    "independent_component_profile_guard": true,
+    "independent_transversal_enumeration": true,
+    "mathematical_reconstruction": [
+      "ambient-to-induced maximality direction in the clique-residual lift",
+      "three-profile integer and cross-capacity exhaustion",
+      "order-16/17 residual beta equality",
+      "K4 exclusion for beta-five residuals",
+      "catalogue-conditional order-17 triangle-freeness transformation",
+      "singleton-fibre bound including the shared-w anchor",
+      "row-R Turan equality and residual transversal contradiction",
+      "12-vertex sparse triangle-free edge minimum and equality case",
+      "row-D shared-spoke degree identity and contradiction",
+      "row-T deficient-fan equality and residual maximal-edge contradiction"
+    ]
+  },
+  "profile_reconstruction": {
+    "identity": "sum_c |Z_c|=80+4t+3n2+7n3+11n4<=85",
+    "profiles": [
+      {
+        "row": "R",
+        "t": 0,
+        "n0_n1_n2_n3_n4": [11, 25, 0, 0, 0],
+        "fan_sizes": [5, 5, 5, 5, 5],
+        "residual_sizes": [16, 16, 16, 16, 16]
+      },
+      {
+        "row": "D",
+        "t": 0,
+        "n0_n1_n2_n3_n4": [12, 23, 1, 0, 0],
+        "fan_sizes": [4, 4, 5, 5, 5],
+        "residual_sizes": [16, 16, 17, 17, 17]
+      },
+      {
+        "row": "T",
+        "t": 1,
+        "n0_n1_n2_n3_n4": [12, 24, 0, 0, 0],
+        "fan_sizes": [4, 5, 5, 5, 5],
+        "residual_sizes": [16, 17, 17, 17, 17]
+      }
+    ],
+    "exhaustive": true,
+    "each_residual_beta": 5
+  },
+  "order17_trianglefree_chain": {
+    "Delta_F_at_most": 5,
+    "K4_free": true,
+    "hypothetical_triangle_edges_unique": true,
+    "J_construction": "all edges in no F-triangle plus one edge from each edge-disjoint F-triangle",
+    "J_triangle_free": true,
+    "alpha_J_at_most": 5,
+    "catalogue_local_edge_minimum": 40,
+    "catalogue_local_minimum_degree": 4,
+    "only_arithmetic_possibility_q_eF_eJ": [1, 42, 40],
+    "contradiction": "Deleting two edges of the unique F-triangle leaves a degree-three vertex in J, contradicting the checked catalogue minimum degree four.",
+    "status": "PASS_CONDITIONAL_ON_CATALOGUE_COMPLETENESS"
+  },
+  "row_results": {
+    "R": {
+      "status": "PASS_UNCONDITIONAL",
+      "singleton_fibre_maximum": 1,
+      "minimum_each_cut": 17,
+      "minimum_e_U": 7,
+      "degree_budget_and_lower_bound": 99,
+      "forced_U": "K3 disjoint-union 4K2",
+      "terminal_beta_residual_at_least": 6,
+      "contradicts_beta_residual": 5
+    },
+    "D": {
+      "status": "PASS_CONDITIONAL",
+      "minimum_each_of_five_spoke_cuts": 19,
+      "maximum_r": 7,
+      "degree_identity": "sum_U d_G=2e(U)+sum_c e(U,B_c)-r",
+      "degree_budget": 108,
+      "maximum_e_U": 10,
+      "trianglefree_alpha5_minimum_e_U": 11,
+      "D17_overlap_used": false
+    },
+    "T": {
+      "status": "PASS_CONDITIONAL",
+      "minimum_each_full_fan_cut": 19,
+      "full_fans": 4,
+      "D0_is_clique": true,
+      "maximum_D0": 2,
+      "minimum_deficient_cut": 10,
+      "degree_budget_and_lower_bound": 108,
+      "forced_U": "C5 disjoint-union C5 disjoint-union K2",
+      "terminal_beta_residual_at_least": 6,
+      "contradicts_beta_residual": 5,
+      "overlap_10_to_0_used": false
+    }
+  },
+  "sparse_trianglefree_lemma": {
+    "statement": "Every triangle-free 12-vertex graph with alpha at most five has at least 11 edges, with equality only for C5 disjoint-union C5 disjoint-union K2.",
+    "cleanroom_analytic_status": "PASS",
+    "independent_low_edge_profiles_checked": 231,
+    "minimum_independence_lower_bound": 6,
+    "independent_equality_order_profiles": [[2, 5, 5]],
+    "analytic_boundary_checked_in_proof": "theta/figure-eight/dumbbell classification of a connected bicyclic 2-core",
+    "existing_spanning_tree_extension_replay": "VERIFIED"
+  },
+  "independent_checker": {
+    "path": "research/erdos151/general/checks/final_audit/check_order41_k5_final_audit.py",
+    "sha256": "8685e8e6eeddd339de725649ba2d195d208dd4c77bb2dd578b9c9eafedcefe6c",
+    "command": ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\final_audit\\check_order41_k5_final_audit.py",
+    "status": "PASS",
+    "catalogue": {
+      "sha256": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+      "records": 7,
+      "edge_histogram": {"40": 2, "41": 3, "42": 2},
+      "minimum_degrees": [4, 4, 4, 4, 4, 4, 4]
+    },
+    "transversal_counts": {
+      "K3_disjoint_union_4K2": {"independent_sets": 324, "maximum_sets": 48, "hitting_sets": 0},
+      "2C5_disjoint_union_K2": {"independent_sets": 363, "maximum_sets": 50, "hitting_sets": 0}
+    },
+    "scope": "Independent finite guards and local catalogue properties; not an all-order-41 graph search and not a proof of external catalogue completeness"
+  },
+  "hash_audit": {
+    "dependency_paths_in_frozen_result": 42,
+    "matching_hashes": 42,
+    "mismatches": 0,
+    "theorem_binding_matches": true,
+    "selected_dependencies": {
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca",
+      "research/erdos151/general/ORDER41_K5_RIGID_ATTACK.md": "9e3803fcb92234c8c75d9c687347bb82e92e7ae30262460d68dc38483c592ab3",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION.md": "8353be6fde22d8e6edeb455187169b5eae4f6093ae971debcae353e7debddebd",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_REAUDIT.md": "af7a974a02891d02a7bb72596ecf5ae442975acb8c3c196aa137c09190e0dbcf",
+      "research/erdos151/general/ORDER41_K5_TRIANGLE_SATURATION.md": "8b4bf32e955e0d8853d157b87c3a29fe9bf16b1e69ac649a5dbc5601e2aa97ce",
+      "research/erdos151/result.json": "bec51fe5d82881c2ed3a47f258ab0818a542de05bc9d79ac06e8bf55f3455c3a",
+      "experiments/erdos128/r36_17.g6": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361"
+    }
+  },
+  "adversarial_checks": {
+    "ambient_to_residual_maximality_reversal_found": false,
+    "degree_eight_fan_misused_as_maximum_neighbourhood": false,
+    "shared_w_singleton_fibre_failure_found": false,
+    "shared_w_double_counting_error_found": false,
+    "omitted_degree_sum_edge_class_found": false,
+    "catalogue_overlap_circularity_found": false,
+    "unexpected_sparse_equality_case_found": false
+  },
+  "nonclaims": {
+    "catalogue_completeness_proved": false,
+    "whole_order_41_UNSAT_certificate": false,
+    "omega_4_excluded": false,
+    "order_40_settled": false,
+    "all_orders_settled": false,
+    "erdos_problem_151_solved": false,
+    "unconditional_theorem": false
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "schema": "erdos151-order41-omega5-conditional-exclusion-v2",
+  "date": "2026-08-02",
+  "status": "CONDITIONAL_THEOREM_VERIFIED",
+  "binding_policy": {
+    "noncircular": true,
+    "theorem_markdown": "research/erdos151/general/ORDER41_K5_EXCLUSION.md",
+    "theorem_markdown_sha256": "5cf0cfafb919ca3f6b8e81cc1ec66b94d1b72471fba657ec3e489cf95474462d",
+    "rule": "This result JSON binds the completed theorem Markdown and every listed local dependency. It intentionally omits its own hash, and the Markdown does not claim a hash for this JSON."
+  },
+  "theorem": {
+    "premise": "The published Ramsey (3,6;17) catalogue is complete, and its seven isomorphism classes are the seven records pinned in experiments/erdos128/r36_17.g6.",
+    "conclusion": "Every graph G on 41 vertices with omega(G)=5 satisfies beta(G)>=10.",
+    "equivalent_conclusion": "Every graph G on 41 vertices with omega(G)=5 has a clique transversal of order at most 31.",
+    "conditional_only_on": "Published completeness of the pinned seven-record Ramsey (3,6;17) catalogue, used only to infer triangle-freeness of the full order-17 residuals and hence of U",
+    "catalogue_completeness_verified_by_repository": false,
+    "pinned_bytes_and_identification_independently_verified": true,
+    "finite_overlap_computation_independently_verified": true,
+    "finite_overlap_computation_used_in_logical_proof": false,
+    "analytic_row_D_simplifier_reaudited": true,
+    "analytic_row_T_simplifier_checked": true,
+    "additional_computational_assumption": false
+  },
+  "definitions": {
+    "admissible_set": "A vertex set containing no inclusion-maximal clique of the ambient graph with at least two vertices.",
+    "beta_G": "Maximum order of an admissible set.",
+    "clique_transversal_duality_at_order_41": "tau_c(G)=41-beta(G)."
+  },
+  "contradiction_setup": {
+    "order": 41,
+    "omega": 5,
+    "assumed_beta_at_most": 9,
+    "Delta_at_most": 9,
+    "maximum_clique_order": 5,
+    "profile_identity": "sum_c |Z_c| = 80+4t+3n2+7n3+11n4 <= 85",
+    "each_residual_beta": 5
+  },
+  "exhaustive_profiles": [
+    {
+      "row": "R",
+      "t_n2_n3_n4": [0, 0, 0, 0],
+      "n0_n1": [11, 25],
+      "fan_sizes": [5, 5, 5, 5, 5],
+      "residual_sizes": [16, 16, 16, 16, 16],
+      "exclusion": "UNCONDITIONAL_ANALYTIC",
+      "audit": "PASS"
+    },
+    {
+      "row": "D",
+      "t_n2_n3_n4": [0, 1, 0, 0],
+      "n0_n1": [12, 23],
+      "fan_sizes": [4, 4, 5, 5, 5],
+      "residual_sizes": [16, 16, 17, 17, 17],
+      "exclusion": "ANALYTIC_SPARSE_SATURATION_CONTRADICTION_CONDITIONAL_ON_RESIDUAL_TRIANGLE_FREENESS",
+      "audit": "PASS_CONDITIONAL",
+      "route": "The audited five-spoke saturation bound e(U)<=10 contradicts the independently re-audited sparse triangle-free bound e(U)>=11. Catalogue completeness is used only to infer residual/core triangle-freeness; the D17 overlap is corroboration only."
+    },
+    {
+      "row": "T",
+      "t_n2_n3_n4": [1, 0, 0, 0],
+      "n0_n1": [12, 24],
+      "fan_sizes": [4, 5, 5, 5, 5],
+      "residual_sizes": [16, 17, 17, 17, 17],
+      "exclusion": "ANALYTIC_TRIANGLE_SATURATION_CONTRADICTION_CONDITIONAL_ON_RESIDUAL_TRIANGLE_FREENESS",
+      "audit": "PASS_CONDITIONAL",
+      "route": "Four full-fan cuts, the deficient-fan clique cut, and sparse triangle-free rigidity force U=C5 disjoint-union C5 disjoint-union K2; a residual maximal-edge transversal then gives beta at least six. The repaired T 10->0 overlap count is corroboration only."
+    }
+  ],
+  "row_R_proof": {
+    "singleton_fibre_maximum": 1,
+    "minimum_each_cut": 17,
+    "alpha_U_at_most": 5,
+    "Turan_minimum_e_U": 7,
+    "degree_budget": 99,
+    "forced_U_type": "K3 disjoint-union 4K2",
+    "terminal_residual_beta_lower_bound": 6,
+    "standing_residual_beta": 5,
+    "catalogue_dependency": false,
+    "status": "EXCLUDED"
+  },
+  "sparse_triangle_free_lemma": {
+    "order": 12,
+    "premises": "triangle-free and alpha at most five",
+    "minimum_edges": 11,
+    "unique_equality_type": "C5 disjoint-union C5 disjoint-union K2",
+    "analytic_reaudit": "PASS",
+    "independent_enumerator_status": "VERIFIED",
+    "edge_at_most_10_profiles_checked": 150,
+    "edge_at_most_10_profiles_with_alpha_at_most_five": 0,
+    "edge_equal_11_profiles_checked": 109,
+    "edge_equal_11_normalized_survivors": 1,
+    "catalogue_dependency": false
+  },
+  "row_T_analytic_proof": {
+    "full_fans": 4,
+    "minimum_each_full_fan_cut": 19,
+    "deficient_fan_singleton_fibre_cap_asserted": false,
+    "D0_is_clique": true,
+    "maximum_D0_from_triangle_freeness": 2,
+    "minimum_deficient_fan_cut": 10,
+    "alpha_U_at_most": 5,
+    "triangle_free_minimum_e_U": 11,
+    "degree_budget": 108,
+    "forced_degree_lower_bound": "2*11+4*19+10=108",
+    "forced_U_type": "C5 disjoint-union C5 disjoint-union K2",
+    "residual_endpoint_set_is_independent": true,
+    "independent_endpoint_sets_checked": 363,
+    "maximum_independent_5_sets": 50,
+    "endpoint_sets_hitting_all_maximum_independent_5_sets": 0,
+    "terminal_residual_beta_lower_bound": 6,
+    "standing_residual_beta": 5,
+    "maximality_domains": "Full-fan cut uses ambient maximality in G; terminal transversal uses maximality only in F=G[U union A_i].",
+    "catalogue_dependency": "Only the implication that a full order-17 residual, and hence U, is triangle-free",
+    "overlap_enumeration_required": false,
+    "status": "EXCLUDED_CONDITIONAL"
+  },
+  "row_D_analytic_proof": {
+    "singleton_fibre_maximum": 1,
+    "minimum_each_of_five_spoke_cuts": 19,
+    "maximum_r_U_neighbours_of_w": 7,
+    "degree_identity": "sum_{u in U} d_G(u)=2e(U)+sum_c e(U,B_c)-r",
+    "degree_budget": 108,
+    "analytic_e_U_at_most": 10,
+    "alpha_U_at_most": 5,
+    "triangle_free_minimum_e_U": 11,
+    "contradiction": "e(U)<=10 and e(U)>=11",
+    "catalogue_dependency": "Only the implication that a full order-17 residual, and hence U, is triangle-free",
+    "D17_overlap_enumeration_required": false,
+    "status": "EXCLUDED_CONDITIONAL"
+  },
+  "overlap_corroboration": {
+    "logical_dependency": false,
+    "catalogue_dependency_of_corroboration": true,
+    "dominating_fan_partitions": 4368,
+    "exact_common_U_isomorphism_classes": 786,
+    "automorphism_closed_aligned_patterns": 1963,
+    "T_classes_before_D0": 10,
+    "T_classes_after_D0": 0,
+    "D17_surviving_common_U_cores": 17,
+    "D17_edge_histogram": {
+      "20": 3,
+      "21": 9,
+      "22": 5
+    },
+    "status": "VERIFIED_AFTER_REMEDIATION_AND_INDEPENDENT_REAUDIT",
+    "role": "Independent corroboration only; neither row-D nor row-T logical exclusion invokes these counts"
+  },
+  "catalogue": {
+    "published_completeness_is_external_premise": true,
+    "path": "experiments/erdos128/r36_17.g6",
+    "sha256": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+    "records": 7,
+    "local_order_triangle_independence_degree_checks": "PASS",
+    "manifest_verification": "PASS",
+    "provenance_reaudit": "PASS",
+    "external_premise_usage_in_theorem": "Only to infer that the full order-17 beta-five residuals are triangle-free, and consequently that their induced core U is triangle-free",
+    "overlap_alignment_or_counts_used_in_theorem": false
+  },
+  "reproduction": {
+    "commands": [
+      ".\\.venv\\Scripts\\python.exe -B experiments\\erdos128\\verify_manifest.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\rigid_attack\\check_rigid_attack.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\double_saturation\\check_double_saturation.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\double_saturation_trianglefree\\check_trianglefree_12_profile.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\double_saturation_reaudit\\check_trianglefree_12_enumerator.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\triangle_saturation\\check_triangle_saturation.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\check_order41_k5_overlap.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\check_order28_36_coloring.py",
+      ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\checks\\check_k4free_core_degree7.py"
+    ],
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "fresh_outputs": {
+      "manifest": "PASS; every pinned entry matched, including 7 order-17 records",
+      "rigid": "CHECKED; one arithmetic state, 48 transversals, no independent hitting set",
+      "double_saturation": "CHECKED; lower degree sums 128,130,132 exceed budget 108",
+      "triangle_free_D_profile_guard": "CHECKED; 150 sparse, 16 two-component equality, 30 two-unicyclic, and 165 bicyclic order profiles",
+      "double_saturation_reaudit_enumerator": "VERIFIED; 150 edge-at-most-10 profiles with zero alpha-at-most-five survivors; 109 edge-11 profiles with unique C5+C5+K2 survivor",
+      "triangle_saturation": "CHECKED; forced e(U)=11 and C5+C5+K2; 363 independent endpoint sets and zero hitting all 50 maximum independent five-sets",
+      "overlap_corroboration": "VERIFIED; 4368, 786, 1963, T 10->0, D 17; logical dependency false",
+      "order28_36_coloring": "VERIFIED; 555 colored-link cases and 25 prescription cases",
+      "degree7_core": "VERIFIED; 1743 maximal triangle-free graphs and 1348032 edge signings"
+    },
+    "environment": {
+      "python": "3.12.4",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "networkx": "3.5",
+      "python_sat": "1.9.dev7"
+    }
+  },
+  "artifact_sha256": {
+    "upstream": {
+      "research/erdos151/README.md": "cf451d0c26bc913816525e180c63fda7bcb125357f8bc1827e9c8d04fb4b45a1",
+      "research/erdos151/general/GENERAL.md": "bc5503b15bff283ecd23aec8fd9d38496a4a8f108079cc5d5b4d50eefaab8a16",
+      "research/erdos151/general/N40_CLIQUE_CASES_AUDIT.md": "fce032ea2724c22bb2527624c737377f47461616a7707f518e0c1ea845bb132b",
+      "research/erdos151/order28_36.md": "ebdfa23d129183fce4c47220bae8c5a5f02a75631c89dcae9a386997780ef11d",
+      "research/erdos151/audit_order28_36.md": "23f425230da80edd6871043acd223f0bb5b885249a2af28dd82367b3f852d0dd",
+      "research/erdos151/result.json": "bec51fe5d82881c2ed3a47f258ab0818a542de05bc9d79ac06e8bf55f3455c3a",
+      "research/erdos151/check_order28_36_coloring.py": "19fa7222a421bad4bbfa9cdb73c86e44673b790f2a51b26952c7b7c69a09c573",
+      "research/erdos151/check_order28_36_coloring.result.json": "1ec5e5650c805ff16ae22a782af5db9b17a23148caf0884859f3c96394f7b519",
+      "research/erdos151/checks/check_k4free_core_degree7.py": "ae08af0e380ad4147f3ad9d51327336a8c395f707a1e753c0a3b3b3b75e3e316",
+      "research/erdos151/checks/check_k4free_core_degree7.result.json": "207bf54c93cf3f08cd58459ba434633a3fb82867111abbaa70656e3a1e7c4bdf"
+    },
+    "overlap_corroboration_package": {
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_RESULT.json": "02452b459e79c672b79089c550fd48b1f0eba7cf6257b90c0e891f01efc9d987",
+      "research/erdos151/general/checks/check_order41_k5_overlap.py": "d4eee390c83862f5b166b9bbd6c71415929d0bf428e7f62aeec2817ba3cc3d95",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_AUDIT.md": "bde66a3d221f5e1762e218cc7b40de70ca690e019c3c99c93a1b0cd1d2120567",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_AUDIT.json": "6f3411401846cc7304264c0025da252f4421467c15190a19572b94b270a19165",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REMEDIATION.md": "d5e7b337867bf449f946472e690ce3119f1f6f8c4e351d583567bb5f2d02896f",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REMEDIATION.json": "c015740e97888f230bb0e769ea887eb27d8ac86154a115a297f3fb1c50dee4db",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REAUDIT.md": "05152283f4377073664d2d8e33a922c6cd49ed7aa32ce69a2d07a25bdaee97a9",
+      "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REAUDIT.json": "e5e35724f2d031e78b130f20fc022cc530675aac716cbcca4696b70bcdee7d3c"
+    },
+    "row_R": {
+      "research/erdos151/general/ORDER41_K5_RIGID_ATTACK.md": "9e3803fcb92234c8c75d9c687347bb82e92e7ae30262460d68dc38483c592ab3",
+      "research/erdos151/general/ORDER41_K5_RIGID_ATTACK_AUDIT.md": "9c0640abbdcecceb41d49c3672204916fd3f8c96e57ca42477b916e9544518bc",
+      "research/erdos151/general/ORDER41_K5_RIGID_ATTACK_AUDIT.json": "5f37b21616d715bf1567ecdd0ffb82f42b184261e06ea0ac3ea8675a2b845794",
+      "research/erdos151/general/checks/rigid_attack/check_rigid_attack.py": "0f76e55bb1c28bda2c34dafa3952bf373f86877593e96f1302e650bf0ba46cd7"
+    },
+    "row_D": {
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION.md": "8353be6fde22d8e6edeb455187169b5eae4f6093ae971debcae353e7debddebd",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_AUDIT.md": "760a2a904e6416e907fac2c569298704a41f216f2a3b53e5321820f3163d6d4d",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_AUDIT.json": "e4895962c37fd6ce32636717ba0afb6b041068267542ecc118632db0c0e2656b",
+      "research/erdos151/general/checks/double_saturation/check_double_saturation.py": "be3cf20744516eaac13e0bb29dee47377ea4b66a33269c659dd0639a8a865951",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_ADDENDUM.md": "96af57c9754f8b8be871c89787845b7ec1146c91863793df42dba6a63d7ae4d4",
+      "research/erdos151/general/checks/double_saturation_trianglefree/check_trianglefree_12_profile.py": "68a73ad39d1a4f3857b512b23bb85b90b3cfc73a58784f4c82d5a5e53eb1a325",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_REAUDIT.md": "af7a974a02891d02a7bb72596ecf5ae442975acb8c3c196aa137c09190e0dbcf",
+      "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_REAUDIT.json": "9bf0db41510cc93708d0380176acef803815c89fb6b070fdc14966ef80ee950a",
+      "research/erdos151/general/checks/double_saturation_reaudit/check_trianglefree_12_enumerator.py": "d67ea28044f9ca66816eb94d8a92148a7a34ed6146dafc941c31f3d7201cf691"
+    },
+    "row_T": {
+      "research/erdos151/general/ORDER41_K5_TRIANGLE_SATURATION.md": "8b4bf32e955e0d8853d157b87c3a29fe9bf16b1e69ac649a5dbc5601e2aa97ce",
+      "research/erdos151/general/checks/triangle_saturation/check_triangle_saturation.py": "a495e66dff787f81fe00a5f4f6ad789010ba32efdcb5b5a210cd3c6d557423be"
+    },
+    "catalogue_and_checker_dependencies": {
+      "experiments/erdos128/r36_17.g6": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+      "experiments/erdos128/MANIFEST.json": "ef41bb5eb474a58503549a21b411f13a77217f70edbcc63479f00247c11c92fc",
+      "experiments/erdos128/verify_manifest.py": "58356d097e737cc00cd38bf6ea1dc3ff4f4491c219837b68f36f3e62158680a4",
+      "experiments/erdos128/r36_16.g6.gz": "5fd4e68d880e1d4ed05337b97cba0ce15387e1f545744aed80b91bb4b2186f25",
+      "research/erdos151/general/checks/order16_beta5_triangle_witness.json": "b3778f99571afed723c088143df118e00ab36515083167445b37f024a6e5ad36",
+      "experiments/erdos151_siege/beta_lib.py": "228c8d82de6a0c292f0f1c89b4a5fc9411feef051d9ddf9cb0950faa1fe6ffac",
+      "experiments/erdos151_siege/beta_bb.py": "4f8d7fe9361d56119a4ed651ca46acb81366fba612916891178f7d28d06531d6",
+      "research/erdos151/general/ORDER41_K5_PRIORITY.md": "53569bfce745023775e5af225084c5a0d041cd38256ee594eb64e50ddd649ef9"
+    }
+  },
+  "point_in_time_D_audit_binding": {
+    "audited_source_sha256": "277b65c4956b56298c76a5e08ed3daf31af040033b4fb001550db3831f7955ca",
+    "audited_checker_sha256": "be3cf20744516eaac13e0bb29dee47377ea4b66a33269c659dd0639a8a865951",
+    "audit_markdown_sha256": "760a2a904e6416e907fac2c569298704a41f216f2a3b53e5321820f3163d6d4d",
+    "audit_json_sha256": "e4895962c37fd6ce32636717ba0afb6b041068267542ecc118632db0c0e2656b",
+    "current_source_preserves_audited_D17_route": true,
+    "current_strengthening_separately_reaudited": true,
+    "strengthened_reaudit_markdown_sha256": "af7a974a02891d02a7bb72596ecf5ae442975acb8c3c196aa137c09190e0dbcf",
+    "strengthened_reaudit_json_sha256": "9bf0db41510cc93708d0380176acef803815c89fb6b070fdc14966ef80ee950a",
+    "triangle_free_simplifier_invoked_by_this_theorem": true,
+    "point_in_time_D17_route_invoked_by_this_theorem": false,
+    "D17_route_retained_as_corroboration": true
+  },
+  "prior_art_and_priority": {
+    "required_credit": "S. H. Bhat, Shivaraja Bhat, and Sowmya Bhat, Clique Free Number of a Graph, Engineering Letters 31(4), 1832-1836 (2023), Proposition II.3.",
+    "inherited_fact": "Delta(G)<=beta_vc(G), with maximum-degree neighbourhoods maximum clique-free when equality holds.",
+    "safe_wording": "We found no prior source using the combined five-neighbourhood singleton-fibre, sparse triangle-free rigidity, residual maximal-edge transversal, and pinned residual-triangle-freeness architecture.",
+    "negative_search_is_proof_of_novelty": false,
+    "categorical_first_claim": false
+  },
+  "ai_and_computation_statement": "AI agents materially assisted with discovery, proof development, adversarial auditing, exact computation, and documentation under Edison Yi's direction. The theorem logically uses the audited analytic row-D sparse-saturation and row-T triangle-saturation simplifiers. The repaired T/D overlap computation passed a separate post-remediation re-audit and is retained, with the original FAIL audit, as corroboration only; no overlap count is a theorem premise.",
+  "claim_boundary": {
+    "order_41_only": true,
+    "omega_exactly_5_only": true,
+    "omega_4_settled_here": false,
+    "all_orders_settled": false,
+    "erdos_problem_151_solved": false,
+    "full_solution_announcement": false,
+    "unconditional_theorem": false,
+    "Git_or_publication_action": false
+  },
+  "open_external_premises": [
+    "Published completeness of the pinned seven-record Ramsey (3,6;17) catalogue"
+  ],
+  "local_audit_blockers": []
+}

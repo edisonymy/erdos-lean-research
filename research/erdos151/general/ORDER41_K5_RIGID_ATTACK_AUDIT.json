@@ -1,0 +1,132 @@
+{
+  "schema": "erdos151-order41-k5-rigid-attack-independent-audit-v1",
+  "date": "2026-08-02",
+  "status": "PASS",
+  "scope": "Analytic exclusion of order-41 omega=5 row R under the standing row-R hypotheses only; no catalogue-completeness, order-41 closure, Erdos 151 solution, UNSAT, Git, publication, novelty, or priority claim",
+  "binding_policy": {
+    "noncircular": true,
+    "audit_markdown": "research/erdos151/general/ORDER41_K5_RIGID_ATTACK_AUDIT.md",
+    "audit_markdown_sha256": "9c0640abbdcecceb41d49c3672204916fd3f8c96e57ca42477b916e9544518bc",
+    "rule": "This JSON binds the completed audit Markdown and audited inputs but intentionally omits its own hash."
+  },
+  "audited_inputs_sha256": {
+    "research/erdos151/general/ORDER41_K5_RIGID_ATTACK.md": "9e3803fcb92234c8c75d9c687347bb82e92e7ae30262460d68dc38483c592ab3",
+    "research/erdos151/general/checks/rigid_attack/check_rigid_attack.py": "0f76e55bb1c28bda2c34dafa3952bf373f86877593e96f1302e650bf0ba46cd7",
+    "research/erdos151/README.md": "e64f809c3d98bad75cce6d471515aa03d2f97a162d1761eb5d7ed76ae03df741",
+    "research/erdos151/general/GENERAL.md": "bc5503b15bff283ecd23aec8fd9d38496a4a8f108079cc5d5b4d50eefaab8a16",
+    "research/erdos151/general/N40_CLIQUE_CASES_AUDIT.md": "fce032ea2724c22bb2527624c737377f47461616a7707f518e0c1ea845bb132b",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_AUDIT.md": "bde66a3d221f5e1762e218cc7b40de70ca690e019c3c99c93a1b0cd1d2120567",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca"
+  },
+  "standing_row_R": {
+    "order_G": 41,
+    "beta_G": 9,
+    "order_M": 5,
+    "order_U": 11,
+    "fan_count": 5,
+    "fan_orders": [5, 5, 5, 5, 5],
+    "U_anticomplete_to_M": true,
+    "each_clique_vertex_degree": 9,
+    "each_fan_dominates_U": true,
+    "residual_orders": [16, 16, 16, 16, 16],
+    "each_residual_beta": 5,
+    "catalogue_dependency": false
+  },
+  "proof_audit": [
+    {
+      "claim": "S_c=N(c) is a maximum ambient-admissible nine-set",
+      "status": "PASS",
+      "reason": "Every nontrivial clique in an open neighbourhood extends by its centre, and row R gives |N(c)|=4+5=9=beta(G)."
+    },
+    {
+      "claim": "Each exact singleton fibre P_c(a) has size at most one",
+      "status": "PASS",
+      "reason": "The bad ten-set forces ua to be an ambient-maximal edge. If uv is present, v extends ua with a; if uv is absent, replacing a by u,v gives an admissible ten-set."
+    },
+    {
+      "claim": "Each cut e(U,A_c) is at least 17",
+      "status": "PASS",
+      "reason": "Domination gives eleven nonempty neighbour sets, at most five of which are singleton fibres, so the incidence count is at least 5+2*6=17."
+    },
+    {
+      "claim": "alpha(U)<=5",
+      "status": "PASS",
+      "reason": "Every independent set in the induced residual F_c is F_c-admissible and beta(F_c)=5."
+    },
+    {
+      "claim": "Turan/complement extremum gives e(U)>=7 with unique equality type K3 disjoint-union 4K2",
+      "status": "PASS",
+      "reason": "The complement is K6-free, ex(11,K6)=48, and equality is the balanced T_5(11)."
+    },
+    {
+      "claim": "The global U-degree identity and degree ceiling force equality throughout",
+      "status": "PASS",
+      "reason": "2e(U)+sum cuts=sum d_U<=99 while the independent lower bounds total 2*7+5*17=99."
+    },
+    {
+      "claim": "The terminal transversal lemma gives beta(F_c)>=6",
+      "status": "PASS",
+      "reason": "F-maximal edges from a have an independent endpoint set L_a in W; a transversal avoiding L_a together with a contains no nontrivial F-maximal clique. Isolated a and absent edges are included."
+    }
+  ],
+  "independent_finite_checks": {
+    "cut_set_system": {
+      "method": "Dynamic programming over eleven labelled vertices, 31 nonempty subsets of a five-set, and a five-bit used-singleton mask",
+      "minimum_total_incidence": 17,
+      "equality_structure": "five distinctly labelled singletons and six doubletons",
+      "labelled_equality_assignments": 55440000000,
+      "status": "PASS"
+    },
+    "turan_equality_graph_search": {
+      "method": "Independent SAT projection enumeration on 55 edge variables, with one edge-cover clause for every six-subset",
+      "at_most_6_edges": "UNSAT",
+      "exactly_7_edges_labelled_models": 17325,
+      "isomorphism_types": 1,
+      "unique_type": "K3 disjoint-union 4K2",
+      "status": "PASS"
+    },
+    "terminal_direct_maximal_clique_search": {
+      "method": "For every neighbourhood of one outside vertex in K3 disjoint-union 4K2, exhaust all maximal cliques and all vertex subsets of the induced 12-vertex graph",
+      "outside_neighbourhood_patterns": 2048,
+      "minimum_beta": 7,
+      "beta_histogram": {
+        "7": 1404,
+        "8": 486,
+        "9": 138,
+        "10": 19,
+        "11": 1
+      },
+      "relation_to_source": "Stronger than the beta>=6 terminal lemma; induced-to-ambient maximality transfers the witness to any larger residual.",
+      "status": "PASS"
+    }
+  },
+  "shipped_checker_replay": {
+    "command": ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\rigid_attack\\check_rigid_attack.py",
+    "exit_code": 0,
+    "reported_status": "CHECKED",
+    "outputs": {
+      "arithmetic_states": 1,
+      "forced_e_U": 7,
+      "forced_cut_sizes": [17, 17, 17, 17, 17],
+      "maximum_independent_transversals": 48,
+      "independent_sets_in_U": 324,
+      "independent_sets_hitting_all_transversals": 0
+    },
+    "verified_scope": [
+      "finite arithmetic squeeze after assuming e(U)>=7 and every cut>=17",
+      "transversal hitting statement after assuming U=K3 disjoint-union 4K2"
+    ],
+    "not_verified_by_checker": [
+      "row-R profile and residual provenance",
+      "ambient-maximality directions",
+      "singleton-fibre lemma and derivation of the cut bound",
+      "alpha(U)<=5, Turan theorem, and equality rigidity",
+      "full maximal-clique semantics of the terminal set",
+      "source hashes or catalogue data"
+    ],
+    "coverage_description_in_source_is_accurate": true,
+    "status": "PASS"
+  },
+  "blockers": [],
+  "final_claim_boundary": "PASS applies only to the analytic contradiction for rigid row R under the standing hypotheses. It makes no full order-41, catalogue-completeness, UNSAT, publication, priority, or Erdos problem 151 claim."
+}

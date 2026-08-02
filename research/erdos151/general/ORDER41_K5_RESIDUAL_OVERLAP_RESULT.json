@@ -1,0 +1,122 @@
+{
+  "schema": "erdos151-order41-k5-residual-overlap-result-v1",
+  "status": "PARTIAL_REDUCTION_VERIFIED_AFTER_AUDIT_REMEDIATION",
+  "date": "2026-08-02",
+  "scope": "Order-41 graphs with beta<=9, Delta<=9, and omega=5",
+  "profiles": {
+    "rigid": {
+      "t": 0,
+      "n0": 11,
+      "n1": 25,
+      "n2": 0,
+      "fan_sizes": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "residual_sizes": [
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "verdict": "OPEN"
+    },
+    "one_double_neighbour": {
+      "t": 0,
+      "n0": 12,
+      "n1": 23,
+      "n2": 1,
+      "fan_sizes": [
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "residual_sizes": [
+        16,
+        16,
+        17,
+        17,
+        17
+      ],
+      "catalogue_conditional_common_U_classes": 17,
+      "verdict": "REDUCED_NOT_EXCLUDED"
+    },
+    "one_cross_deficit": {
+      "t": 1,
+      "n0": 12,
+      "n1": 24,
+      "n2": 0,
+      "fan_sizes": [
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "residual_sizes": [
+        16,
+        17,
+        17,
+        17,
+        17
+      ],
+      "classes_before_deficient_fan_domination": 10,
+      "classes_after_deficient_fan_domination": 0,
+      "verdict": "EXCLUDED_CONDITIONAL_ON_R36_17_CATALOGUE_COMPLETENESS"
+    }
+  },
+  "unconditional_under_standing_hypotheses": [
+    "The displayed three profiles are exhaustive.",
+    "Every size-16 or size-17 residual has beta exactly 5 and is K4-free.",
+    "Every full degree-nine spoke dominates the common n0 class.",
+    "The common n0 graph has maximum degree at most 4.",
+    "Every size-16 residual contains a spanning triangle-free graph with alpha at most 5, using the published bound F_e(3,3;4)>19."
+  ],
+  "catalogue_dependency": {
+    "completeness_is_external_premise": true,
+    "r36_17_path": "experiments/erdos128/r36_17.g6",
+    "r36_17_sha256": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361",
+    "r36_17_records": 7,
+    "dominating_partitions": 4368,
+    "exact_common_U_isomorphism_classes": 786,
+    "automorphism_closed_aligned_patterns": 1963,
+    "r36_16_path": "experiments/erdos128/r36_16.g6.gz",
+    "r36_16_compressed_sha256": "5fd4e68d880e1d4ed05337b97cba0ce15387e1f545744aed80b91bb4b2186f25",
+    "r36_16_decoded_sha256": "25e35e1bb46b3131ff00b430b56e4679fcde7988211aefd9036c1e4c0cd7d2bf",
+    "r36_16_records": 2576
+  },
+  "one_double_neighbour_surviving_U_graph6": [
+    "K@oIC@DDodCw",
+    "KKCS?QDHpTGo",
+    "K`_PYYCE@BGQ",
+    "K??P`XMUCKyG",
+    "K??chp[Ia_p`",
+    "K?C_YghdNCU?",
+    "K?CcXOqQKgyG",
+    "K?HCYoS[dgSG",
+    "K?OcxpSSCGtC",
+    "K@?LAdcdBOrC",
+    "K?Ccb@MbQgT@",
+    "K`_PYWWOkHCI",
+    "K@@AsxgcHWsO",
+    "K?`@ZqsSd?a`",
+    "K@?JKhheagT?",
+    "K@hWOHacbAqK",
+    "K?I?iyWQd_kc"
+  ],
+  "order16_triangle_counterexample": "research/erdos151/general/checks/order16_beta5_triangle_witness.json",
+  "reproduction": {
+    "command": ".\\.venv\\Scripts\\python.exe research\\erdos151\\general\\checks\\check_order41_k5_overlap.py",
+    "checker": "research/erdos151/general/checks/check_order41_k5_overlap.py",
+    "checker_sha256": "d4eee390c83862f5b166b9bbd6c71415929d0bf428e7f62aeec2817ba3cc3d95",
+    "note": "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md",
+    "note_sha256": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca"
+  },
+  "claim_boundary": "This is not an order-41 theorem, a SAT/UNSAT result, or a solution of Erdos problem 151. The rigid and one-double-neighbour rows remain open."
+}

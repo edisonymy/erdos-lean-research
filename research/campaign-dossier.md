@@ -227,21 +227,26 @@ the mathematical trust boundary.
 | `5^5` | no fixed vertices | impossible for a 157-edge invariant graph | sorry-free Lean orbit arithmetic |
 | `1^5 5^4` | six fixed-edge graph types | all excluded | native DRAT/LRAT and six Lean `CNF.Unsat` theorems |
 | `1^10 5^3` | all nine feasible weighted edge-count pairs | excluded | audited quotient CNF and native `lrat-check` |
-| `1^15 5^2` | 21 fixed-edge-count partitions | 17 certified, 4 unresolved at snapshot | native direct LRAT per completed partition |
+| `1^15 5^2` | 21 fixed-edge-count partitions | 18 certified, 3 unresolved at snapshot | native direct LRAT per completed partition |
 | `1^20 5^1` | 23 split partitions | not closed | audited split machinery only |
 | no order-five symmetry | unrestricted/asymmetric remainder | not closed | candidate search only |
 
-The 17 certified fixed-15 partitions are
+The 18 certified fixed-15 partitions are
 
 ```text
 t = 2, 7, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57,
-    82, 87, 92, 97, 102.
+    77, 82, 87, 92, 97, 102.
 ```
 
-The unresolved set is exactly `t=62,67,72,77`.  The long `t=62` run reached
-its 5,400-second cap with a 10,535,209,325-byte partial LRAT; this is
-**inconclusive**, and no checker or UNSAT claim followed.  At this snapshot
-`t=67` was active, with `t=72,77` queued in the same bounded runner.
+The unresolved set is exactly `t=62,67,72`.  Each long run reached its
+5,400-second cap and is **inconclusive**; no checker or UNSAT claim followed.
+The long `t=77` case instead produced a 6,995,552,479-byte direct LRAT,
+SHA-256 `9fc6677e9849c013e1f948f7f1a256fe754c472a883f1a4acfbe0cd50fa6ddbe`,
+which the pinned native checker accepted with `c VERIFIED`.  Every recorded
+artifact and tool hash was recomputed independently before the narrowly
+scoped [public issue update](https://github.com/edisonymy/erdos-lean-research/issues/1#issuecomment-5160272105).
+This certifies only the exact split CNF, not the graph-to-CNF correspondence
+or Erdős #742.
 
 The live sources of truth are:
 
@@ -560,3 +565,41 @@ through-order-39 result.  A fresh announcement-level repeat immediately
 before publication found no matching preprint or announcement.  The bounded
 theorem is published as independently derived work offered for review, not a
 claim that the literature search proves priority.
+
+### Order-41 clique-number-five advance and allocation guard
+
+Later on 2 August, the fixed-`K5` analysis reduced every hypothetical
+order-41 counterexample to three exact incidence profiles.  Independent
+audits then established analytic contradictions for all three.  The resulting
+theorem is conditional only on completeness of the published seven-record
+Ramsey `(3,6;17)` catalogue and states
+
+```text
+|V(G)|=41 and omega(G)=5  ==>  beta(G)>=10.
+```
+
+The catalogue is used only to infer that an order-17 residual with beta five
+is triangle-free.  The row-R contradiction is unconditional.  In rows D and
+T, singleton-fibre saturation and the exact 12-vertex lemma
+
+```text
+triangle-free U, |U|=12, alpha(U)<=5  ==>  e(U)>=11,
+```
+
+with equality only for `C5 disjoint-union C5 disjoint-union K2`, close the
+remaining profiles.  The earlier exact residual-overlap computation was
+repaired after an independent audit found a missing automorphism orbit and is
+retained as corroboration, not as a premise of the final proof.  This is a
+conditional finite-order theorem, not a solution of #151.  Together with the
+unconditional `K4`-free order-41 result, it leaves only `omega=4` at order 41
+under the catalogue premise.
+
+The first analytic attack on that `omega=4` lane proved sharp singleton-fibre
+and weighted-overlap inequalities but also constructed a four-residual local
+abstraction satisfying every scalar condition while having global
+independence number 15.  The precise remaining obstacle is joint cross-fan
+independence/maximal-clique coupling.  The campaign therefore authorizes one
+genuinely global counterexample-search cycle, not an unlimited sequence of
+local lemmas.  The positive renewal signals, reallocation triggers, and
+12-hour/first-global-run checkpoint are recorded in
+[`erdos151/ALLOCATION_CHECKPOINT.md`](erdos151/ALLOCATION_CHECKPOINT.md).

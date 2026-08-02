@@ -1,0 +1,66 @@
+{
+  "schema": "erdos151-order16-beta5-triangle-witness-v1",
+  "status": "COUNTEREXAMPLE_INDEPENDENTLY_VERIFIED",
+  "false_claim": "Every order-16 graph F with beta(F) <= 5 is triangle-free.",
+  "construction": {
+    "base_graph6": "O@?ACEIDXHDooFUQLgC{?",
+    "base_catalogue": "experiments/erdos128/r36_16.g6.gz",
+    "base_catalogue_compressed_sha256": "5fd4e68d880e1d4ed05337b97cba0ce15387e1f545744aed80b91bb4b2186f25",
+    "base_catalogue_decoded_sha256": "25e35e1bb46b3131ff00b430b56e4679fcde7988211aefd9036c1e4c0cd7d2bf",
+    "base_catalogue_records": 2576,
+    "added_edge": [
+      1,
+      3
+    ],
+    "candidate_graph6": "OB?ACEIDXHDooFUQLgC{?"
+  },
+  "candidate_properties": {
+    "order": 16,
+    "edges": 39,
+    "degree_sequence": [
+      4,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "triangles": 1,
+    "alpha": 5,
+    "omega": 3,
+    "beta": 5
+  },
+  "checks": {
+    "engine_A": {
+      "method": "NetworkX maximal cliques plus RC2 MaxSAT",
+      "source": "experiments/erdos151_siege/beta_lib.py",
+      "source_sha256": "228c8d82de6a0c292f0f1c89b4a5fc9411feef051d9ddf9cb0950faa1fe6ffac",
+      "beta": 5,
+      "admissible_witness": [
+        0,
+        6,
+        9,
+        13,
+        14
+      ]
+    },
+    "engine_B": {
+      "method": "independent graph6 parser, bitset Bron-Kerbosch maximal cliques, and branch-and-bound minimum hitting set",
+      "source": "experiments/erdos151_siege/beta_bb.py",
+      "source_sha256": "4f8d7fe9361d56119a4ed651ca46acb81366fba612916891178f7d28d06531d6",
+      "beta": 5
+    },
+    "replay": "research/erdos151/general/checks/check_order41_k5_overlap.py"
+  },
+  "claim_boundary": "This refutes only the stated order-16 triangle-free lemma. It is not an order-41 counterexample and says nothing by itself about Erdos problem 151."
+}

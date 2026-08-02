@@ -36,11 +36,18 @@ because the original problem lacked a public Lean statement.
   jump order, and new Folkman-core coloring arguments exclude the jumps at
   28 and 36.  A separately audited theorem now proves `beta(G)>=10` for every
   `K4`-free graph on 41 vertices, unconditionally removing clique numbers at
-  most three from the order-41 frontier.  A second independently audited
+  most three from the order-41 frontier.  A new independently audited theorem
+  also proves `beta(G)>=10` at order 41 when `omega(G)=5`, conditional only on
+  completeness of the published seven-record Ramsey `(3,6;17)` catalogue.
+  Its final proof uses analytic saturation arguments; the repaired exact
+  residual-overlap computation is retained as corroboration, not a theorem
+  premise.  A second independently audited
   theorem proves the corresponding strong order-40 statement conditional on
   `R(3,10)=40`; if the Ramsey number is 41, the required order-40 bound follows
-  from monotonicity.  Thus the `K4`-free order-40/41 lane is closed, while the
-  `omega in {4,5}` cases and all later Ramsey jumps remain.  This is substantial
+  from monotonicity.  Thus the `K4`-free order-40/41 lane is closed and,
+  subject to the stated catalogue premise, only `omega=4` remains at order 41.
+  The unrestricted order-40 case when `R(3,10)=40`, and all later Ramsey
+  jumps, remain.  This is substantial
   finite-order progress, not a solution of the full problem.  See
   [`research/erdos151/`](research/erdos151/).
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
@@ -76,8 +83,8 @@ because the original problem lacked a public Lean statement.
   counterexample. Independently replayed LRAT certificates exclude counterexamples
   having an order-five automorphism of cycle type `1^5 5^4` or `1^10 5^3`, conditional
   on the cited published reductions. The fixed-15 class is split into 21 cases;
-  17 have checked native certificates, while `t=62,67,72,77` remain unresolved
-  at the dossier snapshot. These are bounded symmetry-class results, not a solution.
+  18 have checked native certificates, while exactly `t=62,67,72` remain unresolved
+  after 5,400-second timeouts. These are bounded symmetry-class results, not a solution.
 - **Erdős #982:** two unconditional arguments exclude all `D2`-symmetric octagons and
   all alternating two-radius dihedral polygons; independent exact searches found no
   counterexample, and the general problem remains open.

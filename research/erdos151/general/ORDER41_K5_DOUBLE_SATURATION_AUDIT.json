@@ -1,0 +1,174 @@
+{
+  "schema": "erdos151-order41-k5-double-saturation-independent-audit-v1",
+  "date": "2026-08-02",
+  "status": "PASS",
+  "scope": "Unconditional audit of the row-D singleton/cut/double-counting bound and conditional audit of the row-D exclusion using the repaired D17 overlap enumeration; no catalogue-completeness theorem, full order-41 closure, Erdos 151 solution, UNSAT, Git, publication, novelty, or priority claim",
+  "binding_policy": {
+    "noncircular": true,
+    "audit_markdown": "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION_AUDIT.md",
+    "audit_markdown_sha256": "760a2a904e6416e907fac2c569298704a41f216f2a3b53e5321820f3163d6d4d",
+    "rule": "This JSON binds the completed audit Markdown and audited inputs but intentionally omits its own hash."
+  },
+  "audited_inputs_sha256": {
+    "research/erdos151/general/ORDER41_K5_DOUBLE_SATURATION.md": "277b65c4956b56298c76a5e08ed3daf31af040033b4fb001550db3831f7955ca",
+    "research/erdos151/general/checks/double_saturation/check_double_saturation.py": "be3cf20744516eaac13e0bb29dee47377ea4b66a33269c659dd0639a8a865951",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP.md": "880b2de61369c2539218ec027b9757b9f8da5b98dd8243a9e06c11e0a09d07ca",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_RESULT.json": "02452b459e79c672b79089c550fd48b1f0eba7cf6257b90c0e891f01efc9d987",
+    "research/erdos151/general/checks/check_order41_k5_overlap.py": "d4eee390c83862f5b166b9bbd6c71415929d0bf428e7f62aeec2817ba3cc3d95",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REMEDIATION.md": "d5e7b337867bf449f946472e690ce3119f1f6f8c4e351d583567bb5f2d02896f",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REMEDIATION.json": "c015740e97888f230bb0e769ea887eb27d8ac86154a115a297f3fb1c50dee4db",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REAUDIT.md": "05152283f4377073664d2d8e33a922c6cd49ed7aa32ce69a2d07a25bdaee97a9",
+    "research/erdos151/general/ORDER41_K5_RESIDUAL_OVERLAP_REAUDIT.json": "e5e35724f2d031e78b130f20fc022cc530675aac716cbcca4696b70bcdee7d3c",
+    "experiments/erdos128/r36_17.g6": "3286c5366ddc70f349c3f7e798d7acbc79dc026c7abe0c8f406cad41ca990361"
+  },
+  "standing_row_D": {
+    "order_U": 12,
+    "double_neighbour_vertex": "w",
+    "N_M_w": ["p", "q"],
+    "fan_orders": [4, 4, 5, 5, 5],
+    "spoke_orders_after_adding_w": [5, 5, 5, 5, 5],
+    "each_spoke_dominates_U": true,
+    "beta_G": 9,
+    "Delta_G_at_most": 9,
+    "each_clique_vertex_degree": 9
+  },
+  "proof_audit": [
+    {
+      "claim": "The singleton-fibre cap holds for all five spokes, including a=w in the p and q spokes",
+      "status": "PASS",
+      "reason": "The exact bad-ten-set witness is the edge ua. The uv-present case extends it through a; the uv-absent case gives an admissible replacement set. For a=w, removing w also removes the internal edge qw or pw, while U remains anticomplete to M."
+    },
+    {
+      "claim": "Every spoke cut e(U,B_c) is at least 19",
+      "status": "PASS",
+      "reason": "Twelve dominated vertices give nonempty neighbour sets, at most five singleton fibres, and incidence at least 5+2*7=19."
+    },
+    {
+      "claim": "r=|N(w) intersect U| is at most seven",
+      "status": "PASS",
+      "reason": "w already has the two M-neighbours p and q and Delta(G)<=9."
+    },
+    {
+      "claim": "The shared-w double-counting identity is exact",
+      "status": "PASS",
+      "reason": "sum d_U=2e(U)+sum f_c+r=2e(U)+sum e_c-r; the two spoke cuts count each U-w edge twice while the true U-degree sum counts it once."
+    },
+    {
+      "claim": "The global degree budget forces e(U)<=10",
+      "status": "PASS",
+      "reason": "108>=2e(U)+sum cuts-r>=2e(U)+5*19-7=2e(U)+88."
+    },
+    {
+      "claim": "The optional Turan lower bound gives e(U)>=9",
+      "status": "PASS",
+      "reason": "alpha(U)<=5 makes the 12-vertex complement K6-free, ex(12,K6)=57, and 66-57=9."
+    },
+    {
+      "claim": "Conditional D17 cores have edge range {20,21,22}",
+      "status": "PASS_CONDITIONAL_ON_CATALOGUE_COMPLETENESS",
+      "reason": "The repaired package and independent re-audit enumerate 17 necessary-condition cores. A separate graph6 decoder found edge histogram {20:3,21:9,22:5}."
+    },
+    {
+      "claim": "The analytic upper bound and D17 lower bound are combined without circularity",
+      "status": "PASS",
+      "reason": "The overlap filter uses aligned three-fan degrees, a one-unit reserve, forced-w capacity, and r<=7, but not the singleton cap, cut>=19, or e(U)<=10. Reusing r<=7 downstream is not circular."
+    }
+  ],
+  "independent_finite_checks": {
+    "one_spoke_set_system": {
+      "method": "Dynamic programming over twelve labelled vertices and the 31 nonempty subsets of a five-set with singleton-label capacities",
+      "minimum_cut": 19,
+      "status": "PASS"
+    },
+    "shared_pair_set_system": {
+      "method": "Dynamic programming over the p- and q-spoke neighbour sets with one consistent shared-w bit, two singleton masks, and r<=7",
+      "minimum_actual_pair_cost_e_p_plus_e_q_minus_r": 31,
+      "sharp_witness": {
+        "e_p": 19,
+        "e_q": 19,
+        "r": 7
+      },
+      "status": "PASS"
+    },
+    "scalar_degree_budget": {
+      "maximum_feasible_e_U": 10,
+      "catalogue_edge_counts_tested": [20, 21, 22],
+      "catalogue_edge_counts_feasible": 0,
+      "status": "PASS"
+    },
+    "D17_graph6_decode": {
+      "parser": "Separate standard-library short-form graph6 parser",
+      "records": 17,
+      "distinct_records": 17,
+      "order_each": 12,
+      "edge_histogram": {
+        "20": 3,
+        "21": 9,
+        "22": 5
+      },
+      "edge_range": [20, 21, 22],
+      "status": "PASS"
+    }
+  },
+  "overlap_dependency_replay": {
+    "command": ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\check_order41_k5_overlap.py",
+    "exit_code": 0,
+    "reported_status": "VERIFIED",
+    "outputs_relevant_to_D": {
+      "dominating_partitions": 4368,
+      "exact_common_U_isomorphism_classes": 786,
+      "automorphism_closed_aligned_patterns": 1963,
+      "row_D_surviving_common_U_cores": 17,
+      "row_D_edge_counts": [20, 21, 22]
+    },
+    "catalogue_file_hash_matches": true,
+    "catalogue_records": 7,
+    "catalogue_completeness_is_external_premise": true,
+    "status": "PASS_CONDITIONAL"
+  },
+  "shipped_double_checker_replay": {
+    "command": ".\\.venv\\Scripts\\python.exe -B research\\erdos151\\general\\checks\\double_saturation\\check_double_saturation.py",
+    "exit_code": 0,
+    "reported_status": "CHECKED",
+    "outputs": {
+      "shared_w_identity_cases": 16384,
+      "minimum_U_degree_sums": {
+        "20": 128,
+        "21": 130,
+        "22": 132
+      },
+      "available_U_degree_budget": 108,
+      "feasible_states": 0
+    },
+    "verified_scope": [
+      "dummy-integer double-counting identity",
+      "final scalar inequality for hard-coded e(U) in {20,21,22} and 0<=r<=7"
+    ],
+    "not_verified_by_checker": [
+      "row-D profile, domination, and residual provenance",
+      "ambient-maximality and singleton-fibre proof",
+      "derivation of the 19-edge cuts",
+      "shared-w adjacency consistency across the two spokes",
+      "Turan lower bound",
+      "D17 graph6 records, hashes, repaired overlap enumeration, and catalogue completeness"
+    ],
+    "coverage_description_in_source_is_accurate": true,
+    "status": "PASS"
+  },
+  "conditionality": {
+    "unconditional_results": [
+      "singleton fibre size at most one in all five spokes",
+      "each spoke cut at least 19",
+      "r<=7",
+      "exact shared-w degree identity",
+      "e(U)<=10",
+      "optional e(U)>=9 from residual beta"
+    ],
+    "conditional_result": "Row D is excluded",
+    "external_premise": "Completeness of the pinned seven-record Ramsey (3,6;17) catalogue",
+    "repository_proves_external_premise": false,
+    "source_states_premise_explicitly": true
+  },
+  "blockers": [],
+  "final_claim_boundary": "PASS confirms the unconditional row-D analytic bound and the explicitly catalogue-conditional exclusion of row D. It makes no unconditional catalogue-completeness, full order-41, UNSAT, publication, priority, or Erdos problem 151 claim."
+}
