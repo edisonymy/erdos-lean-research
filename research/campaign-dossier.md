@@ -517,8 +517,23 @@ Brooks' theorem, and Gallai's low-vertex theorem.  The order-24 proof uses a
 triangle-edge-coloring lemma after forcing a putative candidate to be
 6-regular.  Strong induction gives `beta(G)>=7` at every order at least 23;
 with `R(3,8)=28`, the conjectured #151 inequality therefore holds through
-order 27.  The next possible first-counterexample interval is 28--30, so the
-universal problem remains open.
+order 27.
+
+A subsequent three-way audit proved that `beta` is monotone from induced
+subgraphs, so a least counterexample can occur only at an exact Ramsey jump.
+Two further analytic arguments then exclude the jumps at orders 28 and 36.
+At order 28, a `K5`-free minimal `(3,3)`-Ramsey core is forced to contain a
+`K4`; Ramsey boundary counts make its outside-neighborhood intersections a
+matching, after which cone colorings extend to a good edge-coloring of the
+core.  At order 36, regularity and a two-sided neighborhood swap force every
+minimal-core degree to be at most six; the resulting `K4` has pairwise
+disjoint ambient boundaries and the same coloring finish applies.  Three
+independent adversarial proof passes found no defect.  Two standard-library
+exhaustive checks covered 555 small colored links, 25 internal-`K4`
+prescriptions, and 1,348,032 signed maximal triangle-free seven-vertex links
+with no obstruction.  Induced monotonicity propagates the exclusions through
+order 39.  Since `40<=R(3,10)<=41`, the next possible least-counterexample
+order is 40 or 41; the universal problem remains open.
 
 The order-14 SAT portfolio was stopped after 1,024.859 seconds because the
 structural proof makes a counterexample there impossible.  It produced no
@@ -538,6 +553,8 @@ theorems.
 A dedicated priority sweep found prior art for the complementary parameter
 and identity `tau+beta=n` (Bhat--Bhat--Bhat 2023, with the equivalent
 maximal-clique-free parameter in McDiarmid--Mitsche--Prałat 2019), but no
-public occurrence of the recurrence, Ramsey interval, or through-27 result.
-Novelty confidence is about 90%, not a substitute for expert literature
-review.
+public occurrence of the recurrence, Ramsey interval, Folkman-core method, or
+through-order-39 result.  A fresh announcement-level repeat immediately
+before publication found no matching preprint or announcement.  The bounded
+theorem is published as independently derived work offered for review, not a
+claim that the literature search proves priority.
