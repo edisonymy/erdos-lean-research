@@ -5,6 +5,9 @@
 This is not a solution of Erdős #719. It is a new bounded negative result and
 a deliberately terminated diversification attack.
 
+Public record: [immutable release](https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos719-n9-packing1-2026-08-02) and
+[external-review issue](https://github.com/edisonymy/erdos-lean-research/issues/5).
+
 ## Exact statement proved in this package
 
 Let `G` be a 3-uniform hypergraph on nine vertices, and let `nu(G)` be the

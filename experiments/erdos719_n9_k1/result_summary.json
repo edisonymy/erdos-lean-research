@@ -47,7 +47,9 @@
   "priority_gate": {
     "search_cutoff": "2026-08-02T19:10:00Z",
     "verdict": "no prior public proof or counterexample located",
-    "public_claim_made": false
+    "public_claim_made": true,
+    "public_release": "https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos719-n9-packing1-2026-08-02",
+    "external_review_issue": "https://github.com/edisonymy/erdos-lean-research/issues/5"
   },
   "kill_decision": "STOP_NO_LARGER_SLICE_WITHOUT_NEW_SIGNAL"
 }

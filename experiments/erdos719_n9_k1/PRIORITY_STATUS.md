@@ -81,6 +81,9 @@ geometry, cheap verification, and low collision risk after removing #151.
 ## Publication posture
 
 The finite theorem is reproducible and useful campaign evidence, but it is not
-a full-result announcement. No git commit, push, issue update, database
-comment, or external outreach was made. Any future full witness must trigger a
-fresh recency gate before publication.
+a full-result announcement.  During this priority audit no git operation or
+external outreach was made.  After the mathematical and checker audits passed,
+the bounded theorem was published in an
+[immutable release](https://github.com/edisonymy/erdos-lean-research/releases/tag/erdos719-n9-packing1-2026-08-02)
+and [external-review issue](https://github.com/edisonymy/erdos-lean-research/issues/5).
+Any future full witness must trigger a fresh recency gate before publication.
