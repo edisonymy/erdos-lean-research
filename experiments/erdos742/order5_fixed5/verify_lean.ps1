@@ -63,6 +63,20 @@ $LakeExecutable = (Resolve-Path -LiteralPath $LakeExecutable).Path
 
 New-Item -ItemType Directory -Force -Path $outputDirectory | Out-Null
 
+$expectedCases = @(
+    "t2_path",
+    "t2_matching",
+    "t7_comp_triangle",
+    "t7_comp_star",
+    "t7_comp_path4",
+    "t7_comp_path3_edge"
+)
+$manifestCaseNames = @($leanManifest.cases | ForEach-Object { $_.name })
+$caseSetDifference = @(Compare-Object $expectedCases $manifestCaseNames)
+if ($manifestCaseNames.Count -ne $expectedCases.Count -or $caseSetDifference.Count -ne 0) {
+    throw "Lean manifest must contain each of the six Main.lean cases exactly once"
+}
+
 $baseCases = @{}
 foreach ($case in $baseManifest.cases) { $baseCases[$case.name] = $case }
 
@@ -110,6 +124,17 @@ Push-Location $leanProject
 try {
     & $LakeExecutable build LRATCatcher
     if ($LASTEXITCODE -ne 0) { throw "building pinned LRAT-Catcher failed" }
+
+    $dependencyDirectory = Join-Path $leanProject ".lake/packages/LRATCatcher"
+    $dependencyHead = (& git -C $dependencyDirectory rev-parse HEAD).Trim()
+    if ($LASTEXITCODE -ne 0 -or $dependencyHead -ne $leanManifest.lean.lrat_catcher_commit) {
+        throw "LRAT-Catcher checkout does not match the manifest pin"
+    }
+    $dependencyDirty = @(& git -C $dependencyDirectory status --porcelain)
+    if ($LASTEXITCODE -ne 0 -or $dependencyDirty.Count -ne 0) {
+        throw "LRAT-Catcher checkout is dirty"
+    }
+
     & $LakeExecutable env lean Main.lean
     if ($LASTEXITCODE -ne 0) { throw "Lean LRAT replay failed" }
 } finally {
