@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "elapsed_seconds": 4.11,
+  "expectations": {
+    "input": 17036,
+    "output": 1
+  },
+  "input": "C:\\tmp\\crit_12_6.g6",
+  "input_bytes": 221468,
+  "input_decompressed_sha256": "c2f81aa14e4353167ca9b1becea7abfc426c28ddc5ed38f141f9dd04e02de710",
+  "input_sha256": "c2f81aa14e4353167ca9b1becea7abfc426c28ddc5ed38f141f9dd04e02de710",
+  "mode": "critical6",
+  "mode_soundness": "Every retained graph arrows (3,3). The input graphs are edge-6-critical, so deleting any edge produces a 5-colorable graph; pulling back a good two-edge-coloring of K5 proves every edge deletion is non-Ramsey.",
+  "order": 12,
+  "output": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\derived\\edge_6_critical_ramsey_q12.g6",
+  "output_bytes": 13,
+  "output_sha256": "454af64be005660a2d3bcac947a5cf7f23a1983c337dc0d735faea1566d07c08",
+  "records_retained": 1,
+  "records_seen": 17036,
+  "source_url": "https://users.cecs.anu.edu.au/~bdm/data/crit/crit_12_6.g6"
+}

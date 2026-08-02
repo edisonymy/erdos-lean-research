@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "cases": {
+    "F5_N40": {
+      "n": 40,
+      "fixed_clique_size": 5,
+      "forbidden_clique_size": 6,
+      "degree_min": 4,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "scope": "labelled graphs containing the fixed K5 on vertices 0..4 and containing no K6"
+    },
+    "F5_N41": {
+      "n": 41,
+      "fixed_clique_size": 5,
+      "forbidden_clique_size": 6,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "scope": "labelled graphs containing the fixed K5 on vertices 0..4 and containing no K6"
+    },
+    "F4_N40": {
+      "n": 40,
+      "fixed_clique_size": 4,
+      "forbidden_clique_size": 5,
+      "degree_min": 4,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "scope": "labelled graphs containing the fixed K4 on vertices 0..3 and containing no K5"
+    },
+    "F4_N41": {
+      "n": 41,
+      "fixed_clique_size": 4,
+      "forbidden_clique_size": 5,
+      "degree_min": 5,
+      "degree_max": 9,
+      "target_set_size": 10,
+      "scope": "labelled graphs containing the fixed K4 on vertices 0..3 and containing no K5"
+    }
+  }
+}

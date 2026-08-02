@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "elapsed_seconds": 285.672,
+  "expectations": {
+    "input": 116792,
+    "output": 124
+  },
+  "input": "C:\\tmp\\r36_12.g6.gz",
+  "input_bytes": 633408,
+  "input_decompressed_sha256": "0c9d8264d2e423ed16cb2ddbe8c8c846637d7e7aba277aacbb9af134d4738297",
+  "input_sha256": "17e176a0f7e7397dbca7c9cb6295034dd74cf529ca62e7e717226dc1b0b7b96d",
+  "mode": "complement-minimal",
+  "mode_soundness": "Each input graph is complemented, then independently tested both for (3,3)-Ramseyness and for failure after every single-edge deletion.",
+  "order": 12,
+  "output": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\derived\\minimal_ramsey_q12_alpha2.g6",
+  "output_bytes": 1612,
+  "output_sha256": "1b1d055477f8d4ea488f6aa4aca405f81d33ed57619453c6b652ebec2022170b",
+  "records_retained": 124,
+  "records_seen": 116792,
+  "source_url": "https://users.cecs.anu.edu.au/~bdm/data/ramsey/r36_12.g6.gz"
+}

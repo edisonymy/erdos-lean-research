@@ -87,6 +87,10 @@ independent structural result.
 - [`order28_36.md`](order28_36.md) gives the independently reconstructed
   analytic exclusions of the Ramsey jumps at 28 and 36 and the resulting
   theorem through order 39.
+- [`order40_41_frontier.md`](order40_41_frontier.md) records the current
+  audited saturation, Ramsey-core, fixed-clique CEGAR, and fractional
+  aggregation attacks at the next jump, with their exact negative-result
+  and computation boundaries.  It does not claim an order-40/41 theorem.
 - [`audit_order28_36.md`](audit_order28_36.md) records three adversarial proof
   passes, the exact dependency boundary, and two exhaustive finite checks.
 - [`general/TOP_WINDOW_RAMSEY_CORE.md`](general/TOP_WINDOW_RAMSEY_CORE.md)

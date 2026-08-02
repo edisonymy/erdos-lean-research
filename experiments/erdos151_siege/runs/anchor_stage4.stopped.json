@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "experiment": "all-removal-set anchor-shadow probe at h=8",
+  "status": "STOPPED_NO_CONCLUSION",
+  "started_local": "2026-08-02T16:47:05.4854693+01:00",
+  "last_observed_local": "2026-08-02T17:46:52.7747134+01:00",
+  "observed_runtime_seconds": 3587.3,
+  "observed_cpu_seconds": 3546.922,
+  "process_id": 32444,
+  "process_path": "C:\\ProgramData\\miniconda3\\python.exe",
+  "termination": "operator-stopped exact PID after approximately one hour",
+  "reason": "bounded research allocation expired without a SAT or UNSAT result",
+  "result_json_exists": false,
+  "stdout_log": {
+    "path": "anchor_stage4.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr_log": {
+    "path": "anchor_stage4.err.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "launch_source": {
+    "anchor_swap_closure_model.py_sha256": "56da3657181e5edfedeb3a4388e76b995f0f07ad8eb2cc7580ca02426a001689",
+    "anchor_model.py_sha256": "7c12f4e71c32a31881a27dc1bf664ffa2ccd86c06fdb5f293cc518d96e9a37f4",
+    "note": "Both source files received documentation-only wording corrections while the already-loaded process was active; solver semantics were unchanged."
+  },
+  "claim_boundary": "No SAT, UNSAT, certificate, model, or mathematical conclusion was produced."
+}

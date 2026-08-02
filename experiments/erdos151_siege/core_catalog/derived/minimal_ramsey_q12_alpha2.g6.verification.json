@@ -1,0 +1,27 @@
+{
+  "bytes": 1612,
+  "count": 124,
+  "decompressed_sha256": "1b1d055477f8d4ea488f6aa4aca405f81d33ed57619453c6b652ebec2022170b",
+  "duplicate_graph6_records": 0,
+  "edge_counts": {
+    "43": 2,
+    "44": 13,
+    "45": 38,
+    "46": 58,
+    "47": 13
+  },
+  "independence_numbers": {
+    "2": 124
+  },
+  "input": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\derived\\minimal_ramsey_q12_alpha2.g6",
+  "maximum_degrees": {
+    "8": 18,
+    "9": 106
+  },
+  "minimal_ramsey_verified": true,
+  "nonminimal_indices": [],
+  "orders": {
+    "12": 124
+  },
+  "sha256": "1b1d055477f8d4ea488f6aa4aca405f81d33ed57619453c6b652ebec2022170b"
+}

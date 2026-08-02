@@ -1,0 +1,113 @@
+{
+  "all_candidates_output": {
+    "bytes": 15839,
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\results\\q13_alpha2\\minimal_ramsey_q13_alpha2.all-candidates.jsonl.gz",
+    "sha256": "3ab71b7276190c3d10c475173bab804b8678cdb8236e9b26832733403e636e67"
+  },
+  "candidate_cliques": {
+    "count_by_k": {
+      "2": 676,
+      "3": 1044,
+      "4": 471,
+      "5": 0
+    },
+    "enumeration": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\results\\q13_alpha2\\minimal_ramsey_q13_alpha2.all-candidates.jsonl.gz",
+    "extender_incidence_count_by_k": {
+      "2": 3150,
+      "3": 2516,
+      "4": 575,
+      "5": 0
+    }
+  },
+  "certificates": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\results\\q13_alpha2\\minimal_ramsey_q13_alpha2.certificates.jsonl.gz",
+  "certificates_sha256": "7f8e3abe5c4221f47bb4aca7a21351de97accef2f05c82330b238b06eabfdccb",
+  "degree_cap": {
+    "cap": 9,
+    "feasible": 13,
+    "infeasible": 0,
+    "note": "This is recorded separately from the residual obstruction."
+  },
+  "expected_count": 13,
+  "graph_count": 13,
+  "input": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\derived\\minimal_ramsey_q13_alpha2.g6",
+  "input_bytes": 195,
+  "input_decompressed_sha256": "eb42247b21b234d70fec4fbd9ef0d573bf8514e9bc644dcb2a9c38eca21c1f28",
+  "input_sha256": "eb42247b21b234d70fec4fbd9ef0d573bf8514e9bc644dcb2a9c38eca21c1f28",
+  "lemma": {
+    "candidate": "proper clique P of size k=2..5 with a common neighbor in Q\\P",
+    "exclude_when": "lhs >= threshold[k]",
+    "lhs": "n-q-sum_{v in P}(9-d_Q(v))",
+    "thresholds": {
+      "2": 28,
+      "3": 23,
+      "4": 18,
+      "5": 14
+    }
+  },
+  "order": 13,
+  "outputs": {
+    "40": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "41": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "source_url": "https://users.cecs.anu.edu.au/~bdm/data/ramsey/r36_13.g6.gz",
+  "targets": {
+    "40": {
+      "degree_cap_feasible_considered": 13,
+      "exclusion_witnesses_by_k": {
+        "2": 0,
+        "3": 0,
+        "4": 13,
+        "5": 0
+      },
+      "graphs_with_a_qualifying_candidate_by_k": {
+        "2": 0,
+        "3": 13,
+        "4": 13,
+        "5": 0
+      },
+      "pipeline_excluded": 13,
+      "pipeline_survivors": 0,
+      "qualifying_candidate_count_by_k": {
+        "2": 0,
+        "3": 983,
+        "4": 471,
+        "5": 0
+      },
+      "residual_excluded_among_degree_cap_feasible": 13,
+      "residual_survivors_among_degree_cap_feasible": 0,
+      "survivor_graph6": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\results\\q13_alpha2\\minimal_ramsey_q13_alpha2.n40.survivors.g6"
+    },
+    "41": {
+      "degree_cap_feasible_considered": 13,
+      "exclusion_witnesses_by_k": {
+        "2": 0,
+        "3": 0,
+        "4": 13,
+        "5": 0
+      },
+      "graphs_with_a_qualifying_candidate_by_k": {
+        "2": 11,
+        "3": 13,
+        "4": 13,
+        "5": 0
+      },
+      "pipeline_excluded": 13,
+      "pipeline_survivors": 0,
+      "qualifying_candidate_count_by_k": {
+        "2": 24,
+        "3": 1026,
+        "4": 471,
+        "5": 0
+      },
+      "residual_excluded_among_degree_cap_feasible": 13,
+      "residual_survivors_among_degree_cap_feasible": 0,
+      "survivor_graph6": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\core_catalog\\results\\q13_alpha2\\minimal_ramsey_q13_alpha2.n41.survivors.g6"
+    }
+  }
+}
