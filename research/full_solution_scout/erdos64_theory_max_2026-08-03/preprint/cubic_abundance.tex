@@ -1,0 +1,382 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,margin=29mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{microtype}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+
+\newcommand{\EG}{Erd\H{o}s--Gy\'arf\'as}
+
+\title{An Incidence-Kernel Bound for Minimal\\
+Counterexamples to the \EG{} Conjecture}
+\author{Edison Yi\thanks{AI-assisted mathematical research campaign.  The
+proof was independently derived and adversarially checked by separate
+OpenAI Codex agents; all mathematical claims remain the author's
+responsibility.}}
+\date{3 August 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The \EG{} conjecture asserts that every finite graph of minimum degree at
+least three contains a cycle whose length is a power of two.  Carr recently
+proved that at least $4/7$ of the vertices in a minimal counterexample would
+have degree three.  Write $d$ for the number of cubic vertices and $a$ for
+the number of vertices of degree at least four.  We prove the uniform bound
+\[
+ d\ge 2a+6.
+\]
+Thus every minimal counterexample has at least
+$\lceil2|V(G)|/3\rceil+2$ cubic vertices.  The
+key object is a graph on the high-degree vertices obtained by suppressing
+the cubic vertices with two high-degree neighbours.  Four-cycle exclusion
+and minimality make this incidence kernel simple, $C_4$-free, and
+$2$-degenerate; a sharp elementary edge bound and parity then give the
+result.
+\end{abstract}
+
+\section{Introduction}
+
+The \EG{} conjecture asks whether every finite graph of minimum degree at
+least three contains a simple cycle of length $2^k$ for some $k\ge2$.
+Throughout, graphs are finite, simple, and undirected, and all cycles are
+simple.
+
+Following Carr~\cite{Carr2026}, call a counterexample \emph{minimal} if it is
+chosen with minimum possible order and, subject to that, minimum possible
+size.  Carr proved that at least $4/7$ of its vertices are cubic.  His proof
+records two useful consequences of minimality: the vertices of degree at
+least four are independent, and the cubic vertices dominate the graph.  We
+reprove those observations and retain more of the resulting incidence
+structure.
+
+\begin{theorem}\label{thm:main}
+Let $G$ be a minimal counterexample to the \EG{} conjecture.  Put
+\[
+ D=\{v\in V(G):d_G(v)=3\},\qquad
+ A=\{v\in V(G):d_G(v)\ge4\},
+\]
+and write $d=|D|$, $a=|A|$.  Then
+\[
+ d\ge 2a+6.
+\]
+Consequently, writing $n=|V(G)|$,
+\[
+ d\ge \left\lceil\frac{2n+6}{3}\right\rceil
+   =\left\lceil\frac{2n}{3}\right\rceil+2,
+ \qquad
+ a\le \left\lfloor\frac{n-6}{3}\right\rfloor.
+\]
+\end{theorem}
+
+\section{The incidence kernel}
+
+We begin with the minimality facts, included to make the argument
+self-contained.
+
+\begin{lemma}\label{lem:local}
+Every proper subgraph $H$ of $G$ has $\delta(H)\le2$.  Moreover, $A$ is
+independent and every vertex of $G$ has a neighbour in $D$.
+\end{lemma}
+
+\begin{proof}
+If a proper subgraph $H$ had minimum degree at least three, it would be a
+counterexample of smaller order, or of the same order and smaller size.  If
+an edge joined two vertices of $A$, deleting it would preserve minimum degree
+at least three.  Hence $A$ is independent.  Finally, if a vertex $v$ had no
+neighbour in $D$, deleting $v$ would lower each of its neighbours from degree
+at least four to degree at least three, again producing a smaller
+counterexample.
+\end{proof}
+
+Every vertex of $D$ therefore has at most two neighbours in $A$.  For
+$i\in\{0,1,2\}$, let
+\[
+ D_i=\{v\in D:d_A(v)=i\},\qquad d_i=|D_i|.
+\]
+Define a graph $J$ on $A$ by placing one edge between the two $A$-neighbours
+of each vertex of $D_2$.
+
+\begin{lemma}\label{lem:kernel}
+The incidence kernel $J$ is simple, $C_4$-free, and $2$-degenerate.
+\end{lemma}
+
+\begin{proof}
+The two $A$-neighbours of a vertex in $D_2$ are distinct.  Two different
+vertices of $D_2$ cannot have the same neighbour pair, because the two
+corresponding length-two paths would form a $C_4$ in $G$.  Thus $J$ is
+simple.
+
+Every simple cycle of length $\ell$ in $J$ lifts, by replacing its edges with
+their corresponding distinct two-edge paths, to a simple cycle of length
+$2\ell$ in $G$.  Hence $J$, and every subgraph of $J$, has no cycle of
+power-of-two length.  If a subgraph of $J$ had minimum degree at least three,
+it would be a counterexample on at most $a<n$ vertices.  This contradicts
+the order-minimality of $G$.  Therefore $J$ is $2$-degenerate.  In
+particular it is $C_4$-free.
+\end{proof}
+
+We need the following small extremal fact.
+
+\begin{lemma}\label{lem:edges}
+If a simple $C_4$-free, $2$-degenerate graph has $r\ge4$ vertices, then it
+has at most $2r-4$ edges.  If $r\ge6$, it has at most $2r-5$ edges.
+\end{lemma}
+
+\begin{proof}
+Every simple $2$-degenerate graph on $r\ge2$ vertices has at most $2r-3$
+edges.  Equality forces every deletion in a degeneracy ordering to remove a
+vertex of degree exactly two, eventually leaving a triangle.  Reversing the
+next deletion adds a vertex adjacent to two vertices of that triangle, which
+creates a $C_4$.  This proves the first bound.
+
+Suppose now that $r\ge6$ and equality $|E|=2r-4$ holds in the first bound.
+The same deletion argument reduces an equality example to the unique
+four-vertex, four-edge $C_4$-free graph, the paw, and then to the unique
+five-vertex, six-edge example, two triangles sharing one vertex.  Every pair
+of vertices in the latter graph has a common neighbour.  Adding the next
+degree-two vertex therefore creates a $C_4$, a contradiction.
+\end{proof}
+
+\section{Preliminary abundance bounds}
+
+\begin{lemma}\label{lem:preliminary}
+Every minimal counterexample satisfies $d\ge2a+4$.  If $a\ge6$, then
+$d\ge2a+6$.
+\end{lemma}
+
+\begin{proof}
+First assume $a\ge4$.  Since the edges of $J$ correspond bijectively to the
+vertices of $D_2$, Lemma~\ref{lem:edges} gives
+\[
+ d_2\le2a-4.
+\]
+Let $e=e_G(A,D)$ and introduce the nonnegative incidence slacks
+\[
+ x=e-4a,
+ \qquad
+ y=2d-e=d_1+2d_0.
+\]
+Since $e=d_1+2d_2$, we have $d_1\ge8+x$ and hence $y\ge8+x$.  The exact
+identity
+\[
+ 2(d-2a)=x+y
+\]
+now yields $d\ge2a+4$.
+
+If $a\ge6$, the second part of Lemma~\ref{lem:edges} instead gives
+$d_2\le2a-5$, so $d_1\ge10+x$ and $y\ge10+x$.  Thus $d\ge2a+5$.  Equality
+would force $x=0$ and $y=10$.  But the degree sum inside $G[D]$ is
+\[
+ \sum_{v\in D}d_{G[D]}(v)=3d-e=d+y,
+\]
+which would be odd when $d=2a+5$ and $y=10$.  This contradicts the
+handshake lemma, and proves $d\ge2a+6$.
+
+It remains to establish the universal bound for $a\le3$.
+If $a=0$, then $G$ is a nonempty simple cubic graph, so $d\ge4$.  If $a=1$
+and $d\le5$, the sole $A$-vertex has at least four distinct neighbours in
+$D$.  For $d=4$, the graph $G[D]$ is a four-cycle.  For $d=5$, parity forces
+all five vertices of $D$ to meet $A$, so $G[D]$ is a five-cycle; the
+$A$-vertex together with any two-edge segment of that cycle gives a
+$C_4$.  Hence $d\ge6$.
+
+If $a=2$, simplicity and $C_4$-freeness give $d_2\le1$.  Thus
+\[
+ 8\le d_1+2d_2\le d+1.
+\]
+The only value below $2a+4=8$ is $d=7$, which forces
+$(d_0,d_1,d_2)=(0,6,1)$.  The degree sum in $G[D]$ is then
+$2d_1+d_2=13$, impossible.  Similarly, if $a=3$, then $d_2\le3$ and
+\[
+ 12\le d_1+2d_2\le d+3.
+\]
+The only value below $2a+4=10$ is $d=9$, forcing
+$(d_0,d_1,d_2)=(0,6,3)$ and the odd internal degree sum
+$2d_1+d_2=15$.  This completes the proof.
+
+\end{proof}
+
+\section{Excluding the remaining equality profiles}
+
+It remains to rule out $d=2a+4$ and $d=2a+5$ when $a\le5$.  Write
+$R=G[D]$ and colour each vertex of $D_1$ by its unique neighbour in $A$.
+
+\begin{lemma}\label{lem:twostep}
+If two vertices of $D_1$ are the endpoints of a two-edge path in $R$, then
+their colours are distinct and have no common neighbour in $J$.
+\end{lemma}
+
+\begin{proof}
+If $u-z-w$ is such a path and $u,w$ have the same colour $\alpha$, then
+$\alpha,u,z,w$ form a four-cycle.  Suppose instead that their distinct
+colours $\alpha,\beta$ have a common $J$-neighbour $\gamma$.  Let
+$p,q\in D_2$ encode the kernel edges $\alpha\gamma$ and
+$\beta\gamma$.  Then
+\[
+ \alpha,u,z,w,\beta,q,\gamma,p,\alpha
+\]
+is an eight-cycle.  Its vertices are distinct; in particular $z$ cannot be
+$p$ or $q$, because vertices of $D_2$ have degree one in $R$.
+\end{proof}
+
+For $s=d-2a\in\{4,5\}$, the incidence identities take the form
+\begin{equation}\label{eq:profiles}
+ x+y=2s,\qquad
+ d_2=2a-s+d_0+x,\qquad
+ d_1=2s-x-2d_0.
+\end{equation}
+The degree sum $d+y$ in $R$ is even.  Thus $x$ is even when $s=4$ and odd
+when $s=5$.
+
+\begin{proof}[Completion of the proof of Theorem~\ref{thm:main}]
+Lemma~\ref{lem:preliminary} already excludes both values of $s$ for
+$a\ge6$.  We treat $a\le5$.
+
+If $a=0$, the case $s=4$ is the cubic graph on four vertices, namely $K_4$,
+and the case $s=5$ contradicts the handshake lemma.  Both are impossible.
+
+Let $a=1$.  Since $d_2=0$, equation~\eqref{eq:profiles} leaves, for each
+$s$, either a $2$-regular graph $R$ all of whose vertices have the same
+colour, or $d_0=2$ and respectively four or five vertices in $D_1$.  The
+first alternative contains a two-edge segment closing through the sole
+$A$-vertex to a $C_4$.  In the second, the two-element $R$-neighbourhoods of
+the $D_1$ vertices must be pairwise disjoint by
+Lemma~\ref{lem:twostep}; respectively eight elements cannot fit in six
+vertices, and ten cannot fit in seven.
+
+Let $a=2$.  Since $J$ is simple, equation~\eqref{eq:profiles} leaves two
+profiles for each $s$.  If $J$ is empty, then $R$ is $2$-regular on eight
+or nine coloured vertices.  On a cycle of length $\ell$, adjacency at
+distance two gives one odd cycle for odd $\ell$ and two cycles of length
+$\ell/2$ for even $\ell$.  It is bipartite only when $4$ divides $\ell$.
+Avoiding a same-coloured distance-two pair would therefore make every
+component length divisible by four, forcing a forbidden $C_4$ or $C_8$.
+
+In the other profile, $J$ is one edge and $R$ has one degree-three vertex
+$z$, one degree-one vertex $e\in D_2$, and all remaining vertices in $D_1$
+of degree two.  Its non-cycle component is unicyclic, consisting of a cycle
+through $z$ and a pendant path from $z$ to $e$; any other component would be
+a coloured cycle and is excluded by the preceding distance-two argument.
+Since $e$ is adjacent to both vertices of $A$, the pendant path has exactly
+one coloured internal vertex: zero or at least two would immediately give a
+$C_4$.  For $s=4$, the cycle is a six-cycle containing five coloured
+vertices; three alternating coloured vertices are pairwise at distance two,
+so two have the same colour and give a $C_4$.  For $s=5$, write the cycle as
+\[
+ z,c_1,c_2,c_3,c_4,c_5,c_6,z.
+\]
+The distance-two constraints on its coloured vertices form the path
+$c_2,c_4,c_6,c_1,c_3,c_5$.  If the two colour classes on these six vertices
+are unbalanced, this path is not properly coloured and gives a $C_4$.  If
+they are balanced, proper colouring forces alternation, so $c_2,c_3$ have
+the same colour.  Their complementary six-edge path around the seven-cycle,
+together with the two edges through their common $A$-neighbour, is a
+$C_8$.
+
+It remains to treat $a=3,4,5$.  Equations~\eqref{eq:profiles}, simplicity,
+and the kernel edge bounds leave exactly the kernels $P_3$, $K_3$, the paw,
+and the five-vertex friendship graph $F_2$.  For $s=4$ their values of
+$d_1$ are respectively $8,6,8,8$; for $s=5$ they are $9,7,9,9$.
+
+For $J=P_3$, call the colours $L,M,R$ in path order.  Let $h$ be the number
+of $D_1$ vertices with two $D_1$ neighbours in $R$.  The two degree-one
+vertices of $D_2$ give
+\[
+ h\ge6\quad(s=4),\qquad h\ge7\quad(s=5).
+\]
+Lemma~\ref{lem:twostep} forces the two neighbour colours of each such vertex
+to be $M$ and one of $L,R$.  There are at most two $M$-coloured vertices for
+$s=4$, and at most three for $s=5$, with total $R$-degree at most four and
+six respectively.  Both inequalities are impossible.
+
+For $J=K_3$, Lemma~\ref{lem:twostep} says no vertex of $R$ has two
+$D_1$ neighbours.  Each of the six or seven vertices of $D_1$ therefore
+needs a neighbour outside $D_1$.  The three degree-one vertices of $D_2$
+supply three incidences, while the sole degree-three vertex of $D_0$ can
+supply at most one without becoming the middle of a forbidden two-edge
+path.  The total capacity four is insufficient.
+
+For the paw, the four degree-one vertices of $D_2$ imply
+$h\ge4$ for $s=4$ and $h\ge5$ for $s=5$.  The only distinct colour pair
+without a common $J$-neighbour is the degree-three centre and the leaf.
+Thus every counted vertex must be incident with a centre-coloured vertex.
+There are respectively at most one and two such vertices, of total
+$R$-degree at most two and four, again a contradiction.
+
+Finally, in $F_2$ any two distinct colours occurring on $D_1$ have a common
+$J$-neighbour, including the shared centre if it receives the one extra
+colour in the $s=5$ profile.  Hence no vertex of $R$ has two $D_1$
+neighbours.  All eight or nine degree-two vertices of $D_1$ require a
+neighbour in $D_2$, but the six degree-one vertices of $D_2$ supply only six
+incidences.
+
+We have excluded $s=4,5$ in every remaining case.  Together with
+Lemma~\ref{lem:preliminary}, this proves $d\ge2a+6$.  Substituting
+$a=n-d$ gives $3d\ge2n+6$ and $3a\le n-6$, which are exactly the stated
+integer bounds.
+\end{proof}
+
+\section{A related size bound}
+
+The same minimality framework gives a useful accompanying estimate.
+
+\begin{corollary}\label{cor:edges}
+If $m=|E(G)|$, then $m\le2n-3$.
+\end{corollary}
+
+\begin{proof}
+Choose a cubic vertex $v$.  Every subgraph of $G-v$ is a proper subgraph of
+$G$, so $G-v$ is $2$-degenerate.  Hence
+\[
+ m-3=|E(G-v)|\le2(n-1)-3,
+\]
+which gives $m\le2n-2$.
+
+If equality held, $G$ would be an $n$-vertex, $(2n-2)$-edge graph with no
+proper subgraph of minimum degree three.  Narins, Pokrovskiy and
+Szab\'o~\cite[Theorem~1.4]{NPS2017} proved that every such graph is
+pancyclic.  In particular it contains a $C_4$, a contradiction.
+\end{proof}
+
+\section{Verification and priority boundary}
+
+The proof was independently derived and then checked line by line by a
+separate agent.  The kernel edge bounds were also exhaustively tested on
+every labelled graph through seven vertices; this computation is an audit
+aid, not a premise.  Searches on 3 August 2026 for the exact constants and
+the incidence-kernel construction found Carr's $4/7$ theorem but no earlier
+statement of the bounds above.  That is a search-relative novelty check, not
+a guarantee concerning unpublished or unindexed work.  The theorem is a
+necessary condition on a hypothetical counterexample and does not resolve
+the \EG{} conjecture.
+
+\paragraph{Acknowledgement.}
+We thank Avery Carr for the structural observations that motivated this
+refinement.  The result was developed in an AI-assisted research campaign;
+all statements were retained only after adversarial quantifier-level review.
+
+\begin{thebibliography}{9}
+\small
+
+\bibitem{Carr2026}
+A. Carr,
+\emph{Every Minimal Counterexample to the Erd\H{o}s--Gy\'arf\'as Conjecture
+is Predominantly Cubic},
+arXiv:2605.22844, 2026.
+\url{https://arxiv.org/abs/2605.22844}.
+
+\bibitem{NPS2017}
+L. Narins, A. Pokrovskiy and T. Szab\'o,
+\emph{Graphs without proper subgraphs of minimum degree 3 and short cycles},
+Combinatorica \textbf{37} (2017), 495--519.
+\url{https://arxiv.org/abs/1408.5289}.
+
+\end{thebibliography}
+
+\end{document}

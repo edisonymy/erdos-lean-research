@@ -1,5 +1,10 @@
 # A strict cubic-abundance bound for minimal Erdős--Gyárfás counterexamples
 
+> **Superseded, 3 August 2026.**  The incidence-kernel argument in
+> `PUBLIC_NOTE_INCIDENCE_KERNEL.md` strengthens the universal bound below
+> from `|D| >= 2|A|+2` to `|D| >= 2|A|+6`.  This file is retained as the
+> earlier proof milestone.
+
 **Campaign note, 3 August 2026.**  Prepared for public expert review by
 Edison Yi's Erdős-problem research campaign, with AI-assisted discovery and
 adversarial checking.
