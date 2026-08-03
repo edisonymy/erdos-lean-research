@@ -387,3 +387,16 @@ certificates make the point moot at those sizes.
 - certify_twodefect: h=12..18 all UNSAT in one round each,
   DRAT-verified (certtd.log): the two-defect exclusion through n_F=36
   is now certificate-backed; h=19..21 certification launched.
+
+## Entry 14 — session wrap (user-directed), handover written
+
+User directed wrap-up to conserve model usage.  Final fleet statuses at
+~21:15 UTC are recorded in HANDOVER.md, which is the continuation
+contract for the successor agent.  Highlights frozen: sigma=18 UNSAT by
+three independent kissat solves (clean DRAT written, drat-trim pending);
+sigma=19 SAT with the 38-vertex quadrilateral-free (19_3) configuration
+(walk-regular, girth 6, 38 hexagons); two-defect DRAT-certified through
+n_F=38, solver-UNSAT through 42; pure19 hunt (the sigma=19 C16/C32
+screen) at round 1 with 512 audited blocks persisted; core sigma=13..15
+undetermined (s15 blocks persisted).  Public update draft ready in
+ISSUE_UPDATE_DRAFT.md — posting delegated to successor per handover.
