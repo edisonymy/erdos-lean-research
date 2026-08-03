@@ -1,0 +1,15 @@
+# per-round scratch of the live hunt (regenerated every round; final
+# certificates are renamed pure19_final.* and committed explicitly)
+pure19_cur.cnf
+pure19_cur.drat
+# monitor bookkeeping
+*.mlast
+*.last
+*.done
+*.done2
+# proof files over ~2MB are excluded by repo policy; hashes live in
+# CERT_SHA256SUMS.txt and everything regenerates deterministically
+pure_nosym_sigma1*.drat
+pure_sigma18.drat
+pure_sigma19.drat
+__pycache__/

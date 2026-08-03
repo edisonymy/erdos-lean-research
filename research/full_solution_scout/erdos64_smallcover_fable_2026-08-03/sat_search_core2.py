@@ -228,7 +228,7 @@ def find_cycles_of_length(adj, n, L, cap=256):
     return out
 
 
-def run(sigma, time_budget=None, cap=256):
+def run(sigma, time_budget=None, cap=256, blocks_path=None):
     pool, X, U, E, M, cls = build(sigma)
     targets = [L for L in (4, 8, 16, 32) if L <= 2 * sigma]
     solver = Cadical195(bootstrap_with=cls)
@@ -236,6 +236,19 @@ def run(sigma, time_budget=None, cap=256):
     iters = 0
     blocked = {}
     hist = {}
+    nresumed = 0
+    bf = None
+    if blocks_path:
+        try:
+            with open(blocks_path) as f:
+                for line in f:
+                    lits = json.loads(line)
+                    solver.add_clause(lits)
+                    nresumed += 1
+        except FileNotFoundError:
+            pass
+        bf = open(blocks_path, "a")
+        print(f"resumed {nresumed} blocking clauses", flush=True)
     while True:
         if time_budget and time.time() - t0 > time_budget:
             print(json.dumps({"sigma": sigma, "status": "TIMEOUT", "iters": iters,
@@ -285,6 +298,10 @@ def run(sigma, time_budget=None, cap=256):
                     j = lines[lv - sigma][0]
                     lits.append(-X[(p, j)])
             solver.add_clause(lits)
+            if bf:
+                bf.write(json.dumps(lits) + "\n")
+        if bf:
+            bf.flush()
         if iters % 100 == 0:
             print(f"... iter {iters} blocked {blocked} hist {hist} t={time.time()-t0:.0f}s", flush=True)
 
@@ -292,4 +309,5 @@ def run(sigma, time_budget=None, cap=256):
 if __name__ == "__main__":
     sigma = int(sys.argv[1])
     tb = float(sys.argv[2]) if len(sys.argv) > 2 else None
-    run(sigma, time_budget=tb)
+    bp = sys.argv[3] if len(sys.argv) > 3 else None
+    run(sigma, time_budget=tb, blocks_path=bp)
