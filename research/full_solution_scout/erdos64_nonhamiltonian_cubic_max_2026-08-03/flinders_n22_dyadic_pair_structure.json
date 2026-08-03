@@ -1,0 +1,51 @@
+{
+  "schema": "erdos64-dyadic-pair-structure-v1",
+  "input": "flinders_22_NH\\22_NH.g6",
+  "sha256": "C1CB566CB76F9925A6400561F2153796DF1BA5E9A8EED370210CDB7F70949E9A",
+  "expected_order": 22,
+  "expected_count": 148790,
+  "stats": {
+    "graphs": 148790,
+    "distinct_cycle_masks_examined": 525499,
+    "two_edge_disjoint_dyadic_cycles": 148787,
+    "no_edge_disjoint_dyadic_pair": 3
+  },
+  "minimum_empty_intersection_width_histogram": {
+    "2": 148787,
+    "3": 3
+  },
+  "first_no_pair": {
+    "physical_line": 135970,
+    "graph6": "U{O_w_G@?A?H?G?G_A??`?A??C??CO?AG??h??D_",
+    "distinct_dyadic_cycle_edge_sets": 225,
+    "minimum_empty_intersection_width": 3
+  },
+  "no_pair_examples": [
+    {
+      "physical_line": 135970,
+      "graph6": "U{O_w_G@?A?H?G?G_A??`?A??C??CO?AG??h??D_",
+      "distinct_dyadic_cycle_edge_sets": 225,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 138024,
+      "graph6": "U{O_ocG@?G_G?G?G_A??O?@??CG?D??A_??h??D_",
+      "distinct_dyadic_cycle_edge_sets": 239,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 141645,
+      "graph6": "U{O__cGAGG?_?a?O?D??_?@??CG?C_?B??@H??D_",
+      "distinct_dyadic_cycle_edge_sets": 306,
+      "minimum_empty_intersection_width": 3
+    }
+  ],
+  "largest_no_pair_cycle_family": {
+    "physical_line": 141645,
+    "graph6": "U{O__cGAGG?_?a?O?D??_?@??CG?C_?B??@H??D_",
+    "distinct_dyadic_cycle_edge_sets": 306,
+    "minimum_empty_intersection_width": 3
+  },
+  "complete": true,
+  "seconds": 26.093
+}

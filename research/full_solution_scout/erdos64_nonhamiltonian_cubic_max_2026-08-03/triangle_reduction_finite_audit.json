@@ -1,0 +1,34 @@
+{
+  "schema": "erdos64-triangle-reduction-audit-v1",
+  "inputs": [
+    {
+      "path": "cubic_n04.g6",
+      "sha256": "62073900DE6D9451C02333F80B3C4DE1105EDB4559989FEE6CFA91C1365D102B",
+      "graphs": 1
+    },
+    {
+      "path": "cubic_n06.g6",
+      "sha256": "B0AEB28FE754B6AE6CE6B0E1EA4FEECEA20314CC62A9796789954B4FD09E40AB",
+      "graphs": 2
+    },
+    {
+      "path": "cubic_n08.g6",
+      "sha256": "545CFD83233B4BD966EF0C483DDC8BEC4099DCF451CF9D2E2013E46C0E641262",
+      "graphs": 5
+    },
+    {
+      "path": "cubic_n10.g6",
+      "sha256": "716D2BF7BCD625DD472992FE1F058473A69AD8BB9CCFD4036156A0A316A1FEB3",
+      "graphs": 19
+    },
+    {
+      "path": "cubic_n12.g6",
+      "sha256": "3659B3CF39481C40F8BFB2515F978EAA46B770C71F9500D31197436878155B27",
+      "graphs": 85
+    }
+  ],
+  "graphs": 112,
+  "marked_edges": 1899,
+  "expanded_cycle_instances_compared": 213329,
+  "all_cycle_length_multisets_match": true
+}

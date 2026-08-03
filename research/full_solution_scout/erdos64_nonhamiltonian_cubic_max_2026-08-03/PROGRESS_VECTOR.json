@@ -1,0 +1,73 @@
+{
+  "schema": "erdos64-nonhamiltonian-cubic-progress-v1",
+  "as_of": "2026-08-03",
+  "campaign_status": "CONTINUE_PACKET",
+  "target": {
+    "predecessor_lock": "../erdos64_long_horizon_max_2026-08-03/TARGET_LOCK.json",
+    "sha256": "1944398AE0DB9EB1FB5BCE122BB59306551330B7C3B1D915593EC8EDAF580EFB",
+    "verified": true
+  },
+  "resolution_coordinates": {
+    "universal_proof_complete": false,
+    "definition_level_counterexample_found": false,
+    "marked_edge_survivor_found": false,
+    "current_priority_claimed": false,
+    "global_problem_resolved": false
+  },
+  "canonical_full_census_through_20": {
+    "orders": [4, 6, 8, 10, 12, 14, 16, 18, 20],
+    "connected_cubic_counts": [1, 2, 5, 19, 85, 509, 4060, 41301, 510489],
+    "hamiltonian_counts": [1, 2, 5, 17, 80, 474, 3841, 39635, 495991],
+    "nonhamiltonian_counts": [0, 0, 0, 2, 5, 35, 219, 1666, 14498],
+    "connected_cubic_graphs_scanned": 556471,
+    "nonhamiltonian_graphs_scanned": 16425,
+    "graphs_with_empty_dyadic_edge_core": 556471,
+    "graphs_with_nonempty_dyadic_edge_core": 0,
+    "candidate_found": false,
+    "independent_full_replay": true,
+    "counts_match_independent_flinders_genreg_table": true
+  },
+  "published_nonhamiltonian_catalogue_extension": {
+    "order_20_records": 14498,
+    "order_20_empty_cores": 14498,
+    "order_22_records": 148790,
+    "order_22_empty_cores": 148790,
+    "unique_nonhamiltonian_graphs_covered_through_order_22": 165215,
+    "order_22_scope_warning": "Only the published non-Hamiltonian catalogue was scanned at order 22; the 7,170,657 Hamiltonian order-22 graphs are outside this result."
+  },
+  "small_core_certificates": {
+    "full_census_through_20": {
+      "two_edge_disjoint_dyadic_cycles": 555727,
+      "minimum_three_cycle_empty_intersection": 744,
+      "larger_minimum_certificate": 0
+    },
+    "nonhamiltonian_order_20": {
+      "two_cycle_certificates": 14494,
+      "three_cycle_certificates": 4
+    },
+    "nonhamiltonian_order_22": {
+      "two_cycle_certificates": 148787,
+      "three_cycle_certificates": 3
+    }
+  },
+  "adjacent_terminal_triangle_reduction": {
+    "status": "PROVED",
+    "cycle_map": "marked base cycles of length L become cycles of lengths L+2 and L+3; avoiding cycles retain length; one internal triangle is added",
+    "finite_audit_graphs": 112,
+    "finite_audit_marked_edges": 1899,
+    "finite_audit_expanded_cycles": 213329,
+    "finite_audit_passed": true
+  },
+  "closed_subfamilies": [
+    "Every connected simple cubic graph through order 20 has empty dyadic edge core.",
+    "Every non-Hamiltonian connected simple cubic graph of order 22 in the complete published GENREG catalogue has empty dyadic edge core.",
+    "No connected exact one-defect block with nonadjacent terminal neighbours exists through block order 21.",
+    "No connected exact one-defect block with adjacent terminal neighbours exists through block order 23."
+  ],
+  "remaining_obligations": [
+    "The global conjecture concerns arbitrary finite simple graphs of minimum degree at least three, not only exact one-defect bridge blocks.",
+    "Hamiltonian cubic graphs of order 22 were not scanned in this successor.",
+    "The observed two-or-three-cycle certificate bound through order 20 is computational, not a theorem for arbitrary cubic graphs.",
+    "No finite counterexample or universal proof was found."
+  ]
+}

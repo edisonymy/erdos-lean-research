@@ -1,0 +1,61 @@
+{
+  "schema": "erdos64-nonhamiltonian-cubic-continuation-v1",
+  "status": "CONTINUE_PACKET",
+  "target_lock": {
+    "path": "../erdos64_long_horizon_max_2026-08-03/TARGET_LOCK.json",
+    "sha256": "1944398AE0DB9EB1FB5BCE122BB59306551330B7C3B1D915593EC8EDAF580EFB"
+  },
+  "resolution": {
+    "verified_full_result": false,
+    "counterexample": null,
+    "candidate": null,
+    "universal_proof": null
+  },
+  "strongest_verified_progress": [
+    "Every one of the 556,471 connected simple cubic graphs through order 20 has empty dyadic edge core, with exact Hamiltonicity classification and an independent full replay.",
+    "All 148,790 graphs in the separate complete Flinders/GENREG order-22 non-Hamiltonian cubic catalogue have empty dyadic edge core.",
+    "Every connected cubic graph through order 20 has an empty-core certificate of two or three dyadic cycles; 555,727 need two and 744 need three.",
+    "The adjacent-terminal triangle reduction is proved, closing adjacent-terminal exact one-defect blocks through order 23."
+  ],
+  "closed_finite_subfamilies": {
+    "connected_simple_cubic_marked_graphs": "all orders through 20",
+    "connected_nonhamiltonian_simple_cubic_graphs": "all orders through 22, using the published complete order-22 catalogue",
+    "nonadjacent_terminal_exact_blocks": "all block orders through 21",
+    "adjacent_terminal_exact_blocks": "all block orders through 23"
+  },
+  "next_ranked_cycles": [
+    {
+      "rank": 1,
+      "mechanism": "Structural proof or refutation of a width-three dyadic-cycle empty-intersection theorem in decomposable or 2-connected cubic graphs",
+      "required_new_ingredient": "bridge/2-cut/ear-decomposition argument tested against the finite width-three exceptions",
+      "renewal_gate": "a theorem covering an infinite structural class, or an explicit cubic graph whose minimum certificate width exceeds three"
+    },
+    {
+      "rank": 2,
+      "mechanism": "Exact order-24 non-Hamiltonian cubic catalogue replay",
+      "required_new_ingredient": "complete count-validated catalogue with primary provenance and hashes",
+      "renewal_gate": "full 1,768,732-record non-Hamiltonian coverage, not sampling"
+    },
+    {
+      "rank": 3,
+      "mechanism": "Hamiltonian order-22 canonical marked-core scan",
+      "required_new_ingredient": "streamed 7,170,657-graph census with partition accounting and independent replay",
+      "renewal_gate": "complete modulo partition union with exact counts/hashes; do not return to fixed-cycle matching encodings"
+    }
+  ],
+  "hostile_review_flags": [
+    "Order 22 coverage is non-Hamiltonian only; do not claim every cubic graph through order 22.",
+    "Empty core is a finite exact result, not a universal theorem about cubic graphs.",
+    "The width-three pattern is computational and must not be promoted to a theorem.",
+    "No candidate was emitted, so dual raw-edge candidate verification was not triggered.",
+    "Flinders catalogue completeness is imported at its documented primary-computational trust boundary, with archive and payload hashes preserved."
+  ],
+  "do_not_repeat": [
+    "fixed-Hamilton-cycle perfect-matching encodings",
+    "generic SMS or two-switch annealing",
+    "cyclic or regular K4 covers",
+    "necklace local search",
+    "line-tree/apex constructions",
+    "permutation or alternating-group Cayley scans"
+  ]
+}

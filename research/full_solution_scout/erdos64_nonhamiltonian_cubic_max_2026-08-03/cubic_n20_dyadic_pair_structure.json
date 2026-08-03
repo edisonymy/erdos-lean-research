@@ -1,0 +1,1887 @@
+{
+  "schema": "erdos64-dyadic-pair-structure-v1",
+  "input": "cubic_n20.g6",
+  "sha256": "BD097E9272484E531C5F79BE118814C37277E67C74C6ABC39BB63263F4EC717B",
+  "expected_order": 20,
+  "expected_count": 510489,
+  "stats": {
+    "graphs": 510489,
+    "distinct_cycle_masks_examined": 1581685,
+    "two_edge_disjoint_dyadic_cycles": 510180,
+    "no_edge_disjoint_dyadic_pair": 309
+  },
+  "minimum_empty_intersection_width_histogram": {
+    "2": 510180,
+    "3": 309
+  },
+  "first_no_pair": {
+    "physical_line": 42892,
+    "graph6": "S??????_B?B_Cos?SA?SOHO?E_?R?A@_?",
+    "distinct_dyadic_cycle_edge_sets": 193,
+    "minimum_empty_intersection_width": 3
+  },
+  "no_pair_examples": [
+    {
+      "physical_line": 42892,
+      "graph6": "S??????_B?B_Cos?SA?SOHO?E_?R?A@_?",
+      "distinct_dyadic_cycle_edge_sets": 193,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 43332,
+      "graph6": "S??????_B?B_CoSG@S?J?H_B?G?Q_D?_?",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 43357,
+      "graph6": "S??????_B?B_CoSGOBDO?P_?I_?J?@A_?",
+      "distinct_dyadic_cycle_edge_sets": 213,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 68654,
+      "graph6": "S??????o@_@__c_WK@Aa?IO?I_?h??KG?",
+      "distinct_dyadic_cycle_edge_sets": 136,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 82740,
+      "graph6": "S????A?O@?R?w?T?EO?[?@W?HO?@o?EO?",
+      "distinct_dyadic_cycle_edge_sets": 195,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 82755,
+      "graph6": "S????A?O@?R?w?T?EO?R?B_?DO?@o?EO?",
+      "distinct_dyadic_cycle_edge_sets": 255,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 130561,
+      "graph6": "S????A?O@?R?`_DOH_?U?WC?@W@@O?d??",
+      "distinct_dyadic_cycle_edge_sets": 181,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 140180,
+      "graph6": "S????A?O@?B_c_SOKCC?oIO?IO?J??KO?",
+      "distinct_dyadic_cycle_edge_sets": 285,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 140863,
+      "graph6": "S????A?O@?B_c_CWPG?M?Q_?_o?GoB?O?",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 140864,
+      "graph6": "S????A?O@?B_c_CWPG?M?PG?gO?CoB?O?",
+      "distinct_dyadic_cycle_edge_sets": 181,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 140865,
+      "graph6": "S????A?O@?B_c_CWPG?M?QC@a??HO@?o?",
+      "distinct_dyadic_cycle_edge_sets": 180,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 140866,
+      "graph6": "S????A?O@?B_c_CWPG?M?PC@__?SO@?o?",
+      "distinct_dyadic_cycle_edge_sets": 187,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 164236,
+      "graph6": "S????A?O@?QCb?AgBGA__WO?e??KO?Ao?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 175318,
+      "graph6": "S????A?OD?E?WAe??a_S_Co?E_AB??Y??",
+      "distinct_dyadic_cycle_edge_sets": 180,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 175325,
+      "graph6": "S????A?OD?E?WAe??a_E_D_?I_AB??Y??",
+      "distinct_dyadic_cycle_edge_sets": 165,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 176393,
+      "graph6": "S????A?OD?E?cAI@I_AE?Ac?E_?Y??B_?",
+      "distinct_dyadic_cycle_edge_sets": 163,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 181529,
+      "graph6": "S????A?OD?B?p?W_C`?J?Cg?PO?S_?QG?",
+      "distinct_dyadic_cycle_edge_sets": 150,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 181530,
+      "graph6": "S????A?OD?B?p?W_C`?J?CK?R??S_?QG?",
+      "distinct_dyadic_cycle_edge_sets": 140,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 181548,
+      "graph6": "S????A?OD?B?p?W_C`?cGCW?K_?E_?Q_?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 190566,
+      "graph6": "S????A?OD?B?H_GWOgAH?SA?QO?U??Og?",
+      "distinct_dyadic_cycle_edge_sets": 164,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 191261,
+      "graph6": "S????A?OD?B?oGHGCW?KOS_?PO?Y??Og?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 196174,
+      "graph6": "S????A?OD?B?oAD_EG?@g@S?k??U?AD??",
+      "distinct_dyadic_cycle_edge_sets": 201,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 196607,
+      "graph6": "S????A?OD?B?oA@cCE@I?DG?R?AS??QG?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 211250,
+      "graph6": "S????A?OD?B?`AS@KO@__AS?K_?M??F??",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 214261,
+      "graph6": "S????A?OD?B?S@PCEA@E?a_?H_?IO?L??",
+      "distinct_dyadic_cycle_edge_sets": 187,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 214266,
+      "graph6": "S????A?OD?B?S@DCKA@E?`_?D_?QO?T??",
+      "distinct_dyadic_cycle_edge_sets": 178,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 214583,
+      "graph6": "S????A?OD?B?K@J?H@AD?_K?BO?M??i??",
+      "distinct_dyadic_cycle_edge_sets": 153,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 217820,
+      "graph6": "S????A?OD?B?H@WG?[C__Ac?U?AAO?Y??",
+      "distinct_dyadic_cycle_edge_sets": 211,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 222711,
+      "graph6": "S????A?O@_D?gAs?Ac?D_AS?M??EGAI??",
+      "distinct_dyadic_cycle_edge_sets": 178,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 225860,
+      "graph6": "S????A?O@_D?gA`_I?aI?EO?Co?T??E_?",
+      "distinct_dyadic_cycle_edge_sets": 192,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 226752,
+      "graph6": "S????A?O@_D?gAP_J??Y?_W?Co?E_?cG?",
+      "distinct_dyadic_cycle_edge_sets": 181,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 227363,
+      "graph6": "S????A?O@_D?gAoG?e?c_?p?M?AI??q??",
+      "distinct_dyadic_cycle_edge_sets": 192,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 227957,
+      "graph6": "S????A?O@_D?gA`GI?aK??w?IO?q??I_?",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 228006,
+      "graph6": "S????A?O@_D?gA`GH?aK??w?IO?a_?i??",
+      "distinct_dyadic_cycle_edge_sets": 179,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 230537,
+      "graph6": "S????A?O@_D?cAF?@SE@??p?EOAA_@I??",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 231186,
+      "graph6": "S????A?O@_D?cADGWCAC_A`?L??I_@E??",
+      "distinct_dyadic_cycle_edge_sets": 153,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 235192,
+      "graph6": "S????A?O@_D?EAh?@cCD?OP@AO?M??a_?",
+      "distinct_dyadic_cycle_edge_sets": 171,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 243791,
+      "graph6": "S????A?O@_D?`AWGOQ?P_Ao?U?Aa??IG?",
+      "distinct_dyadic_cycle_edge_sets": 218,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 255991,
+      "graph6": "S????A?O@_@_g_cOL??o_P_?Cg?F??Ag?",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 256105,
+      "graph6": "S????A?O@_@_g_cO?XAc?Y??Go?J??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 170,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 256218,
+      "graph6": "S????A?O@_@_g_WGY??e?Ag?HO?IO?Gg?",
+      "distinct_dyadic_cycle_edge_sets": 184,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 256234,
+      "graph6": "S????A?O@_@_g_WGQGA__AE?J??L??IG?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 256250,
+      "graph6": "S????A?O@_@_g_WGQC?EOQ_?HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 140,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 256767,
+      "graph6": "S????A?O@_@_g_GWWC?EOQ_?WO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 260379,
+      "graph6": "S????A?O@_@_K_gOAKE@?QO?IO?KO?Gg?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 261198,
+      "graph6": "S????A?O@_@_I_w?R??e??d@C_?I_?BO?",
+      "distinct_dyadic_cycle_edge_sets": 219,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 262333,
+      "graph6": "S????A?O@_@_I_e?S_A_O@o?AoAA_?BG?",
+      "distinct_dyadic_cycle_edge_sets": 182,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 264212,
+      "graph6": "S????A?O@_@_I_EO?X?k?`@@__?B_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 264215,
+      "graph6": "S????A?O@_@_I_EO?XD@?oO?U??GgA@_?",
+      "distinct_dyadic_cycle_edge_sets": 178,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 265335,
+      "graph6": "S????A?O@_@_Goi?BO?DO@W@@CC__AG_?",
+      "distinct_dyadic_cycle_edge_sets": 208,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 266779,
+      "graph6": "S????A?O@_@_GoI_?g_q?cA@C_?D_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 266783,
+      "graph6": "S????A?O@_@_GoI_?gcD?p??X??_oA@_?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 267259,
+      "graph6": "S????A?O@_@_GogGWO?D_QA?SC?I_?q??",
+      "distinct_dyadic_cycle_edge_sets": 150,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 267270,
+      "graph6": "S????A?O@_@_GogGQOAD?QA?HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 268910,
+      "graph6": "S????A?O@_@_gGc_?XBC?U??HO?J??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 181,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 268912,
+      "graph6": "S????A?O@_@_gGc_?XBC?QG?HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 150,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 270635,
+      "graph6": "S????A?O@_@__ggOKC?EOQ_?WO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 270636,
+      "graph6": "S????A?O@_@__ggOKC?EOQO?WO?k??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 270692,
+      "graph6": "S????A?O@_@__ggOAKB_?QA?IO?M??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 278730,
+      "graph6": "S????A?O@_@_gAo_GI@D?AK?X??M??gG?",
+      "distinct_dyadic_cycle_edge_sets": 152,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 279226,
+      "graph6": "S????A?O@_@_gAW_GICE?Ac?W_?J??gG?",
+      "distinct_dyadic_cycle_edge_sets": 132,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 279252,
+      "graph6": "S????A?O@_@_gAW_GI?c_e??H_?M??HG?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 280492,
+      "graph6": "S????A?O@_@_gAa_L?Ag?@o?Ao?b??Ag?",
+      "distinct_dyadic_cycle_edge_sets": 168,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 280636,
+      "graph6": "S????A?O@_@_gAa_L??gGCW?AoAA_?M??",
+      "distinct_dyadic_cycle_edge_sets": 164,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 281222,
+      "graph6": "S????A?O@_@_gAa_HGAH?DO?Oo?Cg@E??",
+      "distinct_dyadic_cycle_edge_sets": 198,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 281245,
+      "graph6": "S????A?O@_@_gAa_HGA__CW?DO?KG@D??",
+      "distinct_dyadic_cycle_edge_sets": 141,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 281600,
+      "graph6": "S????A?O@_@_gAI_X?AI?@g?P_?c_?Ag?",
+      "distinct_dyadic_cycle_edge_sets": 192,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 281701,
+      "graph6": "S????A?O@_@_gAI_J?AB?`G?EO?e??Ag?",
+      "distinct_dyadic_cycle_edge_sets": 209,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 281720,
+      "graph6": "S????A?O@_@_gAI_J?AA_CKAB??J??KG?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 282039,
+      "graph6": "S????A?O@_@_gAI_BG?HGSG?F?CC_AA_?",
+      "distinct_dyadic_cycle_edge_sets": 168,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 282577,
+      "graph6": "S????A?O@_@_gAI_GOaB?CK?X?CK??I_?",
+      "distinct_dyadic_cycle_edge_sets": 185,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 282843,
+      "graph6": "S????A?O@_@_gAI_?c_b?U??F?CC_AA_?",
+      "distinct_dyadic_cycle_edge_sets": 170,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 282970,
+      "graph6": "S????A?O@_@_gAGoWO?d?QG?HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 283030,
+      "graph6": "S????A?O@_@_gAGoBOAQ?DO?CcC@_AC_?",
+      "distinct_dyadic_cycle_edge_sets": 156,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 283301,
+      "graph6": "S????A?O@_@_gAWGX??GgD_?P_?U??E_?",
+      "distinct_dyadic_cycle_edge_sets": 163,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 284388,
+      "graph6": "S????A?O@_@_gAaGKCAC_CP?U??I_?U??",
+      "distinct_dyadic_cycle_edge_sets": 153,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 284666,
+      "graph6": "S????A?O@_@_gAIGWCAC_@P?J??a_?k??",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 285024,
+      "graph6": "S????A?O@_@_gA_gKCAA_E@?J??K_?i??",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 285102,
+      "graph6": "S????A?O@_@_gAGgWO?e?U??CS?J??Q_?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 285244,
+      "graph6": "S????A?O@_@_gAGgICAA_aC?J??i??KG?",
+      "distinct_dyadic_cycle_edge_sets": 152,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 295687,
+      "graph6": "S????A?O@_@_aAI_Cg?k?OgA?oAA_?aG?",
+      "distinct_dyadic_cycle_edge_sets": 177,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 302399,
+      "graph6": "S????A?O@_@_IAa_OK@E?PO?CSA__?d??",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 302442,
+      "graph6": "S????A?O@_@_IAa_OK?d?P@?SOAA_@E??",
+      "distinct_dyadic_cycle_edge_sets": 146,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 303022,
+      "graph6": "S????A?O@_@_IAE_Q?`E?oO?D_?K_A@_?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 304180,
+      "graph6": "S????A?O@_@_IAGoQ?eC?Ac@D??b??H_?",
+      "distinct_dyadic_cycle_edge_sets": 187,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 304185,
+      "graph6": "S????A?O@_@_IAGoQ?_T?o_@D??a_?H_?",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 305015,
+      "graph6": "S????A?O@_@_IAaGOW@E?S_?POAG_?HG?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 306167,
+      "graph6": "S????A?O@_@_IAC`BGDA?@o@C_?D_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 141,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 306169,
+      "graph6": "S????A?O@_@_IAC`BG?M?`GBA?@A_A@_?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 308426,
+      "graph6": "S????A?O@_@__aw?CW?d?QG?HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 171,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 312163,
+      "graph6": "S????A?O@_@__agOKO?d?U??HO?J??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 172,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 312164,
+      "graph6": "S????A?O@_@__agOKO?d?QG?HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 167,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 312361,
+      "graph6": "S????A?O@_@__agOKAAE?AS?W_?L??gG?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 313686,
+      "graph6": "S????A?O@_@__aGoASB@?q??HO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 178,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 313825,
+      "graph6": "S????A?O@_@__aoGCS@a?U??HO?M??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 314003,
+      "graph6": "S????A?O@_@__agGKO?e?U??HO?J??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 314192,
+      "graph6": "S????A?O@_@__agGCWAE?QO?WO?h??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 314242,
+      "graph6": "S????A?O@_@__agGIC?e?Q_?HO@I??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 152,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 315297,
+      "graph6": "S????A?O@_@__a_WKC@E?Q_?WO?i??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 178,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 315298,
+      "graph6": "S????A?O@_@__a_WKC@E?QO?WO?k??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 315365,
+      "graph6": "S????A?O@_@__a_WCSB_?U??HO?M??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 316113,
+      "graph6": "S????A?O@_@_Gaw?QO?a_Ac?H_AH??IG?",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 320285,
+      "graph6": "S????A?O@_@_GagOY??`_QC?J??J??KG?",
+      "distinct_dyadic_cycle_edge_sets": 138,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 320576,
+      "graph6": "S????A?O@_@_GagOWC?b?U??IO?M??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 320577,
+      "graph6": "S????A?O@_@_GagOWC?b?QO?IO?k??Gg?",
+      "distinct_dyadic_cycle_edge_sets": 140,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 320666,
+      "graph6": "S????A?O@_@_GagOPCAo?Co?@o?K_AGG?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 320674,
+      "graph6": "S????A?O@_@_GagOPC?s?SO?BOAG_?HG?",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 322037,
+      "graph6": "S????A?O@_@_GaIOR?E?GOc?P_?M??H_?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 322176,
+      "graph6": "S????A?O@_@_GaIOBO?i?`@@@_?D_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 152,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 322187,
+      "graph6": "S????A?O@_@_GaIOQG?F?`G@GC?c_AG_?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 322330,
+      "graph6": "S????A?O@_@_GaIOPCCc?SO?BOAG_?HG?",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 322999,
+      "graph6": "S????A?O@_@_GaIO?g_s?d?@@_?D_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 323000,
+      "graph6": "S????A?O@_@_GaIO?g_s?cGB@??K_A@_?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 323001,
+      "graph6": "S????A?O@_@_GaIO?g_s?`GBO??E_A@_?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 323002,
+      "graph6": "S????A?O@_@_GaIO?g_k?e?@A_?B_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 323003,
+      "graph6": "S????A?O@_@_GaIO?g_k?cGBG??E_A@_?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 323110,
+      "graph6": "S????A?O@_@_GaCoR?AQ?GS@?o?L?CGG?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 323113,
+      "graph6": "S????A?O@_@_GaCoR??T?oG?@SAG_@I??",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 324922,
+      "graph6": "S????A?O@_@_GaAPR??k?oG?AoAA_@I??",
+      "distinct_dyadic_cycle_edge_sets": 137,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 332474,
+      "graph6": "S????A?O@_@_AaIOCo?i?c@@@_?D_E?_?",
+      "distinct_dyadic_cycle_edge_sets": 187,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 335334,
+      "graph6": "S????A?O@_@_Aag@QCAa?AS@AO?M?@H??",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 337149,
+      "graph6": "S????A?O@_@_?qI_QO@B?`G@GC?a_AG_?",
+      "distinct_dyadic_cycle_edge_sets": 175,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 338247,
+      "graph6": "S????A?O@_@__Io_GI@C_IG?X??M??gG?",
+      "distinct_dyadic_cycle_edge_sets": 179,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 338465,
+      "graph6": "S????A?O@_@__Ig_DGAO_PG?U??e??Ag?",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 343485,
+      "graph6": "S????A?oB?B?@_gCI@?b?@H?L?@E??SC?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 343631,
+      "graph6": "S????A?oB?B?@_cCG`?cGI?_`_?J??U??",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 344115,
+      "graph6": "S????A?WA_P?@_g@EAAGOBO?P_?T??EC?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 344784,
+      "graph6": "S????A?WA_@_?oq?QA?cO@__@c@I?@P??",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 345541,
+      "graph6": "S????A?WA_@_?oaCHCCH?@a?q?@AG?aC?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 349137,
+      "graph6": "S???C@?G?_P?w??LIC@W?D_?IG?E_?IO?",
+      "distinct_dyadic_cycle_edge_sets": 185,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 349138,
+      "graph6": "S???C@?G?_P?w??LIC@W?Ca?J??K_?IO?",
+      "distinct_dyadic_cycle_edge_sets": 196,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 357009,
+      "graph6": "S???C@?G?_P?p?Y?BC?cO?F?EO?F?@I??",
+      "distinct_dyadic_cycle_edge_sets": 186,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 360828,
+      "graph6": "S???C@?G?_P?p?W_EA?oOB@?F??BO?D_?",
+      "distinct_dyadic_cycle_edge_sets": 156,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 362179,
+      "graph6": "S???C@?G?_P?p?Q_@g?L?Gc?p??@W?_o?",
+      "distinct_dyadic_cycle_edge_sets": 174,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 362181,
+      "graph6": "S???C@?G?_P?p?Q_@g?L?GS?o_?CW?_o?",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 362182,
+      "graph6": "S???C@?G?_P?p?Q_@g?L?G`?PO?@o@_O?",
+      "distinct_dyadic_cycle_edge_sets": 173,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 362365,
+      "graph6": "S???C@?G?_P?p?Q_@c?M?GS?o_?CW?_o?",
+      "distinct_dyadic_cycle_edge_sets": 179,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 362366,
+      "graph6": "S???C@?G?_P?p?Q_@c?M?GK?p??CW?_o?",
+      "distinct_dyadic_cycle_edge_sets": 181,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 362367,
+      "graph6": "S???C@?G?_P?p?Q_@c?M?G`?Oo?Ao@_O?",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 364498,
+      "graph6": "S???C@?G?_P?p?WGD_?s??b?OW?E_?J??",
+      "distinct_dyadic_cycle_edge_sets": 150,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 366809,
+      "graph6": "S???C@?G?_P?p?WCEO?_W@K?B_?[??QO?",
+      "distinct_dyadic_cycle_edge_sets": 179,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 367025,
+      "graph6": "S???C@?G?_P?p?WCEG?F?EG?M??CW?Go?",
+      "distinct_dyadic_cycle_edge_sets": 218,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 370748,
+      "graph6": "S???C@?G?_P?p?W@E@?c_AK?M??F??IO?",
+      "distinct_dyadic_cycle_edge_sets": 183,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 379958,
+      "graph6": "S???C@?G?_P?R?IGKGCc??q?SG?K_?@g?",
+      "distinct_dyadic_cycle_edge_sets": 163,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 380131,
+      "graph6": "S???C@?G?_P?R?AgKCCI?KC?@W?cO?KG?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 380346,
+      "graph6": "S???C@?G?_P?R?ICKGCc??q?SG?L??@g?",
+      "distinct_dyadic_cycle_edge_sets": 160,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 380959,
+      "graph6": "S???C@?G?_P?B_Y?GgCc??q?OW@@_?HG?",
+      "distinct_dyadic_cycle_edge_sets": 187,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 381382,
+      "graph6": "S???C@?G?_P?B_QOCgCC_DC?aG?`OA@G?",
+      "distinct_dyadic_cycle_edge_sets": 195,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 382249,
+      "graph6": "S???C@?G?_P?oOKOCaAS?@H?KG?cO?D_?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 382771,
+      "graph6": "S???C@?G?_P?oOHOCQAK?E@?IG?`O?H_?",
+      "distinct_dyadic_cycle_edge_sets": 158,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 382907,
+      "graph6": "S???C@?G?_P?oOBOF?@D?OI?EG?Gg?c_?",
+      "distinct_dyadic_cycle_edge_sets": 194,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 382972,
+      "graph6": "S???C@?G?_P?oOBODO@g?Cg@?g?Co?Gg?",
+      "distinct_dyadic_cycle_edge_sets": 178,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 382980,
+      "graph6": "S???C@?G?_P?oOBODO@`?OI?EG?Gg?c_?",
+      "distinct_dyadic_cycle_edge_sets": 177,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 394209,
+      "graph6": "S???C@?G?_P?oGQ@?w?M?IC?s??DO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 129,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 397346,
+      "graph6": "S???C@?G?_P?PGQ_DCCI?CS?_W?cO?KG?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 400376,
+      "graph6": "S???C@?G?_P?o@Y?E_?aO@E?F??D_?T??",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 406041,
+      "graph6": "S???C@?G?_P?o@QOD_@C_@K?U??DO?aO?",
+      "distinct_dyadic_cycle_edge_sets": 142,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 407457,
+      "graph6": "S???C@?G?_P?o@QGCc@C_@S?U??EO?oO?",
+      "distinct_dyadic_cycle_edge_sets": 134,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 408080,
+      "graph6": "S???C@?G?_P?o@PGCE@c?EA?EG?I_?U??",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 410090,
+      "graph6": "S???C@?G?_P?o@HCDO?E_@g@S??QO?`O?",
+      "distinct_dyadic_cycle_edge_sets": 165,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 419343,
+      "graph6": "S???C@?G?_P?`@B_HCBC??k?p??Ao?gO?",
+      "distinct_dyadic_cycle_edge_sets": 131,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 419428,
+      "graph6": "S???C@?G?_P?`@BOHOB@?@K?QO@CO?aO?",
+      "distinct_dyadic_cycle_edge_sets": 146,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 419432,
+      "graph6": "S???C@?G?_P?`@BOHO?L?WG?QO@?o?aO?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 419776,
+      "graph6": "S???C@?G?_P?`@QGKO@G_DG?PG?Co?U??",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 419797,
+      "graph6": "S???C@?G?_P?`@QGKO?oOCc?cO?M??BO?",
+      "distinct_dyadic_cycle_edge_sets": 133,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 420056,
+      "graph6": "S???C@?G?_P?`@OgL??Y?@K?q??Co?aO?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 421087,
+      "graph6": "S???C@?G?_@_w?GWQGAC_EC?IG?L??GW?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 428423,
+      "graph6": "S???C@?G?_@_o_gOCSA`?EO?GW?K_?GW?",
+      "distinct_dyadic_cycle_edge_sets": 153,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 429445,
+      "graph6": "S???C@?G?_@_o_QOSG?KGKC?CW?`O?T??",
+      "distinct_dyadic_cycle_edge_sets": 165,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430180,
+      "graph6": "S???C@?G?_@_o__WHG@OGCI?U??Co@G_?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430193,
+      "graph6": "S???C@?G?_@_o__WHG?KGI_?Oo?Go@_O?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430195,
+      "graph6": "S???C@?G?_@_o__WHG?KGHG?WO?Co@_O?",
+      "distinct_dyadic_cycle_edge_sets": 129,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430197,
+      "graph6": "S???C@?G?_@_o__WHG?KGIC?q??HO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 121,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430198,
+      "graph6": "S???C@?G?_@_o__WHG?KGHC?o_?SO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 139,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430199,
+      "graph6": "S???C@?G?_@_o__WHG?KGGK?s??SO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 139,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430218,
+      "graph6": "S???C@?G?_@_o__WKC@c?EO?GW?K_?GW?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430337,
+      "graph6": "S???C@?G?_@_o__WHC@OGCQ?U??Co@G_?",
+      "distinct_dyadic_cycle_edge_sets": 160,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 430602,
+      "graph6": "S???C@?G?_@_o_gCM??E_EO?CK?L??PO?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 435080,
+      "graph6": "S???C@?G?_@_a_QO?[AK?H@AOO?@o@_O?",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 435105,
+      "graph6": "S???C@?G?_@_a_QO?[@@_k?@E??GW?_o?",
+      "distinct_dyadic_cycle_edge_sets": 175,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 435238,
+      "graph6": "S???C@?G?_@_a_`OGO_L?WG?WO?Ao@_O?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 436203,
+      "graph6": "S???C@?G?_@_a_QGKGCI?C`?EG?_o@@_?",
+      "distinct_dyadic_cycle_edge_sets": 152,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 436215,
+      "graph6": "S???C@?G?_@_a_QGKGCA_K_?AW?gO?HG?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 440734,
+      "graph6": "S???C@?G?_@_oOi?J?@G_@g?@g?cO?Cg?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 440957,
+      "graph6": "S???C@?G?_@_oOi?@SAH?C`?EG?_o@A_?",
+      "distinct_dyadic_cycle_edge_sets": 166,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 443401,
+      "graph6": "S???C@?G?_@_oOgGIC@C_EC?IG?M??GW?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 443448,
+      "graph6": "S???C@?G?_@_oOgGAK@C_EC?IGAK??GW?",
+      "distinct_dyadic_cycle_edge_sets": 138,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 444526,
+      "graph6": "S???C@?G?_@_oOgCCSA`?EO?IG?K_?GW?",
+      "distinct_dyadic_cycle_edge_sets": 125,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 444530,
+      "graph6": "S???C@?G?_@_oOgCCSA`?EC?IG?M??GW?",
+      "distinct_dyadic_cycle_edge_sets": 167,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 444551,
+      "graph6": "S???C@?G?_@_oOgCCS?b?U??IG?K_?GW?",
+      "distinct_dyadic_cycle_edge_sets": 143,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 444616,
+      "graph6": "S???C@?G?_@_oOWCT??HGAg?U??EO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 445799,
+      "graph6": "S???C@?G?_@_aOo_DCA@_K_?AW?gO?IG?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 445854,
+      "graph6": "S???C@?G?_@_aOo_DA@D?SG?BG?gO?Gg?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 447862,
+      "graph6": "S???C@?G?_@__oq?@SAK?H@?PO?@o@_O?",
+      "distinct_dyadic_cycle_edge_sets": 161,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 447899,
+      "graph6": "S???C@?G?_@__oq?@S@A_KG@E??GW?_o?",
+      "distinct_dyadic_cycle_edge_sets": 189,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 447903,
+      "graph6": "S???C@?G?_@__oq?@S@@_KO@E??GW?_o?",
+      "distinct_dyadic_cycle_edge_sets": 171,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 449402,
+      "graph6": "S???C@?G?_@__oa_HCBA?KC?AW?gO?HG?",
+      "distinct_dyadic_cycle_edge_sets": 120,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 451864,
+      "graph6": "S???C@?G?_@__ooGHG@OGCI?U??Co@G_?",
+      "distinct_dyadic_cycle_edge_sets": 139,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 451873,
+      "graph6": "S???C@?G?_@__ooGHG?KGHG?oO?Oo?cO?",
+      "distinct_dyadic_cycle_edge_sets": 121,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 451876,
+      "graph6": "S???C@?G?_@__ooGHG?KGGK?s??SO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 454087,
+      "graph6": "S???C@?G?_@_o@i?CQ?B_@g?Y?AAO?gO?",
+      "distinct_dyadic_cycle_edge_sets": 171,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 455938,
+      "graph6": "S???C@?G?_@_o@g_E@?q?AI?CoAC_?M??",
+      "distinct_dyadic_cycle_edge_sets": 195,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 456559,
+      "graph6": "S???C@?G?_@_o@gOCQ?W_E_?EG?`OAB??",
+      "distinct_dyadic_cycle_edge_sets": 177,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 461834,
+      "graph6": "S???C@?G?_@_a@Y?GSCI??[?q??Co?gO?",
+      "distinct_dyadic_cycle_edge_sets": 131,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 461870,
+      "graph6": "S???C@?G?_@_a@Y?GS@__CW?F??CoCGO?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 461925,
+      "graph6": "S???C@?G?_@_a@Y?GS?B_@o?s?C?o?cO?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 462787,
+      "graph6": "S???C@?G?_@_a@p?KO@@_EC?QG?F??IO?",
+      "distinct_dyadic_cycle_edge_sets": 134,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 463204,
+      "graph6": "S???C@?G?_@_a@p?KC?o_GE?QG?F??M??",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 465406,
+      "graph6": "S???C@?G?_@_a@o_KG@D?Ac?T??Go?`O?",
+      "distinct_dyadic_cycle_edge_sets": 191,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 465744,
+      "graph6": "S???C@?G?_@_a@o_KC?L?KC?CW?aO?U??",
+      "distinct_dyadic_cycle_edge_sets": 156,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 465751,
+      "graph6": "S???C@?G?_@_a@o_KC?J?KC?CW?cO?U??",
+      "distinct_dyadic_cycle_edge_sets": 141,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466151,
+      "graph6": "S???C@?G?_@_a@o_GK@E?Ac?s??Go?`O?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466153,
+      "graph6": "S???C@?G?_@_a@o_GK?M?H_?Oo?Oo@_O?",
+      "distinct_dyadic_cycle_edge_sets": 146,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466154,
+      "graph6": "S???C@?G?_@_a@o_GK?M?HG?QO?Oo@_O?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466155,
+      "graph6": "S???C@?G?_@_a@o_GK?M?IC?q??HO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466156,
+      "graph6": "S???C@?G?_@_a@o_GK?M?Gc?w??HO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466158,
+      "graph6": "S???C@?G?_@_a@o_GK?M?GK?s??SO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466184,
+      "graph6": "S???C@?G?_@_a@o_GK@@_M??F??KO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 142,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466309,
+      "graph6": "S???C@?G?_@_a@o_KA@D?Ao?T??Go?`O?",
+      "distinct_dyadic_cycle_edge_sets": 139,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466559,
+      "graph6": "S???C@?G?_@_a@Q_[?@A_@W?U??DO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 188,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466715,
+      "graph6": "S???C@?G?_@_a@Q_K_@C_CoA@G?`O?H_?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466735,
+      "graph6": "S???C@?G?_@_a@Q_K_@@_@W?R?CCO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 162,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 466736,
+      "graph6": "S???C@?G?_@_a@Q_K_@@_CSA@G?cO?L??",
+      "distinct_dyadic_cycle_edge_sets": 143,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 468731,
+      "graph6": "S???C@?G?_@_a@oOKO?S_@g?SO@AO?`O?",
+      "distinct_dyadic_cycle_edge_sets": 176,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 468855,
+      "graph6": "S???C@?G?_@_a@oOKC?L?KC?CW?cO?U??",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 469790,
+      "graph6": "S???C@?G?_@_a@QOGS?M?g_?SO?@o@_O?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 469797,
+      "graph6": "S???C@?G?_@_a@QOGS?M?HC?o_CCO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 141,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 470161,
+      "graph6": "S???C@?G?_@_a@`OHOB@??[?QO@CO?gO?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 470164,
+      "graph6": "S???C@?G?_@_a@`OHO?F?WG?QO@?o?gO?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 471387,
+      "graph6": "S???C@?G?_@_a@AoKGAH?D_AAG?_o@@_?",
+      "distinct_dyadic_cycle_edge_sets": 154,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 471468,
+      "graph6": "S???C@?G?_@_a@AoGgAD?gG?QO?Go@_O?",
+      "distinct_dyadic_cycle_edge_sets": 145,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 471598,
+      "graph6": "S???C@?G?_@_a@AoGKAK?gC?s??DO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 471599,
+      "graph6": "S???C@?G?_@_a@AoGKAK?gC?q??HO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 146,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 478131,
+      "graph6": "S???C@?G?_@__`q?DG@K?Cg@?g?_o?I_?",
+      "distinct_dyadic_cycle_edge_sets": 180,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 478152,
+      "graph6": "S???C@?G?_@__`q?DG@G_CK@?g?cO?M??",
+      "distinct_dyadic_cycle_edge_sets": 158,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 480012,
+      "graph6": "S???C@?G?_@__`Q_CS?J?T?A@O@?o?oO?",
+      "distinct_dyadic_cycle_edge_sets": 181,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 480454,
+      "graph6": "S???C@?G?_@__`oO@W@W?DG@?g?_o@C_?",
+      "distinct_dyadic_cycle_edge_sets": 158,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 480457,
+      "graph6": "S???C@?G?_@__`oO@WB@?@K?WO@GO?cO?",
+      "distinct_dyadic_cycle_edge_sets": 170,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 480480,
+      "graph6": "S???C@?G?_@__`oOKC@o?DA?F??D_?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 150,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 480981,
+      "graph6": "S???C@?G?_@__`aOGg@K?Cg@?g?_o@O_?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 480989,
+      "graph6": "S???C@?G?_@__`aOGg?L?WG?oO?Co?oO?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 481153,
+      "graph6": "S???C@?G?_@__`aOGKBG?@K?q??Co?oO?",
+      "distinct_dyadic_cycle_edge_sets": 163,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 481155,
+      "graph6": "S???C@?G?_@__`aOGKBC?Ac?s??Go?`O?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482232,
+      "graph6": "S???C@?G?_@_A`q?S_@_OCg@@_?E_?Go?",
+      "distinct_dyadic_cycle_edge_sets": 161,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482312,
+      "graph6": "S???C@?G?_@_A`q?SG@g?Cg@?g?Co?I_?",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482654,
+      "graph6": "S???C@?G?_@_A`q?OKAK?HG?PO?Co@_O?",
+      "distinct_dyadic_cycle_edge_sets": 142,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482655,
+      "graph6": "S???C@?G?_@_A`q?OKAK?HC?p??DO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 131,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482656,
+      "graph6": "S???C@?G?_@_A`q?OKAK?GS?s??DO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482684,
+      "graph6": "S???C@?G?_@_A`q?OKB@?L??EO?EO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 134,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 482740,
+      "graph6": "S???C@?G?_@_A`q?OK@A_H_?SOA@O?cO?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 483541,
+      "graph6": "S???C@?G?_@_A``_Gg?F?WG?WOC?o@_O?",
+      "distinct_dyadic_cycle_edge_sets": 169,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 483703,
+      "graph6": "S???C@?G?_@_A`aO[?AK?DG?Ag?_o@A_?",
+      "distinct_dyadic_cycle_edge_sets": 177,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 483718,
+      "graph6": "S???C@?G?_@_A`aO[?Aa?DC?aG?L??@o?",
+      "distinct_dyadic_cycle_edge_sets": 179,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 483725,
+      "graph6": "S???C@?G?_@_A`aO[?AH?D_?Ag?_o@A_?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 483945,
+      "graph6": "S???C@?G?_@_A`aOWCAK?HC?p??DO?_o?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 483985,
+      "graph6": "S???C@?G?_@_A``OWO?L?WG?WO?Ao@_O?",
+      "distinct_dyadic_cycle_edge_sets": 135,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 484300,
+      "graph6": "S???C@?G?_@__Pw?GE?T?M??F??Co?gO?",
+      "distinct_dyadic_cycle_edge_sets": 170,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 484741,
+      "graph6": "S???C@?G?_@__Pq?KC?L?KC?CW?cO?U??",
+      "distinct_dyadic_cycle_edge_sets": 148,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 486012,
+      "graph6": "S???C@?G?_@__PoGL??P_@o?q??Co?gO?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 494931,
+      "graph6": "S???C@?GC_H?@_aAK?``?F??DO?D_?EC?",
+      "distinct_dyadic_cycle_edge_sets": 166,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 495538,
+      "graph6": "S???C@?GC_B?B?SA?o_ICgO@AO@@_?T??",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 496462,
+      "graph6": "S???C@?GC_B?@_oAHG@o?H@?Co?F??Cc?",
+      "distinct_dyadic_cycle_edge_sets": 155,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 496467,
+      "graph6": "S???C@?GC_B?@_oAHG@OGL??Co?F??Cc?",
+      "distinct_dyadic_cycle_edge_sets": 139,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 497008,
+      "graph6": "S???C@?GC_B?@_SA@_OIG_g@a??Q_@@_?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 497457,
+      "graph6": "S???C@?GC_B?@_aAA__ECPO?g_?D_B?_?",
+      "distinct_dyadic_cycle_edge_sets": 142,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 497458,
+      "graph6": "S???C@?GC_B?@_aAA__ECQG@a??I_@@_?",
+      "distinct_dyadic_cycle_edge_sets": 136,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 497459,
+      "graph6": "S???C@?GC_B?@_aAA__ECPG@`??S_@@_?",
+      "distinct_dyadic_cycle_edge_sets": 128,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 497460,
+      "graph6": "S???C@?GC_B?@_aAA__ECOg@g??I_@@_?",
+      "distinct_dyadic_cycle_edge_sets": 152,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 499143,
+      "graph6": "S???C@?G?oA___SAOg?BGGG_M?AO_@C_?",
+      "distinct_dyadic_cycle_edge_sets": 129,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500193,
+      "graph6": "S???C@?G?oA_A_cAL?AH?@`?BACA_@@_?",
+      "distinct_dyadic_cycle_edge_sets": 163,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500229,
+      "graph6": "S???C@?G?oA_A_cAWGB?GAC_e??J??D_?",
+      "distinct_dyadic_cycle_edge_sets": 171,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500261,
+      "graph6": "S???C@?G?oA_A_cAOW?KCP@?`_?P_B?_?",
+      "distinct_dyadic_cycle_edge_sets": 141,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500276,
+      "graph6": "S???C@?G?oA_A_cAHCBG?@`?BACA_@@_?",
+      "distinct_dyadic_cycle_edge_sets": 161,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500277,
+      "graph6": "S???C@?G?oA_A_cAHCBG?@D?`OCE??DC?",
+      "distinct_dyadic_cycle_edge_sets": 123,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500320,
+      "graph6": "S???C@?G?oA_A_cAW?`OCPC?BO?J?@D??",
+      "distinct_dyadic_cycle_edge_sets": 176,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500628,
+      "graph6": "S???C@?G?oA_A_@aQGEC?I?_CS@@_AB??",
+      "distinct_dyadic_cycle_edge_sets": 146,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500939,
+      "graph6": "S???C@?G?oA_A_c@?p?ECoO?g_?H_B?_?",
+      "distinct_dyadic_cycle_edge_sets": 137,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 500991,
+      "graph6": "S???C@?G?oA_A_c@H?SK?@W@`??Co@@_?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 501201,
+      "graph6": "S???C@?G?oA_A_`@?wEC?IA?P_A@_@?c?",
+      "distinct_dyadic_cycle_edge_sets": 138,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 503691,
+      "graph6": "S???C@?GCAB?@_s?KG?_gHC?IA?X??DO?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 503707,
+      "graph6": "S???C@?GCAB?@_s?HG?gGJ??a_?Cc?@o?",
+      "distinct_dyadic_cycle_edge_sets": 133,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 506782,
+      "graph6": "S??CA?_C?O?_w?cCBGAB?@g?aC?GW?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 139,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 507822,
+      "graph6": "S??CA?_C?O?_o_k?DGAAO@I?Gc?Gg?c_?",
+      "distinct_dyadic_cycle_edge_sets": 157,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 507885,
+      "graph6": "S??CA?_C?O?_o_k?CKAQ?BA?AK?Gg?`_?",
+      "distinct_dyadic_cycle_edge_sets": 126,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 507893,
+      "graph6": "S??CA?_C?O?_o_k?CKAA_EC?EG?@W?WG?",
+      "distinct_dyadic_cycle_edge_sets": 144,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508545,
+      "graph6": "S??CA?_C?O?_o_gOIG@@_EA?K_?Cg?GW?",
+      "distinct_dyadic_cycle_edge_sets": 141,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508547,
+      "graph6": "S??CA?_C?O?_o_gOIG?`_AE?k??DG?GW?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508599,
+      "graph6": "S??CA?_C?O?_o_gOAW@P??M?SGAOG?Gg?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508606,
+      "graph6": "S??CA?_C?O?_o_gOAW@@_QC?SG?@W?WG?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508607,
+      "graph6": "S??CA?_C?O?_o_gOAW@@_EC?KGA?W?HG?",
+      "distinct_dyadic_cycle_edge_sets": 126,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508608,
+      "graph6": "S??CA?_C?O?_o_gOAW@@_EC?CgA?W?WG?",
+      "distinct_dyadic_cycle_edge_sets": 131,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508610,
+      "graph6": "S??CA?_C?O?_o_gOAW@@_EA?K_A?g?GW?",
+      "distinct_dyadic_cycle_edge_sets": 142,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508706,
+      "graph6": "S??CA?_C?O?_o_gOAKA@_EC?cG?CW?WG?",
+      "distinct_dyadic_cycle_edge_sets": 149,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508719,
+      "graph6": "S??CA?_C?O?_o_gOAK?D_EC?cGA?W?WG?",
+      "distinct_dyadic_cycle_edge_sets": 159,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508754,
+      "graph6": "S??CA?_C?O?_o_gOIA@o?@g?@c?GW?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 160,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508768,
+      "graph6": "S??CA?_C?O?_o_gOIA?b?IG?EG??w?WG?",
+      "distinct_dyadic_cycle_edge_sets": 117,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 508778,
+      "graph6": "S??CA?_C?O?_o_gOEAAo?@g?@c?GW?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 170,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509024,
+      "graph6": "S??CA?_C?O?_o_gGF??K_CS@@C?GW?PO?",
+      "distinct_dyadic_cycle_edge_sets": 164,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509050,
+      "graph6": "S??CA?_C?O?_o_gGEGAQ?BA?AK?Gg?`_?",
+      "distinct_dyadic_cycle_edge_sets": 138,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509062,
+      "graph6": "S??CA?_C?O?_o_gGEGAA_EC?Cg?CW?WG?",
+      "distinct_dyadic_cycle_edge_sets": 129,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509072,
+      "graph6": "S??CA?_C?O?_o_gGEG?E_EC?CgA?W?WG?",
+      "distinct_dyadic_cycle_edge_sets": 147,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509087,
+      "graph6": "S??CA?_C?O?_o_gGEAAo?@o?@c?GW?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 162,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509162,
+      "graph6": "S??CA?_C?O?_o_WGQA@o?@o?@c?GW?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 115,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509163,
+      "graph6": "S??CA?_C?O?_o_WGQA@o?@o?@S?GW?PO?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509213,
+      "graph6": "S??CA?_C?OO_@_o_C_aB?KG?WO??s?QO?",
+      "distinct_dyadic_cycle_edge_sets": 134,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509215,
+      "graph6": "S??CA?_C?OO_@_o_C_aB?CG_WO?Ao@OO?",
+      "distinct_dyadic_cycle_edge_sets": 151,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509223,
+      "graph6": "S??CA?_C?OO_@_o_CG_BCKG?KOA?o?oO?",
+      "distinct_dyadic_cycle_edge_sets": 163,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 509225,
+      "graph6": "S??CA?_C?OO_@_o_CG__cEO@C_@@O?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 160,
+      "minimum_empty_intersection_width": 3
+    },
+    {
+      "physical_line": 510336,
+      "graph6": "S??CA?_C?OOOP?gGCo?ICCK@W??AW?Oo?",
+      "distinct_dyadic_cycle_edge_sets": 119,
+      "minimum_empty_intersection_width": 3
+    }
+  ],
+  "largest_no_pair_cycle_family": {
+    "physical_line": 140180,
+    "graph6": "S????A?O@?B_c_SOKCC?oIO?IO?J??KO?",
+    "distinct_dyadic_cycle_edge_sets": 285,
+    "minimum_empty_intersection_width": 3
+  },
+  "complete": true,
+  "seconds": 82.235
+}
