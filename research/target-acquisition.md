@@ -170,7 +170,11 @@ is dead.
    reasoning cycles remain.  Allocation decisions use observed novelty,
    verified gap reduction, repeated failure modes, and measured compute
    scaling.  The campaign records completed cycles so persistence is
-   distinguishable from blind repetition.
+   distinguishable from blind repetition.  Difficult subagents use the
+   two-layer, multi-cycle protocol in
+   [`long-horizon-agent-template.md`](long-horizon-agent-template.md): a short
+   mathematical core prompt plus a durable research contract and fresh hostile
+   review.
 
 ## Active siege checkpoint: Erdős #151
 
