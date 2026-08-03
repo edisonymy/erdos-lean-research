@@ -4,13 +4,15 @@ This directory contains the deterministic pool builder and schema-checked
 triage pipeline used by the one-week full-resolution campaign.  Generated
 rankings are decision records, not evidence that a problem is open or solved.
 
-## Reconstruct the 2 August pool
+## Reconstruct the pool
 
-The committed pool records source URLs, exact Git commits, modification times,
+The committed pools record source URLs, exact Git commits, modification times,
 SHA-256 digests, and the complete set of Erdős numbers excluded by the
-VibeMathed snapshot.  To reconstruct it, clone the three repositories into the
+VibeMathed snapshot.  To reconstruct one, clone the three repositories into the
 ignored sibling directories named below and check out the commits recorded in
-`pool-2026-08-02.json`:
+the selected pool artifact. `pool-2026-08-03.json` corrects an acquisition
+bug in the 2 August run: database statuses `falsifiable`, `decidable`, and
+`verifiable` are open-state refinements and must not be filtered out.
 
 ```text
 erdosproblems-live     https://github.com/teorth/erdosproblems.git
@@ -29,6 +31,7 @@ Run from the repository root:
 
 ```powershell
 python -B research/full_solution_scout/build_pool.py
+python -m unittest research.full_solution_scout.test_build_pool -v
 python -m unittest research.full_solution_scout.test_triage_pipeline -v
 ```
 

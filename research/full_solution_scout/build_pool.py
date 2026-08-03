@@ -3,7 +3,8 @@
 Builds the unclaimed-open candidate pool deterministically from the local
 database snapshots, per research/target-acquisition.md:
 
-- erdosproblems-live/data/problems.yaml   -> status must be "open"
+- erdosproblems-live/data/problems.yaml   -> status must be an open-state
+  category ("open", "falsifiable", "decidable", or "verifiable")
 - .tmp/vibemathed-live-*.json (newest)    -> any AI claim excludes
 - llm-hunter-live/attacks/erdos/          -> flag only (collision risk)
 - CAMPAIGN_TOUCHED                        -> problems already worked here
@@ -35,12 +36,18 @@ FORMAL_URL = "https://github.com/google-deepmind/formal-conjectures.git"
 HUNTER_URL = "https://github.com/mehmetmars7/Erdosproblems-llm-hunter.git"
 VIBEMATHED_URL = "https://vibemathed.com/api/dataset"
 
+# The database uses these three labels as refinements of an open problem, not
+# as solved states.  In particular, they are the finite/mechanically checkable
+# targets that this campaign most wants to retain.
+OPEN_STATES = frozenset({"open", "falsifiable", "decidable", "verifiable"})
+
 # Problems already active, paused, audited, scouted, or scratched in this
 # campaign (dossier sections 5-7 plus untracked scratch directories).
 CAMPAIGN_TOUCHED = {
-    7, 23, 36, 64, 97, 106, 128, 137, 167, 196, 203, 273, 274, 276, 287,
-    307, 319, 366, 375, 409, 421, 458, 488, 548, 617, 647, 672, 677, 699,
-    742, 835, 850, 982, 993, 1041, 1082,
+    7, 23, 36, 64, 97, 106, 128, 137, 151, 167, 196, 203, 273, 274, 276, 287,
+    307, 319, 366, 375, 409, 421, 458, 488, 548, 583, 617, 647, 672, 677,
+    699,
+    719, 742, 835, 850, 982, 993, 1041, 1082,
 }
 
 
@@ -178,6 +185,11 @@ def formal_flags(number: int) -> dict:
     }
 
 
+def eligible_status(status: str | None) -> bool:
+    """Return whether a database research status belongs in the open pool."""
+    return status in OPEN_STATES
+
+
 def main() -> None:
     problems = parse_problems_yaml(PROBLEMS_YAML)
     vibe_path, claimed = newest_vibemathed()
@@ -186,11 +198,12 @@ def main() -> None:
     pool = []
     for number in sorted(problems):
         info = problems[number]
-        if info["status"] != "open":
+        if not eligible_status(info["status"]):
             continue
         if number in claimed or number in CAMPAIGN_TOUCHED:
             continue
-        row = {"number": number, "prize": info["prize"],
+        row = {"number": number, "status": info["status"],
+               "prize": info["prize"],
                "tags": info["tags"], "status_updated": info["status_updated"],
                "llm_hunter_attacked": number in attacked}
         row.update(formal_flags(number))
@@ -215,6 +228,14 @@ def main() -> None:
             "database_problems": len(problems),
             "database_open": sum(1 for p in problems.values()
                                  if p["status"] == "open"),
+            "database_open_state_candidates":
+                sum(1 for p in problems.values()
+                    if eligible_status(p["status"])),
+            "database_open_state_breakdown": {
+                state: sum(1 for p in problems.values()
+                           if p["status"] == state)
+                for state in sorted(OPEN_STATES)
+            },
             "vibemathed_claimed": len(claimed),
             "llm_hunter_attacked": len(attacked),
             "campaign_touched": len(CAMPAIGN_TOUCHED),

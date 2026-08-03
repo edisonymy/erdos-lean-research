@@ -41,7 +41,8 @@ Effort is structured as a funnel with explicit promotion gates.  Depth is
 deterministically from the three local database snapshots:
 
 - `full_solution_scout/erdosproblems-live/data/problems.yaml` — problem
-  statuses (`open` required);
+  statuses (retain `open` and the open-state refinements `falsifiable`,
+  `decidable`, and `verifiable`; these refinements are not solved states);
 - `.tmp/vibemathed-live-*.json` — AI-claim index (any claim excludes,
   matching the survey's 116-problem wholesale exclusion; refresh before
   each sweep — the file is a snapshot, not a feed);
