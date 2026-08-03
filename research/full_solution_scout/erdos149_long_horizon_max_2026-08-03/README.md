@@ -1,9 +1,9 @@
 # Erdos #149 long-horizon lane
 
 This directory contains the independently audited completion of the
-maximum-degree-four, order-at-most-15 case of the strong edge-colouring
+maximum-degree-four, order-at-most-16 case of the strong edge-colouring
 conjecture. The strongest exact statement and reduction are in
-`ORDER15_THEOREM.md`; the earlier dependency steps are retained separately.
+`ORDER16_THEOREM.md`; the earlier dependency steps are retained separately.
 
 This is a bounded theorem, not a complete resolution of Erdos problem #149
 and not a novelty claim.
@@ -62,3 +62,20 @@ the paths hashed in `CERTIFICATION_ORDER13.json` and
 The root replays regenerate the complete catalogues and use third matching
 algorithms. `RELEASE_ASSETS_ORDER15.json` records the current archive hash
 and size.
+
+## Order 16 streaming certificate
+
+The order-16 regular catalogue is intentionally not stored. Official nauty
+`geng` streams its 16 canonical residue classes directly into two full
+implementations. The primary and replay manifests record identical stream
+hashes and sum to exactly 8,037,418 connected 4-regular graphs. The two
+nonregular profiles have separate exact core searches and a fresh audit.
+
+Run the compact certificate audit from the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe research/full_solution_scout/erdos149_long_horizon_max_2026-08-03/audit_order16_certification.py
+```
+
+The complete regeneration commands, pinned generator information, and
+order-17 handoff are in `CONTINUE_PACKET.md`.

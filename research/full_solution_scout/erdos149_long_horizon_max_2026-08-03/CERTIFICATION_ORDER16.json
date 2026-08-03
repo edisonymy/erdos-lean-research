@@ -1,0 +1,183 @@
+{
+  "schema": "erdos149-order16-combined-certification-v1",
+  "date": "2026-08-03",
+  "claim": "Every finite simple graph G with |V(G)| <= 16 and Delta(G) <= 4 has chi(L(G)^2) <= 20.",
+  "claim_boundary": "Bounded theorem only. This does not resolve Erdos problem 149 and is not a public novelty claim.",
+  "target_lock": {
+    "path": "TARGET_LOCK.md",
+    "bytes": 1111,
+    "sha256": "f623f41a1257bc07e9865c0cca68f80173e2bc6230f0009c0babc947dd82fad8"
+  },
+  "theorem_document": {
+    "path": "ORDER16_THEOREM.md",
+    "bytes": 3421,
+    "sha256": "a4afede980532856009418412076e6cede2a6697412a44000e147bab89e1fecc"
+  },
+  "order15_dependency": {
+    "theorem": {
+      "path": "ORDER15_THEOREM.md",
+      "bytes": 3262,
+      "sha256": "6b4f869a0d4945fbf46653052ee6efbb81fdcd3571ef962716fdf5385a69dde3"
+    },
+    "certification": {
+      "path": "CERTIFICATION_ORDER15.json",
+      "bytes": 4711,
+      "sha256": "6a10ad3478b04e2811680582eb377f1c5761817f1ad2268722dbe3607a2c358c"
+    },
+    "meta_audit": {
+      "path": "order15_certification_audit.json",
+      "bytes": 4278,
+      "sha256": "51bf915df037eb5b22ff0cb92fe988f2ac314c74097376486dc14c5c0eee1b1b",
+      "status": "VERIFIED"
+    }
+  },
+  "structural_reduction": {
+    "general_degree_three_lemma": {
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "bytes": 4037,
+      "sha256": "95023312e6ff9fdc5670d63353b0708ef4835a44ed819c390d623e06cffabbda"
+    },
+    "order16_core_proof": {
+      "path": "N16_CORE_REDUCTION.md",
+      "bytes": 3536,
+      "sha256": "4b875805256a9f2b6aca9fa595a9e596eed852b73d4b38cac89fb5b7caf3087e"
+    },
+    "profiles": [
+      {"degree_three_vertices": 4, "edges": 30},
+      {"degree_three_vertices": 2, "edges": 31},
+      {"degree_three_vertices": 0, "edges": 32}
+    ]
+  },
+  "catalogue_generator": {
+    "name": "nauty geng",
+    "package_version": "2.6.11",
+    "package_build": "h2fa13f4_1",
+    "binary_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "package_archive_sha256": "48155aab7b379a3fe4e765592dfe39b91cf7f20134d19dc1172258fbc633b504"
+  },
+  "m30_four_degree_three": {
+    "core_catalogue": {
+      "path": "n16_t4_cubic_cores.g6",
+      "records": 94,
+      "bytes": 1316,
+      "sha256": "99c8fae5373a980b7664dd065f41911e1a608775d8cecb1e3ed7a81094dee72a"
+    },
+    "primary_checker": {
+      "path": "n16_t4_core_search.py",
+      "bytes": 6963,
+      "sha256": "848cfcef7e957d13def39d2fb60a303192408f4c5e9e8cc618b947622907b1aa"
+    },
+    "primary_result": {
+      "path": "n16_t4_core_result.json",
+      "bytes": 3031,
+      "sha256": "25e62223068049c8227718971d6352930c18564fa1b35ddbb734245525e223e0",
+      "status": "VERIFIED",
+      "cubic_cores": 94,
+      "triangle_free_cores": 23,
+      "admissible_partitions": 1,
+      "completions_with_ten_pairs": 1,
+      "failures": 0
+    }
+  },
+  "m31_two_degree_three": {
+    "primary_checker": {
+      "path": "n16_t2_core_search.py",
+      "bytes": 8225,
+      "sha256": "34065c236b0be31b25fd6af83e5b8b304e1ed6f1db8b4528ae2409b6de55b7f8"
+    },
+    "primary_result": {
+      "path": "n16_t2_core_result.json",
+      "bytes": 3440,
+      "sha256": "1e9753794191b1a4e170c113f61c2afc33a1d53340948d48582364c0f0d3928f",
+      "status": "VERIFIED",
+      "r1_patterns": 300,
+      "r1_completions": 10872,
+      "r2_patterns": 524,
+      "r2_completions": 75552,
+      "r3_patterns": 475,
+      "r3_completions": 362348,
+      "completions_with_eleven_pairs": 448772,
+      "failures": 0
+    }
+  },
+  "nonregular_fresh_audit": {
+    "checker": {
+      "path": "audit_n16_cores.py",
+      "bytes": 9571,
+      "sha256": "7cb6f2466c79f64da32abb6f3bf50aa7c2befd72cb10f17e7099b3bd9ecb3909"
+    },
+    "result": {
+      "path": "n16_cores_fresh_audit.json",
+      "bytes": 3108,
+      "sha256": "663228dc60609a523a379f7a9ba249402c9bb9e87d0c541a45bd8f6a6c4c241e",
+      "status": "VERIFIED",
+      "t2_completions_replayed": 448772,
+      "t4_completions_replayed": 1,
+      "failures": 0
+    }
+  },
+  "m32_4regular": {
+    "count_only_measurement": {
+      "command": "geng -c -d4 -D4 -u 16 32",
+      "records": 8037418,
+      "elapsed_seconds": 1089.8
+    },
+    "primary_implementation": {
+      "shared_decoder_and_matching": {
+        "path": "n16_regular_stream_primary.py",
+        "bytes": 9910,
+        "sha256": "9aaaa15440fe5ff957fca9c77d0b2ce196ac606f0cd34e47952ed7166a5a2e4d"
+      },
+      "shard_driver": {
+        "path": "n16_regular_stream_shard.py",
+        "bytes": 5289,
+        "sha256": "7068d091ffffff5da36a4fe5bc7f21700322fd6b81b1e8b9b1c5d97795626438"
+      },
+      "aggregator": {
+        "path": "aggregate_n16_regular_stream_primary.py",
+        "bytes": 3770,
+        "sha256": "9541e68500adfb4934314d39141084baf4eab398e0b1ba3ef55dee42ed115cfe"
+      },
+      "aggregate_result": {
+        "path": "n16_regular_stream_primary_aggregate.json",
+        "bytes": 9190,
+        "sha256": "59b4802056e0d1fa06facd0b7815351868ba6ad1d504bc8a853c8ce2555edd8a",
+        "status": "VERIFIED",
+        "records": 8037418,
+        "stream_bytes": 184860614,
+        "low_first": 8030289,
+        "high_first": 7129,
+        "exact_fallbacks": 0,
+        "failures": 0
+      }
+    },
+    "independent_replay": {
+      "shard_driver": {
+        "path": "n16_regular_stream_replay_shard.py",
+        "bytes": 9009,
+        "sha256": "c51e031332e8fc52e1e88e2e80e11037ba966ac88ee93b1c47b4c20dc8ebfff3"
+      },
+      "aggregator": {
+        "path": "aggregate_n16_regular_stream_replay.py",
+        "bytes": 4763,
+        "sha256": "9bd7d7d510c84c6b109f5c13d3b4510402db44529d041944bf538d60102d776e"
+      },
+      "aggregate_result": {
+        "path": "n16_regular_stream_replay_aggregate.json",
+        "bytes": 11777,
+        "sha256": "84cd3c130a2b39561585aa23570162dbc82d8c54628de704351377e5b78f39bb",
+        "status": "VERIFIED",
+        "records": 8037418,
+        "stream_bytes": 184860614,
+        "reverse_on_demand": 8036737,
+        "networkx_blossom": 681,
+        "blossom_matching_size": 16,
+        "networkx_parser_samples": 144,
+        "parser_mismatches": 0,
+        "stream_hash_mismatches": 0,
+        "failures": 0
+      }
+    },
+    "storage": "No regular catalogue was materialized; 16 primary and 16 replay shard result JSON files carry exact stream and result hashes."
+  }
+}

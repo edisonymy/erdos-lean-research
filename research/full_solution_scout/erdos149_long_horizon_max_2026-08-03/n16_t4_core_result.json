@@ -1,0 +1,216 @@
+{
+  "catalogue": {
+    "bytes": 1316,
+    "records": 94,
+    "sha256": "99c8fae5373a980b7664dd065f41911e1a608775d8cecb1e3ed7a81094dee72a"
+  },
+  "claim_boundary": "This checks the forced t=4 core family only; ten compatibility pairs save ten colours from 30.",
+  "counts": {
+    "cores_rejected_with_triangle": 71,
+    "cores_with_partition": 1,
+    "low_matching_success": 1,
+    "separated_partitions": 1,
+    "triangle_free_cubic_cores": 23
+  },
+  "elapsed_seconds": 0.003470499999821186,
+  "failures": [],
+  "first_witness": {
+    "core_index": 6,
+    "edges": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        2,
+        14
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        13
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        14
+      ],
+      [
+        8,
+        15
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        9,
+        15
+      ],
+      [
+        10,
+        15
+      ]
+    ],
+    "graph6": "K?AEF@oM?w@o",
+    "matching": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        12,
+        17
+      ],
+      [
+        13,
+        19
+      ],
+      [
+        14,
+        21
+      ],
+      [
+        15,
+        20
+      ]
+    ],
+    "method": "low",
+    "partition": [
+      [
+        0,
+        4,
+        8
+      ],
+      [
+        1,
+        5,
+        9
+      ],
+      [
+        2,
+        6,
+        10
+      ],
+      [
+        3,
+        7,
+        11
+      ]
+    ]
+  },
+  "required_compatibility_matching": 10,
+  "schema": "erdos149-n16-t4-cubic-core-v1",
+  "scope": "All cubic 12-vertex cores and separated four-triple partitions forced by an order-16 smallest counterexample with four degree-three vertices.",
+  "script": {
+    "bytes": 6963,
+    "sha256": "848cfcef7e957d13def39d2fb60a303192408f4c5e9e8cc618b947622907b1aa"
+  },
+  "status": "VERIFIED"
+}

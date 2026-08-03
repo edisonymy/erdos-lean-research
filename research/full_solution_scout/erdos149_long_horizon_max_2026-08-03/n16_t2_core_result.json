@@ -1,0 +1,264 @@
+{
+  "claim_boundary": "This checks the forced t=2 core family only; eleven compatibility pairs save eleven colours from 31.",
+  "counts": {
+    "low_matching_success": 448772,
+    "r1_internal_completions": 10872,
+    "r1_w_partitions": 300,
+    "r2_internal_completions": 75552,
+    "r2_w_partitions": 524,
+    "r3_internal_completions": 362348,
+    "r3_w_partitions": 475
+  },
+  "elapsed_seconds": 30.828852400009055,
+  "failures": [],
+  "first_witness": {
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        4,
+        15
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        15
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        9,
+        14
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        11,
+        15
+      ],
+      [
+        12,
+        14
+      ],
+      [
+        12,
+        15
+      ]
+    ],
+    "internal": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ]
+    ],
+    "matching": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        13
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        16,
+        18
+      ],
+      [
+        17,
+        20
+      ],
+      [
+        19,
+        27
+      ]
+    ],
+    "method": "low",
+    "r": 1,
+    "u_blocks": [
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12
+      ],
+      [
+        13,
+        14,
+        15
+      ]
+    ],
+    "w_blocks": [
+      [
+        10,
+        11
+      ],
+      [
+        8,
+        9,
+        12
+      ],
+      [
+        13,
+        14,
+        15
+      ]
+    ]
+  },
+  "required_compatibility_matching": 11,
+  "schema": "erdos149-n16-t2-theta-core-v1",
+  "scope": "All r=1,2,3 generalized theta-core completions forced by an order-16 m=31 smallest counterexample.",
+  "script": {
+    "bytes": 8225,
+    "sha256": "34065c236b0be31b25fd6af83e5b8b304e1ed6f1db8b4528ae2409b6de55b7f8"
+  },
+  "status": "VERIFIED"
+}

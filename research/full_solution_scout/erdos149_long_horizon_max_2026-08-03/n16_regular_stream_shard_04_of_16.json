@@ -1,0 +1,34 @@
+{
+  "elapsed_seconds": 106.30820140001015,
+  "exact_fallback_sizes": {},
+  "failures": [],
+  "generator": {
+    "command": "geng -q -c -d4 -D4 16 32 4/16",
+    "return_code": 0,
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "stderr": []
+  },
+  "methods": {
+    "high_first": 490,
+    "low_first": 724720
+  },
+  "records_per_second": 6821.769068138244,
+  "required_compatibility_matching": 12,
+  "schema": "erdos149-n16-regular-stream-shard-v1",
+  "script": {
+    "bytes": 5289,
+    "sha256": "7068d091ffffff5da36a4fe5bc7f21700322fd6b81b1e8b9b1c5d97795626438"
+  },
+  "shard": {
+    "modulus": 16,
+    "residue": 4,
+    "text": "4/16"
+  },
+  "status": "CHECKED",
+  "stream": {
+    "bytes": 16679830,
+    "materialized": false,
+    "records": 725210,
+    "sha256": "607f4af84371f48e63bc899421255f1dc23887ecc0b4ae12301b088895bb2353"
+  }
+}

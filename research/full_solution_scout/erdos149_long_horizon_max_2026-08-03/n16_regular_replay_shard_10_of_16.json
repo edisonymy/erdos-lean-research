@@ -1,0 +1,50 @@
+{
+  "assertions": {
+    "generator_returned_zero": true,
+    "networkx_parser_samples_match": true,
+    "record_count_matches_primary": true,
+    "stream_hash_matches_primary": true
+  },
+  "elapsed_seconds": 37.778438700013794,
+  "exact_fallback_sizes": {
+    "16": 56
+  },
+  "failures": [],
+  "generator": {
+    "command": "geng -q -c -d4 -D4 16 32 10/16",
+    "return_code": 0,
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "stderr": []
+  },
+  "methods": {
+    "networkx_blossom": 56,
+    "reverse_on_demand": 241057
+  },
+  "networkx_parser_mismatches": 0,
+  "networkx_parser_samples": 9,
+  "primary_expectation": {
+    "path": "n16_regular_stream_shard_10_of_16.json",
+    "records": 241113,
+    "sha256": "baa436dbc4d0b3c2f5ae0a0eb01f6f177c27bb852a733940aec60da6123d03a1",
+    "stream_sha256": "af1072281134e94c9ecaac9b153795cd61aa3f12db9db6da643ad94528b1076c"
+  },
+  "records_per_second": 6382.291282988144,
+  "required_compatibility_matching": 12,
+  "schema": "erdos149-n16-regular-stream-replay-shard-v1",
+  "script": {
+    "bytes": 9009,
+    "sha256": "c51e031332e8fc52e1e88e2e80e11037ba966ac88ee93b1c47b4c20dc8ebfff3"
+  },
+  "shard": {
+    "modulus": 16,
+    "residue": 10,
+    "text": "10/16"
+  },
+  "status": "VERIFIED",
+  "stream": {
+    "bytes": 5545599,
+    "materialized": false,
+    "records": 241113,
+    "sha256": "af1072281134e94c9ecaac9b153795cd61aa3f12db9db6da643ad94528b1076c"
+  }
+}

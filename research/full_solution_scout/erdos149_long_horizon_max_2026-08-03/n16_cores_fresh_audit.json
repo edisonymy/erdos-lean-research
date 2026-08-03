@@ -1,0 +1,94 @@
+{
+  "assertions": {
+    "t2_fresh_verified": true,
+    "t2_primary_verified": true,
+    "t4_fresh_verified": true,
+    "t4_primary_verified": true
+  },
+  "claim_boundary": "This independently audits only the nonregular order-16 core slices.",
+  "elapsed_seconds": 64.74675930000376,
+  "primary_hashes": {
+    "t2": "1e9753794191b1a4e170c113f61c2afc33a1d53340948d48582364c0f0d3928f",
+    "t4": "25e62223068049c8227718971d6352930c18564fa1b35ddbb734245525e223e0"
+  },
+  "schema": "erdos149-n16-core-fresh-audit-v1",
+  "status": "VERIFIED",
+  "t2": {
+    "assertions": {
+      "counts_match_primary": true,
+      "fresh_failures_empty": true
+    },
+    "counts": {
+      "r1_internal_completions": 10872,
+      "r1_w_partitions": 300,
+      "r2_internal_completions": 75552,
+      "r2_w_partitions": 524,
+      "r3_internal_completions": 362348,
+      "r3_w_partitions": 475
+    },
+    "failures": [],
+    "precomputed_degree_vectors": {
+      "1": {
+        "(2, 2, 2, 2, 2, 2, 2, 2)": 3507
+      },
+      "2": {
+        "(2, 2, 2, 2, 2, 2, 2, 4)": 2625,
+        "(2, 2, 2, 2, 2, 2, 3, 3)": 4265,
+        "(2, 2, 2, 2, 2, 3, 2, 3)": 4265,
+        "(2, 2, 2, 2, 3, 2, 2, 3)": 4265,
+        "(2, 2, 2, 3, 2, 2, 2, 3)": 4265,
+        "(2, 2, 3, 2, 2, 2, 2, 3)": 4265,
+        "(2, 3, 2, 2, 2, 2, 2, 3)": 4265,
+        "(3, 2, 2, 2, 2, 2, 2, 3)": 4265
+      },
+      "3": {
+        "(2, 2, 2, 2, 2, 2, 4, 4)": 2150,
+        "(2, 2, 2, 2, 2, 3, 3, 4)": 3640,
+        "(2, 2, 2, 2, 2, 3, 4, 3)": 3640,
+        "(2, 2, 2, 2, 3, 2, 3, 4)": 3640,
+        "(2, 2, 2, 2, 3, 2, 4, 3)": 3640,
+        "(2, 2, 2, 2, 3, 3, 3, 3)": 6057,
+        "(2, 2, 2, 3, 2, 2, 3, 4)": 3640,
+        "(2, 2, 2, 3, 2, 2, 4, 3)": 3640,
+        "(2, 2, 2, 3, 2, 3, 3, 3)": 6057,
+        "(2, 2, 2, 3, 3, 2, 3, 3)": 6057,
+        "(2, 2, 3, 2, 2, 2, 3, 4)": 3640,
+        "(2, 2, 3, 2, 2, 2, 4, 3)": 3640,
+        "(2, 2, 3, 2, 2, 3, 3, 3)": 6057,
+        "(2, 2, 3, 2, 3, 2, 3, 3)": 6057,
+        "(2, 2, 3, 3, 2, 2, 3, 3)": 6057,
+        "(2, 3, 2, 2, 2, 2, 3, 4)": 3640,
+        "(2, 3, 2, 2, 2, 2, 4, 3)": 3640,
+        "(2, 3, 2, 2, 2, 3, 3, 3)": 6057,
+        "(2, 3, 2, 2, 3, 2, 3, 3)": 6057,
+        "(2, 3, 2, 3, 2, 2, 3, 3)": 6057,
+        "(2, 3, 3, 2, 2, 2, 3, 3)": 6057,
+        "(3, 2, 2, 2, 2, 2, 3, 4)": 3640,
+        "(3, 2, 2, 2, 2, 2, 4, 3)": 3640,
+        "(3, 2, 2, 2, 2, 3, 3, 3)": 6057,
+        "(3, 2, 2, 2, 3, 2, 3, 3)": 6057,
+        "(3, 2, 2, 3, 2, 2, 3, 3)": 6057,
+        "(3, 2, 3, 2, 2, 2, 3, 3)": 6057,
+        "(3, 3, 2, 2, 2, 2, 3, 3)": 6057
+      }
+    }
+  },
+  "t4": {
+    "assertions": {
+      "counts_match_primary": true,
+      "fresh_failures_empty": true
+    },
+    "catalogue": {
+      "bytes": 1316,
+      "records": 94,
+      "sha256": "99c8fae5373a980b7664dd065f41911e1a608775d8cecb1e3ed7a81094dee72a"
+    },
+    "counts": {
+      "cores_rejected_with_triangle": 71,
+      "cores_with_partition": 1,
+      "separated_partitions": 1,
+      "triangle_free_cubic_cores": 23
+    },
+    "failures": []
+  }
+}

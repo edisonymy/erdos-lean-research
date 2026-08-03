@@ -1,0 +1,543 @@
+{
+  "assertions": {
+    "all_dependency_files_match": true,
+    "candidate_files_absent": true,
+    "discrepancy_files_absent": true,
+    "nonregular_fresh_verified": true,
+    "primary_aggregate_verified": true,
+    "primary_replay_counts_equal": true,
+    "primary_residues_complete": true,
+    "primary_shard_manifests_valid": true,
+    "replay_aggregate_verified": true,
+    "replay_residues_complete": true,
+    "replay_shard_manifests_valid": true,
+    "structural_survivors_are_30_31_32": true,
+    "t2_primary_verified": true,
+    "t4_primary_verified": true
+  },
+  "candidate_files": [],
+  "claim_boundary": "This meta-audit validates the bounded order-at-most-16 certificate only.",
+  "dependency_file_checks": [
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.target_lock",
+      "path": "TARGET_LOCK.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.theorem_document",
+      "path": "ORDER16_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order15_dependency.theorem",
+      "path": "ORDER15_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order15_dependency.certification",
+      "path": "CERTIFICATION_ORDER15.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order15_dependency.meta_audit",
+      "path": "order15_certification_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.structural_reduction.general_degree_three_lemma",
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.structural_reduction.order16_core_proof",
+      "path": "N16_CORE_REDUCTION.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_four_degree_three.core_catalogue",
+      "path": "n16_t4_cubic_cores.g6",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_four_degree_three.primary_checker",
+      "path": "n16_t4_core_search.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_four_degree_three.primary_result",
+      "path": "n16_t4_core_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m31_two_degree_three.primary_checker",
+      "path": "n16_t2_core_search.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m31_two_degree_three.primary_result",
+      "path": "n16_t2_core_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.nonregular_fresh_audit.checker",
+      "path": "audit_n16_cores.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.nonregular_fresh_audit.result",
+      "path": "n16_cores_fresh_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.primary_implementation.shared_decoder_and_matching",
+      "path": "n16_regular_stream_primary.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.primary_implementation.shard_driver",
+      "path": "n16_regular_stream_shard.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.primary_implementation.aggregator",
+      "path": "aggregate_n16_regular_stream_primary.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.primary_implementation.aggregate_result",
+      "path": "n16_regular_stream_primary_aggregate.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.independent_replay.shard_driver",
+      "path": "n16_regular_stream_replay_shard.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.independent_replay.aggregator",
+      "path": "aggregate_n16_regular_stream_replay.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m32_4regular.independent_replay.aggregate_result",
+      "path": "n16_regular_stream_replay_aggregate.json",
+      "sha256_match": true
+    }
+  ],
+  "discrepancy_files": [],
+  "primary_shard_checks": [
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 0,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 1,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 2,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 3,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 4,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 5,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 6,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 7,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 8,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 9,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 10,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 11,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 12,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 13,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 14,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "records_match": true,
+      "residue": 15,
+      "sha256_match": true,
+      "status_checked": true,
+      "stream_sha256_match": true
+    }
+  ],
+  "replay_shard_checks": [
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 0,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 1,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 2,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 3,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 4,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 5,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 6,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 7,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 8,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 9,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 10,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 11,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 12,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 13,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 14,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    },
+    {
+      "all_assertions_true": true,
+      "bytes_match": true,
+      "exists": true,
+      "primary_stream_sha256_match": true,
+      "records_match": true,
+      "residue": 15,
+      "sha256_match": true,
+      "status_verified": true,
+      "stream_sha256_match": true
+    }
+  ],
+  "schema": "erdos149-order16-certification-meta-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "m": 24,
+      "survives_packing": false,
+      "t": 16
+    },
+    {
+      "m": 25,
+      "survives_packing": false,
+      "t": 14
+    },
+    {
+      "m": 26,
+      "survives_packing": false,
+      "t": 12
+    },
+    {
+      "m": 27,
+      "survives_packing": false,
+      "t": 10
+    },
+    {
+      "m": 28,
+      "survives_packing": false,
+      "t": 8
+    },
+    {
+      "m": 29,
+      "survives_packing": false,
+      "t": 6
+    },
+    {
+      "m": 30,
+      "survives_packing": true,
+      "t": 4
+    },
+    {
+      "m": 31,
+      "survives_packing": true,
+      "t": 2
+    },
+    {
+      "m": 32,
+      "survives_packing": true,
+      "t": 0
+    }
+  ]
+}

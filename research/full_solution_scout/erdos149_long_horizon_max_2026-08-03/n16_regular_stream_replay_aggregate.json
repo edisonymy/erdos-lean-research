@@ -1,0 +1,301 @@
+{
+  "assertions": {
+    "all_exact_fallbacks_reach_target": true,
+    "all_replay_records_witnessed": true,
+    "all_stream_hashes_match_primary": true,
+    "parser_mismatches_zero": true,
+    "primary_verified": true,
+    "replay_records_exact": true
+  },
+  "claim_boundary": "This completes the independent regular order-16 replay; the combined bounded theorem still depends on the separately audited t=2 and t=4 reductions.",
+  "exact_fallback_sizes": {
+    "16": 681
+  },
+  "expected_records": 8037418,
+  "failures": [],
+  "generator": {
+    "base_command": "geng -q -c -d4 -D4 16 32 RESIDUE/16",
+    "residue_partition": "0/16,...,15/16",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "materialized_catalogue": false,
+  "methods": {
+    "networkx_blossom": 681,
+    "reverse_on_demand": 8036737
+  },
+  "networkx_parser_mismatches": 0,
+  "networkx_parser_samples": 144,
+  "primary_aggregate": {
+    "bytes": 9190,
+    "path": "n16_regular_stream_primary_aggregate.json",
+    "sha256": "59b4802056e0d1fa06facd0b7815351868ba6ad1d504bc8a853c8ce2555edd8a"
+  },
+  "records": 8037418,
+  "required_compatibility_matching": 12,
+  "schema": "erdos149-n16-regular-stream-replay-aggregate-v1",
+  "scope": "Independent full replay of all connected 4-regular order-16 graphs in canonical geng residue streams.",
+  "script": {
+    "bytes": 4763,
+    "sha256": "9bd7d7d510c84c6b109f5c13d3b4510402db44529d041944bf538d60102d776e"
+  },
+  "shards": [
+    {
+      "bytes": 10157674,
+      "elapsed_seconds": 113.5683321999968,
+      "methods": {
+        "networkx_blossom": 43,
+        "reverse_on_demand": 441595
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "69498d09556f0c3b56694a25df9ad6f1d3c3429078f679ba4f305e666467749a",
+      "records": 441638,
+      "residue": 0,
+      "result_bytes": 1493,
+      "result_path": "n16_regular_replay_shard_00_of_16.json",
+      "result_sha256": "42832a675eb809fd9a3f3e3628f9b196d3adde1cb214eac3d92b15634130de27",
+      "stream_sha256": "69498d09556f0c3b56694a25df9ad6f1d3c3429078f679ba4f305e666467749a"
+    },
+    {
+      "bytes": 13343565,
+      "elapsed_seconds": 127.19393949999358,
+      "methods": {
+        "networkx_blossom": 32,
+        "reverse_on_demand": 580123
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "22d65136666a450c11f58c67a88fd84ae741a5fbcee89295a00da1cfd0b8b6fc",
+      "records": 580155,
+      "residue": 1,
+      "result_bytes": 1493,
+      "result_path": "n16_regular_replay_shard_01_of_16.json",
+      "result_sha256": "c0e6a2c4931fc101d3c2349e6b827c126325ec0cb3366cf442e6745e49968aaf",
+      "stream_sha256": "22d65136666a450c11f58c67a88fd84ae741a5fbcee89295a00da1cfd0b8b6fc"
+    },
+    {
+      "bytes": 19468810,
+      "elapsed_seconds": 160.97021090000635,
+      "methods": {
+        "networkx_blossom": 39,
+        "reverse_on_demand": 846431
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "215dd583088c36a46552b1ad88b81bdd45deca15f43983d022dfd78d73cb2668",
+      "records": 846470,
+      "residue": 2,
+      "result_bytes": 1493,
+      "result_path": "n16_regular_replay_shard_02_of_16.json",
+      "result_sha256": "b46138e683143fc4e05cedc24dfd45e9d24f32da0bd27e4bbf747b03ae7cbf85",
+      "stream_sha256": "215dd583088c36a46552b1ad88b81bdd45deca15f43983d022dfd78d73cb2668"
+    },
+    {
+      "bytes": 12028103,
+      "elapsed_seconds": 124.21370839999872,
+      "methods": {
+        "networkx_blossom": 46,
+        "reverse_on_demand": 522915
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "fec50fde199c4c3e680f1d82a8bf8771a88b5198fd6871ee8ce414bd41726e61",
+      "records": 522961,
+      "residue": 3,
+      "result_bytes": 1493,
+      "result_path": "n16_regular_replay_shard_03_of_16.json",
+      "result_sha256": "cfa6e962aeff9b1f8e67d0cfe1f230eecf0432beeae550adad7b704e76274d5a",
+      "stream_sha256": "fec50fde199c4c3e680f1d82a8bf8771a88b5198fd6871ee8ce414bd41726e61"
+    },
+    {
+      "bytes": 16679830,
+      "elapsed_seconds": 107.23979249998229,
+      "methods": {
+        "networkx_blossom": 78,
+        "reverse_on_demand": 725132
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "607f4af84371f48e63bc899421255f1dc23887ecc0b4ae12301b088895bb2353",
+      "records": 725210,
+      "residue": 4,
+      "result_bytes": 1493,
+      "result_path": "n16_regular_replay_shard_04_of_16.json",
+      "result_sha256": "d3fc9c45d5117951c1fda1def8d2cabaf33cff5f248529658421c090f30612d1",
+      "stream_sha256": "607f4af84371f48e63bc899421255f1dc23887ecc0b4ae12301b088895bb2353"
+    },
+    {
+      "bytes": 11331318,
+      "elapsed_seconds": 86.300046999997,
+      "methods": {
+        "networkx_blossom": 58,
+        "reverse_on_demand": 492608
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "fea1a4c737be18edd2d21607be86fc1f0b4c586aa250fb0fbdd3ab044a5c2856",
+      "records": 492666,
+      "residue": 5,
+      "result_bytes": 1490,
+      "result_path": "n16_regular_replay_shard_05_of_16.json",
+      "result_sha256": "e07e659f9a7193edb12937878f665020625ec71f67a213130da9e1757c1ac16d",
+      "stream_sha256": "fea1a4c737be18edd2d21607be86fc1f0b4c586aa250fb0fbdd3ab044a5c2856"
+    },
+    {
+      "bytes": 12427084,
+      "elapsed_seconds": 82.0080231000029,
+      "methods": {
+        "networkx_blossom": 28,
+        "reverse_on_demand": 540280
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "03a8f697a94921faae94ae8fddbac1e55df3bb0228e58de411b387332cf460dd",
+      "records": 540308,
+      "residue": 6,
+      "result_bytes": 1491,
+      "result_path": "n16_regular_replay_shard_06_of_16.json",
+      "result_sha256": "e56324f29a2fac2023ad3ca9021b60a07c4f8e84b928072a03026b9bea500ec4",
+      "stream_sha256": "03a8f697a94921faae94ae8fddbac1e55df3bb0228e58de411b387332cf460dd"
+    },
+    {
+      "bytes": 12645446,
+      "elapsed_seconds": 80.87882260000333,
+      "methods": {
+        "networkx_blossom": 23,
+        "reverse_on_demand": 549779
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "915e686dfdb6bbc251ade95cfdc3aec862ca1e6932f022c967a4ef44149da1f3",
+      "records": 549802,
+      "residue": 7,
+      "result_bytes": 1492,
+      "result_path": "n16_regular_replay_shard_07_of_16.json",
+      "result_sha256": "573a5569376b54723f44b579d45d7db03169b4b3addf641e24fb406930140ca7",
+      "stream_sha256": "915e686dfdb6bbc251ade95cfdc3aec862ca1e6932f022c967a4ef44149da1f3"
+    },
+    {
+      "bytes": 7055710,
+      "elapsed_seconds": 47.21237789999577,
+      "methods": {
+        "networkx_blossom": 42,
+        "reverse_on_demand": 306728
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "080a77a40f33ab0ed93425e473f0ef2287d2f3e96e2ce0af6d4f8f755d531a18",
+      "records": 306770,
+      "residue": 8,
+      "result_bytes": 1491,
+      "result_path": "n16_regular_replay_shard_08_of_16.json",
+      "result_sha256": "6711d2a3e3a23660b5e049a617403447ea9a733505b83137f51fbe18528a6ff0",
+      "stream_sha256": "080a77a40f33ab0ed93425e473f0ef2287d2f3e96e2ce0af6d4f8f755d531a18"
+    },
+    {
+      "bytes": 8308796,
+      "elapsed_seconds": 56.09248230000958,
+      "methods": {
+        "networkx_blossom": 66,
+        "reverse_on_demand": 361186
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "2a5bf0e63b2f254b16c72bb50a9ae62c0876d6f5ea7d0418c1ae4823b3145b64",
+      "records": 361252,
+      "residue": 9,
+      "result_bytes": 1491,
+      "result_path": "n16_regular_replay_shard_09_of_16.json",
+      "result_sha256": "8c15815ed373ad69acbc48f6c81c2de65d2409496a9f51d7585c105ce3cfc0d2",
+      "stream_sha256": "2a5bf0e63b2f254b16c72bb50a9ae62c0876d6f5ea7d0418c1ae4823b3145b64"
+    },
+    {
+      "bytes": 5545599,
+      "elapsed_seconds": 37.778438700013794,
+      "methods": {
+        "networkx_blossom": 56,
+        "reverse_on_demand": 241057
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "af1072281134e94c9ecaac9b153795cd61aa3f12db9db6da643ad94528b1076c",
+      "records": 241113,
+      "residue": 10,
+      "result_bytes": 1495,
+      "result_path": "n16_regular_replay_shard_10_of_16.json",
+      "result_sha256": "642e885d5c8ab76e81009155dab699f8926a414c1c6852a6c95e1a709a61c7bf",
+      "stream_sha256": "af1072281134e94c9ecaac9b153795cd61aa3f12db9db6da643ad94528b1076c"
+    },
+    {
+      "bytes": 9951732,
+      "elapsed_seconds": 64.19988739999826,
+      "methods": {
+        "networkx_blossom": 20,
+        "reverse_on_demand": 432664
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "0e1f2ebc21a2a2fb8193c3b077a009fd50819861a3e8aee334ee0d083fd52b8d",
+      "records": 432684,
+      "residue": 11,
+      "result_bytes": 1494,
+      "result_path": "n16_regular_replay_shard_11_of_16.json",
+      "result_sha256": "d64731f1693faa6a33ba478ff4f076faa17e5724a557506ab73a7e5e9df56d6e",
+      "stream_sha256": "0e1f2ebc21a2a2fb8193c3b077a009fd50819861a3e8aee334ee0d083fd52b8d"
+    },
+    {
+      "bytes": 9693419,
+      "elapsed_seconds": 60.707185600011144,
+      "methods": {
+        "networkx_blossom": 34,
+        "reverse_on_demand": 421419
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "68e4c7ddf70327104f4887d0ab302ad685394ca996c90f2901cb710b1a9927b0",
+      "records": 421453,
+      "residue": 12,
+      "result_bytes": 1495,
+      "result_path": "n16_regular_replay_shard_12_of_16.json",
+      "result_sha256": "a578f8f18893fc6cfc95131c48ef3d78bab92d72419fa3f91ef2e5f621cc224d",
+      "stream_sha256": "68e4c7ddf70327104f4887d0ab302ad685394ca996c90f2901cb710b1a9927b0"
+    },
+    {
+      "bytes": 13837881,
+      "elapsed_seconds": 74.28711720000138,
+      "methods": {
+        "networkx_blossom": 47,
+        "reverse_on_demand": 601600
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "b5c1c592ad3875f0a7d47d810968acd42b54f3b349b7c4b8f5f0dc70af3e85f4",
+      "records": 601647,
+      "residue": 13,
+      "result_bytes": 1495,
+      "result_path": "n16_regular_replay_shard_13_of_16.json",
+      "result_sha256": "c3098a9ccdd10f0f651ce427a7c8657f61cd362d52115506a2c7b8c4fa7b0ec2",
+      "stream_sha256": "b5c1c592ad3875f0a7d47d810968acd42b54f3b349b7c4b8f5f0dc70af3e85f4"
+    },
+    {
+      "bytes": 8605634,
+      "elapsed_seconds": 55.642712700006086,
+      "methods": {
+        "networkx_blossom": 28,
+        "reverse_on_demand": 374130
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "d7676fa2032c3cc3d01d9dd179f6f52f1c333dfa60f345686097326864327c11",
+      "records": 374158,
+      "residue": 14,
+      "result_bytes": 1495,
+      "result_path": "n16_regular_replay_shard_14_of_16.json",
+      "result_sha256": "bfa5ebfa515f2a5670bb200bcc0536cc06fe844c451171e5cedf34fedd43067a",
+      "stream_sha256": "d7676fa2032c3cc3d01d9dd179f6f52f1c333dfa60f345686097326864327c11"
+    },
+    {
+      "bytes": 13780013,
+      "elapsed_seconds": 78.43450589998974,
+      "methods": {
+        "networkx_blossom": 41,
+        "reverse_on_demand": 599090
+      },
+      "parser_samples": 9,
+      "primary_stream_sha256": "38e87ad11cb37322a12f1bd9f8c633ea0616e8495f875c926c0be887ed209b45",
+      "records": 599131,
+      "residue": 15,
+      "result_bytes": 1494,
+      "result_path": "n16_regular_replay_shard_15_of_16.json",
+      "result_sha256": "4a6626bd48c699520a2bb9381695e158541fdeaa879fd9b893efbee797024e1e",
+      "stream_sha256": "38e87ad11cb37322a12f1bd9f8c633ea0616e8495f875c926c0be887ed209b45"
+    }
+  ],
+  "status": "VERIFIED",
+  "stream_bytes": 184860614
+}

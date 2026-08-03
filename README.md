@@ -137,12 +137,13 @@ because the original problem lacked a public Lean statement.
   and [distance-pattern report](research/full_solution_scout/erdos982_distance_pattern_max_2026-08-03/REPORT.md).
 
 - **Erdős #149 (bounded theorem, paused):** every subquartic graph on at most
-  11 vertices has strong chromatic index at most 20.  The order-11 theorem has
-  both a short audited analytic proof and checked CaDiCaL DRAT/LRAT support.
-  Every 4-regular graph on at most 12 vertices is also cleared by a complete
-  1,544-record public catalogue census plus the disconnected reduction.  This
-  is not a solution of #149; nonregular order-12 graphs and all larger orders
-  remain.  See [public issue #6](https://github.com/edisonymy/erdos-lean-research/issues/6).
+  16 vertices has strong chromatic index at most 20.  At order 16, the two
+  nonregular minimum-counterexample profiles are closed by exact core
+  reductions, while all 8,037,418 connected 4-regular graphs are streamed
+  through two complete implementations with identical shard counts and
+  hashes and no candidate.  The package has a separate hash-and-count
+  meta-audit.  This is not a solution of #149; order 17 and the universal
+  conjecture remain open.  See [public issue #6](https://github.com/edisonymy/erdos-lean-research/issues/6).
 - **Erdős #701 (closed priority collision):** a bounded order-eight
   counterexample search found no candidate and an exact equality extremizer
   with `|F|=225` and maximum intersecting family = maximum star = 105.  The
