@@ -1,0 +1,29 @@
+{
+  "certification_boundary": "A SAT witness is checked directly from the graph definition. An UNSAT result requires an independently replayed proof before it supports an exhaustive bounded theorem.",
+  "claim_scope": "exact existence of an order-12, 22-edge, subquartic graph whose compatibility graph is a nonempty star, after fixing its centre to edge 01 and a leaf to edge 23",
+  "encoding": {
+    "clauses": 6026,
+    "cnf_path": "research\\full_solution_scout\\erdos149_long_horizon_root_2026-08-03\\m22_glucose.cnf",
+    "cnf_sha256": "c30199664283db5dd84b48fec42925ccabec016f9a603133db98c18e9ce302c6",
+    "cnf_variables": 2338,
+    "edges_required": 22,
+    "graph_edge_variables": 66,
+    "vertices": 12
+  },
+  "mathematical_reduction": "CGTT gives J(G) nonempty at 22 edges; failure to save two colours means J has no triangle and no matching of size two, hence is a star",
+  "primary": {
+    "elapsed_seconds": 12.294694999989588,
+    "proof_lines": 753314,
+    "proof_path": "research\\full_solution_scout\\erdos149_long_horizon_root_2026-08-03\\m22_glucose.drat",
+    "sat": false,
+    "solver": "g4"
+  },
+  "schema": "erdos149-n12-m22-star-sat-v1",
+  "secondary": {
+    "elapsed_seconds": 20.70451479998883,
+    "sat": false,
+    "solver": "m22"
+  },
+  "solvers_agree": true,
+  "witness": null
+}

@@ -1,0 +1,252 @@
+{
+  "cases": {
+    "overlap0": {
+      "candidate": null,
+      "cnf": {
+        "bytes": 929468,
+        "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\trianglefree_cnfs\\overlap0.cnf",
+        "sha256": "0f1c20a40c23ccd04ed74984d36328b1c7fbc4d89b984889b1dfd1b88e861788"
+      },
+      "encoding": {
+        "augmenting_path_clauses": {
+          "length1": 1311,
+          "length3": 3476,
+          "length5": 13904
+        },
+        "cardinality": "degree direct 5-subsets; global equality totalizer",
+        "clauses": 53584,
+        "compatibility_indicators": 1485,
+        "fixed_graph_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "fixed_matching": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        ],
+        "triangle_clauses": 13860,
+        "variables": 2351
+      },
+      "primary": {
+        "sat": false,
+        "seconds": 1.6658302999858279,
+        "solver": "cadical195"
+      },
+      "secondary": {
+        "sat": false,
+        "seconds": 1.568007599998964,
+        "solver": "glucose4"
+      }
+    },
+    "overlap1": {
+      "candidate": null,
+      "cnf": {
+        "bytes": 871141,
+        "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\trianglefree_cnfs\\overlap1.cnf",
+        "sha256": "820e17667be2d72eac4c828b42e2f573e45ae20e71f6298a387b7baad692adb1"
+      },
+      "encoding": {
+        "augmenting_path_clauses": {
+          "length1": 1310,
+          "length3": 3558,
+          "length5": 10746
+        },
+        "cardinality": "degree direct 5-subsets; global equality totalizer",
+        "clauses": 50507,
+        "compatibility_indicators": 1485,
+        "fixed_graph_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "fixed_matching": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        ],
+        "triangle_clauses": 13860,
+        "variables": 2351
+      },
+      "primary": {
+        "sat": false,
+        "seconds": 3.693734800006496,
+        "solver": "cadical195"
+      },
+      "secondary": {
+        "sat": false,
+        "seconds": 4.794433200004278,
+        "solver": "glucose4"
+      }
+    },
+    "overlap2": {
+      "candidate": null,
+      "cnf": {
+        "bytes": 806617,
+        "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\trianglefree_cnfs\\overlap2.cnf",
+        "sha256": "449825bcc0518f975fe052946a24feb00d4295d4fe0dffa926aa239c557e3caa"
+      },
+      "encoding": {
+        "augmenting_path_clauses": {
+          "length1": 1309,
+          "length3": 3642,
+          "length5": 7284
+        },
+        "cardinality": "degree direct 5-subsets; global equality totalizer",
+        "clauses": 47128,
+        "compatibility_indicators": 1485,
+        "fixed_graph_edges": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "fixed_matching": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          [
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        ],
+        "triangle_clauses": 13860,
+        "variables": 2351
+      },
+      "primary": {
+        "sat": false,
+        "seconds": 13.771640699997079,
+        "solver": "cadical195"
+      },
+      "secondary": {
+        "sat": false,
+        "seconds": 14.184781099989777,
+        "solver": "glucose4"
+      }
+    },
+    "star": {
+      "candidate": null,
+      "cnf": {
+        "bytes": 346747,
+        "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\trianglefree_cnfs\\star.cnf",
+        "sha256": "0f5d366abf460dab305b97f670ffe0b2632b409c1255129b8ed8bdc81e23c58b"
+      },
+      "encoding": {
+        "cardinality": "degree direct 5-subsets; global equality totalizer",
+        "clauses": 22472,
+        "compatibility_indicators": 1485,
+        "fixed_matching": [
+          [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        ],
+        "star_forbidden_q": 1440,
+        "variables": 2351
+      },
+      "primary": {
+        "sat": false,
+        "seconds": 10.104340200021397,
+        "solver": "cadical195"
+      },
+      "secondary": {
+        "sat": false,
+        "seconds": 20.79585439999937,
+        "solver": "glucose4"
+      }
+    }
+  },
+  "schema": "erdos149-n12-m23-trianglefree-berge-v1"
+}

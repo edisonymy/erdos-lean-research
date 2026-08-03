@@ -1,0 +1,27 @@
+{
+  "candidate": null,
+  "certification_boundary": "A SAT graph requires an independent exact strong-colouring audit. An UNSAT result requires a replayed proof and an independent definition-level encoding audit before supporting a bounded theorem.",
+  "encoding": {
+    "clauses": 86313,
+    "cnf_path": "research\\full_solution_scout\\erdos149_long_horizon_root_2026-08-03\\m23_triangle.cnf",
+    "cnf_sha256": "b8502cc8a13184d3de76598daaf4b7ef73c5a5ab79e93b7f30fbf436600b3193",
+    "cnf_variables": 2509,
+    "compatibility_indicators": 129,
+    "edges_required": 23,
+    "graph_edge_variables": 66,
+    "vertices": 12
+  },
+  "primary": {
+    "elapsed_seconds": 15.860117700009141,
+    "sat": false,
+    "solver": "cadical195"
+  },
+  "schema": "erdos149-n12-m23-triangle-sat-v1",
+  "scope": "exact existence of an order-12, 23-edge, subquartic graph whose compatibility graph contains a triangle but has clique-packing saving at most two",
+  "secondary": {
+    "elapsed_seconds": 11.584962299995823,
+    "sat": false,
+    "solver": "glucose4"
+  },
+  "solvers_agree": true
+}

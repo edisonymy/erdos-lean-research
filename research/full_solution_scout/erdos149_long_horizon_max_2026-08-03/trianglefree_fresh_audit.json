@@ -1,0 +1,140 @@
+{
+  "base": {
+    "base_clauses": 21031,
+    "compatibility_clauses": 10395,
+    "compatibility_variables": 1485,
+    "degree_clauses": 5544,
+    "totalizer_clauses": 5092,
+    "totalizer_top": 866
+  },
+  "berge_completeness": {
+    "abstract_graphs_checked": 8192,
+    "mismatches": 0
+  },
+  "cases": {
+    "overlap0": {
+      "base_clause_match": true,
+      "byte_exact_regeneration": true,
+      "case_clause_multiset_match": true,
+      "clauses": 53584,
+      "cnf_sha256": "0f1c20a40c23ccd04ed74984d36328b1c7fbc4d89b984889b1dfd1b88e861788",
+      "drat": {
+        "bytes": 3037164,
+        "sha256": "174ed9e4bb192ae56f2aeab069b2186bab2d0a824a51e2e98f8e8008cb2d6b0c"
+      },
+      "lrat": {
+        "bytes": 14659725,
+        "replay": [
+          "c parsed a formula with 2351 variables and 53584 clauses",
+          "c VERIFIED",
+          "c allocated 1024 361692 52897",
+          "c Added clauses = 113505.  Deleted clauses = 112670.  Max live clauses = 53584",
+          "c verification time = 0.67 secs"
+        ],
+        "sha256": "8b2777f4ea34b316ca9380af8c6122c53ef2ed815ffa493d9d36ed39457fe262"
+      },
+      "variables": 2351
+    },
+    "overlap1": {
+      "base_clause_match": true,
+      "byte_exact_regeneration": true,
+      "case_clause_multiset_match": true,
+      "clauses": 50507,
+      "cnf_sha256": "820e17667be2d72eac4c828b42e2f573e45ae20e71f6298a387b7baad692adb1",
+      "drat": {
+        "bytes": 5382137,
+        "sha256": "f7d81945a2accfe3d046a187ef9763df6a7af7b4bc322f9ccc34bae0fcc7d07a"
+      },
+      "lrat": {
+        "bytes": 26047239,
+        "replay": [
+          "c parsed a formula with 2351 variables and 50507 clauses",
+          "c VERIFIED",
+          "c allocated 1024 340921 52897",
+          "c Added clauses = 166946.  Deleted clauses = 166101.  Max live clauses = 50507",
+          "c verification time = 1.03 secs"
+        ],
+        "sha256": "ade898bd70b281fdd57e766ed695bf8f62d7d03ec3bbc9b976e4e70633ea103f"
+      },
+      "variables": 2351
+    },
+    "overlap2": {
+      "base_clause_match": true,
+      "byte_exact_regeneration": true,
+      "case_clause_multiset_match": true,
+      "clauses": 47128,
+      "cnf_sha256": "449825bcc0518f975fe052946a24feb00d4295d4fe0dffa926aa239c557e3caa",
+      "drat": {
+        "bytes": 13702888,
+        "sha256": "f686ed74b779c4334131b2e42c49eb7f3c6e1c756ba576e15f64e9aa899013df"
+      },
+      "lrat": {
+        "bytes": 65361742,
+        "replay": [
+          "c parsed a formula with 2351 variables and 47128 clauses",
+          "c VERIFIED",
+          "c allocated 1024 318114 52897",
+          "c Added clauses = 343338.  Deleted clauses = 342389.  Max live clauses = 47128",
+          "c verification time = 2.58 secs"
+        ],
+        "sha256": "6ae062602b6d9fd4337dbfc96120db5fc82ff785d25d261506b9bc63e41c280c"
+      },
+      "variables": 2351
+    },
+    "star": {
+      "base_clause_match": true,
+      "byte_exact_regeneration": true,
+      "case_clause_multiset_match": true,
+      "clauses": 22472,
+      "cnf_sha256": "0f5d366abf460dab305b97f670ffe0b2632b409c1255129b8ed8bdc81e23c58b",
+      "drat": {
+        "bytes": 15512136,
+        "sha256": "5084b990c3b963ad686ccf0a965f9659632d58c19989ad08385419546ed5fb0b"
+      },
+      "lrat": {
+        "bytes": 75012988,
+        "replay": [
+          "c parsed a formula with 2351 variables and 22472 clauses",
+          "c VERIFIED",
+          "c allocated 1024 151686 23510",
+          "c Added clauses = 352254.  Deleted clauses = 351055.  Max live clauses = 22472",
+          "c verification time = 2.94 secs"
+        ],
+        "sha256": "19c046ec2dfbab93e89324b9cf128bc46c46106a41afcb17674f4a38aa731f23"
+      },
+      "variables": 2351
+    }
+  },
+  "claim_boundary": "The four UNSAT formulas exclude order-12 m=23 graphs whose triangle-free compatibility graph has matching number one or two. They do not by themselves cover the already separate triangle-containing slice, other edge counts, larger orders, or the full conjecture.",
+  "compatibility_tseitin": {
+    "indicators": 1485,
+    "input_assignments_checked": 95040,
+    "semantic_failures": 0
+  },
+  "degree_semantics": "all 5-subsets of each 11-edge incidence set are forbidden, exactly equivalent to degree at most four",
+  "generator": {
+    "bytes": 10373,
+    "sha256": "f6801968a4f7832dc1f4d42b479b7697698b2a9f9658ea52b00be4f9b3ac699f"
+  },
+  "matching_endpoint_symmetry": {
+    "overlap_histogram": {
+      "0": 3,
+      "1": 48,
+      "2": 48
+    },
+    "reason_complete": "the cross-pair endpoint-overlap graph is a matching, hence is classified by size 0, 1, or 2",
+    "types": 3,
+    "valid_fixed_configurations": 99
+  },
+  "proof_checker": {
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\lrat-check.exe",
+    "sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+  },
+  "schema": "erdos149-n12-m23-trianglefree-fresh-audit-v1",
+  "status": "VERIFIED",
+  "totalizer_semantics": {
+    "forced_assignments_checked": 201,
+    "semantic_failures": 0
+  },
+  "triangle_clause_count": 13860
+}

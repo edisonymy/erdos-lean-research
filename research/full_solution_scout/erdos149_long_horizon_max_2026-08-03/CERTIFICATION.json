@@ -1,0 +1,111 @@
+{
+  "schema": "erdos149-order12-combined-certification-v1",
+  "date": "2026-08-03",
+  "claim": "Every finite simple graph G with |V(G)| <= 12 and Delta(G) <= 4 has chi(L(G)^2) <= 20.",
+  "claim_boundary": "Bounded theorem only. This does not resolve Erdős problem 149 and is not a public novelty claim.",
+  "target_lock": {
+    "path": "TARGET_LOCK.md",
+    "bytes": 1111,
+    "sha256": "f623f41a1257bc07e9865c0cca68f80173e2bc6230f0009c0babc947dd82fad8"
+  },
+  "root_formula_audit": {
+    "script": {
+      "path": "audit_root_encodings.py",
+      "bytes": 17344,
+      "sha256": "1a35f50ec63ca9ec50f06d917053401c8ac867a5fab827c8368231adb42a7058"
+    },
+    "result": {
+      "path": "root_definition_audit.json",
+      "bytes": 3073,
+      "sha256": "c9274f533e7a8578b3eb6f55866a02e50b73ea4781cf10db1d12cd2cb0c26906",
+      "status": "VERIFIED"
+    },
+    "checks": {
+      "abstract_fixed_triangle_graphs": 4096,
+      "saving_pattern_mismatches": 0,
+      "degree_forced_assignments_per_formula": 24576,
+      "m22_random_semantic_trials": 5000,
+      "m23_triangle_random_semantic_trials": 1000,
+      "root_lrat_replay": "VERIFIED"
+    }
+  },
+  "trianglefree_generator": {
+    "path": "exact_n12_m23_trianglefree_berge.py",
+    "bytes": 10373,
+    "sha256": "f6801968a4f7832dc1f4d42b479b7697698b2a9f9658ea52b00be4f9b3ac699f"
+  },
+  "trianglefree_fresh_audit": {
+    "script": {
+      "path": "audit_trianglefree_berge.py",
+      "bytes": 13828,
+      "sha256": "b7aca46f19ee136a5faed2b254d38061c1e1aff6d1e0b01d883c7fb33413764a"
+    },
+    "result": {
+      "path": "trianglefree_fresh_audit.json",
+      "bytes": 5245,
+      "sha256": "16fc9f492e5dd4a00f072140f519722924ace078aa586048ef4e8fde4ab7375c",
+      "status": "VERIFIED"
+    },
+    "checks": {
+      "compatibility_indicators": 1485,
+      "compatibility_truth_assignments": 95040,
+      "abstract_berge_graphs": 8192,
+      "berge_mismatches": 0,
+      "admissible_endpoint_configurations": 99,
+      "endpoint_overlap_types": 3,
+      "totalizer_forced_assignments": 201,
+      "triangle_clauses": 13860
+    }
+  },
+  "proof_toolchain": {
+    "generator": "CaDiCaL 1.9.5",
+    "source_commit": "146207318796f094dcded87349a64f0c6927309e",
+    "docker_image_id": "sha256:2adb263368fd9fe682831fef913c737e2613efae3cfcfa98055c13ac2b70b10c",
+    "drat_checker": "drat-trim at commit 2e3b2dc0ecf938addbd779d42877b6ed69d9a985 in the pinned image",
+    "lrat_checker": {
+      "path": "tools/proof_checkers/windows_drat/bin/lrat-check.exe",
+      "sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+    }
+  },
+  "trianglefree_cases": {
+    "star": {
+      "variables": 2351,
+      "clauses": 22472,
+      "cnf": {"bytes": 346747, "sha256": "0f5d366abf460dab305b97f670ffe0b2632b409c1255129b8ed8bdc81e23c58b"},
+      "drat": {"bytes": 15512136, "sha256": "5084b990c3b963ad686ccf0a965f9659632d58c19989ad08385419546ed5fb0b", "checker_result": "s VERIFIED"},
+      "lrat": {"bytes": 75012988, "sha256": "19c046ec2dfbab93e89324b9cf128bc46c46106a41afcb17674f4a38aa731f23", "checker_result": "c VERIFIED", "added": 352254, "deleted": 351055, "max_live": 22472}
+    },
+    "overlap0": {
+      "variables": 2351,
+      "clauses": 53584,
+      "cnf": {"bytes": 929468, "sha256": "0f1c20a40c23ccd04ed74984d36328b1c7fbc4d89b984889b1dfd1b88e861788"},
+      "drat": {"bytes": 3037164, "sha256": "174ed9e4bb192ae56f2aeab069b2186bab2d0a824a51e2e98f8e8008cb2d6b0c", "checker_result": "s VERIFIED"},
+      "lrat": {"bytes": 14659725, "sha256": "8b2777f4ea34b316ca9380af8c6122c53ef2ed815ffa493d9d36ed39457fe262", "checker_result": "c VERIFIED", "added": 113505, "deleted": 112670, "max_live": 53584}
+    },
+    "overlap1": {
+      "variables": 2351,
+      "clauses": 50507,
+      "cnf": {"bytes": 871141, "sha256": "820e17667be2d72eac4c828b42e2f573e45ae20e71f6298a387b7baad692adb1"},
+      "drat": {"bytes": 5382137, "sha256": "f7d81945a2accfe3d046a187ef9763df6a7af7b4bc322f9ccc34bae0fcc7d07a", "checker_result": "s VERIFIED"},
+      "lrat": {"bytes": 26047239, "sha256": "ade898bd70b281fdd57e766ed695bf8f62d7d03ec3bbc9b976e4e70633ea103f", "checker_result": "c VERIFIED", "added": 166946, "deleted": 166101, "max_live": 50507}
+    },
+    "overlap2": {
+      "variables": 2351,
+      "clauses": 47128,
+      "cnf": {"bytes": 806617, "sha256": "449825bcc0518f975fe052946a24feb00d4295d4fe0dffa926aa239c557e3caa"},
+      "drat": {"bytes": 13702888, "sha256": "f686ed74b779c4334131b2e42c49eb7f3c6e1c756ba576e15f64e9aa899013df", "checker_result": "s VERIFIED"},
+      "lrat": {"bytes": 65361742, "sha256": "6ae062602b6d9fd4337dbfc96120db5fc82ff785d25d261506b9bc63e41c280c", "checker_result": "c VERIFIED", "added": 343338, "deleted": 342389, "max_live": 47128}
+    }
+  },
+  "n12_4regular_recheck": {
+    "catalogue_path": "../erdos149_structural_max_2026-08-03/12_4reg.txt",
+    "catalogue_records": 1544,
+    "catalogue_sha256": "6030d7de5212d195f3872606e947298aa3cfe0f594850f81c0f45105291919ae",
+    "checker_backend": "NetworkX 3.5 max_weight_matching",
+    "result_path": "n12_4regular_recheck.json",
+    "result_bytes": 1730,
+    "result_sha256": "48f7fa622df73d59d38df98c0c8b6b450d556d3bb6650c8d8ccc05da22e7db16",
+    "failures": 0,
+    "matching_distribution": {"9": 3, "10": 25, "11": 124, "12": 1392}
+  }
+}

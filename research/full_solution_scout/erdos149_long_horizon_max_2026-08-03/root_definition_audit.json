@@ -1,0 +1,85 @@
+{
+  "abstract_saving_pattern_classification": {
+    "free_edges": 12,
+    "graphs_checked": 4096,
+    "mismatches": 0,
+    "saving_histogram": {
+      "2": 169,
+      "3": 2482,
+      "4": 1444,
+      "5": 1
+    }
+  },
+  "cardinality_m22": {
+    "degree_forced_assignments_checked": 24576,
+    "global_representatives_checked": 201,
+    "last_cardinality_variable": 2338,
+    "m": 22,
+    "prefix_clauses": 4580
+  },
+  "cardinality_m23": {
+    "degree_forced_assignments_checked": 24576,
+    "global_representatives_checked": 201,
+    "last_cardinality_variable": 2380,
+    "m": 23,
+    "prefix_clauses": 4664
+  },
+  "claim_boundary": "This verifies the two stored formulas and their mappings only.  It excludes the order-12 m=22 slice and the triangle-containing order-12 m=23 slice after the separately written mathematical reduction; it neither covers triangle-free m=23 nor resolves the full conjecture.",
+  "dimacs": {
+    "m22": {
+      "byte_exact_regeneration": true,
+      "clauses": 6026,
+      "variables": 2338
+    },
+    "m23_triangle": {
+      "byte_exact_regeneration": true,
+      "clauses": 86313,
+      "variables": 2509
+    }
+  },
+  "hashes": {
+    "exact_n12_m22_star_sat.py": "4399da8e7b0c25d535dd18a504e773c30733091e638f57573fb4bc5f71ba7f34",
+    "exact_n12_m23_triangle_sat.py": "6ee3a9686af6e036a1d27a405773dbe8096d197cab35d4eaf484b31a6671bf43",
+    "m22_cert.cnf": "c30199664283db5dd84b48fec42925ccabec016f9a603133db98c18e9ce302c6",
+    "m22_pinned.drat": "b9bdbd3bc21dce281d0950fc0d4b1cfe475b3d56f48e1732a5becd37de76c946",
+    "m22_pinned.lrat": "8d2d29590a4f4498468339309fe2ba4b2a7a6a703ff160d287f40dc0643fee6e",
+    "m23_triangle.cnf": "b8502cc8a13184d3de76598daaf4b7ef73c5a5ab79e93b7f30fbf436600b3193",
+    "m23_triangle_pinned.drat": "e57927f918317b50eeac6e7faaaa972a9514b7be9605120c016625e8813e7267",
+    "m23_triangle_pinned.lrat": "f9ecafdae9d6a027b2cd811373432614f9744daceb1559b593c7e6e132c8aa8d"
+  },
+  "lrat": {
+    "m22": {
+      "output": [
+        "c parsed a formula with 2338 variables and 6026 clauses",
+        "c VERIFIED",
+        "c allocated 1024 137277 23380",
+        "c Added clauses = 336139.  Deleted clauses = 336063.  Max live clauses = 9858",
+        "c verification time = 3.01 secs"
+      ],
+      "verified": true
+    },
+    "m23_triangle": {
+      "output": [
+        "c parsed a formula with 2509 variables and 86313 clauses",
+        "c VERIFIED",
+        "c allocated 1024 582612 84678",
+        "c Added clauses = 392988.  Deleted clauses = 392865.  Max live clauses = 86313",
+        "c verification time = 3.05 secs"
+      ],
+      "verified": true
+    }
+  },
+  "m22_structure": {
+    "exact_clause_match": true,
+    "random_semantic_trials": 5000,
+    "suffix_clauses": 1446
+  },
+  "m23_triangle_structure": {
+    "compatibility_indicators": 129,
+    "exact_clause_match": true,
+    "random_semantic_trials": 1000,
+    "suffix_clauses": 81649
+  },
+  "schema": "erdos149-root-definition-audit-v1",
+  "status": "VERIFIED"
+}

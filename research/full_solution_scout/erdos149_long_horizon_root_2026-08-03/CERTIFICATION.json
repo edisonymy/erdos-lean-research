@@ -1,0 +1,90 @@
+{
+  "schema": "erdos149-n12-m22-certification-v1",
+  "checked_utc": "2026-08-03T09:08:25Z",
+  "scope": "UNSAT of two symmetry-fixed maximum-degree-4 formulas: the complete 12-vertex 22-edge star-compatibility obstruction and the triangle-containing 12-vertex 23-edge obstruction",
+  "claim_boundary": "Together with the reductions in RESULT.md and an independent encoding audit, these certificates exclude the 22-edge order-12 slice and the triangle-containing part of the 23-edge slice. They do not cover the triangle-free 23-edge slice and do not solve Erdos problem 149.",
+  "generator": {
+    "path": "exact_n12_m22_star_sat.py",
+    "bytes": 9523,
+    "sha256": "4399da8e7b0c25d535dd18a504e773c30733091e638f57573fb4bc5f71ba7f34"
+  },
+  "cnf": {
+    "path": "m22_cert.cnf",
+    "variables": 2338,
+    "clauses": 6026,
+    "bytes": 93373,
+    "sha256": "c30199664283db5dd84b48fec42925ccabec016f9a603133db98c18e9ce302c6"
+  },
+  "proof_generator": {
+    "name": "CaDiCaL 1.9.5",
+    "source_commit": "146207318796f094dcded87349a64f0c6927309e",
+    "docker_image_id": "sha256:2adb263368fd9fe682831fef913c737e2613efae3cfcfa98055c13ac2b70b10c",
+    "result": "UNSATISFIABLE"
+  },
+  "drat": {
+    "path": "m22_pinned.drat",
+    "bytes": 16044160,
+    "sha256": "b9bdbd3bc21dce281d0950fc0d4b1cfe475b3d56f48e1732a5becd37de76c946",
+    "checker": "drat-trim at source commit 2e3b2dc0ecf938addbd779d42877b6ed69d9a985 inside the pinned Docker image",
+    "checker_result": "s VERIFIED",
+    "core_input_clauses": 3030,
+    "core_lemmas": 330113,
+    "resolution_steps": 10506030
+  },
+  "lrat": {
+    "path": "m22_pinned.lrat",
+    "bytes": 86103750,
+    "sha256": "8d2d29590a4f4498468339309fe2ba4b2a7a6a703ff160d287f40dc0643fee6e",
+    "checker": "tools/proof_checkers/windows_drat/bin/lrat-check.exe",
+    "checker_sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9",
+    "checker_result": "c VERIFIED",
+    "added_clauses": 336139,
+    "deleted_clauses": 336063,
+    "maximum_live_clauses": 9858
+  },
+  "m23_triangle_slice": {
+    "generator": {
+      "path": "exact_n12_m23_triangle_sat.py",
+      "bytes": 8560,
+      "sha256": "6ee3a9686af6e036a1d27a405773dbe8096d197cab35d4eaf484b31a6671bf43"
+    },
+    "cnf": {
+      "path": "m23_triangle.cnf",
+      "variables": 2509,
+      "clauses": 86313,
+      "bytes": 1693286,
+      "sha256": "b8502cc8a13184d3de76598daaf4b7ef73c5a5ab79e93b7f30fbf436600b3193"
+    },
+    "drat": {
+      "path": "m23_triangle_pinned.drat",
+      "bytes": 14758702,
+      "sha256": "e57927f918317b50eeac6e7faaaa972a9514b7be9605120c016625e8813e7267",
+      "checker_result": "s VERIFIED",
+      "core_input_clauses": 7342,
+      "core_lemmas": 306675,
+      "resolution_steps": 10355894
+    },
+    "lrat": {
+      "path": "m23_triangle_pinned.lrat",
+      "bytes": 89885895,
+      "sha256": "f9ecafdae9d6a027b2cd811373432614f9744daceb1559b593c7e6e132c8aa8d",
+      "checker_result": "c VERIFIED",
+      "added_clauses": 392988,
+      "deleted_clauses": 392865,
+      "maximum_live_clauses": 86313
+    }
+  },
+  "excluded_discovery_traces": [
+    {
+      "path": "m22_cadical.drat",
+      "status": "INVALID",
+      "reason": "PySAT text export; drat-trim reported no conflict; never use as evidence"
+    },
+    {
+      "path": "m22_glucose.drat",
+      "status": "INVALID",
+      "reason": "PySAT text export; drat-trim reported no conflict; never use as evidence"
+    }
+  ],
+  "remaining_audit": "A fresh definition-level reviewer must check both high-level reductions and both CNF mappings independently before public bounded-theorem publication."
+}
