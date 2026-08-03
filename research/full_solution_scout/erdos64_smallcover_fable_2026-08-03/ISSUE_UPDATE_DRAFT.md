@@ -1,5 +1,10 @@
 # Draft public update for issue #9 (post at wrap-up; fill FINAL numbers)
 
+> **WITHDRAWN DRAFT — DO NOT POST.**  It predates the Royle/F038A and
+> McKay--Afzaly priority corrections, contains an incorrect order range, and
+> omits the successor certificate results.  Use a new update derived from
+> `root_independent_audit_2026-08-03/` and the certified σ=19 handover.
+
 ## 2026-08-04 update — small-cover and bipartite two-defect lanes (not a solution)
 
 This update reports two new finite counterexample families for #64, one

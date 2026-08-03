@@ -1,0 +1,21 @@
+{
+  "actual_clauses": 381858,
+  "base_clauses": 381346,
+  "block_clauses": 512,
+  "blocks_sha256": "B0A854F41974C2FE740E5B9B80425D7238C07ADB3B292A32AB50854DCF15D9F1",
+  "checks": {
+    "actual_clause_count": true,
+    "all_clauses_exact": true,
+    "base_prefix_exact": true,
+    "block_suffix_exact": true,
+    "header_clause_count": true,
+    "header_variable_count": true,
+    "max_line_count": true
+  },
+  "cnf": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_smallcover_fable_2026-08-03\\pure19_final_20260803T211655Z.cnf",
+  "cnf_sha256": "2B78BD846EEF041355834C1A1EEF1D526E9F88F844DA624C9C40E5DF27E3AD02",
+  "declared_clauses": 381858,
+  "first_mismatch": null,
+  "status": "PASS",
+  "variables": 85498
+}

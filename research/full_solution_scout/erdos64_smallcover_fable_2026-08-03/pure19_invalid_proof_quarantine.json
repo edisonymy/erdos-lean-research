@@ -1,0 +1,11 @@
+{
+  "artifact": "pure19_final_20260803T211655Z.interleaved.INVALID.drat",
+  "bytes": 223139425,
+  "sha256": "E2825DF9A99B494C7407E70CC21AA5B5A360A2ACA69EF24CC922B4591D3C2309",
+  "status": "INVALID_INTERLEAVED_OUTPUT",
+  "reason": "Two CaDiCaL processes (WSL PIDs 10 and 13) concurrently wrote the same proof path after the detached wrapper outlived its parent. Both processes were stopped before a clean replay.",
+  "usable_as_certificate": false,
+  "action": "Deleted after the fresh single-writer proof was independently VERIFIED.",
+  "deleted_utc": "2026-08-03T21:48:51Z",
+  "deletion_reason": "Reclaimed 223139425 bytes from an exact inactive artifact already proved unusable; the verified proof, frozen CNF, hashes, and diagnostic record were retained."
+}

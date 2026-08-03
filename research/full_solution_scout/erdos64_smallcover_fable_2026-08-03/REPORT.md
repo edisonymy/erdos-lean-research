@@ -1,5 +1,13 @@
 # Erdős #64: small-cover and two-defect lanes — session report
 
+> **PRIORITY-CORRECTED AFTER HANDOVER.**  The order-38 graph and the minimum
+> total-order threshold are prior, not new: the graph is Royle's 2009
+> `F038A`, and the McKay--Afzaly exact table already implies the threshold.
+> The correct count is 19 unoriented `C6`s.  See
+> `root_independent_audit_2026-08-03/ROOT_INDEPENDENT_AUDIT_2026-08-03.md`
+> before citing any claim below.  This original report is retained as an
+> audited research record; its novelty language is superseded.
+
 **Date:** 2026-08-03/04 (UTC).  **Agent:** Fable long-horizon session.
 **Status: no counterexample and no universal proof.  This report makes
 no solution claim.**  It records two new finite counterexample families,

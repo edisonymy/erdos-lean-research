@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "all_families": 32,
+      "families_with_c8": 0,
+      "family_class": "all lines of size at least three",
+      "linear_families": 6,
+      "mismatches": 0,
+      "sigma": 4
+    },
+    {
+      "all_families": 65536,
+      "families_with_c8": 0,
+      "family_class": "all lines of size at least three",
+      "linear_families": 32,
+      "mismatches": 0,
+      "sigma": 5
+    },
+    {
+      "all_families": 367290,
+      "families_with_c8": 15960,
+      "family_class": "all four-line 3-uniform families",
+      "linear_families": 42840,
+      "mismatches": 0,
+      "sigma": 8
+    }
+  ],
+  "total_mismatches": 0,
+  "verdict": "PASS"
+}

@@ -40,3 +40,11 @@ td_h21_r2.cnf
 td_h20_r1.drat
 td_h21_r1.drat
 td_h21_r2.drat
+
+# Successor sigma=19 final proof artifacts are published as release assets;
+# the repository carries the exact CNF, hashes, checker transcript and
+# deterministic regeneration/audit code.
+pure19_final_*.drat
+pure19_final_*.INVALID.drat
+pure19_final_*.pid
+pure19_final_*.err.log

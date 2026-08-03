@@ -1,0 +1,86 @@
+{
+  "schema": "erdos64-independent-audit-certificate-summary-v1",
+  "generated_after_fable_handover": true,
+  "encoder": "research/full_solution_scout/erdos64_smallcover_fable_2026-08-03/sat_search.py",
+  "solver": "cd195",
+  "checker": {
+    "name": "drat-trim",
+    "sha256": "9d16d8045b0e0cf16895eab223af362d8252ba2713e7318db0271228678955d7"
+  },
+  "artifact_location_at_audit_time": ".tmp-audit/erdos64-pure-regen",
+  "archive_status": "LOCAL_TEMPORARY_NOT_DURABLY_ARCHIVED",
+  "rows": [
+    {
+      "sigma": 14,
+      "variables": 20516,
+      "clauses": 86373,
+      "cnf_sha256": "2a32fa1d66e3923b56e087366e6ed16498d5d76fadf7c80ad4f00894fe3caf09",
+      "manifest_cnf_match": true,
+      "proof_format": "ASCII_DRAT",
+      "proof_bytes": 14593313,
+      "proof_lines": 256337,
+      "proof_sha256": "57c375931e6fe09bec1c6e9b84cc12eac08f61f4ae6b6a1d064dea8ea241526c",
+      "resolution_steps": 2999804,
+      "solver_status": "UNSAT",
+      "checker_status": "VERIFIED"
+    },
+    {
+      "sigma": 15,
+      "variables": 28458,
+      "clauses": 121577,
+      "cnf_sha256": "e98e8ccd9c9ecbf139dde6d03c6418dd949821f90717e9c804ceb94b0f590e34",
+      "manifest_cnf_match": true,
+      "proof_format": "ASCII_DRAT",
+      "proof_bytes": 18156244,
+      "proof_lines": 317115,
+      "proof_sha256": "d65399b5d72497ab971c69b4725d0576cf9454bc239be98b54a2bde3963ebd09",
+      "resolution_steps": 2810528,
+      "solver_status": "UNSAT",
+      "checker_status": "VERIFIED"
+    },
+    {
+      "sigma": 16,
+      "variables": 38334,
+      "clauses": 165905,
+      "cnf_sha256": "b169588426f52d9ead65c80541c2e149c0898426808374bdacbb8afff0d28016",
+      "manifest_cnf_match": true,
+      "proof_format": "ASCII_DRAT",
+      "proof_bytes": 50778115,
+      "proof_lines": 631442,
+      "proof_sha256": "43c6887ee9183f27e80e02628865f5e73503e690cfa2d6e99ae74648a3c2f375",
+      "resolution_steps": 8491159,
+      "solver_status": "UNSAT",
+      "checker_status": "VERIFIED"
+    },
+    {
+      "sigma": 17,
+      "variables": 50430,
+      "clauses": 220780,
+      "cnf_sha256": "685bab37bc746a093351c287b5d54b344d656bebb02c2fac4d1134a8f4de46c4",
+      "manifest_cnf_match": true,
+      "proof_format": "ASCII_DRAT",
+      "proof_bytes": 94957995,
+      "proof_lines": 909626,
+      "proof_sha256": "dadb0b4182d2d7b91a2daba8633d7099f4890b97820572d6da3f353dc408d501",
+      "resolution_steps": 26084458,
+      "solver_status": "UNSAT",
+      "checker_status": "VERIFIED"
+    },
+    {
+      "sigma": 18,
+      "variables": 66340,
+      "clauses": 293298,
+      "cnf_sha256": "6d9283986435449165065df13e098cfafd58f2841ef9453cdac67eee94622b38",
+      "manifest_cnf_match": null,
+      "manifest_note": "The original packet did not bind a sigma-18 CNF hash.",
+      "proof_format": "ASCII_DRAT",
+      "proof_bytes": 210078751,
+      "proof_lines": 1949849,
+      "proof_sha256": "a99c5d1c9f7b86ca3b8d845436e9d44ff8d22a2edf63f9446168ba93c02e4f02",
+      "resolution_steps": 56666624,
+      "solver_status": "UNSAT",
+      "checker_status": "VERIFIED"
+    }
+  ],
+  "overall_status": "VERIFIED"
+}

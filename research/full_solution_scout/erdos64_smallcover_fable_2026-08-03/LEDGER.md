@@ -400,3 +400,29 @@ n_F=38, solver-UNSAT through 42; pure19 hunt (the sigma=19 C16/C32
 screen) at round 1 with 512 audited blocks persisted; core sigma=13..15
 undetermined (s15 blocks persisted).  Public update draft ready in
 ISSUE_UPDATE_DRAFT.md — posting delegated to successor per handover.
+
+## Entry 15 — successor hostile audit and order-bound correction
+
+The successor independently replayed all 512 persisted `pure19` blocks.
+Every record is a simple alternating C16 and every stored clause exactly
+matches the 16 negated incidence variables under the deterministic prefix-line
+labeling; zero malformed or duplicate clauses.  Evidence:
+`audit_pure19_blocks.py`, `audit_pure19_blocks.json`, and
+`SUCCESSOR_AUDIT_2026-08-03.md`.
+
+**Correction:** Entry 13's `38..54` and HANDOVER's `38..50` are unsupported.
+The actual encoding permits up to
+`M=floor(C(19,2)/3)=57` lines, hence the safe survivor-order range is
+**38..76**.  This does not alter the counterexample implication: a bipartite
+cycle uses equally many vertices from each side, so the fixed 19-vertex side
+still bounds every cycle by 38 and only C4/C8/C16/C32 matter.  The two earlier
+order ranges are withdrawn.  `pure19_hunt_hardened.py` resumes the search with
+startup block audit, crash-durable block writes, atomic status, and an exact
+final-CNF + CaDiCaL/drat-trim certification path.
+
+Root's independent priority audit also proves that `sigma19_model.json` is
+isomorphic to Gordon Royle's graph posted on MathOverflow on 2009-11-02
+(`root_independent_audit_2026-08-03/royle_2009_isomorphism.json`).  The object
+and its order are prior art; all novelty language for the construction and
+the claimed new extremal number is withdrawn pending a much broader literature
+audit.  This does not affect the live sigma=19 exclusion computation.

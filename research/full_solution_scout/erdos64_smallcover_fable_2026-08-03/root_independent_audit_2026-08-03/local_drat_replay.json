@@ -1,0 +1,143 @@
+{
+  "checker": "research\\erdos151\\fable_symbolic_h_2026-08-03\\drat-trim.exe",
+  "incomplete_sigmas": [
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "records": [
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "51914b7ac3a76844a428b78f79a38167aae6ecfb909c09386a4ace53f485173b",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "5edfe9678d87e9d548279464be105c818fe23890c96f17779fefb818c27d39a2",
+      "sigma": 5,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "3b6a38bbe0499206901cebaf7cd59d63e794ded75782395147b85a495bd80e3d",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "7e832ebbe3047f1889ed30f93a9aa3d1ab2d9efbe01c0940a91446baf976a1e4",
+      "sigma": 6,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "a66c63085a0180b8e06a5c9361f3114d550035362103f9505cfe7d6708a6cb6e",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "fba9a3b505481131f1e861b41dbd175844109ff839cf1cb1040cd187007f3b8d",
+      "sigma": 7,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "1f9fde80dfc797a3fb3d644ff7c648246fc922404083d7f39162dd4a53c30c15",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "e570a214c72f9b0317c5e11174bc93445a1161d45021ac604984b72a6bce7865",
+      "sigma": 8,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "cf41237a5e68c5d5fd8e334ba69a31bf0b4670cc57363845a6ca2a443d69407e",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "314af4a56ad77352c825f0a36e4d76abc081660ac0070fa81196e29cb4d6eb3d",
+      "sigma": 9,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "f80247cb949efa820db862897a196c40b3e057b5a901974786a319b6e70b2dac",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "8c5baaaf33355f34686cf5c059e0954929f215a7e45e8a40efb64b8966c53d2a",
+      "sigma": 10,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "5aab66e60d79e755f2749fcb3e95c3c6a721846de859584374783455a533aeaa",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "44ea9f7c28ab3579791ceeb27e33ef4ddc4bb1875df0d4ddd00854682fe8f837",
+      "sigma": 11,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "08873992c1f3a2d8068147187282ff8ab994be7c6a56ab1c49eeeea946a484c7",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "362eb9d854082b63acbccb29fa8016e30365d6abfe91e275b445f8cf9b6608f3",
+      "sigma": 12,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "checker_exit": 0,
+      "cnf_present": true,
+      "cnf_sha256_raw_checkout": "74d0c932cd3b55d97271fa4d689ef9f8e2cfef7e5593f22fd031de7eec08cda0",
+      "proof_present": true,
+      "proof_sha256_raw_checkout": "368cc6f88c85474d21af1132a1c7e939ff6329e6b1976f5385a9bfc039da543c",
+      "sigma": 13,
+      "status": "VERIFIED",
+      "verified": true
+    },
+    {
+      "cnf_present": true,
+      "proof_present": false,
+      "sigma": 14,
+      "status": "INCOMPLETE_PAIR"
+    },
+    {
+      "cnf_present": false,
+      "proof_present": false,
+      "sigma": 15,
+      "status": "INCOMPLETE_PAIR"
+    },
+    {
+      "cnf_present": false,
+      "proof_present": false,
+      "sigma": 16,
+      "status": "INCOMPLETE_PAIR"
+    },
+    {
+      "cnf_present": false,
+      "proof_present": false,
+      "sigma": 17,
+      "status": "INCOMPLETE_PAIR"
+    },
+    {
+      "cnf_present": false,
+      "proof_present": false,
+      "sigma": 18,
+      "status": "INCOMPLETE_PAIR"
+    }
+  ],
+  "verified_sigmas": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ]
+}

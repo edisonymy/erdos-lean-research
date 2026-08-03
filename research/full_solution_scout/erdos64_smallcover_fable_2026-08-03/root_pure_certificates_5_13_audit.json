@@ -1,0 +1,120 @@
+{
+  "schema": "erdos64-fable-pure-committed-windows-audit-v1",
+  "status": "VERIFIED",
+  "scope": "manifest-bound committed pure_sigma CNF/DRAT pairs only",
+  "binary_decoder_imports_encoder": false,
+  "sigmas_requested": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "rows": [
+    {
+      "sigma": 5,
+      "cnf_sha256": "D985855596CCEE155E44553D7ACEDE94561DA37930E52B38F6DCB0827CDEEBA9",
+      "binary_drat_sha256": "5EDFE9678D87E9D548279464BE105C818FE23890C96F17779FEFB818C27D39A2",
+      "ascii_drat_sha256": "F06775B321AF8E71BC9B23F7215D2D376D1BAF015D7FAA59EA196E662EEFFB0F",
+      "proof_clauses": 290,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 200 variables and 627 clauses\n\nc finished parsing\n\nc UNSAT via unit propagation on the input instance\n\nc 8 of 627 clauses in core                            \n\nc 1 of 46 lemmas in core using 8 resolution steps\n\nc 0 RAT lemmas in core; 0 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.058 seconds\n"
+    },
+    {
+      "sigma": 6,
+      "cnf_sha256": "C0E2C4C1694EA284DDCD4B5C816063DEDBD977633F7FA7A054C974C78F16681A",
+      "binary_drat_sha256": "7E832EBBE3047F1889ED30F93A9AA3D1AB2D9EFBE01C0940A91446BAF976A1E4",
+      "ascii_drat_sha256": "B9D038131BFBE0F52FE9B6E24C4A87023D9E6FD3A9D24EAEBCD965B784512541",
+      "proof_clauses": 2344,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 504 variables and 1655 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 66 of 1655 clauses in core                            \n\nc 57 of 1066 lemmas in core using 199 resolution steps\n\nc 0 RAT lemmas in core; 5 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.065 seconds\n"
+    },
+    {
+      "sigma": 7,
+      "cnf_sha256": "5768D4C515482480026B9A47DA4C9919C36E63C32E5E73238EE2CC7252CB4D30",
+      "binary_drat_sha256": "FBA9A3B505481131F1E861B41DBD175844109FF839CF1CB1040CD187007F3B8D",
+      "ascii_drat_sha256": "124F9282FF2F3B6D8F5F45692C4A5ADB4F7A94EDCF21875F6E2C2BFD852D2B08",
+      "proof_clauses": 7295,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 978 variables and 3371 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 466 of 3371 clauses in core                            \n\nc 371 of 3549 lemmas in core using 1998 resolution steps\n\nc 13 RAT lemmas in core; 21 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.075 seconds\n"
+    },
+    {
+      "sigma": 8,
+      "cnf_sha256": "CA1535315622245445D23DD4C3072912C18C6C5B3C529A1D400B65FCFAF65A52",
+      "binary_drat_sha256": "E570A214C72F9B0317C5E11174BC93445A1161D45021AC604984B72A6BCE7865",
+      "ascii_drat_sha256": "0B518460164093E6D7491A1EE39F50C2CF83BA0C0D1A902DADB7336D3AC82BDE",
+      "proof_clauses": 7954,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 1674 variables and 6028 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 837 of 6028 clauses in core                            \n\nc 653 of 3580 lemmas in core using 5193 resolution steps\n\nc 77 RAT lemmas in core; 71 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.087 seconds\n"
+    },
+    {
+      "sigma": 9,
+      "cnf_sha256": "C3540D69A8C844116DB8C14B5F396566AA2DA56C93D040C1A84D3FBBB1DC6734",
+      "binary_drat_sha256": "314AF4A56AD77352C825F0A36E4D76ABC081660AC0070FA81196E29CB4D6EB3D",
+      "ascii_drat_sha256": "912F4A3163C6699BDE1BEBB75BB33DA34CBBBDE3B567A8BFE3E0967E1299D660",
+      "proof_clauses": 12069,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 2893 variables and 10806 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1809 of 10806 clauses in core                            \n\nc 1180 of 5613 lemmas in core using 15614 resolution steps\n\nc 190 RAT lemmas in core; 169 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.115 seconds\n"
+    },
+    {
+      "sigma": 10,
+      "cnf_sha256": "154A2EE0E4FE4801EB748B5491E71AEE7BE6428287979D6EA8140839F4A4C908",
+      "binary_drat_sha256": "8C5BAAAF33355F34686CF5C059E0954929F215A7E45E8A40EFB64B8966C53D2A",
+      "ascii_drat_sha256": "DFFC43DCB3A7918A979CFB226759A0806E91832A4A6F470FFF4594516FD7F844",
+      "proof_clauses": 17925,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 4588 variables and 17692 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 3685 of 17692 clauses in core                            \n\nc 2413 of 9213 lemmas in core using 67977 resolution steps\n\nc 401 RAT lemmas in core; 379 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.190 seconds\n"
+    },
+    {
+      "sigma": 11,
+      "cnf_sha256": "0DD45617588DC6727718EEC9C649E292AC2633B9A8CABAE9606858C26D7121FD",
+      "binary_drat_sha256": "44EA9F7C28AB3579791CEEB27E33EF4DDC4BB1875DF0D4DDD00854682FE8F837",
+      "ascii_drat_sha256": "2E7058478AFE264155D5A8C4B3ADC2C3F1C2FCC6DBA2876AF92E7D558AA9172C",
+      "proof_clauses": 41755,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 6868 variables and 27224 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 6530 of 27224 clauses in core                            \n\nc 4906 of 19025 lemmas in core using 189956 resolution steps\n\nc 708 RAT lemmas in core; 1784 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.395 seconds\n"
+    },
+    {
+      "sigma": 12,
+      "cnf_sha256": "1AC709D143487E61CAD29C0866E6D46DA0B91F70F1BF24B430DC75AB32FB5428",
+      "binary_drat_sha256": "362EB9D854082B63ACBCCB29FA8016E30365D6ABFE91E275B445F8CF9B6608F3",
+      "ascii_drat_sha256": "C7F59089D3E219552CB6E46459D5394B47A9394B2832DC14BE6DA4F92BDA8902",
+      "proof_clauses": 74399,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 10318 variables and 41846 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 11283 of 41846 clauses in core                            \n\nc 10190 of 30653 lemmas in core using 481653 resolution steps\n\nc 1389 RAT lemmas in core; 2145 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.905 seconds\n"
+    },
+    {
+      "sigma": 13,
+      "cnf_sha256": "70440537B4C02C53B3D6ED4509C3A1DBDA352FC73DAB03A61D86A627A303E991",
+      "binary_drat_sha256": "368CC6F88C85474D21AF1132A1C7E939FF6329E6B1976F5385A9BFC039DA543C",
+      "ascii_drat_sha256": "5925525825F98CBE9B271DB49304EFD1D7A66FCE1515C59F4C6FA84D28D70D51",
+      "proof_clauses": 110810,
+      "empty_addition_present": true,
+      "drat_trim_returncode": 0,
+      "drat_trim_verified": true,
+      "transcript_tail": "\nc parsing input formula with 14805 variables and 61253 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 18867 of 61253 clauses in core                            \n\nc 18499 of 47767 lemmas in core using 853785 resolution steps\n\nc 2299 RAT lemmas in core; 4606 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 2.099 seconds\n"
+    }
+  ],
+  "runtime_seconds": 5.047,
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]"
+}

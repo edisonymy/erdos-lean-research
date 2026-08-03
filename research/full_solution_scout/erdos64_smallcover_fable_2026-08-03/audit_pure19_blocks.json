@@ -1,0 +1,19 @@
+{
+  "audit_basis": "Every stored vertex sequence is a simple alternating C16/C32; the recorded clause exactly equals the disjunction of negated X[p,j] incidences on that cycle under the deterministic prefix-line labeling.",
+  "bytes": 89897,
+  "cycle_length_counts": {
+    "16": 512
+  },
+  "duplicate_clause_records": 0,
+  "encoding_constants": {
+    "max_lines": 57,
+    "max_x_var": 1083,
+    "sigma": 19
+  },
+  "errors": [],
+  "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_smallcover_fable_2026-08-03\\blocks_pure19.jsonl",
+  "records": 512,
+  "sha256": "B0A854F41974C2FE740E5B9B80425D7238C07ADB3B292A32AB50854DCF15D9F1",
+  "status": "PASS",
+  "validated_records": 512
+}

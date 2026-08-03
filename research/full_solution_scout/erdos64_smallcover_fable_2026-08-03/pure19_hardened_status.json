@@ -1,0 +1,13 @@
+{
+  "blocks": 512,
+  "certification": {
+    "returncode": 15,
+    "solve_log": "pure19_final_20260803T211655Z.cadical.log",
+    "status": "CERT_SOLVER_FAILED"
+  },
+  "cnf": "pure19_final_20260803T211655Z.cnf",
+  "cnf_sha256": "2B78BD846EEF041355834C1A1EEF1D526E9F88F844DA624C9C40E5DF27E3AD02",
+  "rounds_this_run": 1,
+  "seconds": 208.7,
+  "status": "CERT_SOLVER_FAILED"
+}

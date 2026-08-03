@@ -1,0 +1,142 @@
+{
+  "schema": "erdos64-pure19-c16-certified-unsat-v1",
+  "status": "CERTIFIED_UNSAT",
+  "generated_utc": "2026-08-03T21:43:10.022Z",
+  "solver_finished_utc": "2026-08-03T21:27:16Z",
+  "checker_finished_utc": "2026-08-03T21:37:54Z",
+  "claim": {
+    "theorem": "There is no finite simple bipartite graph G of minimum degree at least 3, with a bipartition class of size 19, that contains no simple cycle of length 4, 8, or 16.",
+    "equivalent_part_size_form": "Every finite simple bipartite graph of minimum degree at least 3 with no C4, C8, or C16 has both bipartition classes different from 19.",
+    "direct_scope": "The fixed side has 19 vertices; the opposite side is arbitrary. C4-freeness and minimum degree imply that it has at most C(19,2)/3 = 57 vertices, which is the exact finite encoding cap.",
+    "c32_required": false,
+    "full_erdos_64_solution": false
+  },
+  "encoding": {
+    "sigma": 19,
+    "max_lines": 57,
+    "variables": 85498,
+    "base_clauses": 381346,
+    "c16_block_clauses": 512,
+    "total_clauses": 381858,
+    "cnf": {
+      "path": "pure19_final_20260803T211655Z.cnf",
+      "bytes": 6712518,
+      "sha256": "2B78BD846EEF041355834C1A1EEF1D526E9F88F844DA624C9C40E5DF27E3AD02"
+    },
+    "blocks": {
+      "path": "blocks_pure19.jsonl",
+      "records": 512,
+      "cycle_length_counts": {
+        "16": 512
+      },
+      "bytes": 89897,
+      "sha256": "B0A854F41974C2FE740E5B9B80425D7238C07ADB3B292A32AB50854DCF15D9F1"
+    },
+    "completeness_chain": [
+      "Use the 19-vertex bipartition class as points and the neighborhoods of vertices in the other class as hyperedges.",
+      "Minimum degree makes every hyperedge have size at least 3 and every point have degree at least 3.",
+      "C4-freeness makes the hypergraph linear, so pair counting bounds the number of hyperedges by 57; unused prefix slots pad every instance to the fixed encoding.",
+      "The static quadrilateral clauses are equivalent to C8-freeness under the audited linear-incidence semantics.",
+      "Each learned clause forbids one exact simple alternating C16. Every stored block was independently decoded and checked.",
+      "The final CNF was reconstructed independently as the exact 381346-clause base followed by the exact 512 stored C16 blocks."
+    ]
+  },
+  "solver": {
+    "name": "CaDiCaL",
+    "version": "1.9.5",
+    "binary_path": "../../../third_party/cadical/cadical-linux",
+    "binary_bytes": 1095336,
+    "binary_sha256": "0FFCD0BB1265203C8744B677DCD8D37185D24CBE00F723D53F2431ADE02D0750",
+    "proof": {
+      "path": "pure19_final_20260803T211655Z.fresh_single.drat",
+      "format": "binary DRAT",
+      "bytes": 230688966,
+      "sha256": "9995B9DC0EE484E525826F18D8D2C17448C466372C9B5C57D34F54E6F0A0F98E"
+    },
+    "stdout": {
+      "path": "pure19_final_20260803T211655Z.fresh_single.cadical.log",
+      "bytes": 16,
+      "sha256": "BDE6E1EEDE96772C07C8CE29FD18088863815BD043AA59A06F11F5838CF8A162",
+      "contains": "s UNSATISFIABLE"
+    },
+    "stderr": {
+      "path": "pure19_final_20260803T211655Z.fresh_single.cadical.err.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  },
+  "checker": {
+    "name": "drat-trim",
+    "binary_path": "../../../third_party/drat-trim/drat-trim",
+    "binary_bytes": 53400,
+    "binary_sha256": "FE99E01A4990E34789C61A17966A5C13BCDEA5EB4C6FBF94F06D55B4718D0B2D",
+    "input_proof_bytes_read": 230688966,
+    "returncode": 0,
+    "verdict": "s VERIFIED",
+    "verification_seconds": 473.860,
+    "rat_lemmas_in_core": 0,
+    "stdout": {
+      "path": "pure19_final_20260803T211655Z.fresh_single.linux-drat-trim.log",
+      "bytes": 475,
+      "sha256": "CEF389F9182F86EB26C47B7DA0893ADD2D436D2D47A137E54BE379CD9FADCBE6"
+    },
+    "stderr": {
+      "path": "pure19_final_20260803T211655Z.fresh_single.linux-drat-trim.err.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    }
+  },
+  "independent_audits": [
+    {
+      "path": "audit_pure19_blocks.json",
+      "status": "PASS",
+      "sha256": "E6760650646097BCD7DF96A6D1C6F4A8A58036F5C91EE1FFE4522E30E7543C14"
+    },
+    {
+      "path": "audit_pure19_final_20260803T211655Z.cnf.audit.json",
+      "status": "PASS",
+      "sha256": "FF58BF207E407C4247A3D55D41CC4E441F46CD3E088C112AF660564C1C472B71"
+    },
+    {
+      "path": "root_independent_audit_2026-08-03/c8_equivalence_audit.json",
+      "status": "PASS",
+      "sha256": "6E821D956128BF1CB46197A15936D6394DF6C466052AB63A75337B238073E4D0"
+    },
+    {
+      "path": "root_independent_audit_2026-08-03/symmetry_audit.json",
+      "status": "PASS",
+      "sha256": "0EA7569601DC7EC47769CDEEB2D4F2DDD80E9EFABD6721FF4DD841070B859B56"
+    }
+  ],
+  "checker_diagnostic": {
+    "excluded_from_certification": "The native Windows drat-trim build read only 622 bytes of this 230688966-byte binary proof and returned NOT VERIFIED/no conflict. Its transcript is preserved as pure19_final_20260803T211655Z.fresh_single.drat-trim.log. The valid certification is the Linux replay above, which read every proof byte and returned VERIFIED.",
+    "invalid_interleaved_proof": "An earlier proof path was written by two accidental concurrent CaDiCaL processes. It is explicitly quarantined as interleaved.INVALID and is not used by any claim."
+  },
+  "corollaries": {
+    "standalone": "Any bipartite Erdős-Gyárfás counterexample has neither bipartition class of size 19.",
+    "combined_with_sigma_le_18_ladder": "Together with the separately verified sigma <= 18 ladder, every bipartite Erdős-Gyárfás counterexample has at least 20 vertices in each class, hence at least 40 vertices in total.",
+    "combined_evidence": [
+      {
+        "path": "root_pure_certificates_5_13_audit.json",
+        "sha256": "5DE1CA89BB800E14FAEE6127BF1065AB61570918B42C682FC48FC28246E40CDB"
+      },
+      {
+        "path": "root_independent_audit_2026-08-03/fresh_sigma14_18_certificate_manifest.json",
+        "sha256": "ACB652A2966360CBD2112D270EC4CB5373CE330B8AF21B44BE8DFC845720D895",
+        "archive_caveat": "The manifest labels the regenerated 14--18 artifacts local-temporary; archive them before a public reproducibility claim for the combined ladder."
+      }
+    ]
+  },
+  "priority_status": {
+    "classification": "PLAUSIBLY_NEW_PENDING_SPECIALIST_CONFIRMATION",
+    "reason": "A targeted search found the older 32-vertex general bipartite bound, a 2026 32-vertex general SAT bound, and a 60-vertex bound restricted to cubic bipartite graphs, but no prior statement of the side-size-20 theorem. The weaker total-order-40 corollary is already implicit in the McKay-Afzaly C4/C8 extremal table plus the known order-38 graph's C16 and must not be advertised as independently novel.",
+    "search_record": "PRIORITY_SEARCH_PURE19_C16_2026-08-03.md"
+  },
+  "publication_status": "INTERNAL_CERTIFIED_RESULT_NOT_YET_SPECIALIST_CONFIRMED",
+  "not_claimed": [
+    "A full proof or counterexample for Erdős problem 64",
+    "Novelty of the order-38 F038A graph or the total-order-38 C4/C8 threshold",
+    "Novelty of the weaker total-order-40 corollary",
+    "Any exclusion involving C32 in this final certificate"
+  ]
+}

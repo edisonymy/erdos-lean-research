@@ -1,5 +1,15 @@
 # HANDOVER — Erdős #64 small-cover / two-defect / σ=19-hunt lanes
 
+> **SUPERSEDED HANDOVER — DO NOT USE ITS PRIORITY OR LIVE-RUN CLAIMS.**
+> A hostile successor audit found that the claimed new 38-vertex witness is
+> Gordon Royle's 2009 graph `F038A`, that minimum total order 38 was already
+> implicit in the McKay--Afzaly exact table, that the correct unoriented
+> `C6` count is 19, and that the stated `38..50` hunt range was wrong.  The
+> corrected record and exact isomorphism are in
+> `root_independent_audit_2026-08-03/`.  Fresh certificates now verify the
+> per-side exclusion through 18, and the successor σ=19 `C16` exclusion is
+> recorded separately.  The text below is retained only as historical state.
+
 **From:** Fable long-horizon session, 2026-08-03 (~19:20–21:15 UTC).
 **To:** successor agent (Sonnet 5.6 or other).
 **Branch:** `claude/erdos-64-research-8a0ieh`, PR #10 (draft, subscribed).

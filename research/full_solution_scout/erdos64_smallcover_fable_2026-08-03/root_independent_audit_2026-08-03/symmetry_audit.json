@@ -1,0 +1,16 @@
+{
+  "doublelex_orbit_check": {
+    "dimensions": [
+      3,
+      4
+    ],
+    "matrices": 4096,
+    "orbits_without_doublelex_representative": 0
+  },
+  "general_soundness_argument": "Choose a row/column permutation whose row-major bitstring is lexicographically maximal. Any inverted adjacent row or column could be swapped to increase that bitstring, so both orders hold.",
+  "lex_aux_truth_table": {
+    "cases": 1364,
+    "mismatches": 0
+  },
+  "verdict": "PASS"
+}
