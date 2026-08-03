@@ -1,0 +1,44 @@
+{
+  "status": "VERIFIED",
+  "source_sha256": "1f879e428321c77661d7a5d11defbaae9824b1cb5985384f92e1e57aa814e9d9",
+  "geng_path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+  "geng_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+  "geng_graph6_stream_sha256": "c8ed9507f39345062f5f339a9a9150ad77a9f5dbeeaaa20410ba7d58c8a323c9",
+  "geng_stderr": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "method": "nauty geng connected types; component multisets; NetworkX VF2 monomorphism; all colorings",
+  "independent_connected_type_counts_by_edges": {
+    "1": 1,
+    "2": 1,
+    "3": 3,
+    "4": 5,
+    "5": 12,
+    "6": 30,
+    "7": 79
+  },
+  "independent_host_type_counts_by_edges": {
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 11,
+    "5": 26,
+    "6": 68,
+    "7": 177
+  },
+  "counts_agree": true,
+  "saved_avoiding_colorings_checked": 290,
+  "saved_avoiding_coloring_failures": [],
+  "saved_count_ok": true,
+  "saved_hash_ok": true,
+  "arrowing_hosts": [],
+  "avoiding_witness_rows_sha256": "3c06c66a0e2f877b927787156b21b2109a20a4058c5d6ed005c1238076c479ef",
+  "elapsed_seconds": 0.7688250541687012,
+  "full_problem_resolved": false
+}

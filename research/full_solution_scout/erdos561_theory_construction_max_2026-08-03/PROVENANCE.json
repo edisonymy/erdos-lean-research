@@ -1,0 +1,76 @@
+{
+  "campaign_date": "2026-08-03",
+  "erdos_problem": 561,
+  "claim_boundary": "one exact asymmetric tuple plus bounded null construction searches; no full solution and no counterexample",
+  "public_actions": [],
+  "git_actions": [],
+  "deletions": [],
+  "sources_checked": [
+    {
+      "role": "live_statement_and_listed_cases",
+      "url": "https://www.erdosproblems.com/561",
+      "accessed": "2026-08-03"
+    },
+    {
+      "role": "original_uniform_case",
+      "citation": "Burr--Erdos--Faudree--Rousseau--Schelp, Ramsey-minimal graphs for multiple copies (1978)",
+      "url": "https://combinatorica.hu/~p_erdos/1978-38.pdf",
+      "accessed": "2026-08-03"
+    },
+    {
+      "role": "numerical_sufficient_condition",
+      "citation": "Gyori--Schelp, Two-edge colorings of graphs with bounded degree in both colors (2002)",
+      "url": "https://doi.org/10.1016/S0012-365X(01)00238-2",
+      "accessed": "2026-08-03"
+    },
+    {
+      "role": "tail_one_family_theorem_18",
+      "citation": "Yen-Jen Cheng, Size Ramsey Numbers of Star Forests, NTU master's thesis (2010)",
+      "url": "https://tdr.lib.ntu.edu.tw/jspui/bitstream/123456789/10630/1/ntu-99-1.pdf",
+      "accessed": "2026-08-03"
+    },
+    {
+      "role": "published_special_cases",
+      "citation": "Davoodi--Javadi--Kamranian--Raeisi, On a Conjecture of Erdos on Size Ramsey Number of Star Forests",
+      "url": "https://arxiv.org/abs/2111.02065",
+      "accessed": "2026-08-03"
+    },
+    {
+      "role": "current_2026_uniform_only_boundary",
+      "citation": "Fu--Luo--Ni, Size Ramsey minimal graphs for uniform star forests, v3, 4 July 2026",
+      "url": "https://arxiv.org/html/2606.04439v3",
+      "accessed": "2026-08-03"
+    }
+  ],
+  "environment": {
+    "os": "Windows",
+    "python": "3.12.4 (Anaconda build, MSC v.1929 64 bit)",
+    "networkx": "3.5",
+    "python_sat": "1.9.dev7",
+    "sat_backend": "Glucose4 via python-sat"
+  },
+  "runs": [
+    {
+      "script": "construction_sweep.py",
+      "arguments": ["--max-bound", "14", "--max-targets", "20"],
+      "result": "construction_sweep_result.json",
+      "outcome": "NO_CANDIDATE_IN_NAMED_FAMILIES"
+    },
+    {
+      "script": "stochastic_construction.py",
+      "arguments": ["--target-index", "0", "--n-min", "10", "--n-max", "10", "--restarts", "120", "--steps", "700", "--seed", "5610817"],
+      "result": "stochastic_construction_result.json",
+      "outcome": "NO_CANDIDATE_IN_STOCHASTIC_PULSE"
+    },
+    {
+      "script": "verify_obstruction.py",
+      "arguments": [],
+      "result": "obstruction_verification.json",
+      "outcome": "VERIFIED"
+    }
+  ],
+  "external_parallel_status": {
+    "note": "Parent campaign reported a separate complete meta-sweep null at formula values 8, 9, and 10; its independent audit and artifacts are outside this package. This package does not use that sweep as proof of any claim."
+  },
+  "stop_reason": "No below-bound host in principled families or stochastic design, smallest clean tuple closed positively, parallel complete small-host sweep null through formula value 10, and acute active-2026 collision risk."
+}

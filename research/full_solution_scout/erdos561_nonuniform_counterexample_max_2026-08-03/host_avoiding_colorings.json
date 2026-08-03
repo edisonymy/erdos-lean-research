@@ -1,0 +1,11663 @@
+{
+  "schema": "erdos561-nonuniform-avoiding-colorings-v1",
+  "red_target": "K_{1,2} disjoint-union K_{1,1}",
+  "blue_target": "2 K_{1,2}",
+  "records": [
+    {
+      "n": 2,
+      "m": 1,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "component_type_ids": [
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 3,
+      "m": 2,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "component_type_ids": [
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "component_type_ids": [
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "component_type_ids": [
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 4,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        10
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:17"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        11
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:34"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        12
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:35"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        13
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:36"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        14
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:37"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        15
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:38"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        16
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:77"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        17
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:78"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        18
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:79"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        19
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:80"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        20
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:81"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        21
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:83"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 12,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 11,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        10
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:17"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        11
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:34"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        12
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:35"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        13
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:36"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        14
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:37"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        15
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:38"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        16
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:77"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        17
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:78"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        18
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:79"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        19
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:80"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        20
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:81"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        21
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:83"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 9,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        1,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        4,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 4,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        22
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:18"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        23
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:40"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        24
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:41"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        25
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:42"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        26
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:43"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        27
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:44"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        28
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:100"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        29
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:102"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        30
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:103"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        31
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:104"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        32
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:105"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        33
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:92"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        34
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:93"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        35
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:94"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        36
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:95"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        37
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:96"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        38
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:97"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        39
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:98"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        40
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:99"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        41
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:270"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        42
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:271"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        43
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:272"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        44
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:273"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        45
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:274"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        46
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:276"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        47
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:278"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        48
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:279"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        49
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:280"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        50
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:284"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        51
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:286"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 14,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 13,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 12,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 12,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 12,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 8
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        0,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        1,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        10
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:17"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        11
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:34"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        12
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:35"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        13
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:36"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        14
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:37"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        15
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:38"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        16
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:77"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        17
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:78"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        18
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:79"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        19
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:80"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        20
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:81"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        0,
+        21
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:83"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 11,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        1,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        2,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        2,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        2,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        3,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        3,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        4,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        22
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:18"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        23
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:40"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        24
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:41"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        25
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:42"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        26
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:43"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        27
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:44"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        28
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:100"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        29
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:102"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        30
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:103"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        31
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:104"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        32
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:105"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        33
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:92"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        34
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:93"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        35
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:94"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        36
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:95"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        37
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:96"
+      ],
+      "avoiding_red_mask": 8
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        38
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:97"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        39
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:98"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        40
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:99"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        41
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:270"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        42
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:271"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        43
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:272"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        44
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:273"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        45
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:274"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        46
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:276"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        47
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:278"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        48
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:279"
+      ],
+      "avoiding_red_mask": 8
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        49
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:280"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        50
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:284"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        0,
+        51
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:3",
+        "networkx_graph_atlas:286"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        1,
+        2
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:7"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        1,
+        3
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:13"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 10,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        1,
+        4
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:14"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        10
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:17"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        11
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:34"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        12
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:35"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        13
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:36"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        14
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:37"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        15
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:38"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        16
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:77"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        17
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:78"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        18
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:79"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        19
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:80"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        20
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:81"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        1,
+        21
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:6",
+        "networkx_graph_atlas:83"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        2,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:7",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        3,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:13",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        4,
+        5
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:15"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        4,
+        6
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:16"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        4,
+        7
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:29"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "component_type_ids": [
+        4,
+        8
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:30"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 9,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        4,
+        9
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:14",
+        "networkx_graph_atlas:31"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        52
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:45"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        53
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:46"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        54
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:47"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        55
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:48"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        56
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:111"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        57
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:112"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        58
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:113"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        59
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:114"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        60
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:115"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        61
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:117"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        62
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:118"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        63
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:119"
+      ],
+      "avoiding_red_mask": 9
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        64
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:120"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        65
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:121"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        66
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:122"
+      ],
+      "avoiding_red_mask": 7
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        67
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:123"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        68
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:124"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        69
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:125"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        70
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:126"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        71
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:127"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        72
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:128"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        73
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:129"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        74
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:130"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        75
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:314"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        76
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:315"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        77
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:316"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        78
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:317"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        79
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:318"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        80
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:319"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        81
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:320"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        82
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:321"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        83
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:322"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        84
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:324"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        85
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:325"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        86
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:326"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        87
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:327"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        88
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:328"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        89
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:329"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        90
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:331"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        91
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:332"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        92
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:333"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        93
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:334"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        94
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:336"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        95
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:337"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        96
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:338"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        97
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:339"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        98
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:340"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        99
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:341"
+      ],
+      "avoiding_red_mask": 1
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        100
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:342"
+      ],
+      "avoiding_red_mask": 7
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        101
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:343"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        102
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:344"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        103
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:348"
+      ],
+      "avoiding_red_mask": 3
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        104
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:349"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        105
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:350"
+      ],
+      "avoiding_red_mask": 10
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        106
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:351"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 7,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        107
+      ],
+      "component_sources": [
+        "networkx_graph_atlas:353"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        108
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:0"
+      ],
+      "avoiding_red_mask": 9
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        109
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:1"
+      ],
+      "avoiding_red_mask": 12
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        110
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:10"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        111
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:11"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        112
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:12"
+      ],
+      "avoiding_red_mask": 13
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        113
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:13"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        114
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:14"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        115
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:15"
+      ],
+      "avoiding_red_mask": 9
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        116
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:16"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "component_type_ids": [
+        117
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:17"
+      ],
+      "avoiding_red_mask": 6
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "component_type_ids": [
+        118
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:18"
+      ],
+      "avoiding_red_mask": 14
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        119
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:19"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        120
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:2"
+      ],
+      "avoiding_red_mask": 12
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "component_type_ids": [
+        121
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:20"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "component_type_ids": [
+        122
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:21"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        123
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:22"
+      ],
+      "avoiding_red_mask": 0
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        124
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:3"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        125
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:4"
+      ],
+      "avoiding_red_mask": 5
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        126
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:5"
+      ],
+      "avoiding_red_mask": 2
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        127
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:6"
+      ],
+      "avoiding_red_mask": 9
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        128
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:7"
+      ],
+      "avoiding_red_mask": 4
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "component_type_ids": [
+        129
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:8"
+      ],
+      "avoiding_red_mask": 9
+    },
+    {
+      "n": 8,
+      "m": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "component_type_ids": [
+        130
+      ],
+      "component_sources": [
+        "networkx_nonisomorphic_trees_8:9"
+      ],
+      "avoiding_red_mask": 6
+    }
+  ]
+}

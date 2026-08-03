@@ -127,11 +127,16 @@ because the original problem lacked a public Lean statement.
   claim an exact-SCIP proof through ground-set size eight.  The thesis did not
   emit the projected >1 TB VIPR certificate, but it removes first-credit value
   from this finite case.
-- **Erdős #561 (active counterexample probe):** two bounded, orthogonal lanes
-  are auditing genuinely uncovered nonuniform star-forest tuples.  A single
-  verified host below the conjectured formula would fully refute the universal
-  statement.  No tuple is allowed to enter compute before the 2010--2026
-  special-case and priority literature is cleared.
+- **Erdős #561 (three exact finite cases; full lane stopped):** complete
+  small-host catalogues and independently checked avoiding colourings prove
+  the conjectured values 8, 9, and 10 for three previously uncovered
+  two-component target pairs.  The value-9 case also has a short analytic
+  lower-bound proof using a matching that saturates every cubic vertex in an
+  at-most-eight-edge subcubic graph.  No below-formula host was found, so this
+  does not resolve #561.  Novelty is plausible but remains subject to
+  specialist review because a withdrawn 2026 preprint version briefly claimed
+  the full conjecture.  See the [exact-case report](research/full_solution_scout/erdos561_nonuniform_counterexample_max_2026-08-03/REPORT.md)
+  and [analytic proof](research/full_solution_scout/erdos561_theory_construction_max_2026-08-03/CLAIMS.md).
 
 The earlier #617 `r = 5` campaign is stopped and retained only as an explicitly
 superseded audit. A 24 July 2026 Zenodo preprint records Robert Sneiderman's proof and

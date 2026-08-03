@@ -1,0 +1,490 @@
+{
+  "schema": "erdos561-two-component-meta-sweep-v1",
+  "scope": "all genuinely uncovered asymmetric two-component tuples with formula <=10 after the audited formula-8 probe",
+  "parameter_audit": [
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        1,
+        1
+      ],
+      "layers": [
+        1,
+        1,
+        1
+      ],
+      "formula": 3,
+      "proved_family_reasons": [
+        "BEFRS_uniform_both",
+        "Cheng14_and_DJKR2.5_all_odd",
+        "Cheng14_one_side_matching",
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "layers": [
+        2,
+        2,
+        1
+      ],
+      "formula": 5,
+      "proved_family_reasons": [
+        "Cheng14_one_side_matching",
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "layers": [
+        2,
+        2,
+        2
+      ],
+      "formula": 6,
+      "proved_family_reasons": [
+        "BEFRS_uniform_both",
+        "Cheng14_one_side_matching",
+        "DJKR2.4_two_equal_stars_vs_min_degree_two"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        3,
+        1
+      ],
+      "layers": [
+        3,
+        3,
+        1
+      ],
+      "formula": 7,
+      "proved_family_reasons": [
+        "Cheng14_and_DJKR2.5_all_odd",
+        "Cheng14_one_side_matching",
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "layers": [
+        3,
+        3,
+        2
+      ],
+      "formula": 8,
+      "proved_family_reasons": [
+        "Cheng14_one_side_matching",
+        "DJKR2.4_two_equal_stars_vs_min_degree_two"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        3,
+        3
+      ],
+      "layers": [
+        3,
+        3,
+        3
+      ],
+      "formula": 9,
+      "proved_family_reasons": [
+        "BEFRS_uniform_both",
+        "Cheng14_and_DJKR2.5_all_odd",
+        "Cheng14_one_side_matching",
+        "DJKR2.4_two_equal_stars_vs_min_degree_two"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        4,
+        1
+      ],
+      "layers": [
+        4,
+        4,
+        1
+      ],
+      "formula": 9,
+      "proved_family_reasons": [
+        "Cheng14_one_side_matching",
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        1,
+        1
+      ],
+      "b": [
+        4,
+        2
+      ],
+      "layers": [
+        4,
+        4,
+        2
+      ],
+      "formula": 10,
+      "proved_family_reasons": [
+        "Cheng14_one_side_matching",
+        "DJKR2.4_two_equal_stars_vs_min_degree_two"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "layers": [
+        3,
+        2,
+        1
+      ],
+      "formula": 6,
+      "proved_family_reasons": [
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "layers": [
+        3,
+        3,
+        2
+      ],
+      "formula": 8,
+      "proved_family_reasons": [],
+      "uncovered": true
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        1
+      ],
+      "layers": [
+        4,
+        3,
+        1
+      ],
+      "formula": 8,
+      "proved_family_reasons": [
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "layers": [
+        4,
+        3,
+        2
+      ],
+      "formula": 9,
+      "proved_family_reasons": [],
+      "uncovered": true,
+      "structural_rank_reason": "both forests are nonuniform and mixed-parity, so this tuple is furthest from the uniform and all-odd proofs"
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        4,
+        1
+      ],
+      "layers": [
+        5,
+        4,
+        1
+      ],
+      "formula": 10,
+      "proved_family_reasons": [
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        2,
+        2
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "layers": [
+        3,
+        3,
+        3
+      ],
+      "formula": 9,
+      "proved_family_reasons": [
+        "BEFRS_uniform_both",
+        "DJKR2.4_two_equal_stars_vs_min_degree_two"
+      ],
+      "uncovered": false
+    },
+    {
+      "a": [
+        2,
+        2
+      ],
+      "b": [
+        3,
+        1
+      ],
+      "layers": [
+        4,
+        4,
+        2
+      ],
+      "formula": 10,
+      "proved_family_reasons": [],
+      "uncovered": true,
+      "structural_rank_reason": "one forest is uniform; the tuple escapes DJKR Theorem 2.4 only because the other forest has a degree-1 tail"
+    },
+    {
+      "a": [
+        3,
+        1
+      ],
+      "b": [
+        3,
+        1
+      ],
+      "layers": [
+        5,
+        3,
+        1
+      ],
+      "formula": 9,
+      "proved_family_reasons": [
+        "Cheng14_and_DJKR2.5_all_odd",
+        "Cheng18_both_tails_one"
+      ],
+      "uncovered": false
+    }
+  ],
+  "uncovered_rows_before_removing_completed_formula_8": [
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2
+      ],
+      "layers": [
+        3,
+        3,
+        2
+      ],
+      "formula": 8,
+      "proved_family_reasons": [],
+      "uncovered": true
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "layers": [
+        4,
+        3,
+        2
+      ],
+      "formula": 9,
+      "proved_family_reasons": [],
+      "uncovered": true,
+      "structural_rank_reason": "both forests are nonuniform and mixed-parity, so this tuple is furthest from the uniform and all-odd proofs"
+    },
+    {
+      "a": [
+        2,
+        2
+      ],
+      "b": [
+        3,
+        1
+      ],
+      "layers": [
+        4,
+        4,
+        2
+      ],
+      "formula": 10,
+      "proved_family_reasons": [],
+      "uncovered": true,
+      "structural_rank_reason": "one forest is uniform; the tuple escapes DJKR Theorem 2.4 only because the other forest has a degree-1 tail"
+    }
+  ],
+  "ranked_targets": [
+    {
+      "rank": 1,
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "layers": [
+        4,
+        3,
+        2
+      ],
+      "formula": 9,
+      "edge_ceiling": 8,
+      "structural_rank_reason": "both forests are nonuniform and mixed-parity, so this tuple is furthest from the uniform and all-odd proofs",
+      "hosts_checked": 787,
+      "avoiding_colorings_saved": 787,
+      "arrowing_hosts": []
+    },
+    {
+      "rank": 2,
+      "a": [
+        2,
+        2
+      ],
+      "b": [
+        3,
+        1
+      ],
+      "layers": [
+        4,
+        4,
+        2
+      ],
+      "formula": 10,
+      "edge_ceiling": 9,
+      "structural_rank_reason": "one forest is uniform; the tuple escapes DJKR Theorem 2.4 only because the other forest has a degree-1 tail",
+      "hosts_checked": 2263,
+      "avoiding_colorings_saved": 2263,
+      "arrowing_hosts": []
+    }
+  ],
+  "catalogue": {
+    "generator": "nauty geng connected graph6 types followed by component multisets",
+    "geng_path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "geng_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "graph6_stream_sha256": "cbdf6522f1ca8ca2388fad10ca7343654234f2420f265a82ee08f85883ad9371",
+    "geng_stderr": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "connected_type_counts_by_edges": {
+      "1": 1,
+      "2": 1,
+      "3": 3,
+      "4": 5,
+      "5": 12,
+      "6": 30,
+      "7": 79,
+      "8": 227,
+      "9": 710
+    },
+    "host_type_counts_by_edges": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 11,
+      "5": 26,
+      "6": 68,
+      "7": 177,
+      "8": 497,
+      "9": 1476
+    },
+    "host_types_generated_through_9_edges": 2263
+  },
+  "witness_file": "meta_sweep_avoiding_colorings.json",
+  "witness_file_sha256": "9f198f145e0c626606cbfa6036c7cb665a04bb233d28707687a4edb69c8a6eea",
+  "outcome": "NO_COUNTEREXAMPLE_IN_CAPPED_META_SWEEP",
+  "full_problem_resolved": false,
+  "stop_rule": "stop after these two rows unless a candidate appears",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "networkx_version": "3.5",
+  "elapsed_seconds": 0.463930606842041
+}

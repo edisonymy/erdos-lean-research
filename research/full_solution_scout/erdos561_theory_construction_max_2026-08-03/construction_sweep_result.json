@@ -1,0 +1,466 @@
+{
+  "candidates": [],
+  "connected_named_hosts": 180,
+  "disconnected_named_hosts": 1123,
+  "outcome": "NO_CANDIDATE_IN_NAMED_FAMILIES",
+  "scope": "targeted named-family construction search, not exhaustive graph search",
+  "target_filter": "small tuples not matched by conservative published-case rules",
+  "targets": [
+    {
+      "a": [
+        1,
+        1,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        1
+      ],
+      "bound": 9,
+      "host_counts_by_edges": {
+        "7": 49,
+        "8": 82
+      },
+      "hosts_tested": 131,
+      "l_values": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        1
+      ],
+      "bound": 9,
+      "host_counts_by_edges": {
+        "7": 52,
+        "8": 83
+      },
+      "hosts_tested": 135,
+      "l_values": [
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "bound": 9,
+      "host_counts_by_edges": {
+        "7": 52,
+        "8": 83
+      },
+      "hosts_tested": 135,
+      "l_values": [
+        4,
+        3,
+        2
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2,
+        1
+      ],
+      "bound": 10,
+      "host_counts_by_edges": {
+        "8": 83,
+        "9": 139
+      },
+      "hosts_tested": 222,
+      "l_values": [
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        2
+      ],
+      "bound": 11,
+      "host_counts_by_edges": {
+        "10": 207,
+        "9": 139
+      },
+      "hosts_tested": 346,
+      "l_values": [
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        4,
+        2
+      ],
+      "bound": 11,
+      "host_counts_by_edges": {
+        "10": 207,
+        "9": 139
+      },
+      "hosts_tested": 346,
+      "l_values": [
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "a": [
+        2,
+        1,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        1
+      ],
+      "bound": 11,
+      "host_counts_by_edges": {
+        "10": 205,
+        "9": 135
+      },
+      "hosts_tested": 340,
+      "l_values": [
+        3,
+        3,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        3,
+        1
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "bound": 11,
+      "host_counts_by_edges": {
+        "10": 206,
+        "9": 138
+      },
+      "hosts_tested": 344,
+      "l_values": [
+        5,
+        4,
+        2
+      ]
+    },
+    {
+      "a": [
+        1,
+        1,
+        1
+      ],
+      "b": [
+        3,
+        2,
+        1
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 206,
+        "11": 304
+      },
+      "hosts_tested": 510,
+      "l_values": [
+        3,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        3,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        1
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 206,
+        "11": 304
+      },
+      "hosts_tested": 510,
+      "l_values": [
+        4,
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "a": [
+        3,
+        2
+      ],
+      "b": [
+        2,
+        1,
+        1
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 205,
+        "11": 302
+      },
+      "hosts_tested": 507,
+      "l_values": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        2,
+        2
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 207,
+        "11": 304
+      },
+      "hosts_tested": 511,
+      "l_values": [
+        4,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        3,
+        3,
+        1
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 207,
+        "11": 304
+      },
+      "hosts_tested": 511,
+      "l_values": [
+        4,
+        4,
+        3,
+        1
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        4,
+        2,
+        1
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 207,
+        "11": 304
+      },
+      "hosts_tested": 511,
+      "l_values": [
+        5,
+        4,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        4,
+        3
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 207,
+        "11": 304
+      },
+      "hosts_tested": 511,
+      "l_values": [
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "a": [
+        2,
+        2,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        1
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 203,
+        "11": 300
+      },
+      "hosts_tested": 503,
+      "l_values": [
+        3,
+        3,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "a": [
+        3,
+        1
+      ],
+      "b": [
+        4,
+        2
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 206,
+        "11": 304
+      },
+      "hosts_tested": 510,
+      "l_values": [
+        6,
+        4,
+        2
+      ]
+    },
+    {
+      "a": [
+        3,
+        2
+      ],
+      "b": [
+        3,
+        2
+      ],
+      "bound": 12,
+      "host_counts_by_edges": {
+        "10": 205,
+        "11": 302
+      },
+      "hosts_tested": 507,
+      "l_values": [
+        5,
+        4,
+        3
+      ]
+    },
+    {
+      "a": [
+        2,
+        1
+      ],
+      "b": [
+        5,
+        2
+      ],
+      "bound": 13,
+      "host_counts_by_edges": {
+        "11": 304,
+        "12": 446
+      },
+      "hosts_tested": 750,
+      "l_values": [
+        6,
+        5,
+        2
+      ]
+    },
+    {
+      "a": [
+        2,
+        1,
+        1
+      ],
+      "b": [
+        2,
+        2,
+        2
+      ],
+      "bound": 13,
+      "host_counts_by_edges": {
+        "11": 302,
+        "12": 444
+      },
+      "hosts_tested": 746,
+      "l_values": [
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    }
+  ]
+}

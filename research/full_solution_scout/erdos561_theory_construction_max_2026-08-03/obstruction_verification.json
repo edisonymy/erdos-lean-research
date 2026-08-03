@@ -1,0 +1,73 @@
+{
+  "claim_scope": "independent finite audit; analytic proof remains authoritative",
+  "degree_pattern_audit": {
+    "rows": [
+      {
+        "degree_three_vertices": 4,
+        "edge_budget_eligible_patterns": 22,
+        "failed_patterns": 0,
+        "patterns_checked": 64
+      },
+      {
+        "degree_three_vertices": 5,
+        "edge_budget_eligible_patterns": 30,
+        "failed_patterns": 0,
+        "patterns_checked": 768
+      }
+    ],
+    "status": "VERIFIED"
+  },
+  "inputs": {
+    "stochastic_result_sha256": "acf11d6f7c52fa4bedd3b93334e04dec9ad5008c14fa1afaad6880c4b5e6645a"
+  },
+  "saved_near_host_audit": {
+    "blue_target_present": false,
+    "edges": [
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    "red_mask": 92,
+    "red_target_present": false,
+    "status": "VERIFIED_AVOIDING"
+  },
+  "status": "VERIFIED",
+  "upper_host_audit": {
+    "avoiding_colourings": [],
+    "blue_target_hit_colourings": 436,
+    "colourings_checked": 512,
+    "edges": 9,
+    "host": "K1,4 disjoint_union K1,3 disjoint_union K1,2",
+    "red_target_hit_colourings": 129,
+    "status": "VERIFIED"
+  }
+}

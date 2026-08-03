@@ -1,0 +1,72 @@
+{
+  "candidates": [],
+  "outcome": "NO_CANDIDATE_IN_STOCHASTIC_PULSE",
+  "restarts": 120,
+  "results": [
+    {
+      "a": [
+        3,
+        2
+      ],
+      "b": [
+        2,
+        1
+      ],
+      "bound": 9,
+      "by_order": [
+        {
+          "avoiding_red_mask": 92,
+          "best_edges": [
+            [
+              0,
+              9
+            ],
+            [
+              1,
+              9
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              9
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "blue_embeddings": 39,
+          "evaluations": 63267,
+          "m": 8,
+          "minimum_avoiding_colorings": 8,
+          "n": 10,
+          "red_embeddings": 19
+        }
+      ],
+      "edge_budget": 8,
+      "l_values": [
+        4,
+        3,
+        2
+      ]
+    }
+  ],
+  "scope": "stochastic edge-swap construction at formula bound minus one",
+  "seed": 5610817,
+  "steps": 700
+}

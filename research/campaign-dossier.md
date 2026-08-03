@@ -670,7 +670,7 @@ were stopped and order nine was not launched.  This collision reinforces the
 rule that current dissertations and later thesis chapters must be searched,
 not only problem databases and paper abstracts.
 
-### #151 construction evidence and current live allocation
+### #151 construction evidence, #561 exact cases, and current allocation
 
 Exact scans of three connected low-degree Cayley families found true minimum
 `beta` gaps of two, two, and three above their counterexample targets.  The
@@ -681,12 +681,28 @@ degree gate alone needs at least 247 edge deletions.  The sparse 63-vertex
 literature graph is vertex-arrowing rather than edge-arrowing and has a checked
 triangle-avoiding edge colouring.  Both construction lanes are killed.
 
-The live allocation is therefore deliberately narrow:
+The two bounded #561 attacks are now stopped.  They found no below-formula
+host, but complete nauty catalogues plus independently verified avoiding
+colourings establish three exact finite cases:
 
-1. two orthogonal, priority-first counterexample attacks on Erdős #561's
-   genuinely uncovered nonuniform star-forest cases, because one finite host
-   below the formula would resolve the universal conjecture negatively; and
-2. one hard #151 triangle-hypergraph/property-B theorem attack, with routine
-   graph-family enumeration still stopped.
+\[
+\widehat r((2,1),(2,2))=8,\qquad
+\widehat r((2,1),(3,2))=9,\qquad
+\widehat r((2,2),(3,1))=10.
+\]
+
+Here a degree pair abbreviates the corresponding disjoint union of two
+stars.  Explicit formula-size upper hosts were checked over every colouring.
+The middle equality also has a short analytic proof: every subcubic graph
+with at most eight edges has a matching saturating all cubic vertices, which
+directly supplies an avoiding colouring.  These results verify three cases
+of the conjecture rather than resolving it; priority is plausible but still
+requires specialist review because Fu--Luo--Ni v1's withdrawn blanket claim
+creates an unusual attribution boundary.
+
+The live allocation is now one #151 triangle-hypergraph/property-B theorem
+attack, one independent threshold-seven core search, and one fresh
+priority-first target-acquisition lane.  The #151 construction families and
+all larger #561 tuples remain stopped.
 
 No open Erdős problem is claimed solved at this checkpoint.

@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED",
+  "result_sha256": "72a19e0191116e0557f1977bea213ce67a51746096e35a2599f905638799faff",
+  "witness_file_sha256": "9f198f145e0c626606cbfa6036c7cb665a04bb233d28707687a4edb69c8a6eea",
+  "hash_agreement": true,
+  "method": "independent NetworkX VF2 non-induced monomorphism on every saved red/blue coloring",
+  "checked_by_rank": {
+    "1": 787,
+    "2": 2263
+  },
+  "edge_histograms_by_rank": {
+    "1": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 11,
+      "5": 26,
+      "6": 68,
+      "7": 177,
+      "8": 497
+    },
+    "2": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 11,
+      "5": 26,
+      "6": 68,
+      "7": 177,
+      "8": 497,
+      "9": 1476
+    }
+  },
+  "failures_by_rank": {
+    "1": [],
+    "2": []
+  },
+  "count_agreement": true,
+  "full_problem_resolved": false
+}

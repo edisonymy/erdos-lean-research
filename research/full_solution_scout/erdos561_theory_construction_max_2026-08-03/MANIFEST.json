@@ -1,0 +1,68 @@
+{
+  "schema": "campaign-artifact-manifest-v1",
+  "created": "2026-08-03",
+  "erdos_problem": 561,
+  "package": "erdos561_theory_construction_max_2026-08-03",
+  "outcome": "KILL_NO_FULL_CANDIDATE",
+  "verified_partial_claim": "size-Ramsey number of (K1,3 disjoint-union K1,2, K1,2 disjoint-union K1,1) equals 9",
+  "novelty_status": "PRIORITY_AUDIT_PENDING",
+  "files": [
+    {
+      "path": "CLAIMS.md",
+      "bytes": 6153,
+      "sha256": "233357a62e8c362281039e4d092f025ff6296c8273395fa740f92dd553ada2a5"
+    },
+    {
+      "path": "construction_sweep.py",
+      "bytes": 15857,
+      "sha256": "176af8a7a4de03907aee60e8d566e1edda8bd272447c46137e351c6b3f5fc614"
+    },
+    {
+      "path": "construction_sweep_result.json",
+      "bytes": 6826,
+      "sha256": "c813b48f959a462de9e29e73ce24b7dbeca9a42054ff9e6b8c3e4bd1f9e91019"
+    },
+    {
+      "path": "obstruction_verification.json",
+      "bytes": 1447,
+      "sha256": "ac689224b9d8f9e6e02c4f5ee0a66469011555be67e079585fd6ca7a7cb04b3c"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 3114,
+      "sha256": "02f4f467bc438ecaff80bef2dc1175f737a90dac786791ca2b97a6591c790e00"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 6215,
+      "sha256": "3018f10b35de16db8017ff00d822605d9530d7d3bad1b10352534d6954691a8e"
+    },
+    {
+      "path": "stochastic_construction.py",
+      "bytes": 7718,
+      "sha256": "1749678138c113d522b1c2d6b3aa18a7f356342fc05cbc8b954ea129ef37eb6b"
+    },
+    {
+      "path": "stochastic_construction_result.json",
+      "bytes": 1287,
+      "sha256": "acf11d6f7c52fa4bedd3b93334e04dec9ad5008c14fa1afaad6880c4b5e6645a"
+    },
+    {
+      "path": "verify_obstruction.py",
+      "bytes": 6398,
+      "sha256": "cffd78ec05cc3b371fd537dc584c7b73e0bba71a15eff70cfdc876087c8ccc4c"
+    }
+  ],
+  "verification": {
+    "script": "verify_obstruction.py",
+    "result": "obstruction_verification.json",
+    "status": "VERIFIED"
+  },
+  "claim_boundary": [
+    "No counterexample found",
+    "No full solution of Erdos problem 561",
+    "Named and stochastic searches are not exhaustive",
+    "Exact tuple result is a partial positive case only",
+    "No novelty claim until priority audit completes"
+  ]
+}

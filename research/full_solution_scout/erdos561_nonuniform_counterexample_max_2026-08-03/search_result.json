@@ -1,0 +1,55 @@
+{
+  "schema": "erdos561-nonuniform-host-search-v1",
+  "erdos_problem": 561,
+  "targets": {
+    "red": "K_{1,2} disjoint-union K_{1,1}",
+    "blue": "2 K_{1,2}",
+    "red_degrees": [
+      2,
+      1
+    ],
+    "blue_degrees": [
+      2,
+      2
+    ]
+  },
+  "formula_layers": [
+    3,
+    3,
+    2
+  ],
+  "conjectured_value": 8,
+  "counterexample_edge_ceiling": 7,
+  "catalogue_basis": "complete NetworkX graph atlas for connected types on <=7 vertices, plus every nonisomorphic tree on 8 vertices; component multisets",
+  "networkx_version": "3.5",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "connected_type_counts_by_edges": {
+    "1": 1,
+    "2": 1,
+    "3": 3,
+    "4": 5,
+    "5": 12,
+    "6": 30,
+    "7": 79
+  },
+  "host_type_counts_by_edges": {
+    "1": 1,
+    "2": 2,
+    "3": 5,
+    "4": 11,
+    "5": 26,
+    "6": 68,
+    "7": 177
+  },
+  "host_types_checked": 290,
+  "colorings_per_host_upper_bound_sum": 28066,
+  "avoiding_witness_rows_sha256": "2e3cca971dc6c3ba16f517a1f8cdbe12b2b07c92a152657e8d682e0705a64cb7",
+  "avoiding_colorings_file": "host_avoiding_colorings.json",
+  "avoiding_colorings_file_sha256": "93c38f4b13ebb72eea97b8bd68a5393f7dd6c4a1911f044c03c156a747d221e7",
+  "avoiding_colorings_saved": 290,
+  "arrowing_hosts": [],
+  "outcome": "NO_COUNTEREXAMPLE_AT_MOST_7_EDGES",
+  "full_problem_resolved": false,
+  "elapsed_seconds": 0.1920466423034668
+}

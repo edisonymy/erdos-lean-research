@@ -1,0 +1,99 @@
+{
+  "schema": "erdos561-nonuniform-counterexample-campaign-manifest-v1",
+  "created_date": "2026-08-03",
+  "claim_scope": "three computation-assisted exact finite cases; not a full resolution of Erdos problem 561",
+  "files": [
+    {
+      "path": "PRIORITY_GATE.md",
+      "bytes": 5452,
+      "sha256": "423934b75a03ee3ef870437d9a2f300c70c8b630ab945359c0fd863f12d40261"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 6204,
+      "sha256": "017755fe77b196f8fc6f53710f5b9dc984e4338c7adabcbd5c5ba75ccc5ae6f8"
+    },
+    {
+      "path": "search_all_hosts.py",
+      "bytes": 9115,
+      "sha256": "1f17393f9a1857d6f313d1d9f5382c0c89b98e6a27d6e55905eddff52d95fe4f"
+    },
+    {
+      "path": "search_result.json",
+      "bytes": 1550,
+      "sha256": "1f879e428321c77661d7a5d11defbaae9824b1cb5985384f92e1e57aa814e9d9"
+    },
+    {
+      "path": "host_avoiding_colorings.json",
+      "bytes": 171480,
+      "sha256": "93c38f4b13ebb72eea97b8bd68a5393f7dd6c4a1911f044c03c156a747d221e7"
+    },
+    {
+      "path": "audit_null_with_nauty.py",
+      "bytes": 8099,
+      "sha256": "cd20f65fedc1fba04103871d925f632a370ad537313f804353fbe6bea95ae7d9"
+    },
+    {
+      "path": "independent_null_audit.json",
+      "bytes": 1272,
+      "sha256": "10f26407b216d0d4c5c0c82f59c5f5930693d27896b9770f14fdf99f97361cf3"
+    },
+    {
+      "path": "meta_sweep_next_two_component.py",
+      "bytes": 13276,
+      "sha256": "428bd37a61aa61dab13b1adafea81cc2073a08f743e3f8a556a4c9d215365118"
+    },
+    {
+      "path": "meta_sweep_result.json",
+      "bytes": 9396,
+      "sha256": "72a19e0191116e0557f1977bea213ce67a51746096e35a2599f905638799faff"
+    },
+    {
+      "path": "meta_sweep_avoiding_colorings.json",
+      "bytes": 2038185,
+      "sha256": "9f198f145e0c626606cbfa6036c7cb665a04bb233d28707687a4edb69c8a6eea"
+    },
+    {
+      "path": "audit_meta_witnesses_vf2.py",
+      "bytes": 3583,
+      "sha256": "9b3c513bc30ce562e470844fbf57ba1a1a4139ef7a7fb4491a73a560d439e27e"
+    },
+    {
+      "path": "meta_sweep_independent_witness_audit.json",
+      "bytes": 866,
+      "sha256": "a8b9258c935ea73b317c9c070bced30d18e09a545c8944a75d87c9c4cfe71243"
+    },
+    {
+      "path": "verify_formula_upper_hosts.py",
+      "bytes": 2802,
+      "sha256": "572542d32498d66875dba5f2981d2b58a5044cf8efaff06c1d4b821db2fba4c5"
+    },
+    {
+      "path": "formula_upper_host_verification.json",
+      "bytes": 2811,
+      "sha256": "b9137989bff35b6b55c94216ded2f00c33c038c75d6ea718e96521d499f5088e"
+    },
+    {
+      "path": "verify_candidate_by_injections.py",
+      "bytes": 3437,
+      "sha256": "a4f1d8c592c2c7c508fb8126e6823636a2a6798ad00047bba057bc46cf83078e",
+      "note": "dormant candidate verifier; no candidate was produced"
+    },
+    {
+      "path": "verify_meta_candidate_injections.py",
+      "bytes": 2445,
+      "sha256": "093b94c37d286cb04f014481e0e16a93e5281827c09e6cd80e51e3ee71ce5aa0",
+      "note": "dormant candidate verifier; no candidate was produced"
+    },
+    {
+      "path": "verify_meta_candidate_vf2.py",
+      "bytes": 2072,
+      "sha256": "ae0b14f3b7c9fe095b0b04f95fa16e2432697effe1ca0339e17ab3b5be12b30f",
+      "note": "dormant candidate verifier; no candidate was produced"
+    }
+  ],
+  "external_executable": {
+    "path": ".tmp/nauty-env/Library/bin/geng.exe",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  }
+}
