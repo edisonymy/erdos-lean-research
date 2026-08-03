@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-03",
+  "problem": 982,
+  "status": "STOPPED_NO_CANDIDATE",
+  "claim_boundary": "No full solution or counterexample. Exact result only excludes D4-family extensions in which every new-to-old distance stays in the old vertex palette. Numerical n=10 searches are negative telemetry only.",
+  "allocation": "Kill gate met; do not allocate more compute to this lane without a new structural constraint or seed family.",
+  "sha256": {
+    "REPORT.md": "29d441de26a4149a295234ccc8cafd6b7973e7d0dac9fcf932b3731cf22171a2",
+    "d4_two_point_palette.py": "68ed35c50ed41a75f2bfc5724f6a9ae1f448e7c27071eedd251551903874b83d",
+    "d4_two_point_palette.json": "26802bd4c3357c612f7d0e3c336364729df2d4c32cc045cb0ce8c0ba9c991128",
+    "independent_check_d4_palette.py": "ae6690bf9fb2b744cee5badabf7e5161598293e99109cdd6a2efb95042e2af4b",
+    "d4_palette_independent_check.json": "58b024fb1ab60862907a3202c4a95ccc06e3766212206d346962684b9d03857b",
+    "inverse_design_n10.py": "41affef2e964e81936d9b9ee2ecb2fa822b900682618bec01f12e0af1a4a0fdb",
+    "inverse_design_n10_probe.json": "0ba0d2122f6819eaf5b89e505a2824c8a7b6c0488c9b00c8d7f7972a0f7f6945",
+    "inverse_design_de_n10.py": "ec5292f6d9f6c4a91581106a24d5084601bbfc179bfb5a538e917661a70b9a14",
+    "inverse_design_de_n10_runA.json": "c4f10a7aec2e0137696a4d5c3b00373e9fa4d96c4d146554bb6d8954cc01450d",
+    "trace_convex_margin_n10.py": "67295ccf45b8e010883b8f2fca920399058db576435b34842eb1774e6142bda9",
+    "convex_margin_trace_n10.json": "12ec99c544e8d480be44ebdba7ec12ff654bd92318e9ea7feaa2566d1da6f0ed"
+  },
+  "superseded_partial_telemetry": {
+    "enumerate_witness_patterns.py": "287376498f2f22cd3b825be059c554e6e62ba1c75a0cea83830372efa6fa083a",
+    "witness_pattern_smoke.json": "d88f2b74ea59e211eb285d87a65b671299ec3b843df4357ab488080f18ba805a",
+    "inverse_design_probe_gap.json": "3f1f71a8f686daadb53a73857d0e0b932e9de20e3c9b9f191f3386673d555d93"
+  }
+}

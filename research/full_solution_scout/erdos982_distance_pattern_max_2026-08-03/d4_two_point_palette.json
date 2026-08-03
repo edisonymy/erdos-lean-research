@@ -1,0 +1,32 @@
+{
+  "all_membership_identity_coordinate_pairs": [],
+  "candidates": [],
+  "claim_scope": "D4 seed plus points using only every old vertex's four-value palette",
+  "convexity_interval": [
+    1,
+    2
+  ],
+  "coordinate_pairs_with_nonconstant_common_factor": 21,
+  "exact_routes_in_interval": 0,
+  "lossless_within_scope": true,
+  "possible_coordinate_value_count": 13,
+  "possible_coordinate_values": [
+    "-1",
+    "0",
+    "1",
+    "-r/2",
+    "r/2",
+    "(-3*r**2 - 2*r + 2)/(4*r)",
+    "(-3*r**2 + 2*r + 2)/(4*r)",
+    "(-r**2 - 2*r + 2)/(4*r)",
+    "(-r**2 + 2*r + 2)/(4*r)",
+    "(r**2 - 2*r - 2)/(4*r)",
+    "(r**2 + 2*r - 2)/(4*r)",
+    "(3*r**2 - 2*r - 2)/(4*r)",
+    "(3*r**2 + 2*r - 2)/(4*r)"
+  ],
+  "tested_coordinate_pairs": 169,
+  "unique_candidates_preserving_all_eight_seed_vertices": 0,
+  "unique_distinct_candidates": 0,
+  "unique_geometric_candidates_in_interval": 0
+}

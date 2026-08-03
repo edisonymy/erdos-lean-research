@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-03",
+  "problem": 982,
+  "status": "STOPPED_NO_CANDIDATE",
+  "claim_boundary": "No full solution or counterexample. Exact result only proves that the unique minimum-rank one-split H8 local-four relaxation has no strictly convex realization.",
+  "allocation": "Kill gate met; the H8-relaxation lane is closed.",
+  "replay": {
+    "core": [
+      "python check_harborth_field.py",
+      "python check_harborth_extension.py",
+      "python search_h8_local4_relaxations.py",
+      "python enumerate_equilateral_h8_relaxation.py",
+      "python prove_equilateral_relaxation_nonconvex.py"
+    ],
+    "sympy_secondary_replayable_without_acl_repair": false
+  },
+  "sha256": {
+    "REPORT.md": "52947c60be22da05fa08cc959eb8ec4cf8bea4cb957d28a3bc1e799cc98c0ff8",
+    "check_harborth_extension.py": "0bb4e0ca03a28506970ea5c67d915f44c9d8b37ddd33518ca36416156169fd5a",
+    "check_harborth_extension_groebner.py": "b1d3b23203b2a4d05c9ef782b8c5c1a3650bbe0d8bc4495ededadb219d2fca79",
+    "check_harborth_field.py": "dbce494284911b4af0805b6957c8b81284408ccf412f0901a60c8b575accb19f",
+    "check_harborth_sympy.py": "6d8ce83d6df07be49d44c16f3ab82e45ee5472d1afd7ab978996a0ed7c20edf7",
+    "enumerate_equilateral_h8_relaxation.py": "ba90dd5d3bec88d68adabc0e477a3d42430f9e4c2643f85fa299137e81b6fe0a",
+    "prove_equilateral_relaxation_nonconvex.py": "417621ad6ab7aa53a7402ab55eb1e8f78d36a6d7509c77366c29d6163f4cd709",
+    "search_h8_local4_relaxations.py": "076c6bd9b4632696009d764412d094c751b621faecf4ac65f9b5d46b20df7596"
+  }
+}

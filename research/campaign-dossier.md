@@ -291,7 +291,7 @@ Primary documentation:
 | Problem | Status | Strongest justified progress | Decision |
 |---|---|---|---|
 | #64 | paused | Exact structured searches found no counterexample. Three Carr-structured order-32 degree families were excluded by trusted SMS runs; a promising 264-vertex voltage lift was independently rejected by an explicit 32-cycle. | Do not spend on more structured covers without a qualitatively new witness mechanism. |
-| #128 | proof lane paused | Conditional exclusion through order 16; human order-16 bridge; every smallest counterexample is even, has minimum degree `> 1+2(n-1)/25`, and has independence ratio in `((33-sqrt(161))/116,2/5)`, with an added low-cross-degree constraint below `3/10`. | Highest-value general-proof reserve after #742; seek amplification/classification, not another small census. |
+| #128 | proof lane stopped at stability gate | Conditional exclusion through order 16; human order-16 bridge; every smallest counterexample is even and lies in the recorded degree/independence window.  The all-order quotient audit proves the sparse-half bound on the balanced, saturated complementary-type face, but an exact weighted Chvátal family refutes positive-mass amplification of low types from the available local hypotheses. | Resume only with a proof/counterexample for the full paired-type Hall/discrepancy inequality or an applicable proved stability theorem; do not chase more local constants. |
 | #137 | audit only | An explicit negative-Pell solution at recurrence index 29 refutes a named lemma in a public “complete” proof attempt; other fatal gaps were recorded. | Problem remains open; do not treat the competing repository as a solution. |
 | #167 | bounded result | Conditional proof of Tuza's inequality through 11 vertices over 2,174,357 residual isomorphism classes, with constructive packing/cover witnesses and an independent verifier. | Mine the residual for a general reducible configuration; do not brute-force order 12 without a new reduction. |
 | #196 | stopped | Three Rethlas attempts yielded useful corrected lemmas but no global-linkage argument, proof, counterexample, verifier acceptance, or Lean theorem. | Intrinsically infinite; finite avoiding prefixes are not progress toward the quantifier. |
@@ -305,7 +305,7 @@ Primary documentation:
 | #699 | formal reductions, paused | Sorry-free Lean proves the weak/strict boundary split, a large-prime sufficient condition, and a concrete `(28,5,14)` certificate. Independent searches reproduce known data but do not improve the public `n<=100000` computation. | The unresolved core is simultaneous Kummer digit avoidance, not finite enumeration. |
 | #719 | bounded result | The complete `r=3,n=9` instance is certified: every 64-edge 3-graph has at least four edge-disjoint tetrahedra and every 61-edge 3-graph has at least three, hence `phi(G)<=54=ex_3(9,K4^3)` for every nine-vertex 3-graph. Thirteen orbit cases have two independent SAT encodings and checked DRAT/LRAT certificates. | The full conjecture remains open. A bounded `n=10` counterexample search and several natural constructions reached their written kill criteria without a candidate; renew only after a qualitatively new structural signal. |
 | #742 | active | See Section 5. | Sole live lane during conservation. |
-| #982 | family theorems, paused | Exact integer-octagon exclusion through span 7; a rational equality family; all-order exclusion of alternating two-radius dihedral polygons; exact proof for a four-parameter `D2` octagon family. | Stop bounded symmetric enumeration; a future lane must attack arbitrary configurations. |
+| #982 | order-10 counterexample probe | Prior art plus exact convexity checks exclude orders 8 and 9.  Exact dual checks exclude old-palette extensions of the convex `D4` octagon, and a complete 256-branch calculation proves the minimum-rank H8 local-four relaxation is never strictly convex.  Broad continuous inverse design collapsed onto the convexity boundary without a candidate. | The first possible counterexample order is 10.  Continue only the orthogonal isosceles/equality-pattern and oriented-matroid probe under its written kill gate. |
 
 Detailed records live under each corresponding `experiments/erdos*`
 directory.  The table deliberately calls several mathematically useful outputs
@@ -457,14 +457,13 @@ During conservation:
 After usage refresh, rank choices by probability of a full resolution per
 cost.  The leading options are:
 
-1. resume multi-order #742 model discovery with independent edge-list
-   verification, including orders with more combinatorial freedom;
-2. attack the all-order amplification gap in #128 rather than extending the
-   finite census;
-3. mine #167's constructive witnesses for a genuine reducible-configuration
-   or induction theorem;
-4. return to #982 only with an arbitrary-configuration method rather than
-   another symmetric family;
+1. run the first-possible-order `n=10` #982 equality-pattern probe, not another
+   symmetric or free-floating numerical family;
+2. keep a fresh false-conjecture target scout active as the outside option;
+3. leave #128 stopped unless the full paired-type Hall/discrepancy inequality
+   or a suitable proved stability theorem becomes available;
+4. mine #167's constructive witnesses only if a genuine reducible-configuration
+   or induction mechanism appears;
 5. resume large-LRAT trimming and the graph-to-CNF Lean bridge only when they
    materially improve a completed mathematical layer.
 

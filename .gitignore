@@ -3,6 +3,8 @@
 third_party/
 .venv/
 **/.venv/
+.deps/
+tmp/
 **/__pycache__/
 *.py[cod]
 *.exe

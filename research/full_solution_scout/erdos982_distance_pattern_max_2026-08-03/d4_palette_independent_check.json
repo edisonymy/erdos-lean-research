@@ -1,0 +1,9 @@
+{
+  "scope": "D4 seed, one new point restricted to each old vertex's old palette",
+  "method": "independent enumeration of four axial palette assignments",
+  "assignments": 256,
+  "assignments_with_nonconstant_common_gcd": 28,
+  "exact_real_roots_in_open_interval_1_2": 0,
+  "verified_no_extension": true,
+  "witnesses": []
+}

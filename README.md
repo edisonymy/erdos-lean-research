@@ -60,10 +60,15 @@ because the original problem lacked a public Lean statement.
   An exact SMS/Glasgow computation excludes three documented Carr-structured
   order-32 degree families (`h = 8, 10, 12`); `h = 4, 6` and the unrestricted
   case remain unknown, and these trusted-solver results are not LRAT-certified.
-- **Erdős #128:** exact finite census of the triangle-free sparse-half condition. Two
-  independent native-cardinality encodings exclude the three remaining order-16 cases
+- **Erdős #128 (paused):** exact finite census of the triangle-free sparse-half condition.
+  Two independent native-cardinality encodings exclude the three remaining order-16 cases
   conditional on the Ramsey catalogue and reduction; retained LRAT certificates for all
-  three cases pass a separate checker.  This remains a bounded result only.
+  three cases pass a separate checker.  A subsequent all-order structural lane proves the
+  target inequality on the balanced, saturated complementary-type boundary, but an exact
+  weighted Chvátal family shows that the hoped-for low-type positive-mass amplification
+  cannot follow from the current local constraints.  The full unbalanced Hall/discrepancy
+  inequality remains open, so this lane is stopped rather than presented as a solution.
+  See [`REPORT.md`](research/full_solution_scout/erdos128_global_amplification_max_2026-08-03/REPORT.md).
 - **Erdős #167:** exact independently replayed exclusion through order 11 for Tuza's
   triangle covering/packing conjecture, conditional on Puleo's reduction and nauty
   catalogue completeness; this is a bounded result only.
@@ -92,9 +97,16 @@ because the original problem lacked a public Lean statement.
   on the cited published reductions. The fixed-15 class is split into 21 cases;
   18 have checked native certificates, while exactly `t=62,67,72` remain unresolved
   after 5,400-second timeouts. These are bounded symmetry-class results, not a solution.
-- **Erdős #982:** two unconditional arguments exclude all `D2`-symmetric octagons and
-  all alternating two-radius dihedral polygons; independent exact searches found no
-  counterexample, and the general problem remains open.
+- **Erdős #982 (active counterexample probe):** prior work classifies the unique
+  eight-point locally-three-distance planar set; its nonconvexity, together with
+  `LDS_2(3)=8`, rules out counterexamples at orders 8 and 9.  The first possible order is
+  therefore 10.  Exact campaign checks eliminate old-palette extensions of the convex
+  `D4` octagon and prove that the strongest minimal H8-to-local-four relaxation has no
+  strictly convex realization.  Continuous inverse design showed only boundary collapse;
+  an orthogonal equality-pattern/oriented-matroid order-10 probe is now the live lane.
+  The general problem remains open.  See the
+  [H8-relaxation report](research/full_solution_scout/erdos982_arbitrary_counterexample_max_2026-08-03/REPORT.md)
+  and [distance-pattern report](research/full_solution_scout/erdos982_distance_pattern_max_2026-08-03/REPORT.md).
 
 The earlier #617 `r = 5` campaign is stopped and retained only as an explicitly
 superseded audit. A 24 July 2026 Zenodo preprint records Robert Sneiderman's proof and

@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-03",
+  "problem": 128,
+  "status": "STOPPED_AT_STABILITY_GATE",
+  "claim_boundary": "No full solution or counterexample. The sparse-half bound is proved only on the balanced, saturated complementary-type boundary face; the unbalanced Hall/discrepancy quotient remains open.",
+  "allocation": "Resume only with the missing global quotient inequality, an applicable proved stability theorem, or a verified counterexample.",
+  "replay": "& .\\.venv\\Scripts\\python.exe research\\full_solution_scout\\erdos128_global_amplification_max_2026-08-03\\audit_report.py",
+  "expected": [
+    "PASS balanced identities",
+    "PASS beta(C5 balanced blow-up) = 1/50",
+    "PASS exact two-block symmetrization falsifier",
+    "PASS Chvatal low-type mass family for three exact epsilon values"
+  ],
+  "sha256": {
+    "REPORT.md": "520e89d5ea658aa50fb641a2bffa450d292b68c4fa289de4dab6c88269dae444",
+    "audit_report.py": "024d820f3a53ea63aafc8571b86332da710ebe9824decff66c00de65b29aca99",
+    "razborov_2104.09406.pdf": "c9ffc6b1eca473bbe2b405488b60d03369d0160d9fd25533a5dc17616d28d734"
+  }
+}
