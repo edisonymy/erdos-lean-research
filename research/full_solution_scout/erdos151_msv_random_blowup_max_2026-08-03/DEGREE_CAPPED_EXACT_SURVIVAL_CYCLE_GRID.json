@@ -1,0 +1,634 @@
+{
+  "d2_strategies": [
+    "rc2_degree_capped_exact_survival"
+  ],
+  "final_graphs": 56,
+  "jobs": [
+    {
+      "m": 35,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 1824187571673380988,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 35,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 10107129369210186298,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 40,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 17316901079268333627,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 40,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 14543144460936859221,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 45,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 17400114758100420080,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 45,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 17563640229503766917,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 50,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 17683925931772586601,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 50,
+      "n": 50,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 10853074434776954424,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 44,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 8223181475758798557,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 44,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 12914620685174603514,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 50,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 17038923575065099299,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 50,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 12317097727634166072,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 56,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 62296194335176497,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 56,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 4041327225572330039,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 62,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 11490052002378831368,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 62,
+      "n": 59,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 13056944560516425699,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 55,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 908516440018598894,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 55,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 208390900553278192,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 63,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 1359390871388861780,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 63,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 9072798397604121004,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 72,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 13262341818642879158,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 72,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 14966322972857978046,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 82,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 9427447938647656136,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 82,
+      "n": 68,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 10237178723508177046,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 68,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 14168936679508891062,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 68,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 9308616470743386672,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 78,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 3390878953965631243,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 78,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 10890866028692305678,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 88,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 6098042208098192967,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 88,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 17664124044541387904,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 98,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 8165255079274780183,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 98,
+      "n": 77,
+      "q": 3,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 1371431899875868957,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 8,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 8701313141398860882,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 8,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 163147421753503103,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 10,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 18256777664160435314,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 10,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 9803904183826900879,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 12,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 15220048622471546299,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 12,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 16042284652447593633,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 14,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 9051995000999506893,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 14,
+      "n": 50,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 7267409399095733421,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 10,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 15237218536390359411,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 10,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 2719308909353593649,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 14,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 173907697875628373,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 14,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 14139590655880052889,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 18,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 347792179581905627,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 18,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 2998641324015107278,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 22,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 10870734494196564174,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 22,
+      "n": 68,
+      "q": 6,
+      "r": 1,
+      "robust_restarts": 160,
+      "seed": 5915172267623726268,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 10,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 15496952455072454605,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 10,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 9933963901236022210,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 14,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 15603891735661989038,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 14,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 1152268635483034913,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 18,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 16038188758935385329,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 18,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 17783782331102443206,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 22,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 7978087663905986020,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    },
+    {
+      "m": 22,
+      "n": 68,
+      "q": 3,
+      "r": 2,
+      "robust_restarts": 160,
+      "seed": 12614341424246527462,
+      "strategies": [
+        "rc2_degree_capped_exact_survival"
+      ]
+    }
+  ],
+  "label": "degree_capped_exact_survival_cycle",
+  "pregraphs": 56,
+  "registered_at": "2026-08-03",
+  "source": {
+    "arxiv": "2607.16118v1",
+    "construction_location": "Definition 2.1, equations (10)--(14), Observation 2.2, Lemma 2.3",
+    "paper": "Morris--Sahasrabudhe--Verstraete, On the Erdos--Rogers function",
+    "ramsey_survey": "Radziszowski, Small Ramsey Numbers, DS1.18, 2026-04-24",
+    "submitted": "2026-07-17"
+  }
+}

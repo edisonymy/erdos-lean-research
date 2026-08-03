@@ -1,0 +1,19 @@
+{
+  "checker": "independent_verify.py (no import from generator)",
+  "records": [
+    {
+      "alpha_witness_replay": "PASS",
+      "edges": 180,
+      "h": 11,
+      "k4_check": "PASS",
+      "max_degree": 10,
+      "n": 50,
+      "nonarrowing_edge_colouring": "PASS",
+      "status": "PASS",
+      "tf3_witness_replay": "PASS",
+      "triangle_coverage_necessary_minimum": 119,
+      "triangles": 43
+    }
+  ],
+  "status": "PASS"
+}

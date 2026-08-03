@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-08-03",
+  "policy": "Delete only reproducible rendering/cache byproducts; preserve sources, grids, results, graph artifacts, and audits.",
+  "free_space_check": "Get-PSDrive returned zeroed counters inside the restricted sandbox; no inference made.",
+  "deletions": [
+    {
+      "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tmp\\pdfs\\erdos151_msv_ramsey\\page6-006.png",
+      "bytes": 216971,
+      "status": "inactive PDF render",
+      "reason": "Temporary page image; source PDF is preserved."
+    },
+    {
+      "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tmp\\pdfs\\erdos151_msv_ramsey\\page10-010.png",
+      "bytes": 156176,
+      "status": "inactive PDF render",
+      "reason": "Temporary page image; source PDF is preserved."
+    },
+    {
+      "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos151_msv_random_blowup_max_2026-08-03\\__pycache__\\msv_s3_probe.cpython-312.pyc",
+      "bytes": 64700,
+      "status": "reproducible Python bytecode cache",
+      "reason": "Generated automatically from the preserved source file."
+    },
+    {
+      "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos151_msv_random_blowup_max_2026-08-03\\__pycache__\\independent_verify.cpython-312.pyc",
+      "bytes": 11317,
+      "status": "reproducible Python bytecode cache",
+      "reason": "Generated automatically during final syntax verification."
+    },
+    {
+      "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos151_msv_random_blowup_max_2026-08-03\\__pycache__\\msv_s3_probe.cpython-312.pyc",
+      "bytes": 68040,
+      "status": "reproducible Python bytecode cache (regenerated after source update)",
+      "reason": "Generated automatically during final syntax verification."
+    }
+  ],
+  "total_bytes": 517204
+}
