@@ -1,0 +1,82 @@
+{
+  "base": {
+    "alpha": 9,
+    "degree_distribution": {
+      "6": 1,
+      "8": 14,
+      "9": 24
+    },
+    "m": 167,
+    "n": 39,
+    "triangle_free": true
+  },
+  "claim_scope": "exact for the pinned fixed base only",
+  "effective_total_old_new_edge_capacity_for_two_new_vertices": 16,
+  "glucose_crosscheck": {
+    "agrees_with_bruteforce": true,
+    "size_7_count": 0,
+    "size_8_count": 1
+  },
+  "independent_9_sets": {
+    "cadical_count": 4511,
+    "common_sha256": "bfa6d5a9260aee343d4c1d4c648d62a43bdd1122742e4ef9ab5f3b861daa7a0d",
+    "enumerations_identical": true,
+    "networkx_count": 4511
+  },
+  "old_vertices_eligible_for_new_adjacencies_under_Delta_9": [
+    0,
+    1,
+    3,
+    5,
+    7,
+    11,
+    14,
+    15,
+    17,
+    19,
+    25,
+    31,
+    35,
+    37,
+    38
+  ],
+  "proof_summary": "Each new vertex's old neighbourhood must hit all 4511 independent 9-sets. Every such transversal has size at least 8, and the unique size-8 transversal contains seven old degree-8 vertices. The old vertices have effective capacity only 16 for edges from two new vertices, so both neighbourhoods would have to equal that unique size-8 set, forcing degree 10 at those seven vertices.",
+  "schema": "erdos151-r39-two-vertex-extension-audit-v1",
+  "source": {
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\experiments\\erdos151_siege\\ramsey39_perturbation\\source_r3_10_39.matrix",
+    "sha256": "0efc627f51a2f230972e7abb8b23ab23d47ec81e0bf4cb8c7a5c47532707a6fb"
+  },
+  "theorem": "For this fixed 39-vertex base, no graph obtained only by adding two vertices can have both Delta <= 9 and alpha <= 9, regardless of whether the two new vertices are adjacent.",
+  "transversal_counts_by_size": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0,
+    "6": 0,
+    "7": 0,
+    "8": 1,
+    "9": 7
+  },
+  "unique_minimum_transversal": [
+    0,
+    1,
+    11,
+    15,
+    19,
+    35,
+    37,
+    38
+  ],
+  "unique_transversal_degrees": {
+    "0": 8,
+    "1": 8,
+    "11": 8,
+    "15": 8,
+    "19": 8,
+    "35": 6,
+    "37": 8,
+    "38": 8
+  }
+}
