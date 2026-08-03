@@ -1,0 +1,57 @@
+{
+  "all_assertions_pass": true,
+  "by_n": {
+    "1": {
+      "edge_arrowing_graphs": 0,
+      "graphs": 1,
+      "vertex_arrowing_graphs": 0
+    },
+    "2": {
+      "edge_arrowing_graphs": 0,
+      "graphs": 2,
+      "vertex_arrowing_graphs": 0
+    },
+    "3": {
+      "edge_arrowing_graphs": 0,
+      "graphs": 8,
+      "vertex_arrowing_graphs": 0
+    },
+    "4": {
+      "edge_arrowing_graphs": 0,
+      "graphs": 64,
+      "vertex_arrowing_graphs": 0
+    },
+    "5": {
+      "edge_arrowing_graphs": 0,
+      "graphs": 1024,
+      "vertex_arrowing_graphs": 1
+    },
+    "6": {
+      "edge_arrowing_graphs": 1,
+      "graphs": 32768,
+      "vertex_arrowing_graphs": 172
+    }
+  },
+  "named_checks": {
+    "K5_beta": 4,
+    "K5_edge_arrows_33": false,
+    "K5_vertex_arrows_33": true,
+    "K6_beta": 5,
+    "K6_edge_arrows_33": true
+  },
+  "scope": "all labelled simple graphs on 1..6 vertices",
+  "script_sha256": "a8afc17edbad8171d8f2c64e83ae409144e9d15874c3815132af454b7a56f112",
+  "totals": {
+    "edge_arrowing_graphs": 1,
+    "graphs": 33867,
+    "present_edges_checked_for_beta_lipschitz": 251085,
+    "strict_vertex_not_edge_examples": 172,
+    "vertex_arrowing_graphs": 173
+  },
+  "violations": {
+    "beta_edge_deletion_lipschitz": [],
+    "deletion_at_most_two_precludes_edge_arrow": [],
+    "edge_arrow_implies_vertex_arrow": [],
+    "partition_colour_construction": []
+  }
+}

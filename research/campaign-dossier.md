@@ -604,3 +604,27 @@ genuinely global counterexample-search cycle, not an unlimited sequence of
 local lemmas.  The positive renewal signals, reallocation triggers, and
 12-hour/first-global-run checkpoint are recorded in
 [`erdos151/ALLOCATION_CHECKPOINT.md`](erdos151/ALLOCATION_CHECKPOINT.md).
+
+### Final global-cycle outcome and maintenance decision
+
+The authorized global `omega=4` cycle reached its precommitted stopping rule
+without a candidate, certificate, or renewal signal.  Residual-first stopped
+after 1,502 committed separation batches without reaching its global or
+arrowing oracle; the independently replayed arrowing-first successor stopped
+at 1,500 models without reaching a residual or global oracle.  Exact telemetry
+and replay boundaries are recorded in the allocation checkpoint.
+
+An orthogonal construction audit then proved that edge-arrowing `(3,3)`
+implies vertex-arrowing `(3,3)`: if a vertex partition has two triangle-free
+parts, colour internal edges red and crossing edges blue.  Consequently every
+#151 counterexample has triangle vertex-deletion number at least three.  In
+particular, no one- or two-vertex extension of a triangle-free Ramsey graph
+can work, which retrospectively closes the catalogue-attachment search family.
+Cone constructions are also impossible because `beta(K1 join H)=|H|`.
+
+The remaining genuinely global routes reduce to a leading-constant comparison
+for the Erdős--Rogers function, a new low-degree edge-Folkman transformation
+with simultaneous `beta` control, or months-scale certified enumeration.
+Accordingly #151 moves to a 15--25% maintenance allocation for the one-week
+full-resolution objective.  This is an allocation decision, not evidence that
+the conjecture is true or false.

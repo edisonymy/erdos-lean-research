@@ -29,7 +29,7 @@ because the original problem lacked a public Lean statement.
 
 ## Current campaigns
 
-- **Erdős #151:** independently audited analytic arguments prove the
+- **Erdős #151 (maintenance):** independently audited analytic arguments prove the
   conjectured clique-transversal bound for every graph on at most 39
   vertices.  A sorry-free Lean file verifies the foundational recurrence
   alone.  Induced-subgraph monotonicity reduces each Ramsey plateau to its
@@ -49,7 +49,12 @@ because the original problem lacked a public Lean statement.
   The unrestricted order-40 case when `R(3,10)=40`, and all later Ramsey
   jumps, remain.  This is substantial
   finite-order progress, not a solution of the full problem.  See
-  [`research/erdos151/`](research/erdos151/).
+  [`research/erdos151/`](research/erdos151/).  The final bounded global
+  search cycle reached its written reallocation gate.  A later Folkman audit
+  proves that every counterexample must vertex-arrow `(3,3)`, so it cannot be
+  obtained by adding only one or two vertices to a triangle-free graph; the
+  remaining global routes require unresolved Erdős--Rogers constants or a
+  new sparse Folkman construction.
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
   without power-of-two cycles, last focused beyond the reported public order-31 frontier.
   An exact SMS/Glasgow computation excludes three documented Carr-structured
