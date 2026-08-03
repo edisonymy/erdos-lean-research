@@ -2,11 +2,11 @@
   "schema": "erdos149-order12-release-assets-v1",
   "release_tag": "erdos149-order12-2026-08-03",
   "asset": {
-    "name": "erdos149-order12-all-certificates.zip",
-    "bytes": 136626020,
-    "sha256": "59edebfcc6da52f2085e99918ddc2f24b485c9484d827a9b15161bd9066d8c51",
-    "url": "https://github.com/edisonymy/erdos-lean-research/releases/download/erdos149-order12-2026-08-03/erdos149-order12-all-certificates.zip"
+    "name": "erdos149-order12-cnf-drat.zip",
+    "bytes": 36653433,
+    "sha256": "f727041c30ad8dff2f7ad64da7f8ba7d97e2777f1df3fcd412797161c1f17b7e",
+    "url": "https://github.com/edisonymy/erdos-lean-research/releases/download/erdos149-order12-2026-08-03/erdos149-order12-cnf-drat.zip"
   },
-  "contents": "Six exact CNFs, six pinned DRAT certificates, and six derived LRAT certificates, preserving the repository-relative package directories.",
+  "contents": "Six exact CNFs and six pinned DRAT certificates, preserving the repository-relative package directories. Derived LRAT hashes and checker transcripts are in CERTIFICATION.json.",
   "claim_boundary": "Certificate archive for a bounded order-at-most-12 theorem only; not a resolution of Erdos problem 149."
 }
