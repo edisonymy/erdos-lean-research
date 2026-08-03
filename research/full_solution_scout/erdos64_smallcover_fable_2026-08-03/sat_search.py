@@ -30,7 +30,7 @@ from pysat.formula import IDPool
 from pysat.solvers import Cadical195
 
 
-def build(sigma, exact3=False, verbose=True):
+def build(sigma, exact3=False, verbose=True, symmetry=True):
     M = (sigma * (sigma - 1) // 2) // 3
     pool = IDPool()
     X = {(p, j): pool.id(("x", p, j)) for p in range(sigma) for j in range(M)}
@@ -127,10 +127,11 @@ def build(sigma, exact3=False, verbose=True):
             cls.append([-e[i + 1], -avars[i], bvars[i]])
             cls.append([-e[i], -avars[i], -bvars[i], e[i + 1]])
             cls.append([-e[i], avars[i], bvars[i], e[i + 1]])
-    for j in range(M - 1):
-        lex_ge([X[(p, j)] for p in range(sigma)], [X[(p, j + 1)] for p in range(sigma)], ("c", j))
-    for p in range(sigma - 1):
-        lex_ge([X[(p, j)] for j in range(M)], [X[(p + 1, j)] for j in range(M)], ("r", p))
+    if symmetry:
+        for j in range(M - 1):
+            lex_ge([X[(p, j)] for p in range(sigma)], [X[(p, j + 1)] for p in range(sigma)], ("c", j))
+        for p in range(sigma - 1):
+            lex_ge([X[(p, j)] for j in range(M)], [X[(p + 1, j)] for j in range(M)], ("r", p))
     if verbose:
         print(f"sigma={sigma} M={M} vars~{pool.top} clauses={len(cls)} quadclauses={nquad}", flush=True)
     return pool, X, U, M, cls

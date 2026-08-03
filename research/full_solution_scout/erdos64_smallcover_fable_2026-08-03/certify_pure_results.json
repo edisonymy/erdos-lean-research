@@ -1,0 +1,140 @@
+[
+ {
+  "sigma": 4,
+  "M": 2,
+  "status": "HAND_UNSAT",
+  "reason": "every point needs >=3 distinct lines but the linearity pair budget allows at most M<3 lines"
+ },
+ {
+  "sigma": 5,
+  "M": 3,
+  "nvars": 200,
+  "nclauses": 627,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "d985855596ccee155e44553d7acede94561da37930e52b38f6dcb0827cdeeba9",
+  "drat_sha256": "5edfe9678d87e9d548279464be105c818fe23890c96f17779fefb818c27d39a2",
+  "seconds": 0.1
+ },
+ {
+  "sigma": 6,
+  "M": 5,
+  "nvars": 504,
+  "nclauses": 1655,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "c0e2c4c1694ea284ddcd4b5c816063dedbd977633f7fa7a054c974c78f16681a",
+  "drat_sha256": "7e832ebbe3047f1889ed30f93a9aa3d1ab2d9efbe01c0940a91446baf976a1e4",
+  "seconds": 0.1
+ },
+ {
+  "sigma": 7,
+  "M": 7,
+  "nvars": 978,
+  "nclauses": 3371,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "5768d4c515482480026b9a47da4c9919c36e63c32e5e73238ee2cc7252cb4d30",
+  "drat_sha256": "fba9a3b505481131f1e861b41dbd175844109ff839cf1cb1040cd187007f3b8d",
+  "seconds": 0.14
+ },
+ {
+  "sigma": 8,
+  "M": 9,
+  "nvars": 1674,
+  "nclauses": 6028,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "ca1535315622245445d23dd4c3072912c18c6c5b3c529a1d400b65fcfaf65a52",
+  "drat_sha256": "e570a214c72f9b0317c5e11174bc93445a1161d45021ac604984b72a6bce7865",
+  "seconds": 0.16
+ },
+ {
+  "sigma": 9,
+  "M": 12,
+  "nvars": 2893,
+  "nclauses": 10806,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "c3540d69a8c844116db8c14b5f396566aa2da56c93d040c1a84d3fbbb1dc6734",
+  "drat_sha256": "314af4a56ad77352c825f0a36e4d76abc081660ac0070fa81196e29cb4d6eb3d",
+  "seconds": 0.22
+ },
+ {
+  "sigma": 10,
+  "M": 15,
+  "nvars": 4588,
+  "nclauses": 17692,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "154a2ee0e4fe4801eb748b5491e71aee7be6428287979d6ea8140839f4a4c908",
+  "drat_sha256": "8c5baaaf33355f34686cf5c059e0954929f215a7e45e8a40efb64b8966c53d2a",
+  "seconds": 0.36
+ },
+ {
+  "sigma": 11,
+  "M": 18,
+  "nvars": 6868,
+  "nclauses": 27224,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "0dd45617588dc6727718eec9c649e292ac2633b9a8cabae9606858c26d7121fd",
+  "drat_sha256": "44ea9f7c28ab3579791ceeb27e33ef4ddc4bb1875df0d4ddd00854682fe8f837",
+  "seconds": 0.75
+ },
+ {
+  "sigma": 12,
+  "M": 22,
+  "nvars": 10318,
+  "nclauses": 41846,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "1ac709d143487e61cad29c0866e6d46da0b91f70f1bf24b430dc75ab32fb5428",
+  "drat_sha256": "362eb9d854082b63acbccb29fa8016e30365d6abfe91e275b445f8cf9b6608f3",
+  "seconds": 1.94
+ },
+ {
+  "sigma": 13,
+  "M": 26,
+  "nvars": 14805,
+  "nclauses": 61253,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "70440537b4c02c53b3d6ed4509c3a1dbda352fc73dab03a61d86a627a303e991",
+  "drat_sha256": "368cc6f88c85474d21af1132a1c7e939ff6329e6b1976f5385a9bfc039da543c",
+  "seconds": 4.97
+ },
+ {
+  "sigma": 14,
+  "M": 30,
+  "nvars": 20516,
+  "nclauses": 86373,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "2a32fa1d66e3923b56e087366e6ed16498d5d76fadf7c80ad4f00894fe3caf09",
+  "drat_sha256": "9baf7a3b62fcc5f8552bf323b84d69bb541cfe89e0e04e1fcd564e619256b059",
+  "seconds": 11.27
+ },
+ {
+  "sigma": 15,
+  "M": 35,
+  "nvars": 28458,
+  "nclauses": 121577,
+  "solver": "kissat-4.0.4",
+  "sat": false,
+  "drat_verified": true,
+  "cnf_sha256": "e98e8ccd9c9ecbf139dde6d03c6418dd949821f90717e9c804ceb94b0f590e34",
+  "drat_sha256": "c25adf48582ed97b0e6a0c9c3cef61fa0d96323db2bfa41c68867942aa1f3934",
+  "seconds": 31.98
+ }
+]
