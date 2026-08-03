@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-03",
+  "scope": "candidate-first unrestricted order-25 search; no UNSAT or theorem claim",
+  "target": {
+    "n": 25,
+    "edges": 157,
+    "mantel_floor": 156
+  },
+  "sound_target_slice_reduction": {
+    "triangular_edges_minimum_by_erdos_faudree_rousseau": 25,
+    "unique_common_neighbour_nonedges_minimum": 13,
+    "degree_sum_maximum_for_each_such_nonedge": 24,
+    "claim_scope": "necessary conditions only"
+  },
+  "objective_order": [
+    "diameter_two_failures",
+    "noncritical_present_edges",
+    "certificate_defect_sum"
+  ],
+  "radius_one_orbits": [
+    {
+      "orbit": "internal edge in 12-side",
+      "objective": [0, 27, 39],
+      "independent_bfs_removable_edges": 27
+    },
+    {
+      "orbit": "internal edge in 13-side",
+      "objective": [0, 25, 36],
+      "independent_bfs_removable_edges": 25
+    }
+  ],
+  "radius_two_orbits": [
+    {"orbit": "AA_path_role0", "objective": [0, 38, 50]},
+    {"orbit": "AA_path_role1", "objective": [0, 38, 61]},
+    {"orbit": "AA_path_role3", "objective": [1, 41, 78]},
+    {"orbit": "AA_matching_role0", "objective": [0, 51, 63]},
+    {"orbit": "AA_matching_role4", "objective": [1, 54, 78]},
+    {"orbit": "BB_path_role12", "objective": [0, 35, 46]},
+    {"orbit": "BB_path_role13", "objective": [0, 35, 56]},
+    {"orbit": "BB_path_role15", "objective": [1, 38, 72]},
+    {"orbit": "BB_matching_role12", "objective": [0, 47, 58]},
+    {"orbit": "BB_matching_role16", "objective": [1, 50, 72]},
+    {"orbit": "AB_roles_0_12", "objective": [0, 47, 48]},
+    {"orbit": "AB_roles_0_14", "objective": [0, 45, 60]},
+    {"orbit": "AB_roles_2_12", "objective": [0, 45, 61]},
+    {"orbit": "AB_roles_2_14", "objective": [1, 48, 75]}
+  ],
+  "guided_runs_pre_full_neighbour_audit": [
+    {
+      "seed": 742,
+      "seconds": 50,
+      "width": 10,
+      "iterations": 360,
+      "accepted": 341,
+      "restarts": 3,
+      "best_objective": [0, 25, 36]
+    },
+    {
+      "seed": 743,
+      "seconds": 35,
+      "width": 6,
+      "iterations": 461,
+      "accepted": 431,
+      "restarts": 5,
+      "best_objective": [0, 25, 36]
+    },
+    {
+      "seed": 744,
+      "seconds": 35,
+      "width": 6,
+      "iterations": 557,
+      "accepted": 493,
+      "restarts": 6,
+      "best_objective": [0, 25, 36]
+    }
+  ],
+  "guided_runs_all_neighbours_audited": [
+    {
+      "seed": 745,
+      "seconds": 45,
+      "width": 6,
+      "iterations": 777,
+      "accepted": 743,
+      "restarts": 8,
+      "best_objective": [0, 25, 36]
+    },
+    {
+      "seed": 746,
+      "seconds": 45,
+      "width": 6,
+      "iterations": 721,
+      "accepted": 693,
+      "restarts": 7,
+      "best_objective": [0, 25, 36]
+    }
+  ],
+  "fully_audited_totals": {
+    "seconds": 90,
+    "iterations": 1498,
+    "accepted": 1436,
+    "restarts": 15,
+    "note": "best-objective tracking inspected every generated neighbour, not only the move selected by scalar energy"
+  },
+  "all_serious_walk_totals": {
+    "seconds": 210,
+    "iterations": 2876,
+    "accepted": 2701,
+    "restarts": 29,
+    "note": "the first 120 seconds tracked selected beam moves; the final 90 seconds tracked every evaluated neighbour"
+  },
+  "pre_full_neighbour_audit_totals": {
+    "seconds": 120,
+    "iterations": 1378,
+    "accepted": 1265,
+    "restarts": 14
+  },
+  "seed_families": [
+    "K12,13 radius-one/radius-two",
+    "random exact-157 graph",
+    "random dense graph greedily deleted to 157",
+    "145-edge C5-plus/subdivided-bipartite graph augmented to 157"
+  ],
+  "result": {
+    "candidate_found": false,
+    "best_objective": [0, 25, 36],
+    "best_state": "K12,13 plus one internal edge in the 13-vertex side",
+    "quantified_repair_path_at_157_edges": false,
+    "hard_gate": "stop this heuristic family; do not escalate to another large UNSAT run"
+  },
+  "independent_controls": {
+    "K12,13": {
+      "edges": 156,
+      "diameter_two_critical": true
+    },
+    "C5_plus_split_repair": {
+      "edges": 145,
+      "diameter_two_critical": true
+    },
+    "K12,13_plus_internal_edge": {
+      "edges": 157,
+      "diameter_two_critical": false,
+      "removable_edges": 25
+    }
+  }
+}

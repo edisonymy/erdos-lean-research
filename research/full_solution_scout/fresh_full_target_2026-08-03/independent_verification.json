@@ -1,0 +1,46 @@
+{
+  "status": "VERIFIED",
+  "scope": "null bounded probe for the (2,1) vs (2,1) tuple only",
+  "source_sha256": "a840398d68f1d040c5e419b30a1a6a6ed61603b0cb91f6f6012db99a46aeac8d",
+  "independent_connected_type_counts_by_edges": {
+    "1": 1,
+    "2": 1,
+    "3": 3,
+    "4": 5,
+    "5": 12
+  },
+  "catalogue_completeness": {
+    "1": {
+      "expected": 1,
+      "actual": 1,
+      "missing": 0,
+      "extra": 0
+    },
+    "2": {
+      "expected": 2,
+      "actual": 2,
+      "missing": 0,
+      "extra": 0
+    },
+    "3": {
+      "expected": 5,
+      "actual": 5,
+      "missing": 0,
+      "extra": 0
+    },
+    "4": {
+      "expected": 11,
+      "actual": 11,
+      "missing": 0,
+      "extra": 0
+    },
+    "5": {
+      "expected": 26,
+      "actual": 26,
+      "missing": 0,
+      "extra": 0
+    }
+  },
+  "avoiding_coloring_embedding_check_failures": [],
+  "full_problem_resolved": false
+}

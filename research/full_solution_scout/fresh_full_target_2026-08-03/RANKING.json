@@ -1,0 +1,86 @@
+{
+  "generated_utc": "2026-08-03",
+  "objective": "maximize probability of a first full Erdős-problem resolution within roughly one week",
+  "excluded_active_targets": [151, 719],
+  "scale": "0-5; collision_safety is higher when priority collision is lower",
+  "candidates": [
+    {
+      "number": 561,
+      "full_leverage": 5,
+      "counterexample_plausibility": 2,
+      "one_week_reach": 3,
+      "collision_safety": 0,
+      "verification": 5,
+      "sum": 15,
+      "verdict": "watch_not_promote",
+      "reason": "best finite-witness shape, but direct July 2026 competition; tiny nonuniform tuple is already covered by Cheng 2010"
+    },
+    {
+      "number": 701,
+      "full_leverage": 5,
+      "counterexample_plausibility": 1,
+      "one_week_reach": 1,
+      "collision_safety": 2,
+      "verification": 4,
+      "sum": 13,
+      "verdict": "drop_without_new_structure",
+      "reason": "certified through ground-set size 7; size 8 search is unstructured and massive"
+    },
+    {
+      "number": 149,
+      "full_leverage": 5,
+      "counterexample_plausibility": 1,
+      "one_week_reach": 1,
+      "collision_safety": 1,
+      "verification": 4,
+      "sum": 12,
+      "verdict": "drop_without_small_unknown_reduction",
+      "reason": "sharp extremal construction and positive small-degree evidence; active July 2026 work"
+    },
+    {
+      "number": 778,
+      "full_leverage": 3,
+      "counterexample_plausibility": 2,
+      "one_week_reach": 1,
+      "collision_safety": 0,
+      "verification": 4,
+      "sum": 10,
+      "verdict": "drop",
+      "reason": "composite entry, active specialists, and n=7 already computationally difficult"
+    },
+    {
+      "number": 1160,
+      "full_leverage": 4,
+      "counterexample_plausibility": 1,
+      "one_week_reach": 0,
+      "collision_safety": 4,
+      "verification": 1,
+      "sum": 10,
+      "verdict": "drop",
+      "reason": "exact group enumeration is not a feasible two-checker finite witness workflow"
+    },
+    {
+      "number": 65,
+      "full_leverage": 2,
+      "counterexample_plausibility": 1,
+      "one_week_reach": 0,
+      "collision_safety": 4,
+      "verification": 2,
+      "sum": 9,
+      "verdict": "drop",
+      "reason": "remaining question is extremal/asymptotic and the statement has direction ambiguity"
+    },
+    {
+      "number": 638,
+      "verdict": "recognition_gate_failure",
+      "reason": "literal statement and intended strengthened statement diverge"
+    }
+  ],
+  "selected_bounded_probe": {
+    "number": 561,
+    "tuple": "(2,1) versus (2,1)",
+    "outcome": "null and independently verified, then disqualified as prior art",
+    "prior_art": "Yen-Jen Cheng, Size Ramsey Numbers of Star Forests, NTU master's thesis, Theorem 18, 2010"
+  },
+  "final_promotion": null
+}
