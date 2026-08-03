@@ -1,0 +1,25 @@
+{
+  "schema": "erdos151-cegar-run-metadata-v1",
+  "launched_at": "2026-08-03T11:55:18.1187813+01:00",
+  "status": "RUNNING",
+  "parameters": {
+    "n": 50,
+    "h": 11,
+    "min_degree": 9,
+    "max_degree": 10,
+    "round_cap": 1000000,
+    "cuts_per_round": 24,
+    "seed": 2026
+  },
+  "script": {
+    "path": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face.py",
+    "sha256": "331da93ec645f6015988ddc96817a9b4c651786bd3053e2f40bb418bb092c358"
+  },
+  "outputs": {
+    "result": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_n50_d9.json",
+    "stdout": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_n50_d9.stdout.log",
+    "stderr": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_n50_d9.stderr.log"
+  },
+  "soundness_dependency": "The audited order-41 K4-free beta>=10 theorem and induced-subgraph monotonicity imply beta=10 and delta>=9 for every K4-free n=50 graph with beta<=10.",
+  "claim_boundary": "SAT requires independent candidate verification. UNSAT excludes only the K4-free n=50 face and is publishable only after final-formula serialization and a checked proof certificate."
+}

@@ -1,0 +1,48 @@
+{
+  "census_sha256": "541141256a6defcc2377e903680f8be800128571b8cb511f0d4fa9367ed2b6a4",
+  "degree_ladder_dependency": {
+    "uses_least_counterexample_hypothesis": false,
+    "uses_through49_chain": false,
+    "uses_unconditional_order41_k4free_beta_at_least_10": true
+  },
+  "dependencies": {
+    "authoritative_target": {
+      "path": "research\\full_solution_scout\\erdos151_folkman_owner_coupling_max_2026-08-03\\TARGET_LOCK.md",
+      "sha256": "72130c15a223dfb18d2857ffba9f4236755f52f6aeb3ba11ec981e3c675391ca"
+    },
+    "degree_saturation_note": {
+      "path": "research\\erdos151\\high_effort_wave_2026-08-03\\general_global\\GLOBAL_CORE_AND_ERDOS_ROGERS.md",
+      "sha256": "074fd98dedc0728913f95aeb9a57b9673c509bdf1552c5ee09a6a843266bf38c"
+    },
+    "link_census": {
+      "path": "research\\full_solution_scout\\erdos151_folkman_owner_coupling_max_2026-08-03\\k4free_links_through11_direct.result.json",
+      "sha256": "541141256a6defcc2377e903680f8be800128571b8cb511f0d4fa9367ed2b6a4"
+    },
+    "order41_independent_audit": {
+      "path": "research\\erdos151\\general\\k4free_h10\\INDEPENDENT_AUDIT.md",
+      "sha256": "9ba41aeeecee2cf9241c133df9936a14426105b30a3f040e9c9689de4b1bfcc1"
+    },
+    "order41_proof": {
+      "path": "research\\erdos151\\general\\k4free_h10\\K4FREE_ORDER41.md",
+      "sha256": "a06ddc79c5db44af51b098b404b2355055835866ddae0edfbee5606aa195e7a4"
+    }
+  },
+  "nine_regular_branch": {
+    "brooks_colour_count": 9,
+    "contradicts_beta_at_most_10": true,
+    "two_largest_classes_floor": 12
+  },
+  "schema": "erdos151-n50-pure-core-gate-v1",
+  "status": "VERIFIED_ARITHMETIC",
+  "template_checks": {
+    "independent_hell_zhu_recheck": true,
+    "obstruction_count": 10,
+    "order10_edges10_obstructions": 0,
+    "order10_edges11_obstructions": 1
+  },
+  "ten_regular_branch": {
+    "contradiction": true,
+    "forced_triangle_incidence_sum": 550,
+    "modulo_three": 1
+  }
+}
