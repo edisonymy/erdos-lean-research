@@ -1,0 +1,123 @@
+{
+  "schema": "math-frontier-cleanup-v1",
+  "created_utc": "2026-08-03T02:16:19.0108374Z",
+  "operation_status": "completed_and_verified",
+  "workspace_root": "C:\\Users\\Edison Yi\\Documents\\Math Frontier",
+  "policy": "Delete only inactive failed, incomplete, or superseded proof artifacts after preserving two complete independently checked certificate families and verifying uploaded release archives by exact digest.",
+  "planned_bytes": 1965309076,
+  "deleted_bytes": 1965309076,
+  "free_bytes_before": 91948470272,
+  "free_bytes_after": 93933985792,
+  "observed_free_space_delta_bytes": 1985515520,
+  "verification": {
+    "all_deletion_targets_absent": true,
+    "all_preserved_certificate_families_present": true,
+    "note": "The OS-level free-space delta can differ from the exact sum of deletion targets because other processes may allocate or release storage during the operation."
+  },
+  "preserved": [
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/certificates_glucose4_complete",
+      "reason": "Complete totalizer certificate family; all ten exact-64 orbit cases checked."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/certificates_exact61_glucose4",
+      "reason": "Complete totalizer certificate family; all three exact-61 orbit cases checked."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_exact64_independent_max_2026-08-03/certificates",
+      "reason": "Independent signed-Sinz exact-64 family, including checked LRAT certificates."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_exact64_independent_max_2026-08-03/exact61/certificates",
+      "reason": "Independent signed-Sinz exact-61 family, including checked LRAT certificates."
+    }
+  ],
+  "deletions": [
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/certificates",
+      "bytes": 594295070,
+      "status": "inactive_truncated_unverified",
+      "reason": "Initial Windows PySAT CaDiCaL proof export path produced truncated traces; superseded by two complete independently checked families.",
+      "recoverability": "Regenerable from committed generator; complete replacement certificates are preserved locally and in the public release."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/certificates_glucose4_smoke",
+      "bytes": 43646556,
+      "status": "inactive_failed_smoke",
+      "reason": "Unflushed smoke-test trace; superseded by the complete checked totalizer family.",
+      "recoverability": "Regenerable; complete replacement certificates are preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/certificates_glucose4_verified_smoke",
+      "bytes": 43649946,
+      "status": "inactive_superseded_smoke",
+      "reason": "Verified but duplicate single-case smoke output superseded by the complete checked totalizer family.",
+      "recoverability": "Complete replacement certificates are preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/probe_type01_glucose4.drat",
+      "bytes": 44053759,
+      "status": "inactive_incomplete_probe",
+      "reason": "Failed or incomplete solver probe, never used as a theorem certificate.",
+      "recoverability": "Regenerable; final checked certificate is preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/probe_type01_glucose4_final0.drat",
+      "bytes": 43331584,
+      "status": "inactive_incomplete_probe",
+      "reason": "Failed or incomplete solver probe, never used as a theorem certificate.",
+      "recoverability": "Regenerable; final checked certificate is preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/probe_type01_glucose4_flushed.drat",
+      "bytes": 43331584,
+      "status": "inactive_incomplete_probe",
+      "reason": "Failed or incomplete solver probe, never used as a theorem certificate.",
+      "recoverability": "Regenerable; final checked certificate is preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/probe_type01_lingeling.drat",
+      "bytes": 42822783,
+      "status": "inactive_incomplete_probe",
+      "reason": "Failed or incomplete solver probe, never used as a theorem certificate.",
+      "recoverability": "Regenerable; final checked certificate is preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/probe_type01_lingeling_flushed.drat",
+      "bytes": 42209280,
+      "status": "inactive_incomplete_probe",
+      "reason": "Failed or incomplete solver probe, never used as a theorem certificate.",
+      "recoverability": "Regenerable; final checked certificate is preserved."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/docker_type_01.drat",
+      "bytes": 37141272,
+      "status": "inactive_verified_duplicate",
+      "reason": "Checked Docker proof duplicated by the complete checked families.",
+      "recoverability": "Complete replacement certificates are preserved locally and in the public release."
+    },
+    {
+      "path": "research/full_solution_scout/erdos719_design_counterexample_max_2026-08-03/docker_type_02.drat",
+      "bytes": 35106187,
+      "status": "inactive_duplicate",
+      "reason": "Docker proof duplicated by the complete checked families and not required for the published audit.",
+      "recoverability": "Complete replacement certificates are preserved locally and in the public release."
+    },
+    {
+      "path": "release_assets/erdos719-n9-2026-08-03/erdos719-n9-independent-sinz-certs-2026-08-03.tar.zst",
+      "bytes": 665175381,
+      "status": "uploaded_and_digest_verified",
+      "reason": "Local packaging copy no longer needed after successful public release upload and digest verification.",
+      "recoverability": "https://github.com/edisonymy/erdos-lean-research/releases/download/erdos719-n9-2026-08-03/erdos719-n9-independent-sinz-certs-2026-08-03.tar.zst",
+      "sha256": "d85d48cdac22c1542d6bd91c642b503144bafe9586ba3717669ecb81a1cbaf95"
+    },
+    {
+      "path": "release_assets/erdos719-n9-2026-08-03/erdos719-n9-totalizer-certs-2026-08-03.tar.zst",
+      "bytes": 330545674,
+      "status": "uploaded_and_digest_verified",
+      "reason": "Local packaging copy no longer needed after successful public release upload and digest verification.",
+      "recoverability": "https://github.com/edisonymy/erdos-lean-research/releases/download/erdos719-n9-2026-08-03/erdos719-n9-totalizer-certs-2026-08-03.tar.zst",
+      "sha256": "4dce6844c2a71138a51f46688e5cfe7a917df1e0d4cbe35fe440a3417e7b0041"
+    }
+  ]
+}
