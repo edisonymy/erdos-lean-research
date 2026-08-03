@@ -1,0 +1,70 @@
+{
+  "degree_ten_saturation": {
+    "inequality": "2*t_G(v)+kappa(v)<=22",
+    "surviving_integer_cases": [
+      {
+        "core_triangles": 10,
+        "degree_defect_kappa": 0,
+        "extrinsic_triangles": 0
+      },
+      {
+        "core_triangles": 10,
+        "degree_defect_kappa": 1,
+        "extrinsic_triangles": 0
+      },
+      {
+        "core_triangles": 10,
+        "degree_defect_kappa": 2,
+        "extrinsic_triangles": 0
+      },
+      {
+        "core_triangles": 10,
+        "degree_defect_kappa": 0,
+        "extrinsic_triangles": 1
+      },
+      {
+        "core_triangles": 11,
+        "degree_defect_kappa": 0,
+        "extrinsic_triangles": 0
+      }
+    ]
+  },
+  "link_census": {
+    "all_trianglefree_delta_at_least_2_graphs_through_11_edges": 161,
+    "first_nonuniversally_adaptable_edge_count": 10,
+    "first_obstruction_count": 4,
+    "graph6": [
+      "G?`F`w",
+      "G?q`qg",
+      "GCQb`o",
+      "H?`DA_{",
+      "G?bF`w",
+      "GCR`r_",
+      "H?`DB_{",
+      "H?`DE_{",
+      "H?bB@qQ",
+      "I?`D@POd?"
+    ],
+    "obstructions_through_11_edges": 10,
+    "path": "research\\full_solution_scout\\erdos151_folkman_owner_coupling_max_2026-08-03\\k4free_links_through11_direct.result.json",
+    "sha256": "541141256a6defcc2377e903680f8be800128571b8cb511f0d4fa9367ed2b6a4",
+    "type_counts_by_edges_and_order": {
+      "m=10,n=8": 3,
+      "m=10,n=9": 1,
+      "m=11,n=10": 1,
+      "m=11,n=8": 2,
+      "m=11,n=9": 3
+    }
+  },
+  "schema": "erdos151-n50-protected-core-interface-v1",
+  "target": {
+    "H": 11,
+    "counterexample_beta_upper_bound": 10,
+    "degree_range_from_least_counterexample_window_and_R3_10_upper_41": [
+      9,
+      10
+    ],
+    "order": 50,
+    "scope": "conditional on order 50 being the least counterexample order"
+  }
+}

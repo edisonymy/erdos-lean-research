@@ -1,0 +1,34 @@
+{
+  "artifact_sha256_before_audit_output": {
+    "LEDGER.md": "3892de0e164d19f2442771221c5e21286f941871c89bf99119f6284eaad0c2ce",
+    "REPORT.md": "60271f63afb0d7baa3bfb4c387f9ae5da7631d384a6ebf3ce324c95ae2270758",
+    "TARGET_LOCK.md": "72130c15a223dfb18d2857ffba9f4236755f52f6aeb3ba11ec981e3c675391ca",
+    "audit_packet.py": "2d9a72ef98cb0acbdbcd38c8a75112477f17a72e268265a03f574c59d6e84647",
+    "cross_owner_propertyb.py": "fc04bc59f21eadeaa1ea517bc951ed7155f6d78adbe0a94655d48e0fe57071fb",
+    "cross_owner_propertyb.result.json": "b377531f97813fb315e7a55bc7d2c0d7ee31e44f01beb6028b27fa07b420b4cd",
+    "hermitian_certificate_gate.py": "998660a097a1dfb7e2e2b67374c66c6533f64e5958be4d14a57a562957bfbee7",
+    "hermitian_certificate_gate.result.json": "db81b6b23111e8696be18768cee498e3b4a3fbe90ff6ce746b521193e9cbd705",
+    "k4free_links_through11_direct.result.json": "541141256a6defcc2377e903680f8be800128571b8cb511f0d4fa9367ed2b6a4",
+    "k4free_links_through14.result.json": "3ca1e1603b7b31a6ad1d944d6c7d199d216e52fff2ffebce65b611608f2fb0bf",
+    "k4free_links_through9_direct.result.json": "e5ae4fad7d4437097d57c05f80b80608118c3ca6ad8c903b997bf6ddd6ee0622",
+    "n50_protected_core_interface.py": "1cc888a6c89acc24250f1c7770afd68ee02c35a3aeafbaf452b53780fbb95d9a",
+    "n50_protected_core_interface.result.json": "e411516dbb6cb0c19234814c09a932bcfd09a4353599ca09472a90c78a906755",
+    "signal_sender_atlas.py": "9d0897a6c4e07e2a113528741d07a39c775a45eb4481f3cfad65f655858a34ea",
+    "signal_sender_atlas.result.json": "2e1625f75715b9a9bd03212aca841826bcbe7b02b6bdae10f562cbc46c13e7a9",
+    "signal_sender_order8.py": "db8255058882977d5c7bd0797fe1c39516cbd511ce7d7115b4e909a7a89e4707",
+    "signal_sender_order8.result.json": "7c69723abb33e20253ad83353f133e484536e6a125ca5759b7938b47c52905f6",
+    "threshold8_links.py": "e5464aa8deff072e81904c00097868a8e167f5ac2bd819e05a2d3fcb39efde8b",
+    "threshold8_links.result.json": "9b273795ac0d37ff66bcbac56ecb4d713acbdbc7d60b37caad49977961656c09"
+  },
+  "assertions": {
+    "cross_owner_property_b": true,
+    "hermitian_arithmetic": true,
+    "link_threshold_and_direct_definition": true,
+    "n50_interface": true,
+    "signal_sender_negative_through_order8": true,
+    "target_lock": true
+  },
+  "authoritative_target_sha256": "129e292c307923c10e3d2d7897c9acd0a07803dd1c5e6a5b5393d0c24001173f",
+  "schema": "erdos151-owner-coupling-packet-audit-v1",
+  "status": "VERIFIED"
+}

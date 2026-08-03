@@ -1,0 +1,37 @@
+{
+  "all_obstructions": [],
+  "counts": {
+    "all_graphs": 31,
+    "by_n": {
+      "4": 1,
+      "5": 2,
+      "6": 6,
+      "7": 11,
+      "8": 9,
+      "9": 2
+    },
+    "new_m_equal_8": 0,
+    "new_m_equal_8_triangle_free": 0,
+    "nonuniversally_adaptable": 0,
+    "old_m_at_most_7": 0
+  },
+  "definition_checks": [
+    "custom componentwise edge-deletion bipartiteness",
+    "NetworkX componentwise edge-deletion bipartiteness",
+    "direct all-edge-signings/all-vertex-colourings adaptable definition"
+  ],
+  "eight_edge_obstructions": [],
+  "eight_edge_triangle_free_obstructions": [],
+  "generator": {
+    "path": ".tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "scope": "all unlabeled simple graphs with delta>=2 and m<=9 and triangle-free",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "old_obstructions": [],
+  "parameters": {
+    "direct_definition_edge_limit": 9,
+    "max_edges": 9,
+    "triangle_free": true
+  },
+  "schema": "erdos151-threshold8-link-census-v1"
+}

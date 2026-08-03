@@ -1,0 +1,246 @@
+{
+  "all_obstructions": [
+    {
+      "connected": true,
+      "degree_sequence": [
+        4,
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "G?`F`w",
+      "m": 10,
+      "n": 8,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "G?bF`w",
+      "m": 11,
+      "n": 8,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "G?q`qg",
+      "m": 10,
+      "n": 8,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "GCQb`o",
+      "m": 10,
+      "n": 8,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "GCR`r_",
+      "m": 11,
+      "n": 8,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        4,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "H?`DA_{",
+      "m": 10,
+      "n": 9,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "H?`DE_{",
+      "m": 11,
+      "n": 9,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "H?`DB_{",
+      "m": 11,
+      "n": 9,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "H?bB@qQ",
+      "m": 11,
+      "n": 9,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    },
+    {
+      "connected": true,
+      "degree_sequence": [
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "direct_definition_checked": true,
+      "graph6": "I?`D@POd?",
+      "m": 11,
+      "n": 10,
+      "triangle_count": 0,
+      "triangle_free": true,
+      "universally_adaptable": false
+    }
+  ],
+  "counts": {
+    "all_graphs": 161,
+    "by_n": {
+      "10": 20,
+      "11": 3,
+      "4": 1,
+      "5": 2,
+      "6": 6,
+      "7": 16,
+      "8": 53,
+      "9": 60
+    },
+    "new_m_equal_8": 0,
+    "new_m_equal_8_triangle_free": 0,
+    "nonuniversally_adaptable": 10,
+    "old_m_at_most_7": 0
+  },
+  "definition_checks": [
+    "custom componentwise edge-deletion bipartiteness",
+    "NetworkX componentwise edge-deletion bipartiteness",
+    "direct all-edge-signings/all-vertex-colourings adaptable definition"
+  ],
+  "eight_edge_obstructions": [],
+  "eight_edge_triangle_free_obstructions": [],
+  "generator": {
+    "path": ".tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "scope": "all unlabeled simple graphs with delta>=2 and m<=11 and triangle-free",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "old_obstructions": [],
+  "parameters": {
+    "direct_definition_edge_limit": 11,
+    "max_edges": 11,
+    "triangle_free": true
+  },
+  "schema": "erdos151-threshold8-link-census-v1"
+}

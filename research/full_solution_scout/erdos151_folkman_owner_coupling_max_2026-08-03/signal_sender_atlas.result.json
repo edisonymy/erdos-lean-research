@@ -1,0 +1,25 @@
+{
+  "atlas_source": {
+    "networkx_version": "3.5",
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.venv\\Lib\\site-packages\\networkx\\generators\\atlas.py",
+    "sha256": "71b922fe86038bfeef9e249eb2a259f8f08433706f9f311d8d27374c0decd717"
+  },
+  "different_sender_count": 0,
+  "independent_sat_audit": {
+    "agreement_on_every_graph": true,
+    "assumption_queries": 27872,
+    "solver": "Glucose42"
+  },
+  "records": [],
+  "same_sender_count": 0,
+  "scanned_by_order": {
+    "3": 2,
+    "4": 5,
+    "5": 17,
+    "6": 82,
+    "7": 536
+  },
+  "schema": "erdos151-k4free-signal-sender-atlas-v1",
+  "scope": "all connected unlabeled K4-free graphs of orders 3 through 7 in NetworkX graph atlas",
+  "sender_count": 0
+}

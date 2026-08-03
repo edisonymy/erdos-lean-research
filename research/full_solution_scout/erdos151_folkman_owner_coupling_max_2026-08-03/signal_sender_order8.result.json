@@ -1,0 +1,21 @@
+{
+  "all_assumption_queries_agree": true,
+  "claimed_relations_additionally_checked_by": "direct all-edge-colouring enumeration",
+  "different_sender_graph_count": 0,
+  "geng": {
+    "connected_order8_graphs": 11117,
+    "path": ".tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "k4free_graphs": 5606,
+  "records": [],
+  "same_sender_graph_count": 0,
+  "sat_assumption_queries": 490354,
+  "schema": "erdos151-k4free-signal-sender-order8-v1",
+  "scope": "all connected unlabeled K4-free graphs on eight vertices",
+  "sender_graph_count": 0,
+  "solvers": [
+    "Glucose42",
+    "Cadical195"
+  ]
+}
