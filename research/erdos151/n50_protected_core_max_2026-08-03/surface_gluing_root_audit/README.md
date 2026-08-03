@@ -11,8 +11,8 @@ Results:
 
 | block | branches | complete covers | survivors | elapsed | result SHA-256 |
 |---:|---:|---:|---:|---:|---|
-| 1 | 210 | 0 | 0 | 833.448 s | `427e77cc08537c9524dffc3c4d847a2e28a7cdbf31c548f7106ed3c902a0fa3d` |
-| 2 | 330 | 0 | 0 | 1357.672 s | `21572e37ca07c4cc632df72ab854242e47fb90c090d862df0d38835b45711fea` |
+| 1 | 210 | 0 | 0 | 868.635 s | `a0f461232437900df9c6aaac718602dbeb97b3cb067401e2e2c8127bb891bc0b` |
+| 2 | 330 | 0 | 0 | 1439.068 s | `95d9c19b31c11d2cda68bc7cb48beb12d88a46a67a880b4769d78fd1290f29e8` |
 
 Both JSON records report `VERIFIED_COMPLETE_BRANCH_REPLAY`.  The frozen
 checker SHA-256 is
@@ -23,13 +23,13 @@ Reproduction from the workspace root:
 ```powershell
 .\.venv\Scripts\python.exe `
   research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_root_audit\audit_m2_exact_cover.py `
-  --input research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_max\marked_candidate1_complete.json `
-  --output research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_root_audit\candidate1_complete.independent_replay.json
+  --input research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_max\marked_candidate1_corrected_cadical195.json `
+  --output research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_root_audit\candidate1_corrected_cadical195.independent_replay.json
 
 .\.venv\Scripts\python.exe `
   research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_root_audit\audit_m2_exact_cover.py `
-  --input research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_max\marked_candidate2_complete.json `
-  --output research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_root_audit\candidate2_complete.independent_replay.json
+  --input research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_max\marked_candidate2_corrected_cadical195.json `
+  --output research\erdos151\n50_protected_core_max_2026-08-03\surface_gluing_root_audit\candidate2_corrected_cadical195.independent_replay.json
 ```
 
 Claim boundary: this is an independent replay of the already enumerated 540
@@ -43,9 +43,10 @@ CaDiCaL/Glucose parallel-edge clause helper, so those four historical SAT
 termination files are invalid.  The canonical input projections are unchanged,
 however, and `../surface_gluing_max/label_order_correction.audit.json` verifies
 that fact byte-for-byte.  The solver-free checker does not import or use the
-faulty helper, so the replays above remain valid branch replays.  Corrected
-CaDiCaL and Glucose runs have now separately exhausted all 540 branches with no
-survivor; their hashes and fresh coverage audits are recorded in
+faulty helper.  The table above now records fresh solver-free replays whose
+inputs are the corrected CaDiCaL branch files themselves.  Corrected CaDiCaL
+and Glucose runs have separately exhausted all 540 branches with no survivor;
+their hashes and fresh coverage audits are recorded in
 `../surface_gluing_max/SURFACE_GLUING_REPORT.md`.  This is not a
 proof-certified UNSAT theorem, an
 exclusion of the full uniform-type-5 class, or a solution of Erdos #151.

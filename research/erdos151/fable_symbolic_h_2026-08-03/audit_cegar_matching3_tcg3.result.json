@@ -1,0 +1,119 @@
+{
+  "bounded_ab_controls": {
+    "matched_n10_h4": [
+      {
+        "combined_admissible_phase_counts": {
+          "complete_miss_queries": 0,
+          "full_batch_queries": 4,
+          "partial_batch_queries": 0
+        },
+        "combined_result": "UNSAT",
+        "combined_rounds": 4,
+        "combined_tcg3_hits": 4,
+        "combined_tcg3_queries": 4,
+        "matching3_result": "UNSAT",
+        "matching3_rounds": 18,
+        "seed": 2026
+      },
+      {
+        "combined_admissible_phase_counts": {
+          "complete_miss_queries": 0,
+          "full_batch_queries": 4,
+          "partial_batch_queries": 0
+        },
+        "combined_result": "UNSAT",
+        "combined_rounds": 4,
+        "combined_tcg3_hits": 4,
+        "combined_tcg3_queries": 4,
+        "matching3_result": "UNSAT",
+        "matching3_rounds": 21,
+        "seed": 2027
+      },
+      {
+        "combined_admissible_phase_counts": {
+          "complete_miss_queries": 0,
+          "full_batch_queries": 3,
+          "partial_batch_queries": 0
+        },
+        "combined_result": "UNSAT",
+        "combined_rounds": 3,
+        "combined_tcg3_hits": 3,
+        "combined_tcg3_queries": 3,
+        "matching3_result": "UNSAT",
+        "matching3_rounds": 18,
+        "seed": 2028
+      }
+    ],
+    "n6_separator_control": {
+      "combined": "UNSAT",
+      "combined_rounds": 2,
+      "combined_tcg3_hits": 2,
+      "matching3_candidate_has_triangle_free_two_partition": true,
+      "matching3_only": "SAT-CANDIDATE",
+      "meaning": "semantic separator control only; the small-order UNSAT is not a proof-certified theorem result"
+    }
+  },
+  "claim_boundary": "small controls are regression evidence only; production UNSAT still requires final-CNF proof certification and SAT requires independent graph validation",
+  "formula_comparison": {
+    "combined_fresh_vs_inherited_live": "incomparable: the fresh combined solver lacks the inherited run's accumulated admissible cuts, while the inherited solver lacks matching>=3 and TCG-3",
+    "combined_vs_inherited_static_edge_projection": "strict target-valid strengthening by the audited matching>=3 gate",
+    "combined_vs_matching3_static": "identical"
+  },
+  "live_read_only_snapshots": {
+    "inherited": {
+      "last_sample_m": 1225,
+      "last_sample_y": 19600,
+      "last_sampled_round": 21780,
+      "observed_oracle_phase": "randomized-full-batch",
+      "path": "cegar_face_n50_d9.stdout.log",
+      "recent_samples": 25,
+      "recent_samples_all_full_24_cut_batches": true
+    },
+    "interpretation": "sampled cuts+=24 is the randomized full-batch branch; the deterministic complete-miss branch returns zero cuts",
+    "matching3": {
+      "last_sample_m": 1225,
+      "last_sample_y": 19600,
+      "last_sampled_round": 4950,
+      "observed_oracle_phase": "randomized-full-batch",
+      "path": "cegar_face_matching3_n50_d9.stdout.log",
+      "recent_actual_maximal_matching_range": [
+        24,
+        25
+      ],
+      "recent_samples": 25,
+      "recent_samples_all_full_24_cut_batches": true
+    }
+  },
+  "rebalancer_exhaustive_n6_matching3_projection": {
+    "all_labeled_graphs_screened": 32768,
+    "invariant": "triangle-free, full partition, and cut length never increases",
+    "matching3_gate_graphs": 3640,
+    "partitionable_gate_graphs": 3640,
+    "strict_cut_length_improvements": 3430,
+    "total_vertex_moves": 9078,
+    "valid_rebalanced_partitions": 3640
+  },
+  "scheduler_recommendation": {
+    "basis": "choose the target-valid stronger formulation because the inherited run is still observed in randomized full-batch cut discovery, not the deterministic complete-oracle phase; this choice does not use elapsed human time",
+    "caveat": "the current live formula states are incomparable and no n=50 TCG-3 hit rate has been measured",
+    "choice": "combined-successor",
+    "launch_state": "NOT LAUNCHED; report and authorization first"
+  },
+  "schema": "erdos151-matching3-tcg3-integration-audit-v1",
+  "static_formula_n50": {
+    "clauses": 379713,
+    "graph_and_degree_clauses": 305200,
+    "graph_and_degree_variables": 38725,
+    "matching_gate_clauses": 14488,
+    "matching_gate_variables": 7291,
+    "maximal_witness_clauses": 60025,
+    "maximal_witness_variables": 1225,
+    "status": "exact match to the audited matching3 production metadata",
+    "tcg3_external_oracle_clause_bound": 39200,
+    "tcg3_external_oracle_variables": 50,
+    "tcg3_main_sat_static_clauses": 0,
+    "tcg3_main_sat_static_variables": 0,
+    "variables": 47241
+  },
+  "status": "PASS"
+}

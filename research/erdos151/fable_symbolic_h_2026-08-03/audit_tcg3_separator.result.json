@@ -1,0 +1,37 @@
+{
+  "assessment": "sound and cheap enough for a later successor pilot; do not mutate or restart either live run",
+  "claim_boundary": "a found partition certifies non-arrowing and yields a sound cut; live order-50 behavior was not tested or inferred",
+  "exhaustive_n6": {
+    "exact_oracle_agrees_with_bruteforce": true,
+    "graphs_checked": 32768,
+    "nonpartitionable": 172,
+    "partitionable": 32596
+  },
+  "matching3_successor_has_explicit_separator": false,
+  "production_order_cost_bounds": {
+    "balanced_partition": {
+      "cut_literals": 4600,
+      "maximum_new_triangle_definition_clauses": 13800,
+      "side_one": 25,
+      "side_zero": 25
+    },
+    "extreme_partition": {
+      "cut_literals": 19600,
+      "maximum_new_triangle_definition_clauses": 58800,
+      "side_one": 0,
+      "side_zero": 50
+    },
+    "incremental_cut_clauses": 1,
+    "oracle_clauses": "twice the actual triangle count, at most 39200",
+    "oracle_variables": 50
+  },
+  "schema": "erdos151-v1-tcg3-separator-audit-v1",
+  "status": "PASS",
+  "v1_triangle_side_assignments_checked": 8,
+  "y_witness_cut_semantics": {
+    "checks": 16384,
+    "graphs_per_partition": 1024,
+    "partitions": 16,
+    "result": "with y_t -> all three edges, OR y_t is satisfiable under a fixed graph iff some internal triple is a triangle"
+  }
+}

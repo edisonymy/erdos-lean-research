@@ -1,0 +1,206 @@
+{
+  "final_formula": {
+    "admissible_cut_clauses": 96,
+    "clauses": 1947,
+    "tcg3_cut_clauses": 4,
+    "triangle_definition_clauses": 354,
+    "triangle_witness_variables": 118,
+    "variables": 639
+  },
+  "log": [
+    {
+      "actual_maximal_edges": 13,
+      "actual_maximal_matching": 5,
+      "admissible": {
+        "oracle_s": 0.000215,
+        "phase": "randomized-full-batch",
+        "sets_found": 24
+      },
+      "edges": 13,
+      "elapsed_s": 0.002218,
+      "round": 0,
+      "solver_s": 0.000142,
+      "tcg3": {
+        "cut_added": true,
+        "cut_literals": 20,
+        "enumeration_s": 8.4e-05,
+        "new_triangle_witnesses": 20,
+        "oracle_s": 0.000967,
+        "partition_sizes": [
+          5,
+          5
+        ],
+        "raw_partition_sizes": [
+          10,
+          0
+        ],
+        "rebalance_moves": 5,
+        "status": "partition-found",
+        "triangle_count": 0
+      },
+      "triangle_witnesses": 53
+    },
+    {
+      "actual_maximal_edges": 4,
+      "actual_maximal_matching": 3,
+      "admissible": {
+        "oracle_s": 0.000208,
+        "phase": "randomized-full-batch",
+        "sets_found": 24
+      },
+      "edges": 14,
+      "elapsed_s": 0.004417,
+      "round": 1,
+      "solver_s": 0.000207,
+      "tcg3": {
+        "cut_added": true,
+        "cut_literals": 20,
+        "enumeration_s": 8.6e-05,
+        "new_triangle_witnesses": 14,
+        "oracle_s": 0.000972,
+        "partition_sizes": [
+          5,
+          5
+        ],
+        "raw_partition_sizes": [
+          3,
+          7
+        ],
+        "rebalance_moves": 2,
+        "status": "partition-found",
+        "triangle_count": 4
+      },
+      "triangle_witnesses": 98
+    },
+    {
+      "actual_maximal_edges": 8,
+      "actual_maximal_matching": 4,
+      "admissible": {
+        "oracle_s": 0.000212,
+        "phase": "randomized-full-batch",
+        "sets_found": 24
+      },
+      "edges": 14,
+      "elapsed_s": 0.011796,
+      "round": 2,
+      "solver_s": 0.005377,
+      "tcg3": {
+        "cut_added": true,
+        "cut_literals": 20,
+        "enumeration_s": 8.5e-05,
+        "new_triangle_witnesses": 1,
+        "oracle_s": 0.000927,
+        "partition_sizes": [
+          5,
+          5
+        ],
+        "raw_partition_sizes": [
+          5,
+          5
+        ],
+        "rebalance_moves": 0,
+        "status": "partition-found",
+        "triangle_count": 2
+      },
+      "triangle_witnesses": 109
+    },
+    {
+      "actual_maximal_edges": 8,
+      "actual_maximal_matching": 4,
+      "admissible": {
+        "oracle_s": 0.000224,
+        "phase": "randomized-full-batch",
+        "sets_found": 24
+      },
+      "edges": 14,
+      "elapsed_s": 0.037296,
+      "round": 3,
+      "solver_s": 0.023512,
+      "tcg3": {
+        "cut_added": true,
+        "cut_literals": 20,
+        "enumeration_s": 9.5e-05,
+        "new_triangle_witnesses": 2,
+        "oracle_s": 0.000929,
+        "partition_sizes": [
+          5,
+          5
+        ],
+        "raw_partition_sizes": [
+          2,
+          8
+        ],
+        "rebalance_moves": 3,
+        "status": "partition-found",
+        "triangle_count": 2
+      },
+      "triangle_witnesses": 118
+    }
+  ],
+  "static_formula": {
+    "clauses": 1493,
+    "degree_clauses": 390,
+    "edge_variables": 45,
+    "formula_relation": "same static formula as cegar_face_matching3.py; TCG-3 contributes only model-dependent learned clauses",
+    "global_atleast_aux_variables": 126,
+    "global_atleast_clauses": 213,
+    "graph_and_degree_clauses": 600,
+    "graph_and_degree_variables": 225,
+    "k4_clauses": 210,
+    "matching_gate_clauses": 488,
+    "matching_gate_variables": 251,
+    "maximal_witness_clauses": 405,
+    "maximal_witness_variables": 45,
+    "per_vertex_atmost_aux_variables": 80,
+    "per_vertex_atmost_clauses": 230,
+    "required_matching_size": 3,
+    "schema": "erdos151-matching3-tcg3-static-formula-v1",
+    "selector_bridge_clauses": 45,
+    "selector_variables": 45,
+    "semantics": "m_uv implies uv is an edge with no common neighbour",
+    "tcg3_external_oracle_clause_bound": 240,
+    "tcg3_external_oracle_variables": 10,
+    "tcg3_main_sat_static_clauses": 0,
+    "tcg3_main_sat_static_variables": 0,
+    "variables": 521
+  },
+  "summary": {
+    "claim_boundary": "requires final-CNF serialization and independent proof certification before theorem use",
+    "cuts_per_round": 24,
+    "elapsed_s": 0.099163,
+    "h": 4,
+    "min_degree": 0,
+    "n": 10,
+    "result": "UNSAT",
+    "rounds": 4,
+    "seed": 2027
+  },
+  "telemetry": {
+    "admissible_oracle": {
+      "complete_miss_queries": 0,
+      "full_batch_queries": 4,
+      "partial_batch_queries": 0,
+      "queries": 4,
+      "seconds": 0.000860299973282963,
+      "sets_found": 96
+    },
+    "cuts": {
+      "admissible_clauses": 96,
+      "tcg3_clauses": 4,
+      "tcg3_literals": 80,
+      "tcg3_max_literals": 20,
+      "tcg3_min_literals": 20,
+      "tcg3_new_triangle_witnesses": 37
+    },
+    "schema": "erdos151-matching3-tcg3-cut-telemetry-v1",
+    "solver_calls": 5,
+    "tcg3_oracle": {
+      "enumeration_seconds": 0.0003498000151012093,
+      "nonpartitionable": 0,
+      "partitionable": 4,
+      "queries": 4,
+      "solver_seconds": 0.003795399999944493,
+      "triangles_seen": 8
+    }
+  }
+}

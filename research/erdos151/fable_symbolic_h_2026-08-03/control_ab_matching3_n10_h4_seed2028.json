@@ -1,0 +1,177 @@
+{
+ "summary": {
+  "n": 10,
+  "h": 4,
+  "min_degree": 0,
+  "result": "UNSAT",
+  "rounds": 18,
+  "cuts_y": 120,
+  "cuts_m": 45,
+  "base_stats": {
+   "variables": 521,
+   "clauses": 1493,
+   "k4_clauses": 210,
+   "degree_clauses": 390,
+   "maximal_witness_variables": 45,
+   "maximal_witness_clauses": 405,
+   "semantics": "m_uv implies uv is an edge with no common neighbour",
+   "required_matching_size": 3,
+   "selector_variables": 45,
+   "per_vertex_atmost_aux_variables": 80,
+   "global_atleast_aux_variables": 126,
+   "matching_gate_variables": 251,
+   "selector_bridge_clauses": 45,
+   "per_vertex_atmost_clauses": 230,
+   "global_atleast_clauses": 213,
+   "matching_gate_clauses": 488
+  },
+  "elapsed_s": 0.2,
+  "meaning": "K4-free face with the proved matching>=3 gate excluded; publishable only after final-CNF proof certification"
+ },
+ "log": [
+  {
+   "round": 0,
+   "edges": 13,
+   "cuts_added": 24,
+   "actual_maximal_edges": 13,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 1,
+   "edges": 14,
+   "cuts_added": 24,
+   "actual_maximal_edges": 9,
+   "actual_maximal_matching": 3,
+   "t": 0.0
+  },
+  {
+   "round": 2,
+   "edges": 13,
+   "cuts_added": 24,
+   "actual_maximal_edges": 10,
+   "actual_maximal_matching": 4,
+   "t": 0.0
+  },
+  {
+   "round": 3,
+   "edges": 14,
+   "cuts_added": 24,
+   "actual_maximal_edges": 11,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 4,
+   "edges": 13,
+   "cuts_added": 24,
+   "actual_maximal_edges": 10,
+   "actual_maximal_matching": 4,
+   "t": 0.0
+  },
+  {
+   "round": 5,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 6,
+   "edges": 14,
+   "cuts_added": 24,
+   "actual_maximal_edges": 14,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 7,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 8,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 9,
+   "edges": 14,
+   "cuts_added": 24,
+   "actual_maximal_edges": 14,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 10,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 11,
+   "edges": 14,
+   "cuts_added": 24,
+   "actual_maximal_edges": 14,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 12,
+   "edges": 14,
+   "cuts_added": 24,
+   "actual_maximal_edges": 14,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 13,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 14,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.0
+  },
+  {
+   "round": 15,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.1
+  },
+  {
+   "round": 16,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.1
+  },
+  {
+   "round": 17,
+   "edges": 15,
+   "cuts_added": 24,
+   "actual_maximal_edges": 15,
+   "actual_maximal_matching": 5,
+   "t": 0.1
+  }
+ ]
+}

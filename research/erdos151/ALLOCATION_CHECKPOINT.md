@@ -312,3 +312,31 @@ candidate, complete protected-core closure with a quantified bridge, or global
 behaviour in the full order-50 CEGAR.  Absent one of those, these finite results
 should be published and #151 should remain a bounded rather than dominant
 campaign lane.
+
+## Global-separator successor: 3 August 2026, 16:20 BST
+
+Fable's V1 observation survived an independent semantics audit and has been
+converted into a separate successor rather than injected into a live formula.
+If `V(G)=A union B` with both induced sides triangle-free, coloring crossing
+edges red and internal edges blue gives a two-edge-coloring with no
+monochromatic triangle.  Therefore an edge-arrowing target admits no such
+partition.  For every rejected model, the sound lazy clause is the disjunction
+of triangle witnesses over triples internal to `A` or to `B`.
+
+The standalone separator agrees with brute force on all 32,768 labeled
+six-vertex graphs, and 16,384 fixed graph/partition tests verify that the cut
+has exactly the intended semantics with the inherited one-way triangle
+witnesses.  The combined matching-three/TCG-3 integration audit is `PASS`;
+matched `(10,4)` controls reached UNSAT in 4, 4, and 3 rounds versus 18, 21,
+and 18 for matching-three alone.  These are regression controls, not evidence
+about order 50.
+
+A third, independent order-50 production run is now live.  Its static formula
+is exactly the audited matching-three formula; TCG-3 contributes only sound
+model-dependent cuts.  The first 780 sampled models all admitted a
+triangle-free two-partition and were separated, while the admissible-set
+oracle also continued to return its full 24-cut batch.  This is useful initial
+telemetry because the new global oracle is active, but it is not evidence for
+SAT, UNSAT, or proximity.  The inherited and matching-three-only runs remain
+live because stopping them would discard unpersisted learned clauses; no such
+destructive scheduler change was made.

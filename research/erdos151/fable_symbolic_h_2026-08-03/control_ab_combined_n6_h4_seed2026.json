@@ -1,0 +1,142 @@
+{
+  "final_formula": {
+    "admissible_cut_clauses": 0,
+    "clauses": 314,
+    "tcg3_cut_clauses": 2,
+    "triangle_definition_clauses": 12,
+    "triangle_witness_variables": 4,
+    "variables": 145
+  },
+  "log": [
+    {
+      "actual_maximal_edges": 9,
+      "actual_maximal_matching": 3,
+      "admissible": {
+        "oracle_s": 0.000699,
+        "phase": "deterministic-complete-miss",
+        "sets_found": 0
+      },
+      "edges": 9,
+      "elapsed_s": 0.001752,
+      "round": 0,
+      "solver_s": 4.5e-05,
+      "tcg3": {
+        "cut_added": true,
+        "cut_literals": 2,
+        "enumeration_s": 1.9e-05,
+        "new_triangle_witnesses": 2,
+        "oracle_s": 0.00065,
+        "partition_sizes": [
+          3,
+          3
+        ],
+        "raw_partition_sizes": [
+          6,
+          0
+        ],
+        "rebalance_moves": 3,
+        "status": "partition-found",
+        "triangle_count": 0
+      },
+      "triangle_witnesses": 2
+    },
+    {
+      "actual_maximal_edges": 3,
+      "actual_maximal_matching": 3,
+      "admissible": {
+        "oracle_s": 0.001006,
+        "phase": "deterministic-complete-miss",
+        "sets_found": 0
+      },
+      "edges": 9,
+      "elapsed_s": 0.004026,
+      "round": 1,
+      "solver_s": 4.5e-05,
+      "tcg3": {
+        "cut_added": true,
+        "cut_literals": 2,
+        "enumeration_s": 2e-05,
+        "new_triangle_witnesses": 2,
+        "oracle_s": 0.000682,
+        "partition_sizes": [
+          3,
+          3
+        ],
+        "raw_partition_sizes": [
+          2,
+          4
+        ],
+        "rebalance_moves": 1,
+        "status": "partition-found",
+        "triangle_count": 2
+      },
+      "triangle_witnesses": 4
+    }
+  ],
+  "static_formula": {
+    "clauses": 300,
+    "degree_clauses": 66,
+    "edge_variables": 15,
+    "formula_relation": "same static formula as cegar_face_matching3.py; TCG-3 contributes only model-dependent learned clauses",
+    "global_atleast_aux_variables": 36,
+    "global_atleast_clauses": 63,
+    "graph_and_degree_clauses": 81,
+    "graph_and_degree_variables": 51,
+    "k4_clauses": 15,
+    "matching_gate_clauses": 144,
+    "matching_gate_variables": 75,
+    "maximal_witness_clauses": 75,
+    "maximal_witness_variables": 15,
+    "per_vertex_atmost_aux_variables": 24,
+    "per_vertex_atmost_clauses": 66,
+    "required_matching_size": 3,
+    "schema": "erdos151-matching3-tcg3-static-formula-v1",
+    "selector_bridge_clauses": 15,
+    "selector_variables": 15,
+    "semantics": "m_uv implies uv is an edge with no common neighbour",
+    "tcg3_external_oracle_clause_bound": 40,
+    "tcg3_external_oracle_variables": 6,
+    "tcg3_main_sat_static_clauses": 0,
+    "tcg3_main_sat_static_variables": 0,
+    "variables": 141
+  },
+  "summary": {
+    "claim_boundary": "requires final-CNF serialization and independent proof certification before theorem use",
+    "cuts_per_round": 24,
+    "elapsed_s": 0.004147,
+    "h": 4,
+    "min_degree": 0,
+    "n": 6,
+    "result": "UNSAT",
+    "rounds": 2,
+    "seed": 2026
+  },
+  "telemetry": {
+    "admissible_oracle": {
+      "complete_miss_queries": 2,
+      "full_batch_queries": 0,
+      "partial_batch_queries": 0,
+      "queries": 2,
+      "seconds": 0.0017044999985955656,
+      "sets_found": 0
+    },
+    "cuts": {
+      "admissible_clauses": 0,
+      "tcg3_clauses": 2,
+      "tcg3_literals": 4,
+      "tcg3_max_literals": 2,
+      "tcg3_min_literals": 2,
+      "tcg3_new_triangle_witnesses": 4
+    },
+    "schema": "erdos151-matching3-tcg3-cut-telemetry-v1",
+    "solver_calls": 3,
+    "tcg3_oracle": {
+      "enumeration_seconds": 3.830002970062196e-05,
+      "nonpartitionable": 0,
+      "partitionable": 2,
+      "queries": 2,
+      "solver_seconds": 0.0013323999883141369,
+      "triangles_seen": 2
+    }
+  }
+}

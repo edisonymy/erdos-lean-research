@@ -1,0 +1,85 @@
+{
+  "schema": "erdos151-cegar-matching3-tcg3-run-metadata-v1",
+  "launched_at": "2026-08-03T16:15:40.3459758+01:00",
+  "status": "RUNNING",
+  "parameters": {
+    "n": 50,
+    "h": 11,
+    "min_degree": 9,
+    "max_degree": 10,
+    "round_cap": 1000000,
+    "cuts_per_round": 24,
+    "seed": 2026,
+    "required_maximal_edge_matching": 3,
+    "tcg3_queries_per_model": 1
+  },
+  "command": "python -u -X utf8 research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3.py 50 11 1000000 research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3_n50_d9.json 9",
+  "process_tree": {
+    "command_wrapper_pid": 85600,
+    "venv_wrapper_pid": 85568,
+    "worker_pid": 76636,
+    "verified_relation": "85600 -> 85568 -> 76636",
+    "background_verification": "the launching PowerShell parent exited; all three listed processes remained live"
+  },
+  "script": {
+    "path": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3.py",
+    "sha256": "2fc09b1f1101d9f6d38b66f91b1f555c74edab06365abd7eeda0231c9b55813e"
+  },
+  "separator": {
+    "path": "research/erdos151/fable_symbolic_h_2026-08-03/tcg3_separator.py",
+    "sha256": "66767efac9779e5c743683a0955ae7a5cd4b5ea8650c72635eca4b80880c952f"
+  },
+  "audits": {
+    "integration": {
+      "script_path": "research/erdos151/fable_symbolic_h_2026-08-03/audit_cegar_matching3_tcg3.py",
+      "script_sha256": "4293ccf43c7444a3f0983aeb08f6909223c2fb3c2f67a1b48f433931c956d3ff",
+      "result_path": "research/erdos151/fable_symbolic_h_2026-08-03/audit_cegar_matching3_tcg3.result.json",
+      "result_sha256": "d97cd17c96d56b92e721178eb9ebc40c0b0f0eb74221e6c5bab4935b184c957",
+      "status": "PASS"
+    },
+    "tcg3_separator": {
+      "result_path": "research/erdos151/fable_symbolic_h_2026-08-03/audit_tcg3_separator.result.json",
+      "result_sha256": "9f419a4288365cbfe08c9726fdc21dc01f21b65d5245a4cd9008a6fe4ff92def",
+      "status": "PASS"
+    }
+  },
+  "static_formula": {
+    "variables": 47241,
+    "clauses": 379713,
+    "graph_and_degree_variables": 38725,
+    "graph_and_degree_clauses": 305200,
+    "maximal_witness_variables": 1225,
+    "maximal_witness_clauses": 60025,
+    "matching_gate_variables_beyond_maximal_witnesses": 7291,
+    "matching_gate_clauses_beyond_maximal_witnesses": 14488,
+    "tcg3_main_sat_static_variables": 0,
+    "tcg3_main_sat_static_clauses": 0,
+    "tcg3_external_oracle_variables": 50,
+    "tcg3_external_oracle_clause_bound": 39200
+  },
+  "outputs": {
+    "result": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3_n50_d9.json",
+    "stdout": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3_n50_d9.stdout.log",
+    "stderr": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3_n50_d9.stderr.log"
+  },
+  "initial_telemetry": {
+    "captured_at": "2026-08-03T16:20:05.9135943+01:00",
+    "first_sample": "[combined n=50] round 0 edges=239 tcg3=partition-found adm=24 phase=randomized-full-batch y=7141 nuM=24 0.19s",
+    "latest_sample_at_capture": "[combined n=50] round 600 edges=239 tcg3=partition-found adm=24 phase=randomized-full-batch y=19600 nuM=25 232.87s",
+    "stderr_bytes": 0,
+    "interpretation": "process liveness and observed cut telemetry only; not a SAT, UNSAT, or convergence result"
+  },
+  "preserved_live_runs": {
+    "inherited": {
+      "wrapper_pid": 58260,
+      "worker_pid": 60196,
+      "state": "left live and unmodified"
+    },
+    "matching3_only": {
+      "wrapper_pid": 24144,
+      "worker_pid": 62672,
+      "state": "left live and unmodified for A/B comparison"
+    }
+  },
+  "claim_boundary": "Liveness and per-model separator hits are not mathematical outcomes. SAT requires independent exact graph validation; UNSAT requires final-formula serialization and independent proof certification."
+}
