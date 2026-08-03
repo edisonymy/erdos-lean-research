@@ -1,6 +1,6 @@
 # Long-horizon mathematical-agent prompt protocol
 
-**Adopted:** 3 August 2026  
+**Adopted:** 3 August 2026
 **Purpose:** give difficult open-problem lanes enough autonomous intellectual
 room without confusing persistence with unmeasured repetition.
 
