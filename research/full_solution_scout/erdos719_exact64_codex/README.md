@@ -36,3 +36,7 @@ Its separate read-only code audit also verifies the exact-64 clause polarity,
 packing oracle, and restart logic.  Production runs must remain bounded and
 must preserve their source hash and journal; an incremental UNSAT answer is
 not publishable without a separately checked proof certificate.
+
+On Windows, atomic progress-file replacement includes bounded retries for
+transient sharing violations from scanners or indexers.  A failed replacement
+still aborts the writer; it never downgrades to a non-atomic write.

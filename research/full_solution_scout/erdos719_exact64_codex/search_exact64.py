@@ -66,12 +66,26 @@ def with_hash(body: dict[str, object]) -> dict[str, object]:
 
 def atomic_json(path: Path, body: dict[str, object]) -> None:
     payload = json.dumps(with_hash(body), sort_keys=True, indent=2, ensure_ascii=False) + "\n"
-    temp = path.with_name(f".{path.name}.tmp-{os.getpid()}")
+    temp = path.with_name(f".{path.name}.tmp-{os.getpid()}-{uuid.uuid4().hex}")
     with temp.open("w", encoding="utf-8", newline="\n") as handle:
         handle.write(payload)
         handle.flush()
         os.fsync(handle.fileno())
-    os.replace(temp, path)
+    # Windows virus scanners and indexers can briefly retain a handle to the
+    # destination after reading it.  Preserve atomic replacement semantics,
+    # but tolerate that transient sharing violation instead of aborting a long
+    # proof-search journal at an otherwise valid checkpoint.
+    try:
+        for attempt in range(20):
+            try:
+                os.replace(temp, path)
+                return
+            except PermissionError:
+                if attempt == 19:
+                    raise
+                time.sleep(min(0.005 * (2**attempt), 0.25))
+    finally:
+        temp.unlink(missing_ok=True)
 
 
 def verify_hashed_json(path: Path) -> dict[str, object]:
