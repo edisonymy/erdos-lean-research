@@ -1,0 +1,89 @@
+{
+  "backend": {
+    "algorithm": "max_weight_matching",
+    "package": "networkx",
+    "version": "3.5"
+  },
+  "catalogue": {
+    "path": "12_4reg.txt",
+    "records": 1544,
+    "sha256": "6030d7de5212d195f3872606e947298aa3cfe0f594850f81c0f45105291919ae",
+    "url": "https://webhome.cs.uvic.ca/~wendym/manjeet/12_4reg.txt"
+  },
+  "failures": [],
+  "graphs_with_matching_below_4": 0,
+  "matching_size_distribution": {
+    "9": 3,
+    "10": 25,
+    "11": 124,
+    "12": 1392
+  },
+  "sample_certificates": [
+    {
+      "catalogue_index": 0,
+      "four_blocks": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          3,
+          14
+        ]
+      ]
+    },
+    {
+      "catalogue_index": 1,
+      "four_blocks": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          3,
+          19
+        ]
+      ]
+    },
+    {
+      "catalogue_index": 2,
+      "four_blocks": [
+        [
+          0,
+          23
+        ],
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          22
+        ],
+        [
+          3,
+          14
+        ]
+      ]
+    }
+  ],
+  "schema": "erdos149-n12-networkx-independent-audit-v1",
+  "scope": "All 1,544 connected 4-regular graphs in the public n=12 catalogue. A matching of size four in J is an explicit 20-colour certificate; this says nothing about non-4-regular order-12 graphs.",
+  "status": "VERIFIED"
+}

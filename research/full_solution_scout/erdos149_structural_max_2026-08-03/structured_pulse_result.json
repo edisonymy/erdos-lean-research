@@ -1,0 +1,980 @@
+{
+  "candidate_count": 0,
+  "catalogue_12": {
+    "candidate": null,
+    "closest_checked_graph": {
+      "compatibility_pair_count": 18,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          11
+        ]
+      ],
+      "graph6": "K?`FE`wl?{Dg",
+      "witness": {
+        "blocks": [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            11,
+            15
+          ]
+        ],
+        "kind": "matching_4",
+        "saving": 4
+      }
+    },
+    "compatibility_pair_count_distribution": {
+      "18": 1,
+      "22": 1,
+      "26": 2,
+      "27": 1,
+      "29": 1,
+      "30": 1,
+      "31": 2,
+      "32": 6,
+      "33": 2,
+      "34": 6,
+      "35": 3,
+      "36": 14,
+      "37": 4,
+      "38": 9,
+      "39": 12,
+      "40": 11,
+      "41": 25,
+      "42": 18,
+      "43": 26,
+      "44": 30,
+      "45": 21,
+      "46": 57,
+      "47": 14,
+      "48": 61,
+      "49": 26,
+      "50": 48,
+      "51": 63,
+      "52": 25,
+      "53": 73,
+      "54": 40,
+      "55": 58,
+      "56": 51,
+      "57": 34,
+      "58": 78,
+      "59": 24,
+      "60": 81,
+      "61": 36,
+      "62": 52,
+      "63": 50,
+      "64": 33,
+      "65": 59,
+      "66": 19,
+      "67": 40,
+      "68": 30,
+      "69": 23,
+      "70": 26,
+      "71": 18,
+      "72": 35,
+      "73": 8,
+      "74": 20,
+      "75": 13,
+      "76": 21,
+      "77": 13,
+      "78": 15,
+      "79": 11,
+      "80": 10,
+      "81": 6,
+      "82": 8,
+      "83": 9,
+      "84": 5,
+      "85": 4,
+      "86": 6,
+      "87": 6,
+      "88": 4,
+      "89": 1,
+      "90": 5,
+      "91": 4,
+      "92": 2,
+      "93": 2,
+      "94": 3,
+      "96": 2,
+      "98": 1,
+      "99": 1,
+      "100": 1,
+      "101": 1,
+      "102": 1,
+      "103": 1,
+      "104": 1,
+      "105": 1,
+      "106": 2,
+      "107": 2,
+      "108": 2,
+      "115": 1,
+      "119": 1
+    },
+    "edge_count": 24,
+    "graphs_checked": 1544,
+    "name": "connected 4-regular n=12 catalogue",
+    "source": {
+      "path": "12_4reg.txt",
+      "sha256": "6030d7de5212d195f3872606e947298aa3cfe0f594850f81c0f45105291919ae",
+      "url": "https://webhome.cs.uvic.ca/~wendym/manjeet/12_4reg.txt"
+    },
+    "status": "NO_CANDIDATE_IN_SCOPE",
+    "witness_type_distribution": {
+      "matching_4": 1544
+    }
+  },
+  "families": [
+    {
+      "candidate": null,
+      "closest_checked_graph": {
+        "compatibility_pair_count": 12,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "graph6": "JMKoWZBot??",
+        "witness": {
+          "blocks": [
+            [
+              13,
+              3
+            ]
+          ],
+          "kind": "edge",
+          "saving": 1
+        }
+      },
+      "compatibility_pair_count_distribution": {
+        "12": 20
+      },
+      "edge_count": 21,
+      "graphs_checked": 20,
+      "name": "C5[2]+x: degree(x)=2, removed=1",
+      "status": "NO_CANDIDATE_IN_SCOPE",
+      "witness_type_distribution": {
+        "edge": 20
+      }
+    },
+    {
+      "candidate": null,
+      "closest_checked_graph": {
+        "compatibility_pair_count": 12,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            10
+          ]
+        ],
+        "graph6": "JMKoWXBot@?",
+        "witness": {
+          "blocks": [
+            [
+              7,
+              1
+            ]
+          ],
+          "kind": "edge",
+          "saving": 1
+        }
+      },
+      "compatibility_pair_count_distribution": {
+        "12": 40,
+        "15": 160,
+        "19": 240,
+        "20": 20,
+        "23": 120
+      },
+      "edge_count": 21,
+      "graphs_checked": 580,
+      "name": "C5[2]+x: degree(x)=3, removed=2",
+      "status": "NO_CANDIDATE_IN_SCOPE",
+      "witness_type_distribution": {
+        "edge": 580
+      }
+    },
+    {
+      "candidate": null,
+      "closest_checked_graph": {
+        "compatibility_pair_count": 11,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            10
+          ]
+        ],
+        "graph6": "JMCoWXBotP?",
+        "witness": {
+          "blocks": [
+            [
+              1,
+              7
+            ]
+          ],
+          "kind": "edge",
+          "saving": 1
+        }
+      },
+      "compatibility_pair_count_distribution": {
+        "11": 80,
+        "12": 40,
+        "16": 720,
+        "17": 720,
+        "18": 640,
+        "19": 320,
+        "20": 480,
+        "21": 160,
+        "22": 640,
+        "23": 1240,
+        "24": 1160,
+        "25": 720,
+        "26": 320,
+        "27": 160,
+        "28": 180,
+        "30": 160,
+        "31": 160,
+        "32": 40,
+        "34": 80
+      },
+      "edge_count": 21,
+      "graphs_checked": 8020,
+      "name": "C5[2]+x: degree(x)=4, removed=3",
+      "status": "NO_CANDIDATE_IN_SCOPE",
+      "witness_type_distribution": {
+        "edge": 8020
+      }
+    },
+    {
+      "candidate": null,
+      "closest_checked_graph": {
+        "compatibility_pair_count": 14,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "graph6": "JMKoGZBotS?",
+        "witness": {
+          "blocks": [
+            [
+              3,
+              16
+            ],
+            [
+              5,
+              19
+            ]
+          ],
+          "kind": "matching_2",
+          "saving": 2
+        }
+      },
+      "compatibility_pair_count_distribution": {
+        "14": 80,
+        "21": 40,
+        "25": 10
+      },
+      "edge_count": 22,
+      "graphs_checked": 130,
+      "name": "C5[2]+x: degree(x)=4, removed matching-sized set=2",
+      "status": "NO_CANDIDATE_IN_SCOPE",
+      "witness_type_distribution": {
+        "matching_2": 130
+      }
+    },
+    {
+      "candidate": null,
+      "closest_checked_graph": {
+        "compatibility_pair_count": 11,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            8
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            9
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "graph6": "JlSggUDOlA_",
+        "witness": {
+          "blocks": [
+            [
+              0,
+              14
+            ],
+            [
+              3,
+              12
+            ]
+          ],
+          "kind": "matching_2",
+          "saving": 2
+        }
+      },
+      "compatibility_pair_count_distribution": {
+        "11": 5,
+        "66": 5
+      },
+      "edge_count": 22,
+      "graphs_checked": 10,
+      "name": "4-regular circulants n=11",
+      "status": "NO_CANDIDATE_IN_SCOPE",
+      "witness_type_distribution": {
+        "matching_2": 10
+      }
+    },
+    {
+      "candidate": null,
+      "closest_checked_graph": {
+        "compatibility_pair_count": 18,
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            9
+          ],
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            11
+          ]
+        ],
+        "graph6": "KUWooWE_uBKE",
+        "witness": {
+          "blocks": [
+            [
+              0,
+              17
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              4,
+              19
+            ],
+            [
+              7,
+              15
+            ]
+          ],
+          "kind": "matching_4",
+          "saving": 4
+        }
+      },
+      "compatibility_pair_count_distribution": {
+        "18": 1,
+        "42": 2,
+        "48": 3,
+        "54": 1,
+        "96": 2,
+        "144": 1
+      },
+      "edge_count": 24,
+      "graphs_checked": 10,
+      "name": "4-regular circulants n=12",
+      "status": "NO_CANDIDATE_IN_SCOPE",
+      "witness_type_distribution": {
+        "matching_4": 10
+      }
+    }
+  ],
+  "schema": "erdos149-structured-pulse-v1",
+  "scope_warning": "The perturbation and circulant families are construction probes, not exhaustive. The optional catalogue result is exhaustive only for its cited connected 4-regular class."
+}

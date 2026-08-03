@@ -1,0 +1,55 @@
+{
+  "claim_scope": "analytic n<=11 theorem; exhaustive connected 4-regular n=12 catalogue check plus disconnected reduction; explicitly scoped construction families",
+  "files": {
+    "12_4reg.txt": {
+      "bytes": 109624,
+      "sha256": "6030d7de5212d195f3872606e947298aa3cfe0f594850f81c0f45105291919ae"
+    },
+    "N11_ANALYTIC.md": {
+      "bytes": 6714,
+      "sha256": "43a6bde53da52275aed9950828a41e917407385d217e6e0fb875a50c8365c794"
+    },
+    "PRIORITY_AUDIT.md": {
+      "bytes": 2617,
+      "sha256": "90232501417c2aac3ffed34dd7b3df6378164ea56904e8aa60a0deb4a587f658"
+    },
+    "README.md": {
+      "bytes": 2086,
+      "sha256": "779883f21a2297a3575b7b96435c2c54cf2baa5ddfc0ae3d69ba02ee4328bcad"
+    },
+    "REPORT.md": {
+      "bytes": 3093,
+      "sha256": "2b2a244c43c96bd6eecba6c37e79831cc4713a75461d10a48ff3f1c46628a5ef"
+    },
+    "RESULTS.md": {
+      "bytes": 4233,
+      "sha256": "50021507fa0e67437c2d67e99a67f6aa9c45d986ea6af46c4e26aa295b4321d9"
+    },
+    "STRUCTURAL_NOTES.md": {
+      "bytes": 5836,
+      "sha256": "eabe90009560d2f1500fc00a839cc9f060cc14f95f3a9fce8e27b51ce37ba32d"
+    },
+    "make_manifest.py": {
+      "bytes": 1347,
+      "sha256": "38930c19e9a0d38df101c5a60eb35893a20cdd7346a8eb7df0d50c6767e3b2bf"
+    },
+    "n12_networkx_audit.json": {
+      "bytes": 1663,
+      "sha256": "4203e7c47ca86a43ca92950a80e9af63ac79b4d206d84bca5439e3926676d30b"
+    },
+    "structured_pulse.py": {
+      "bytes": 14862,
+      "sha256": "efd3f30dd766d1f6e0491810eefaa730920a7f90dd9dbc9a7ec4cf30b1b380bb"
+    },
+    "structured_pulse_result.json": {
+      "bytes": 16511,
+      "sha256": "1b6f08d4369ce02b04b94274b07bafc96682274cfb6a48bdeed0458237d13e6b"
+    },
+    "verify_n12_networkx.py": {
+      "bytes": 4258,
+      "sha256": "510335c840e886ca0792f990d1caf4e233392cc1ab4b006cd1c43df07669b551"
+    }
+  },
+  "frozen_date": "2026-08-03",
+  "schema": "erdos149-structural-lane-manifest-v1"
+}
