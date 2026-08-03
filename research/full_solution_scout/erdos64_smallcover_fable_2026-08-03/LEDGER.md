@@ -292,3 +292,23 @@ edge); k=0: N(0) <= 70 (cage itself); pure small-side runs give
 nonstandard "mixed-girth cage" problem; each h-rung UNSAT is new
 territory.  For Erdős #64 the payoff is structural: any counterexample's
 bipartite-ish substructures must be at least this large.
+
+## Entry 9 — certified Theorem 1 (pure bipartite small side)
+
+kissat-4.0.4 + drat-trim replays, all VERIFIED (`certify_pure_results.json`,
+CNF/DRAT hashes recorded there; sigma=4 is a two-line hand argument):
+
+**Theorem 1 [COMPUTED, DRAT-certified].** For sigma <= 15 there is no
+linear hypergraph on sigma points with every point-degree >= 3 and every
+edge of size >= 3 whose bipartite incidence graph is C8-free.
+Equivalently: **every bipartite graph with minimum degree >= 3 containing
+no C4 and no C8 has at least 16 vertices on each side** (so order >= 32).
+The C16 constraint was never needed.  Corollary: every bipartite
+counterexample to Erdős–Gyárfás has >= 16 vertices per side, already
+because of the C4/C8 conditions alone; with (unrefereed) SMS n<=31 this
+is tight-adjacent territory.  Dependencies: faithfulness of the encoding
+(audited in Entries 4-5: exact quadrilateral clauses), the classical
+soundness of double-lex + used-prefix symmetry breaking, kissat, and
+drat-trim.  Symmetry-free certificates additionally exist for
+sigma <= 8 (`certify_pure_nosym_results.json` in progress), removing the
+double-lex dependency there; the rest queue in background.
