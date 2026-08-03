@@ -1,0 +1,29 @@
+{
+ "summary": {
+  "n": 50,
+  "h": 11,
+  "min_degree": 9,
+  "result": "ROUND-CAP-UNKNOWN",
+  "rounds": 0,
+  "base_stats": {
+   "variables": 47241,
+   "clauses": 379713,
+   "k4_clauses": 230300,
+   "degree_clauses": 74900,
+   "maximal_witness_variables": 1225,
+   "maximal_witness_clauses": 60025,
+   "semantics": "m_uv implies uv is an edge with no common neighbour",
+   "required_matching_size": 3,
+   "selector_variables": 1225,
+   "per_vertex_atmost_aux_variables": 2400,
+   "global_atleast_aux_variables": 3666,
+   "matching_gate_variables": 7291,
+   "selector_bridge_clauses": 1225,
+   "per_vertex_atmost_clauses": 7150,
+   "global_atleast_clauses": 6113,
+   "matching_gate_clauses": 14488
+  },
+  "elapsed_s": 0.0
+ },
+ "log": []
+}

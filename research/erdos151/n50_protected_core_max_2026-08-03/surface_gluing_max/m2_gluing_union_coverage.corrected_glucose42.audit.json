@@ -1,0 +1,99 @@
+{
+  "candidates": [
+    {
+      "automorphism_count": 40,
+      "candidate_index": 1,
+      "canonical_factor_branches": 210,
+      "exact_common_neighbour_filtered_configurations": 25,
+      "exceptional_configuration_orbit_sizes": [
+        10,
+        10,
+        5
+      ],
+      "invalid_configuration_orbits": [
+        {
+          "orbit_index": 0,
+          "orbit_size": 10
+        }
+      ],
+      "learned_k4_clauses": 1154706,
+      "learned_spurious_triangle_clauses": 1663963,
+      "raw_disjoint_antipode_configurations": 25,
+      "recorded_complete": true,
+      "recorded_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+      "result_path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_corrected_glucose42.json",
+      "result_sha256": "c5fe931dbc048d2aad4a67fb44060a53df883d57685a01f8f52308fb7e774739",
+      "solver_models_inspected": 87987,
+      "sphere_graph6": "U|fIJCpCG_a@C@C?b?G[@?_[ABGCKGCWCAW@?{?G",
+      "sphere_graph6_line_sha256": "f6902ad08c9aef5dc29774fee411bcb170e19c2a543e3dda9c67759a6b311328",
+      "sphere_graph6_sha256": "9c6150562421f74518524a0549ebc3869ef8dc6e378a87a4b91280643e6a0e7c",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 210
+      },
+      "weighted_valid_raw_factor_cases": 3359375
+    },
+    {
+      "automorphism_count": 8,
+      "candidate_index": 2,
+      "canonical_factor_branches": 330,
+      "exact_common_neighbour_filtered_configurations": 9,
+      "exceptional_configuration_orbit_sizes": [
+        2,
+        4,
+        2,
+        1
+      ],
+      "invalid_configuration_orbits": [
+        {
+          "orbit_index": 0,
+          "orbit_size": 2
+        }
+      ],
+      "learned_k4_clauses": 1834555,
+      "learned_spurious_triangle_clauses": 2619340,
+      "raw_disjoint_antipode_configurations": 23,
+      "recorded_complete": true,
+      "recorded_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+      "result_path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_corrected_glucose42.json",
+      "result_sha256": "01c714bfa23f8c126c38fc4bf39cff0ded70689a0555350c1c8b9a9e19622035",
+      "solver_models_inspected": 138370,
+      "sphere_graph6": "U|fIID@OI?g@W@K?b?G[X?oC@_G@_G?oc?Fo??Fo",
+      "sphere_graph6_line_sha256": "dc42688dc8161800f55f4e2133a39361296aee9113bb8ac6e08dc7abac3b6e01",
+      "sphere_graph6_sha256": "4d421d408cc98a891f890b638ba521f828aba1a5931c4b5954ee697083eedabd",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 330
+      },
+      "weighted_valid_raw_factor_cases": 1484375
+    }
+  ],
+  "claim_boundary": "This independently audits input identities, automorphism/orbit reduction, factor coverage, branch keys, and recorded termination. It does not independently re-solve the SAT branches and is not a DRAT/LRAT proof certificate.",
+  "conclusion": "Independent orbit reconstruction matches all 540 retained canonical factor-branch keys, and every retained branch records exhaustive termination with no quotient survivor.",
+  "icosahedron": {
+    "automorphism_count": 120,
+    "orbit_size_sum": 125,
+    "perfect_matching_count": 125,
+    "perfect_matching_orbit_sizes": [
+      30,
+      60,
+      20,
+      5,
+      10
+    ]
+  },
+  "schema": "erdos151-m2-gluing-union-coverage-audit-v1",
+  "search_script": {
+    "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_factor_gluing_search.py",
+    "sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21"
+  },
+  "status": "PASS",
+  "union": {
+    "canonical_factor_branches": 540,
+    "coverage_exact": true,
+    "survivors": 0,
+    "termination_status_counts": {
+      "exhausted": 540
+    }
+  }
+}

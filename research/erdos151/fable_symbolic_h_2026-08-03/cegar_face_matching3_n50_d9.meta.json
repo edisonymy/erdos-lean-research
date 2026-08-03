@@ -1,0 +1,50 @@
+{
+  "schema": "erdos151-cegar-matching3-run-metadata-v1",
+  "launched_at": "2026-08-03T15:42:25+01:00",
+  "status": "RUNNING",
+  "pid": 24144,
+  "parameters": {
+    "n": 50,
+    "h": 11,
+    "min_degree": 9,
+    "max_degree": 10,
+    "round_cap": 1000000,
+    "cuts_per_round": 24,
+    "seed": 2026,
+    "required_maximal_edge_matching": 3
+  },
+  "script": {
+    "path": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3.py",
+    "sha256": "f50becfa7bb5fc6934ded04769b3b5f5b326084889998a02c927dcaa57663ead"
+  },
+  "audit": {
+    "path": "research/erdos151/fable_symbolic_h_2026-08-03/audit_cegar_matching3_gate.result.json",
+    "sha256": "da4d60acedbf9b75644a5e2a3059ab23b724fe9a9c6e20a98cc522f919ae4a54",
+    "status": "PASS",
+    "exhaustive_n6_graphs": 32768,
+    "end_to_end_sat_control": "PASS",
+    "end_to_end_unsat_control": "PASS"
+  },
+  "static_formula": {
+    "variables": 47241,
+    "clauses": 379713,
+    "graph_and_degree_variables": 38725,
+    "graph_and_degree_clauses": 305200,
+    "maximal_witness_variables": 1225,
+    "maximal_witness_clauses": 60025,
+    "matching_gate_variables_beyond_maximal_witnesses": 7291,
+    "matching_gate_clauses_beyond_maximal_witnesses": 14488
+  },
+  "semantics": {
+    "maximal_edge": "m_uv is a one-way witness: true implies uv is present and has no common neighbour",
+    "matching": "separate s_uv selectors imply m_uv, have per-vertex at-most-one, and global at-least-three",
+    "model_validation": "every SAT iteration recomputes actual maximal edges and an independent maximum matching from the decoded graph"
+  },
+  "outputs": {
+    "result": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_n50_d9.json",
+    "stdout": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_n50_d9.stdout.log",
+    "stderr": "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_n50_d9.stderr.log"
+  },
+  "inheritance_boundary": "separate successor; the inherited PID, script, result, and logs were not mutated or stopped",
+  "claim_boundary": "SAT requires independent exact beta/K4/arrowing validation; UNSAT requires final-formula serialization and independent proof certification"
+}

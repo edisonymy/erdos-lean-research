@@ -1,0 +1,156 @@
+{
+  "claim_boundary": "gate-only audit; production CEGAR outcomes retain the original SAT-model and UNSAT-proof certification requirements",
+  "controls": [
+    {
+      "expected": "SAT",
+      "maximal_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "name": "three_disjoint_edges",
+      "solver": "SAT"
+    },
+    {
+      "expected": "UNSAT",
+      "maximal_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "name": "two_disjoint_edges",
+      "solver": "UNSAT"
+    },
+    {
+      "expected": "UNSAT",
+      "maximal_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "name": "star",
+      "solver": "UNSAT"
+    },
+    {
+      "expected": "UNSAT",
+      "maximal_edges": [],
+      "name": "two_triangles",
+      "solver": "UNSAT"
+    },
+    {
+      "expected": "SAT",
+      "maximal_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "name": "triangular_prism",
+      "solver": "SAT"
+    }
+  ],
+  "end_to_end_controls": [
+    {
+      "admissible_h_set_count": 0,
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "h": 4,
+      "maximal_edge_count": 9,
+      "n": 6,
+      "path": "control_matching3_n6_h4.json",
+      "selected_matching_size": 3,
+      "status": "PASS"
+    },
+    {
+      "claim_boundary": "regression control, not a proof-certified theorem result",
+      "h": 4,
+      "n": 10,
+      "path": "control_matching3_n10_h4.json",
+      "rounds": 18,
+      "solver_result": "UNSAT",
+      "status": "PASS"
+    }
+  ],
+  "exhaustive_n6": {
+    "equivalence": "SAT iff the actual maximal-edge graph has matching number 3",
+    "expected_sat_graphs": 3640,
+    "graphs_checked": 32768,
+    "solver_sat_graphs": 3640
+  },
+  "gate_stats_n50": {
+    "global_atleast_aux_variables": 3666,
+    "global_atleast_clauses": 6113,
+    "matching_gate_clauses": 14488,
+    "matching_gate_variables": 7291,
+    "maximal_witness_clauses": 60025,
+    "maximal_witness_variables": 1225,
+    "per_vertex_atmost_aux_variables": 2400,
+    "per_vertex_atmost_clauses": 7150,
+    "required_matching_size": 3,
+    "selector_bridge_clauses": 1225,
+    "selector_variables": 1225,
+    "semantics": "m_uv implies uv is an edge with no common neighbour"
+  },
+  "gate_stats_n6": {
+    "global_atleast_aux_variables": 36,
+    "global_atleast_clauses": 63,
+    "matching_gate_clauses": 144,
+    "matching_gate_variables": 75,
+    "maximal_witness_clauses": 75,
+    "maximal_witness_variables": 15,
+    "per_vertex_atmost_aux_variables": 24,
+    "per_vertex_atmost_clauses": 66,
+    "required_matching_size": 3,
+    "selector_bridge_clauses": 15,
+    "selector_variables": 15,
+    "semantics": "m_uv implies uv is an edge with no common neighbour"
+  },
+  "schema": "erdos151-cegar-matching3-gate-audit-v1",
+  "semantics": "m_uv is a one-way maximal-edge witness; separate s_uv variables select at least three pairwise vertex-disjoint witnesses",
+  "status": "PASS"
+}

@@ -1,0 +1,4156 @@
+{
+  "base_cnf": {
+    "clauses": 108438,
+    "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\partition_alignment_max\\rp2_constant_fibre_pattern_bounded_5k.base.cnf",
+    "sha256": "84e2fd9e0bb68a14185ea9f8d2dece60b815da8d4a4587479154853e2fadaff7",
+    "variables": 23514
+  },
+  "claim_boundary": "UNKNOWN and unvisited branches are no evidence. Even complete solver UNSAT requires proof-producing replay and independent checking for theorem status.",
+  "completed_prefix_length": 515,
+  "conflict_budget_per_representative": 5000,
+  "coverage_audit": {
+    "K4_free_assignments": 2827,
+    "S3_orbit_representatives": 515,
+    "orbit_size_histogram": {
+      "1": 5,
+      "2": 4,
+      "3": 74,
+      "6": 432
+    },
+    "union_of_representative_orbits_equals_raw_set": true
+  },
+  "elapsed_seconds": 452.95091676712036,
+  "first_model": null,
+  "orbit_module_sha256": "a1b32c46850c928b38a2d11e6e35726ed9339c93aef8adb0d892946f29b1e2f1",
+  "records": [
+    {
+      "bitmask_on_all_15_pairs": 2180,
+      "edge_count": 3,
+      "elapsed_seconds": 1.5630218982696533,
+      "incremental_conflicts": 32731,
+      "index": 0,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2181,
+      "edge_count": 4,
+      "elapsed_seconds": 0.3187711238861084,
+      "incremental_conflicts": 5032,
+      "index": 1,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2188,
+      "edge_count": 4,
+      "elapsed_seconds": 0.2526237964630127,
+      "incremental_conflicts": 5050,
+      "index": 2,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6276,
+      "edge_count": 4,
+      "elapsed_seconds": 0.322310209274292,
+      "incremental_conflicts": 5011,
+      "index": 3,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2183,
+      "edge_count": 5,
+      "elapsed_seconds": 0.4686899185180664,
+      "incremental_conflicts": 5046,
+      "index": 4,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2189,
+      "edge_count": 5,
+      "elapsed_seconds": 0.33133792877197266,
+      "incremental_conflicts": 5098,
+      "index": 5,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2190,
+      "edge_count": 5,
+      "elapsed_seconds": 0.4748098850250244,
+      "incremental_conflicts": 5668,
+      "index": 6,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2204,
+      "edge_count": 5,
+      "elapsed_seconds": 0.5641095638275146,
+      "incremental_conflicts": 5011,
+      "index": 7,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2220,
+      "edge_count": 5,
+      "elapsed_seconds": 0.33881640434265137,
+      "incremental_conflicts": 5013,
+      "index": 8,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2252,
+      "edge_count": 5,
+      "elapsed_seconds": 0.48282885551452637,
+      "incremental_conflicts": 5022,
+      "index": 9,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2260,
+      "edge_count": 5,
+      "elapsed_seconds": 0.6076581478118896,
+      "incremental_conflicts": 5052,
+      "index": 10,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2452,
+      "edge_count": 5,
+      "elapsed_seconds": 0.6440749168395996,
+      "incremental_conflicts": 5143,
+      "index": 11,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6277,
+      "edge_count": 5,
+      "elapsed_seconds": 0.3749055862426758,
+      "incremental_conflicts": 5258,
+      "index": 12,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6278,
+      "edge_count": 5,
+      "elapsed_seconds": 0.43303537368774414,
+      "incremental_conflicts": 5008,
+      "index": 13,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6284,
+      "edge_count": 5,
+      "elapsed_seconds": 0.5991489887237549,
+      "incremental_conflicts": 5102,
+      "index": 14,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6292,
+      "edge_count": 5,
+      "elapsed_seconds": 0.4679219722747803,
+      "incremental_conflicts": 5017,
+      "index": 15,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6788,
+      "edge_count": 5,
+      "elapsed_seconds": 0.5159058570861816,
+      "incremental_conflicts": 5003,
+      "index": 16,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14468,
+      "edge_count": 5,
+      "elapsed_seconds": 0.4457509517669678,
+      "incremental_conflicts": 5177,
+      "index": 17,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2191,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5257625579833984,
+      "incremental_conflicts": 5009,
+      "index": 18,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2205,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5813217163085938,
+      "incremental_conflicts": 5013,
+      "index": 19,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2215,
+      "edge_count": 6,
+      "elapsed_seconds": 0.02717113494873047,
+      "incremental_conflicts": 775,
+      "index": 20,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2221,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4318268299102783,
+      "incremental_conflicts": 5000,
+      "index": 21,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2222,
+      "edge_count": 6,
+      "elapsed_seconds": 0.47179675102233887,
+      "incremental_conflicts": 5061,
+      "index": 22,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2236,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4102334976196289,
+      "incremental_conflicts": 5126,
+      "index": 23,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2253,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4040961265563965,
+      "incremental_conflicts": 5227,
+      "index": 24,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2254,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5139515399932861,
+      "incremental_conflicts": 5033,
+      "index": 25,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2261,
+      "edge_count": 6,
+      "elapsed_seconds": 0.45876431465148926,
+      "incremental_conflicts": 5044,
+      "index": 26,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2262,
+      "edge_count": 6,
+      "elapsed_seconds": 0.28525447845458984,
+      "incremental_conflicts": 5186,
+      "index": 27,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2268,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5445523262023926,
+      "incremental_conflicts": 5249,
+      "index": 28,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2292,
+      "edge_count": 6,
+      "elapsed_seconds": 0.45530056953430176,
+      "incremental_conflicts": 5058,
+      "index": 29,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2453,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4514162540435791,
+      "incremental_conflicts": 5401,
+      "index": 30,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2454,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5624158382415771,
+      "incremental_conflicts": 5135,
+      "index": 31,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2460,
+      "edge_count": 6,
+      "elapsed_seconds": 0.7331311702728271,
+      "incremental_conflicts": 5043,
+      "index": 32,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2764,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5590667724609375,
+      "incremental_conflicts": 5091,
+      "index": 33,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2956,
+      "edge_count": 6,
+      "elapsed_seconds": 0.45099639892578125,
+      "incremental_conflicts": 5090,
+      "index": 34,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6279,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4347653388977051,
+      "incremental_conflicts": 5046,
+      "index": 35,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6285,
+      "edge_count": 6,
+      "elapsed_seconds": 0.668433427810669,
+      "incremental_conflicts": 9420,
+      "index": 36,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6286,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5248293876647949,
+      "incremental_conflicts": 5314,
+      "index": 37,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6293,
+      "edge_count": 6,
+      "elapsed_seconds": 0.960684061050415,
+      "incremental_conflicts": 5118,
+      "index": 38,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6294,
+      "edge_count": 6,
+      "elapsed_seconds": 0.6222958564758301,
+      "incremental_conflicts": 7563,
+      "index": 39,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6300,
+      "edge_count": 6,
+      "elapsed_seconds": 0.6251118183135986,
+      "incremental_conflicts": 5023,
+      "index": 40,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6310,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5738017559051514,
+      "incremental_conflicts": 5157,
+      "index": 41,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6316,
+      "edge_count": 6,
+      "elapsed_seconds": 0.8178515434265137,
+      "incremental_conflicts": 5171,
+      "index": 42,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6324,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5239336490631104,
+      "incremental_conflicts": 5253,
+      "index": 43,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6348,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5497000217437744,
+      "incremental_conflicts": 5041,
+      "index": 44,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6356,
+      "edge_count": 6,
+      "elapsed_seconds": 0.7946581840515137,
+      "incremental_conflicts": 5011,
+      "index": 45,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6548,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5025415420532227,
+      "incremental_conflicts": 5205,
+      "index": 46,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6789,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4159097671508789,
+      "incremental_conflicts": 5240,
+      "index": 47,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6790,
+      "edge_count": 6,
+      "elapsed_seconds": 0.4814295768737793,
+      "incremental_conflicts": 5044,
+      "index": 48,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6796,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5673391819000244,
+      "incremental_conflicts": 5015,
+      "index": 49,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6804,
+      "edge_count": 6,
+      "elapsed_seconds": 0.6159498691558838,
+      "incremental_conflicts": 5014,
+      "index": 50,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6820,
+      "edge_count": 6,
+      "elapsed_seconds": 0.8009769916534424,
+      "incremental_conflicts": 5127,
+      "index": 51,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6852,
+      "edge_count": 6,
+      "elapsed_seconds": 0.6356315612792969,
+      "incremental_conflicts": 5000,
+      "index": 52,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7044,
+      "edge_count": 6,
+      "elapsed_seconds": 0.7353479862213135,
+      "incremental_conflicts": 5124,
+      "index": 53,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7812,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5168507099151611,
+      "incremental_conflicts": 5622,
+      "index": 54,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14469,
+      "edge_count": 6,
+      "elapsed_seconds": 0.5278232097625732,
+      "incremental_conflicts": 5046,
+      "index": 55,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14476,
+      "edge_count": 6,
+      "elapsed_seconds": 0.7565517425537109,
+      "incremental_conflicts": 5271,
+      "index": 56,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14500,
+      "edge_count": 6,
+      "elapsed_seconds": 1.1016573905944824,
+      "incremental_conflicts": 5161,
+      "index": 57,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14532,
+      "edge_count": 6,
+      "elapsed_seconds": 0.9089846611022949,
+      "incremental_conflicts": 5028,
+      "index": 58,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14724,
+      "edge_count": 6,
+      "elapsed_seconds": 0.8734478950500488,
+      "incremental_conflicts": 6846,
+      "index": 59,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30852,
+      "edge_count": 6,
+      "elapsed_seconds": 0.7779362201690674,
+      "incremental_conflicts": 5639,
+      "index": 60,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2207,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5317630767822266,
+      "incremental_conflicts": 5049,
+      "index": 61,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2223,
+      "edge_count": 7,
+      "elapsed_seconds": 0.02064800262451172,
+      "incremental_conflicts": 546,
+      "index": 62,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2237,
+      "edge_count": 7,
+      "elapsed_seconds": 0.45000576972961426,
+      "incremental_conflicts": 5185,
+      "index": 63,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2255,
+      "edge_count": 7,
+      "elapsed_seconds": 0.44925451278686523,
+      "incremental_conflicts": 5085,
+      "index": 64,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2263,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5521554946899414,
+      "incremental_conflicts": 5035,
+      "index": 65,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2269,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5911662578582764,
+      "incremental_conflicts": 5324,
+      "index": 66,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2270,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7924902439117432,
+      "incremental_conflicts": 5276,
+      "index": 67,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2286,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6762731075286865,
+      "incremental_conflicts": 5278,
+      "index": 68,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2293,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7734735012054443,
+      "incremental_conflicts": 5051,
+      "index": 69,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2294,
+      "edge_count": 7,
+      "elapsed_seconds": 0.869739294052124,
+      "incremental_conflicts": 5330,
+      "index": 70,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2300,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6214296817779541,
+      "incremental_conflicts": 5589,
+      "index": 71,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2455,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5729506015777588,
+      "incremental_conflicts": 5009,
+      "index": 72,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2461,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5305318832397461,
+      "incremental_conflicts": 5085,
+      "index": 73,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2462,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6058597564697266,
+      "incremental_conflicts": 5127,
+      "index": 74,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2486,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6254236698150635,
+      "incremental_conflicts": 5168,
+      "index": 75,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2492,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5941004753112793,
+      "incremental_conflicts": 5013,
+      "index": 76,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2524,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7439777851104736,
+      "incremental_conflicts": 5576,
+      "index": 77,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2765,
+      "edge_count": 7,
+      "elapsed_seconds": 0.22933459281921387,
+      "incremental_conflicts": 3679,
+      "index": 78,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2766,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7055211067199707,
+      "incremental_conflicts": 5080,
+      "index": 79,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2780,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6529636383056641,
+      "incremental_conflicts": 5748,
+      "index": 80,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2796,
+      "edge_count": 7,
+      "elapsed_seconds": 0.890688419342041,
+      "incremental_conflicts": 5482,
+      "index": 81,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2957,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8781883716583252,
+      "incremental_conflicts": 5189,
+      "index": 82,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2972,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7327041625976562,
+      "incremental_conflicts": 5065,
+      "index": 83,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3028,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7555747032165527,
+      "incremental_conflicts": 5112,
+      "index": 84,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6287,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7062156200408936,
+      "incremental_conflicts": 5492,
+      "index": 85,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6295,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7967588901519775,
+      "incremental_conflicts": 5191,
+      "index": 86,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6301,
+      "edge_count": 7,
+      "elapsed_seconds": 1.021993637084961,
+      "incremental_conflicts": 5244,
+      "index": 87,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6302,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7967250347137451,
+      "incremental_conflicts": 5219,
+      "index": 88,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6311,
+      "edge_count": 7,
+      "elapsed_seconds": 0.01814413070678711,
+      "incremental_conflicts": 530,
+      "index": 89,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6317,
+      "edge_count": 7,
+      "elapsed_seconds": 0.49936461448669434,
+      "incremental_conflicts": 5043,
+      "index": 90,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6318,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5049102306365967,
+      "incremental_conflicts": 5519,
+      "index": 91,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6325,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5285747051239014,
+      "incremental_conflicts": 5052,
+      "index": 92,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6326,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5465042591094971,
+      "incremental_conflicts": 5012,
+      "index": 93,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6332,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7414407730102539,
+      "incremental_conflicts": 6442,
+      "index": 94,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6350,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6354687213897705,
+      "incremental_conflicts": 5091,
+      "index": 95,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6357,
+      "edge_count": 7,
+      "elapsed_seconds": 0.609410285949707,
+      "incremental_conflicts": 5363,
+      "index": 96,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6358,
+      "edge_count": 7,
+      "elapsed_seconds": 0.3086104393005371,
+      "incremental_conflicts": 4738,
+      "index": 97,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6364,
+      "edge_count": 7,
+      "elapsed_seconds": 1.0001857280731201,
+      "incremental_conflicts": 5521,
+      "index": 98,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6388,
+      "edge_count": 7,
+      "elapsed_seconds": 1.2870843410491943,
+      "incremental_conflicts": 6863,
+      "index": 99,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6549,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5749795436859131,
+      "incremental_conflicts": 5136,
+      "index": 100,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6550,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5162923336029053,
+      "incremental_conflicts": 5225,
+      "index": 101,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6556,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7587401866912842,
+      "incremental_conflicts": 5274,
+      "index": 102,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6791,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6216716766357422,
+      "incremental_conflicts": 5470,
+      "index": 103,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6797,
+      "edge_count": 7,
+      "elapsed_seconds": 0.43253207206726074,
+      "incremental_conflicts": 7263,
+      "index": 104,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6798,
+      "edge_count": 7,
+      "elapsed_seconds": 1.1345744132995605,
+      "incremental_conflicts": 6401,
+      "index": 105,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6805,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6831519603729248,
+      "incremental_conflicts": 5043,
+      "index": 106,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6806,
+      "edge_count": 7,
+      "elapsed_seconds": 0.32647061347961426,
+      "incremental_conflicts": 3277,
+      "index": 107,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6812,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8299179077148438,
+      "incremental_conflicts": 5032,
+      "index": 108,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6821,
+      "edge_count": 7,
+      "elapsed_seconds": 0.549248218536377,
+      "incremental_conflicts": 5041,
+      "index": 109,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6822,
+      "edge_count": 7,
+      "elapsed_seconds": 0.4745650291442871,
+      "incremental_conflicts": 5009,
+      "index": 110,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6828,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5535831451416016,
+      "incremental_conflicts": 5277,
+      "index": 111,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6836,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5929403305053711,
+      "incremental_conflicts": 5001,
+      "index": 112,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6853,
+      "edge_count": 7,
+      "elapsed_seconds": 0.501218318939209,
+      "incremental_conflicts": 5259,
+      "index": 113,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6854,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7243707180023193,
+      "incremental_conflicts": 5088,
+      "index": 114,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6860,
+      "edge_count": 7,
+      "elapsed_seconds": 0.4739527702331543,
+      "incremental_conflicts": 5054,
+      "index": 115,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6868,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6184978485107422,
+      "incremental_conflicts": 5101,
+      "index": 116,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6884,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7591681480407715,
+      "incremental_conflicts": 5007,
+      "index": 117,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7045,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7765130996704102,
+      "incremental_conflicts": 5235,
+      "index": 118,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7046,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6937665939331055,
+      "incremental_conflicts": 5003,
+      "index": 119,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7052,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8064992427825928,
+      "incremental_conflicts": 5038,
+      "index": 120,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7060,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6065642833709717,
+      "incremental_conflicts": 5094,
+      "index": 121,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7076,
+      "edge_count": 7,
+      "elapsed_seconds": 0.9106874465942383,
+      "incremental_conflicts": 5637,
+      "index": 122,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7108,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7232730388641357,
+      "incremental_conflicts": 5017,
+      "index": 123,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7813,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6686439514160156,
+      "incremental_conflicts": 6244,
+      "index": 124,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7814,
+      "edge_count": 7,
+      "elapsed_seconds": 0.765357494354248,
+      "incremental_conflicts": 5003,
+      "index": 125,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7820,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7763397693634033,
+      "incremental_conflicts": 5048,
+      "index": 126,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7828,
+      "edge_count": 7,
+      "elapsed_seconds": 1.1267526149749756,
+      "incremental_conflicts": 5041,
+      "index": 127,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14471,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8728857040405273,
+      "incremental_conflicts": 5006,
+      "index": 128,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14477,
+      "edge_count": 7,
+      "elapsed_seconds": 0.47022008895874023,
+      "incremental_conflicts": 7011,
+      "index": 129,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14478,
+      "edge_count": 7,
+      "elapsed_seconds": 1.0172460079193115,
+      "incremental_conflicts": 5123,
+      "index": 130,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14492,
+      "edge_count": 7,
+      "elapsed_seconds": 1.139636754989624,
+      "incremental_conflicts": 5085,
+      "index": 131,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14501,
+      "edge_count": 7,
+      "elapsed_seconds": 0.47839784622192383,
+      "incremental_conflicts": 5142,
+      "index": 132,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14508,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5403218269348145,
+      "incremental_conflicts": 5414,
+      "index": 133,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14533,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8648943901062012,
+      "incremental_conflicts": 5709,
+      "index": 134,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14534,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6012463569641113,
+      "incremental_conflicts": 5130,
+      "index": 135,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14540,
+      "edge_count": 7,
+      "elapsed_seconds": 0.9380166530609131,
+      "incremental_conflicts": 5067,
+      "index": 136,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14548,
+      "edge_count": 7,
+      "elapsed_seconds": 1.1582987308502197,
+      "incremental_conflicts": 5416,
+      "index": 137,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14564,
+      "edge_count": 7,
+      "elapsed_seconds": 0.9959850311279297,
+      "incremental_conflicts": 5037,
+      "index": 138,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14725,
+      "edge_count": 7,
+      "elapsed_seconds": 0.9958100318908691,
+      "incremental_conflicts": 5651,
+      "index": 139,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14726,
+      "edge_count": 7,
+      "elapsed_seconds": 0.7655913829803467,
+      "incremental_conflicts": 5126,
+      "index": 140,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14732,
+      "edge_count": 7,
+      "elapsed_seconds": 1.2625641822814941,
+      "incremental_conflicts": 5807,
+      "index": 141,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14740,
+      "edge_count": 7,
+      "elapsed_seconds": 1.424290418624878,
+      "incremental_conflicts": 5019,
+      "index": 142,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14756,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8071451187133789,
+      "incremental_conflicts": 5112,
+      "index": 143,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14788,
+      "edge_count": 7,
+      "elapsed_seconds": 0.6314280033111572,
+      "incremental_conflicts": 5978,
+      "index": 144,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15044,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5244576930999756,
+      "incremental_conflicts": 5185,
+      "index": 145,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15236,
+      "edge_count": 7,
+      "elapsed_seconds": 0.5498807430267334,
+      "incremental_conflicts": 5026,
+      "index": 146,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15748,
+      "edge_count": 7,
+      "elapsed_seconds": 1.1040170192718506,
+      "incremental_conflicts": 6676,
+      "index": 147,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30853,
+      "edge_count": 7,
+      "elapsed_seconds": 0.9364719390869141,
+      "incremental_conflicts": 6059,
+      "index": 148,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30860,
+      "edge_count": 7,
+      "elapsed_seconds": 0.8234200477600098,
+      "incremental_conflicts": 5414,
+      "index": 149,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2239,
+      "edge_count": 8,
+      "elapsed_seconds": 0.015079259872436523,
+      "incremental_conflicts": 153,
+      "index": 150,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2271,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7555606365203857,
+      "incremental_conflicts": 5027,
+      "index": 151,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2287,
+      "edge_count": 8,
+      "elapsed_seconds": 0.0,
+      "incremental_conflicts": 1,
+      "index": 152,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2295,
+      "edge_count": 8,
+      "elapsed_seconds": 0.020113468170166016,
+      "incremental_conflicts": 201,
+      "index": 153,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2301,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0901415348052979,
+      "incremental_conflicts": 5793,
+      "index": 154,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2302,
+      "edge_count": 8,
+      "elapsed_seconds": 0.880434513092041,
+      "incremental_conflicts": 5089,
+      "index": 155,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2463,
+      "edge_count": 8,
+      "elapsed_seconds": 0.896531343460083,
+      "incremental_conflicts": 5167,
+      "index": 156,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2493,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9224870204925537,
+      "incremental_conflicts": 5410,
+      "index": 157,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2494,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7112603187561035,
+      "incremental_conflicts": 5597,
+      "index": 158,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2525,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6401286125183105,
+      "incremental_conflicts": 5016,
+      "index": 159,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2526,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6676480770111084,
+      "incremental_conflicts": 5403,
+      "index": 160,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2767,
+      "edge_count": 8,
+      "elapsed_seconds": 0.542219877243042,
+      "incremental_conflicts": 5098,
+      "index": 161,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2781,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6299161911010742,
+      "incremental_conflicts": 5005,
+      "index": 162,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2797,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7154221534729004,
+      "incremental_conflicts": 5235,
+      "index": 163,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2798,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9092998504638672,
+      "incremental_conflicts": 5347,
+      "index": 164,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2812,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6523244380950928,
+      "incremental_conflicts": 5156,
+      "index": 165,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2959,
+      "edge_count": 8,
+      "elapsed_seconds": 1.512024164199829,
+      "incremental_conflicts": 6450,
+      "index": 166,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2973,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9356067180633545,
+      "incremental_conflicts": 5002,
+      "index": 167,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2974,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8360729217529297,
+      "incremental_conflicts": 5185,
+      "index": 168,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3004,
+      "edge_count": 8,
+      "elapsed_seconds": 1.067443609237671,
+      "incremental_conflicts": 5136,
+      "index": 169,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3029,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9485378265380859,
+      "incremental_conflicts": 5997,
+      "index": 170,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3030,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6097269058227539,
+      "incremental_conflicts": 5412,
+      "index": 171,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3036,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6039133071899414,
+      "incremental_conflicts": 5332,
+      "index": 172,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6303,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9795072078704834,
+      "incremental_conflicts": 5509,
+      "index": 173,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6319,
+      "edge_count": 8,
+      "elapsed_seconds": 0.03020453453063965,
+      "incremental_conflicts": 335,
+      "index": 174,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6327,
+      "edge_count": 8,
+      "elapsed_seconds": 0.010459423065185547,
+      "incremental_conflicts": 189,
+      "index": 175,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6333,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8840255737304688,
+      "incremental_conflicts": 6407,
+      "index": 176,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6334,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7126219272613525,
+      "incremental_conflicts": 5474,
+      "index": 177,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6359,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8751811981201172,
+      "incremental_conflicts": 5429,
+      "index": 178,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6366,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9656226634979248,
+      "incremental_conflicts": 5408,
+      "index": 179,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6382,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7483301162719727,
+      "incremental_conflicts": 5528,
+      "index": 180,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6389,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8409073352813721,
+      "incremental_conflicts": 5108,
+      "index": 181,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6390,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8571019172668457,
+      "incremental_conflicts": 5148,
+      "index": 182,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6396,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9732539653778076,
+      "incremental_conflicts": 5821,
+      "index": 183,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6551,
+      "edge_count": 8,
+      "elapsed_seconds": 1.3213155269622803,
+      "incremental_conflicts": 5614,
+      "index": 184,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6557,
+      "edge_count": 8,
+      "elapsed_seconds": 0.629155158996582,
+      "incremental_conflicts": 5153,
+      "index": 185,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6558,
+      "edge_count": 8,
+      "elapsed_seconds": 0.710303544998169,
+      "incremental_conflicts": 5056,
+      "index": 186,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6582,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7445378303527832,
+      "incremental_conflicts": 5365,
+      "index": 187,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6588,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8413164615631104,
+      "incremental_conflicts": 6651,
+      "index": 188,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6620,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7715911865234375,
+      "incremental_conflicts": 5513,
+      "index": 189,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6799,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7073523998260498,
+      "incremental_conflicts": 5061,
+      "index": 190,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6807,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0162041187286377,
+      "incremental_conflicts": 5704,
+      "index": 191,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6813,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8484542369842529,
+      "incremental_conflicts": 5394,
+      "index": 192,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6814,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7821633815765381,
+      "incremental_conflicts": 5322,
+      "index": 193,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6823,
+      "edge_count": 8,
+      "elapsed_seconds": 0.013057947158813477,
+      "incremental_conflicts": 181,
+      "index": 194,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6829,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9082975387573242,
+      "incremental_conflicts": 6119,
+      "index": 195,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6830,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9351513385772705,
+      "incremental_conflicts": 5140,
+      "index": 196,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6837,
+      "edge_count": 8,
+      "elapsed_seconds": 1.5980238914489746,
+      "incremental_conflicts": 5200,
+      "index": 197,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6838,
+      "edge_count": 8,
+      "elapsed_seconds": 1.6099228858947754,
+      "incremental_conflicts": 5465,
+      "index": 198,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6844,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0159690380096436,
+      "incremental_conflicts": 5548,
+      "index": 199,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6855,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8972008228302002,
+      "incremental_conflicts": 5293,
+      "index": 200,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6862,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7472803592681885,
+      "incremental_conflicts": 5107,
+      "index": 201,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6869,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9288215637207031,
+      "incremental_conflicts": 5915,
+      "index": 202,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6870,
+      "edge_count": 8,
+      "elapsed_seconds": 0.24877381324768066,
+      "incremental_conflicts": 2731,
+      "index": 203,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6876,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8774912357330322,
+      "incremental_conflicts": 5448,
+      "index": 204,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6885,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7940361499786377,
+      "incremental_conflicts": 5163,
+      "index": 205,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6886,
+      "edge_count": 8,
+      "elapsed_seconds": 0.795107364654541,
+      "incremental_conflicts": 5225,
+      "index": 206,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6892,
+      "edge_count": 8,
+      "elapsed_seconds": 0.844031572341919,
+      "incremental_conflicts": 5066,
+      "index": 207,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6900,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8757963180541992,
+      "incremental_conflicts": 5047,
+      "index": 208,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7047,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9012923240661621,
+      "incremental_conflicts": 5081,
+      "index": 209,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7053,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8914942741394043,
+      "incremental_conflicts": 5157,
+      "index": 210,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7054,
+      "edge_count": 8,
+      "elapsed_seconds": 1.1498751640319824,
+      "incremental_conflicts": 5083,
+      "index": 211,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7061,
+      "edge_count": 8,
+      "elapsed_seconds": 1.3751277923583984,
+      "incremental_conflicts": 5826,
+      "index": 212,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7062,
+      "edge_count": 8,
+      "elapsed_seconds": 1.456228256225586,
+      "incremental_conflicts": 5247,
+      "index": 213,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7068,
+      "edge_count": 8,
+      "elapsed_seconds": 0.886411190032959,
+      "incremental_conflicts": 5025,
+      "index": 214,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7077,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9923694133758545,
+      "incremental_conflicts": 5009,
+      "index": 215,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7078,
+      "edge_count": 8,
+      "elapsed_seconds": 1.11057710647583,
+      "incremental_conflicts": 5062,
+      "index": 216,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7084,
+      "edge_count": 8,
+      "elapsed_seconds": 1.1393210887908936,
+      "incremental_conflicts": 5153,
+      "index": 217,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7092,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0268023014068604,
+      "incremental_conflicts": 5167,
+      "index": 218,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7109,
+      "edge_count": 8,
+      "elapsed_seconds": 0.77744460105896,
+      "incremental_conflicts": 5232,
+      "index": 219,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7110,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0244991779327393,
+      "incremental_conflicts": 6954,
+      "index": 220,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7116,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8184359073638916,
+      "incremental_conflicts": 5356,
+      "index": 221,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7124,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9029624462127686,
+      "incremental_conflicts": 5040,
+      "index": 222,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7140,
+      "edge_count": 8,
+      "elapsed_seconds": 1.040447473526001,
+      "incremental_conflicts": 5357,
+      "index": 223,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7815,
+      "edge_count": 8,
+      "elapsed_seconds": 1.2054009437561035,
+      "incremental_conflicts": 5117,
+      "index": 224,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7821,
+      "edge_count": 8,
+      "elapsed_seconds": 1.393463134765625,
+      "incremental_conflicts": 5591,
+      "index": 225,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7829,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0923380851745605,
+      "incremental_conflicts": 5540,
+      "index": 226,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7830,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0894999504089355,
+      "incremental_conflicts": 5073,
+      "index": 227,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7836,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8923745155334473,
+      "incremental_conflicts": 5644,
+      "index": 228,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7846,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6442534923553467,
+      "incremental_conflicts": 5003,
+      "index": 229,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7852,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7952885627746582,
+      "incremental_conflicts": 5078,
+      "index": 230,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7860,
+      "edge_count": 8,
+      "elapsed_seconds": 1.15096116065979,
+      "incremental_conflicts": 5389,
+      "index": 231,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7884,
+      "edge_count": 8,
+      "elapsed_seconds": 1.4168145656585693,
+      "incremental_conflicts": 5320,
+      "index": 232,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7892,
+      "edge_count": 8,
+      "elapsed_seconds": 1.2815325260162354,
+      "incremental_conflicts": 5613,
+      "index": 233,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8084,
+      "edge_count": 8,
+      "elapsed_seconds": 1.157731294631958,
+      "incremental_conflicts": 5684,
+      "index": 234,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14479,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0201468467712402,
+      "incremental_conflicts": 5237,
+      "index": 235,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14493,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9917397499084473,
+      "incremental_conflicts": 5060,
+      "index": 236,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14503,
+      "edge_count": 8,
+      "elapsed_seconds": 0.03367805480957031,
+      "incremental_conflicts": 458,
+      "index": 237,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14509,
+      "edge_count": 8,
+      "elapsed_seconds": 0.914003849029541,
+      "incremental_conflicts": 5268,
+      "index": 238,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14510,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0440232753753662,
+      "incremental_conflicts": 5420,
+      "index": 239,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14524,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9521803855895996,
+      "incremental_conflicts": 5042,
+      "index": 240,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14535,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0947554111480713,
+      "incremental_conflicts": 5303,
+      "index": 241,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14542,
+      "edge_count": 8,
+      "elapsed_seconds": 1.1682438850402832,
+      "incremental_conflicts": 6600,
+      "index": 242,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14549,
+      "edge_count": 8,
+      "elapsed_seconds": 1.1093649864196777,
+      "incremental_conflicts": 5069,
+      "index": 243,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14550,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9425644874572754,
+      "incremental_conflicts": 9706,
+      "index": 244,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14556,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8218693733215332,
+      "incremental_conflicts": 5309,
+      "index": 245,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14565,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7658190727233887,
+      "incremental_conflicts": 5034,
+      "index": 246,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14566,
+      "edge_count": 8,
+      "elapsed_seconds": 0.744159460067749,
+      "incremental_conflicts": 5163,
+      "index": 247,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14572,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7762186527252197,
+      "incremental_conflicts": 5193,
+      "index": 248,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14580,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7230656147003174,
+      "incremental_conflicts": 5056,
+      "index": 249,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14727,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8320953845977783,
+      "incremental_conflicts": 5212,
+      "index": 250,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14733,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8719086647033691,
+      "incremental_conflicts": 5079,
+      "index": 251,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14734,
+      "edge_count": 8,
+      "elapsed_seconds": 1.1090846061706543,
+      "incremental_conflicts": 5029,
+      "index": 252,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14741,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8474817276000977,
+      "incremental_conflicts": 5340,
+      "index": 253,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14742,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9615023136138916,
+      "incremental_conflicts": 5460,
+      "index": 254,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14748,
+      "edge_count": 8,
+      "elapsed_seconds": 1.2360320091247559,
+      "incremental_conflicts": 5913,
+      "index": 255,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14757,
+      "edge_count": 8,
+      "elapsed_seconds": 1.7179663181304932,
+      "incremental_conflicts": 7192,
+      "index": 256,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14758,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9581775665283203,
+      "incremental_conflicts": 5008,
+      "index": 257,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14764,
+      "edge_count": 8,
+      "elapsed_seconds": 1.1200425624847412,
+      "incremental_conflicts": 5387,
+      "index": 258,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14772,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6864731311798096,
+      "incremental_conflicts": 5384,
+      "index": 259,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14789,
+      "edge_count": 8,
+      "elapsed_seconds": 0.6790473461151123,
+      "incremental_conflicts": 5130,
+      "index": 260,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14790,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7491424083709717,
+      "incremental_conflicts": 5157,
+      "index": 261,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14796,
+      "edge_count": 8,
+      "elapsed_seconds": 1.158102035522461,
+      "incremental_conflicts": 5346,
+      "index": 262,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14804,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7594306468963623,
+      "incremental_conflicts": 5141,
+      "index": 263,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14820,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8119866847991943,
+      "incremental_conflicts": 5269,
+      "index": 264,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15045,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9032034873962402,
+      "incremental_conflicts": 5087,
+      "index": 265,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15052,
+      "edge_count": 8,
+      "elapsed_seconds": 0.973520040512085,
+      "incremental_conflicts": 5132,
+      "index": 266,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15076,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9758734703063965,
+      "incremental_conflicts": 5546,
+      "index": 267,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15237,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9419784545898438,
+      "incremental_conflicts": 5071,
+      "index": 268,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15238,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7720959186553955,
+      "incremental_conflicts": 6119,
+      "index": 269,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15244,
+      "edge_count": 8,
+      "elapsed_seconds": 1.193166971206665,
+      "incremental_conflicts": 5142,
+      "index": 270,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15252,
+      "edge_count": 8,
+      "elapsed_seconds": 1.203498363494873,
+      "incremental_conflicts": 5186,
+      "index": 271,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15268,
+      "edge_count": 8,
+      "elapsed_seconds": 1.0098261833190918,
+      "incremental_conflicts": 5051,
+      "index": 272,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15300,
+      "edge_count": 8,
+      "elapsed_seconds": 1.047304391860962,
+      "incremental_conflicts": 5345,
+      "index": 273,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15749,
+      "edge_count": 8,
+      "elapsed_seconds": 1.113250970840454,
+      "incremental_conflicts": 5381,
+      "index": 274,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15756,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7136123180389404,
+      "incremental_conflicts": 5135,
+      "index": 275,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15780,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9507503509521484,
+      "incremental_conflicts": 5111,
+      "index": 276,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15812,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9321348667144775,
+      "incremental_conflicts": 5070,
+      "index": 277,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30855,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9011094570159912,
+      "incremental_conflicts": 6160,
+      "index": 278,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30861,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7025015354156494,
+      "incremental_conflicts": 5166,
+      "index": 279,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30862,
+      "edge_count": 8,
+      "elapsed_seconds": 0.7682449817657471,
+      "incremental_conflicts": 5014,
+      "index": 280,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30892,
+      "edge_count": 8,
+      "elapsed_seconds": 0.9168179035186768,
+      "incremental_conflicts": 5282,
+      "index": 281,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30924,
+      "edge_count": 8,
+      "elapsed_seconds": 1.057654619216919,
+      "incremental_conflicts": 5417,
+      "index": 282,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30932,
+      "edge_count": 8,
+      "elapsed_seconds": 0.940105676651001,
+      "incremental_conflicts": 5123,
+      "index": 283,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31124,
+      "edge_count": 8,
+      "elapsed_seconds": 0.8982713222503662,
+      "incremental_conflicts": 5024,
+      "index": 284,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2303,
+      "edge_count": 9,
+      "elapsed_seconds": 0.002001047134399414,
+      "incremental_conflicts": 1,
+      "index": 285,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2527,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0391302108764648,
+      "incremental_conflicts": 5486,
+      "index": 286,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2558,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3339354991912842,
+      "incremental_conflicts": 5394,
+      "index": 287,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2783,
+      "edge_count": 9,
+      "elapsed_seconds": 1.588702917098999,
+      "incremental_conflicts": 7229,
+      "index": 288,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2813,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1119914054870605,
+      "incremental_conflicts": 5074,
+      "index": 289,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2975,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9795610904693604,
+      "incremental_conflicts": 5379,
+      "index": 290,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 2991,
+      "edge_count": 9,
+      "elapsed_seconds": 0.017581462860107422,
+      "incremental_conflicts": 142,
+      "index": 291,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3005,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4282469749450684,
+      "incremental_conflicts": 5116,
+      "index": 292,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3006,
+      "edge_count": 9,
+      "elapsed_seconds": 0.822767972946167,
+      "incremental_conflicts": 5281,
+      "index": 293,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3031,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7314705848693848,
+      "incremental_conflicts": 5472,
+      "index": 294,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3037,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9822981357574463,
+      "incremental_conflicts": 7756,
+      "index": 295,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3038,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0422165393829346,
+      "incremental_conflicts": 5036,
+      "index": 296,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3061,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8973634243011475,
+      "incremental_conflicts": 5239,
+      "index": 297,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3068,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7817394733428955,
+      "incremental_conflicts": 5169,
+      "index": 298,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 4060,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9015471935272217,
+      "incremental_conflicts": 5223,
+      "index": 299,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6335,
+      "edge_count": 9,
+      "elapsed_seconds": 0.016087055206298828,
+      "incremental_conflicts": 124,
+      "index": 300,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6391,
+      "edge_count": 9,
+      "elapsed_seconds": 0.011532783508300781,
+      "incremental_conflicts": 113,
+      "index": 301,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6398,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8956050872802734,
+      "incremental_conflicts": 5009,
+      "index": 302,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6559,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9787466526031494,
+      "incremental_conflicts": 5235,
+      "index": 303,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6589,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9135112762451172,
+      "incremental_conflicts": 5105,
+      "index": 304,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6590,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9199633598327637,
+      "incremental_conflicts": 5132,
+      "index": 305,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6622,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9890978336334229,
+      "incremental_conflicts": 5193,
+      "index": 306,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6815,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9363112449645996,
+      "incremental_conflicts": 5370,
+      "index": 307,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6831,
+      "edge_count": 9,
+      "elapsed_seconds": 0.015090465545654297,
+      "incremental_conflicts": 148,
+      "index": 308,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6839,
+      "edge_count": 9,
+      "elapsed_seconds": 0.0005197525024414062,
+      "incremental_conflicts": 1,
+      "index": 309,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6845,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9618043899536133,
+      "incremental_conflicts": 5118,
+      "index": 310,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6846,
+      "edge_count": 9,
+      "elapsed_seconds": 1.2957267761230469,
+      "incremental_conflicts": 6395,
+      "index": 311,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6871,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1812195777893066,
+      "incremental_conflicts": 5093,
+      "index": 312,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6878,
+      "edge_count": 9,
+      "elapsed_seconds": 1.056452989578247,
+      "incremental_conflicts": 5601,
+      "index": 313,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6894,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7281415462493896,
+      "incremental_conflicts": 5043,
+      "index": 314,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6901,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7979404926300049,
+      "incremental_conflicts": 5030,
+      "index": 315,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6902,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9548192024230957,
+      "incremental_conflicts": 5354,
+      "index": 316,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6908,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9952871799468994,
+      "incremental_conflicts": 5110,
+      "index": 317,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7055,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0838522911071777,
+      "incremental_conflicts": 5154,
+      "index": 318,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7063,
+      "edge_count": 9,
+      "elapsed_seconds": 0.904299259185791,
+      "incremental_conflicts": 5060,
+      "index": 319,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7069,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9732210636138916,
+      "incremental_conflicts": 6276,
+      "index": 320,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7070,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9997196197509766,
+      "incremental_conflicts": 5090,
+      "index": 321,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7079,
+      "edge_count": 9,
+      "elapsed_seconds": 0.01659393310546875,
+      "incremental_conflicts": 132,
+      "index": 322,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7085,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1897766590118408,
+      "incremental_conflicts": 5014,
+      "index": 323,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7086,
+      "edge_count": 9,
+      "elapsed_seconds": 1.030991792678833,
+      "incremental_conflicts": 5140,
+      "index": 324,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7093,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9234931468963623,
+      "incremental_conflicts": 5037,
+      "index": 325,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7094,
+      "edge_count": 9,
+      "elapsed_seconds": 1.2522509098052979,
+      "incremental_conflicts": 5095,
+      "index": 326,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7100,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0858936309814453,
+      "incremental_conflicts": 5033,
+      "index": 327,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7111,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4442479610443115,
+      "incremental_conflicts": 6538,
+      "index": 328,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7118,
+      "edge_count": 9,
+      "elapsed_seconds": 1.054121732711792,
+      "incremental_conflicts": 5528,
+      "index": 329,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7125,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0739002227783203,
+      "incremental_conflicts": 5026,
+      "index": 330,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7126,
+      "edge_count": 9,
+      "elapsed_seconds": 1.5436301231384277,
+      "incremental_conflicts": 5701,
+      "index": 331,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7132,
+      "edge_count": 9,
+      "elapsed_seconds": 0.716057538986206,
+      "incremental_conflicts": 5016,
+      "index": 332,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7141,
+      "edge_count": 9,
+      "elapsed_seconds": 0.711766242980957,
+      "incremental_conflicts": 5164,
+      "index": 333,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7142,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8241438865661621,
+      "incremental_conflicts": 5568,
+      "index": 334,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7148,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0531620979309082,
+      "incremental_conflicts": 5147,
+      "index": 335,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7156,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9323251247406006,
+      "incremental_conflicts": 5080,
+      "index": 336,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7831,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9508397579193115,
+      "incremental_conflicts": 5025,
+      "index": 337,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7837,
+      "edge_count": 9,
+      "elapsed_seconds": 1.402906894683838,
+      "incremental_conflicts": 8489,
+      "index": 338,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7847,
+      "edge_count": 9,
+      "elapsed_seconds": 0.013137102127075195,
+      "incremental_conflicts": 110,
+      "index": 339,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7853,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7519056797027588,
+      "incremental_conflicts": 5005,
+      "index": 340,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7861,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1324222087860107,
+      "incremental_conflicts": 5232,
+      "index": 341,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7862,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8736095428466797,
+      "incremental_conflicts": 5175,
+      "index": 342,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7868,
+      "edge_count": 9,
+      "elapsed_seconds": 1.509526014328003,
+      "incremental_conflicts": 8010,
+      "index": 343,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7893,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0711898803710938,
+      "incremental_conflicts": 5862,
+      "index": 344,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7894,
+      "edge_count": 9,
+      "elapsed_seconds": 0.993657112121582,
+      "incremental_conflicts": 5070,
+      "index": 345,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7900,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3259928226470947,
+      "incremental_conflicts": 5160,
+      "index": 346,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8085,
+      "edge_count": 9,
+      "elapsed_seconds": 1.8183352947235107,
+      "incremental_conflicts": 5268,
+      "index": 347,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8086,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4626553058624268,
+      "incremental_conflicts": 5960,
+      "index": 348,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8092,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4681406021118164,
+      "incremental_conflicts": 5106,
+      "index": 349,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14495,
+      "edge_count": 9,
+      "elapsed_seconds": 0.6498165130615234,
+      "incremental_conflicts": 5006,
+      "index": 350,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14511,
+      "edge_count": 9,
+      "elapsed_seconds": 0.0070476531982421875,
+      "incremental_conflicts": 177,
+      "index": 351,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14525,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1515188217163086,
+      "incremental_conflicts": 6542,
+      "index": 352,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14551,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0722510814666748,
+      "incremental_conflicts": 5077,
+      "index": 353,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14558,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7762880325317383,
+      "incremental_conflicts": 5163,
+      "index": 354,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14567,
+      "edge_count": 9,
+      "elapsed_seconds": 0.02368927001953125,
+      "incremental_conflicts": 345,
+      "index": 355,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14574,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7770118713378906,
+      "incremental_conflicts": 5088,
+      "index": 356,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14581,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0781526565551758,
+      "incremental_conflicts": 5172,
+      "index": 357,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14582,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9538805484771729,
+      "incremental_conflicts": 5197,
+      "index": 358,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14588,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9794831275939941,
+      "incremental_conflicts": 5567,
+      "index": 359,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14735,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3478963375091553,
+      "incremental_conflicts": 6405,
+      "index": 360,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14743,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3251307010650635,
+      "incremental_conflicts": 5624,
+      "index": 361,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14749,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9148650169372559,
+      "incremental_conflicts": 5235,
+      "index": 362,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14750,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9351606369018555,
+      "incremental_conflicts": 5329,
+      "index": 363,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14759,
+      "edge_count": 9,
+      "elapsed_seconds": 0.012536764144897461,
+      "incremental_conflicts": 122,
+      "index": 364,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14765,
+      "edge_count": 9,
+      "elapsed_seconds": 1.016571044921875,
+      "incremental_conflicts": 5047,
+      "index": 365,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14766,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4196739196777344,
+      "incremental_conflicts": 5131,
+      "index": 366,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14773,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4007656574249268,
+      "incremental_conflicts": 5682,
+      "index": 367,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14774,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1753478050231934,
+      "incremental_conflicts": 5018,
+      "index": 368,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14780,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4785890579223633,
+      "incremental_conflicts": 6325,
+      "index": 369,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14791,
+      "edge_count": 9,
+      "elapsed_seconds": 1.551055669784546,
+      "incremental_conflicts": 5070,
+      "index": 370,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14798,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8079142570495605,
+      "incremental_conflicts": 5121,
+      "index": 371,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14806,
+      "edge_count": 9,
+      "elapsed_seconds": 0.839775562286377,
+      "incremental_conflicts": 5452,
+      "index": 372,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14812,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8313288688659668,
+      "incremental_conflicts": 5223,
+      "index": 373,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14821,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8967552185058594,
+      "incremental_conflicts": 5228,
+      "index": 374,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14822,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0658304691314697,
+      "incremental_conflicts": 7064,
+      "index": 375,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14828,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0697479248046875,
+      "incremental_conflicts": 5074,
+      "index": 376,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14836,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0391862392425537,
+      "incremental_conflicts": 5342,
+      "index": 377,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15047,
+      "edge_count": 9,
+      "elapsed_seconds": 1.374311923980713,
+      "incremental_conflicts": 5717,
+      "index": 378,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15054,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0232548713684082,
+      "incremental_conflicts": 5048,
+      "index": 379,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15068,
+      "edge_count": 9,
+      "elapsed_seconds": 0.844862699508667,
+      "incremental_conflicts": 5006,
+      "index": 380,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15077,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1548166275024414,
+      "incremental_conflicts": 6092,
+      "index": 381,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15084,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3246700763702393,
+      "incremental_conflicts": 5630,
+      "index": 382,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15239,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1362643241882324,
+      "incremental_conflicts": 5269,
+      "index": 383,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15245,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9305319786071777,
+      "incremental_conflicts": 5637,
+      "index": 384,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15246,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3671765327453613,
+      "incremental_conflicts": 5037,
+      "index": 385,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15253,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3280029296875,
+      "incremental_conflicts": 5378,
+      "index": 386,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15260,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4384708404541016,
+      "incremental_conflicts": 5137,
+      "index": 387,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15269,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1729121208190918,
+      "incremental_conflicts": 5211,
+      "index": 388,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15270,
+      "edge_count": 9,
+      "elapsed_seconds": 1.204411506652832,
+      "incremental_conflicts": 5367,
+      "index": 389,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15276,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9211480617523193,
+      "incremental_conflicts": 5104,
+      "index": 390,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15284,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1235125064849854,
+      "incremental_conflicts": 5931,
+      "index": 391,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15301,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9059412479400635,
+      "incremental_conflicts": 5224,
+      "index": 392,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15302,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7390995025634766,
+      "incremental_conflicts": 5147,
+      "index": 393,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15308,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0211529731750488,
+      "incremental_conflicts": 5153,
+      "index": 394,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15316,
+      "edge_count": 9,
+      "elapsed_seconds": 1.03745698928833,
+      "incremental_conflicts": 6263,
+      "index": 395,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15751,
+      "edge_count": 9,
+      "elapsed_seconds": 1.2091064453125,
+      "incremental_conflicts": 5070,
+      "index": 396,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15757,
+      "edge_count": 9,
+      "elapsed_seconds": 1.549821376800537,
+      "incremental_conflicts": 8162,
+      "index": 397,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15758,
+      "edge_count": 9,
+      "elapsed_seconds": 1.156785488128662,
+      "incremental_conflicts": 5633,
+      "index": 398,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15772,
+      "edge_count": 9,
+      "elapsed_seconds": 1.143662691116333,
+      "incremental_conflicts": 5180,
+      "index": 399,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15781,
+      "edge_count": 9,
+      "elapsed_seconds": 1.2680919170379639,
+      "incremental_conflicts": 5435,
+      "index": 400,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15788,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4173915386199951,
+      "incremental_conflicts": 6680,
+      "index": 401,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15813,
+      "edge_count": 9,
+      "elapsed_seconds": 1.3727524280548096,
+      "incremental_conflicts": 5101,
+      "index": 402,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15814,
+      "edge_count": 9,
+      "elapsed_seconds": 1.4441256523132324,
+      "incremental_conflicts": 6181,
+      "index": 403,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15820,
+      "edge_count": 9,
+      "elapsed_seconds": 1.7074699401855469,
+      "incremental_conflicts": 5077,
+      "index": 404,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15828,
+      "edge_count": 9,
+      "elapsed_seconds": 1.437359094619751,
+      "incremental_conflicts": 5065,
+      "index": 405,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15844,
+      "edge_count": 9,
+      "elapsed_seconds": 1.360745906829834,
+      "incremental_conflicts": 5084,
+      "index": 406,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 16324,
+      "edge_count": 9,
+      "elapsed_seconds": 1.937678575515747,
+      "incremental_conflicts": 5666,
+      "index": 407,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30863,
+      "edge_count": 9,
+      "elapsed_seconds": 1.2234530448913574,
+      "incremental_conflicts": 8292,
+      "index": 408,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30887,
+      "edge_count": 9,
+      "elapsed_seconds": 0.02160167694091797,
+      "incremental_conflicts": 405,
+      "index": 409,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30893,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8780381679534912,
+      "incremental_conflicts": 5120,
+      "index": 410,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30894,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0710608959197998,
+      "incremental_conflicts": 5126,
+      "index": 411,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30926,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7672760486602783,
+      "incremental_conflicts": 5269,
+      "index": 412,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30933,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8822371959686279,
+      "incremental_conflicts": 5069,
+      "index": 413,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30934,
+      "edge_count": 9,
+      "elapsed_seconds": 0.7683463096618652,
+      "incremental_conflicts": 5028,
+      "index": 414,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30964,
+      "edge_count": 9,
+      "elapsed_seconds": 1.0497515201568604,
+      "incremental_conflicts": 5074,
+      "index": 415,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31125,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1125600337982178,
+      "incremental_conflicts": 5034,
+      "index": 416,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31126,
+      "edge_count": 9,
+      "elapsed_seconds": 0.8601438999176025,
+      "incremental_conflicts": 5149,
+      "index": 417,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31436,
+      "edge_count": 9,
+      "elapsed_seconds": 1.1055855751037598,
+      "incremental_conflicts": 5020,
+      "index": 418,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31628,
+      "edge_count": 9,
+      "elapsed_seconds": 0.9992785453796387,
+      "incremental_conflicts": 5035,
+      "index": 419,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3039,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9696605205535889,
+      "incremental_conflicts": 5037,
+      "index": 420,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3069,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1631762981414795,
+      "incremental_conflicts": 5665,
+      "index": 421,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 3070,
+      "edge_count": 10,
+      "elapsed_seconds": 1.061819314956665,
+      "incremental_conflicts": 5215,
+      "index": 422,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 4061,
+      "edge_count": 10,
+      "elapsed_seconds": 1.0626847743988037,
+      "incremental_conflicts": 5012,
+      "index": 423,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6654,
+      "edge_count": 10,
+      "elapsed_seconds": 1.5418992042541504,
+      "incremental_conflicts": 5019,
+      "index": 424,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6847,
+      "edge_count": 10,
+      "elapsed_seconds": 0.04541492462158203,
+      "incremental_conflicts": 394,
+      "index": 425,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 6910,
+      "edge_count": 10,
+      "elapsed_seconds": 1.6539745330810547,
+      "incremental_conflicts": 5024,
+      "index": 426,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7071,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1958866119384766,
+      "incremental_conflicts": 5042,
+      "index": 427,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7087,
+      "edge_count": 10,
+      "elapsed_seconds": 0.01642131805419922,
+      "incremental_conflicts": 111,
+      "index": 428,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7101,
+      "edge_count": 10,
+      "elapsed_seconds": 0.99676513671875,
+      "incremental_conflicts": 5483,
+      "index": 429,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7102,
+      "edge_count": 10,
+      "elapsed_seconds": 1.4437060356140137,
+      "incremental_conflicts": 5242,
+      "index": 430,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7127,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9952936172485352,
+      "incremental_conflicts": 5847,
+      "index": 431,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7134,
+      "edge_count": 10,
+      "elapsed_seconds": 0.877561092376709,
+      "incremental_conflicts": 5142,
+      "index": 432,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7150,
+      "edge_count": 10,
+      "elapsed_seconds": 0.7718141078948975,
+      "incremental_conflicts": 5268,
+      "index": 433,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7157,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9081587791442871,
+      "incremental_conflicts": 5629,
+      "index": 434,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7158,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9539923667907715,
+      "incremental_conflicts": 5237,
+      "index": 435,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7164,
+      "edge_count": 10,
+      "elapsed_seconds": 1.0069785118103027,
+      "incremental_conflicts": 5082,
+      "index": 436,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7863,
+      "edge_count": 10,
+      "elapsed_seconds": 0.036493778228759766,
+      "incremental_conflicts": 386,
+      "index": 437,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7869,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9491994380950928,
+      "incremental_conflicts": 5490,
+      "index": 438,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7895,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9379923343658447,
+      "incremental_conflicts": 5008,
+      "index": 439,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8087,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1699302196502686,
+      "incremental_conflicts": 5065,
+      "index": 440,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8093,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1627006530761719,
+      "incremental_conflicts": 5296,
+      "index": 441,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8118,
+      "edge_count": 10,
+      "elapsed_seconds": 1.9234628677368164,
+      "incremental_conflicts": 8996,
+      "index": 442,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8124,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3029944896697998,
+      "incremental_conflicts": 7132,
+      "index": 443,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8156,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1973342895507812,
+      "incremental_conflicts": 5027,
+      "index": 444,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14527,
+      "edge_count": 10,
+      "elapsed_seconds": 0.018161535263061523,
+      "incremental_conflicts": 112,
+      "index": 445,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14583,
+      "edge_count": 10,
+      "elapsed_seconds": 0.008056163787841797,
+      "incremental_conflicts": 79,
+      "index": 446,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14590,
+      "edge_count": 10,
+      "elapsed_seconds": 1.5917551517486572,
+      "incremental_conflicts": 5567,
+      "index": 447,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14751,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3204264640808105,
+      "incremental_conflicts": 5027,
+      "index": 448,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14767,
+      "edge_count": 10,
+      "elapsed_seconds": 0.017095327377319336,
+      "incremental_conflicts": 120,
+      "index": 449,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14781,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2203221321105957,
+      "incremental_conflicts": 5359,
+      "index": 450,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14782,
+      "edge_count": 10,
+      "elapsed_seconds": 1.5304770469665527,
+      "incremental_conflicts": 5001,
+      "index": 451,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14814,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3836610317230225,
+      "incremental_conflicts": 6250,
+      "index": 452,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14823,
+      "edge_count": 10,
+      "elapsed_seconds": 0.01830434799194336,
+      "incremental_conflicts": 140,
+      "index": 453,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14830,
+      "edge_count": 10,
+      "elapsed_seconds": 1.8916914463043213,
+      "incremental_conflicts": 6162,
+      "index": 454,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14838,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1864840984344482,
+      "incremental_conflicts": 6063,
+      "index": 455,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14844,
+      "edge_count": 10,
+      "elapsed_seconds": 1.0780682563781738,
+      "incremental_conflicts": 5021,
+      "index": 456,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15086,
+      "edge_count": 10,
+      "elapsed_seconds": 0.799515962600708,
+      "incremental_conflicts": 5328,
+      "index": 457,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15100,
+      "edge_count": 10,
+      "elapsed_seconds": 1.03568434715271,
+      "incremental_conflicts": 6334,
+      "index": 458,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15247,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9413061141967773,
+      "incremental_conflicts": 5030,
+      "index": 459,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15261,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9294543266296387,
+      "incremental_conflicts": 5137,
+      "index": 460,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15271,
+      "edge_count": 10,
+      "elapsed_seconds": 0.016083478927612305,
+      "incremental_conflicts": 131,
+      "index": 461,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15277,
+      "edge_count": 10,
+      "elapsed_seconds": 0.8745520114898682,
+      "incremental_conflicts": 5110,
+      "index": 462,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15278,
+      "edge_count": 10,
+      "elapsed_seconds": 1.0470104217529297,
+      "incremental_conflicts": 5176,
+      "index": 463,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15285,
+      "edge_count": 10,
+      "elapsed_seconds": 1.023777961730957,
+      "incremental_conflicts": 5437,
+      "index": 464,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15292,
+      "edge_count": 10,
+      "elapsed_seconds": 1.132664442062378,
+      "incremental_conflicts": 5024,
+      "index": 465,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15303,
+      "edge_count": 10,
+      "elapsed_seconds": 1.469087839126587,
+      "incremental_conflicts": 5991,
+      "index": 466,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15310,
+      "edge_count": 10,
+      "elapsed_seconds": 1.401172399520874,
+      "incremental_conflicts": 5131,
+      "index": 467,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15324,
+      "edge_count": 10,
+      "elapsed_seconds": 1.7558825016021729,
+      "incremental_conflicts": 5247,
+      "index": 468,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15759,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2887976169586182,
+      "incremental_conflicts": 5070,
+      "index": 469,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15773,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2423651218414307,
+      "incremental_conflicts": 5417,
+      "index": 470,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15783,
+      "edge_count": 10,
+      "elapsed_seconds": 0.0025157928466796875,
+      "incremental_conflicts": 0,
+      "index": 471,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15789,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1841671466827393,
+      "incremental_conflicts": 5310,
+      "index": 472,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15790,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2953367233276367,
+      "incremental_conflicts": 5231,
+      "index": 473,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15804,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2901113033294678,
+      "incremental_conflicts": 5811,
+      "index": 474,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15815,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3862690925598145,
+      "incremental_conflicts": 5308,
+      "index": 475,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15822,
+      "edge_count": 10,
+      "elapsed_seconds": 2.0553765296936035,
+      "incremental_conflicts": 6149,
+      "index": 476,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15830,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3853988647460938,
+      "incremental_conflicts": 5120,
+      "index": 477,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15836,
+      "edge_count": 10,
+      "elapsed_seconds": 1.178208351135254,
+      "incremental_conflicts": 5264,
+      "index": 478,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15845,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9604218006134033,
+      "incremental_conflicts": 6203,
+      "index": 479,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15846,
+      "edge_count": 10,
+      "elapsed_seconds": 0.9327521324157715,
+      "incremental_conflicts": 5126,
+      "index": 480,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15852,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1156542301177979,
+      "incremental_conflicts": 6314,
+      "index": 481,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15860,
+      "edge_count": 10,
+      "elapsed_seconds": 0.8435502052307129,
+      "incremental_conflicts": 5248,
+      "index": 482,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 16325,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3720178604125977,
+      "incremental_conflicts": 6561,
+      "index": 483,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 16332,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1118192672729492,
+      "incremental_conflicts": 5110,
+      "index": 484,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30895,
+      "edge_count": 10,
+      "elapsed_seconds": 0.01856255531311035,
+      "incremental_conflicts": 210,
+      "index": 485,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30935,
+      "edge_count": 10,
+      "elapsed_seconds": 1.118086814880371,
+      "incremental_conflicts": 5184,
+      "index": 486,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30958,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2190814018249512,
+      "incremental_conflicts": 5275,
+      "index": 487,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30965,
+      "edge_count": 10,
+      "elapsed_seconds": 1.2154779434204102,
+      "incremental_conflicts": 5443,
+      "index": 488,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30966,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1556260585784912,
+      "incremental_conflicts": 5099,
+      "index": 489,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31127,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3857388496398926,
+      "incremental_conflicts": 5755,
+      "index": 490,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31158,
+      "edge_count": 10,
+      "elapsed_seconds": 1.4288263320922852,
+      "incremental_conflicts": 5303,
+      "index": 491,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31438,
+      "edge_count": 10,
+      "elapsed_seconds": 1.1935241222381592,
+      "incremental_conflicts": 5550,
+      "index": 492,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31468,
+      "edge_count": 10,
+      "elapsed_seconds": 1.3320677280426025,
+      "incremental_conflicts": 5239,
+      "index": 493,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31629,
+      "edge_count": 10,
+      "elapsed_seconds": 1.381049633026123,
+      "incremental_conflicts": 6928,
+      "index": 494,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 4063,
+      "edge_count": 11,
+      "elapsed_seconds": 1.3034989833831787,
+      "incremental_conflicts": 6570,
+      "index": 495,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 7166,
+      "edge_count": 11,
+      "elapsed_seconds": 1.4615216255187988,
+      "incremental_conflicts": 5215,
+      "index": 496,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 8125,
+      "edge_count": 11,
+      "elapsed_seconds": 1.238950252532959,
+      "incremental_conflicts": 5122,
+      "index": 497,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 14846,
+      "edge_count": 11,
+      "elapsed_seconds": 2.077822685241699,
+      "incremental_conflicts": 5275,
+      "index": 498,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15279,
+      "edge_count": 11,
+      "elapsed_seconds": 0.00602412223815918,
+      "incremental_conflicts": 83,
+      "index": 499,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15293,
+      "edge_count": 11,
+      "elapsed_seconds": 0.722999095916748,
+      "incremental_conflicts": 5010,
+      "index": 500,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15775,
+      "edge_count": 11,
+      "elapsed_seconds": 1.060652494430542,
+      "incremental_conflicts": 5158,
+      "index": 501,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15805,
+      "edge_count": 11,
+      "elapsed_seconds": 1.210066556930542,
+      "incremental_conflicts": 5826,
+      "index": 502,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15838,
+      "edge_count": 11,
+      "elapsed_seconds": 0.9125537872314453,
+      "incremental_conflicts": 5072,
+      "index": 503,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15847,
+      "edge_count": 11,
+      "elapsed_seconds": 0.00099945068359375,
+      "incremental_conflicts": 3,
+      "index": 504,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15854,
+      "edge_count": 11,
+      "elapsed_seconds": 1.2618687152862549,
+      "incremental_conflicts": 6036,
+      "index": 505,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15862,
+      "edge_count": 11,
+      "elapsed_seconds": 1.0312023162841797,
+      "incremental_conflicts": 5088,
+      "index": 506,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15868,
+      "edge_count": 11,
+      "elapsed_seconds": 0.9799787998199463,
+      "incremental_conflicts": 5246,
+      "index": 507,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 16327,
+      "edge_count": 11,
+      "elapsed_seconds": 0.997215986251831,
+      "incremental_conflicts": 5117,
+      "index": 508,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 16348,
+      "edge_count": 11,
+      "elapsed_seconds": 1.6742088794708252,
+      "incremental_conflicts": 7414,
+      "index": 509,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 30967,
+      "edge_count": 11,
+      "elapsed_seconds": 0.011664867401123047,
+      "incremental_conflicts": 94,
+      "index": 510,
+      "status": "UNSAT"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31470,
+      "edge_count": 11,
+      "elapsed_seconds": 1.0629007816314697,
+      "incremental_conflicts": 5159,
+      "index": 511,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31631,
+      "edge_count": 11,
+      "elapsed_seconds": 1.2295503616333008,
+      "incremental_conflicts": 5209,
+      "index": 512,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 15870,
+      "edge_count": 12,
+      "elapsed_seconds": 1.4872276782989502,
+      "incremental_conflicts": 5752,
+      "index": 513,
+      "status": "UNKNOWN"
+    },
+    {
+      "bitmask_on_all_15_pairs": 31663,
+      "edge_count": 12,
+      "elapsed_seconds": 0.0010111331939697266,
+      "incremental_conflicts": 1,
+      "index": 514,
+      "status": "UNSAT"
+    }
+  ],
+  "schema": "erdos151-rp2-constant-fibre-pattern-bounded-v1",
+  "script_sha256": "b78ae17d803d88dbbdf44ad3c1ed80d071a3528f7e38f8aa9563c3699ad2af5c",
+  "solver": "glucose42",
+  "status": "INCOMPLETE_BOUNDED_SOLVE",
+  "status_counts": {
+    "UNKNOWN": 470,
+    "UNSAT": 45
+  },
+  "total_representatives": 515
+}

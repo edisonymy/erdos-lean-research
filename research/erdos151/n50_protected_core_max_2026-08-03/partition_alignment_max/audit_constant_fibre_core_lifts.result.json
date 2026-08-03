@@ -1,0 +1,7549 @@
+{
+  "checks": [
+    "ambient K4-free on C",
+    "at most two common C-neighbours on every present C-edge",
+    "exact C/R face-balance nonnegativity",
+    "each partial C-link embeds inducedly in C10 or C5",
+    "the marked leaves occupy antipodal C10 positions"
+  ],
+  "claim_boundary": "This is a solver-free exhaustive finite filter of local cores, not a human classification and not an exclusion of any surviving pattern.",
+  "endpoint_lift_reason_counts": {
+    "PASS_NECESSARY_LOCAL_CHECKS": 12852,
+    "face_balance": 992,
+    "internal_edge_codegree_gt_2": 1112,
+    "partial_link_nonembeddable": 22896
+  },
+  "endpoint_lifts_exhausted": 37852,
+  "excluded_indices": [
+    115,
+    116,
+    117,
+    123,
+    126,
+    135,
+    136,
+    137,
+    138,
+    142,
+    144,
+    145,
+    146,
+    149,
+    265
+  ],
+  "excluded_raw_assignments": 87,
+  "excluded_representatives": 15,
+  "input_raw_assignments": 2118,
+  "input_representatives": 379,
+  "inputs": {
+    "analytic_audit": {
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\partition_alignment_max\\audit_constant_fibre_face_balance.result.json",
+      "sha256": "116514ca45a1628321f7dd4ca0582b3eb6683a1bf4ff0b91bf533412c04eefee"
+    },
+    "orbit_audit": {
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\partition_alignment_max\\rp2_constant_fibre_pattern_orbits.audit.json",
+      "sha256": "ea8ebb56e788cf6fbac3e67d3662d3d88f0897461349141cc413e0117f8006c1"
+    }
+  },
+  "passing_endpoint_lifts": 12852,
+  "positive_control": {
+    "core_code": 2170361868,
+    "optional_quotient_edges": 5,
+    "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\partition_alignment_max\\rp2_constant_fibre_k4_control.result.json",
+    "sha256": "8b070c8d90948893762480e50129d46758a7e6904165bc77982dd0d4e623d3d5",
+    "status": "PASS_NECESSARY_LOCAL_CHECKS",
+    "surface_C_edges": 11,
+    "surface_C_triangles": 1
+  },
+  "records": [
+    {
+      "endpoint_lift_count": 4,
+      "first_passing_core_codes": [
+        1579806,
+        1580318,
+        1579822,
+        1580334
+      ],
+      "index": 68,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1579868,
+        1580380,
+        1579932,
+        1580444,
+        1579884
+      ],
+      "index": 71,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1595996,
+        1596508,
+        1587868,
+        1588380,
+        1596012
+      ],
+      "index": 77,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1645148,
+        1612892,
+        1645212,
+        1612956,
+        1645164
+      ],
+      "index": 80,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1645340,
+        1613084,
+        1645356,
+        1613100
+      ],
+      "index": 81,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1628252,
+        1661020,
+        1620124,
+        1652892,
+        1628268
+      ],
+      "index": 83,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1661516,
+        1629260,
+        1653388,
+        1621132
+      ],
+      "index": 84,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "partial_link_nonembeddable": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        9967902,
+        135797022,
+        5773614,
+        68688174
+      ],
+      "index": 91,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        5773645,
+        9967949,
+        68688205,
+        135797069,
+        5773709
+      ],
+      "index": 92,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        9967964,
+        135797084,
+        9968028,
+        135797148,
+        5773676
+      ],
+      "index": 94,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        135797278,
+        9968670,
+        68688430,
+        5774382
+      ],
+      "index": 95,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        135797340,
+        9968732,
+        135797404,
+        9968796,
+        68688492
+      ],
+      "index": 98,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68688716,
+        135797580,
+        5774668,
+        9968972,
+        68688780
+      ],
+      "index": 99,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5789773,
+        9984077,
+        68704333,
+        135813197,
+        5781645
+      ],
+      "index": 100,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        9984092,
+        135813212,
+        9975964,
+        135805084,
+        5789804
+      ],
+      "index": 102,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68720717,
+        135829581,
+        5838925,
+        10033229,
+        68720781
+      ],
+      "index": 106,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        135829596,
+        10033244,
+        135829660,
+        10033308,
+        68720748
+      ],
+      "index": 108,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        68720909,
+        135829773,
+        5839117,
+        10033421
+      ],
+      "index": 109,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        135829788,
+        10033436,
+        68720940,
+        5839148
+      ],
+      "index": 111,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68720972,
+        135829836,
+        5839180,
+        10033484,
+        68721036
+      ],
+      "index": 112,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [],
+      "index": 115,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [],
+      "index": 116,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [],
+      "index": 117,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 12,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68728845,
+        135837709,
+        5847053,
+        10041357,
+        68737037
+      ],
+      "index": 118,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        135837724,
+        10041372,
+        135845916,
+        10049564,
+        68728876
+      ],
+      "index": 120,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68737100,
+        135845964,
+        5855308,
+        10049612,
+        68728972
+      ],
+      "index": 121,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [],
+      "index": 123,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        135960589,
+        68982797,
+        10164237,
+        6101005
+      ],
+      "index": 124,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 4,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [],
+      "index": 126,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 20,
+        "partial_link_nonembeddable": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        135960652,
+        68982860,
+        10164300,
+        6101068,
+        135960716
+      ],
+      "index": 127,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        274208783,
+        542644239,
+        278403087,
+        546838543,
+        85465103
+      ],
+      "index": 128,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        278403102,
+        546838558,
+        152573982,
+        169351198,
+        274208814
+      ],
+      "index": 130,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        546838620,
+        169351260,
+        278403228,
+        152574108,
+        542644332
+      ],
+      "index": 131,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 48,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        274209037,
+        542644493,
+        278403341,
+        546838797,
+        85465357
+      ],
+      "index": 132,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        278403356,
+        546838812,
+        152574236,
+        169351452,
+        274209068
+      ],
+      "index": 133,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [],
+      "index": 135,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 136,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 137,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [],
+      "index": 138,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        542652429,
+        546846733,
+        102250509,
+        169359373,
+        274225165
+      ],
+      "index": 139,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        542652430,
+        546846734,
+        102250510,
+        169359374,
+        274225166
+      ],
+      "index": 140,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        546846748,
+        169359388,
+        278419484,
+        152590364,
+        542652460
+      ],
+      "index": 141,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 32,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 142,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 144,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 145,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 146,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        546977804,
+        169490444,
+        542914572,
+        102512652,
+        278550540
+      ],
+      "index": 147,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        17454077965,
+        9132578829,
+        4573370381,
+        2694322189,
+        17265334285
+      ],
+      "index": 148,
+      "optional_edge_count": 4,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [],
+      "index": 149,
+      "optional_edge_count": 4,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 7,
+      "reason_counts": {
+        "face_balance": 72,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1579869,
+        1580381,
+        1579933,
+        1580445,
+        1579885
+      ],
+      "index": 154,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1579870,
+        1580382,
+        1579934,
+        1580446,
+        1579886
+      ],
+      "index": 155,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1595487,
+        1587359,
+        1595503,
+        1587375
+      ],
+      "index": 156,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1595741,
+        1587613,
+        1595757,
+        1587629
+      ],
+      "index": 157,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1587550,
+        1595742,
+        1587614,
+        1595806,
+        1587566
+      ],
+      "index": 158,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1595997,
+        1596509,
+        1587869,
+        1588381,
+        1596013
+      ],
+      "index": 159,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1587806,
+        1595998,
+        1588318,
+        1596510,
+        1587870
+      ],
+      "index": 160,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1612381,
+        1645149,
+        1612893,
+        1645661,
+        1612445
+      ],
+      "index": 162,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1645341,
+        1613085,
+        1645357,
+        1613101
+      ],
+      "index": 163,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "face_balance": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1645342,
+        1613086,
+        1645358,
+        1613102
+      ],
+      "index": 164,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1612636,
+        1645404,
+        1613148,
+        1645916,
+        1612700
+      ],
+      "index": 165,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 8,
+      "first_passing_core_codes": [
+        1619999,
+        1652767,
+        1628191,
+        1660959,
+        1620015
+      ],
+      "index": 166,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1628253,
+        1661021,
+        1620125,
+        1652893,
+        1628269
+      ],
+      "index": 167,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1620062,
+        1652830,
+        1628254,
+        1661022,
+        1620126
+      ],
+      "index": 168,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1620316,
+        1653084,
+        1628508,
+        1661276,
+        1620380
+      ],
+      "index": 169,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1628749,
+        1661517,
+        1629261,
+        1662029,
+        1620621
+      ],
+      "index": 170,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1620558,
+        1653326,
+        1628750,
+        1661518,
+        1621070
+      ],
+      "index": 171,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1661532,
+        1629276,
+        1653404,
+        1621148,
+        1661548
+      ],
+      "index": 172,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        9967711,
+        135796831,
+        9967775,
+        135796895,
+        5773423
+      ],
+      "index": 173,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5773661,
+        9967965,
+        68688221,
+        135797085,
+        5773725
+      ],
+      "index": 176,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5773662,
+        9967966,
+        68688222,
+        135797086,
+        5773726
+      ],
+      "index": 177,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68688463,
+        135797327,
+        5774415,
+        9968719,
+        68688527
+      ],
+      "index": 178,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        9968222,
+        68688478,
+        135797342,
+        5774430,
+        9968734
+      ],
+      "index": 179,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5774110,
+        9968414,
+        68688670,
+        135797534,
+        5774622
+      ],
+      "index": 180,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5774157,
+        9968461,
+        68688717,
+        135797581,
+        5774669
+      ],
+      "index": 181,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5774158,
+        9968462,
+        68688718,
+        135797582,
+        5774670
+      ],
+      "index": 182,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5774172,
+        9968476,
+        68688732,
+        135797596,
+        5774684
+      ],
+      "index": 183,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5789775,
+        9984079,
+        68704335,
+        135813199,
+        5781647
+      ],
+      "index": 184,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5789789,
+        9984093,
+        68704349,
+        135813213,
+        5781661
+      ],
+      "index": 185,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5781598,
+        9975902,
+        68696158,
+        135805022,
+        5789790
+      ],
+      "index": 186,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5781838,
+        9976142,
+        68696398,
+        135805262,
+        5790030
+      ],
+      "index": 187,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5781852,
+        9976156,
+        68696412,
+        135805276,
+        5790044
+      ],
+      "index": 188,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5790300,
+        9984604,
+        68704860,
+        135813724,
+        5790812
+      ],
+      "index": 189,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        10000415,
+        135829535,
+        10033183,
+        135862303,
+        5806127
+      ],
+      "index": 190,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5806159,
+        10000463,
+        68720719,
+        135829583,
+        5838927
+      ],
+      "index": 191,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806173,
+        68720733,
+        135829597,
+        5838941,
+        10033245
+      ],
+      "index": 192,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        10000478,
+        135829598,
+        10033246,
+        135862366,
+        10000542
+      ],
+      "index": 193,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5806365,
+        68720925,
+        135829789,
+        5839133,
+        10033437
+      ],
+      "index": 195,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 12,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 12,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5806366,
+        10000670,
+        68720926,
+        135829790,
+        5839134
+      ],
+      "index": 196,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68720973,
+        135829837,
+        5839181,
+        10033485,
+        68721037
+      ],
+      "index": 197,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5806414,
+        10000718,
+        68720974,
+        135829838,
+        5839182
+      ],
+      "index": 198,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806428,
+        68720988,
+        135829852,
+        5839196,
+        10033500
+      ],
+      "index": 199,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68721167,
+        135830031,
+        68753935,
+        135862799,
+        5807119
+      ],
+      "index": 200,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68721182,
+        135830046,
+        10033694,
+        68753950,
+        135862814
+      ],
+      "index": 201,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 20,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 20,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68721229,
+        135830093,
+        5839437,
+        10033741,
+        68721741
+      ],
+      "index": 202,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68721230,
+        135830094,
+        68753998,
+        135862862,
+        5807182
+      ],
+      "index": 203,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5839452,
+        10033756,
+        68754012,
+        5807196,
+        68721756
+      ],
+      "index": 204,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5839629,
+        10033933,
+        68721933,
+        135830797
+      ],
+      "index": 205,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "internal_edge_codegree_gt_2": 4,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5839630,
+        10033934,
+        68754190,
+        135863054,
+        5807374
+      ],
+      "index": 206,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 4,
+        "partial_link_nonembeddable": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68721436,
+        135830300,
+        5839644,
+        10033948,
+        68754204
+      ],
+      "index": 207,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 20,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 20,
+        "face_balance": 4,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68721484,
+        135830348,
+        5839692,
+        10033996,
+        68721996
+      ],
+      "index": 208,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5814287,
+        10008591,
+        68728847,
+        135837711,
+        5847055
+      ],
+      "index": 209,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814301,
+        68728861,
+        135837725,
+        5847069,
+        10041373
+      ],
+      "index": 210,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814302,
+        10008606,
+        68728862,
+        135837726,
+        5847070
+      ],
+      "index": 211,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68728909,
+        135837773,
+        5847117,
+        10041421,
+        68737101
+      ],
+      "index": 212,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814350,
+        10008654,
+        68728910,
+        135837774,
+        5847118
+      ],
+      "index": 213,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5822556,
+        68737116,
+        135845980,
+        5855324,
+        10049628
+      ],
+      "index": 214,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        68729101,
+        135837965,
+        5847309,
+        10041613,
+        68737293
+      ],
+      "index": 215,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        5814542,
+        10008846,
+        68729102,
+        135837966,
+        5847310
+      ],
+      "index": 216,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814556,
+        68729116,
+        135837980,
+        5847324,
+        10041628
+      ],
+      "index": 217,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68729164,
+        135838028,
+        5847372,
+        10041676,
+        68737356
+      ],
+      "index": 218,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68729357,
+        135838221,
+        5847565,
+        10041869,
+        68737549
+      ],
+      "index": 219,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68729358,
+        135838222,
+        5847566,
+        10041870,
+        68762126
+      ],
+      "index": 220,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5847580,
+        10041884,
+        68762140,
+        5855772,
+        10050076
+      ],
+      "index": 221,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5855820,
+        10050124,
+        68738124,
+        135846988,
+        5847692
+      ],
+      "index": 222,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5847820,
+        10042124,
+        5856012,
+        10050316,
+        68730124
+      ],
+      "index": 223,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        10131471,
+        135960591,
+        6068239,
+        68982799,
+        10164239
+      ],
+      "index": 224,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        135960605,
+        6068253,
+        10262557,
+        68982813,
+        10164253
+      ],
+      "index": 225,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 4,
+        "partial_link_nonembeddable": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5937229,
+        135960653,
+        10262605,
+        68982861,
+        10164301
+      ],
+      "index": 226,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        10131534,
+        135960654,
+        6068302,
+        68982862,
+        10164302
+      ],
+      "index": 227,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        6068316,
+        10262620,
+        68982876,
+        6101084,
+        69015644
+      ],
+      "index": 228,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        10131726,
+        68851982,
+        135960846,
+        6068494,
+        68983054
+      ],
+      "index": 229,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 12,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 12,
+        "face_balance": 4
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        135960860,
+        6068508,
+        68983068,
+        136091932,
+        10164508
+      ],
+      "index": 230,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 4,
+        "partial_link_nonembeddable": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68852044,
+        135960908,
+        68983116,
+        136091980,
+        5970252
+      ],
+      "index": 231,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        6101532,
+        10295836,
+        69016092,
+        136124956,
+        6069276
+      ],
+      "index": 232,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 4,
+        "partial_link_nonembeddable": 44
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5970508,
+        10164812,
+        68885068,
+        6101580,
+        10295884
+      ],
+      "index": 233,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5953612,
+        135977036,
+        10278988,
+        68999244,
+        10180684
+      ],
+      "index": 234,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        22550559,
+        39327775,
+        274208799,
+        542644255,
+        278403103
+      ],
+      "index": 235,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        39327837,
+        542644317,
+        26744925,
+        278403165,
+        546838621
+      ],
+      "index": 236,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        22550813,
+        39328029,
+        274209053,
+        542644509,
+        278403357
+      ],
+      "index": 238,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        22550814,
+        39328030,
+        274209054,
+        542644510,
+        278403358
+      ],
+      "index": 239,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22550876,
+        39328092,
+        274209116,
+        542644572,
+        26745180
+      ],
+      "index": 240,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        274209295,
+        542644751,
+        278403599,
+        546839055,
+        85465615
+      ],
+      "index": 241,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274209310,
+        542644766,
+        278403614,
+        546839070,
+        337123870
+      ],
+      "index": 242,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542644813,
+        546839117,
+        85465677,
+        102242893,
+        337123917
+      ],
+      "index": 243,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542644814,
+        546839118,
+        85465678,
+        337123918,
+        152574542
+      ],
+      "index": 244,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542644828,
+        278403676,
+        546839132,
+        85465692,
+        337123932
+      ],
+      "index": 245,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        274209549,
+        542645005,
+        278403853,
+        546839309,
+        85465869
+      ],
+      "index": 246,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        274209550,
+        542645006,
+        278403854,
+        546839310,
+        85466382
+      ],
+      "index": 247,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274209564,
+        542645020,
+        278403868,
+        546839324,
+        337124124
+      ],
+      "index": 248,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274209612,
+        542645068,
+        278403916,
+        546839372,
+        85465932
+      ],
+      "index": 249,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        542652431,
+        546846735,
+        102250511,
+        169359375,
+        274225167
+      ],
+      "index": 250,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        39335965,
+        542652445,
+        546846749,
+        102250525,
+        605567005
+      ],
+      "index": 251,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        39335966,
+        542652446,
+        546846750,
+        102250526,
+        605567006
+      ],
+      "index": 252,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542652493,
+        546846797,
+        102250573,
+        169359437,
+        22566989
+      ],
+      "index": 253,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542652494,
+        546846798,
+        102250574,
+        169359438,
+        22566990
+      ],
+      "index": 254,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22567004,
+        274225244,
+        26761308,
+        278419548,
+        85481564
+      ],
+      "index": 255,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 96
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        274217229,
+        542652685,
+        278411533,
+        546846989,
+        85473549
+      ],
+      "index": 256,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        274217230,
+        542652686,
+        278411534,
+        546846990,
+        85473550
+      ],
+      "index": 257,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22559004,
+        39336220,
+        274217244,
+        542652700,
+        278411548
+      ],
+      "index": 258,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542652748,
+        546847052,
+        102250828,
+        169359692,
+        22567244
+      ],
+      "index": 259,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542652941,
+        546847245,
+        102251021,
+        169359885,
+        274225677
+      ],
+      "index": 260,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542652942,
+        546847246,
+        85473806,
+        152582670,
+        274225678
+      ],
+      "index": 261,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542652956,
+        546847260,
+        85473820,
+        605567516,
+        152582684
+      ],
+      "index": 262,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274225740,
+        278420044,
+        85482060,
+        102259276,
+        337140300
+      ],
+      "index": 263,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274217740,
+        542653196,
+        278412044,
+        546847500,
+        274225932
+      ],
+      "index": 264,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [],
+      "index": 265,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 0,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "face_balance": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        278469148,
+        546904604,
+        152607772,
+        169384988,
+        274274860
+      ],
+      "index": 266,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 16,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274275084,
+        542710540,
+        278469388,
+        546904844,
+        85499148
+      ],
+      "index": 267,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        85506061,
+        102283277,
+        152614925,
+        169392141,
+        274282509
+      ],
+      "index": 268,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542685198,
+        546879502,
+        85506062,
+        102283278,
+        152614926
+      ],
+      "index": 269,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542685212,
+        85506076,
+        102283292,
+        605599772,
+        152614940
+      ],
+      "index": 270,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        85514316,
+        102291532,
+        337172556,
+        152623180,
+        169400396
+      ],
+      "index": 271,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        85506316,
+        102283532,
+        152615180,
+        169392396,
+        274282764
+      ],
+      "index": 272,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274283020,
+        542718476,
+        278477324,
+        546912780,
+        274291212
+      ],
+      "index": 273,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        546977805,
+        169490445,
+        542914573,
+        102512653,
+        278550541
+      ],
+      "index": 274,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        39598108,
+        542914588,
+        102512668,
+        605829148,
+        22829084
+      ],
+      "index": 275,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 112
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274348300,
+        542783756,
+        278542604,
+        546978060,
+        85604620
+      ],
+      "index": 276,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542784012,
+        546978316,
+        152713740,
+        542915084,
+        547109388
+      ],
+      "index": 277,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        2170034191,
+        4334295055,
+        17454077967,
+        9132578831,
+        8616679439
+      ],
+      "index": 278,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        17202419741,
+        8629262365,
+        17454077981,
+        9132578845,
+        8616679453
+      ],
+      "index": 279,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        17202419742,
+        8629262366,
+        17454077982,
+        9132578846,
+        8616679454
+      ],
+      "index": 280,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        17202419996,
+        8629262620,
+        17454078236,
+        9132579100,
+        8616679708
+      ],
+      "index": 281,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        17454078492,
+        9132579356,
+        17458272796,
+        9136773660,
+        17516993052
+      ],
+      "index": 282,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4569176652,
+        17454078540,
+        4573370956,
+        17458272844,
+        17265334860
+      ],
+      "index": 283,
+      "optional_edge_count": 5,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 208
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4317534284,
+        17202436172,
+        4569192524,
+        17454094412,
+        4321728588
+      ],
+      "index": 284,
+      "optional_edge_count": 5,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 8,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "face_balance": 8,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1595999,
+        1596511,
+        1587871,
+        1588383,
+        1596015
+      ],
+      "index": 286,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1588062,
+        1596254,
+        1588574,
+        1596766,
+        1588126
+      ],
+      "index": 287,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1612383,
+        1645151,
+        1612895,
+        1645663,
+        1612447
+      ],
+      "index": 288,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1612637,
+        1645405,
+        1613149,
+        1645917,
+        1612701
+      ],
+      "index": 289,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1628255,
+        1661023,
+        1620127,
+        1652895,
+        1628271
+      ],
+      "index": 290,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1628509,
+        1661277,
+        1620381,
+        1653149,
+        1628525
+      ],
+      "index": 292,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1620318,
+        1653086,
+        1628510,
+        1661278,
+        1620382
+      ],
+      "index": 293,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1628751,
+        1661519,
+        1629263,
+        1662031,
+        1620623
+      ],
+      "index": 294,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1628765,
+        1661533,
+        1629277,
+        1662045,
+        1620637
+      ],
+      "index": 295,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1620574,
+        1653342,
+        1628766,
+        1661534,
+        1621086
+      ],
+      "index": 296,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 16,
+      "first_passing_core_codes": [
+        1661773,
+        1629517,
+        1653645,
+        1621389
+      ],
+      "index": 297,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 4,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 4,
+        "partial_link_nonembeddable": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1653596,
+        1661788,
+        1621340,
+        1629532,
+        1653660
+      ],
+      "index": 298,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        1923676,
+        1891420,
+        1915548,
+        1883292,
+        1792620
+      ],
+      "index": 299,
+      "optional_edge_count": 6,
+      "orbit_size": 1,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5774174,
+        9968478,
+        68688734,
+        135797598,
+        5774686
+      ],
+      "index": 302,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5789791,
+        9984095,
+        68704351,
+        135813215,
+        5781663
+      ],
+      "index": 303,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5781853,
+        68696413,
+        5790045,
+        9984349,
+        68704605
+      ],
+      "index": 304,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5781854,
+        9976158,
+        68696414,
+        135805278,
+        5790046
+      ],
+      "index": 305,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5782110,
+        9976414,
+        68696670,
+        135805534,
+        5790302
+      ],
+      "index": 306,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806175,
+        10000479,
+        68720735,
+        135829599,
+        5838943
+      ],
+      "index": 307,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806429,
+        68720989,
+        135829853,
+        5839197,
+        10033501
+      ],
+      "index": 310,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806430,
+        10000734,
+        68720990,
+        135829854,
+        5839198
+      ],
+      "index": 311,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806671,
+        10000975,
+        68721231,
+        135830095,
+        5839439
+      ],
+      "index": 312,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5806686,
+        68721246,
+        135830110,
+        5839454,
+        10033758
+      ],
+      "index": 313,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5839646,
+        10033950,
+        68754206,
+        135863070,
+        5807390
+      ],
+      "index": 314,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5839693,
+        10033997,
+        68721997,
+        135830861,
+        5839757
+      ],
+      "index": 315,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5806926,
+        10001230,
+        68721486,
+        135830350,
+        5839694
+      ],
+      "index": 316,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5806940,
+        68721500,
+        135830364,
+        5839708,
+        10034012
+      ],
+      "index": 317,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814303,
+        10008607,
+        68728863,
+        135837727,
+        5847071
+      ],
+      "index": 318,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814351,
+        10008655,
+        68728911,
+        135837775,
+        5847119
+      ],
+      "index": 319,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5814365,
+        68728925,
+        5847133,
+        68761693,
+        5822557
+      ],
+      "index": 320,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5814366,
+        10008670,
+        68728926,
+        135837790,
+        5847134
+      ],
+      "index": 321,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814557,
+        68729117,
+        135837981,
+        5847325,
+        10041629
+      ],
+      "index": 323,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814558,
+        10008862,
+        68729118,
+        135837982,
+        5847326
+      ],
+      "index": 324,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68737357,
+        135846221,
+        5855565,
+        10049869,
+        68729229
+      ],
+      "index": 325,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814606,
+        10008910,
+        68729166,
+        135838030,
+        5847374
+      ],
+      "index": 326,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5814620,
+        68729180,
+        135838044,
+        5847388,
+        10041692
+      ],
+      "index": 327,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5814799,
+        10009103,
+        68729359,
+        135838223,
+        5847567
+      ],
+      "index": 328,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5814814,
+        68729374,
+        135838238,
+        5847582,
+        10041886
+      ],
+      "index": 329,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5847629,
+        10041933,
+        68737613,
+        135846477,
+        5855821
+      ],
+      "index": 330,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        68729422,
+        135838286,
+        5847630,
+        10041934,
+        68762190
+      ],
+      "index": 331,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        5855836,
+        10050140,
+        68770396,
+        5823580,
+        68738140
+      ],
+      "index": 332,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5847821,
+        10042125,
+        5856013,
+        10050317,
+        68730125
+      ],
+      "index": 333,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5815054,
+        10009358,
+        5847822,
+        10042126,
+        68762382
+      ],
+      "index": 334,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5815068,
+        5847836,
+        10042140,
+        68762396,
+        5823260
+      ],
+      "index": 335,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5847884,
+        10042188,
+        5856076,
+        10050380,
+        68730188
+      ],
+      "index": 336,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        5937231,
+        10131535,
+        135960655,
+        6068303,
+        10262607
+      ],
+      "index": 337,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5937245,
+        135960669,
+        6068317,
+        10262621,
+        68982877
+      ],
+      "index": 338,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68851997,
+        135960861,
+        6068509,
+        68983069,
+        136091933
+      ],
+      "index": 340,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 20,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 20,
+        "partial_link_nonembeddable": 12
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        68852045,
+        135960909,
+        68983117,
+        136091981,
+        5970253
+      ],
+      "index": 341,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        10131790,
+        68852046,
+        135960910,
+        6068558,
+        68983118
+      ],
+      "index": 342,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        135960924,
+        6068572,
+        68983132,
+        136091996,
+        10164572
+      ],
+      "index": 343,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5937741,
+        135961165,
+        10263117,
+        68983373,
+        5970509
+      ],
+      "index": 344,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5937742,
+        135961166,
+        10263118,
+        68983374,
+        5970510
+      ],
+      "index": 345,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        6101596,
+        10295900,
+        69016156,
+        136125020,
+        6069340
+      ],
+      "index": 346,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5945421,
+        135968845,
+        10270797,
+        68991053,
+        10172493
+      ],
+      "index": 347,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5945422,
+        10139726,
+        135968846,
+        6076494,
+        10270798
+      ],
+      "index": 348,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        6084700,
+        10279004,
+        68999260,
+        6117468,
+        69032028
+      ],
+      "index": 349,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22550623,
+        39327839,
+        274208863,
+        542644319,
+        26744927
+      ],
+      "index": 350,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22550877,
+        39328093,
+        274209117,
+        542644573,
+        26745181
+      ],
+      "index": 352,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22551119,
+        274209359,
+        542644815,
+        26745423,
+        278403663
+      ],
+      "index": 353,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22551134,
+        274209374,
+        542644830,
+        278403678,
+        546839134
+      ],
+      "index": 354,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274209566,
+        542645022,
+        278403870,
+        546839326,
+        337124126
+      ],
+      "index": 356,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22551373,
+        274209613,
+        542645069,
+        26745677,
+        278403917
+      ],
+      "index": 357,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274209614,
+        542645070,
+        278403918,
+        546839374,
+        85465934
+      ],
+      "index": 358,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22551388,
+        274209628,
+        542645084,
+        278403932,
+        546839388
+      ],
+      "index": 359,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        39335967,
+        542652447,
+        546846751,
+        102250527,
+        605567007
+      ],
+      "index": 360,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22566991,
+        274225231,
+        26761295,
+        278419535,
+        85481551
+      ],
+      "index": 361,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        39336029,
+        542652509,
+        102250589,
+        605567069,
+        22567005
+      ],
+      "index": 362,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        39336030,
+        542652510,
+        546846814,
+        102250590,
+        605567070
+      ],
+      "index": 363,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22559005,
+        39336221,
+        274217245,
+        542652701,
+        278411549
+      ],
+      "index": 365,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22559006,
+        39336222,
+        274217246,
+        542652702,
+        278411550
+      ],
+      "index": 366,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22567245,
+        274225485,
+        542660941,
+        26761549,
+        278419789
+      ],
+      "index": 367,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        22559054,
+        274217294,
+        542652750,
+        26753358,
+        278411598
+      ],
+      "index": 368,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        39336284,
+        542652764,
+        546847068,
+        102250844,
+        605567324
+      ],
+      "index": 369,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542652943,
+        546847247,
+        102251023,
+        169359887,
+        274225679
+      ],
+      "index": 370,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22559262,
+        542652958,
+        546847262,
+        85473822,
+        605567518
+      ],
+      "index": 371,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22559310,
+        542653006,
+        26753614,
+        546847310,
+        85473870
+      ],
+      "index": 372,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22567516,
+        39344732,
+        274225756,
+        278420060,
+        85482076
+      ],
+      "index": 373,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "partial_link_nonembeddable": 176
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274217741,
+        542653197,
+        278412045,
+        546847501,
+        102251277
+      ],
+      "index": 374,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274217742,
+        542653198,
+        278412046,
+        546847502,
+        274225934
+      ],
+      "index": 375,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22559516,
+        274217756,
+        542653212,
+        278412060,
+        546847516
+      ],
+      "index": 376,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22559564,
+        542653260,
+        26753868,
+        546847564,
+        274225996
+      ],
+      "index": 377,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274242063,
+        542677519,
+        278436367,
+        546871823,
+        85498383
+      ],
+      "index": 378,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274242078,
+        542677534,
+        337156638,
+        605592094,
+        274274846
+      ],
+      "index": 379,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22616668,
+        274274908,
+        542710364,
+        278469212,
+        546904668
+      ],
+      "index": 380,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 200
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274275085,
+        542710541,
+        278469389,
+        546904845,
+        85499149
+      ],
+      "index": 381,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274242332,
+        542677788,
+        337156892,
+        605592348,
+        274275100
+      ],
+      "index": 382,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 96
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        542685199,
+        546879503,
+        85506063,
+        102283279,
+        152614927
+      ],
+      "index": 383,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542685213,
+        85506077,
+        102283293,
+        605599773,
+        152614941
+      ],
+      "index": 384,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22591518,
+        39368734,
+        542685214,
+        546879518,
+        85506078
+      ],
+      "index": 385,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        85506125,
+        102283341,
+        152614989,
+        169392205,
+        274282573
+      ],
+      "index": 386,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22599772,
+        274258012,
+        85514332,
+        102291548,
+        337172572
+      ],
+      "index": 387,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 192
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        85506317,
+        102283533,
+        152615181,
+        169392397,
+        274282765
+      ],
+      "index": 388,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274249998,
+        542685454,
+        278444302,
+        546879758,
+        85506318
+      ],
+      "index": 389,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274250012,
+        542685468,
+        85506332,
+        102283548,
+        337164572
+      ],
+      "index": 390,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        85506380,
+        102283596,
+        152615244,
+        169392460,
+        274282828
+      ],
+      "index": 391,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274283021,
+        542718477,
+        278477325,
+        546912781,
+        274291213
+      ],
+      "index": 392,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 96
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        85506574,
+        152615438,
+        274283022,
+        542718478,
+        278477326
+      ],
+      "index": 393,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 96
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22624796,
+        274283036,
+        542718492,
+        278477340,
+        546912796
+      ],
+      "index": 394,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 208
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        274291276,
+        542726732,
+        278485580,
+        546921036,
+        85515340
+      ],
+      "index": 395,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 224
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        546977807,
+        169490447,
+        542914575,
+        102512655,
+        278550543
+      ],
+      "index": 396,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        546977821,
+        169490461,
+        39598109,
+        542914589,
+        102512669
+      ],
+      "index": 397,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        546977822,
+        169490462,
+        39598110,
+        542914590,
+        102512670
+      ],
+      "index": 398,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22829148,
+        274487388,
+        85743708,
+        337401948,
+        39598236
+      ],
+      "index": 399,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 240
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        274348301,
+        542783757,
+        278542605,
+        546978061,
+        85604621
+      ],
+      "index": 400,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        278542620,
+        546978076,
+        152713500,
+        169490716,
+        22821148
+      ],
+      "index": 401,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542784013,
+        546978317,
+        169490957,
+        542915085,
+        547109389
+      ],
+      "index": 402,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542784014,
+        546978318,
+        152713742,
+        542915086,
+        547109390
+      ],
+      "index": 403,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22821404,
+        542915100,
+        547109404,
+        85735964,
+        605829660
+      ],
+      "index": 404,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        274356812,
+        278551116,
+        152721996,
+        169499212,
+        404380236
+      ],
+      "index": 405,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274348812,
+        542784268,
+        278543116,
+        546978572,
+        85605132
+      ],
+      "index": 406,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        274414092,
+        542849548,
+        278608396,
+        547043852,
+        85670412
+      ],
+      "index": 407,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        2170034207,
+        17202419743,
+        4334295071,
+        8629262367,
+        17454077983
+      ],
+      "index": 408,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        2170034461,
+        17202419997,
+        4334295325,
+        8629262621,
+        17454078237
+      ],
+      "index": 410,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        17202419998,
+        8629262622,
+        17454078238,
+        9132579102,
+        8616679710
+      ],
+      "index": 411,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        17454078494,
+        9132579358,
+        17458272798,
+        9136773662,
+        17516993054
+      ],
+      "index": 412,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4317518413,
+        17202420301,
+        4334295629,
+        4569176653,
+        17454078541
+      ],
+      "index": 413,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 192
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        2170034766,
+        4569176654,
+        17454078542,
+        2690128462,
+        9132579406
+      ],
+      "index": 414,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "partial_link_nonembeddable": 184
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4569176908,
+        17454078796,
+        4573371212,
+        17458273100,
+        17265335116
+      ],
+      "index": 415,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4334303309,
+        17223399501,
+        4900534349,
+        17852545101,
+        4317534285
+      ],
+      "index": 416,
+      "optional_edge_count": 6,
+      "orbit_size": 3,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4334303310,
+        17223399502,
+        4900534350,
+        17852545102,
+        2170050638
+      ],
+      "index": 417,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 208
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        8864209436,
+        17454144028,
+        9132644892,
+        17722579484,
+        8868403740
+      ],
+      "index": 418,
+      "optional_edge_count": 6,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 464
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        2170075164,
+        9132619804,
+        17265375260,
+        8692217884,
+        17282152476
+      ],
+      "index": 419,
+      "optional_edge_count": 6,
+      "orbit_size": 2,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 9,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "partial_link_nonembeddable": 440
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1628767,
+        1661535,
+        1629279,
+        1662047,
+        1620639
+      ],
+      "index": 420,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1661789,
+        1629533,
+        1653661,
+        1621405,
+        1661805
+      ],
+      "index": 421,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 32,
+      "first_passing_core_codes": [
+        1653598,
+        1661790,
+        1621342,
+        1629534,
+        1653662
+      ],
+      "index": 422,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        1759837,
+        1890909,
+        1792605,
+        1923677,
+        1760349
+      ],
+      "index": 423,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5782366,
+        9976670,
+        68696926,
+        135805790,
+        5790558
+      ],
+      "index": 424,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        10001246,
+        68721502,
+        135830366,
+        5839710,
+        10034014
+      ],
+      "index": 426,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        68728927,
+        5847135,
+        5822559,
+        10016863,
+        68737119
+      ],
+      "index": 427,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5814621,
+        68729181,
+        5847389,
+        68761949,
+        5822813
+      ],
+      "index": 429,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5814622,
+        10008926,
+        68729182,
+        135838046,
+        5847390
+      ],
+      "index": 430,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5823055,
+        10017359,
+        68737615,
+        135846479,
+        5855823
+      ],
+      "index": 431,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        5814878,
+        68729438,
+        135838302,
+        5847646,
+        10041950
+      ],
+      "index": 432,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        10009374,
+        5847838,
+        10042142,
+        68762398,
+        135871262
+      ],
+      "index": 433,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5856077,
+        10050381,
+        68738381,
+        135847245,
+        5847949
+      ],
+      "index": 434,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 8,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 8,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5847886,
+        10042190,
+        68762446,
+        135871310,
+        5856078
+      ],
+      "index": 435,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        5815132,
+        5847900,
+        10042204,
+        68762460,
+        5823324
+      ],
+      "index": 436,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        68852061,
+        135960925,
+        6068573,
+        68983133,
+        136091997
+      ],
+      "index": 438,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "partial_link_nonembeddable": 24
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        10132047,
+        135961167,
+        6068815,
+        68983375,
+        5970511
+      ],
+      "index": 439,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        5945423,
+        10139727,
+        135968847,
+        6076495,
+        10270799
+      ],
+      "index": 440,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        5945437,
+        6076509,
+        68991069,
+        68892765,
+        6109277
+      ],
+      "index": 441,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        10139982,
+        68860238,
+        135969102,
+        6076750,
+        68991310
+      ],
+      "index": 442,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 8
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        5945692,
+        135969116,
+        6076764,
+        10271068,
+        68991324
+      ],
+      "index": 443,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        6117980,
+        10312284,
+        69032540,
+        136141404,
+        6085724
+      ],
+      "index": 444,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 208
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22551390,
+        274209630,
+        542645086,
+        278403934,
+        546839390
+      ],
+      "index": 447,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "partial_link_nonembeddable": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22567007,
+        274225247,
+        26761311,
+        278419551,
+        85481567
+      ],
+      "index": 448,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 32,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        39336285,
+        542652765,
+        26753373,
+        278411613,
+        102250845
+      ],
+      "index": 450,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 88,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 88,
+        "partial_link_nonembeddable": 40
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22559070,
+        39336286,
+        274217310,
+        542652766,
+        26753374
+      ],
+      "index": 451,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 16
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        542653022,
+        26753630,
+        546847326,
+        85473886,
+        605567582
+      ],
+      "index": 452,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 128,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 128,
+        "partial_link_nonembeddable": 128
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22559518,
+        274217758,
+        542653214,
+        278412062,
+        546847518
+      ],
+      "index": 454,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274217806,
+        542653262,
+        278412110,
+        546847566,
+        337132366
+      ],
+      "index": 455,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        542653276,
+        26753884,
+        546847580,
+        605567836,
+        22567772
+      ],
+      "index": 456,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 120,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 120,
+        "partial_link_nonembeddable": 136
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274275102,
+        542710558,
+        278469406,
+        546904862,
+        337189662
+      ],
+      "index": 457,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "internal_edge_codegree_gt_2": 32,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22584156,
+        274242396,
+        542677852,
+        85498716,
+        337156956
+      ],
+      "index": 458,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 120,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 120,
+        "partial_link_nonembeddable": 136
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22591519,
+        39368735,
+        542685215,
+        546879519,
+        85506079
+      ],
+      "index": 459,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "partial_link_nonembeddable": 56
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        542685277,
+        102283357,
+        605599837,
+        152615005,
+        39401565
+      ],
+      "index": 460,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "partial_link_nonembeddable": 160
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274250013,
+        542685469,
+        85506333,
+        102283549,
+        337164573
+      ],
+      "index": 462,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22591774,
+        39368990,
+        274250014,
+        542685470,
+        278444318
+      ],
+      "index": 463,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        85514573,
+        102291789,
+        337172813,
+        152623437,
+        169400653
+      ],
+      "index": 464,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "partial_link_nonembeddable": 104
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22591836,
+        542685532,
+        85506396,
+        102283612,
+        605600092
+      ],
+      "index": 465,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 136,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 136,
+        "partial_link_nonembeddable": 120
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542685711,
+        546880015,
+        102283791,
+        169392655,
+        274283023
+      ],
+      "index": 466,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 72
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22592030,
+        542685726,
+        85506590,
+        605600286,
+        152615454
+      ],
+      "index": 467,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        22633052,
+        39410268,
+        274291292,
+        542726748,
+        278485596
+      ],
+      "index": 468,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "internal_edge_codegree_gt_2": 32,
+        "partial_link_nonembeddable": 408
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        39598111,
+        542914591,
+        102512671,
+        605829151,
+        22829087
+      ],
+      "index": 469,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 32,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        39598173,
+        542914653,
+        102512733,
+        605829213,
+        26892381
+      ],
+      "index": 470,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 208
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22690077,
+        39467293,
+        274348317,
+        542783773,
+        278542621
+      ],
+      "index": 472,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        22690078,
+        39467294,
+        274348318,
+        542783774,
+        278542622
+      ],
+      "index": 473,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "partial_link_nonembeddable": 32
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        546978140,
+        169490780,
+        39598428,
+        542914908,
+        547109212
+      ],
+      "index": 474,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        542784015,
+        546978319,
+        169490959,
+        542915087,
+        547109391
+      ],
+      "index": 475,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 24,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 24,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 88
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22690334,
+        542784030,
+        546978334,
+        152713758,
+        22821406
+      ],
+      "index": 476,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "partial_link_nonembeddable": 184
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22690382,
+        542784078,
+        26884686,
+        546978382,
+        152713806
+      ],
+      "index": 477,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "partial_link_nonembeddable": 176
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        22829660,
+        39606876,
+        274487900,
+        278682204,
+        85744220
+      ],
+      "index": 478,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "partial_link_nonembeddable": 456
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274348813,
+        542784269,
+        278543117,
+        546978573,
+        102382349
+      ],
+      "index": 479,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        274348814,
+        542784270,
+        278543118,
+        546978574,
+        85605134
+      ],
+      "index": 480,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        274348828,
+        542784284,
+        278543132,
+        546978588,
+        152714012
+      ],
+      "index": 481,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 104,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 104,
+        "partial_link_nonembeddable": 152
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        542784332,
+        546978636,
+        85605196,
+        152714060,
+        542915404
+      ],
+      "index": 482,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        542816781,
+        547142157,
+        274414093,
+        542849549,
+        278608397
+      ],
+      "index": 483,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "internal_edge_codegree_gt_2": 32,
+        "partial_link_nonembeddable": 176
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        22886940,
+        274545180,
+        542980636,
+        278739484,
+        547174940
+      ],
+      "index": 484,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "internal_edge_codegree_gt_2": 32,
+        "partial_link_nonembeddable": 424
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4317518415,
+        17202420303,
+        4334295631,
+        4569176655,
+        17454078543
+      ],
+      "index": 486,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "partial_link_nonembeddable": 160
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        17454078750,
+        9132579614,
+        17458273054,
+        9136773918,
+        17516993310
+      ],
+      "index": 487,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 32,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 32,
+        "internal_edge_codegree_gt_2": 8,
+        "partial_link_nonembeddable": 216
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        4317518669,
+        17202420557,
+        4334295885,
+        4569176909,
+        17454078797
+      ],
+      "index": 488,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 192
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        2170035022,
+        4569176910,
+        17454078798,
+        2690128718,
+        9132579662
+      ],
+      "index": 489,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 72,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 72,
+        "partial_link_nonembeddable": 184
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        2170050639,
+        4317534287,
+        17202436175,
+        4569192527,
+        17454094415
+      ],
+      "index": 490,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 40,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 40,
+        "internal_edge_codegree_gt_2": 64,
+        "partial_link_nonembeddable": 152
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        2170042702,
+        17202428238,
+        4334303566,
+        17454086478,
+        2690136398
+      ],
+      "index": 491,
+      "optional_edge_count": 7,
+      "orbit_size": 3,
+      "passing_lift_count": 104,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 104,
+        "partial_link_nonembeddable": 152
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        17454111262,
+        9132612126,
+        17517025822,
+        9195526686,
+        8994200094
+      ],
+      "index": 492,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 80,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 80,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 416
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        17454111516,
+        9132612380,
+        17517026076,
+        9195526940,
+        8994200348
+      ],
+      "index": 493,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "internal_edge_codegree_gt_2": 16,
+        "partial_link_nonembeddable": 440
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        4334336029,
+        2690168861,
+        9132619805,
+        17265375261,
+        2249766941
+      ],
+      "index": 494,
+      "optional_edge_count": 7,
+      "orbit_size": 6,
+      "passing_lift_count": 120,
+      "quotient_edge_count": 10,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 120,
+        "partial_link_nonembeddable": 392
+      }
+    },
+    {
+      "endpoint_lift_count": 64,
+      "first_passing_core_codes": [
+        1890911,
+        1923679,
+        1891423,
+        1924191,
+        1882783
+      ],
+      "index": 495,
+      "optional_edge_count": 8,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 48
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        5847902,
+        10042206,
+        68762462,
+        135871326,
+        5856094
+      ],
+      "index": 496,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 64,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 64,
+        "partial_link_nonembeddable": 64
+      }
+    },
+    {
+      "endpoint_lift_count": 128,
+      "first_passing_core_codes": [
+        68868445,
+        135977309,
+        6084957,
+        10279261,
+        68999517
+      ],
+      "index": 497,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 48,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 48,
+        "partial_link_nonembeddable": 80
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        274217822,
+        542653278,
+        278412126,
+        546847582,
+        337132382
+      ],
+      "index": 498,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 144,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 144,
+        "partial_link_nonembeddable": 112
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        542685533,
+        102283613,
+        605600093,
+        404273501,
+        39401821
+      ],
+      "index": 500,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22829151,
+        274487391,
+        85743711,
+        337401951,
+        39598239
+      ],
+      "index": 501,
+      "optional_edge_count": 8,
+      "orbit_size": 3,
+      "passing_lift_count": 16,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 16,
+        "internal_edge_codegree_gt_2": 112,
+        "partial_link_nonembeddable": 128
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        22698333,
+        39475549,
+        274356573,
+        542792029,
+        26892637
+      ],
+      "index": 502,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        542784094,
+        26884702,
+        152713822,
+        542915166,
+        27015774
+      ],
+      "index": 503,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 152,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 152,
+        "partial_link_nonembeddable": 360
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        278543134,
+        546978590,
+        85605150,
+        337263390,
+        605698846
+      ],
+      "index": 505,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 112,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 112,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        274348878,
+        542784334,
+        278543182,
+        546978638,
+        337263438
+      ],
+      "index": 506,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 128,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 128,
+        "partial_link_nonembeddable": 128
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        542784348,
+        546978652,
+        152714076,
+        542915420,
+        547109724
+      ],
+      "index": 507,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 224,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 224,
+        "partial_link_nonembeddable": 288
+      }
+    },
+    {
+      "endpoint_lift_count": 256,
+      "first_passing_core_codes": [
+        547011087,
+        169523727,
+        542947855,
+        102545935,
+        274414095
+      ],
+      "index": 508,
+      "optional_edge_count": 8,
+      "orbit_size": 3,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "internal_edge_codegree_gt_2": 56,
+        "partial_link_nonembeddable": 144
+      }
+    },
+    {
+      "endpoint_lift_count": 1024,
+      "first_passing_core_codes": [
+        22895196,
+        39672412,
+        274553436,
+        542988892,
+        278747740
+      ],
+      "index": 509,
+      "optional_edge_count": 8,
+      "orbit_size": 3,
+      "passing_lift_count": 96,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 96,
+        "internal_edge_codegree_gt_2": 120,
+        "partial_link_nonembeddable": 808
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        8864209694,
+        17454144286,
+        9132645150,
+        17722579742,
+        8868403998
+      ],
+      "index": 511,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 56,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 56,
+        "internal_edge_codegree_gt_2": 136,
+        "partial_link_nonembeddable": 320
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        17202460703,
+        2186852383,
+        8629303327,
+        17219237919,
+        2690168863
+      ],
+      "index": 512,
+      "optional_edge_count": 8,
+      "orbit_size": 6,
+      "passing_lift_count": 176,
+      "quotient_edge_count": 11,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 176,
+        "partial_link_nonembeddable": 336
+      }
+    },
+    {
+      "endpoint_lift_count": 512,
+      "first_passing_core_codes": [
+        274479966,
+        542915422,
+        278674270,
+        547109726,
+        337394526
+      ],
+      "index": 513,
+      "optional_edge_count": 9,
+      "orbit_size": 6,
+      "passing_lift_count": 152,
+      "quotient_edge_count": 12,
+      "reason_counts": {
+        "PASS_NECESSARY_LOCAL_CHECKS": 152,
+        "partial_link_nonembeddable": 360
+      }
+    }
+  ],
+  "schema": "erdos151-constant-fibre-core-lifts-v1",
+  "scope": "endpoint lifts of the 379 analytically surviving six-fibre patterns into their nine actual surface vertices; necessary local conditions only",
+  "script_sha256": "fb6d9e35afb274f53877d97c0a0f0167dd13ec2098a3e22a276446d24f96d3e1",
+  "soundness_boundary": "Every full quotient-essential block induces one enumerated lift. Zero passing lifts excludes a quotient pattern; a passing lift is not a full surface.",
+  "status": "PASS_EXHAUSTIVE_LOCAL_LIFT_FILTER",
+  "surviving_indices": [
+    68,
+    71,
+    77,
+    80,
+    81,
+    83,
+    84,
+    91,
+    92,
+    94,
+    95,
+    98,
+    99,
+    100,
+    102,
+    106,
+    108,
+    109,
+    111,
+    112,
+    118,
+    120,
+    121,
+    124,
+    127,
+    128,
+    130,
+    131,
+    132,
+    133,
+    139,
+    140,
+    141,
+    147,
+    148,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    286,
+    287,
+    288,
+    289,
+    290,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    352,
+    353,
+    354,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420,
+    421,
+    422,
+    423,
+    424,
+    426,
+    427,
+    429,
+    430,
+    431,
+    432,
+    433,
+    434,
+    435,
+    436,
+    438,
+    439,
+    440,
+    441,
+    442,
+    443,
+    444,
+    447,
+    448,
+    450,
+    451,
+    452,
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    486,
+    487,
+    488,
+    489,
+    490,
+    491,
+    492,
+    493,
+    494,
+    495,
+    496,
+    497,
+    498,
+    500,
+    501,
+    502,
+    503,
+    505,
+    506,
+    507,
+    508,
+    509,
+    511,
+    512,
+    513
+  ],
+  "surviving_raw_assignments": 2031,
+  "surviving_representatives": 364
+}

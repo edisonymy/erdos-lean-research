@@ -1,0 +1,156 @@
+{
+  "bug": {
+    "corrected_search_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+    "description": "The old helper emitted masks in NetworkX insertion order but callers indexed them by integer vertex label. This could add unsound SAT parallel-gate clauses. Old SAT termination records are invalidated.",
+    "old_search_script_sha256": "48aa7e2eb2effb354384de5dca8c5b0097a6d6fd97dd91847e7071245cb1cf27",
+    "scope": "Canonical matching/configuration/branch construction did not use the helper; the identical projections below preserve that independent branch-manifest evidence."
+  },
+  "canonical_input_projection_checks": [
+    {
+      "all_old_and_corrected_projections_identical": true,
+      "candidate_index": 1,
+      "canonical_json_bytes": 43022,
+      "canonical_projection_sha256": "9c17b6194cbf9c58ee273bee81bd5735bfc87f9073b51f96d552476efb846166",
+      "paths": [
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_complete.json",
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_glucose42.json",
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_corrected_cadical195.json",
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_corrected_glucose42.json"
+      ]
+    },
+    {
+      "all_old_and_corrected_projections_identical": true,
+      "candidate_index": 2,
+      "canonical_json_bytes": 67250,
+      "canonical_projection_sha256": "4b64e66c54f717defbbd2b24ddc46c929960f0fcf0877f44705b67b7f3a95141",
+      "paths": [
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_complete.json",
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_glucose42.json",
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_corrected_cadical195.json",
+        "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_corrected_glucose42.json"
+      ]
+    }
+  ],
+  "claim_boundary": "This audit detects the historical label-order failure, confirms the fixed helper on the triggering graph, distinguishes invalid SAT terminations from unchanged canonical inputs, and checks corrected result metadata. Separate coverage audits reconstruct orbit completeness and branch keys.",
+  "corrected_sat_results": [
+    {
+      "canonical_factor_branches": 210,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_corrected_cadical195.json",
+      "recorded_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+      "sha256": "10dd3c1814933a457efded10d0d67d3cb5ca0ef183eddc53e6da10d81079b7cf",
+      "solver": "cadical195",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 210
+      }
+    },
+    {
+      "canonical_factor_branches": 330,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_corrected_cadical195.json",
+      "recorded_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+      "sha256": "12d3c5daaada489a3b7c82016ec7b8ed1ca5fa5219c1fca3b495171b4b3af04e",
+      "solver": "cadical195",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 330
+      }
+    },
+    {
+      "canonical_factor_branches": 210,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_corrected_glucose42.json",
+      "recorded_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+      "sha256": "c5fe931dbc048d2aad4a67fb44060a53df883d57685a01f8f52308fb7e774739",
+      "solver": "glucose42",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 210
+      }
+    },
+    {
+      "canonical_factor_branches": 330,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_corrected_glucose42.json",
+      "recorded_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+      "sha256": "01c714bfa23f8c126c38fc4bf39cff0ded70689a0555350c1c8b9a9e19622035",
+      "solver": "glucose42",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 330
+      }
+    }
+  ],
+  "invalidated_old_sat_results": [
+    {
+      "canonical_factor_branches": 210,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_complete.json",
+      "recorded_script_sha256": "48aa7e2eb2effb354384de5dca8c5b0097a6d6fd97dd91847e7071245cb1cf27",
+      "sha256": "3bfb50a8fb482207daed558a456ed95f9726dd4f1b2a3efab93b609d224fc5f1",
+      "solver": "cadical195",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 210
+      }
+    },
+    {
+      "canonical_factor_branches": 330,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_complete.json",
+      "recorded_script_sha256": "48aa7e2eb2effb354384de5dca8c5b0097a6d6fd97dd91847e7071245cb1cf27",
+      "sha256": "825238ed708ffc0532fe005adbdf140688a64c37e8b61a26232fa49c4499b5ef",
+      "solver": "cadical195",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 330
+      }
+    },
+    {
+      "canonical_factor_branches": 210,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate1_glucose42.json",
+      "recorded_script_sha256": "48aa7e2eb2effb354384de5dca8c5b0097a6d6fd97dd91847e7071245cb1cf27",
+      "sha256": "929e0789a0a6e0ed88ecd696678c401f0ca7afa601ed3761e5b7c2c2709cf42e",
+      "solver": "glucose42",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 210
+      }
+    },
+    {
+      "canonical_factor_branches": 330,
+      "complete": true,
+      "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_candidate2_glucose42.json",
+      "recorded_script_sha256": "48aa7e2eb2effb354384de5dca8c5b0097a6d6fd97dd91847e7071245cb1cf27",
+      "sha256": "10a63df2cd1092b5a6d4eb35353f9533e8a4948723047d52855b2b3c14918d60",
+      "solver": "glucose42",
+      "survivors": 0,
+      "termination_status_counts": {
+        "exhausted": 330
+      }
+    }
+  ],
+  "regression": {
+    "adjacency_masks_match_graph_neighbours_for_every_label": true,
+    "icosahedron_insertion_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      6
+    ],
+    "insertion_order_is_nonnumeric": true,
+    "mismatching_labels": []
+  },
+  "schema": "erdos151-label-order-correction-audit-v1",
+  "status": "PASS"
+}

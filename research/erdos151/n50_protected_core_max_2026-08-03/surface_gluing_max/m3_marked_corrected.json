@@ -1,0 +1,1420 @@
+{
+  "claim_boundary": "An exhausted run is a symmetry-reduced computational exclusion of quotients of the supplied RP2 block under the proved m=3 fibre form. It has no DRAT/LRAT certificate. A survivor is only an exact local uniform-type5 graph until independent checking.",
+  "complete": true,
+  "configuration_cases": [
+    {
+      "configuration_orbit_index": 0,
+      "exceptional_fibres": [
+        [
+          9,
+          13
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          12,
+          16
+        ]
+      ],
+      "factor_branches": [
+        {
+          "blocks": 218,
+          "clauses": 3510,
+          "elapsed_seconds": 0.17435288429260254,
+          "fibres": 436,
+          "global_branch_index": 0,
+          "icosahedron_orbit_pair": [
+            0,
+            0
+          ],
+          "learned_k4": 437,
+          "learned_other": 0,
+          "learned_triangle": 484,
+          "models": 24,
+          "parallel_gate_clauses": 2256,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 636
+        },
+        {
+          "blocks": 217,
+          "clauses": 3540,
+          "elapsed_seconds": 0.17607784271240234,
+          "fibres": 434,
+          "global_branch_index": 1,
+          "icosahedron_orbit_pair": [
+            0,
+            1
+          ],
+          "learned_k4": 359,
+          "learned_other": 0,
+          "learned_triangle": 436,
+          "models": 23,
+          "parallel_gate_clauses": 2292,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 633
+        },
+        {
+          "blocks": 217,
+          "clauses": 3612,
+          "elapsed_seconds": 0.17438459396362305,
+          "fibres": 434,
+          "global_branch_index": 2,
+          "icosahedron_orbit_pair": [
+            0,
+            2
+          ],
+          "learned_k4": 351,
+          "learned_other": 0,
+          "learned_triangle": 433,
+          "models": 22,
+          "parallel_gate_clauses": 2364,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 633
+        },
+        {
+          "blocks": 220,
+          "clauses": 3741,
+          "elapsed_seconds": 0.17036819458007812,
+          "fibres": 440,
+          "global_branch_index": 3,
+          "icosahedron_orbit_pair": [
+            0,
+            3
+          ],
+          "learned_k4": 442,
+          "learned_other": 0,
+          "learned_triangle": 495,
+          "models": 23,
+          "parallel_gate_clauses": 2475,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 642
+        },
+        {
+          "blocks": 220,
+          "clauses": 3525,
+          "elapsed_seconds": 0.17698073387145996,
+          "fibres": 440,
+          "global_branch_index": 4,
+          "icosahedron_orbit_pair": [
+            0,
+            4
+          ],
+          "learned_k4": 414,
+          "learned_other": 0,
+          "learned_triangle": 459,
+          "models": 23,
+          "parallel_gate_clauses": 2259,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 642
+        },
+        {
+          "blocks": 216,
+          "clauses": 3568,
+          "elapsed_seconds": 0.16631269454956055,
+          "fibres": 432,
+          "global_branch_index": 5,
+          "icosahedron_orbit_pair": [
+            1,
+            1
+          ],
+          "learned_k4": 318,
+          "learned_other": 0,
+          "learned_triangle": 388,
+          "models": 21,
+          "parallel_gate_clauses": 2326,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 630
+        },
+        {
+          "blocks": 216,
+          "clauses": 3636,
+          "elapsed_seconds": 0.16802406311035156,
+          "fibres": 432,
+          "global_branch_index": 6,
+          "icosahedron_orbit_pair": [
+            1,
+            2
+          ],
+          "learned_k4": 387,
+          "learned_other": 0,
+          "learned_triangle": 456,
+          "models": 23,
+          "parallel_gate_clauses": 2394,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 630
+        },
+        {
+          "blocks": 219,
+          "clauses": 3759,
+          "elapsed_seconds": 0.16185474395751953,
+          "fibres": 438,
+          "global_branch_index": 7,
+          "icosahedron_orbit_pair": [
+            1,
+            3
+          ],
+          "learned_k4": 438,
+          "learned_other": 0,
+          "learned_triangle": 488,
+          "models": 23,
+          "parallel_gate_clauses": 2499,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 219,
+          "clauses": 3555,
+          "elapsed_seconds": 0.16435503959655762,
+          "fibres": 438,
+          "global_branch_index": 8,
+          "icosahedron_orbit_pair": [
+            1,
+            4
+          ],
+          "learned_k4": 437,
+          "learned_other": 0,
+          "learned_triangle": 464,
+          "models": 23,
+          "parallel_gate_clauses": 2295,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 216,
+          "clauses": 3696,
+          "elapsed_seconds": 0.1770942211151123,
+          "fibres": 432,
+          "global_branch_index": 9,
+          "icosahedron_orbit_pair": [
+            2,
+            2
+          ],
+          "learned_k4": 371,
+          "learned_other": 0,
+          "learned_triangle": 434,
+          "models": 22,
+          "parallel_gate_clauses": 2454,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 630
+        },
+        {
+          "blocks": 219,
+          "clauses": 3807,
+          "elapsed_seconds": 0.16308188438415527,
+          "fibres": 438,
+          "global_branch_index": 10,
+          "icosahedron_orbit_pair": [
+            2,
+            3
+          ],
+          "learned_k4": 431,
+          "learned_other": 0,
+          "learned_triangle": 468,
+          "models": 22,
+          "parallel_gate_clauses": 2547,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 219,
+          "clauses": 3627,
+          "elapsed_seconds": 0.1637279987335205,
+          "fibres": 438,
+          "global_branch_index": 11,
+          "icosahedron_orbit_pair": [
+            2,
+            4
+          ],
+          "learned_k4": 425,
+          "learned_other": 0,
+          "learned_triangle": 486,
+          "models": 24,
+          "parallel_gate_clauses": 2367,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 222,
+          "clauses": 3900,
+          "elapsed_seconds": 0.16547918319702148,
+          "fibres": 444,
+          "global_branch_index": 12,
+          "icosahedron_orbit_pair": [
+            3,
+            3
+          ],
+          "learned_k4": 493,
+          "learned_other": 0,
+          "learned_triangle": 498,
+          "models": 23,
+          "parallel_gate_clauses": 2622,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 648
+        },
+        {
+          "blocks": 222,
+          "clauses": 3756,
+          "elapsed_seconds": 0.16951560974121094,
+          "fibres": 444,
+          "global_branch_index": 13,
+          "icosahedron_orbit_pair": [
+            3,
+            4
+          ],
+          "learned_k4": 431,
+          "learned_other": 0,
+          "learned_triangle": 468,
+          "models": 23,
+          "parallel_gate_clauses": 2478,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 648
+        },
+        {
+          "blocks": 222,
+          "clauses": 3540,
+          "elapsed_seconds": 0.16967272758483887,
+          "fibres": 444,
+          "global_branch_index": 14,
+          "icosahedron_orbit_pair": [
+            4,
+            4
+          ],
+          "learned_k4": 431,
+          "learned_other": 0,
+          "learned_triangle": 483,
+          "models": 24,
+          "parallel_gate_clauses": 2262,
+          "residual_matching_representative": [
+            [
+              4,
+              15
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 648
+        }
+      ],
+      "orbit_size": 2,
+      "residual_matching_count": 1,
+      "residual_matching_orbit_sizes": [
+        1
+      ],
+      "stabilizer_size": 2
+    },
+    {
+      "configuration_orbit_index": 1,
+      "exceptional_fibres": [
+        [
+          9,
+          13
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          12,
+          16
+        ]
+      ],
+      "factor_branches": [
+        {
+          "blocks": 218,
+          "clauses": 3510,
+          "elapsed_seconds": 0.1687180995941162,
+          "fibres": 436,
+          "global_branch_index": 15,
+          "icosahedron_orbit_pair": [
+            0,
+            0
+          ],
+          "learned_k4": 381,
+          "learned_other": 0,
+          "learned_triangle": 435,
+          "models": 22,
+          "parallel_gate_clauses": 2256,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 636
+        },
+        {
+          "blocks": 217,
+          "clauses": 3540,
+          "elapsed_seconds": 0.1653423309326172,
+          "fibres": 434,
+          "global_branch_index": 16,
+          "icosahedron_orbit_pair": [
+            0,
+            1
+          ],
+          "learned_k4": 347,
+          "learned_other": 0,
+          "learned_triangle": 424,
+          "models": 22,
+          "parallel_gate_clauses": 2292,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 633
+        },
+        {
+          "blocks": 217,
+          "clauses": 3612,
+          "elapsed_seconds": 0.1813514232635498,
+          "fibres": 434,
+          "global_branch_index": 17,
+          "icosahedron_orbit_pair": [
+            0,
+            2
+          ],
+          "learned_k4": 342,
+          "learned_other": 0,
+          "learned_triangle": 421,
+          "models": 22,
+          "parallel_gate_clauses": 2364,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 633
+        },
+        {
+          "blocks": 220,
+          "clauses": 3741,
+          "elapsed_seconds": 0.17690086364746094,
+          "fibres": 440,
+          "global_branch_index": 18,
+          "icosahedron_orbit_pair": [
+            0,
+            3
+          ],
+          "learned_k4": 416,
+          "learned_other": 0,
+          "learned_triangle": 482,
+          "models": 23,
+          "parallel_gate_clauses": 2475,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 642
+        },
+        {
+          "blocks": 220,
+          "clauses": 3525,
+          "elapsed_seconds": 0.16251492500305176,
+          "fibres": 440,
+          "global_branch_index": 19,
+          "icosahedron_orbit_pair": [
+            0,
+            4
+          ],
+          "learned_k4": 428,
+          "learned_other": 0,
+          "learned_triangle": 463,
+          "models": 23,
+          "parallel_gate_clauses": 2259,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 642
+        },
+        {
+          "blocks": 216,
+          "clauses": 3568,
+          "elapsed_seconds": 0.16533660888671875,
+          "fibres": 432,
+          "global_branch_index": 20,
+          "icosahedron_orbit_pair": [
+            1,
+            1
+          ],
+          "learned_k4": 351,
+          "learned_other": 0,
+          "learned_triangle": 424,
+          "models": 22,
+          "parallel_gate_clauses": 2326,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 630
+        },
+        {
+          "blocks": 216,
+          "clauses": 3636,
+          "elapsed_seconds": 0.17642998695373535,
+          "fibres": 432,
+          "global_branch_index": 21,
+          "icosahedron_orbit_pair": [
+            1,
+            2
+          ],
+          "learned_k4": 365,
+          "learned_other": 0,
+          "learned_triangle": 451,
+          "models": 23,
+          "parallel_gate_clauses": 2394,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 630
+        },
+        {
+          "blocks": 219,
+          "clauses": 3759,
+          "elapsed_seconds": 0.1652834415435791,
+          "fibres": 438,
+          "global_branch_index": 22,
+          "icosahedron_orbit_pair": [
+            1,
+            3
+          ],
+          "learned_k4": 414,
+          "learned_other": 0,
+          "learned_triangle": 468,
+          "models": 23,
+          "parallel_gate_clauses": 2499,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 219,
+          "clauses": 3555,
+          "elapsed_seconds": 0.1631171703338623,
+          "fibres": 438,
+          "global_branch_index": 23,
+          "icosahedron_orbit_pair": [
+            1,
+            4
+          ],
+          "learned_k4": 421,
+          "learned_other": 0,
+          "learned_triangle": 463,
+          "models": 23,
+          "parallel_gate_clauses": 2295,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 216,
+          "clauses": 3696,
+          "elapsed_seconds": 0.16897130012512207,
+          "fibres": 432,
+          "global_branch_index": 24,
+          "icosahedron_orbit_pair": [
+            2,
+            2
+          ],
+          "learned_k4": 384,
+          "learned_other": 0,
+          "learned_triangle": 448,
+          "models": 22,
+          "parallel_gate_clauses": 2454,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 630
+        },
+        {
+          "blocks": 219,
+          "clauses": 3807,
+          "elapsed_seconds": 0.1655592918395996,
+          "fibres": 438,
+          "global_branch_index": 25,
+          "icosahedron_orbit_pair": [
+            2,
+            3
+          ],
+          "learned_k4": 443,
+          "learned_other": 0,
+          "learned_triangle": 481,
+          "models": 23,
+          "parallel_gate_clauses": 2547,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 219,
+          "clauses": 3627,
+          "elapsed_seconds": 0.17751836776733398,
+          "fibres": 438,
+          "global_branch_index": 26,
+          "icosahedron_orbit_pair": [
+            2,
+            4
+          ],
+          "learned_k4": 406,
+          "learned_other": 0,
+          "learned_triangle": 455,
+          "models": 23,
+          "parallel_gate_clauses": 2367,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 639
+        },
+        {
+          "blocks": 222,
+          "clauses": 3900,
+          "elapsed_seconds": 0.18784546852111816,
+          "fibres": 444,
+          "global_branch_index": 27,
+          "icosahedron_orbit_pair": [
+            3,
+            3
+          ],
+          "learned_k4": 473,
+          "learned_other": 0,
+          "learned_triangle": 494,
+          "models": 23,
+          "parallel_gate_clauses": 2622,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 648
+        },
+        {
+          "blocks": 222,
+          "clauses": 3756,
+          "elapsed_seconds": 0.1719989776611328,
+          "fibres": 444,
+          "global_branch_index": 28,
+          "icosahedron_orbit_pair": [
+            3,
+            4
+          ],
+          "learned_k4": 425,
+          "learned_other": 0,
+          "learned_triangle": 453,
+          "models": 23,
+          "parallel_gate_clauses": 2478,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 648
+        },
+        {
+          "blocks": 222,
+          "clauses": 3540,
+          "elapsed_seconds": 0.16612625122070312,
+          "fibres": 444,
+          "global_branch_index": 29,
+          "icosahedron_orbit_pair": [
+            4,
+            4
+          ],
+          "learned_k4": 398,
+          "learned_other": 0,
+          "learned_triangle": 436,
+          "models": 22,
+          "parallel_gate_clauses": 2262,
+          "residual_matching_representative": [
+            [
+              3,
+              8
+            ],
+            [
+              4,
+              15
+            ],
+            [
+              5,
+              18
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              10,
+              19
+            ],
+            [
+              14,
+              17
+            ]
+          ],
+          "status": "exhausted",
+          "variables": 648
+        }
+      ],
+      "orbit_size": 2,
+      "residual_matching_count": 1,
+      "residual_matching_orbit_sizes": [
+        1
+      ],
+      "stabilizer_size": 2
+    }
+  ],
+  "elapsed_seconds": 5.31440281867981,
+  "exceptional_configuration_orbit_sizes": [
+    2,
+    2
+  ],
+  "executed_factor_branches": 30,
+  "fibre_form": {
+    "degree10_singleton_fibres": 3,
+    "degree5_pair_fibres": 21,
+    "exceptional_pair_fibres": 3,
+    "ordinary_heavy_quotient_edges": 9,
+    "ordinary_marked_surface_edges": 18
+  },
+  "icosahedron_matching_count": 125,
+  "icosahedron_matching_orbit_sizes": [
+    30,
+    60,
+    20,
+    5,
+    10
+  ],
+  "rp2_block_audit": {
+    "clique_number": 3,
+    "degree_counts": {
+      "5": 18,
+      "10": 3
+    },
+    "edge_codegree_counts": {
+      "2": 60
+    },
+    "edges": 60,
+    "euler_characteristic": 1,
+    "links_are_cycles": true,
+    "triangles": 40,
+    "vertices": 21
+  },
+  "rp2_graph6": "TAheJ@peD?WWMKgRW?D[?GABOObG?S?PP??j",
+  "rp2_graph6_sha256": "a4ba704e9b19d9e85b3beb2c1c1992d00b9974f0de9b8034b67f7777e32b1d6a",
+  "schema": "erdos151-m3-marked-factor-gluing-search-v1",
+  "script_sha256": "a3ac6b6fe91e59c3f052d2095279d4da9e3c767d85d85b22b23e142947b71338",
+  "shared_search_script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+  "solver": "cadical195",
+  "survivors": [],
+  "total_canonical_factor_branches": 30
+}

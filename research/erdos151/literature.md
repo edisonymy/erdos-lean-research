@@ -85,3 +85,53 @@ triangle-edge-coloring argument, or the finite verification recorded here.
 These estimates are deliberately below certainty because not every older
 paper was available for full-text inspection.  Human expert review and
 additional citation checking remain welcome in the public review issue.
+
+## 3 August 2026 targeted follow-up
+
+Two narrower searches were repeated after the heavy-edge normalization was
+developed.
+
+- Exact combinations of `clique transversal`, `Ramsey`, triangle-free
+  edge-colouring, monochromatic triangles, and Folkman/arrowing terminology
+  found the original and recent clique-transversal literature but no prior
+  statement of the campaign's reduction
+  `G not -> (3,3) implies beta(G) >= H(n)`.  This is only a search result,
+  not a novelty proof; the elementary argument should still be shown to
+  specialists before a priority claim.
+- Bibby, Odesky, Wang, Wang, Zhang and Zheng,
+  [*Minimal flag triangulations of lower-dimensional
+  manifolds*](https://arxiv.org/abs/1909.03303), prove that a minimum flag
+  triangulation of the projective plane has 11 vertices and develop
+  admissible edge contractions.  This is relevant background for the
+  normalization lane.  It does not appear to classify the degree pattern
+  `(10^3,5^18)` or the quotient/fibre constraints arising from the
+  24-vertex uniform-type-5 graph.
+
+The April 2026 Ulam note was re-opened and checked at its conclusion: it
+explicitly calls `tau(G) <= n-H(n)` the stronger Erdős--Gallai--Tuza
+speculation and states that its asymptotic argument does not settle it.
+
+### Local-link classification follow-up
+
+After the uniform type-5 class was isolated, a separate search used the exact
+link descriptions `C5 wedge C5`, `C_5 vee C_5`, figure-eight/tight-handcuff
+link, locally two pentagons, locally pentagonal, and 9-regular locally fixed
+graph.  It found no classification or construction for graphs whose every
+open neighbourhood is two induced 5-cycles sharing one vertex.
+
+The closest directly relevant sources found were:
+
+- Devillers--Fawcett--Praeger--Zhou's
+  [locally-pentagonal result](https://research-repository.uwa.edu.au/files/74868868/on_k_connected_graphs.pdf),
+  which recalls that a connected locally `C5` graph is the icosahedron; this
+  applies to the individual normalized surface components, not to the
+  original `C5 wedge C5` local graph; and
+- [*On the clique behavior of graphs with small constant
+  link*](https://xamanek.izt.uam.mx/map/papers/locally6.pdf), which treats all
+  fixed links through order six and gives an order-nine example locally
+  `C5 union P4`.  It does not list or classify the order-nine figure-eight
+  link used here.
+
+Thus the targeted search found no prior full classification that supersedes
+the 34-case computation.  This remains an absence-of-evidence statement, not
+a novelty theorem.

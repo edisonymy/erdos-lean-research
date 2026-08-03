@@ -1,0 +1,48 @@
+{
+  "assumed_maximal_edge_matching_upper": 2,
+  "beta_upper": 10,
+  "chromatic_upper": 9,
+  "claim_boundary": "numeric replay only; the written proof in PURE_TRIANGULAR_CHROMATIC_GATE.md carries the logical audit",
+  "contradiction": "beta >= 12 > 10",
+  "h": 11,
+  "logical_dependencies": [
+    "K4-free and every edge triangular imply every open neighborhood is ambient-admissible, hence Delta<=beta",
+    "Lovasz maximum-degree decomposition with all part bounds equal to 3",
+    "Brooks theorem on each K4-free maximum-degree-at-most-3 part",
+    "the union of two proper color classes is triangle-free and hence ambient-admissible in the pure-triangular K4-free case",
+    "under matching number at most 2, endpoints of a maximal matching cover M with at most 4 vertices",
+    "after deleting that cover, every union of two F-color-class remainders is ambient-admissible and has size at most 10"
+  ],
+  "matching_endpoint_cover_upper": 4,
+  "maximal_edge_cover_lower_on_that_set": 2,
+  "maximal_edge_matching_lower": 3,
+  "n": 50,
+  "schema": "erdos151-order50-pure-triangular-gate-audit-v1",
+  "sorted_second_color_remainder_upper": 5,
+  "status": "PASS",
+  "two_largest_color_classes_lower": 12,
+  "uniform_matching_burden": {
+    "P_q": "beta_upper+(q-2)*floor(beta_upper/2)",
+    "bound": "nu(M)>=ceil((n-P_q)/2)",
+    "examples": [
+      {
+        "P_q": 45,
+        "beta_upper": 10,
+        "maximal_edge_matching_lower": 3,
+        "n": 50,
+        "q": 9
+      },
+      {
+        "P_q": 46,
+        "beta_upper": 11,
+        "maximal_edge_matching_lower": 7,
+        "n": 59,
+        "q": 9
+      }
+    ],
+    "q": "3*ceil((beta_upper+1)/4)",
+    "scope": "finite and non-asymptotic"
+  },
+  "vertices_outside_matching_cover_lower": 46,
+  "vertices_outside_matching_cover_upper": 45
+}

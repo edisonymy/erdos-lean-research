@@ -1,0 +1,232 @@
+{
+  "branch_coverage": {
+    "canonical_factor_branches": 30,
+    "coverage_exact": true,
+    "learned_k4_clauses": 12159,
+    "learned_spurious_triangle_clauses": 13738,
+    "solver_models_inspected": 682,
+    "survivors": 0,
+    "termination_status_counts": {
+      "exhausted": 30
+    },
+    "weighted_valid_raw_factor_cases": 62500
+  },
+  "claim_boundary": "The fixed-K4 obstruction is solver-free and excludes quotients of this supplied RP2 graph. The audit does not establish that a census of all eligible m=3 RP2 blocks is complete.",
+  "conclusion": "The two valid exceptional-configuration orbits each force a fixed quotient K4 before ordinary gluing. Independently, branch-key reconstruction matches all 30 retained m=3 branches and every branch records exhaustive termination with no survivor.",
+  "exceptional_coverage": {
+    "exact_common_neighbour_filtered_configurations": 4,
+    "orbit_size_sum": 4,
+    "orbit_sizes": [
+      2,
+      2
+    ],
+    "raw_disjoint_antipode_configurations": 75,
+    "residual_matching_counts": [
+      1,
+      1
+    ]
+  },
+  "fibre_derivation": {
+    "exceptional_antipode_fibres": 3,
+    "ordinary_heavy_quotient_edges": 9,
+    "ordinary_marked_surface_edges": 18,
+    "paired_degree5_fibres": 21,
+    "quotient_vertices": 24,
+    "resolved_degree10_vertices": 3,
+    "resolved_degree5_vertices": 42,
+    "singleton_degree10_fibres": 3
+  },
+  "icosahedron": {
+    "perfect_matching_count": 125,
+    "perfect_matching_orbit_sizes": [
+      30,
+      60,
+      20,
+      5,
+      10
+    ]
+  },
+  "result": {
+    "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\m3_marked_corrected.json",
+    "sha256": "c82a89708515c26d8cbcf33dc72ed7d4b14e7e3b3658a5876c01ec9f863a8746"
+  },
+  "rp2_input": {
+    "audit": {
+      "clique_number": 3,
+      "degree_counts": {
+        "5": 18,
+        "10": 3
+      },
+      "edge_codegree_counts": {
+        "2": 60
+      },
+      "edges": 60,
+      "euler_characteristic": 1,
+      "links_are_cycles": true,
+      "triangles": 40,
+      "vertices": 21
+    },
+    "automorphism_count": 4,
+    "graph6": "TAheJ@peD?WWMKgRW?D[?GABOObG?S?PP??j",
+    "graph6_line_sha256": "73a5a0f236e63832b0027b1b5129745ec202fb453160c64411c2afbb055fb743",
+    "graph6_sha256": "a4ba704e9b19d9e85b3beb2c1c1992d00b9974f0de9b8034b67f7777e32b1d6a"
+  },
+  "schema": "erdos151-m3-gluing-coverage-audit-v1",
+  "search_script": {
+    "path": "research\\erdos151\\n50_protected_core_max_2026-08-03\\surface_gluing_max\\marked_factor_gluing_m3.py",
+    "sha256": "a3ac6b6fe91e59c3f052d2095279d4da9e3c767d85d85b22b23e142947b71338"
+  },
+  "solver_free_fixed_k4_obstruction": {
+    "conclusion": "For each valid exceptional-configuration orbit, the third degree-ten singleton together with all three exceptional pair fibres already induces a quotient K4. Ordinary fibre choices cannot remove these six fixed adjacencies.",
+    "records": [
+      {
+        "configuration_orbit_index": 0,
+        "fixed_k4s": [
+          {
+            "edge_witnesses": {
+              "2-3": [
+                [
+                  2,
+                  13
+                ]
+              ],
+              "2-4": [
+                [
+                  2,
+                  5
+                ]
+              ],
+              "2-5": [
+                [
+                  2,
+                  12
+                ],
+                [
+                  2,
+                  16
+                ]
+              ],
+              "3-4": [
+                [
+                  9,
+                  3
+                ]
+              ],
+              "3-5": [
+                [
+                  9,
+                  12
+                ]
+              ],
+              "4-5": [
+                [
+                  3,
+                  12
+                ]
+              ]
+            },
+            "fibre_indices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "surface_fibres": [
+              [
+                2
+              ],
+              [
+                9,
+                13
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                12,
+                16
+              ]
+            ]
+          }
+        ],
+        "orbit_size": 2
+      },
+      {
+        "configuration_orbit_index": 1,
+        "fixed_k4s": [
+          {
+            "edge_witnesses": {
+              "2-3": [
+                [
+                  2,
+                  13
+                ]
+              ],
+              "2-4": [
+                [
+                  2,
+                  7
+                ]
+              ],
+              "2-5": [
+                [
+                  2,
+                  12
+                ],
+                [
+                  2,
+                  16
+                ]
+              ],
+              "3-4": [
+                [
+                  13,
+                  7
+                ]
+              ],
+              "3-5": [
+                [
+                  9,
+                  12
+                ]
+              ],
+              "4-5": [
+                [
+                  20,
+                  16
+                ]
+              ]
+            },
+            "fibre_indices": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "surface_fibres": [
+              [
+                2
+              ],
+              [
+                9,
+                13
+              ],
+              [
+                7,
+                20
+              ],
+              [
+                12,
+                16
+              ]
+            ]
+          }
+        ],
+        "orbit_size": 2
+      }
+    ],
+    "verified": true
+  },
+  "status": "PASS"
+}

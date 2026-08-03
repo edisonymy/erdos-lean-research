@@ -1,0 +1,290 @@
+{
+  "cases": [
+    {
+      "candidate_index": 1,
+      "configuration_cases": [
+        {
+          "configuration_orbit_index": 0,
+          "exceptional_fibres": [
+            [
+              0,
+              11
+            ],
+            [
+              1,
+              18
+            ]
+          ],
+          "orbit_size": 10,
+          "status": "exceptional-fibres-have-extra-parallel-edge"
+        },
+        {
+          "configuration_orbit_index": 1,
+          "exceptional_fibres": [
+            [
+              0,
+              11
+            ],
+            [
+              7,
+              17
+            ]
+          ],
+          "factor_branches": [
+            {
+              "blocks": 268,
+              "clauses": 4885,
+              "elapsed_seconds": 1.5905640125274658,
+              "fibres": 536,
+              "fixed_triangle_obstruction": false,
+              "global_branch_index": 0,
+              "icosahedron_orbit_pair": [
+                0,
+                0
+              ],
+              "learned_k4": 5335,
+              "learned_other": 0,
+              "learned_triangle": 7861,
+              "legitimate_fibre_triangles": 0,
+              "models": 422,
+              "parallel_gate_clauses": 3337,
+              "possible_fibre_triangles": 0,
+              "residual_matching_representative": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  8,
+                  9
+                ],
+                [
+                  10,
+                  19
+                ],
+                [
+                  12,
+                  18
+                ],
+                [
+                  13,
+                  14
+                ],
+                [
+                  15,
+                  16
+                ],
+                [
+                  20,
+                  21
+                ]
+              ],
+              "residual_orbit_index": 0,
+              "residual_orbit_size": 2,
+              "spurious_triangle_clauses": 0,
+              "status": "exhausted",
+              "variables": 784
+            }
+          ],
+          "orbit_size": 10,
+          "residual_matching_count": 13,
+          "residual_matching_orbit_sizes": [
+            2,
+            4,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "stabilizer_size": 4
+        },
+        {
+          "configuration_orbit_index": 2,
+          "exceptional_fibres": [
+            [
+              0,
+              11
+            ],
+            [
+              16,
+              21
+            ]
+          ],
+          "factor_branches": [],
+          "orbit_size": 5,
+          "residual_matching_count": 17,
+          "residual_matching_orbit_sizes": [
+            4,
+            4,
+            1,
+            4,
+            2,
+            1,
+            1
+          ],
+          "stabilizer_size": 8
+        }
+      ],
+      "exceptional_configuration_orbit_sizes": [
+        10,
+        10,
+        5
+      ],
+      "sphere_graph6": "U|fIJCpCG_a@C@C?b?G[@?_[ABGCKGCWCAW@?{?G"
+    }
+  ],
+  "claim_boundary": "Completeness uses the proved m=2 fibre correspondence and independent component automorphisms. Exhausted SAT branches are reproducible but not yet accompanied by proof certificates. A survivor is only a local uniform-type5 graph until separately checked.",
+  "complete": false,
+  "elapsed_seconds": 1.8853423595428467,
+  "executed_factor_branches": 1,
+  "icosahedron_matching_count": 125,
+  "icosahedron_matching_orbit_sizes": [
+    30,
+    60,
+    20,
+    5,
+    10
+  ],
+  "icosahedron_matching_representatives": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        9
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ]
+    ]
+  ],
+  "schema": "erdos151-m2-marked-factor-gluing-search-v1",
+  "script_sha256": "2102ff3ba4cd1b40d2f7749f01d2042c44ca9b7d0eccbe97dcb91788258d3e21",
+  "solver": "cadical195",
+  "survivors": [],
+  "total_canonical_factor_branches": 210
+}
