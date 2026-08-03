@@ -64,9 +64,10 @@ Continue or expand #151 only if at least one of these occurs:
   `beta` violations are few and shrink under CEGAR;
 - a certified exhaustion that removes a substantial fraction of the 29
   conservation profiles, with a credible path to all remaining profiles;
-- a new lemma that acts simultaneously on all four residuals and rules out
-  the current local abstraction, rather than another one-residual or scalar
-  inequality;
+- a new lemma that acts simultaneously on all four residuals and eliminates
+  at least one complete conservation profile or another globally defined
+  family, with a measured reduction in the production search; ruling out one
+  chosen local witness does not qualify;
 - an unconditional replacement for the order-17 catalogue premise; or
 - a genuinely uniform argument that advances every Ramsey jump, rather than
   another isolated finite order.
@@ -139,3 +140,32 @@ and give arrowing-first the remainder of this single production slot.  Do not
 run both production searches concurrently.  This is a reversible scheduler
 change inside the already authorized #151 cycle, not an automatic renewal of
 that cycle and not evidence for the conjecture in either direction.
+
+The arrowing-first run is the **final symmetric bounded experiment** in this
+cycle: stop after 1,500 outer models or two wall-clock hours, whichever comes
+first, and do not restart the original 12-hour clock.  Report fixed model bins
+(first, middle, and final thirds), including the proportions reaching the
+forbidden-clique, arrowing, residual, and global oracles.  A claim that the
+remaining violations are “few and shrinking” requires at least a 25% measured
+improvement from the middle to final bin and a credible proof-producing
+endpoint.  If no model penetrates beyond arrowing-first separation, reallocate
+most effort away from #151 immediately rather than requiring a second warning
+signal.
+
+## Live-cycle outcome: 3 August 2026, 00:02 UTC
+
+The stopping rule fired.  Residual-first was preserved after 1,502 atomic
+commits: 244 forbidden-K5 batches and 1,258 residual batches, with zero global
+or arrowing cuts.  Full replay returned `AUDIT_OK`.  The fresh arrowing-first
+successor then stopped cleanly at its exact 1,500-model limit: 580 forbidden-K5
+batches and 920 arrowing cuts, with zero residual or global cuts.  Its static
+clause stream and full journal replay both verified independently.
+
+Across arrowing-first model bins 1--500, 501--1000, and 1001--1500, the counts
+of models rejected by arrowing were respectively 324, 292, and 304; downstream
+penetration was zero in every bin.  There was no candidate, no UNSAT result,
+and no renewal signal.  The precommitted consequence therefore applies now:
+move most research effort away from #151, retain only the 15--25% maintenance
+option, and do not resume or replace these runs merely because another encoding
+is available.  Exact hashes, audit boundaries, and telemetry are recorded in
+[`ORDER41_K4_PRODUCTION_CHECKPOINT_2026-08-03.md`](ORDER41_K4_PRODUCTION_CHECKPOINT_2026-08-03.md).
