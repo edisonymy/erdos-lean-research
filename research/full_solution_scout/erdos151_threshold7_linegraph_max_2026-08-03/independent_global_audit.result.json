@@ -1,0 +1,335 @@
+{
+  "status": "VERIFIED",
+  "three_vertex_four_regular_roots": [
+    [
+      2,
+      2,
+      2
+    ]
+  ],
+  "doubled_triangle_line_graph_order": 6,
+  "doubled_triangle_line_graph_edges": 15,
+  "doubled_triangle_line_graph_is_K6": true,
+  "odd_density_formula": "2e(S) <= 4|S| <= 5(|S|-1) for odd |S|>=5",
+  "density_table": [
+    {
+      "odd_set_size": 5,
+      "upper_bound": 5.0
+    },
+    {
+      "odd_set_size": 7,
+      "upper_bound": 4.666666666666667
+    },
+    {
+      "odd_set_size": 9,
+      "upper_bound": 4.5
+    },
+    {
+      "odd_set_size": 11,
+      "upper_bound": 4.4
+    },
+    {
+      "odd_set_size": 13,
+      "upper_bound": 4.333333333333333
+    },
+    {
+      "odd_set_size": 15,
+      "upper_bound": 4.285714285714286
+    },
+    {
+      "odd_set_size": 17,
+      "upper_bound": 4.25
+    },
+    {
+      "odd_set_size": 19,
+      "upper_bound": 4.222222222222222
+    },
+    {
+      "odd_set_size": 21,
+      "upper_bound": 4.2
+    },
+    {
+      "odd_set_size": 23,
+      "upper_bound": 4.181818181818182
+    },
+    {
+      "odd_set_size": 25,
+      "upper_bound": 4.166666666666667
+    },
+    {
+      "odd_set_size": 27,
+      "upper_bound": 4.153846153846154
+    },
+    {
+      "odd_set_size": 29,
+      "upper_bound": 4.142857142857143
+    },
+    {
+      "odd_set_size": 31,
+      "upper_bound": 4.133333333333334
+    },
+    {
+      "odd_set_size": 33,
+      "upper_bound": 4.125
+    },
+    {
+      "odd_set_size": 35,
+      "upper_bound": 4.117647058823529
+    },
+    {
+      "odd_set_size": 37,
+      "upper_bound": 4.111111111111111
+    },
+    {
+      "odd_set_size": 39,
+      "upper_bound": 4.105263157894737
+    },
+    {
+      "odd_set_size": 41,
+      "upper_bound": 4.1
+    },
+    {
+      "odd_set_size": 43,
+      "upper_bound": 4.095238095238095
+    },
+    {
+      "odd_set_size": 45,
+      "upper_bound": 4.090909090909091
+    },
+    {
+      "odd_set_size": 47,
+      "upper_bound": 4.086956521739131
+    },
+    {
+      "odd_set_size": 49,
+      "upper_bound": 4.083333333333333
+    },
+    {
+      "odd_set_size": 51,
+      "upper_bound": 4.08
+    },
+    {
+      "odd_set_size": 53,
+      "upper_bound": 4.076923076923077
+    },
+    {
+      "odd_set_size": 55,
+      "upper_bound": 4.074074074074074
+    },
+    {
+      "odd_set_size": 57,
+      "upper_bound": 4.071428571428571
+    },
+    {
+      "odd_set_size": 59,
+      "upper_bound": 4.068965517241379
+    },
+    {
+      "odd_set_size": 61,
+      "upper_bound": 4.066666666666666
+    },
+    {
+      "odd_set_size": 63,
+      "upper_bound": 4.064516129032258
+    },
+    {
+      "odd_set_size": 65,
+      "upper_bound": 4.0625
+    },
+    {
+      "odd_set_size": 67,
+      "upper_bound": 4.0606060606060606
+    },
+    {
+      "odd_set_size": 69,
+      "upper_bound": 4.0588235294117645
+    },
+    {
+      "odd_set_size": 71,
+      "upper_bound": 4.057142857142857
+    },
+    {
+      "odd_set_size": 73,
+      "upper_bound": 4.055555555555555
+    },
+    {
+      "odd_set_size": 75,
+      "upper_bound": 4.054054054054054
+    },
+    {
+      "odd_set_size": 77,
+      "upper_bound": 4.052631578947368
+    },
+    {
+      "odd_set_size": 79,
+      "upper_bound": 4.051282051282051
+    },
+    {
+      "odd_set_size": 81,
+      "upper_bound": 4.05
+    },
+    {
+      "odd_set_size": 83,
+      "upper_bound": 4.048780487804878
+    },
+    {
+      "odd_set_size": 85,
+      "upper_bound": 4.0476190476190474
+    },
+    {
+      "odd_set_size": 87,
+      "upper_bound": 4.046511627906977
+    },
+    {
+      "odd_set_size": 89,
+      "upper_bound": 4.045454545454546
+    },
+    {
+      "odd_set_size": 91,
+      "upper_bound": 4.044444444444444
+    },
+    {
+      "odd_set_size": 93,
+      "upper_bound": 4.043478260869565
+    },
+    {
+      "odd_set_size": 95,
+      "upper_bound": 4.042553191489362
+    },
+    {
+      "odd_set_size": 97,
+      "upper_bound": 4.041666666666667
+    },
+    {
+      "odd_set_size": 99,
+      "upper_bound": 4.040816326530612
+    },
+    {
+      "odd_set_size": 101,
+      "upper_bound": 4.04
+    }
+  ],
+  "k5_triangle_checks": [
+    {
+      "vertices": [
+        0,
+        1,
+        2
+      ],
+      "edge_colors": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        1,
+        3
+      ],
+      "edge_colors": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        1,
+        4
+      ],
+      "edge_colors": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        2,
+        3
+      ],
+      "edge_colors": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        2,
+        4
+      ],
+      "edge_colors": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "vertices": [
+        0,
+        3,
+        4
+      ],
+      "edge_colors": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        2,
+        3
+      ],
+      "edge_colors": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        2,
+        4
+      ],
+      "edge_colors": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        3,
+        4
+      ],
+      "edge_colors": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "vertices": [
+        2,
+        3,
+        4
+      ],
+      "edge_colors": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "proper_pullback_instances_through_order_5": 1080465
+}

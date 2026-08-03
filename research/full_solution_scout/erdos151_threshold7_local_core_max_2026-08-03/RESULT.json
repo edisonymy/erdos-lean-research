@@ -1,0 +1,66 @@
+{
+  "schema": "erdos151-threshold7-local-core-consolidated-result-v1",
+  "date": "2026-08-03",
+  "status": "VERIFIED_THROUGH_ORDER_12",
+  "claim": "No connected graph Q on at most 12 vertices simultaneously has omega(Q)<=4, every edge in at least two triangles, every vertex in at most seven triangles, every link one of K4/bowtie/Djs/dumbbell, and Q arrows (K3,K3).",
+  "order_cap": 12,
+  "primary_pruned_graphs_scanned": 10329398,
+  "independent_full_range_graphs_scanned": 10814685,
+  "local_cores_found": 4,
+  "arrowing_local_cores_found": 0,
+  "survivors": [
+    {
+      "n": 8,
+      "m": 20,
+      "graph6": "GQ~vvg",
+      "link_profile": "B^8",
+      "triangle_count": 16,
+      "exact_chromatic_number": 4,
+      "multigraph_root": "doubled C4",
+      "nonarrowing_verified": true
+    },
+    {
+      "n": 10,
+      "m": 25,
+      "graph6": "IQjUjqm]O",
+      "link_profile": "B^10",
+      "triangle_count": 20,
+      "exact_chromatic_number": 5,
+      "multigraph_root": "doubled C5",
+      "nonarrowing_verified": true
+    },
+    {
+      "n": 12,
+      "m": 30,
+      "graph6": "KCOethkudiLc",
+      "link_profile": "B^12",
+      "triangle_count": 24,
+      "exact_chromatic_number": 4,
+      "multigraph_root": "doubled C6",
+      "nonarrowing_verified": true
+    },
+    {
+      "n": 12,
+      "m": 33,
+      "graph6": "KCOethmuTlLi",
+      "link_profile": "B^6 D^6",
+      "triangle_count": 26,
+      "exact_chromatic_number": 4,
+      "multigraph_root": "two disjoint triangles joined by a doubled perfect matching",
+      "nonarrowing_verified": true
+    }
+  ],
+  "verification": {
+    "primary": "nauty geng plus optimized C++ canonical-link filter",
+    "enumeration_audit": "all degree-5..6 edge ranges plus independent direct-permutation C++ link filter",
+    "survivor_constraints": "NetworkX graph6 parser and exact graph isomorphism",
+    "nonarrowing": "independent CaDiCaL and Z3 models, each checked directly",
+    "line_graph_roots": "Z3 K4-incidence reconstruction and NetworkX multigraph line-graph isomorphism"
+  },
+  "limits": {
+    "general_threshold7_lemma_resolved": false,
+    "erdos151_resolved": false,
+    "orders_at_least_13_checked": false,
+    "line_graph_hypothesis_proved": false
+  }
+}

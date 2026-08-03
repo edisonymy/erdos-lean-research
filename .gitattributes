@@ -62,6 +62,8 @@ research/full_solution_scout/erdos701_pbsat_max_2026-08-03/** -text
 research/full_solution_scout/erdos561_nonuniform_counterexample_max_2026-08-03/** -text
 research/full_solution_scout/erdos561_theory_construction_max_2026-08-03/** -text
 research/full_solution_scout/erdos151_triangle_propertyb_max_2026-08-03/** -text
+research/full_solution_scout/erdos151_threshold7_local_core_max_2026-08-03/** -text
+research/full_solution_scout/erdos151_threshold7_linegraph_max_2026-08-03/** -text
 
 # Reproducible Windows DRAT/LRAT checker build and validation records.
 tools/proof_checkers/windows_drat/** text eol=lf

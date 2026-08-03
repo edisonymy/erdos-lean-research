@@ -1,0 +1,100 @@
+{
+  "schema": "erdos151-triangle-propertyb-threshold7-package-v2",
+  "created_utc": "2026-08-03",
+  "status": {
+    "threshold_six_theorem": "PROVED_AND_INDEPENDENTLY_AUDITED",
+    "threshold_seven_theorem": "PROVED_AND_INDEPENDENTLY_AUDITED",
+    "order_28_seven_regular_profile": "ELIMINATED_CONDITIONAL_ON_AUDITED_CAMPAIGN_INPUTS_BUT_SUPERSEDED_BY_FULL_ORDER28_PROOF",
+    "erdos_151": "OPEN"
+  },
+  "scope": "All-order necessary triangle-count condition for edge-arrowing graphs, supported by independent local checks and proof audits; not a full Erdos #151 solution or categorical priority claim.",
+  "files": [
+    {
+      "path": "CLAIMS.md",
+      "bytes": 6191,
+      "sha256": "9a947a44b9ce259289e2bf0791f8ee614344fc5a49d57f4bbffef496c9b1c691"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 14927,
+      "sha256": "723b53ffdad240cba0aebd8b124f18039f5ee049c556ef799a4fe39472c14bdf",
+      "note": "Audited threshold-six discovery report; its historical threshold-seven frontier is superseded by THRESHOLD7_LINE_GRAPH.md."
+    },
+    {
+      "path": "ROOT-STYLE_AUDIT.md",
+      "bytes": 25750,
+      "sha256": "04ca4a45bf217ee26297dccc45e17b0401dacdfc3d54d75b2db17da36f0f0c22"
+    },
+    {
+      "path": "THRESHOLD7_LINE_GRAPH.md",
+      "bytes": 8656,
+      "sha256": "c32ab69dd5b68c10e7af31423723e53f5178205804627689c7364504533a3531"
+    },
+    {
+      "path": "root_independent_threshold6_audit.py",
+      "bytes": 5218,
+      "sha256": "e0b7c4bbee111fba1628a55cc6eda47f2d7824480fc67758783d3fe6de32f7f9"
+    },
+    {
+      "path": "root_independent_threshold6_audit.result.json",
+      "bytes": 1201,
+      "sha256": "4573ddba2bc2a3054db44a4bbefb5f8c06e8da3797d1b6463c549ad3f75a3fd9"
+    },
+    {
+      "path": "signed_link_obstructions.py",
+      "bytes": 4486,
+      "sha256": "d00bda938f60936aeb2a589143c562564d90fe9c5b28635b9b021a3dca14112e"
+    },
+    {
+      "path": "signed_link_obstructions.result.json",
+      "bytes": 6758,
+      "sha256": "4d7affac81b273f2ff5e1044029ca7cc627692e96c137819ca48927f17a6f4e5"
+    },
+    {
+      "path": "threshold7_local_structure_audit.py",
+      "bytes": 3447,
+      "sha256": "6d4f45f26b8fa77f0863d1c745b0f9fb0a2e2b8bb96b3295a4080c8ccfada84f"
+    },
+    {
+      "path": "threshold7_local_structure_audit.result.json",
+      "bytes": 1742,
+      "sha256": "4bd695fc8e0274800163990d4e0f6b8075bd79454950ba5671dd953be37f1570"
+    }
+  ],
+  "reproduction": {
+    "primary_link_command": "python signed_link_obstructions.py --max-edges 7 --out signed_link_obstructions.result.json",
+    "independent_threshold6_command": "python root_independent_threshold6_audit.py",
+    "threshold7_local_command": "python threshold7_local_structure_audit.py"
+  },
+  "external_sources": [
+    {
+      "citation": "P. Hell and X. Zhu, On the adaptable chromatic number of graphs, European Journal of Combinatorics 29 (2008), 912-921, Theorem 2.1",
+      "doi": "10.1016/j.ejc.2007.11.015"
+    },
+    {
+      "citation": "G. Chen and G. Jing, Structural properties of edge-chromatic critical multigraphs, JCTB 139 (2019), 128-162",
+      "doi": "10.1016/j.jctb.2019.03.004",
+      "use": "Goldberg conjecture for maximum degree at most 39; sufficient for the 4-regular root."
+    },
+    {
+      "citation": "G. Chen, G. Jing, and W. Zang, Proof of the Goldberg-Seymour conjecture on edge-colorings of multigraphs, JCO 50 (2025), article 23",
+      "doi": "10.1007/s10878-025-01348-6",
+      "use": "Full modern theorem; stronger alternative source."
+    },
+    {
+      "citation": "J. Krausz, Demonstration nouvelle d'un theoreme de Whitney sur les reseaux, Mat. Fiz. Lapok 50 (1943), 75-85",
+      "use": "Classical multigraph line-graph clique-cover characterization; the proof also gives the root construction directly."
+    },
+    {
+      "citation": "A. Bikov, Small minimal (3,3)-Ramsey graphs, arXiv:1604.03716",
+      "use": "Adjacent marked-neighbourhood framework and five-vertex local types; not the global threshold-seven closure."
+    }
+  ],
+  "trust_boundary": [
+    "The threshold-seven proof is human-readable and has a separate clean-room mathematical reconstruction.",
+    "Hell-Zhu and the Goldberg edge-colouring theorem are external inputs and are not formalized here.",
+    "The local computations support but do not replace the general proof.",
+    "No independent human peer review, Lean formalization of the theorem, or exhaustive older-language priority search has occurred.",
+    "The full Erdos #151 conjecture remains open."
+  ]
+}

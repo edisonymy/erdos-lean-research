@@ -1,0 +1,57 @@
+{
+  "schema": "erdos151-threshold7-local-core-scan-v1",
+  "status": "COMPLETE",
+  "order_min": 6,
+  "order_max": 12,
+  "geng_path": "C:\\Users\\EDISON~1\\Documents\\MATHFR~1\\TMP~1\\NAUTY-~1\\Library\\bin\\geng.exe",
+  "normalized_graph6_stream_sha256": "4a161c70ecf4e18b529e9f5469bd80a31b20bb85d0b8a3ad414451a2cc5dc8a1",
+  "analytic_preprocessing": "K4 links imply a K5 and are excluded by omega<=4; remaining exact link types force degree 5 or 6; handshake, triangle-incidence, and K4-incidence congruences restrict edge counts",
+  "generated_by_order_and_edges": {
+    "6:15": 1,
+    "7:18": 1,
+    "8:20": 3,
+    "8:21": 6,
+    "8:23": 2,
+    "9:23": 20,
+    "9:24": 68,
+    "9:26": 20,
+    "10:25": 60,
+    "10:26": 720,
+    "10:28": 1407,
+    "11:28": 3749,
+    "11:29": 38156,
+    "11:31": 52970,
+    "12:30": 7848,
+    "12:31": 389858,
+    "12:32": 2589434,
+    "12:33": 4647792,
+    "12:34": 2589434,
+    "12:36": 7849
+  },
+  "generated_by_order": {
+    "6": 1,
+    "7": 1,
+    "8": 11,
+    "9": 108,
+    "10": 2187,
+    "11": 94875,
+    "12": 10232215
+  },
+  "survivors_by_order": {
+    "6": 0,
+    "7": 0,
+    "8": 1,
+    "9": 0,
+    "10": 1,
+    "11": 0,
+    "12": 2
+  },
+  "survivors": [
+    {"n": 8, "m": 20, "graph6": "GQ~vvg", "vertex_types": "BBBBBBBB"},
+    {"n": 10, "m": 25, "graph6": "IQjUjqm]O", "vertex_types": "BBBBBBBBBB"},
+    {"n": 12, "m": 30, "graph6": "KCOethkudiLc", "vertex_types": "BBBBBBBBBBBB"},
+    {"n": 12, "m": 33, "graph6": "KCOethmuTlLi", "vertex_types": "BBBBBBDDDDDD"}
+  ],
+  "survivor_count": 4,
+  "elapsed_seconds": 22.891
+}

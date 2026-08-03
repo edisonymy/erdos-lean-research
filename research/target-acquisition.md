@@ -155,6 +155,13 @@ scouting.  It also records positive renewal signals, rabbit-hole indicators,
 and a default 12-hour/first-global-run reassessment.  Local lemmas alone do
 not renew the siege.
 
+That bounded global cycle later hit its written stopping rule with no
+candidate, exhaustion, or downstream penetration and was not restarted.  A
+subsequent uniform theorem--every graph arrowing `(3,3)` has a vertex in at
+least eight triangles--earns one narrowly scoped non-CEGAR theory follow-up,
+not a renewal of the production search.  Outside target acquisition remains
+mandatory in parallel.
+
 ## Workspace hygiene ledger (2 August)
 
 - `experiments/erdos742/order5_fixed15/LeanCNF/Main.lean` previously

@@ -1,0 +1,60 @@
+{
+  "connected_min_degree_2_graphs_checked": 9,
+  "expected_isomorphism_types": [
+    {
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "m": 6,
+      "n": 4,
+      "name": "K4"
+    },
+    {
+      "degree_sequence": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "m": 6,
+      "n": 5,
+      "name": "bowtie"
+    }
+  ],
+  "geng_path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+  "geng_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+  "geng_stream_sha256": "90409ac7abdce845b6757a8b4790282546bfe427091b3b05b8f0fe57e39d3e0d",
+  "nonuniversally_adaptable": [
+    {
+      "degree_sequence": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "first_bad_signing": 12,
+      "graph6": "C~",
+      "m": 6,
+      "n": 4
+    },
+    {
+      "degree_sequence": [
+        4,
+        2,
+        2,
+        2,
+        2
+      ],
+      "first_bad_signing": 22,
+      "graph6": "DQ{",
+      "m": 6,
+      "n": 5
+    }
+  ],
+  "schema": "erdos151-threshold6-independent-nauty-audit-v1",
+  "status": "VERIFIED"
+}

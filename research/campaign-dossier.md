@@ -700,9 +700,22 @@ of the conjecture rather than resolving it; priority is plausible but still
 requires specialist review because Fu--Luo--Ni v1's withdrawn blanket claim
 creates an unusual attribution boundary.
 
-The live allocation is now one #151 triangle-hypergraph/property-B theorem
-attack, one independent threshold-seven core search, and one fresh
-priority-first target-acquisition lane.  The #151 construction families and
+The #151 triangle-hypergraph/property-B attack has now produced a uniform
+theorem: every graph arrowing `(3,3)` has a vertex in at least eight
+triangles.  A clean-room max-effort proof audit passed; independent local
+enumeration checked all 1,618 labelled link candidates, a separate global
+checker replayed the density and pullback endpoints, and a full-range scan of
+10,814,685 degree-5/6 graphs through order 12 found exactly four nonarrowing
+local cores, all line graphs of loopless 4-regular multigraphs.  Priority
+search found no exact theorem collision while identifying Bikov, Krausz,
+Hell--Zhu, and Chen--Jing/Chen--Jing--Zang as prior sources for the
+ingredients.  This is significant all-order structure, not a full #151
+solution.
+
+The live allocation is one hard, non-CEGAR #151 global-theory probe and one
+fresh priority-first target-acquisition lane outside #151.  The bounded #151
+production search remains stopped under its written exit rule; the local-core
+scan is complete through its order-12 cap; the #151 construction families and
 all larger #561 tuples remain stopped.
 
 No open Erdős problem is claimed solved at this checkpoint.

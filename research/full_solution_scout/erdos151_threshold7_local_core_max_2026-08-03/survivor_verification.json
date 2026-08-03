@@ -1,0 +1,541 @@
+{
+  "status": "VERIFIED",
+  "source_sha256": "521c0336fb8fb684972c1080b8bc465d2bff1f80ff6290b2b8f693060c959801",
+  "method": "NetworkX exact link isomorphism; independent CaDiCaL and Z3 color SAT; direct witness checks",
+  "checks": [
+    {
+      "graph6": "GQ~vvg",
+      "n": 8,
+      "m": 20,
+      "edge_order_for_masks": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "triangle_count": 16,
+      "link_type_counts": {
+        "B": 8
+      },
+      "constraints": {
+        "connected": true,
+        "omega_at_most_4": true,
+        "every_edge_in_at_least_2_triangles": true,
+        "every_vertex_in_at_most_7_triangles": true,
+        "all_links_exact": true,
+        "cadical_found_avoiding_coloring": true,
+        "z3_found_avoiding_coloring": true,
+        "cadical_coloring_directly_checked": true,
+        "z3_coloring_directly_checked": true
+      },
+      "cadical_red_mask": 995427,
+      "z3_red_mask": 108493,
+      "nonarrowing": true
+    },
+    {
+      "graph6": "IQjUjqm]O",
+      "n": 10,
+      "m": 25,
+      "edge_order_for_masks": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "triangle_count": 20,
+      "link_type_counts": {
+        "B": 10
+      },
+      "constraints": {
+        "connected": true,
+        "omega_at_most_4": true,
+        "every_edge_in_at_least_2_triangles": true,
+        "every_vertex_in_at_most_7_triangles": true,
+        "all_links_exact": true,
+        "cadical_found_avoiding_coloring": true,
+        "z3_found_avoiding_coloring": true,
+        "cadical_coloring_directly_checked": true,
+        "z3_coloring_directly_checked": true
+      },
+      "cadical_red_mask": 31114565,
+      "z3_red_mask": 18875440,
+      "nonarrowing": true
+    },
+    {
+      "graph6": "KCOethkudiLc",
+      "n": 12,
+      "m": 30,
+      "edge_order_for_masks": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "triangle_count": 24,
+      "link_type_counts": {
+        "B": 12
+      },
+      "constraints": {
+        "connected": true,
+        "omega_at_most_4": true,
+        "every_edge_in_at_least_2_triangles": true,
+        "every_vertex_in_at_most_7_triangles": true,
+        "all_links_exact": true,
+        "cadical_found_avoiding_coloring": true,
+        "z3_found_avoiding_coloring": true,
+        "cadical_coloring_directly_checked": true,
+        "z3_coloring_directly_checked": true
+      },
+      "cadical_red_mask": 1046875235,
+      "z3_red_mask": 939525153,
+      "nonarrowing": true
+    },
+    {
+      "graph6": "KCOethmuTlLi",
+      "n": 12,
+      "m": 33,
+      "edge_order_for_masks": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "triangle_count": 26,
+      "link_type_counts": {
+        "B": 6,
+        "D": 6
+      },
+      "constraints": {
+        "connected": true,
+        "omega_at_most_4": true,
+        "every_edge_in_at_least_2_triangles": true,
+        "every_vertex_in_at_most_7_triangles": true,
+        "all_links_exact": true,
+        "cadical_found_avoiding_coloring": true,
+        "z3_found_avoiding_coloring": true,
+        "cadical_coloring_directly_checked": true,
+        "z3_coloring_directly_checked": true
+      },
+      "cadical_red_mask": 7891522886,
+      "z3_red_mask": 4589807732,
+      "nonarrowing": true
+    }
+  ],
+  "arrowing_survivors": []
+}

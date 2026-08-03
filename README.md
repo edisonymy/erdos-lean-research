@@ -57,8 +57,12 @@ because the original problem lacked a public Lean statement.
   new sparse Folkman construction.  Two subsequent exact construction audits
   exhausted selected Cayley families and the most concrete 2026 House of
   Graphs Folkman seeds; their best exact `beta` gaps are still 2--16 above the
-  required ceilings.  One narrowly scoped triangle-hypergraph/property-B
-  theorem attack remains live; routine construction expansion is stopped.
+  required ceilings.  A separately audited triangle-hypergraph/property-B
+  theorem now proves that every graph arrowing `(3,3)` has a vertex in at
+  least eight triangles, via adaptable links, a forced Krausz multigraph
+  root, and a Goldberg--Seymour edge-colouring bound.  This is a uniform
+  necessary condition, not a solution of #151.  Routine construction
+  expansion and the bounded global CEGAR siege remain stopped.
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
   without power-of-two cycles, last focused beyond the reported public order-31 frontier.
   An exact SMS/Glasgow computation excludes three documented Carr-structured

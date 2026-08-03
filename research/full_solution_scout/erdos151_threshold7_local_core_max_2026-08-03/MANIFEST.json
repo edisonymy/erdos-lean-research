@@ -1,0 +1,99 @@
+{
+  "schema": "erdos151-threshold7-local-core-manifest-v1",
+  "created_date": "2026-08-03",
+  "claim_scope": "exhaustive computational nonexistence of an arrowing threshold-7 local core through order 12 only",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 5629,
+      "sha256": "ea4fe4ae67f2b91b255c401e0cdd54448352b4bb71e76ca17d17078b7b130aad"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 2228,
+      "sha256": "32615840a0b2ca6809e8bce017e3ee74b3820c0d80fa8b509d6eeaea313b9485"
+    },
+    {
+      "path": "scan_local_cores.cpp",
+      "bytes": 14361,
+      "sha256": "b30b7b217a51278a3346ad89ffa281bee7366722d61a457f69c9888612daa74a"
+    },
+    {
+      "path": "scan_local_cores.exe",
+      "bytes": 321024,
+      "sha256": "19f16934239182416509a5aa01f062d87057e9674fa1032c688c76fd51162f47"
+    },
+    {
+      "path": "scan_local_cores.obj",
+      "bytes": 727747,
+      "sha256": "1e7d890def29bf063f2978b503c5040eac1be6c1ba4cdf4cd20e9436a0c279fb",
+      "note": "reproducible compiler intermediate"
+    },
+    {
+      "path": "scan_through_11.json",
+      "bytes": 1247,
+      "sha256": "747f9c6fd1b59b559a2ede07877bdbe80068602ab5252954f29704f01f76e747",
+      "note": "preserved pre-cap smoke run"
+    },
+    {
+      "path": "scan_through_12.json",
+      "bytes": 1570,
+      "sha256": "521c0336fb8fb684972c1080b8bc465d2bff1f80ff6290b2b8f693060c959801"
+    },
+    {
+      "path": "audit_full_range.cpp",
+      "bytes": 9367,
+      "sha256": "efe3ec9da29ab20ec6a91aa96024cc15399724bc2d7b11308f4f4f4bb46d98fd"
+    },
+    {
+      "path": "audit_full_range.exe",
+      "bytes": 314880,
+      "sha256": "5a1e3ca2755b32c3b4667fff4687f86e8c756829effa437e9a0082e53a79d20d"
+    },
+    {
+      "path": "audit_full_range.obj",
+      "bytes": 650299,
+      "sha256": "336e7ded80a7a9d9f8ec0d15449d57182345590376d01acb938db659a8a51736",
+      "note": "reproducible compiler intermediate"
+    },
+    {
+      "path": "audit_full_range.json",
+      "bytes": 1552,
+      "sha256": "debdf174af3151d6f8e95f3d6e12d7789e884348b4e7fbfb706064176c6f2f27"
+    },
+    {
+      "path": "crosscheck_enumerations.py",
+      "bytes": 2489,
+      "sha256": "36d74fb3fc061b22195a741a045cda4b82a90246279fdb6722fbadfda2431afa"
+    },
+    {
+      "path": "enumeration_crosscheck.json",
+      "bytes": 945,
+      "sha256": "e01baa29e9d620e54ef762b51e7bb9c1ab8b79fb1b5c6a7e3287c161011f1039"
+    },
+    {
+      "path": "verify_survivors.py",
+      "bytes": 6335,
+      "sha256": "811f39d4931190c343fcb0f26d49d7978a8fa5ae90f4e4b450b4901d1967aab1"
+    },
+    {
+      "path": "survivor_verification.json",
+      "bytes": 8638,
+      "sha256": "6fb6929126a48e8e6245bbdc55a1d4906e98ab1726be3384c1f9fb564eb07270"
+    },
+    {
+      "path": "analyze_line_graph_roots.py",
+      "bytes": 6692,
+      "sha256": "ef357281e028cd369741fc6ddce7d5fbea97723dc5f470c19c3dccba14101cd5"
+    },
+    {
+      "path": "line_graph_root_analysis.json",
+      "bytes": 9970,
+      "sha256": "cec058a5f7426cb8428af228b23d3c116f4816887bd733499b32530a1e0c88bb"
+    }
+  ],
+  "external_executable": {
+    "path": ".tmp/nauty-env/Library/bin/geng.exe",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  }
+}

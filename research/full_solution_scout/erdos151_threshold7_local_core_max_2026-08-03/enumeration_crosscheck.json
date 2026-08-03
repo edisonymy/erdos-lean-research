@@ -1,0 +1,37 @@
+{
+  "status": "VERIFIED",
+  "primary_sha256": "521c0336fb8fb684972c1080b8bc465d2bff1f80ff6290b2b8f693060c959801",
+  "audit_sha256": "debdf174af3151d6f8e95f3d6e12d7789e884348b4e7fbfb706064176c6f2f27",
+  "geng_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+  "primary_pruned_graphs": 10329398,
+  "independent_full_range_graphs": 10814685,
+  "survivor_sets_equal": true,
+  "survivors": [
+    [
+      8,
+      20,
+      "GQ~vvg",
+      "BBBBBBBB"
+    ],
+    [
+      10,
+      25,
+      "IQjUjqm]O",
+      "BBBBBBBBBB"
+    ],
+    [
+      12,
+      30,
+      "KCOethkudiLc",
+      "BBBBBBBBBBBB"
+    ],
+    [
+      12,
+      33,
+      "KCOethmuTlLi",
+      "BBBBBBDDDDDD"
+    ]
+  ],
+  "included_pair_count_failures": {},
+  "interpretation": "the full-range audit scanned every connected degree-5..6 graph through order 12 and independently found exactly the four primary survivors"
+}

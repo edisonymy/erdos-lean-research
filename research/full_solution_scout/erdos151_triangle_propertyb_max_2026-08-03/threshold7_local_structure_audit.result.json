@@ -1,0 +1,107 @@
+{
+  "D_adjacent_true_twins": [],
+  "checks": {
+    "B_and_J_each_have_two_triangles_covering_all_vertices": true,
+    "D_degree3_neighbourhood_is_P3": true,
+    "D_has_no_adjacent_true_twins": true,
+    "J_degree3_neighbourhood_is_K2_plus_isolate": true
+  },
+  "scope": "local graph identities used in the D-link elimination and Krausz-cover step",
+  "status": "VERIFIED",
+  "types": {
+    "B": {
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "degree_three_neighbour_shapes": [],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ]
+    },
+    "D": {
+      "degree_sequence": [
+        2,
+        2,
+        3,
+        3,
+        4
+      ],
+      "degree_three_neighbour_shapes": [
+        {
+          "connected": true,
+          "edges": 2,
+          "vertex": 3
+        },
+        {
+          "connected": true,
+          "edges": 2,
+          "vertex": 4
+        }
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    "J": {
+      "degree_sequence": [
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "degree_three_neighbour_shapes": [
+        {
+          "connected": false,
+          "edges": 1,
+          "vertex": 2
+        },
+        {
+          "connected": false,
+          "edges": 1,
+          "vertex": 3
+        }
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  }
+}

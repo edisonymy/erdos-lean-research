@@ -1,0 +1,53 @@
+{
+  "package": "erdos151_threshold7_linegraph_max_2026-08-03",
+  "date": "2026-08-03",
+  "status": "VERIFIED",
+  "claim": "Every finite simple graph with at most seven triangles through each vertex has a red/blue edge-colouring with no monochromatic triangle.",
+  "scope_boundary": "Structural partial result for Erdos #151; not a full solution and no priority claim.",
+  "files": [
+    {
+      "path": "CLAIMS.md",
+      "bytes": 2171,
+      "sha256": "f3010df1969c5e1b32d89d70fbc27cd9e45ce5e02eae454762385268284bc2b5"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 14973,
+      "sha256": "82bdeca97838d62d9c8ede17018966ebfba593963962f53edae14926ee46184a"
+    },
+    {
+      "path": "independent_global_audit.py",
+      "bytes": 4276,
+      "sha256": "040cc3300dc3a88a36060123e86e7cb66c09361deab17722f2739a734c91779b"
+    },
+    {
+      "path": "independent_global_audit.result.json",
+      "bytes": 5802,
+      "sha256": "e8561465f88bb023540989768519c174a1b1a3aa3f52f2db53addcce5995a6f8"
+    },
+    {
+      "path": "independent_local_audit.py",
+      "bytes": 9089,
+      "sha256": "1c6076388b2f64a805ddf5a88a7372112dbce43c32fcb6324a668a4062b04e36"
+    },
+    {
+      "path": "independent_local_audit.result.json",
+      "bytes": 4113,
+      "sha256": "f1101a95dd9b429227cc42b560e6551c246085fe87431c39a41ebfccfd816df1"
+    }
+  ],
+  "reproduction": [
+    "python independent_local_audit.py",
+    "python independent_global_audit.py"
+  ],
+  "external_theorems": [
+    {
+      "name": "Hell-Zhu adaptable 2-colouring characterization",
+      "doi": "10.1016/j.ejc.2007.11.015"
+    },
+    {
+      "name": "Goldberg-Seymour chromatic-index theorem",
+      "doi": "10.1007/s10878-025-01348-6"
+    }
+  ]
+}

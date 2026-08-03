@@ -28,6 +28,18 @@ the `K4`-free order-40/41 lane is closed for #151.  If `R(3,10)=40`, the
 unrestricted order-40 clique-number-four and clique-number-five cases also
 remain.  The full problem and all later Ramsey jumps remain open.
 
+A separate all-order structural theorem now proves that every graph arrowing
+`(3,3)` has a vertex contained in at least eight triangles.  Its proof
+classifies signed links through seven edges, eliminates one residual link
+type by a true-twin argument, realizes the remaining minimal core as the line
+graph of a loopless 4-regular multigraph, and applies the small-degree
+Goldberg theorem.  The discovery proof, source/priority audit, definition-
+level checkers, and a clean-room proof reconstruction are in the
+[`discovery package`](../full_solution_scout/erdos151_triangle_propertyb_max_2026-08-03/THRESHOLD7_LINE_GRAPH.md)
+and [`independent audit package`](../full_solution_scout/erdos151_threshold7_linegraph_max_2026-08-03/REPORT.md).
+This uniform necessary condition does not settle the surviving finite
+frontier or the full conjecture.
+
 For a graph `G`, let `tau(G)` be the minimum number of vertices meeting every
 inclusion-maximal clique of size at least two.  Let `H(n)` be the minimum
 independence number among triangle-free graphs on `n` vertices.  The open
@@ -119,6 +131,11 @@ independent structural result.
   Its sole external premise is completeness of the pinned seven-record Ramsey
   `(3,6;17)` catalogue; the row proofs, finite guards, failed first overlap
   audit, repair, and post-repair audits are retained beside it.
+- The threshold-seven discovery and independent-audit packages linked above
+  record the uniform eight-triangle necessary condition.  A companion
+  full-range scan of 10,814,685 connected degree-5/6 graphs through order 12
+  found exactly four local cores, all nonarrowing and all consistent with the
+  proved multigraph-root structure.
 - [`ALLOCATION_CHECKPOINT.md`](ALLOCATION_CHECKPOINT.md) records the explicit
   evidence-based rule for continuing or reducing the #151 siege after the
   first genuinely global `omega=4` run.
