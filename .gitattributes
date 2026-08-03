@@ -42,3 +42,15 @@ research/erdos151/general/ORDER41_K5_EXCLUSION_FINAL_AUDIT.md whitespace=-traili
 
 # The bounded #719 reserve probe has a byte-level replay manifest.
 research/full_solution_scout/triage-2026-08-02/erdos719_exact61_audit/** text eol=lf
+
+# Independent #719 candidate screening records byte-level checker hashes.
+research/full_solution_scout/fable_long_horizon_2026-08-03/codex_verify719_strict*.py text eol=lf
+research/full_solution_scout/fable_long_horizon_2026-08-03/CODEX_VERIFY719_STRICT_READINESS.md text eol=lf
+
+# Reproducible Windows DRAT/LRAT checker build and validation records.
+tools/proof_checkers/windows_drat/** text eol=lf
+tools/proof_checkers/windows_drat/bin/*.exe binary -eol
+tools/proof_checkers/windows_drat/bin/*.obj binary -eol
+tools/proof_checkers/windows_drat/build-manifest.json binary -eol
+tools/proof_checkers/windows_drat/validation-manifest.json binary -eol
+tools/proof_checkers/windows_drat/test-output/** binary -eol

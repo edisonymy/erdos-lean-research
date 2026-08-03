@@ -1,0 +1,32 @@
+﻿{
+    "artifact":  "windows_drat_trim_example_validation",
+    "status":  "VALIDATED",
+    "commands":  [
+                     "\u0026 \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\drat-trim.exe\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\examples\\example-5-vars.cnf\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\examples\\example-5-vars.drat\" -L \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\test-output\\example-5-vars.generated.lrat\"",
+                     "\u0026 \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\lrat-check.exe\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\examples\\example-5-vars.cnf\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\test-output\\example-5-vars.generated.lrat\"",
+                     "\u0026 \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\lrat-check.exe\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\examples\\example-5-vars.cnf\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\examples\\example-5-vars.lrat\""
+                 ],
+    "success_boundary":  {
+                             "drat_trim":  "exit code 0 and output line s VERIFIED",
+                             "generated_lrat_check":  "exit code 0 and output line c VERIFIED",
+                             "upstream_lrat_check":  "exit code 0 and output line c VERIFIED",
+                             "scope":  "certifies the checked DIMACS/proof pair only, not any high-level encoding claim"
+                         },
+    "inputs":  {
+                   "third_party/drat-trim/examples/example-5-vars.cnf":  "5b1b9e3d934ba0d12e25c81744d0d023fcf19739eeb1f443780b9b90e6a7bb92",
+                   "third_party/drat-trim/examples/example-5-vars.drat":  "be4405efbe7c22d6718a127e404bc37f004952c6b3a68b1c336f23f6f74c320c",
+                   "third_party/drat-trim/examples/example-5-vars.lrat":  "c2ea3c3acd33f5ce476b54685d3101b29528b35925fc17b7d462f1d0df7f4e1c"
+               },
+    "binaries":  {
+                     "bin/drat-trim.exe":  "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc",
+                     "bin/lrat-check.exe":  "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+                 },
+    "outputs":  {
+                    "test-output/example-5-vars.generated.lrat":  "c2ea3c3acd33f5ce476b54685d3101b29528b35925fc17b7d462f1d0df7f4e1c",
+                    "test-output/drat-trim.log":  "4ae1d61c9d59fc065e4481cba8237701874d588b1055e597abb3582a680ac56b",
+                    "test-output/lrat-check.generated.log":  "7931102951b7481ed052985020eb29e1e96f2f98bc052402895585167ce89f4f",
+                    "test-output/lrat-check.upstream.log":  "7931102951b7481ed052985020eb29e1e96f2f98bc052402895585167ce89f4f"
+                },
+    "build_manifest_sha256":  "503d76f38112fa38639c362316e30021cad245a674c2257b1fe5df6132a14095",
+    "validator_script_sha256":  "cafabb66d085ca41317f929045d90e3b2c1149f6f6b33f44d4ccf4e885dbd599"
+}

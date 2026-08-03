@@ -1,0 +1,21 @@
+﻿{
+    "artifact":  "windows_drat_trim_build",
+    "status":  "BUILT_NOT_YET_VALIDATED",
+    "architecture":  "x64",
+    "compiler_banner":  "Microsoft (R) C/C++ Optimizing Compiler Version 19.35.32216.1 for x64",
+    "pinned_source_git_revision":  "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "commands":  [
+                     "call \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat\" -arch=x64 -host_arch=x64 \u0026\u0026 cl.exe /nologo /O2 /W4 /TC /D_CRT_SECURE_NO_WARNINGS /I \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\compat_include\" /Fo:\"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\drat-trim.obj\" /Fe:\"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\drat-trim.exe\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\drat-trim.c\"",
+                     "call \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\Tools\\VsDevCmd.bat\" -arch=x64 -host_arch=x64 \u0026\u0026 cl.exe /nologo /O2 /W4 /TC /D_CRT_SECURE_NO_WARNINGS /I \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\compat_include\" /Fo:\"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\lrat-check.obj\" /Fe:\"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\tools\\proof_checkers\\windows_drat\\bin\\lrat-check.exe\" \"C:\\Users\\Edison Yi\\Documents\\Math Frontier\\third_party\\drat-trim\\lrat-check.c\""
+                 ],
+    "sources":  {
+                    "third_party/drat-trim/drat-trim.c":  "78026871882de3f2fee66034e549e9c1a0a9a5291abd817d06f611f9ba0f355d",
+                    "third_party/drat-trim/lrat-check.c":  "6283834a55a39b2b879ee18e7542ad3e969eba564eee5e4ec28cdf39d68a95d0",
+                    "compat_include/sys/time.h":  "4ff9a9e1045d51c3e0669c7ab42c78904dbf962c3937c257a81aa958379337a9",
+                    "build.ps1":  "ae488185c7ba43de2bbacd1be9ad94fafbe7d8f5c1cf546a479bd4bb9b468d47"
+                },
+    "binaries":  {
+                     "bin/drat-trim.exe":  "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc",
+                     "bin/lrat-check.exe":  "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+                 }
+}
