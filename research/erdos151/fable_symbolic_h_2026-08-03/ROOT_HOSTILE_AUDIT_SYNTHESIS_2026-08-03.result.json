@@ -1,0 +1,41 @@
+{
+  "audit_date": "2026-08-03",
+  "overall_status": "MIXED_WITH_MATERIAL_CORRECTIONS",
+  "full_erdos_151_solution": false,
+  "verdicts": {
+    "X1": "PASS",
+    "TCG": "PASS_WITH_CONSEQUENCE_CORRECTIONS",
+    "A1": "PASS_WITH_TMAX_ZERO_BOUNDARY",
+    "A1_1": "PASS_WITH_RAMSEY_COEFFICIENT_NOTATION_REPAIR",
+    "A4_1": "PASS_NONEMPTY_PURE3_ONLY",
+    "M1": "PASS_WITH_PROOF_REPAIR",
+    "V1": "PASS",
+    "R1_novelty": "FAIL_PRIOR_PUBLIC_DISCLOSURE",
+    "Program_Alpha_full_151_scope": "FAIL_MAXIMAL_EDGE_GAP",
+    "anchor_9_or_10_class_claims": "FAIL",
+    "anchor_repaired_13_class_upper_bound": "PASS_INDEPENDENT_CHECKER",
+    "Glauber_fractional_cover_claim": "FAIL_AS_CERTIFICATE",
+    "MT_budget_failures_as_lower_bounds": "FAIL",
+    "F_e_50_implication": "PASS"
+  },
+  "corrected_source_sha256": {
+    "PROGRAM_ALPHA.md": "2193bd5264b62cf7c09c8555fd6e9085c63c3b6b84d7e0ccfb6dc8a2ffffcf2a",
+    "RESEARCH_LOG.md": "500138af6eee26ef86daa79680222188a4c812c32d0f9bcedb00e1928f237f5e",
+    "anchor_pin.py": "c0370adfa575def197a15cddaa113726e7fabca3f891efc8d98dd961d2abf823",
+    "mt_threshold.py": "7175e16fb6306066182027f91e7fa04768a37eda23f2e4cb9b714d96d17629a0",
+    "glauber_tf.py": "34644d4466c34f8f5399a8b8c3a73c50ec9bdb284581dfffc4168d9e62a3ab64",
+    "verify_anchor_partition.py": "6fb38dca4880383927981133830b6df2abc36a31dd7cd90c4de7f2e14af7bf7d"
+  },
+  "repaired_anchor": {
+    "class_count": 13,
+    "C_upper": 0.421,
+    "partition_sha256": "dea58642de11417b7326ece39ab8150c88776ac6f88d6c21f4b5b98fd0d45155",
+    "checker_result_sha256": "8ed13b90db1c020a701d336eafd92532db04bb6655e98fc01ffe496f9c971619",
+    "status": "PASS"
+  },
+  "supporting_packets": [
+    "FABLE_X1_TCG_A4_M1_V1_HOSTILE_AUDIT_2026-08-03.md",
+    "audit_lll_fractional_max_2026-08-03/AUDIT_REPORT.md",
+    "audit_sources_data_2026-08-03/AUDIT_REPORT.md"
+  ]
+}

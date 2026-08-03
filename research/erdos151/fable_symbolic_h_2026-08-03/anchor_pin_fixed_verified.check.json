@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "source": "research/erdos151/fable_symbolic_h_2026-08-03/anchor_pin_fixed_verified.json",
+  "source_sha256": "dea58642de11417b7326ece39ab8150c88776ac6f88d6c21f4b5b98fd0d45155",
+  "checker_sha256": "6fb38dca4880383927981133830b6df2abc36a31dd7cd90c4de7f2e14af7bf7d",
+  "class_count": 13,
+  "classes_pairwise_disjoint": true,
+  "covers_all_785_vertices": true,
+  "each_class_triangle_free": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ]
+}

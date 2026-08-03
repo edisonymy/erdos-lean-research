@@ -1,0 +1,13 @@
+{
+ "family": "L(785,53)",
+ "tf_lower": 156,
+ "chi_tf_bracket": [
+  6,
+  9
+ ],
+ "C_bracket": [
+  0.194,
+  0.291
+ ],
+ "elapsed_s": 353.5
+}

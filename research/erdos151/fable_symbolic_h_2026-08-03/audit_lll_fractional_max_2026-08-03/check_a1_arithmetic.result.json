@@ -1,0 +1,27 @@
+{
+  "a1": {
+    "published_k_argmax_t": 999531,
+    "published_k_max_lll_ratio": 0.9992986687666288,
+    "scan_t_max_inclusive": 1000000,
+    "without_redundant_plus_one_argmax_t": 997432,
+    "without_redundant_plus_one_max_lll_ratio": 0.9999993122130566
+  },
+  "constants": {
+    "forced_coefficient_at_ramsey_half": 0.030656620097620192,
+    "one_over_3e": 0.12262648039048077,
+    "program_rounded_coefficient": 0.030563841752652948,
+    "sqrt_3e": 2.8556690083721423
+  },
+  "finite_inversion_cases": 1988,
+  "fractional_averaging": {
+    "seed": 151,
+    "trials": 2000
+  },
+  "scope": "finite arithmetic corroboration of A1/A1.1 and A4.1 scaling",
+  "source_sha256": {
+    "PROGRAM_ALPHA.md": "6442504b1b41bc9fd5ba14c9b225bec49e75ff84f27c138223434fd7ea3d3406",
+    "RESEARCH_LOG.md": "cffb3122af03a21a00f5fa6156f7882584ae0a4cd40b2fab121fe64ed214bc34",
+    "check_a1_arithmetic.py": "8bcf6495356c2cf8c5621b18764cee0373e8c1f627f7270df452749e714bbc35"
+  },
+  "status": "PASS"
+}

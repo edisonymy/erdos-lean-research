@@ -1,0 +1,43 @@
+{
+  "audit_date": "2026-08-03",
+  "scope": "Fable audit request items 6 and 7",
+  "overall_status": "FAIL_WITH_MATERIAL_CORRECTIONS",
+  "item6": {
+    "HHKP_Ramsey_bound": "PASS_WITH_LIMIT_CONSTANT_QUALIFICATION",
+    "MSV_Erdos_Rogers_order": "PASS",
+    "JMRS_clique_chromatic_theorem": "PASS",
+    "JMRS_leading_coefficient_tightness_claim": "UNSUPPORTED",
+    "R1_order_statement": "PASS_BUT_PRIOR_PUBLIC_DISCLOSURE",
+    "R1_novelty": "FAIL",
+    "H_constant_as_single_limit": "NOT_PROVED",
+    "R2_prime_genuine_clique_coloring": "PASS_CONDITIONAL",
+    "Program_Alpha_chi_tf_full_151_scope": "FAIL_SCOPE_GAP_MAXIMAL_EDGES",
+    "pure3_liminf_equivalence": "OVERSTATED",
+    "Fe_50_implication": "PASS",
+    "current_Fe_bounds": "21 <= F_e(3,3;4) <= 786"
+  },
+  "item7": {
+    "chitf_landscape_algorithm_direction": "PASS_UPPER_BOUND_ONLY",
+    "chitf_landscape_arithmetic": "PASS_8_OF_8",
+    "below_half_everywhere_claim": "FAIL_4_OF_8_ARE_NOT_BELOW_HALF",
+    "anchor_pin_k10": "FAIL_INVALID_PARTITION_3227_MONOCHROMATIC_TRIANGLES",
+    "anchor_pin2_k9": "UNVERIFIABLE_NO_SCRIPT_OR_PARTITION_ARTIFACT",
+    "anchor_chi_tf_lower_bounds": "FAIL_REVERSED_INEQUALITY",
+    "mt_convergence": "INSTANCE_SPECIFIC_UPPER_BOUND_EVIDENCE",
+    "mt_budget_failure": "NO_LOWER_BOUND",
+    "glauber_stationarity": "UNVERIFIED",
+    "glauber_mean_to_fractional_cover": "INVALID_FOR_NONTRANSITIVE_GRAPHS",
+    "earlier_tf_found_dead_filter": "PASS_SOUND_DIRECTION"
+  },
+  "priority": {
+    "collision": "A note on the clique-transversal number, public PDF dated 2026-04-21",
+    "effect": "No novelty or priority claim is available for min beta = Theta(sqrt(n log n)) or the one-line JMRS reduction.",
+    "remaining_novelty": "Unknown; restricted constant refinements require a separate comprehensive prior-art review."
+  },
+  "machine_evidence": {
+    "checker": "audit_data_semantics.py",
+    "checker_sha256": "9820033febb395ae1bb4fe3b851e28cf404b2d993024ec990f33f686b7c8007a",
+    "result": "audit_data_semantics.result.json",
+    "result_sha256": "203b287e302cdb818be5cf68690570bc18f23f68dc930ba3fc83f37b92b2c22a"
+  }
+}

@@ -1,0 +1,15 @@
+{"inst": "L785", "n": 785, "Delta": 156, "lambda": 0.5, "density": 0.132, "implied_frac_cover": 7.57, "implied_C": 0.245, "t": 1.4}
+{"inst": "L785", "n": 785, "Delta": 156, "lambda": 1.0, "density": 0.1996, "implied_frac_cover": 5.01, "implied_C": 0.162, "t": 2.2}
+{"inst": "L785", "n": 785, "Delta": 156, "lambda": 2.0, "density": 0.2663, "implied_frac_cover": 3.76, "implied_C": 0.122, "t": 3.1}
+{"inst": "L785", "n": 785, "Delta": 156, "lambda": 4.0, "density": 0.3203, "implied_frac_cover": 3.12, "implied_C": 0.101, "t": 3.9}
+{"inst": "L785", "n": 785, "Delta": 156, "lambda": 8.0, "density": 0.355, "implied_frac_cover": 2.82, "implied_C": 0.091, "t": 4.6}
+{"inst": "proc800", "n": 800, "Delta": 47, "lambda": 0.5, "density": 0.1561, "implied_frac_cover": 6.41, "implied_C": 0.525, "t": 5.2}
+{"inst": "proc800", "n": 800, "Delta": 47, "lambda": 1.0, "density": 0.1901, "implied_frac_cover": 5.26, "implied_C": 0.431, "t": 5.9}
+{"inst": "proc800", "n": 800, "Delta": 47, "lambda": 2.0, "density": 0.2197, "implied_frac_cover": 4.55, "implied_C": 0.373, "t": 6.6}
+{"inst": "proc800", "n": 800, "Delta": 47, "lambda": 4.0, "density": 0.2501, "implied_frac_cover": 4.0, "implied_C": 0.327, "t": 7.3}
+{"inst": "proc800", "n": 800, "Delta": 47, "lambda": 8.0, "density": 0.2735, "implied_frac_cover": 3.66, "implied_C": 0.3, "t": 8.0}
+{"inst": "cbu300", "n": 300, "Delta": 78, "lambda": 0.5, "density": 0.2059, "implied_frac_cover": 4.86, "implied_C": 0.271, "t": 8.5}
+{"inst": "cbu300", "n": 300, "Delta": 78, "lambda": 1.0, "density": 0.3086, "implied_frac_cover": 3.24, "implied_C": 0.181, "t": 9.1}
+{"inst": "cbu300", "n": 300, "Delta": 78, "lambda": 2.0, "density": 0.3984, "implied_frac_cover": 2.51, "implied_C": 0.14, "t": 9.9}
+{"inst": "cbu300", "n": 300, "Delta": 78, "lambda": 4.0, "density": 0.4744, "implied_frac_cover": 2.11, "implied_C": 0.118, "t": 10.6}
+{"inst": "cbu300", "n": 300, "Delta": 78, "lambda": 8.0, "density": 0.5286, "implied_frac_cover": 1.89, "implied_C": 0.106, "t": 11.2}

@@ -1,0 +1,11 @@
+{
+ "family": "L(785,53)",
+ "n": 785,
+ "Delta": 156,
+ "chi_tf_upper": 10,
+ "C_upper": 0.324,
+ "tf_lower": 106,
+ "chi_tf_lower": 8,
+ "C_lower": 0.259,
+ "elapsed_s": 14.5
+}

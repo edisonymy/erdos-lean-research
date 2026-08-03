@@ -1,0 +1,19 @@
+{
+  "audit_date": "2026-08-03",
+  "overall_status": "PASS_WITH_SCOPE_CORRECTION",
+  "sha256": {
+    "AUDIT_REPORT.md": "73cc393fa86f36a8fe4f41a36cf279f9ec49cbf1ed87321654f39039f2085d02",
+    "PROGRAM_ALPHA.md": "6442504b1b41bc9fd5ba14c9b225bec49e75ff84f27c138223434fd7ea3d3406",
+    "RESEARCH_LOG.md": "cffb3122af03a21a00f5fa6156f7882584ae0a4cd40b2fab121fe64ed214bc34",
+    "check_a1_arithmetic.py": "8bcf6495356c2cf8c5621b18764cee0373e8c1f627f7270df452749e714bbc35",
+    "check_a1_arithmetic.result.json": "6b0370d7bba9907deeec5f6620780cb4cb67ebfa004deccab4349425cbf03cb5"
+  },
+  "verdicts": {
+    "A1": "PASS",
+    "A1.1": "PASS_WITH_NOTATION_REPAIR",
+    "A4.1": "PASS",
+    "master_inequality_implication": "PASS_PURE3_ONLY",
+    "R2_prime": "PASS_WITH_NOTATION_REPAIR",
+    "triangle_free_cover_resolves_full_151": "FAIL_AS_STATED"
+  }
+}

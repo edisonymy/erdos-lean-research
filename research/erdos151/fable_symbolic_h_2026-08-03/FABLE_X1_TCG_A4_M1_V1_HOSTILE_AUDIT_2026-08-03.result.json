@@ -1,0 +1,46 @@
+{
+  "schema": "erdos151.hostile-math-audit.v1",
+  "audited_at": "2026-08-03",
+  "scope": [
+    "X1",
+    "TCG",
+    "TCG finite and asymptotic consequences",
+    "A4.1",
+    "M1",
+    "V1"
+  ],
+  "inputs": {
+    "RESEARCH_LOG.md": "cffb3122af03a21a00f5fa6156f7882584ae0a4cd40b2fab121fe64ed214bc34",
+    "PROGRAM_ALPHA.md": "6442504b1b41bc9fd5ba14c9b225bec49e75ff84f27c138223434fd7ea3d3406",
+    "small_ramsey_numbers_revision_18_pdf": "9519a676ee381f02f03269c22e3f101162b2fdcc9d432e4103cb1192fdff91bc"
+  },
+  "report": {
+    "path": "FABLE_X1_TCG_A4_M1_V1_HOSTILE_AUDIT_2026-08-03.md",
+    "sha256": "38b812284160c5fc9600e927917335a53621773a06b53782733473022aa59c2e"
+  },
+  "verdicts": {
+    "X1": "PASS",
+    "TCG_theorem": "PASS",
+    "TCG_order_50_H_11": "PASS",
+    "TCG_order_59_H_12": "PASS",
+    "TCG_order_87_H_15_unconditional_for_erdos151": "FAIL",
+    "TCG_order_98_H_16_unconditional_for_erdos151": "FAIL",
+    "TCG_eventual_tail": "FAIL",
+    "stronger_chromatic_bound_closes_h13": "PASS_CONDITIONAL_ON_CITED_CHROMATIC_THEOREM",
+    "stronger_chromatic_bound_closes_h14": "FAIL",
+    "A4_1_nonempty_finite_graph": "PASS",
+    "A4_1_empty_graph_as_written": "UNDEFINED_BOUNDARY",
+    "M1_conclusions": "PASS",
+    "M1_proof_as_written": "GAP_REPAIRED_IN_REPORT",
+    "V1": "PASS"
+  },
+  "ramsey_revision_18": [
+    {"h": 11, "q": 9, "B": 45, "R_lower": 47, "R_upper": 50, "layer_excluded": true},
+    {"h": 12, "q": 9, "B": 49, "R_lower": 53, "R_upper": 59, "layer_excluded": true},
+    {"h": 13, "q": 12, "B": 72, "R_lower": 61, "R_upper": 68, "layer_excluded": false, "outer_strip": [61, 72]},
+    {"h": 14, "q": 12, "B": 78, "R_lower": 67, "R_upper": 77, "layer_excluded": false, "outer_strip": [67, 78]},
+    {"h": 15, "q": 12, "B": 84, "R_lower": 74, "R_upper": 87, "layer_excluded": false, "outer_strip": [74, 84]},
+    {"h": 16, "q": 12, "B": 90, "R_lower": 82, "R_upper": 97, "layer_excluded": false, "outer_strip": [82, 90]}
+  ],
+  "claim_boundary": "No complete resolution of Erdos problem 151 is established by these items."
+}

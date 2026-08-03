@@ -1,0 +1,8 @@
+{"n": 200, "seed": 1, "Delta": 22, "edges": 1986, "t_max": 30, "k_greedy": 4, "C_emp": 0.562, "k_A1": 17, "beta_floor_from_k": 50}
+{"n": 200, "seed": 2, "Delta": 22, "edges": 1973, "t_max": 34, "k_greedy": 4, "C_emp": 0.562, "k_A1": 18, "beta_floor_from_k": 50}
+{"n": 400, "seed": 1, "Delta": 32, "edges": 5928, "t_max": 51, "k_greedy": 5, "C_emp": 0.542, "k_A1": 22, "beta_floor_from_k": 80}
+{"n": 400, "seed": 2, "Delta": 32, "edges": 5855, "t_max": 51, "k_greedy": 5, "C_emp": 0.542, "k_A1": 22, "beta_floor_from_k": 80}
+{"n": 800, "seed": 1, "Delta": 47, "edges": 17558, "t_max": 83, "k_greedy": 6, "C_emp": 0.492, "k_A1": 28, "beta_floor_from_k": 134}
+{"n": 800, "seed": 2, "Delta": 47, "edges": 17558, "t_max": 77, "k_greedy": 6, "C_emp": 0.492, "k_A1": 27, "beta_floor_from_k": 134}
+{"n": 1600, "seed": 1, "Delta": 69, "edges": 52312, "t_max": 123, "k_greedy": 8, "C_emp": 0.491, "k_A1": 33, "beta_floor_from_k": 200}
+{"n": 1600, "seed": 2, "Delta": 69, "edges": 52378, "t_max": 124, "k_greedy": 8, "C_emp": 0.491, "k_A1": 33, "beta_floor_from_k": 200}

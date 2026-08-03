@@ -99,12 +99,15 @@ For every triangle-free induced set `S` of `G`, every vertex cover `C` of
 tau(M[S]) >= |S|-(h-1).
 ```
 
-At `(n,h)=(50,11)`, the two-class theorem applied to `G-M` gives a
-triangle-free 12-set; every such 12-set has maximal-edge vertex-cover number
-at least two.  In particular every `K4`-free 50-vertex graph with
-`beta(G)<=10` has at least one maximal edge.  This is a sound constraint for
-a future exact search.  It has not been injected into the already-running
-CEGAR process and is not a full #151 result.
+The phrase "apply the two-class theorem to `G-M`" would skip the unproved
+hypothesis `beta(G-M)<=h-1`.  Instead, for `F=G-M`, every `N_F(v)` is
+ambient-admissible in `G`, so `Delta(F)<=beta(G)<=h-1`; the Lovasz--Brooks
+colouring half of the argument applies directly to `F`.  At
+`(n,h)=(50,11)` it gives a triangle-free 12-set; every such 12-set has
+maximal-edge vertex-cover number at least two.  In particular every
+`K4`-free 50-vertex graph with `beta(G)<=10` has at least one maximal edge.
+This is a sound constraint for a future exact search and is not a full #151
+result.
 
 ## Sources and priority boundary
 

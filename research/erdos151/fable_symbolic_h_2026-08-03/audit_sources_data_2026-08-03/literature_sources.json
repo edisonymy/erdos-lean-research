@@ -1,0 +1,91 @@
+{
+  "audit_date": "2026-08-03",
+  "scope": "Primary-source audit of RESEARCH_LOG.md sections 7-8 and 13-14, plus PROGRAM_ALPHA.md's constant ledger",
+  "sources": [
+    {
+      "key": "HHKP26",
+      "authors": [
+        "Zion Hefty",
+        "Paul Horn",
+        "Dylan King",
+        "Florian Pfender"
+      ],
+      "title": "Improving R(3,k) in just two bites",
+      "identifier": "arXiv:2510.19718v3",
+      "submitted": "2025-10-22",
+      "last_revised": "2026-02-19",
+      "url": "https://arxiv.org/abs/2510.19718",
+      "primary_claim_checked": "R(3,k) >= (1/2+o(1)) k^2/log k; best known upper bound is (1+o(1)) k^2/log k; 1/2 is conjectured asymptotically tight by multiple groups.",
+      "verdict": "PASS",
+      "qualification": "This proves a lower asymptotic coefficient, not existence of a limiting constant c_R."
+    },
+    {
+      "key": "MSV26",
+      "authors": [
+        "Robert Morris",
+        "Julian Sahasrabudhe",
+        "Jacques Verstraete"
+      ],
+      "title": "On the Erdos-Rogers function",
+      "identifier": "arXiv:2607.16118v1",
+      "submitted": "2026-07-17",
+      "url": "https://arxiv.org/abs/2607.16118",
+      "primary_claim_checked": "For every fixed s>=2, f_{s,s+1}(n)=Theta(sqrt(n log n)); the construction gives a K_{s+1}-free graph in which every C(s)sqrt(n log n)-set contains K_s.",
+      "verdict": "PASS",
+      "qualification": "The paper itself invokes JMRS for the lower bound. Its simpler displayed construction has polynomial dependence on s; the refined discussion gives C(s)=O(s^(3/2)sqrt(log s))."
+    },
+    {
+      "key": "JMRS21",
+      "authors": [
+        "Gwenael Joret",
+        "Piotr Micek",
+        "Bruce Reed",
+        "Michiel Smid"
+      ],
+      "title": "Tight Bounds on the Clique Chromatic Number",
+      "identifier": "arXiv:2006.11353v2; EJC 28(3), P3.51",
+      "submitted": "2020-06-19",
+      "last_revised": "2021-08-25",
+      "doi": "10.37236/9659",
+      "url": "https://arxiv.org/abs/2006.11353",
+      "primary_claim_checked": "For every epsilon>0 and sufficiently large Delta, chi_c(G)<=(1+epsilon)Delta/log Delta; every n-vertex graph has chi_c=O(sqrt(n/log n)).",
+      "verdict": "PASS_WITH_QUALIFICATION",
+      "qualification": "The paper's word 'tight' is order-of-magnitude tightness via triangle-free graphs. It does not establish that leading coefficient 1 is attained or optimal."
+    },
+    {
+      "key": "ULAM_NOTE26",
+      "authors": [],
+      "title": "A note on the clique-transversal number",
+      "date_on_pdf": "2026-04-21",
+      "identifier": "Public PDF with no author/version metadata visible",
+      "url": "https://www.ulam.ai/research/erdos610.pdf",
+      "primary_claim_checked": "It explicitly derives T(n)=n-Theta(sqrt(n log n)) from JMRS and triangle-free Ramsey graphs, and explicitly says the stronger Erdos-Gallai-Tuza speculation tau(G)<=n-f(n) remains open.",
+      "verdict": "PRIOR_PUBLIC_DISCLOSURE_COLLISION",
+      "qualification": "Its bibliographic status is weak, but it predates this campaign and defeats any priority claim for the order-of-magnitude R1 connection."
+    },
+    {
+      "key": "HRV26",
+      "authors": [
+        "Zohair Raza Hassan",
+        "Stanislaw Radziszowski",
+        "Steven Van Overberghe"
+      ],
+      "title": "On Small Folkman Graphs Arrowing K2 or K3",
+      "identifier": "arXiv:2605.16542v1",
+      "submitted": "2026-05-15",
+      "url": "https://arxiv.org/abs/2605.16542",
+      "primary_claim_checked": "Defines F_e by K4-free edge-arrowing witnesses and records current bounds 21 <= F_e(3,3;4) <= 786.",
+      "verdict": "PASS",
+      "qualification": "The Fable log's [20,786] range is stale; the logical implication from a 50-vertex K4-free arrowing witness to F_e<=50 remains valid."
+    }
+  ],
+  "absence_search": {
+    "queries": [
+      "clique transversal in HHKP26/MSV26/JMRS21 PDFs",
+      "Gallai in HHKP26/MSV26/JMRS21 PDFs",
+      "Tuza in HHKP26/MSV26/JMRS21 PDFs",
+      "exact web searches for the EGT inequality and clique chromatic number"
+    ],
+    "finding": "The three cited ingredient papers do not mention the stronger EGT conjecture, but ULAM_NOTE26 does. Absence from the three ingredient papers is therefore not evidence of novelty."
+  }
+}

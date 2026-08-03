@@ -1,0 +1,320 @@
+{
+  "audit": "Fable Program Alpha literature/data items 6-7: data-semantics component",
+  "status": "FAIL_WITH_MATERIAL_CORRECTIONS",
+  "source_hashes_sha256": {
+    "RESEARCH_LOG.md": "cffb3122af03a21a00f5fa6156f7882584ae0a4cd40b2fab121fe64ed214bc34",
+    "PROGRAM_ALPHA.md": "6442504b1b41bc9fd5ba14c9b225bec49e75ff84f27c138223434fd7ea3d3406",
+    "chitf_landscape.py": "b56238bf51da3fc956b3f2472ee36584880d55a2c660e82b8a7b04c2f721d445",
+    "anchor_pin.py": "80b23b602e54bd49d14f9d32cf8798e9f0446f60831c33be37e2fdad172d7d8e",
+    "mt_threshold.py": "45d27eae7b59b5713bf31814bc59f719d254b54b40bc1871477f696fde3d5e55",
+    "glauber_tf.py": "d9a0d60ff9b30d9d3e50f949166860dd592e00b395328d19aa37c72f8b563e6d",
+    "chitf_landscape.jsonl": "de9d019fb0a797c10da01c86c623dd7c46cd90c60a363d6e75d5ee3304f107e1",
+    "anchor_pin.json": "02347130b6d290130e0a14cdba0cc27098dfbcd6242599042885f7659691076f",
+    "anchor_pin2.json": "bc0f5dc687981e9eeb4d2b0e45958fbe6ea8925c56d38edfa4da86802619af3b",
+    "mt_threshold.jsonl": "32fa6bd0fd6506a83414d369c2892bfbcdadbdeb750dd1e0298574e55bf936ec",
+    "glauber_tf.jsonl": "aee289cf4ac6629e02788905548a180ce7f49837b7c473d04c3c69f8788cc868"
+  },
+  "claim_grep": {
+    "RESEARCH_LOG.md": [
+      {
+        "line": 121,
+        "text": "new f_{3,4}-type lower bound of strength >= H.  Both sides sit on named open"
+      },
+      {
+        "line": 160,
+        "text": "sample: \u0394, greedy/local-search lower bounds on \u03b1 and tf_3 (a found"
+      },
+      {
+        "line": 181,
+        "text": "| n   | h_cert | edges | \u0394  | \u03b1_found/h | tf_found/h | verdict |"
+      },
+      {
+        "line": 200,
+        "text": "retained in race_*.json.  Caveat recorded: tf_found is a heuristic lower"
+      },
+      {
+        "line": 202,
+        "text": "DEAD verdict used only the sound direction tf >= tf_found >= h."
+      },
+      {
+        "line": 238,
+        "text": "f_{s,s+1}(n) = \u0398(sqrt(n log n)).  Upper bound: randomized \"double blow-up\""
+      },
+      {
+        "line": 330,
+        "text": "With PUBLISHED upper bounds R(3,10)<=41 [arXiv:2401.00392], R(3,11)<=50,"
+      },
+      {
+        "line": 461,
+        "text": "lower bound on `R(3,h)` is greater than `B(h)`."
+      }
+    ],
+    "PROGRAM_ALPHA.md": [
+      {
+        "line": 72,
+        "text": "profiles REQUIRE A2's occupancy machinery.  Anchor final bracket"
+      },
+      {
+        "line": 182,
+        "text": "COMPUTATIONALLY CHECKED, two families, greedy upper bounds on chi_tf:"
+      },
+      {
+        "line": 194,
+        "text": "Readings: (i) the empirical class constant is < 1/2 everywhere measured"
+      },
+      {
+        "line": 207,
+        "text": "in the first restart; the honest bracket is chi_tf \u2208 [6, 10] (the lower"
+      },
+      {
+        "line": 218,
+        "text": "empirical class constant is now < 1/2 with margin on EVERY family"
+      },
+      {
+        "line": 233,
+        "text": "retains large empirical margin on every family measured.  Also"
+      },
+      {
+        "line": 294,
+        "text": "(glauber_tf.jsonl): stationary densities 0.36 (anchor, \u03bb=8), 0.53"
+      },
+      {
+        "line": 295,
+        "text": "(synthetic CBU), 0.27 (process) \u2014 implied C_f = 0.09 / 0.11 / 0.30,"
+      }
+    ]
+  },
+  "script_grep": {
+    "chitf_landscape.py": [],
+    "anchor_pin.py": [
+      {
+        "line": 1,
+        "text": "\"\"\"Pin the L(785,53) anchor: better upper bound on chi_tf (multi-restart"
+      },
+      {
+        "line": 2,
+        "text": "greedy + conflict-repair merge) and a tf lower bound (greedy+plateau),"
+      },
+      {
+        "line": 142,
+        "text": "           \"tf_lower\": tf_lb,"
+      },
+      {
+        "line": 143,
+        "text": "           \"chi_tf_lower\": math.ceil(n / tf_lb),"
+      }
+    ],
+    "mt_threshold.py": [
+      {
+        "line": 86,
+        "text": "                break  # smaller c will also fail; move to next instance"
+      }
+    ],
+    "glauber_tf.py": [
+      {
+        "line": 4,
+        "text": "Measures the stationary density alpha(lambda) = E|S|/n on: the L(785,53)"
+      },
+      {
+        "line": 113,
+        "text": "                   \"implied_frac_cover\": round(1 / max(dens, 1e-9), 2),"
+      },
+      {
+        "line": 114,
+        "text": "                   \"implied_C\": round(math.log(D) / D / max(dens, 1e-9), 3),"
+      }
+    ]
+  },
+  "landscape": {
+    "record_count": 8,
+    "all_arithmetic_fields_pass": true,
+    "records_below_half": 4,
+    "records_not_below_half": 4,
+    "checks": [
+      {
+        "n": 200,
+        "seed": 1,
+        "C_emp_stored": 0.562,
+        "C_emp_expected": 0.562,
+        "beta_floor_stored": 50,
+        "beta_floor_expected": 50,
+        "C_emp_below_half": false,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 200,
+        "seed": 2,
+        "C_emp_stored": 0.562,
+        "C_emp_expected": 0.562,
+        "beta_floor_stored": 50,
+        "beta_floor_expected": 50,
+        "C_emp_below_half": false,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 400,
+        "seed": 1,
+        "C_emp_stored": 0.542,
+        "C_emp_expected": 0.542,
+        "beta_floor_stored": 80,
+        "beta_floor_expected": 80,
+        "C_emp_below_half": false,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 400,
+        "seed": 2,
+        "C_emp_stored": 0.542,
+        "C_emp_expected": 0.542,
+        "beta_floor_stored": 80,
+        "beta_floor_expected": 80,
+        "C_emp_below_half": false,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 800,
+        "seed": 1,
+        "C_emp_stored": 0.492,
+        "C_emp_expected": 0.492,
+        "beta_floor_stored": 134,
+        "beta_floor_expected": 134,
+        "C_emp_below_half": true,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 800,
+        "seed": 2,
+        "C_emp_stored": 0.492,
+        "C_emp_expected": 0.492,
+        "beta_floor_stored": 134,
+        "beta_floor_expected": 134,
+        "C_emp_below_half": true,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 1600,
+        "seed": 1,
+        "C_emp_stored": 0.491,
+        "C_emp_expected": 0.491,
+        "beta_floor_stored": 200,
+        "beta_floor_expected": 200,
+        "C_emp_below_half": true,
+        "arithmetic_pass": true
+      },
+      {
+        "n": 1600,
+        "seed": 2,
+        "C_emp_stored": 0.491,
+        "C_emp_expected": 0.491,
+        "beta_floor_stored": 200,
+        "beta_floor_expected": 200,
+        "C_emp_below_half": true,
+        "arithmetic_pass": true
+      }
+    ],
+    "interpretation": "k_greedy is an upper bound when the constructed partition is valid; the stored table itself contradicts 'below 1/2 everywhere measured'."
+  },
+  "anchor": {
+    "stored_anchor_pin": {
+      "family": "L(785,53)",
+      "n": 785,
+      "Delta": 156,
+      "chi_tf_upper": 10,
+      "C_upper": 0.324,
+      "tf_lower": 106,
+      "chi_tf_lower": 8,
+      "C_lower": 0.259,
+      "elapsed_s": 14.5
+    },
+    "stored_anchor_pin2": {
+      "family": "L(785,53)",
+      "tf_lower": 156,
+      "chi_tf_bracket": [
+        6,
+        9
+      ],
+      "C_bracket": [
+        0.194,
+        0.291
+      ],
+      "elapsed_s": 353.5
+    },
+    "deterministic_restart0_replay": {
+      "seed": 99,
+      "restart": 0,
+      "initial_class_count": 18,
+      "initial_triangle_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "successful_eliminations": 8,
+      "reported_class_count_replay": 10,
+      "class_triangle_counts": [
+        299,
+        261,
+        370,
+        373,
+        304,
+        338,
+        264,
+        231,
+        410,
+        377
+      ],
+      "invalid_triangle_bearing_class_count": 10,
+      "total_monochromatic_triangles": 3227,
+      "covers_all_vertices": true,
+      "classes_are_disjoint": true,
+      "valid_triangle_free_partition": false
+    },
+    "direction_check": {
+      "premise": "tf_lower <= alpha_tf (a found triangle-free set or Delta floor)",
+      "valid_consequence": "none of the form chi_tf >= ceil(n/tf_lower)",
+      "needed_for_that_consequence": "an upper bound alpha_tf <= U",
+      "stored_chi_tf_lower_is_certified": false,
+      "stored_anchor_brackets_are_certified": false
+    }
+  },
+  "moser_tardos": {
+    "record_count": 15,
+    "converged_count": 12,
+    "budget_failure_count": 3,
+    "semantics": {
+      "convergence": "constructive instance-specific upper-bound evidence",
+      "budget_failure": "not a lower bound and not evidence of impossibility",
+      "uniform_threshold_claim": "not certified by one seeded run per point"
+    }
+  },
+  "glauber": {
+    "record_count": 15,
+    "single_chain_steps_per_point": 400000,
+    "mixing_or_error_certificate_present": false,
+    "stationarity_certified": false,
+    "mean_density_to_fractional_cover_valid_in_general": false,
+    "reason": "A fractional cover from a distribution needs a positive lower bound on every vertex marginal (or transitivity); the script records only the mean density.  It also provides no mixing-time or sampling-error bound.",
+    "vertex_transitive_exception": "For the exact stationary Gibbs measure on the L(785,53) circulant, symmetry makes marginals uniform, but the finite single-chain estimate is still not a certificate."
+  },
+  "verdicts": [
+    "The landscape arithmetic is internally consistent, but 4/8 stored records are >= 1/2.",
+    "The deterministic anchor_pin restart-0 replay must be validated before its k value is used.",
+    "tf_lower and Delta lower bounds were inverted into invalid chi_tf lower bounds.",
+    "Moser-Tardos failures are budget outcomes only.",
+    "Glauber mean-density fields do not certify fractional covers on non-transitive graphs."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "packet": "Fable items 6-7 adversarial audit",
+  "created": "2026-08-03",
+  "source_logs_modified": false,
+  "files": [
+    {
+      "path": "AUDIT_REPORT.md",
+      "bytes": 10007,
+      "sha256": "4ad5046b6a6c016ec6787741b6d8077b300aa01e3470ae0a2a555927b26caa09"
+    },
+    {
+      "path": "GREP_EVIDENCE.md",
+      "bytes": 2523,
+      "sha256": "143a405266bb2ed1958bf49f41991e79b74cb4ce10b6348d6944c267572e55ba"
+    },
+    {
+      "path": "audit_sources_data.result.json",
+      "bytes": 2119,
+      "sha256": "2279968969c2a3a119ad8e2798bfbadb8e8c9cd29eb827d21cc5bb5886f15e11"
+    },
+    {
+      "path": "literature_sources.json",
+      "bytes": 4247,
+      "sha256": "7b6bd80d895f051b9b24b3503e440426a9f6a8b4cc681a648428db20f1a90b1f"
+    },
+    {
+      "path": "audit_data_semantics.py",
+      "bytes": 9985,
+      "sha256": "9820033febb395ae1bb4fe3b851e28cf404b2d993024ec990f33f686b7c8007a"
+    },
+    {
+      "path": "audit_data_semantics.result.json",
+      "bytes": 10227,
+      "sha256": "203b287e302cdb818be5cf68690570bc18f23f68dc930ba3fc83f37b92b2c22a"
+    }
+  ]
+}
