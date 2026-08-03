@@ -54,7 +54,11 @@ because the original problem lacked a public Lean statement.
   proves that every counterexample must vertex-arrow `(3,3)`, so it cannot be
   obtained by adding only one or two vertices to a triangle-free graph; the
   remaining global routes require unresolved Erdős--Rogers constants or a
-  new sparse Folkman construction.
+  new sparse Folkman construction.  Two subsequent exact construction audits
+  exhausted selected Cayley families and the most concrete 2026 House of
+  Graphs Folkman seeds; their best exact `beta` gaps are still 2--16 above the
+  required ceilings.  One narrowly scoped triangle-hypergraph/property-B
+  theorem attack remains live; routine construction expansion is stopped.
 - **Erdős #64 (paused):** counterexample-first search for minimum-degree-three graphs
   without power-of-two cycles, last focused beyond the reported public order-31 frontier.
   An exact SMS/Glasgow computation excludes three documented Carr-structured
@@ -97,16 +101,37 @@ because the original problem lacked a public Lean statement.
   on the cited published reductions. The fixed-15 class is split into 21 cases;
   18 have checked native certificates, while exactly `t=62,67,72` remain unresolved
   after 5,400-second timeouts. These are bounded symmetry-class results, not a solution.
-- **Erdős #982 (active counterexample probe):** prior work classifies the unique
+- **Erdős #982 (paused):** prior work classifies the unique
   eight-point locally-three-distance planar set; its nonconvexity, together with
   `LDS_2(3)=8`, rules out counterexamples at orders 8 and 9.  The first possible order is
   therefore 10.  Exact campaign checks eliminate old-palette extensions of the convex
   `D4` octagon and prove that the strongest minimal H8-to-local-four relaxation has no
-  strictly convex realization.  Continuous inverse design showed only boundary collapse;
-  an orthogonal equality-pattern/oriented-matroid order-10 probe is now the live lane.
-  The general problem remains open.  See the
+  strictly convex realization.  Continuous inverse design showed only boundary collapse.
+  The orthogonal equality-pattern, triangular-lattice, and bounded SAT probes produced no
+  candidate or rigorous obstruction and reached their stop rules.  The general problem
+  remains open, with no active campaign compute.  See the
   [H8-relaxation report](research/full_solution_scout/erdos982_arbitrary_counterexample_max_2026-08-03/REPORT.md)
   and [distance-pattern report](research/full_solution_scout/erdos982_distance_pattern_max_2026-08-03/REPORT.md).
+
+- **Erdős #149 (bounded theorem, paused):** every subquartic graph on at most
+  11 vertices has strong chromatic index at most 20.  The order-11 theorem has
+  both a short audited analytic proof and checked CaDiCaL DRAT/LRAT support.
+  Every 4-regular graph on at most 12 vertices is also cleared by a complete
+  1,544-record public catalogue census plus the disconnected reduction.  This
+  is not a solution of #149; nonregular order-12 graphs and all larger orders
+  remain.  See [public issue #6](https://github.com/edisonymy/erdos-lean-research/issues/6).
+- **Erdős #701 (closed priority collision):** a bounded order-eight
+  counterexample search found no candidate and an exact equality extremizer
+  with `|F|=225` and maximum intersecting family = maximum star = 105.  The
+  lane was stopped when Leon Eifler's public 2025 dissertation was found to
+  claim an exact-SCIP proof through ground-set size eight.  The thesis did not
+  emit the projected >1 TB VIPR certificate, but it removes first-credit value
+  from this finite case.
+- **Erdős #561 (active counterexample probe):** two bounded, orthogonal lanes
+  are auditing genuinely uncovered nonuniform star-forest tuples.  A single
+  verified host below the conjectured formula would fully refute the universal
+  statement.  No tuple is allowed to enter compute before the 2010--2026
+  special-case and priority literature is cleared.
 
 The earlier #617 `r = 5` campaign is stopped and retained only as an explicitly
 superseded audit. A 24 July 2026 Zenodo preprint records Robert Sneiderman's proof and

@@ -627,3 +627,66 @@ with simultaneous `beta` control, or months-scale certified enumeration.
 Accordingly #151 moves to a 15--25% maintenance allocation for the one-week
 full-resolution objective.  This is an allocation decision, not evidence that
 the conjecture is true or false.
+
+## 16. Portfolio refresh: analytic #149, #701 collision, and construction kills
+
+The 3 August target-acquisition wave produced no full resolution, but it
+materially changed the portfolio and the public record.
+
+### #149: a bounded theorem with two proof routes
+
+Every simple graph of maximum degree at most four and order at most 11 has
+strong chromatic index at most 20.  The sole residual case is a 4-regular
+11-vertex graph whose induced-`2K2` compatibility graph would have to be a
+nonempty star.  A short analytic proof eliminates that star by local
+neighbourhood counts, four-cycle parity, common-neighbour moments, and an
+adjacency-matrix commutator.  Independently, the labelled obstruction has a
+checked CaDiCaL DRAT certificate and checked converted LRAT certificate.
+
+All 1,544 connected 4-regular graphs on 12 vertices were also checked by two
+matching implementations; every compatibility graph has matching number at
+least nine, while four disjoint compatibility pairs already certify 20
+colours.  Disconnected regular graphs reduce to components with at most 14
+edges.  Nonregular order-12 graphs remain outside the theorem.  The partial
+result and exact hashes are public in
+[`full_solution_scout/erdos149_structural_max_2026-08-03/`](full_solution_scout/erdos149_structural_max_2026-08-03/)
+and [GitHub issue #6](https://github.com/edisonymy/erdos-lean-research/issues/6).
+
+### #701: stopped by a deeper priority search
+
+The first order not covered by the 2022 certified publication appeared to be
+ground-set size eight.  Direct CP-SAT and Z3 searches found no counterexample
+and an exact equality extremizer with 225 members, maximum intersecting-family
+size 105, and every star of size 105.  CP-SAT and an independent RC2/CaDiCaL
+checker agree exactly.
+
+A deeper source search then found Leon Eifler's public 2025 TU Berlin
+dissertation.  It explicitly claims Chvátal's conjecture through size eight
+and reports exact SCIP solving the reduced order-eight formulation in about
+450,000 seconds.  It did not emit the projected solver-independent VIPR
+certificate, estimated above 1 TB, but the public thesis destroys any
+first-credit case for a new order-eight computation.  All campaign searches
+were stopped and order nine was not launched.  This collision reinforces the
+rule that current dissertations and later thesis chapters must be searched,
+not only problem databases and paper abstracts.
+
+### #151 construction evidence and current live allocation
+
+Exact scans of three connected low-degree Cayley families found true minimum
+`beta` gaps of two, two, and three above their counterexample targets.  The
+best members were triangle-free, offering no maximal-clique mechanism.  A
+separate non-Cayley audit computed `beta=25` for the concrete 43-vertex 2026
+House of Graphs edge-Folkman seed, versus the required `beta<=9`; reaching the
+degree gate alone needs at least 247 edge deletions.  The sparse 63-vertex
+literature graph is vertex-arrowing rather than edge-arrowing and has a checked
+triangle-avoiding edge colouring.  Both construction lanes are killed.
+
+The live allocation is therefore deliberately narrow:
+
+1. two orthogonal, priority-first counterexample attacks on Erdős #561's
+   genuinely uncovered nonuniform star-forest cases, because one finite host
+   below the formula would resolve the universal conjecture negatively; and
+2. one hard #151 triangle-hypergraph/property-B theorem attack, with routine
+   graph-family enumeration still stopped.
+
+No open Erdős problem is claimed solved at this checkpoint.
