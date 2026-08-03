@@ -1,0 +1,12 @@
+{
+  "conclusion": "Vela's retained m is not an Erdos #203 witness: the displayed value is prime.",
+  "covering_row_primes": [],
+  "lucas_certificate_primes_verified": 25,
+  "status": "PASS",
+  "uncovered_point": [
+    1,
+    8
+  ],
+  "value": "107184498362619828504418174576144879",
+  "vela_rows_verified": 20
+}

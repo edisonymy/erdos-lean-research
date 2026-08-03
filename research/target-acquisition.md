@@ -7,7 +7,7 @@ historical record; this document directs current work.
 ## Objective restated
 
 Maximize the probability of being **first** to fully resolve at least one
-genuinely open Erdős problem on a days-to-one-week horizon and receiving
+genuinely open Erdős problem within approximately one month and receiving
 public credit for a correct, useful result.  Formalization is one route to
 verification and recognition, not an eligibility requirement.  Two working
 observations drive everything below:
@@ -33,7 +33,11 @@ observations drive everything below:
 ## The funnel
 
 Effort is structured as a funnel with explicit promotion gates.  Depth is
-**earned by evidence, never chosen a priori.**
+**earned by evidence, never chosen a priori.**  Evidence gates measure the
+direction of the mathematics, not how long a comparable project would take a
+human.  Human research-time estimates are weak priors for an LLM campaign and
+are not kill signals.  CPU time, storage, and externally imposed deadlines
+remain legitimate hard constraints.
 
 ### Tier 0 — pool construction (scripted, minutes)
 
@@ -64,7 +68,7 @@ numeric score means safer / less competitive.
 |---|---|---|
 | **Leverage** | Does one finite, mechanically checkable object end the *full* problem — not a case, bound, or symmetry class? | Gate: score 0 ⇒ drop |
 | **Uncertainty** | Is the answer genuinely uncertain?  Question form ("is it true that…"), recorded doubt by Erdős, no heuristic consensus, false sibling conjectures nearby. | High |
-| **Reachability** | Is the plausible witness region searchable within ~1 CPU-day with modern exact methods (SAT/CP, sieves, exact geometry)? | High |
+| **Compute reachability** | Is a plausible witness region searchable within ~1 CPU-day with modern exact methods (SAT/CP, sieves, exact geometry)? This scores bounded computation only, not the predicted duration of mathematical reasoning. | High |
 | **Collision risk** | Age and fame, prize size, llm-hunter attack flag, recent page edits, tag fashion.  Obscurity lowers race risk but *raises* stale-status risk — both directions get checked, neither is disqualifying alone. | Medium |
 | **Verification cost** | Can a candidate witness be independently double-checked in minutes from first principles? | Medium |
 | **Recognition path** | Is the authoritative informal statement precise enough to audit, and is there a credible route to independent expert review and public dissemination? Existing Lean is a bonus, not a gate. | Gate |
@@ -89,9 +93,11 @@ again before any publication.**
 
 Probes are exact from the start (the scout discipline is retained: every
 hit re-verified by an independently written checker; solver `UNSAT`
-without certificate is `UNKNOWN`).  Hard kill criteria are written down
-*before* the probe runs — a margin that must shrink, a residual that must
-vanish, a count that must appear — with a default kill at one CPU-day.
+without certificate is `UNKNOWN`).  Hard compute-stop criteria are written
+down *before* a solver job runs — a margin that must shrink, a residual that
+must vanish, a count that must appear — with a default stop at one CPU-day.
+That cap stops or redesigns the computation; it does not by itself kill the
+mathematical lane.
 
 ### Tier 3 — siege (≤ 3 concurrent, entry requires a live signal)
 
@@ -100,7 +106,21 @@ near-miss witness with a principled reason the gap can close, an
 unexpectedly small residual space, or a structural argument that the
 answer is "false" in reachable range.  "The problem is important" and
 "the encoding works" are not signals.  Sieges get all available local
-compute and a standing kill review every 24 h.
+compute and a review after every completed attack cycle.  Elapsed reasoning
+time is not an exit criterion.
+
+An intellectual lane is renewed when a cycle does at least one of the
+following: proves and survives audit on a lemma that removes a real case or
+quantifier; improves a predeclared mathematical progress metric; exposes a
+new search mechanism that survives adversarial testing; or converts a vague
+barrier into a sharper finite subproblem.  One unsuccessful pass is not
+enough to stop a difficult lane.  Reallocation requires observed stagnation:
+the core premise is falsified; priority is lost; several genuinely different
+cycles reproduce the same obstruction without a new bridge; or a declared
+progress metric remains unchanged across several completed cycles despite
+mechanism changes.  A specific compute branch may also stop when its measured
+CPU or storage scaling is infeasible, without implying that the theorem lane
+is dead.
 
 ## Standing decision rules
 
@@ -144,6 +164,13 @@ compute and a standing kill review every 24 h.
    immediately on a verified full result, which follows the under-three-hour
    announcement path, or when the probe is killed.  It must never be used to
    hide an error, overstate priority, or postpone a significant result.
+8. **Do not import human research clocks.**  Statements such as "this would
+   take mathematicians months" or "the literature has been stuck for years"
+   describe context and competition; they do not estimate how many agent
+   reasoning cycles remain.  Allocation decisions use observed novelty,
+   verified gap reduction, repeated failure modes, and measured compute
+   scaling.  The campaign records completed cycles so persistence is
+   distinguishable from blind repetition.
 
 ## Active siege checkpoint: Erdős #151
 
@@ -152,8 +179,10 @@ The #151 campaign has an explicit, revisable allocation guard in
 It authorizes one further evidence-gated cycle centred on a genuinely global
 order-41 `omega=4` counterexample model, while reserving capacity for outside
 scouting.  It also records positive renewal signals, rabbit-hole indicators,
-and a default 12-hour/first-global-run reassessment.  Local lemmas alone do
-not renew the siege.
+and the historical first-global-run reassessment.  Under the current policy,
+that wall-clock checkpoint governs the compute job only.  Local lemmas renew
+the theorem lane when they remove a real case or quantifier, improve a defined
+gap, or unlock a genuinely different mechanism; unaudited restatements do not.
 
 That bounded global cycle later hit its written stopping rule with no
 candidate, exhaustion, or downstream penetration and was not restarted.  A

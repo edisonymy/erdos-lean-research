@@ -1,0 +1,14 @@
+{
+  "status": "NO_COVER_LANE_STOPPED",
+  "date": "2026-08-03",
+  "files_sha256": {
+    "REPORT.md": "b5560cca9ea816cc506d885659c7eb3a4a7c8cf2b24b414f6de145514e0f6202",
+    "audit.json": "74638ba3c29ae815ff7914fd97ecf503d3157bd0fda9e2a61ab84438bd73a293",
+    "audit_algebraic_power_cover.py": "030d94a095502f8608e4880acbc1ae71b552a4b6efbfca45c2d06fd9bbbcfe11",
+    "census_even_pilot.json": "ce56b7bbef8a85dd64faa613081580ecbac7c83f6aa6eb3177c2eb9aa7bba748",
+    "search_algebraic_power_cover.py": "c867dee452ccd99d4c70169bf6de2f3f829a4ea94b938f871dea658513d98dcb",
+    "smoke.json": "96b77783ebad8d520b9806a8b273677d3f12738385280a06ad4b513f803ec0f2"
+  },
+  "audit_status": "PASS",
+  "claim_boundary": "Exact algebraic/phase classification and finite checker audits; sampled optimizer results are heuristic and no solution is claimed."
+}

@@ -65,6 +65,18 @@ research/full_solution_scout/erdos151_triangle_propertyb_max_2026-08-03/** -text
 research/full_solution_scout/erdos151_threshold7_local_core_max_2026-08-03/** -text
 research/full_solution_scout/erdos151_threshold7_linegraph_max_2026-08-03/** -text
 
+# The four #203 bounded-attack packages carry byte-level SHA-256 manifests.
+research/full_solution_scout/fresh_counterexample_target_max2_2026-08-03/** -text
+research/full_solution_scout/erdos203_algebraic_cells_max_2026-08-03/** -text
+research/full_solution_scout/erdos203_cover_theory_max_2026-08-03/** -text
+research/full_solution_scout/erdos203_nonaffine_max_2026-08-03/** -text
+research/full_solution_scout/fresh_counterexample_target_max2_2026-08-03/** whitespace=-trailing-space,-blank-at-eof
+research/full_solution_scout/erdos203_algebraic_cells_max_2026-08-03/** whitespace=-trailing-space,-blank-at-eof
+research/full_solution_scout/erdos203_cover_theory_max_2026-08-03/** whitespace=-trailing-space,-blank-at-eof
+research/full_solution_scout/erdos203_nonaffine_max_2026-08-03/** whitespace=-trailing-space,-blank-at-eof
+research/full_solution_scout/erdos203_algebraic_cells_max_2026-08-03/REPORT.md whitespace=-trailing-space,-blank-at-eof
+research/full_solution_scout/erdos203_nonaffine_max_2026-08-03/REPORT.md whitespace=-trailing-space,-blank-at-eof
+
 # Reproducible Windows DRAT/LRAT checker build and validation records.
 tools/proof_checkers/windows_drat/** text eol=lf
 tools/proof_checkers/windows_drat/bin/*.exe binary -eol

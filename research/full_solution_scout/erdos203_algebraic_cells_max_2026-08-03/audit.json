@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "polynomial_irreducibility_checks": 204,
+  "polynomial_mismatches": [],
+  "phase_membership_checks": 26224,
+  "phase_mismatches": [],
+  "modular_root_checks": 10619,
+  "density_checks": [
+    {
+      "R": 1,
+      "period": 1,
+      "reduced_fraction": "0/1",
+      "direct_cells": 0,
+      "total_cells": 1,
+      "pass": true
+    },
+    {
+      "R": 3,
+      "period": 3,
+      "reduced_fraction": "1/9",
+      "direct_cells": 1,
+      "total_cells": 9,
+      "pass": true
+    },
+    {
+      "R": 4,
+      "period": 4,
+      "reduced_fraction": "1/16",
+      "direct_cells": 1,
+      "total_cells": 16,
+      "pass": true
+    },
+    {
+      "R": 5,
+      "period": 5,
+      "reduced_fraction": "1/25",
+      "direct_cells": 1,
+      "total_cells": 25,
+      "pass": true
+    },
+    {
+      "R": 7,
+      "period": 7,
+      "reduced_fraction": "1/49",
+      "direct_cells": 1,
+      "total_cells": 49,
+      "pass": true
+    },
+    {
+      "R": 12,
+      "period": 12,
+      "reduced_fraction": "1/6",
+      "direct_cells": 24,
+      "total_cells": 144,
+      "pass": true
+    },
+    {
+      "R": 15,
+      "period": 15,
+      "reduced_fraction": "11/75",
+      "direct_cells": 33,
+      "total_cells": 225,
+      "pass": true
+    },
+    {
+      "R": 20,
+      "period": 20,
+      "reduced_fraction": "1/10",
+      "direct_cells": 40,
+      "total_cells": 400,
+      "pass": true
+    },
+    {
+      "R": 28,
+      "period": 28,
+      "reduced_fraction": "4/49",
+      "direct_cells": 64,
+      "total_cells": 784,
+      "pass": true
+    },
+    {
+      "R": 60,
+      "period": 60,
+      "reduced_fraction": "1/5",
+      "direct_cells": 720,
+      "total_cells": 3600,
+      "pass": true
+    },
+    {
+      "R": 105,
+      "period": 105,
+      "reduced_fraction": "201/1225",
+      "direct_cells": 1809,
+      "total_cells": 11025,
+      "pass": true
+    },
+    {
+      "R": 420,
+      "period": 420,
+      "reduced_fraction": "53/245",
+      "direct_cells": 38160,
+      "total_cells": 176400,
+      "pass": true
+    }
+  ],
+  "scope": "Finite independent checks. All-R completeness uses Capell's theorem and is proved in REPORT.md."
+}

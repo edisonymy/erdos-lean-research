@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-08-03",
+  "files": {
+    "REPORT.md": {
+      "bytes": 9130,
+      "sha256": "7a81f49c57d1d234a8602656db7725bb77a5c26e7b7444ee463ce46886ad6487"
+    },
+    "audit_nonaffine_boundary.py": {
+      "bytes": 6029,
+      "sha256": "a9e06b59839838dee66e39e6d0cc3639f971caf7736d54c2c4ce7dc6f5354992"
+    },
+    "audit_output.json": {
+      "bytes": 312,
+      "sha256": "b7cfe5f27fec6029e3bb11e9efe8e9f85464f63bef2e0ee79bca1a5c855ebb0f"
+    }
+  },
+  "runtime": {
+    "os": "Microsoft Windows NT 10.0.26200.0",
+    "python": "3.12.4",
+    "third_party_packages": []
+  },
+  "source_audit": {
+    "vela_commit": "a546f89d62e908ca2b335a70767dd7d26892310c",
+    "vela_erdos_frontier_commit": "4509a731317b040a8e4031a704c16a03076ae89f",
+    "vela_witness_sha256": "a657efb1e0d5bc01b92824c59ed1b20b8dfa56d9c51154d99bf9b59ddb8c9c8b"
+  }
+}

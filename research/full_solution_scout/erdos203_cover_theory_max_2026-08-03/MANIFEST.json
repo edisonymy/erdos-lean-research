@@ -1,0 +1,21 @@
+{
+  "package": "erdos203_cover_theory_max_2026-08-03",
+  "status": "negative theory package; no solution claimed",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 9292,
+      "sha256": "53e7c79e1e1fae0348d4c67b8d253396e082fd70264f0004630ddd0b9a81841c"
+    },
+    {
+      "path": "verify_common_shear_bound.py",
+      "bytes": 4348,
+      "sha256": "50df27fffa1ff058d6c05706ac7fab64e5b919ff660d34e9ece297e61d44e5f5"
+    },
+    {
+      "path": "common_shear_bound.json",
+      "bytes": 17351,
+      "sha256": "22a92da37ee707eacb34c510d9f1dfc352636bd3cf947fa4515fa9c956043baf"
+    }
+  ]
+}

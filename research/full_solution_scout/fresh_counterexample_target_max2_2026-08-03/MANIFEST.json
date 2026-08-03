@@ -1,0 +1,45 @@
+{
+  "package": "fresh_counterexample_target_max2_2026-08-03",
+  "problem": "Erdos #203",
+  "date": "2026-08-03",
+  "status": "STOPPED_GATE_FAILED_NO_SOLUTION",
+  "claim_boundary": "Exact complete prime-map census only through image order 1000. All phase-search and residual results are heuristic samples. No cover, CRT witness, or solution is claimed.",
+  "runtime": {
+    "python": "3.12.4",
+    "numpy": "2.4.4",
+    "sympy": "1.14.0"
+  },
+  "files": [
+    {
+      "path": "enumerate_and_optimize.py",
+      "bytes": 11096,
+      "sha256": "8b8ecff8838e59f6246aa480e21948cfd246cd9475941f095bdded5caabfa64f"
+    },
+    {
+      "path": "pilot_order1000.json",
+      "bytes": 278189,
+      "sha256": "5b2f2d3758c2871fbe48d185337224a6aaf061adb20368ab326d25daf22741ca"
+    },
+    {
+      "path": "refine_direct.py",
+      "bytes": 10473,
+      "sha256": "be9a30a33941ce60135d16e6ecf534e37c6c9b39e58f2a1270d3866009e2c658"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 9807,
+      "sha256": "32c14b67f0c391893cf7f24b52f57d7c6eb58f4fdded6ee11aeb8d5857419e20"
+    },
+    {
+      "path": "robust_direct_order1000.json",
+      "bytes": 210382,
+      "sha256": "353e4fcb0378c50f20853e1f6c3bc9ab27e977f6813e783a97410801e4bd2cee"
+    },
+    {
+      "path": "warm_refine_direct.json",
+      "bytes": 408035,
+      "sha256": "f994fb56d403d915a80cd63e47f8e645650006c6048c81f599b5cc4a6ac36242"
+    }
+  ],
+  "self_hash_policy": "MANIFEST.json intentionally does not hash itself."
+}

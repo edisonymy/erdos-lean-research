@@ -1,7 +1,7 @@
 # Erdős problem full-resolution campaign
 
 This repository records an AI-assisted attempt to identify and, if realistically possible,
-be first to solve a genuinely open Erdős problem.  On the current one-week horizon,
+be first to solve a genuinely open Erdős problem.  On the current approximately one-month horizon,
 the controlling objective is the probability of a novel, publicly creditable **full
 resolution**.  Lean remains a preferred verification and communication tool when it
 materially improves confidence, but an existing formalization is no longer a target gate.
@@ -18,7 +18,8 @@ bounded-certificate work demoted to justified background lanes.
 
 To avoid turning a public research log into a target list for a fast-moving
 priority race, newly promoted probes may remain local for at most their first
-24-hour budget.  Verified full results are published immediately; killed probes
+24-hour compute budget.  This is an embargo/resource rule, not a predicted limit
+on mathematical reasoning.  Verified full results are published immediately; stopped probes
 and their lessons are then added to the public record.
 
 The project prioritizes statement fidelity, novelty checks, reproducible computation,
@@ -90,6 +91,18 @@ because the original problem lacked a public Lean statement.
   not a solution of #719.
 - **Erdős #196:** an audited negative Rethlas attempt on monotone four-term progressions in
   permutations of the naturals; no proof, counterexample, or verified blueprint resulted.
+- **Erdős #203 (stopped after bounded four-angle attack):** a complete
+  image-order-at-most-1000 census expands the audited affine-fibre pool to 281
+  maps, but fixed-vector validation still leaves about 11% of sampled exponent
+  pairs uncovered.  Capell's theorem exactly classifies all perfect-power
+  factorisation cells, and an exact rational checker rules out the natural
+  common-shear lift of a one-dimensional Sierpiński cover for this pool
+  (maximum compatible density `0.6724974471192757`).  These are reusable exact
+  results and route-specific negative evidence, not a solution.  A final
+  structural audit proves finite fixed-divisor variants collapse to affine
+  fibres and gives a checked Lucas certificate showing that Vela's public
+  partial-cover modulus has a prime term at `(k,l)=(1,8)`.  Further #203 work
+  is stopped; see the [dated claim ledger](research/full_solution_scout/ERDOS203_2026-08-03.md).
 - **Erdős #274:** an exact GAP/Python search excludes distinct-index right-coset
   partitions for 25 explicitly listed solvable non-supersolvable groups of order 1440.
   This is an easiest-first finite batch, not an exhaustive order-1440 result, and it

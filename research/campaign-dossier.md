@@ -295,7 +295,7 @@ Primary documentation:
 | #137 | audit only | An explicit negative-Pell solution at recurrence index 29 refutes a named lemma in a public “complete” proof attempt; other fatal gaps were recorded. | Problem remains open; do not treat the competing repository as a solution. |
 | #167 | bounded result | Conditional proof of Tuza's inequality through 11 vertices over 2,174,357 residual isomorphism classes, with constructive packing/cover witnesses and an independent verifier. | Mine the residual for a general reducible configuration; do not brute-force order 12 without a new reduction. |
 | #196 | stopped | Three Rethlas attempts yielded useful corrected lemmas but no global-linkage argument, proof, counterexample, verifier acceptance, or Lean theorem. | Intrinsically infinite; finite avoiding prefixes are not progress toward the quantifier. |
-| #203 | audit/paused | Corrected ten claimed “new primes” in a public partial computation: all are explicit semiprimes. Exact phase searches remained far from a full cover. | Preserve the correction; resume only with a structured recursive cover. |
+| #203 | stopped after four bounded angles | Corrected ten claimed “new primes” to explicit semiprimes; completed the image-order-at-most-1000 census (281-map union); classified all perfect-power binomial cells; exactly ruled out the natural common-shear lift; and certified that Vela's partial-cover modulus has a prime term at `(1,8)`. No cover or solution was found. | Reallocate. Resume only for an explicit variable-divisor identity, an exact recursive cover, or another mechanism that escapes the recorded affine/Capell limitations. |
 | #273 | superseded/paused | Exact density and parity obstructions were developed, but stronger July work already certifies the relevant finite periods and ranges. | Do not duplicate the prior SAT siege. |
 | #274 | bounded result | Exact normalized search excludes 25 named solvable non-supersolvable groups of order 1440, with zero search caps and clean replay for the hardest group. | No all-order or all-order-1440 claim; further batches have low full-solution value. |
 | #276 | barrier audit | Verified the finite 30-prime covering construction and proved why neither the 616,000 distinct-modulus theorem nor mirrored algebraic factorization closes the escape quantifier. | Resume only if a theorem controls repeated induced moduli. |
@@ -485,7 +485,8 @@ ranking in section 12 is superseded by
 one-CPU-day probes → at most three evidence-gated sieges), with #742
 certification demoted to justified background work.  On user direction later
 that day, the controlling objective was simplified to being first to a
-publicly creditable full resolution within roughly one week.  Existing Lean
+publicly creditable full resolution; on 3 August the working horizon was
+extended to approximately one month.  Existing Lean
 formalization is therefore a bonus rather than a selection gate; verification,
 novelty, reproducibility, expert review, and accurate scope remain mandatory.
 The witness announcement fast path is
@@ -623,10 +624,30 @@ Cone constructions are also impossible because `beta(K1 join H)=|H|`.
 
 The remaining genuinely global routes reduce to a leading-constant comparison
 for the Erdős--Rogers function, a new low-degree edge-Folkman transformation
-with simultaneous `beta` control, or months-scale certified enumeration.
-Accordingly #151 moves to a 15--25% maintenance allocation for the one-week
-full-resolution objective.  This is an allocation decision, not evidence that
-the conjecture is true or false.
+with simultaneous `beta` control, or certified enumeration whose measured
+compute scaling is currently prohibitive.  #151 moved to a 15--25%
+maintenance allocation under the then-current one-week objective.  This was
+an allocation decision, not evidence that the conjecture is true or false,
+and it is subject to the persistence correction below.
+
+### Persistence correction, 3 August 2026
+
+The campaign had sometimes treated estimates derived from human mathematical
+practice ("months of work", "too deep for this horizon") as if they predicted
+LLM research time.  That calibration is unsupported and can cause promising
+theory lanes to be abandoned after a single attack.  From this checkpoint,
+elapsed intellectual time and human-duration analogies are not kill criteria.
+The one-month horizon is a portfolio deadline, not a per-lemma clock.
+
+Solver processes, certificate generation, and storage still receive hard
+resource caps.  Mathematical lanes are instead reviewed by completed cycles
+and observed information: audited case or quantifier elimination, improvement
+of a declared gap, survival of a new orthogonal mechanism, or conversion to a
+sharper finite target earns continuation.  Reallocation requires a falsified
+premise, a priority collision, repeated convergence of distinct attacks to
+the same obstruction without further gap reduction, or several completed
+cycles with no improvement in the declared metric.  This preserves the
+funnel while correcting its tendency to give up too early.
 
 ## 16. Portfolio refresh: analytic #149, #701 collision, and construction kills
 
