@@ -312,3 +312,78 @@ soundness of double-lex + used-prefix symmetry breaking, kissat, and
 drat-trim.  Symmetry-free certificates additionally exist for
 sigma <= 8 (`certify_pure_nosym_results.json` in progress), removing the
 double-lex dependency there; the rest queue in background.
+
+## Entry 10 — pure ladder extends; infrastructure hardening
+
+- sigma=16: statics UNSAT (kissat 25.5 s), DRAT VERIFIED.
+- sigma=17: statics UNSAT (kissat 72.8 s), DRAT verification running
+  (51 MB proof).  Ladder continues to sigma=18..20 in background.
+  Each rung strengthens Theorem 1 to "both sides >= sigma+1"; the flip
+  to SAT must occur by sigma=35 (the (3,10)-cage side realizes a C4/C8-free
+  structure there), locating the mixed-girth-cage threshold in [18, 35].
+- core2 sigma=15 relaunched with blocking-clause persistence
+  (blocks_s15.jsonl) so timeouts no longer lose CEGAR state; sigma=13/14
+  continue under original budgets.
+- Strategy audit: general nonbipartite marked-edge SAT at 24-28 would
+  duplicate the concurrent marked-sat agent with the same CEGAR
+  technology (my static-C8 machinery is bipartite/incidence-specific),
+  so it stays closed here.  The two-defect flip zone n_F in [46, 70]
+  is this lane's continuation and wants floor-licker-style streaming
+  rather than tonight's SAT.
+- Independence-number remark: alpha >= 0.4554 n for cubic graphs means
+  the small-cover family automatically contains all cubic graphs of
+  order <= 27, so a full core-closure at sigma <= 15 would re-derive
+  (weaker than Markström's 30) the small cubic exclusions — consistency
+  check, not new ground; the new ground is nonregular n in [32, 50].
+
+## Entry 11 — ladder and verification status
+
+- sigma=17 DRAT: s VERIFIED (drat17.status).
+- sigma=18: UNSAT twice independently (two concurrent kissat runs — my
+  filename race; both exit 20).  The shared .drat file may interleave;
+  verification of the existing file running, regeneration queued if it
+  fails.  sigma=19 solving.
+- Balaban 11-cage full check (checker_a): C16, C32, C64 all present;
+  no famous high-girth graph survives (consistent with McGee,
+  Tutte–Coxeter, all three (3,10)-cages).
+- Lift sweep stopped after Heawood plan (~1M lifts tried across m<=9):
+  no survivor; best find: the frozen 126-vertex C6-rich C8-free
+  specimen (heawood_z9_c8free.json, independently verified; dies at
+  C16).  Remaining small-m configs were prior-covered territory
+  (campaign cyclic-cover sweeps), so the lane was trimmed in favour of
+  SAT cores.
+- certify_twodefect.py written: kissat-round certification with block
+  audit for the two-defect ladder (h<=21 hardening + h>=22 fallback).
+
+## Entry 12 — symmetry-with-aux soundness note (audit)
+
+Point/line relabelings are semantic symmetries of the constraint set but
+NOT syntactic automorphisms of the CNF (cardinality auxiliaries are
+order-dependent).  Soundness of the lex breaks still holds: any semantic
+model (x/e/z assignment) can be relabeled to its lex-minimal
+representative, and every semantic assignment extends to the definitional
+auxiliaries (seqcounter encodings are total).  Recorded here because the
+final theorem statements depend on it; the sigma<=8 symmetry-free
+certificates make the point moot at those sizes.
+
+## Entry 13 — THE PHASE TRANSITION: sigma=19 is SAT; N(0)=38 sharp
+
+- sigma=18: UNSAT (kissat, twice independently; certificate regen
+  queued after a filename race).  sigma=19: **SAT in 184 s.**
+- The extracted model is a quadrilateral-free combinatorial (19_3)
+  configuration: 19 points, 19 lines, 3-regular, 3-uniform, linear,
+  C8-free incidence on 38 vertices (frozen: sigma19_model.json;
+  independently verified simple/cubic/C4-free/C8-free by checker_a).
+  It contains C16 and C32 (checker_a), so it is NOT a counterexample.
+- Consequence (modulo sigma=18 certificate): the minimum order of a
+  bipartite graph with minimum degree >= 3 and no C4/C8 is EXACTLY 38,
+  and the smaller-side threshold is exactly 19.  Previous smallest
+  known example: the 70-vertex (3,10)-cages.  New extremal number.
+- THE LIVE FRONT: pure19_hunt.py screens the whole sigma=19 family with
+  C16/C32 kissat rounds and audited blocks.  A survivor = full
+  counterexample to Erdős–Gyárfás on 38..54 vertices.  UNSAT = every
+  bipartite counterexample has both sides >= 20 (n >= 40), beating the
+  published bipartite bound 32 with certificates.
+- certify_twodefect: h=12..18 all UNSAT in one round each,
+  DRAT-verified (certtd.log): the two-defect exclusion through n_F=36
+  is now certificate-backed; h=19..21 certification launched.
