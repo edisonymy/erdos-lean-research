@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-03T04:36:12.648493+00:00",
+  "generated_utc": "2026-08-03T04:54:23.743615+00:00",
   "sources": {
     "problems_yaml": {
       "path": "research/full_solution_scout/erdosproblems-live/data/problems.yaml",
@@ -174,8 +174,8 @@
     },
     "vibemathed_claimed": 130,
     "llm_hunter_attacked": 676,
-    "campaign_touched": 39,
-    "pool": 555,
+    "campaign_touched": 40,
+    "pool": 554,
     "pool_with_formal_open_statement": 277,
     "pool_with_any_formal_file": 279,
     "pool_existential_iff": 66,
@@ -4343,21 +4343,6 @@
       "formal_path": "FormalConjectures\\ErdosProblems\\579.lean",
       "research_open": true,
       "question_form": true,
-      "existential_iff": false
-    },
-    {
-      "number": 580,
-      "status": "decidable",
-      "prize": "no",
-      "tags": [
-        "graph theory"
-      ],
-      "status_updated": "2025-10-23",
-      "llm_hunter_attacked": false,
-      "formal_file": false,
-      "formal_path": null,
-      "research_open": false,
-      "question_form": false,
       "existential_iff": false
     },
     {

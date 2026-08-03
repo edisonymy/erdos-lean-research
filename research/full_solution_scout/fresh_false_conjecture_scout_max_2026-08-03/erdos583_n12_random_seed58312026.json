@@ -1,0 +1,238 @@
+{
+  "schema": "erdos583-n12-candidate-first-v1",
+  "scope": "non-exhaustive deterministic-seed random sample",
+  "seed": 58312026,
+  "limits": {
+    "accepted": 200,
+    "wall_seconds": 600.0,
+    "per_graph_ms": 1500
+  },
+  "elapsed_seconds": 443.3979482650757,
+  "generated": 373,
+  "accepted": 200,
+  "sat_with_independently_checked_decomposition": 114,
+  "unknown": 86,
+  "rejected": {
+    "3-degenerate": 77,
+    "disconnected": 9,
+    "even-degree-subgraph-max-degree-at-most-3": 87
+  },
+  "by_probability_and_status": {
+    "0.350:sat": 1,
+    "0.425:sat": 11,
+    "0.500:sat": 30,
+    "0.500:unknown": 1,
+    "0.575:sat": 35,
+    "0.575:unknown": 8,
+    "0.650:sat": 21,
+    "0.650:unknown": 16,
+    "0.725:sat": 9,
+    "0.725:unknown": 23,
+    "0.800:sat": 7,
+    "0.800:unknown": 38
+  },
+  "accepted_graph6_stream_sha256": "2fbdafd1bf5b8c23849ccd9ab8decbe3b059c61e948d2b60ad728ea7997fa9a7",
+  "candidate": null,
+  "slowest": [
+    {
+      "graph6": "Kv~^nxVX^^l|",
+      "p": 0.8,
+      "generator_seed": 7477438353410285770,
+      "edges": 51,
+      "even_vertices": 12,
+      "solve_seconds": 1.5307637999940198,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K\\uzVnUvv[~E",
+      "p": 0.725,
+      "generator_seed": 14666227687218132567,
+      "edges": 46,
+      "even_vertices": 6,
+      "solve_seconds": 1.530422700001509,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K|Vtn~}t~nln",
+      "p": 0.725,
+      "generator_seed": 3789069265415108126,
+      "edges": 53,
+      "even_vertices": 6,
+      "solve_seconds": 1.528902999998536,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "KzF^~~l~^~zz",
+      "p": 0.8,
+      "generator_seed": 1323266581141336808,
+      "edges": 56,
+      "even_vertices": 6,
+      "solve_seconds": 1.5279272999905515,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Ke~ez~~cct}~",
+      "p": 0.8,
+      "generator_seed": 8586338799461124100,
+      "edges": 48,
+      "even_vertices": 6,
+      "solve_seconds": 1.5270041999901878,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "KtDxz^ry@ern",
+      "p": 0.575,
+      "generator_seed": 16063346745821348782,
+      "edges": 41,
+      "even_vertices": 8,
+      "solve_seconds": 1.526861699996516,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Kll~y^}zlZn]",
+      "p": 0.725,
+      "generator_seed": 12140521152228059205,
+      "edges": 50,
+      "even_vertices": 6,
+      "solve_seconds": 1.5261259999970207,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K|vzjvzntr|x",
+      "p": 0.725,
+      "generator_seed": 6003619087560659289,
+      "edges": 51,
+      "even_vertices": 8,
+      "solve_seconds": 1.525928600007319,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K}}~yxr~^vx~",
+      "p": 0.8,
+      "generator_seed": 16773931318926122189,
+      "edges": 54,
+      "even_vertices": 8,
+      "solve_seconds": 1.5252051999996183,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K~~||^~VvvZ|",
+      "p": 0.8,
+      "generator_seed": 6558073969525085667,
+      "edges": 56,
+      "even_vertices": 6,
+      "solve_seconds": 1.5247750999988057,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Kdym|v}^M{}z",
+      "p": 0.725,
+      "generator_seed": 5656638884698610178,
+      "edges": 48,
+      "even_vertices": 6,
+      "solve_seconds": 1.524762799992459,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Kb^mzkVf|hZZ",
+      "p": 0.65,
+      "generator_seed": 17310366684967452388,
+      "edges": 44,
+      "even_vertices": 6,
+      "solve_seconds": 1.5243763999897055,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K\\N~~Ju~jv|~",
+      "p": 0.8,
+      "generator_seed": 4599114638106581153,
+      "edges": 53,
+      "even_vertices": 8,
+      "solve_seconds": 1.5239673999894876,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K{T|mv~}]nLz",
+      "p": 0.725,
+      "generator_seed": 10940374280902790090,
+      "edges": 49,
+      "even_vertices": 8,
+      "solve_seconds": 1.5239422000013292,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Kz^~|Z}Z~J`_",
+      "p": 0.65,
+      "generator_seed": 6499691306838160079,
+      "edges": 46,
+      "even_vertices": 6,
+      "solve_seconds": 1.5234670000063488,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Kn]vf~nd~wzm",
+      "p": 0.8,
+      "generator_seed": 5126227876550565800,
+      "edges": 50,
+      "even_vertices": 6,
+      "solve_seconds": 1.5233294000063324,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Kzz~fzBf]P|n",
+      "p": 0.725,
+      "generator_seed": 17647566703497935766,
+      "edges": 47,
+      "even_vertices": 8,
+      "solve_seconds": 1.5232188000081806,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K~ujZf{vz~~f",
+      "p": 0.8,
+      "generator_seed": 7591439747891703617,
+      "edges": 52,
+      "even_vertices": 6,
+      "solve_seconds": 1.5230229000007967,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "K|xpUiv^Z~uN",
+      "p": 0.65,
+      "generator_seed": 9397655943658481955,
+      "edges": 46,
+      "even_vertices": 6,
+      "solve_seconds": 1.5230096000013873,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "Knznl}~}}nL~",
+      "p": 0.8,
+      "generator_seed": 2273846460369350307,
+      "edges": 54,
+      "even_vertices": 6,
+      "solve_seconds": 1.5229470999911427,
+      "status": "unknown",
+      "detail": "timeout"
+    }
+  ]
+}

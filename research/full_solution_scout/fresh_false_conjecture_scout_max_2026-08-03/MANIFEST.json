@@ -1,0 +1,19 @@
+{
+  "schema": "fresh-finite-counterexample-scout-manifest-v1",
+  "created_utc_date": "2026-08-03",
+  "files": {
+    "REPORT.md": {"bytes": 12585, "sha256": "fb86b307d14704e3563a568f38086b6d8f8b6b94c470367de1400d10c74f1bc3"},
+    "PULSE_CLOSURE.json": {"bytes": 1932, "sha256": "6b08e0d53d50d5cd686ed0c1ba4e42480c7fd1ece1354d316778d68b21c8ded2"},
+    "erdos583_n12_k11_extensions.json": {"bytes": 4637, "sha256": "a0b937e0662a41cc0ca09157d78f2670b890cb3fcfc716c386fd60015bbe2aae"},
+    "erdos583_n12_random_seed58312026.json": {"bytes": 6142, "sha256": "12674f7da06df4a2649e127b397a27e4a0aef908ccd774878fb000ffbd299c3c"},
+    "erdos583_n12_smoke.json": {"bytes": 2024, "sha256": "cfd342e402f9947f99de876b65b486a8b1ac3094ff6994d6d5700ffc79c27ea5"},
+    "erdos583_n12_smoke_symmetry.json": {"bytes": 1990, "sha256": "28c850301ad5e12fe07115202f6458ee23b31628972032a36fab1d347f8d240b"},
+    "erdos583_n7.json": {"bytes": 436, "sha256": "8d922ecb5bd057b763fba1780ef9fbf190fc3fcc1e0a56c25ee97d9b694a4a56"},
+    "erdos583_n8.json": {"bytes": 439, "sha256": "8b00859bdb9ba1000e2bc83923b6b83fd2a797ee7ad97e041770dec4295fdf0a"},
+    "omitted_statuses_snapshot.json": {"bytes": 903, "sha256": "b31ea76583ead9835004f034df7746f2117118cba7ee8b6a2047638e951a6bf2"},
+    "search_gallai_n12_clique_extensions.py": {"bytes": 2269, "sha256": "ac5f9adc77aa4abd8aa44e11579098cc3b5800960e7287ba729d5a5f7762e6ba"},
+    "search_gallai_n12_random.py": {"bytes": 9160, "sha256": "d0f944376e5e88df99a9d29da2553330c4bbbce50f67e66f4c87ec29a0cf5025"},
+    "search_gallai_small.py": {"bytes": 6771, "sha256": "5001ce9e66acd6fdc0453673d30c45f31a98dd0938510fd345aeaff3e244dce6"}
+  },
+  "note": "MANIFEST.json intentionally does not hash itself."
+}

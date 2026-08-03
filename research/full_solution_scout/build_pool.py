@@ -45,7 +45,7 @@ OPEN_STATES = frozenset({"open", "falsifiable", "decidable", "verifiable"})
 # campaign (dossier sections 5-7 plus untracked scratch directories).
 CAMPAIGN_TOUCHED = {
     7, 23, 36, 64, 97, 106, 128, 137, 151, 167, 196, 203, 273, 274, 276, 287,
-    307, 319, 366, 375, 409, 421, 458, 488, 548, 583, 617, 647, 672, 677,
+    307, 319, 366, 375, 409, 421, 458, 488, 548, 580, 583, 617, 647, 672, 677,
     699,
     719, 742, 835, 850, 982, 993, 1041, 1082,
 }

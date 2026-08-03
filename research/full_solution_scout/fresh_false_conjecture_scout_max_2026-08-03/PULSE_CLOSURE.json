@@ -1,0 +1,44 @@
+{
+  "schema": "erdos583-bounded-pulse-closure-v1",
+  "closed_utc_date": "2026-08-03",
+  "status": "closed_without_candidate",
+  "reason": "Precommitted bounded candidate-first pulse completed with no UNSAT model and no independently corroborated timeout; n<=11 is already published, and the remaining order-12 timeouts correlate strongly with density and this encoding's runtime.",
+  "published_frontier": {
+    "minimum_possible_counterexample_order": 12,
+    "source": "Botler--Cano--Sambinelli, On Computing the Path Number of a Graph, ENTCS 346 (2019), Theorem 1.2(i)",
+    "doi": "10.1016/j.entcs.2019.08.017"
+  },
+  "random_pulse": {
+    "artifact": "erdos583_n12_random_seed58312026.json",
+    "generated": 373,
+    "accepted_after_filters": 200,
+    "sat_decompositions_independently_checked": 114,
+    "solver_timeout_unknown": 86,
+    "unsat_candidates": 0,
+    "elapsed_seconds": 443.3979482650757
+  },
+  "structured_pulse": {
+    "artifact": "erdos583_n12_k11_extensions.json",
+    "family": "K11 plus one nonisolated vertex, eleven isomorphism types",
+    "sat_decompositions_independently_checked": 2,
+    "solver_timeout_unknown": 9,
+    "unsat_candidates": 0,
+    "elapsed_seconds": 204.6283802986145
+  },
+  "small_order_smoke": {
+    "warning": "Independent reproduction only; not a new theorem.",
+    "n7_graphs": 853,
+    "n8_graphs": 11117,
+    "n9": "stopped immediately after locating the published n<=11 theorem"
+  },
+  "reopen_only_if": [
+    "a structural construction concentrates search beyond generic density",
+    "a materially different solver upgrades a timeout to certified UNSAT",
+    "new literature changes the smallest-order or priority assessment"
+  ],
+  "ranked_redeployment": [
+    "corrected finite-facing status pool acquisition",
+    "Erdos #628 order-11 double-critical CEGAR only if no better target emerges",
+    "do not launch Erdos #107 without a new realization-aware encoding"
+  ]
+}

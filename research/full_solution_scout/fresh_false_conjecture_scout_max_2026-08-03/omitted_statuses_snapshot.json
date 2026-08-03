@@ -1,0 +1,17 @@
+{
+  "schema": "target-pool-status-coverage-audit-v1",
+  "captured_utc_date": "2026-08-03",
+  "source": {
+    "path": "research/full_solution_scout/erdosproblems-live/data/problems.yaml",
+    "git_commit": "8138974387d9030542daabe67faaa33eff9356f8",
+    "sha256": "ad54a0bbd41e49c81c0e6de4d568066f9f463ac90e2612e5c44773cbd54b7be1"
+  },
+  "finding": "The pre-audit pool builder accepted only literal status=open, excluding these finite-facing classes.",
+  "verifiable": [7, 307, 364, 366, 647, 672, 835],
+  "decidable": [19, 475, 506, 547, 551, 556, 580, 742, 848],
+  "falsifiable": [
+    23, 64, 97, 106, 107, 114, 128, 167, 242, 287, 375, 398, 458, 488,
+    548, 583, 617, 628, 699, 723, 743, 779, 982, 993, 1020, 1041, 1082
+  ],
+  "warning": "Membership is a routing signal, not evidence that a problem is open, tractable, or unclaimed. Campaign-touched and collision filters must still be applied."
+}

@@ -1,0 +1,80 @@
+{
+  "schema": "erdos583-n12-candidate-first-v1",
+  "scope": "non-exhaustive deterministic-seed random sample",
+  "seed": 58312026,
+  "limits": {
+    "accepted": 5,
+    "wall_seconds": 30.0,
+    "per_graph_ms": 5000
+  },
+  "elapsed_seconds": 15.16545057296753,
+  "generated": 10,
+  "accepted": 5,
+  "sat_with_independently_checked_decomposition": 4,
+  "unknown": 1,
+  "rejected": {
+    "3-degenerate": 1,
+    "disconnected": 1,
+    "even-degree-subgraph-max-degree-at-most-3": 3
+  },
+  "by_probability_and_status": {
+    "0.500:sat": 1,
+    "0.575:sat": 1,
+    "0.650:sat": 2,
+    "0.650:unknown": 1
+  },
+  "accepted_graph6_stream_sha256": "0c6757a1ee1bef8fc8422b351e466641b41b7da295c3189a91ca9658f7df8453",
+  "candidate": null,
+  "slowest": [
+    {
+      "graph6": "K}~nJluv?Ozx",
+      "p": 0.65,
+      "generator_seed": 16566448524145310920,
+      "edges": 42,
+      "even_vertices": 6,
+      "solve_seconds": 5.0188827000092715,
+      "status": "unknown",
+      "detail": "timeout"
+    },
+    {
+      "graph6": "KL^x|OIjcML^",
+      "p": 0.5,
+      "generator_seed": 2191499780764896272,
+      "edges": 37,
+      "even_vertices": 6,
+      "solve_seconds": 1.9085867000103462,
+      "status": "sat",
+      "detail": ""
+    },
+    {
+      "graph6": "Ke^^O\\yQ]~o}",
+      "p": 0.575,
+      "generator_seed": 700310265508149172,
+      "edges": 41,
+      "even_vertices": 8,
+      "solve_seconds": 1.2521989999950165,
+      "status": "sat",
+      "detail": ""
+    },
+    {
+      "graph6": "K^u}|zBOT^`~",
+      "p": 0.65,
+      "generator_seed": 1858346167115817590,
+      "edges": 43,
+      "even_vertices": 8,
+      "solve_seconds": 0.8852425999939442,
+      "status": "sat",
+      "detail": ""
+    },
+    {
+      "graph6": "KoNZ]~[tZcrF",
+      "p": 0.65,
+      "generator_seed": 16266784736639924993,
+      "edges": 40,
+      "even_vertices": 6,
+      "solve_seconds": 0.5932067999965511,
+      "status": "sat",
+      "detail": ""
+    }
+  ]
+}

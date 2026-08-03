@@ -1,0 +1,17 @@
+{
+  "schema": "erdos583-simple-path-search-v1",
+  "command": [
+    ".tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "-cq",
+    "7"
+  ],
+  "n": 7,
+  "bound": 4,
+  "elapsed_seconds": 0.5909481048583984,
+  "checked_graphs": 853,
+  "decomposed_graphs": 853,
+  "graph6_stream_prefix_sha256": "eca7b9f61b5f54fe98f23f8b4e2baf77be08cd392911e0655fc8b7a72640fae1",
+  "complete": true,
+  "counterexample": null,
+  "geng_stderr": ""
+}
