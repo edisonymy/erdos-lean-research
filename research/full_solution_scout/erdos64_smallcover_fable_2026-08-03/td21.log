@@ -1,0 +1,2 @@
+sigma=21 m=21 vars~43829 clauses=202945
+{"h": 21, "status": "UNSAT", "iters": 2, "blocked": {"16": 512}, "seconds": 352.23}
