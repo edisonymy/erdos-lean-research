@@ -1,0 +1,838 @@
+{
+  "schema": "erdos64-three-pole-composition-scan-v1",
+  "scope": "orders 4 through 22 exact hard-core (no edge-disjoint dyadic pair) records",
+  "inputs": [
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n04_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n06_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n08_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n10_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n12_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n14_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n16_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n18_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n20_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part0_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part1_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part2_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part3_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part4_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part5_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part6_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part7_dyadic_pair_structure.json"
+  ],
+  "input_sha256": {
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n04_dyadic_pair_structure.json": "a1ad59237079524cd127dc794ea5b0ff8b6a9ffc76df67b0069f622ae72c8608",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n06_dyadic_pair_structure.json": "b85beba3b623adea7de55c78b888f9cf0d2867730a1bfb7aea587900468e057d",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n08_dyadic_pair_structure.json": "5545ea79a56a9154a23fbec2171457b6c4f2c9ba53ae9efcdf8d86ce8e65921d",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n10_dyadic_pair_structure.json": "56ec0c2cefd69797d705a7563b907047d8568f9f4fe8f071ed5432c64b9eaabc",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n12_dyadic_pair_structure.json": "042957a5412bf1c39b9ee120f7c2e7b25ed31874bdac1de06efff5bcd334735c",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n14_dyadic_pair_structure.json": "47adfc505b8db179e7fa32d9300f825303245ac26060c08e5e0acdbe254d4bc2",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n16_dyadic_pair_structure.json": "db75fd1ac87b9c552d6be4107a5323e44ec6d70b2ab1ca0da492a04379ee311d",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n18_dyadic_pair_structure.json": "fedc5e254bd3061ff183fb99b737c82732ecf2ffd9c242d403a5072ce3d53a5c",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n20_dyadic_pair_structure.json": "0542a3fccc3256b9ef79834a4d6086ddcb7e2181dc90df241c3eb3d6248df6aa",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part0_dyadic_pair_structure.json": "6ca24b4643b8259b8e0da9feaa44f9351d9043f0465949b04685621ec4e21872",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part1_dyadic_pair_structure.json": "e57cc3f8a81f53086f388656c59b6b25e949f7a553669dc05d5d7c3082f75b99",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part2_dyadic_pair_structure.json": "2eeea4b7e34885c308895843de0c10e7f68cbd0604621a4fae6bf1ea24f3bba6",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part3_dyadic_pair_structure.json": "f1e8d17711ab33be93a248fce48d31fb1cb417bca038c70ed2add16e778013df",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part4_dyadic_pair_structure.json": "1a228d1961defa01695222021aacc8bae7af1a2604650f7bdd46f3514bb30b6f",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part5_dyadic_pair_structure.json": "b629144256779856ff2273cfffe1fecf69f18cd89f0f0a8ce8c9868b1c7b0dcd",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part6_dyadic_pair_structure.json": "ca2581b7be290d7929ad3b050f0e51381cd406cffbb295906970710a2d6dd096",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part7_dyadic_pair_structure.json": "f0d6dae26fd7a804a987ca8861e9bcc6196159a4b3d6aa51c0281f4e23fa13b4"
+  },
+  "stats": {
+    "source_graphs": 1389,
+    "source_dyadic_cycles_seen_until_vertex_core_decision": 13555,
+    "source_graphs_with_nonempty_dyadic_vertex_core": 4,
+    "candidate_vertex_deletions": 9,
+    "safe_poles": 9,
+    "safe_pole_order_3": 4,
+    "safe_pole_order_7": 4,
+    "safe_pole_order_15": 1,
+    "labelled_signatures": 4,
+    "canonical_signatures": 4,
+    "signature_pairs": 10,
+    "signature_pair_bijections": 60
+  },
+  "poles": [
+    {
+      "graph6": "C~",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n04_dyadic_pair_structure.json",
+      "physical_line": 1,
+      "deleted_vertex": 0,
+      "pole_order": 3,
+      "terminals": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "canonical_signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "graph6": "C~",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n04_dyadic_pair_structure.json",
+      "physical_line": 1,
+      "deleted_vertex": 1,
+      "pole_order": 3,
+      "terminals": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "canonical_signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "graph6": "C~",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n04_dyadic_pair_structure.json",
+      "physical_line": 1,
+      "deleted_vertex": 2,
+      "pole_order": 3,
+      "terminals": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "canonical_signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "graph6": "C~",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n04_dyadic_pair_structure.json",
+      "physical_line": 1,
+      "deleted_vertex": 3,
+      "pole_order": 3,
+      "terminals": [
+        0,
+        1,
+        2
+      ],
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "canonical_signature": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "graph6": "GCZJd_",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n08_dyadic_pair_structure.json",
+      "physical_line": 3,
+      "deleted_vertex": 2,
+      "pole_order": 7,
+      "terminals": [
+        3,
+        5,
+        6
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "canonical_signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "graph6": "GCZJd_",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n08_dyadic_pair_structure.json",
+      "physical_line": 3,
+      "deleted_vertex": 6,
+      "pole_order": 7,
+      "terminals": [
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "canonical_signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "graph6": "GCY^B_",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n08_dyadic_pair_structure.json",
+      "physical_line": 5,
+      "deleted_vertex": 1,
+      "pole_order": 7,
+      "terminals": [
+        3,
+        5,
+        6
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "canonical_signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "graph6": "GCY^B_",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n08_dyadic_pair_structure.json",
+      "physical_line": 5,
+      "deleted_vertex": 2,
+      "pole_order": 7,
+      "terminals": [
+        3,
+        5,
+        6
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "canonical_signature": [
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "graph6": "O?AA@?OaECK_F?AKAK@E?",
+      "source": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n16_dyadic_pair_structure.json",
+      "physical_line": 3843,
+      "deleted_vertex": 5,
+      "pole_order": 15,
+      "terminals": [
+        0,
+        10,
+        11
+      ],
+      "edges": [
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          14
+        ],
+        [
+          6,
+          13
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          13
+        ],
+        [
+          8,
+          12
+        ]
+      ],
+      "signature": [
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      ],
+      "canonical_signature": [
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      ]
+    }
+  ],
+  "candidate": null,
+  "complete": true
+}

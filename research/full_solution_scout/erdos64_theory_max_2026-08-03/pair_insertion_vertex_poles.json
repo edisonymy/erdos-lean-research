@@ -1,0 +1,33 @@
+{
+  "schema": "erdos64-pair-insertion-vertex-pole-scan-v1",
+  "scope": "all 340560 edge-pair insertions from all 645 order-22 width-three sources",
+  "inputs": [
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part0_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part1_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part2_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part3_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part4_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part5_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part6_dyadic_pair_structure.json",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part7_dyadic_pair_structure.json"
+  ],
+  "input_sha256": {
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part0_dyadic_pair_structure.json": "6ca24b4643b8259b8e0da9feaa44f9351d9043f0465949b04685621ec4e21872",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part1_dyadic_pair_structure.json": "e57cc3f8a81f53086f388656c59b6b25e949f7a553669dc05d5d7c3082f75b99",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part2_dyadic_pair_structure.json": "2eeea4b7e34885c308895843de0c10e7f68cbd0604621a4fae6bf1ea24f3bba6",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part3_dyadic_pair_structure.json": "f1e8d17711ab33be93a248fce48d31fb1cb417bca038c70ed2add16e778013df",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part4_dyadic_pair_structure.json": "1a228d1961defa01695222021aacc8bae7af1a2604650f7bdd46f3514bb30b6f",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part5_dyadic_pair_structure.json": "b629144256779856ff2273cfffe1fecf69f18cd89f0f0a8ce8c9868b1c7b0dcd",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part6_dyadic_pair_structure.json": "ca2581b7be290d7929ad3b050f0e51381cd406cffbb295906970710a2d6dd096",
+    "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos64_nonhamiltonian_cubic_max_2026-08-03\\cubic_n22_part7_dyadic_pair_structure.json": "f0d6dae26fd7a804a987ca8861e9bcc6196159a4b3d6aa51c0281f4e23fa13b4"
+  },
+  "stats": {
+    "operation_instances": 340560,
+    "dyadic_cycles_seen_until_decision": 1476869,
+    "labelled_signatures": 0,
+    "canonical_signatures": 0
+  },
+  "poles": [],
+  "candidate": null,
+  "complete": true
+}
