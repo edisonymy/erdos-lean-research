@@ -1,0 +1,41 @@
+{
+  "constraint_counts": {
+    "disjoint": 3025,
+    "down": 1024,
+    "star_order": 0,
+    "strict_gap": 8,
+    "subset": 256,
+    "upclosure": 0
+  },
+  "conventions": {
+    "A_upward_closed_in_F_by_maximal_extension": false,
+    "bare_definition_level_formulation": true,
+    "empty_in_A": false,
+    "empty_in_F": true,
+    "ground_union_exactly_8": true,
+    "singletons_in_A_excluded_losslessly": false,
+    "star_order_symmetry_break_lossless": false
+  },
+  "elapsed_seconds": 5.0153727531433105,
+  "engine": "OR-Tools CP-SAT",
+  "family_masks": null,
+  "parameters": {
+    "bare": true,
+    "out": "research\\full_solution_scout\\erdos701_n8_counterexample_max_2026-08-03\\cpsat_bare_smoke.json",
+    "seconds": 5.0,
+    "seed": 7010803,
+    "workers": 4
+  },
+  "schema": "erdos701-n8-cpsat-v1",
+  "solver": {
+    "branches": 60399,
+    "conflicts": 37020,
+    "response_stats": "CpSolverResponse summary:\nstatus: UNKNOWN\nobjective: 0\nbest_bound: 0\nintegers: 597\nbooleans: 492\nconflicts: 37020\nbranches: 60399\npropagations: 635018\ninteger_propagations: 2665330\nrestarts: 2734\nlp_iterations: 111333\nwalltime: 5.01125\nusertime: 5.01125\ndeterministic_time: 19.882\ngap_integral: 0\n",
+    "wall_time": 5.011251000000001
+  },
+  "star_sizes": null,
+  "status": "UNKNOWN_TIMEOUT",
+  "wall_time_limit_seconds": 5.0,
+  "witness_masks": null,
+  "witness_size": null
+}

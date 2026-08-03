@@ -1,0 +1,60 @@
+{
+  "constraint_counts": {
+    "disjoint": 3025,
+    "down": 1024,
+    "full_support": 8,
+    "gap_bound": 0,
+    "hamming_neighborhood": 1,
+    "maximality": 256,
+    "normal_form": 247,
+    "star_order": 7,
+    "strict_gap": 8,
+    "subset": 256,
+    "upclosure": 6050
+  },
+  "conventions": {
+    "A_upward_closed_in_F_by_maximal_extension": true,
+    "bare_definition_level_formulation": false,
+    "empty_in_A": false,
+    "empty_in_F": true,
+    "full_support_using_certified_n_le_7_result": true,
+    "ground_union_exactly_8": true,
+    "inclusion_maximal_witness": true,
+    "minimal_downclosure_normal_form": true,
+    "singletons_in_A_excluded_losslessly": true,
+    "star_order_symmetry_break_lossless": true
+  },
+  "elapsed_seconds": 180.05044054985046,
+  "engine": "OR-Tools CP-SAT",
+  "family_masks": null,
+  "minimum_star_gap": null,
+  "parameters": {
+    "bare": false,
+    "full_support": true,
+    "gap_floor": null,
+    "hint_near": true,
+    "maximality": true,
+    "near_model": "research\\full_solution_scout\\erdos701_n8_counterexample_max_2026-08-03\\cpsat_normal_fullsupport_opt_60s.json",
+    "normal_form": true,
+    "optimize_gap": false,
+    "out": "research\\full_solution_scout\\erdos701_n8_counterexample_max_2026-08-03\\cpsat_neighborhood_r33_96_180s.json",
+    "radius_max": 96,
+    "radius_min": 33,
+    "seconds": 180.0,
+    "seed": 7010843,
+    "workers": 4
+  },
+  "schema": "erdos701-n8-cpsat-v1",
+  "solver": {
+    "best_objective_bound": 0.0,
+    "branches": 3788870,
+    "conflicts": 1573128,
+    "response_stats": "CpSolverResponse summary:\nstatus: UNKNOWN\nobjective: 0\nbest_bound: 0\nintegers: 616\nbooleans: 485\nconflicts: 1573128\nbranches: 3788870\npropagations: 38623095\ninteger_propagations: 140924325\nrestarts: 56261\nlp_iterations: 0\nwalltime: 180.037\nusertime: 180.037\ndeterministic_time: 404.641\ngap_integral: 0\n",
+    "wall_time": 180.0370346
+  },
+  "star_sizes": null,
+  "status": "UNKNOWN_TIMEOUT",
+  "wall_time_limit_seconds": 180.0,
+  "witness_masks": null,
+  "witness_size": null
+}

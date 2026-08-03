@@ -1,0 +1,53 @@
+{
+  "schema": "erdos701-n8-prior-art-closure-manifest-v1",
+  "created": "2026-08-03T00:00:00+01:00",
+  "status": "CLOSED_PRIOR_ART_COLLISION_N8",
+  "manifest_self_hash": "excluded_by_design",
+  "claim_boundary": "No counterexample, no new n=8 proof, and no full Erdős #701 solution.",
+  "primary_sources": [
+    {
+      "title": "Algorithms and Certificates for Exact Mixed Integer Programming",
+      "author": "Leon Eifler",
+      "year": 2025,
+      "doi": "10.14279/depositonce-23941",
+      "url": "https://depositonce.tu-berlin.de/items/93bbd38c-2f50-47ed-9aaa-88428406cc67"
+    },
+    {
+      "title": "A Safe Computational Framework for Integer Programming applied to Chvatal's Conjecture",
+      "authors": ["Leon Eifler", "Ambros Gleixner", "Jonad Pulaj"],
+      "year": 2018,
+      "url": "https://arxiv.org/abs/1809.01572"
+    },
+    {
+      "title": "Erdos Problems #701",
+      "url": "https://www.erdosproblems.com/701"
+    }
+  ],
+  "files": [
+    {"path": "CLOSURE.md", "bytes": 865, "sha256": "1557d05f0ea410d17f5158d6189a28ceb69d5ef0e073672a17ebaa4afda5512b"},
+    {"path": "PRIOR_ART.md", "bytes": 4137, "sha256": "008e5afa54c0aa0e89a07c88d4cb99dbd707547ad21e7e62a3a6ec25daba302e"},
+    {"path": "REPORT.md", "bytes": 5170, "sha256": "4cba74244074a7225f3bdfddd3c79851175d999d9a781a358ddac9eed889e104"},
+    {"path": "cpsat_60s.json", "bytes": 1243, "sha256": "d4eccc02d60d2e4c5509b70009dcc5bf7edba159096d604972d15b0abbee47ae"},
+    {"path": "cpsat_bare_600s.json", "bytes": 1394, "sha256": "f7fe511254c7ce896660c05a7691d28570cf87cf0ef7864e7f4f8fee3b847263"},
+    {"path": "cpsat_bare_smoke.json", "bytes": 1380, "sha256": "ee09dcd4a620bc1505ea62e3609ef674f8a24c6e35288d1031abd47df874d5fa"},
+    {"path": "cpsat_neighborhood_r1_8_180s.json", "bytes": 2012, "sha256": "4261dbb9b681a4a747301e279888c9aebbe3fe84073821a68a1e543f35cc686d"},
+    {"path": "cpsat_neighborhood_r9_32_180s.json", "bytes": 2031, "sha256": "b4669ddd0d0922b6c342606182d39d7624b7c9b86712a76feebe0ce86545b3ff"},
+    {"path": "cpsat_neighborhood_r33_96_180s.json", "bytes": 2050, "sha256": "47bfc4d2cb073da27787737119b8f99f4a278b34a08de2da9f120411e75d0e27"},
+    {"path": "cpsat_normal_fullsupport_opt_60s.json", "bytes": 4772, "sha256": "293f0cd20f9ceff6d23b5a3a75e08e4f2f161c3fbc1812051e34ce2e7dea07cb"},
+    {"path": "cpsat_normal_opt_30s.json", "bytes": 1856, "sha256": "f064600c5f167203c0a4301df16f6bfb66fd1c43af6b6568dd2e43ef4548493d"},
+    {"path": "cpsat_normal_smoke.json", "bytes": 1674, "sha256": "8fb9f39364b6c7db7d8d35fe8e96aec09932b2bcc7b1e2b7d0739e66d5a40046"},
+    {"path": "equality_nearmiss_exact_audit.json", "bytes": 2443, "sha256": "854063e72f5f41f2640d9b0c4673d0f4ad16e84ab4449c9562d9ca7ba520b010"},
+    {"path": "facet_rc2_30s.json", "bytes": 4952, "sha256": "2f600afcc7105643ce1e6701a5f86ac8b57d065c82fd0b67134991a9a4f0d575"},
+    {"path": "heuristic_facets_rc2.py", "bytes": 5715, "sha256": "d988232c63f3885b37210db15000c066db60730137bc755a671e547f4135f1e7"},
+    {"path": "root_verify_equality_rc2.py", "bytes": 4013, "sha256": "f82f4bf4500fbec248c924799c04007eac6bf2de9ddacf00806eb7dd00b55dba"},
+    {"path": "root_verify_equality_rc2.result.json", "bytes": 2049, "sha256": "3a84be754b7172940f509221c2654b828d56611cdf6ae20a7051115de5d5eee7"},
+    {"path": "search_cpsat.py", "bytes": 9605, "sha256": "1b4c10e3da06044668b5bd378bf68dd98c09aef3a201cf1c5d1707fcc0120437"},
+    {"path": "search_z3.py", "bytes": 6311, "sha256": "3c9ae1ff835f6b0bec80d47fa859bcb5fcc75bba5273c9e9bc41d9e6a50926bd"},
+    {"path": "verify_candidate.py", "bytes": 1379, "sha256": "d14b1ada6884fb987fe18f8070abb2decafc19b0eb93addac698eeae9b82708f"},
+    {"path": "verify_fixed_family_cpsat.py", "bytes": 4051, "sha256": "b7d63fc619c2068db87d9c9897839345ac9ab16e66c2a02ca1914cb83769e2ee"},
+    {"path": "z3_60s.json", "bytes": 1776, "sha256": "aa12ae5c947374d0844b6e8ad70d1fd91c5901abfa710812de534ad615e6d34a"},
+    {"path": "z3_bare_600s.json", "bytes": 2013, "sha256": "99206e5bf39d8d3c31ac85210eba2978c7f61536433330ef89fdc3636ce2e49a"},
+    {"path": "z3_bare_smoke.json", "bytes": 1797, "sha256": "d6f43dc00b63adc4cd4a2f39748e243581dcbf989d08f897deec291795e39c53"},
+    {"path": "z3_normal_smoke.json", "bytes": 2074, "sha256": "60a0fe392fdd8b64f1ef041b504044f01ee96ff561b85bc9543a04920fa17d57"}
+  ]
+}

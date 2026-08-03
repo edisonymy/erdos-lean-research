@@ -58,6 +58,9 @@ research/full_solution_scout/erdos151_folkman_spectral_max_2026-08-03/** -text
 research/full_solution_scout/erdos628_n11_doublecritical_max_2026-08-03/** -text
 research/full_solution_scout/erdos151_non_cayley_folkman_max_2026-08-03/** -text
 research/full_solution_scout/erdos701_n8_counterexample_max_2026-08-03/** -text
+research/full_solution_scout/erdos701_pbsat_max_2026-08-03/** -text
+research/full_solution_scout/erdos561_nonuniform_counterexample_max_2026-08-03/** -text
+research/full_solution_scout/erdos151_triangle_propertyb_max_2026-08-03/** -text
 
 # Reproducible Windows DRAT/LRAT checker build and validation records.
 tools/proof_checkers/windows_drat/** text eol=lf

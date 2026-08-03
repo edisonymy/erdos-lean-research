@@ -1,0 +1,27 @@
+{
+  "schema": "erdos701-pbsat-manifest-v1",
+  "created_at": "2026-08-03T06:54:14+01:00",
+  "status": "PRIOR_ART_COLLISION",
+  "files": {
+    "REPORT.md": {
+      "bytes": 4011,
+      "sha256": "5cdc6083c85d61238c5a3b82e39be1553bb5e22bb1b63d17437a3cdd1b51ad61"
+    },
+    "STOP_RECORD.json": {
+      "bytes": 1445,
+      "sha256": "ef8570891e86d389e217ba467adb18548e7a43d7d1b1bb500b15ea68191f64ea"
+    },
+    "search_minicard.py": {
+      "bytes": 13481,
+      "sha256": "1f2ef71b10109efa7112216603fb9be270157234c64f005c8f0bcb7bac9de934"
+    },
+    "verify_independent.py": {
+      "bytes": 2698,
+      "sha256": "edc0d2493829f434ff76d9a67ababda6fbb83cea2319d8cec978f440b2ea1ea5"
+    }
+  },
+  "excluded": [
+    "MANIFEST.json"
+  ],
+  "claim_boundary": "No SAT, UNSAT, novelty, or Erdős #701 resolution claim"
+}

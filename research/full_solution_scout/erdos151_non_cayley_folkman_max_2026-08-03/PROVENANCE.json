@@ -1,0 +1,64 @@
+{
+  "retrieved_utc_date": "2026-08-03",
+  "primary_paper": {
+    "authors": [
+      "Zohair Raza Hassan",
+      "Stanislaw Radziszowski",
+      "Steven Van Overberghe"
+    ],
+    "title": "On Small Folkman Graphs Arrowing K2 or K3",
+    "arxiv_id": "2605.16542v1",
+    "abstract_url": "https://arxiv.org/abs/2605.16542v1",
+    "source_url": "https://export.arxiv.org/e-print/2605.16542",
+    "source_tar_sha256": "5d4f5f8c42a7d2d43c5b61af7e747f8fb228c647dda7dcc5517d4f58240b5a76",
+    "main_tex_sha256": "6aae49c56e6edd4c29550c01995c01a6bbd09a00d8d626a92641a0baade63b02"
+  },
+  "graph_source": {
+    "site": "House of Graphs",
+    "api_url": "https://houseofgraphs.org/api/download_graph",
+    "request_shape": {
+      "method": "POST",
+      "content_type": "application/json",
+      "body_template": {
+        "graphId": "<HoG ID>",
+        "format": "Graph6",
+        "searchConditions": null
+      }
+    },
+    "graphs": {
+      "51171": {
+        "page": "https://houseofgraphs.org/graphs/51171",
+        "file": "HoG_51171.g6",
+        "sha256": "a2c594773f028fb95c03fcd21f06d1225f8a4a19c5e971e1d9341a42f849d9a0",
+        "paper_role": "43-vertex edge-arrowing (3,3) witness avoiding J5"
+      },
+      "51177": {
+        "page": "https://houseofgraphs.org/graphs/51177",
+        "file": "HoG_51177.g6",
+        "sha256": "7e84935c87d2196422a243aff3e8ce708b6f84ad28c2643de919292c4ab5712c",
+        "paper_role": "63-vertex vertex-arrowing (3,3) C4-free witness; not claimed edge-arrowing"
+      },
+      "51288": {
+        "page": "https://houseofgraphs.org/graphs/51288",
+        "file": "HoG_51288.g6",
+        "sha256": "0b6a6d51d93b203ebbbed0ae142e624a1ab2945ca9ace61eb350d3a1cf78697b",
+        "paper_role": "11-vertex edge-arrowing (3,3) witness avoiding J6"
+      }
+    }
+  },
+  "ramsey_sources": {
+    "R_3_10_upper": {
+      "claim": "R(3,10) <= 41",
+      "url": "https://arxiv.org/abs/2401.00392"
+    },
+    "current_survey": {
+      "title": "Small Ramsey Numbers",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1"
+    }
+  },
+  "status_sources": {
+    "erdos_151": "https://www.erdosproblems.com/151",
+    "fresh_search_date": "2026-08-03",
+    "fresh_search_result": "No public solution or claimed resolution found; negative search evidence only."
+  }
+}

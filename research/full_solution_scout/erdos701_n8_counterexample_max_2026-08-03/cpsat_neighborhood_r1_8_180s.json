@@ -1,0 +1,60 @@
+{
+  "constraint_counts": {
+    "disjoint": 3025,
+    "down": 1024,
+    "full_support": 8,
+    "gap_bound": 0,
+    "hamming_neighborhood": 1,
+    "maximality": 256,
+    "normal_form": 247,
+    "star_order": 7,
+    "strict_gap": 8,
+    "subset": 256,
+    "upclosure": 6050
+  },
+  "conventions": {
+    "A_upward_closed_in_F_by_maximal_extension": true,
+    "bare_definition_level_formulation": false,
+    "empty_in_A": false,
+    "empty_in_F": true,
+    "full_support_using_certified_n_le_7_result": true,
+    "ground_union_exactly_8": true,
+    "inclusion_maximal_witness": true,
+    "minimal_downclosure_normal_form": true,
+    "singletons_in_A_excluded_losslessly": true,
+    "star_order_symmetry_break_lossless": true
+  },
+  "elapsed_seconds": 0.31951904296875,
+  "engine": "OR-Tools CP-SAT",
+  "family_masks": null,
+  "minimum_star_gap": null,
+  "parameters": {
+    "bare": false,
+    "full_support": true,
+    "gap_floor": null,
+    "hint_near": true,
+    "maximality": true,
+    "near_model": "research\\full_solution_scout\\erdos701_n8_counterexample_max_2026-08-03\\cpsat_normal_fullsupport_opt_60s.json",
+    "normal_form": true,
+    "optimize_gap": false,
+    "out": "research\\full_solution_scout\\erdos701_n8_counterexample_max_2026-08-03\\cpsat_neighborhood_r1_8_180s.json",
+    "radius_max": 8,
+    "radius_min": 1,
+    "seconds": 180.0,
+    "seed": 7010841,
+    "workers": 4
+  },
+  "schema": "erdos701-n8-cpsat-v1",
+  "solver": {
+    "best_objective_bound": 0.0,
+    "branches": 292,
+    "conflicts": 1,
+    "response_stats": "CpSolverResponse summary:\nstatus: INFEASIBLE\nobjective: NA\nbest_bound: NA\nintegers: 158\nbooleans: 146\nconflicts: 1\nbranches: 292\npropagations: 1344\ninteger_propagations: 5034\nrestarts: 292\nlp_iterations: 204\nwalltime: 0.306396\nusertime: 0.306396\ndeterministic_time: 0.0278384\ngap_integral: 0\n",
+    "wall_time": 0.3063961
+  },
+  "star_sizes": null,
+  "status": "UNSAT",
+  "wall_time_limit_seconds": 180.0,
+  "witness_masks": null,
+  "witness_size": null
+}

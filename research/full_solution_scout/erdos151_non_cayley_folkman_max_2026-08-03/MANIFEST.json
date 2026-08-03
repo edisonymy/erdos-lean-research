@@ -1,0 +1,73 @@
+{
+  "files": [
+    {
+      "bytes": 1632,
+      "path": "BOUNDED_CORE_ATTEMPT.json",
+      "role": "machine-readable resource gate",
+      "sha256": "b419ff34d83a7176337a18341b8abe4d3c90a3a18ecf7f76a1e8496729ffbf43"
+    },
+    {
+      "bytes": 153,
+      "path": "HoG_51171.g6",
+      "role": "43-vertex published edge-arrowing seed",
+      "sha256": "a2c594773f028fb95c03fcd21f06d1225f8a4a19c5e971e1d9341a42f849d9a0"
+    },
+    {
+      "bytes": 331,
+      "path": "HoG_51177.g6",
+      "role": "63-vertex published vertex-arrowing seed",
+      "sha256": "7e84935c87d2196422a243aff3e8ce708b6f84ad28c2643de919292c4ab5712c"
+    },
+    {
+      "bytes": 12,
+      "path": "HoG_51288.g6",
+      "role": "11-vertex published edge-arrowing seed",
+      "sha256": "0b6a6d51d93b203ebbbed0ae142e624a1ab2945ca9ace61eb350d3a1cf78697b"
+    },
+    {
+      "bytes": 2305,
+      "path": "PROVENANCE.json",
+      "role": "primary-source URLs and retrieval hashes",
+      "sha256": "8505287f99c178f4898a7311b2866efebcb0f48ba18651afe07e91294fa5320d"
+    },
+    {
+      "bytes": 6483,
+      "path": "REPORT.md",
+      "role": "human-readable outcome and claim boundary",
+      "sha256": "42102b8789f4f41e7947ccb23ab4f521cdeb3db057331bbce131260c46329ee5"
+    },
+    {
+      "bytes": 15512,
+      "path": "audit_literature_seeds.py",
+      "role": "independent exact seed audit",
+      "sha256": "9173057001cd89f40183283cf745564e9d75bfeb79e8b65713990ed134e237bf"
+    },
+    {
+      "bytes": 23066,
+      "path": "audit_literature_seeds.result.json",
+      "role": "canonical audit output",
+      "sha256": "e93594a9c15e50303dc2cf5f956c5eecdc01ab8eccc8c4c54d2b1ce45aa8c919"
+    },
+    {
+      "bytes": 2543,
+      "path": "make_manifest.py",
+      "role": "this manifest generator",
+      "sha256": "bfe60a3a495a1c029b62b83a05778bd9666388516f830810b4a0b9a336e4fd46"
+    },
+    {
+      "bytes": 11694,
+      "path": "minimize_hog51171.py",
+      "role": "bounded UNSAT-core/edge-minimization implementation",
+      "sha256": "be354888dac8fe0ec592b3504160865329a210dcbac6af36edd19387a877e0b5"
+    }
+  ],
+  "headline_checks": [
+    "HoG 51171: exact beta=25, H(43)=10, published edge-arrowing claim",
+    "HoG 51177: exact beta=37 and independently non-edge-arrowing",
+    "HoG 51288: exact beta=10 and independently edge-arrowing",
+    "All 43 vertex deletions of HoG 51171 independently nonarrowing",
+    "No full or one-away Erdos #151 candidate"
+  ],
+  "schema": "erdos151-noncayley-folkman-package-manifest-v1",
+  "status": "KILL_DEMOTE_NO_CANDIDATE"
+}

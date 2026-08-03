@@ -1,0 +1,45 @@
+{
+  "schema": "erdos151-hog51171-bounded-core-attempt-v1",
+  "date": "2026-08-03",
+  "source_graph": "HoG_51171.g6",
+  "source_parameters": {
+    "n": 43,
+    "m": 440,
+    "minimum_degree": 18,
+    "maximum_degree": 23,
+    "beta": 25,
+    "H_n": 10,
+    "counterexample_beta_ceiling": 9
+  },
+  "method": "Activate the two NAE clauses for each triangle, extract an UNSAT triangle core, take its edge union, then greedily delete edges while exact edge-arrowing persists.",
+  "bounded_source_arrowing_replays": [
+    {
+      "solver": "CaDiCaL 1.9.5",
+      "limit_seconds": 60,
+      "status": "TIMEOUT",
+      "conclusion": "NONE"
+    },
+    {
+      "solver": "Kissat 4.0.4",
+      "limit_seconds": 120,
+      "status": "TIMEOUT",
+      "conclusion": "NONE"
+    }
+  ],
+  "core_emitted": false,
+  "candidate_emitted": false,
+  "degree_gate": {
+    "required_maximum_degree": 9,
+    "sum_degree_excess_above_9": 493,
+    "minimum_edge_deletions_needed_even_if_every_deleted_edge_removes_two_excess_units": 247
+  },
+  "vertex_deletion_gate": {
+    "tested_vertex_deletions": 43,
+    "nonarrowing_count_cadical195": 43,
+    "nonarrowing_count_glucose4": 43,
+    "status": "EXHAUSTED"
+  },
+  "decision": "KILL_DEMOTE",
+  "decision_reason": "The exact source beta is 25 versus the required 9, the degree gate alone requires at least 247 edge deletions, every one-vertex deletion loses arrowing, and no first arrowing core completed within the bounded pulse.",
+  "claim_boundary": "This does not prove that no edge-deleted subgraph of HoG 51171 is a counterexample. It is a resource-allocation gate, not an exhaustive subgraph result."
+}

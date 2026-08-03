@@ -1,0 +1,42 @@
+{
+  "schema": "erdos701-pbsat-stop-record-v1",
+  "status": "PRIOR_ART_COLLISION",
+  "stopped_at": "2026-08-03T06:54:14+01:00",
+  "scope": "ground set n=8 only",
+  "solver_result": null,
+  "candidate": null,
+  "claims": {
+    "sat": false,
+    "unsat": false,
+    "novel_order_8_result": false,
+    "full_erdos_701_resolution": false
+  },
+  "attempted_smoke": {
+    "threshold_k": 106,
+    "requested_seconds": 2,
+    "formula_built": true,
+    "formula_primary_variables": 512,
+    "ordinary_clauses": 4834,
+    "native_atmost_constraints": 16,
+    "terminal_status": "MANUALLY_STOPPED_NO_RESULT",
+    "result_file_created": false,
+    "reason": "MiniCard asynchronous interrupt was ineffective; exact launched process was stopped after identification"
+  },
+  "priority_source": {
+    "author": "Leon Eifler",
+    "title": "Algorithms and Certificates for Exact Mixed Integer Programming",
+    "institution": "Technische Universitaet Berlin",
+    "year": 2025,
+    "url": "https://d-nb.info/1370379641/34",
+    "claim": "exact SCIP solved Pred(8); dissertation describes this as proving Chvatal's conjecture through ground-set size 8",
+    "runtime_seconds_reported": 450000,
+    "vipr_certificate_emitted": false,
+    "certificate_note": "dissertation estimates size above 1 TB"
+  },
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.4",
+    "python_sat": "1.9.dev7",
+    "minicard_backend_loaded": true
+  }
+}

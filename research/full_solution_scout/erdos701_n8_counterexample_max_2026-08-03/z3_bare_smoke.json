@@ -1,0 +1,63 @@
+{
+  "constraint_counts": {
+    "disjoint": 3025,
+    "down": 6305,
+    "star_order": 0,
+    "strict_gap": 8,
+    "subset": 256,
+    "upclosure": 0
+  },
+  "conventions": {
+    "A_upward_closed_in_F_by_maximal_extension": false,
+    "bare_definition_level_formulation": true,
+    "empty_in_A": false,
+    "empty_in_F": true,
+    "ground_union_exactly_8": true,
+    "singletons_in_A_excluded_losslessly": false,
+    "star_order_symmetry_break_lossless": false
+  },
+  "elapsed_seconds": 5.066236734390259,
+  "engine": "Z3 SMT",
+  "family_masks": null,
+  "parameters": {
+    "bare": true,
+    "out": "research\\full_solution_scout\\erdos701_n8_counterexample_max_2026-08-03\\z3_bare_smoke.json",
+    "seconds": 5,
+    "seed": 17010803
+  },
+  "reason_unknown": "timeout",
+  "schema": "erdos701-n8-z3-v1",
+  "solver_statistics": {
+    "max memory": "343.7",
+    "memory": "129.09",
+    "num allocs": "7025645013.0",
+    "random seed": "17010803",
+    "rlimit count": "26963298",
+    "sat backjumps": "10378",
+    "sat conflicts": "10378",
+    "sat decisions": "16532",
+    "sat del clause": "14388",
+    "sat elim bool vars res": "4715",
+    "sat elim literals": "17",
+    "sat minimized lits": "426182",
+    "sat mk clause 2ary": "123474",
+    "sat mk clause 3ary": "11202",
+    "sat mk clause nary": "160501",
+    "sat mk var": "51545",
+    "sat propagations 2ary": "8083471",
+    "sat propagations nary": "10435922",
+    "sat restarts": "1353",
+    "sat scc elim binary": "4092",
+    "sat scc elim vars": "1",
+    "sat subs resolution": "17",
+    "sat subs resolution dyn": "21738",
+    "sat subsumed": "3277",
+    "solve-eqs-elim-vars": "16",
+    "solve-eqs-steps": "16",
+    "time": "5.065"
+  },
+  "star_sizes": null,
+  "status": "UNKNOWN_TIMEOUT",
+  "witness_masks": null,
+  "witness_size": null
+}
