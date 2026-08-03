@@ -1,0 +1,68 @@
+{
+  "catalogue": {
+    "bytes": 16915311,
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\15_m30_4regular.g6",
+    "records": 805491,
+    "records_checked": 805491,
+    "sha256": "801cbd1a228a91dc994fab3cc6e90f6e9cf36e21b6b2c581ad79250378622545"
+  },
+  "claim_boundary": "Ten disjoint compatibility pairs save ten colours from 30; this covers only the connected 4-regular order-15 catalogue.",
+  "elapsed_seconds": 55.69192880002083,
+  "failures": [],
+  "first_witness": {
+    "graph6": "N???EBoyEKEgEoJ_Bo?",
+    "index": 0,
+    "matching": [
+      [
+        0,
+        22
+      ],
+      [
+        1,
+        23
+      ],
+      [
+        2,
+        16
+      ],
+      [
+        3,
+        19
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        10,
+        14
+      ]
+    ],
+    "method": "low_first"
+  },
+  "methods": {
+    "blossom": 0,
+    "high_first": 1,
+    "low_first": 805490
+  },
+  "required_compatibility_matching": 10,
+  "schema": "erdos149-n15-regular-v1",
+  "scope": "All connected 4-regular graphs on 15 vertices in the pinned geng catalogue.",
+  "status": "VERIFIED"
+}

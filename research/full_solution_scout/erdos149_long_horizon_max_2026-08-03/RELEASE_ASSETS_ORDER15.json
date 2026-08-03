@@ -1,0 +1,12 @@
+{
+  "schema": "erdos149-order15-release-assets-v1",
+  "release_tag": "erdos149-order15-2026-08-03",
+  "asset": {
+    "name": "erdos149-order13-15-catalogues.zip",
+    "bytes": 14672251,
+    "sha256": "833d3fdd6fedee72b37dda566b495a423333246187ee5671e0242b734d8b5f88",
+    "url": "https://github.com/edisonymy/erdos-lean-research/releases/download/erdos149-order15-2026-08-03/erdos149-order13-15-catalogues.zip"
+  },
+  "contents": "Five complete catalogues for the order-13 through order-15 slices, preserving repository-relative paths. The order-15 nonregular slice uses the proved theta-core enumeration and needs no global catalogue.",
+  "claim_boundary": "Catalogue archive for a bounded order-at-most-15 theorem only; not a resolution of Erdos problem 149."
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "erdos149-order15-combined-certification-v1",
+  "date": "2026-08-03",
+  "claim": "Every finite simple graph G with |V(G)| <= 15 and Delta(G) <= 4 has chi(L(G)^2) <= 20.",
+  "claim_boundary": "Bounded theorem only. This does not resolve Erdos problem 149 and is not a public novelty claim.",
+  "target_lock": {
+    "path": "TARGET_LOCK.md",
+    "bytes": 1111,
+    "sha256": "f623f41a1257bc07e9865c0cca68f80173e2bc6230f0009c0babc947dd82fad8"
+  },
+  "theorem_document": {
+    "path": "ORDER15_THEOREM.md",
+    "bytes": 3262,
+    "sha256": "6b4f869a0d4945fbf46653052ee6efbb81fdcd3571ef962716fdf5385a69dde3"
+  },
+  "order14_dependency": {
+    "theorem": {
+      "path": "ORDER14_THEOREM.md",
+      "bytes": 3287,
+      "sha256": "ab9b11841680762306901f1c40788cdd1d248c9d8ce7293a5f9c82181dbfadc2"
+    },
+    "certification": {
+      "path": "CERTIFICATION_ORDER14.json",
+      "bytes": 4052,
+      "sha256": "bef9d7e01ad95735cff2882a9fb07f8cbb2a4c9947654685e5cf84ab60634ce7"
+    },
+    "meta_audit": {
+      "path": "order14_certification_audit.json",
+      "bytes": 3761,
+      "sha256": "eb125da4eeb787fcbe77210006418a965132100b49a2a4264903c2cbc05868dc",
+      "status": "VERIFIED"
+    }
+  },
+  "structural_reduction": {
+    "general_degree_three_lemma": {
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "bytes": 4037,
+      "sha256": "95023312e6ff9fdc5670d63353b0708ef4835a44ed819c390d623e06cffabbda"
+    },
+    "theta_core_proof": {
+      "path": "N15_THETA_CORE_REDUCTION.md",
+      "bytes": 3890,
+      "sha256": "9d7131e91fa138811491e41b872bdea79ed85d04a18f5fea3a6fa96fb5228d6a"
+    },
+    "order15_consequence": "The packing bound leaves m=29 or 30. For m=29, the two degree-three radius-two balls force a U-W matching of size 2 or 3 and a seven-vertex completion."
+  },
+  "catalogue_generator": {
+    "name": "nauty geng",
+    "package_version": "2.6.11",
+    "package_build": "h2fa13f4_1",
+    "binary_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "package_archive_sha256": "48155aab7b379a3fe4e765592dfe39b91cf7f20134d19dc1172258fbc633b504"
+  },
+  "m29_two_degree_three": {
+    "global_count_only_measurement": {
+      "command": "geng -c -d3 -D4 -u 15 29",
+      "connected_graphs": 27618606,
+      "role": "scale measurement only; not used as a theorem dependency"
+    },
+    "primary_checker": {
+      "path": "n15_theta_core_search.py",
+      "bytes": 9364,
+      "sha256": "2561e77580b10ac3c2a3762543ac4f3847c601e012ee0f0f55698023fc1fe36d"
+    },
+    "primary_result": {
+      "path": "n15_theta_core_result.json",
+      "bytes": 3588,
+      "sha256": "7322573ea23615d0927060574fa220fe7e2a64717d343f8a56992846d6e2f6c8",
+      "status": "VERIFIED",
+      "r2_incidence_patterns": 55,
+      "r2_completions": 492,
+      "r3_incidence_patterns": 94,
+      "r3_completions": 4764,
+      "completions_with_nine_pairs": 5256,
+      "failures": 0
+    },
+    "fresh_checker": {
+      "path": "audit_n15_theta_core.py",
+      "bytes": 7287,
+      "sha256": "1a4fcf827969571374e783a073c6d48d65aa8b0139e2aef2b83cdf7b6655672c"
+    },
+    "fresh_result": {
+      "path": "n15_theta_core_fresh_audit.json",
+      "bytes": 1513,
+      "sha256": "45b1c63f9eeee76049e24b5ef73e05c67235a48cac8a67cbb4936c6382a8dad8",
+      "status": "VERIFIED",
+      "completions_with_reverse_nine_pairs": 5256,
+      "failures": 0
+    }
+  },
+  "m30_4regular": {
+    "catalogue": {
+      "path": "15_m30_4regular.g6",
+      "generator_command": "geng -q -c -d4 -D4 15 30 15_m30_4regular.g6",
+      "records": 805491,
+      "bytes": 16915311,
+      "sha256": "801cbd1a228a91dc994fab3cc6e90f6e9cf36e21b6b2c581ad79250378622545"
+    },
+    "primary_checker": {
+      "path": "verify_n15_regular.py",
+      "bytes": 5033,
+      "sha256": "f7dc0f2f72fe154394b4634c4791ef6e5e5d97790e795d0e177f5bf5aeaf7df7"
+    },
+    "primary_result": {
+      "path": "n15_regular_result.json",
+      "bytes": 1399,
+      "sha256": "d316999c2494a728d983d2d3b03c5cdefd5ef31d28e60f1cec971861d9776ab6",
+      "status": "VERIFIED",
+      "low_first_ten_pairs": 805490,
+      "high_first_ten_pairs": 1,
+      "blossom_fallbacks": 0,
+      "failures": 0
+    },
+    "fresh_checker": {
+      "path": "audit_n15_regular.py",
+      "bytes": 4505,
+      "sha256": "2a0c263b91e6e586bfdec17b7a4e9ca91f8a87d7d992a35ff65dbd7f100184f2"
+    },
+    "fresh_result": {
+      "path": "n15_regular_fresh_audit.json",
+      "bytes": 832,
+      "sha256": "27c69c2e1b07aa6e1b06fe78722bbe13c98f5e2f671c81daeadd5de509e2620b",
+      "status": "VERIFIED",
+      "records_with_reverse_ten_pairs": 805491,
+      "networkx_parser_samples": 257,
+      "parser_mismatches": 0,
+      "geng_count": 805491,
+      "failures": 0
+    }
+  }
+}

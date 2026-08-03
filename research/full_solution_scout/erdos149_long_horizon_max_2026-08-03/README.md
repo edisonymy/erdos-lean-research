@@ -1,10 +1,9 @@
 # Erdos #149 long-horizon lane
 
 This directory contains the independently audited completion of the
-maximum-degree-four, order-at-most-14 case of the strong edge-colouring
+maximum-degree-four, order-at-most-15 case of the strong edge-colouring
 conjecture. The strongest exact statement and reduction are in
-`ORDER14_THEOREM.md`; the order-12 and order-13 dependency steps are retained
-separately.
+`ORDER15_THEOREM.md`; the earlier dependency steps are retained separately.
 
 This is a bounded theorem, not a complete resolution of Erdos problem #149
 and not a novelty claim.
@@ -43,9 +42,9 @@ with the pinned native checker at
 can first be verified and converted using the pinned toolchain recorded in
 `CERTIFICATION.json`.
 
-The four complete catalogues used at orders 13 and 14 are at:
+The five complete catalogues used at orders 13 through 15 are at:
 
-<https://github.com/edisonymy/erdos-lean-research/releases/download/erdos149-order14-2026-08-03/erdos149-order13-14-catalogues.zip>
+<https://github.com/edisonymy/erdos-lean-research/releases/download/erdos149-order15-2026-08-03/erdos149-order13-15-catalogues.zip>
 
 Extract that archive at the repository root. It installs the catalogues at
 the paths hashed in `CERTIFICATION_ORDER13.json` and
@@ -56,7 +55,10 @@ the paths hashed in `CERTIFICATION_ORDER13.json` and
 .\.venv\Scripts\python.exe research/full_solution_scout/erdos149_order13_root_audit_2026-08-03/audit_order13_independent.py --package research/full_solution_scout/erdos149_long_horizon_max_2026-08-03 --geng .tmp/nauty-env/Library/bin/geng.exe --labelg .tmp/nauty-env/Library/bin/labelg.exe --output .tmp/order13-root-replay.json
 .\.venv\Scripts\python.exe research/full_solution_scout/erdos149_long_horizon_max_2026-08-03/audit_order14_certification.py
 .\.venv\Scripts\python.exe research/full_solution_scout/erdos149_order14_root_audit_2026-08-03/audit_order14_independent.py --package research/full_solution_scout/erdos149_long_horizon_max_2026-08-03 --geng .tmp/nauty-env/Library/bin/geng.exe --output .tmp/order14-root-replay.json
+.\.venv\Scripts\python.exe research/full_solution_scout/erdos149_long_horizon_max_2026-08-03/audit_order15_certification.py
+.\.venv\Scripts\python.exe research/full_solution_scout/erdos149_order15_root_audit_2026-08-03/audit_order15_independent.py --package research/full_solution_scout/erdos149_long_horizon_max_2026-08-03 --geng .tmp/nauty-env/Library/bin/geng.exe --output .tmp/order15-root-replay.json
 ```
 
 The root replays regenerate the complete catalogues and use third matching
-algorithms. `RELEASE_ASSETS_ORDER14.json` records the archive hash and size.
+algorithms. `RELEASE_ASSETS_ORDER15.json` records the current archive hash
+and size.

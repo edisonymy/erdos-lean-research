@@ -1,0 +1,272 @@
+{
+  "certified_matching_lower_bound_distribution": {
+    "9": 5256
+  },
+  "claim_boundary": "The core reduction is mathematical; this search covers its finite labelled completion space only. Nine compatibility pairs save nine colours from 29.",
+  "counts": {
+    "r2_internal_completions": 492,
+    "r2_w_partitions": 55,
+    "r3_internal_completions": 4764,
+    "r3_w_partitions": 94
+  },
+  "elapsed_seconds": 0.383263200026704,
+  "failures": [],
+  "first_witness": {
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        4,
+        14
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        10,
+        14
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        11,
+        14
+      ]
+    ],
+    "internal": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "matching": [
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        12,
+        15
+      ],
+      [
+        13,
+        17
+      ],
+      [
+        14,
+        18
+      ]
+    ],
+    "r": 2,
+    "u_blocks": [
+      [
+        8,
+        9
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13,
+        14
+      ]
+    ],
+    "w_blocks": [
+      [
+        10,
+        11
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        12,
+        13,
+        14
+      ]
+    ]
+  },
+  "fixed_core": {
+    "cross_matching_sizes": [
+      2,
+      3
+    ],
+    "degree_three_vertices": [
+      0,
+      1
+    ],
+    "neighbour_sets": [
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        5,
+        6,
+        7
+      ]
+    ],
+    "remaining_vertices": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "required_compatibility_matching": 9,
+  "schema": "erdos149-n15-theta-core-search-v1",
+  "scope": "All labelled completions of the forced r=2 or r=3 theta cores for an order-15 m=29 smallest counterexample.",
+  "script": {
+    "bytes": 9364,
+    "sha256": "2561e77580b10ac3c2a3762543ac4f3847c601e012ee0f0f55698023fc1fe36d"
+  },
+  "status": "VERIFIED"
+}

@@ -1,0 +1,170 @@
+{
+  "assertions": {
+    "all_dependency_files_match": true,
+    "regular_fresh_verified": true,
+    "regular_primary_verified": true,
+    "structural_survivors_are_29_30": true,
+    "theta_counts_agree": true,
+    "theta_fresh_verified": true,
+    "theta_primary_verified": true
+  },
+  "claim_boundary": "This meta-audit validates the bounded order-at-most-15 certificate only.",
+  "dependency_file_checks": [
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.target_lock",
+      "path": "TARGET_LOCK.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.theorem_document",
+      "path": "ORDER15_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order14_dependency.theorem",
+      "path": "ORDER14_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order14_dependency.certification",
+      "path": "CERTIFICATION_ORDER14.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order14_dependency.meta_audit",
+      "path": "order14_certification_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.structural_reduction.general_degree_three_lemma",
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.structural_reduction.theta_core_proof",
+      "path": "N15_THETA_CORE_REDUCTION.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m29_two_degree_three.primary_checker",
+      "path": "n15_theta_core_search.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m29_two_degree_three.primary_result",
+      "path": "n15_theta_core_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m29_two_degree_three.fresh_checker",
+      "path": "audit_n15_theta_core.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m29_two_degree_three.fresh_result",
+      "path": "n15_theta_core_fresh_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_4regular.catalogue",
+      "path": "15_m30_4regular.g6",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_4regular.primary_checker",
+      "path": "verify_n15_regular.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_4regular.primary_result",
+      "path": "n15_regular_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_4regular.fresh_checker",
+      "path": "audit_n15_regular.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m30_4regular.fresh_result",
+      "path": "n15_regular_fresh_audit.json",
+      "sha256_match": true
+    }
+  ],
+  "schema": "erdos149-order15-certification-meta-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "m": 23,
+      "survives_packing": false,
+      "t": 14
+    },
+    {
+      "m": 24,
+      "survives_packing": false,
+      "t": 12
+    },
+    {
+      "m": 25,
+      "survives_packing": false,
+      "t": 10
+    },
+    {
+      "m": 26,
+      "survives_packing": false,
+      "t": 8
+    },
+    {
+      "m": 27,
+      "survives_packing": false,
+      "t": 6
+    },
+    {
+      "m": 28,
+      "survives_packing": false,
+      "t": 4
+    },
+    {
+      "m": 29,
+      "survives_packing": true,
+      "t": 2
+    },
+    {
+      "m": 30,
+      "survives_packing": true,
+      "t": 0
+    }
+  ]
+}

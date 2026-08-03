@@ -1,0 +1,87 @@
+{
+  "assertions": {
+    "regular_all_witnesses": true,
+    "regular_count_unique": true,
+    "regular_hash": true,
+    "regular_regenerated_identically": true,
+    "structural_survivors": true,
+    "theta_all_witnesses": true,
+    "theta_counts": true
+  },
+  "claim": "Every simple graph G with |V(G)| <= 15 and Delta(G) <= 4 has strong chromatic index at most 20.",
+  "claim_boundary": "Bounded theorem only; not a resolution of Erdos problem 149.",
+  "elapsed_seconds": 162.9174401999917,
+  "geng": {
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "regular_catalogue": {
+    "bytes": 16915311,
+    "fail_first_successes": 805491,
+    "failures": [],
+    "fallback_successes": 0,
+    "records": 805491,
+    "sha256": "801cbd1a228a91dc994fab3cc6e90f6e9cf36e21b6b2c581ad79250378622545",
+    "unique_records": 805491
+  },
+  "regular_regeneration": {
+    "bytes": 16915311,
+    "bytes_identical": true,
+    "sha256": "801cbd1a228a91dc994fab3cc6e90f6e9cf36e21b6b2c581ad79250378622545"
+  },
+  "schema": "erdos149-order15-independent-root-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "degree_three_vertices": 14,
+      "edges": 23,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 12,
+      "edges": 24,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 10,
+      "edges": 25,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 8,
+      "edges": 26,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 6,
+      "edges": 27,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 4,
+      "edges": 28,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 2,
+      "edges": 29,
+      "packing_holds": true
+    },
+    {
+      "degree_three_vertices": 0,
+      "edges": 30,
+      "packing_holds": true
+    }
+  ],
+  "theta_core": {
+    "counts": {
+      "r2_internal_completions": 492,
+      "r2_w_partitions": 55,
+      "r3_internal_completions": 4764,
+      "r3_w_partitions": 94
+    },
+    "fail_first_successes": 5256,
+    "failures": [],
+    "fallback_successes": 0
+  }
+}

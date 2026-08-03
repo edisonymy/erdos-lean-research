@@ -1,0 +1,24 @@
+{
+  "assertions": {
+    "catalogue_hash_matches_primary": true,
+    "fresh_failures_empty": true,
+    "parser_samples_match": true,
+    "primary_verified": true,
+    "stored_count_matches_geng": true
+  },
+  "catalogue": {
+    "bytes": 16915311,
+    "records": 805491,
+    "sha256": "801cbd1a228a91dc994fab3cc6e90f6e9cf36e21b6b2c581ad79250378622545"
+  },
+  "claim_boundary": "This audit covers only the connected 4-regular order-15 catalogue.",
+  "elapsed_seconds": 126.28991230000975,
+  "failures": [],
+  "fresh_reverse_matchings_of_ten": 805491,
+  "geng_binary_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+  "geng_count": 805491,
+  "networkx_parser_mismatches": 0,
+  "networkx_parser_samples": 257,
+  "schema": "erdos149-n15-regular-fresh-audit-v1",
+  "status": "VERIFIED"
+}

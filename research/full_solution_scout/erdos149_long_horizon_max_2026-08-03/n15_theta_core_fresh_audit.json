@@ -1,0 +1,38 @@
+{
+  "assertions": {
+    "fresh_counts_match_expected": true,
+    "fresh_counts_match_primary": true,
+    "fresh_failures_empty": true,
+    "primary_verified": true
+  },
+  "claim_boundary": "This audit checks the finite theta-core completion space; the separate mathematical reduction establishes why it covers the m=29 residual.",
+  "counts": {
+    "r2_internal_completions": 492,
+    "r2_w_partitions": 55,
+    "r3_internal_completions": 4764,
+    "r3_w_partitions": 94
+  },
+  "elapsed_seconds": 0.5339987000043038,
+  "failures": [],
+  "fresh_reverse_matchings_of_nine": 5256,
+  "method": "Enumerate all 7-edge and 8-edge subsets of K7 by degree vector; filter independently enumerated W-incidence words; use reverse on-demand compatibility matching.",
+  "precomputed_internal_graphs": {
+    "r3_degree_vector_counts": {
+      "(2, 2, 2, 2, 2, 2, 4)": 270,
+      "(2, 2, 2, 2, 2, 3, 3)": 460,
+      "(2, 2, 2, 2, 3, 2, 3)": 460,
+      "(2, 2, 2, 3, 2, 2, 3)": 460,
+      "(2, 2, 3, 2, 2, 2, 3)": 460,
+      "(2, 3, 2, 2, 2, 2, 3)": 460,
+      "(3, 2, 2, 2, 2, 2, 3)": 460
+    },
+    "two_regular_on_seven": 465
+  },
+  "primary": {
+    "bytes": 3588,
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\n15_theta_core_result.json",
+    "sha256": "7322573ea23615d0927060574fa220fe7e2a64717d343f8a56992846d6e2f6c8"
+  },
+  "schema": "erdos149-n15-theta-core-fresh-audit-v1",
+  "status": "VERIFIED"
+}
