@@ -1,0 +1,782 @@
+{
+  "geng_sha256": "64FA2D95BDAFF155CE0FC748D4CBA83A50E5FFB03E3ACC5F41D86581C0BBA7EF",
+  "kernel_scan": {
+    "eligible_graph6": [
+      "I?`D@`keO",
+      "I?`D@pScg",
+      "I?`DCdcMG",
+      "I?`@dEWR_"
+    ],
+    "raw_records": 4502,
+    "raw_stream_sha256": "90CE9D2B9ECDD374594F91D5DEAC93B2BFE6C73CB6DE3DB1547BEC512621EE0F",
+    "then_c4_free": 124,
+    "then_c8_free": 4,
+    "two_degenerate": 4427
+  },
+  "results": [
+    {
+      "color_search_nodes": {
+        "cycle": {
+          "10": 9,
+          "11": 9,
+          "12": 9,
+          "3": 9,
+          "5": 9,
+          "6": 9,
+          "7": 9,
+          "9": 9
+        },
+        "path": {
+          "0": 182,
+          "1": 18,
+          "10": 184,
+          "11": 72,
+          "12": 184,
+          "2": 288,
+          "3": 2,
+          "4": 184,
+          "5": 8,
+          "6": 184,
+          "7": 46,
+          "8": 184,
+          "9": 78
+        }
+      },
+      "component_signature_counts": {
+        "cycle": {
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "3": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "9": 0
+        },
+        "path": {
+          "0": 91,
+          "1": 8,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "2": 25,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      },
+      "component_signature_hash": "9E5EB28F4622BB7EFA981E8217A9F2C955DFE0849455477FDEFD2C5F3C1CB3D6",
+      "kernel_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "kernel_graph6": "I?`D@`keO",
+      "kernel_index": 0,
+      "length_one_endpoint_masks": [
+        8193
+      ],
+      "length_two_color_support": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "length_two_missing_positive_colors": [
+        3,
+        6
+      ],
+      "locally_nonempty_topologies": [
+        [
+          [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          []
+        ],
+        [
+          [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          []
+        ]
+      ],
+      "packing_records": [
+        {
+          "cycles": [],
+          "feasible": false,
+          "paths": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "transitions": 1600
+        },
+        {
+          "cycles": [],
+          "feasible": false,
+          "paths": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "transitions": 72
+        }
+      ],
+      "packing_transitions": 1672,
+      "status": "VERIFIED_NO_ASSIGNMENT",
+      "surviving_topologies": [],
+      "target_color_counts": [
+        1,
+        2,
+        1,
+        2,
+        1,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "topologies_checked": 166
+    },
+    {
+      "color_search_nodes": {
+        "cycle": {
+          "10": 9,
+          "11": 9,
+          "12": 9,
+          "3": 9,
+          "5": 9,
+          "6": 9,
+          "7": 9,
+          "9": 9
+        },
+        "path": {
+          "0": 182,
+          "1": 18,
+          "10": 184,
+          "11": 72,
+          "12": 184,
+          "2": 288,
+          "3": 4,
+          "4": 184,
+          "5": 16,
+          "6": 184,
+          "7": 36,
+          "8": 184,
+          "9": 66
+        }
+      },
+      "component_signature_counts": {
+        "cycle": {
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "3": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "9": 0
+        },
+        "path": {
+          "0": 91,
+          "1": 8,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "2": 25,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      },
+      "component_signature_hash": "8379A880D4BF8A63FDE2309C440AAA47658976EC9DDA41ABA03F949E2815A29F",
+      "kernel_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "kernel_graph6": "I?`D@pScg",
+      "kernel_index": 1,
+      "length_one_endpoint_masks": [
+        514
+      ],
+      "length_two_color_support": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "length_two_missing_positive_colors": [
+        2,
+        4
+      ],
+      "locally_nonempty_topologies": [
+        [
+          [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          []
+        ],
+        [
+          [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          []
+        ]
+      ],
+      "packing_records": [
+        {
+          "cycles": [],
+          "feasible": false,
+          "paths": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "transitions": 1600
+        },
+        {
+          "cycles": [],
+          "feasible": false,
+          "paths": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "transitions": 72
+        }
+      ],
+      "packing_transitions": 1672,
+      "status": "VERIFIED_NO_ASSIGNMENT",
+      "surviving_topologies": [],
+      "target_color_counts": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "topologies_checked": 166
+    },
+    {
+      "color_search_nodes": {
+        "cycle": {
+          "10": 9,
+          "11": 9,
+          "12": 9,
+          "3": 9,
+          "5": 9,
+          "6": 9,
+          "7": 9,
+          "9": 9
+        },
+        "path": {
+          "0": 182,
+          "1": 0,
+          "10": 184,
+          "11": 74,
+          "12": 184,
+          "2": 264,
+          "3": 6,
+          "4": 194,
+          "5": 16,
+          "6": 184,
+          "7": 40,
+          "8": 184,
+          "9": 68
+        }
+      },
+      "component_signature_counts": {
+        "cycle": {
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "3": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "9": 0
+        },
+        "path": {
+          "0": 91,
+          "1": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "2": 20,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      },
+      "component_signature_hash": "D1C96B68C4DA4137ED615537CD3537436B2E6FCC68CC690D39D556EE2A39FA19",
+      "kernel_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "kernel_graph6": "I?`DCdcMG",
+      "kernel_index": 2,
+      "length_one_endpoint_masks": [],
+      "length_two_color_support": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "length_two_missing_positive_colors": [
+        3,
+        4
+      ],
+      "locally_nonempty_topologies": [
+        [
+          [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          []
+        ]
+      ],
+      "packing_records": [
+        {
+          "cycles": [],
+          "feasible": false,
+          "paths": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "transitions": 960
+        }
+      ],
+      "packing_transitions": 960,
+      "status": "VERIFIED_NO_ASSIGNMENT",
+      "surviving_topologies": [],
+      "target_color_counts": [
+        1,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "topologies_checked": 166
+    },
+    {
+      "color_search_nodes": {
+        "cycle": {
+          "10": 9,
+          "11": 9,
+          "12": 9,
+          "3": 9,
+          "5": 9,
+          "6": 9,
+          "7": 9,
+          "9": 9
+        },
+        "path": {
+          "0": 182,
+          "1": 0,
+          "10": 188,
+          "11": 78,
+          "12": 188,
+          "2": 264,
+          "3": 4,
+          "4": 194,
+          "5": 4,
+          "6": 188,
+          "7": 50,
+          "8": 188,
+          "9": 78
+        }
+      },
+      "component_signature_counts": {
+        "cycle": {
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "3": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "9": 0
+        },
+        "path": {
+          "0": 91,
+          "1": 0,
+          "10": 0,
+          "11": 0,
+          "12": 0,
+          "2": 20,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 0,
+          "9": 0
+        }
+      },
+      "component_signature_hash": "DA81EF51EDF7A912346605A4710D627F831BA3AE0984008783D2F460569FCF91",
+      "kernel_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "kernel_graph6": "I?`@dEWR_",
+      "kernel_index": 3,
+      "length_one_endpoint_masks": [],
+      "length_two_color_support": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8
+      ],
+      "length_two_missing_positive_colors": [
+        2,
+        3
+      ],
+      "locally_nonempty_topologies": [
+        [
+          [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          []
+        ]
+      ],
+      "packing_records": [
+        {
+          "cycles": [],
+          "feasible": false,
+          "paths": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "transitions": 960
+        }
+      ],
+      "packing_transitions": 960,
+      "status": "VERIFIED_NO_ASSIGNMENT",
+      "surviving_topologies": [],
+      "target_color_counts": [
+        1,
+        2,
+        2,
+        2,
+        1,
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "topologies_checked": 166
+    }
+  ],
+  "schema": "erdos64-a10-residual-gate-independent-audit-v1",
+  "status": "VERIFIED_COMPLETE_NO_ASSIGNMENT",
+  "topology_count": 166,
+  "topology_hash": "A12E2D3EC56B46898D04335ED3F60418908C71269AAE8F1CFC16F3D56D426FC2"
+}

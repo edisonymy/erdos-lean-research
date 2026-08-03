@@ -11,7 +11,7 @@
 
 \newcommand{\EG}{Erd\H{o}s--Gy\'arf\'as}
 
-\title{An Incidence-Kernel Bound for Minimal\\
+\title{Incidence-Kernel Bounds for Minimal\\
 Counterexamples to the \EG{} Conjecture}
 \author{Edison Yi\thanks{AI-assisted mathematical research campaign.  The
 proof was independently derived and adversarially checked by separate
@@ -37,7 +37,18 @@ key object is a graph on the high-degree vertices obtained by suppressing
 the cubic vertices with two high-degree neighbours.  Four-cycle exclusion
 and minimality make this incidence kernel simple, $C_4$-free, and
 $2$-degenerate; a sharp elementary edge bound and parity then give the
-result.
+result.  We further prove, using one sharp extremal theorem and an
+independently replayable finite certificate, that every such counterexample
+of order $n\ge34$ satisfies
+\[
+ d\ge 2a+7,
+ \qquad
+ d\ge\left\lceil\frac{2n+7}{3}\right\rceil.
+\]
+Thus equality in the first bound can survive only at the seven orders
+\[
+15,18,21,24,27,30,33.
+\]
 \end{abstract}
 
 \section{Introduction}
@@ -322,6 +333,197 @@ $a=n-d$ gives $3d\ge2n+6$ and $3a\le n-6$, which are exactly the stated
 integer bounds.
 \end{proof}
 
+\section{Excluding the top equality layer}
+
+We now sharpen Theorem~\ref{thm:main} outside a finite window.  This section
+uses the following result of Gy\H{o}ri, Li, Salia, Tompkins, Varga and
+Zhu~\cite{GLSTVZ2026}: every $r$-vertex graph with more than
+\[
+ \left\lfloor\frac{19(r-1)}{12}\right\rfloor
+\]
+edges contains a cycle whose length is divisible by four.
+
+Suppose temporarily that equality holds in Theorem~\ref{thm:main}, so that
+\begin{equation}\label{eq:plus-six-equality}
+ d=2a+6.
+\end{equation}
+Put
+\[
+ q=2a-|E(J)|=2a-d_2.
+\]
+Using the incidence slacks $x,y$ from Lemma~\ref{lem:preliminary}, direct
+substitution gives
+\begin{equation}\label{eq:q-six-profiles}
+ d_2=2a-6+x+d_0,\qquad
+ q=6-x-d_0,\qquad
+ d_1=12-x-2d_0.
+\end{equation}
+When $a\ge6$, Lemma~\ref{lem:edges} gives $q\ge5$.  Moreover, $d$ is even,
+and the degree sum $d+y$ inside $G[D]$ shows that $y$, and hence $x$, is
+even.  Therefore exactly two profiles remain:
+\begin{align}
+ q=5 &: \quad x=0,\ d_0=1,\ d_1=10,\label{eq:q5}\\
+ q=6 &: \quad x=0,\ d_0=0,\ d_1=12.\label{eq:q6}
+\end{align}
+In both profiles every vertex of $A$ has degree four, and the number of
+$D_1$ vertices whose unique neighbour in $A$ is $v$ equals
+\begin{equation}\label{eq:colour-multiplicity}
+ c(v)=4-d_J(v).
+\end{equation}
+
+For completeness, the extremal theorem makes both profiles finite.  A
+dyadic-cycle-free, 2-degenerate graph of deficit five,
+$|E(H)|=2|V(H)|-5$, is connected once its order is at least five.  From
+order seven onward it has no degree-one vertex; 2-degeneracy therefore
+supplies a degree-two vertex whose deletion preserves the deficit.  Thus an
+example of order at least nine would reduce to order nine, where it has
+thirteen edges, exceeding
+$\lfloor19(9-1)/12\rfloor=12$.  The resulting cycle divisible by four has
+length four or eight, a contradiction.  Hence the profile~\eqref{eq:q5}
+has $a\le8$.
+
+The same deficit addition shows that a disconnected deficit-six graph has
+order at most six.  Once deficit five is excluded from order nine onward, a
+deficit-six graph of order at least eleven has no degree-one vertex and
+again deletes through degree two.  At order eleven its sixteen edges exceed
+$\lfloor19(11-1)/12\rfloor=15$.  Hence the profile~\eqref{eq:q6} has
+$a\le10$.  It follows already that equality~\eqref{eq:plus-six-equality} is
+impossible for $a\ge11$.
+
+It remains to exclude $a=10$ in the deficit-six profile.  Here $J$ is a
+connected ten-vertex, fourteen-edge graph with
+\[
+ 2\le\delta(J)\le\Delta(J)\le4,
+\]
+which is 2-degenerate and has no $C_4$ or $C_8$.  Connectedness follows by
+adding the component deficits; a degree-one vertex would delete to the
+already excluded nine-vertex deficit-five case.  Exact canonical generation
+leaves precisely the following four graph6 records:
+\begin{verbatim}
+I?`D@`keO
+I?`D@pScg
+I?`DCdcMG
+I?`@dEWR_
+\end{verbatim}
+All four have degree sequence
+$2,2,2,2,3,3,3,3,4,4$.
+
+We describe the independently replayable finite obstruction.  Let
+$R=G[D]$.  Each of the fourteen vertices in $D_2$ has degree one in $R$,
+each of the twelve vertices in $D_1$ has degree two, and $D_0$ is empty.
+Thus $R$ is a disjoint union of exactly seven paths with $D_2$ endpoints,
+together with cycles consisting only of $D_1$ vertices.  If
+$\lambda_1,\ldots,\lambda_7$ are the numbers of internal $D_1$ vertices on
+the paths and $\mu_1,\ldots,\mu_s$ are the cycle lengths, then
+\begin{equation}\label{eq:166-topologies}
+ \lambda_i\ge0,\qquad
+ \mu_j\in\{3,5,6,7,9,10,11,12\},\qquad
+ \sum_i\lambda_i+\sum_j\mu_j=12.
+\end{equation}
+There are exactly 166 unordered topologies in~\eqref{eq:166-topologies}.
+
+Subdivide every edge of $J$ by its corresponding $D_2$ vertex to obtain the
+fixed incidence skeleton.  If a segment of $R$ and a simple path in this
+skeleton have the same endpoints, their internal vertices lie respectively
+in $D_1$ and in $A\cup D_2$.  Their union is therefore a simple cycle, so
+the sum of their lengths cannot belong to $\{4,8,16,32\}$.
+
+The verifier enumerates every simple skeleton path and every locally legal
+path or cycle component.  A component is represented by its set of $D_2$
+endpoint labels and its color-count vector.  Exact set-packing dynamic
+programming then requires the endpoint sets to partition all fourteen
+labels and the color counts to equal~\eqref{eq:colour-multiplicity}.  This
+search is a relaxation: it imposes only the one-segment necessary
+conditions, so an empty search space is sufficient for exclusion.
+
+For the first two kernels, paths with respectively zero, one and two
+internal $D_1$ vertices have $91,8,25$ legal signatures; for the last two
+the counts are $91,0,20$.  Every longer path table and every cycle table is
+empty.  The two nominal length-one paths in the first two kernels reuse the
+same endpoint pair, leaving only topology $(0,2,2,2,2,2,2)$.  In that
+topology the union of the color supports of all legal length-two paths omits
+a color whose multiplicity in~\eqref{eq:colour-multiplicity} is positive,
+for each of the four kernels.  Thus no residual assignment exists.
+
+The standard-library verifier
+\texttt{audit\_a10\_residual\_gate\_2026-08-03.py} independently regenerates
+the four kernels and the 166 topologies, enumerates the component signatures,
+and performs the exact packing.  Its output status is
+\texttt{VERIFIED\_COMPLETE\_NO\_ASSIGNMENT}; the canonical output and an
+independent replay are byte-identical with SHA-256
+\begin{center}
+\small\texttt{F3E39B881120A2B0FFDD7BCFE76E6778FDD2A38D2D3F66AE59745367E4767A25}.
+\end{center}
+
+At the opposite end, equality is also impossible for $a\le2$.  We use the
+following elementary finite lemma.
+
+\begin{lemma}\label{lem:hamilton-twelve}
+Every Hamiltonian graph on twelve vertices with minimum degree at least
+three contains a $C_4$ or a $C_8$.
+\end{lemma}
+
+\begin{proof}
+Fix a Hamilton cycle and label its vertices alternately
+$E_0,O_0,\ldots,E_5,O_5$, with subscripts modulo six.  A chord at cyclic
+distance $3,5,7$, or $9$ immediately closes to a $C_4$ or a $C_8$.
+Consequently every remaining chord joins vertices of the same parity.  Since
+every vertex needs a chord, the chords in each parity class contain an edge
+cover of six vertices.
+
+Choose an inclusion-minimal such cover.  It is a star forest, so its
+component-order partition is $6$, $4+2$, $3+3$, or $2+2+2$.  Comparing the
+two Hamilton-cycle arcs between pairs of retained chords eliminates the
+first three cases.  Of the fifteen perfect matchings in the last case,
+exactly the following six survive within one parity class:
+\[
+\begin{array}{lll}
+01|23|45,&01|25|34,&03|12|45,\\
+03|14|25,&05|12|34,&05|14|23.
+\end{array}
+\]
+Combining one surviving even matching with one surviving odd matching gives
+a $C_4$ or a $C_8$ in each of the $36$ cases.  The standard-library script
+\texttt{audit\_hamilton12\_lemma.py} independently enumerates the minimal
+edge covers and prints a literal cycle witness for all $36$ pairs.
+\end{proof}
+
+Under equality, degree summation gives
+\[
+ n=3a+6,\qquad |E(G)|=5a+9+x/2,
+\]
+where $x\ge0$ is even.  For $a=0,1,2$, the extremal thresholds are
+respectively $7,12,17$, while $G$ has at least $9,14,19$ edges.  The forced
+cycle divisible by four has length four at order six, length four or eight
+at order nine, and length four, eight, or twelve at order twelve.  Only the
+last alternative survives, but it is Hamiltonian and
+Lemma~\ref{lem:hamilton-twelve} supplies a $C_4$ or a $C_8$.  Thus equality
+is impossible for $a\le2$.
+
+We have proved the following strengthening.
+
+\begin{theorem}\label{thm:plus-seven}
+Let $G$ be a minimal counterexample, with $a,d,n$ as above.  If
+$d=2a+6$, then $a\le9$.  Consequently, if $n\ge34$, then
+\[
+ d\ge2a+7,
+ \qquad
+ d\ge\left\lceil\frac{2n+7}{3}\right\rceil,
+ \qquad
+ a\le\left\lfloor\frac{n-7}{3}\right\rfloor.
+\]
+Equality in Theorem~\ref{thm:main} can survive only at the seven orders
+$15,18,21,24,27,30,33$.
+\end{theorem}
+
+\begin{proof}
+The deficit analysis excludes equality for $a\ge11$, the finite certificate
+excludes $a=10$, and the small-end argument excludes $a\le2$.  Hence equality
+implies $3\le a\le9$.  If $n\ge34$ and equality held, then
+$n=a+d=3a+6$ would force $a\ge10$, a contradiction.  Thus $d\ge2a+7$;
+substituting $a=n-d$ gives the two displayed integer bounds.
+\end{proof}
+
 \section{A related size bound}
 
 The same minimality framework gives a useful accompanying estimate.
@@ -349,11 +551,14 @@ pancyclic.  In particular it contains a $C_4$, a contradiction.
 The proof was independently derived and then checked line by line by a
 separate agent.  The kernel edge bounds were also exhaustively tested on
 every labelled graph through seven vertices; this computation is an audit
-aid, not a premise.  Searches on 3 August 2026 for the exact constants and
-the incidence-kernel construction found Carr's $4/7$ theorem but no earlier
+aid, not a premise.  The finite certificate for
+Theorem~\ref{thm:plus-seven} was replayed independently from the exploratory
+solver, and its reduction and implementation received a separate hostile
+audit.  Searches on 3 August 2026 for the exact constants and the
+incidence-kernel construction found Carr's $4/7$ theorem but no earlier
 statement of the bounds above.  That is a search-relative novelty check, not
-a guarantee concerning unpublished or unindexed work.  The theorem is a
-necessary condition on a hypothetical counterexample and does not resolve
+a guarantee concerning unpublished or unindexed work.  These theorems are
+necessary conditions on a hypothetical counterexample and do not resolve
 the \EG{} conjecture.
 
 \paragraph{Acknowledgement.}
@@ -361,6 +566,7 @@ We thank Avery Carr for the structural observations that motivated this
 refinement.  The result was developed in an AI-assisted research campaign;
 all statements were retained only after adversarial quantifier-level review.
 
+\enlargethispage{4\baselineskip}
 \begin{thebibliography}{9}
 \small
 
@@ -376,6 +582,12 @@ L. Narins, A. Pokrovskiy and T. Szab\'o,
 \emph{Graphs without proper subgraphs of minimum degree 3 and short cycles},
 Combinatorica \textbf{37} (2017), 495--519.
 \url{https://arxiv.org/abs/1408.5289}.
+
+\bibitem{GLSTVZ2026}
+E. Gy\H{o}ri, B. Li, N. Salia, C. Tompkins, K. Varga and M. Zhu,
+\emph{On graphs without cycles of length $0$ modulo $4$},
+Journal of Combinatorial Theory, Series B \textbf{176} (2026), 7--29.
+\url{https://arxiv.org/abs/2312.09999}.
 
 \end{thebibliography}
 
