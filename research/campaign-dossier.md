@@ -740,3 +740,33 @@ scan is complete through its order-12 cap; the #151 construction families and
 all larger #561 tuples remain stopped.
 
 No open Erdős problem is claimed solved at this checkpoint.
+
+## 17. Ambitious one-shot agent policy, 3 August 2026
+
+The default research unit is now a **long-horizon attempt at a terminal
+route**, not a short queue of locally useful subtasks.  Each serious target
+should, when capacity permits, have complementary owners for theory,
+construction/model finding, and hostile verification.  The theory and
+construction owners are asked to pursue an implication chain all the way to
+a full proof, a definition-level counterexample, or a genuinely terminal
+reduction.  Intermediate lemmas, finite cases, searches, and audits are tools
+inside that mission rather than automatic stopping points.
+
+Agent prompts must therefore:
+
+- state the full public problem and the exact success condition;
+- grant ownership of one ambitious route over a long horizon;
+- require the agent to choose and revise its own sequence of attacks;
+- encourage orthogonal experiments and counterexample hunting against every
+  load-bearing lemma;
+- forbid stopping merely because a human-scale time estimate sounds long, an
+  easy theorem has been found, or one bounded search is null; and
+- preserve exact claims, hashes, checkpoints, and independent verification so
+  that ambition does not lower the evidence standard.
+
+Valid termination evidence is a falsified premise, a priority collision, a
+proved structural barrier that kills the route, a checked full result, or
+several completed orthogonal mechanisms converging to the same obstruction
+without reducing the declared gap.  CPU, disk, and certificate jobs still
+receive explicit caps and checkpoints.  The policy changes the ambition and
+autonomy of the intellectual task, not the rigor of publication.

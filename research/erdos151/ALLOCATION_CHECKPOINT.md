@@ -352,6 +352,10 @@ infrastructure failure, not SAT/UNSAT evidence, and the exact exit instruction
 remains unproved.  Since the old processes did not serialize learned cuts,
 none can resume.
 
+Edison subsequently reported that he had force-stopped Codex at that time.
+This confirms the operational cause and is consistent with the independently
+recorded AppX destruction event; it does not change the mathematical status.
+
 A crash-safe successor now journals every semantic lazy cut in a hash chain,
 binds the static formula/configuration, stores RNG and telemetry state, checks
 the per-round reconstructed-formula hash, exports a terminal CNF, and holds an
