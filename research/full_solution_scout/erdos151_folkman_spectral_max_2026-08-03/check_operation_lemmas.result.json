@@ -1,0 +1,48 @@
+{
+  "coverage": {
+    "clique_blowup": {
+      "cases": 150,
+      "identity": "beta(G[K_t]) = (t-1)|V(G)| + gamma(G)",
+      "labelled_base_graph_orders": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t_values": [
+        2,
+        3
+      ]
+    },
+    "independent_blowup": {
+      "cases": 150,
+      "identity": "beta(G[empty_t]) = t beta(G)",
+      "labelled_base_graph_orders": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "t_values": [
+        2,
+        3
+      ]
+    },
+    "join": {
+      "cases": 121,
+      "identity": "beta(G join H) = max(gamma(G)+|H|, |G|+gamma(H))",
+      "ordered_base_graph_orders": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "definitions": {
+    "beta": "largest vertex set containing no inclusion-maximal clique of size at least two",
+    "gamma": "largest vertex set containing no inclusion-maximal clique, including singleton maximal cliques"
+  },
+  "note": "These finite checks guard implementation semantics; the report supplies general proofs.",
+  "schema": "erdos151-operation-lemma-check-v1",
+  "status": "all assertions passed"
+}

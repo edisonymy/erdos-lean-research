@@ -1,0 +1,7014 @@
+{
+  "H_50": 11,
+  "alpha_le_10_by_degree": {
+    "10": 82,
+    "6": 1,
+    "7": 4,
+    "8": 12,
+    "9": 29
+  },
+  "beta_near_misses": [
+    {
+      "degree": 6,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 60,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 60,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        28
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 8,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 50,
+      "maximal_clique_size_distribution": {
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 70,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "5": 20
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 70,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "5": 20
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        18,
+        24,
+        25,
+        28,
+        31
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        18,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        18,
+        24,
+        26,
+        27,
+        29
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        18,
+        24,
+        25,
+        28,
+        29
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        18,
+        24,
+        26,
+        27,
+        29
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 210,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "5": 160
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        28
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        30
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 60,
+      "maximal_clique_size_distribution": {
+        "4": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        28
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        27
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        26
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        27
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 60,
+      "maximal_clique_size_distribution": {
+        "4": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 210,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "5": 160
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "3": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "4": 150,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 160,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 200,
+      "maximal_clique_size_distribution": {
+        "3": 200
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "4": 150
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 200,
+      "maximal_clique_size_distribution": {
+        "3": 200
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        22,
+        24,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 200,
+      "maximal_clique_size_distribution": {
+        "3": 200
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "4": 150
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "4": 100
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 150,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          3
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "4": 100
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 10,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 7,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 85,
+      "maximal_clique_size_distribution": {
+        "2": 75,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        29
+      ]
+    },
+    {
+      "degree": 7,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 85,
+      "maximal_clique_size_distribution": {
+        "2": 75,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 7,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 75,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 7,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 75,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 25,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 45,
+      "maximal_clique_size_distribution": {
+        "2": 25,
+        "5": 20
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 125,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        18,
+        24,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 75,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 35,
+      "maximal_clique_size_distribution": {
+        "4": 25,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 125,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        29
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 85,
+      "maximal_clique_size_distribution": {
+        "2": 25,
+        "3": 50,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 125,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        30
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 75,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 25,
+        "3": 100,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 125,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 135,
+      "maximal_clique_size_distribution": {
+        "2": 125,
+        "5": 10
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 75,
+      "maximal_clique_size_distribution": {
+        "2": 25,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        2,
+        5,
+        8,
+        11,
+        13,
+        16,
+        19,
+        22,
+        24,
+        25
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 175,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 125
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 50,
+      "maximal_clique_size_distribution": {
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 75,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        30
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 175,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 125
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 125,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "4": 25
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "degree": 9,
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": true,
+      "maximal_clique_count": 75,
+      "maximal_clique_size_distribution": {
+        "2": 25,
+        "4": 50
+      },
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "candidate_count": 0,
+  "candidates": [],
+  "complete": true,
+  "counters": {
+    "alpha_le_10": 128,
+    "connected_orbits_tested": 401,
+    "disconnected_orbits_skipped": 36,
+    "killed_by_admissible_11": 128,
+    "killed_by_independent_11": 273
+  },
+  "family": "all connected undirected Cayley graphs on Z_2 x Z_5 x Z_5 of degree at most 10",
+  "gl2_order": 480,
+  "inverse_pair_count": 24,
+  "n": 50,
+  "orbit_counts_by_degree": {
+    "10": 223,
+    "4": 2,
+    "5": 3,
+    "6": 15,
+    "7": 18,
+    "8": 67,
+    "9": 73
+  },
+  "quotient": "one representative per full GL(2,5) action",
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.4",
+    "solver": "CaDiCaL 1.9.5 through python-sat"
+  },
+  "runtime_seconds": 2.956014394760132,
+  "sample_failures": [
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        26
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 60,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        12,
+        16,
+        18,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        12,
+        16,
+        18,
+        24,
+        26,
+        32
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        12,
+        16,
+        18,
+        24,
+        26,
+        28
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        12,
+        16,
+        18,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          2
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        12,
+        16,
+        18,
+        24,
+        26,
+        29
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        6,
+        8,
+        10,
+        12,
+        15,
+        17,
+        21,
+        23,
+        25
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        26
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        7,
+        9,
+        10,
+        12,
+        15,
+        17,
+        21,
+        23,
+        25
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "reason": "alpha>=11",
+      "witness": [
+        0,
+        2,
+        5,
+        7,
+        10,
+        12,
+        15,
+        17,
+        20,
+        22,
+        26
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 50,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        25
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 60,
+      "maximal_clique_size_distribution": {
+        "3": 50,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        19,
+        28
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "3": 50,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "3": 100,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 110,
+      "maximal_clique_size_distribution": {
+        "2": 100,
+        "5": 10
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12,
+        13,
+        14,
+        25
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 100,
+      "maximal_clique_size_distribution": {
+        "2": 50,
+        "4": 50
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "inverse_pair_generators": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "involution": false,
+      "maximal_clique_count": 50,
+      "maximal_clique_size_distribution": {
+        "4": 50
+      },
+      "reason": "beta>=11",
+      "witness": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "schema": "erdos151-abelian-z2xz5xz5-n50-scan-v1",
+  "target": "beta <= 10"
+}

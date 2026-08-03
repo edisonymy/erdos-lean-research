@@ -1,0 +1,31 @@
+{
+  "abelian_50": {
+    "all_orbits": 437,
+    "complete": true,
+    "connected_orbits": 401,
+    "disconnected_orbits": 36,
+    "gl2_order": 480,
+    "raw_connected_connection_sets": 66657,
+    "raw_nonempty_connection_sets": 68405,
+    "result_connected_orbits_tested": 401
+  },
+  "cyclic_50": {
+    "complete": true,
+    "multiplier_orbits": 6693,
+    "raw_connected_connection_sets": 66792,
+    "result_orbits_tested": 6693,
+    "unit_count": 20
+  },
+  "cyclic_59": {
+    "complete": true,
+    "multiplier_orbits": 5055,
+    "raw_connection_sets": 146595,
+    "result_orbits_tested": 5055,
+    "unit_count": 58
+  },
+  "method": {
+    "abelian": "form every raw inverse-closed connection set and verify that the disjoint union of all GL(2,5) representative orbits equals it",
+    "cyclic": "enumerate every raw step set and compare its multiplier-canonical image set with the scan generator"
+  },
+  "schema": "erdos151-cayley-orbit-audit-v1"
+}

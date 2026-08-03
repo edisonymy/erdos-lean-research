@@ -1,0 +1,47 @@
+{
+  "schema": "erdos628-n11-priority-gate-v1",
+  "checked_utc_date": "2026-08-03",
+  "target": {
+    "problem": 628,
+    "parameters": {
+      "a": 2,
+      "b": 5,
+      "chromatic_number": 6,
+      "order": 11
+    },
+    "decisive_object": "simple G with chi(G)=6, omega(G)<6, and chi(G-u-v)<=4 for every edge uv"
+  },
+  "decision": "NO_LAUNCH_PRIOR_ART",
+  "reason": "Kawarabayashi-Pedersen-Toft (2010), page 8, prove every noncomplete double-critical 6-chromatic graph has at least 12 vertices",
+  "primary_source": {
+    "title": "Double-Critical Graphs and Complete Minors",
+    "authors": [
+      "Ken-ichi Kawarabayashi",
+      "Anders Sune Pedersen",
+      "Bjarne Toft"
+    ],
+    "published": "2010-06-07",
+    "doi": "10.37236/359",
+    "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v17i1r87",
+    "location": "printed page 8, paragraph excluding order 11"
+  },
+  "independent_later_check": {
+    "source": "Kriesell-Pedersen, DMTCS 17:1 (2015)",
+    "scope": "all graphs on at most 12 vertices",
+    "tools_reported": [
+      "Sage",
+      "geng"
+    ],
+    "url": "https://dmtcs.episciences.org/2129/pdf"
+  },
+  "compute_ledger": {
+    "models": 0,
+    "cegar_iterations": 0,
+    "separators": 0,
+    "sat_cases": 0,
+    "unsat_cases": 0,
+    "timeouts": 0,
+    "solver_cpu_seconds": 0
+  },
+  "hard_kill": "Do not run n=11; do not expand to n=12"
+}

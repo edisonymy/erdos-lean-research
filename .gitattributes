@@ -53,6 +53,11 @@ research/full_solution_scout/erdos982_isosceles_pattern_max_2026-08-03/** text e
 research/full_solution_scout/finite_witness_acquisition_max2_2026-08-03/** text eol=lf
 research/full_solution_scout/finite_witness_acquisition_max2_2026-08-03/*.drat binary -eol
 research/full_solution_scout/erdos149_independent_n11_root_2026-08-03/** text eol=lf
+research/full_solution_scout/erdos149_structural_max_2026-08-03/** -text
+research/full_solution_scout/erdos151_folkman_spectral_max_2026-08-03/** -text
+research/full_solution_scout/erdos628_n11_doublecritical_max_2026-08-03/** -text
+research/full_solution_scout/erdos151_non_cayley_folkman_max_2026-08-03/** -text
+research/full_solution_scout/erdos701_n8_counterexample_max_2026-08-03/** -text
 
 # Reproducible Windows DRAT/LRAT checker build and validation records.
 tools/proof_checkers/windows_drat/** text eol=lf

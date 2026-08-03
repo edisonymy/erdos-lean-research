@@ -1,0 +1,108 @@
+{
+  "files": [
+    {
+      "bytes": 440,
+      "path": "README.md",
+      "sha256": "c4c143a869a5cee2b3125f3f396839d4e75e52d4ecc976e2931fd387932801b1"
+    },
+    {
+      "bytes": 15494,
+      "path": "REPORT.md",
+      "sha256": "5e9580d7f461a2fbc910e48737000d71648a529b5376fa4d9bbc43bebc7eded2"
+    },
+    {
+      "bytes": 48,
+      "path": "requirements.txt",
+      "sha256": "92ce5b30d7a0f0986ee090acf6243a9cba702101f351d387a8aea58e4b0387cd"
+    },
+    {
+      "bytes": 10143,
+      "path": "scan_circulants_n50.py",
+      "sha256": "1f12305ed6bf498ca0c9c6d2fd886924af832cf08d3a97f5273c33d6f0eb886a"
+    },
+    {
+      "bytes": 262960,
+      "path": "scan_circulants_n50.result.json",
+      "sha256": "5039acbe5618f4ba303a89ece123f829c8a36b0313146fd43ad43c87c2ab6a0d"
+    },
+    {
+      "bytes": 9215,
+      "path": "scan_abelian_n50.py",
+      "sha256": "50f06c961e8fbf2b20c6cd71614a41c1a940e2e85b4da0c332ba838339dac38f"
+    },
+    {
+      "bytes": 103834,
+      "path": "scan_abelian_n50.result.json",
+      "sha256": "255ea5640bb861b4bd7d51820508e20ccdd95618ca443c5abf1c737cb6ef9583"
+    },
+    {
+      "bytes": 8202,
+      "path": "scan_circulants_n59.py",
+      "sha256": "5c48010cfb5d0d558c9b09f22a35b52af9abc42837893c340d8cdfa3f4fa538f"
+    },
+    {
+      "bytes": 25741,
+      "path": "scan_circulants_n59.result.json",
+      "sha256": "5bced93e1d435d81e39b60398f22aa3a9d8abb2186ba792c1dc6b61197da9812"
+    },
+    {
+      "bytes": 5681,
+      "path": "audit_orbits.py",
+      "sha256": "1aaa9bdd7298a05dbee24b3e2e80c6ccb6f8211e54cf03b1891cd642b95528f2"
+    },
+    {
+      "bytes": 978,
+      "path": "audit_orbits.result.json",
+      "sha256": "27413d279731b7dc11ac5261babb14028b3ccbfcf89daff3af30f3e36903e2dd"
+    },
+    {
+      "bytes": 5442,
+      "path": "audit_beta_semantics.py",
+      "sha256": "7c9e86a11d1a6585ab1bdd3da9db9448827a70ed610c67819f1cde2c779b7f2a"
+    },
+    {
+      "bytes": 3630,
+      "path": "audit_beta_semantics.result.json",
+      "sha256": "4ecf66fc28bde3d677db3df46043ba009a960fdb787e35a6dda6dca3ba7a6b65"
+    },
+    {
+      "bytes": 11116,
+      "path": "audit_family_minima.py",
+      "sha256": "5de6219eaf35c10beb7d503084eb6d86c9a175079c4a4bee27cb9eca7752ece7"
+    },
+    {
+      "bytes": 11050,
+      "path": "audit_family_minima.result.json",
+      "sha256": "4e706d66e8e78e4674aea84d77546b3c26e63d5343e96340baf6ec3c3ca17bf6"
+    },
+    {
+      "bytes": 8844,
+      "path": "audit_global_near_miss.py",
+      "sha256": "28c32e408a34c4a9dba2120c7617055cd6403f413adae7edfc15c457a198cacb"
+    },
+    {
+      "bytes": 8497,
+      "path": "audit_global_near_miss.result.json",
+      "sha256": "34252a2ff4135e347641fb5f9328bf52775e19bdc72aa991c5175b22f702adb6"
+    },
+    {
+      "bytes": 5328,
+      "path": "check_operation_lemmas.py",
+      "sha256": "9e95d15e2b99f7b3748406070f651daaaedee298177617da4b2e191981144f70"
+    },
+    {
+      "bytes": 1166,
+      "path": "check_operation_lemmas.result.json",
+      "sha256": "0a6f0b5990865f02ccc9b9d2e1c5901cdfed8c6f28517e2e89e4fa6dd929f3e0"
+    },
+    {
+      "bytes": 2686,
+      "path": "make_manifest.py",
+      "sha256": "c6db516ae027b5547da806a5228288c4f367e0715b81df4fdaae5c0ed8f328aa"
+    }
+  ],
+  "frozen_date": "2026-08-03",
+  "hash_algorithm": "SHA-256",
+  "schema": "erdos151-folkman-spectral-scout-manifest-v1",
+  "self_exclusion": "MANIFEST.json is excluded because a file cannot contain its own cryptographic hash."
+}

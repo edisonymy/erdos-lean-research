@@ -1,0 +1,466 @@
+{
+  "families": {
+    "abelian_50": {
+      "checked_minimizer": {
+        "alpha": 10,
+        "beta_checker_a": 20,
+        "beta_checker_a_witness": [
+          0,
+          1,
+          2,
+          3,
+          9,
+          10,
+          11,
+          12,
+          13,
+          19,
+          25,
+          26,
+          27,
+          29,
+          33,
+          35,
+          36,
+          37,
+          39,
+          43
+        ],
+        "beta_checker_b": 20,
+        "beta_checker_b_witness": [
+          0,
+          3,
+          4,
+          6,
+          7,
+          10,
+          14,
+          17,
+          18,
+          21,
+          26,
+          29,
+          32,
+          33,
+          35,
+          36,
+          39,
+          43,
+          45,
+          47
+        ],
+        "degree": 10,
+        "id": "0dd5ebe409eaf49da356323a5218c27df54b0951477bbf516104ebd038948492",
+        "m": 250,
+        "maximal_clique_count": 160,
+        "maximal_clique_size_distribution": {
+          "2": 50,
+          "3": 100,
+          "5": 10
+        },
+        "n": 50,
+        "parameters": {
+          "inverse_pair_generators": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              1,
+              4
+            ]
+          ],
+          "involution": false
+        },
+        "spectrum": {
+          "hoffman_independence_upper_bound_integer": 17,
+          "hoffman_independence_upper_bound_real": 17.183134077743276,
+          "lambda_max": 9.999999999999998,
+          "lambda_min": -5.236067977499797,
+          "lambda_second": 5.854101966249692,
+          "triangle_free_edge_graph": {
+            "degree_max": 2,
+            "degree_min": 2,
+            "edge_count": 50,
+            "hoffman_independence_upper_bound_integer": 22,
+            "hoffman_independence_upper_bound_real": 22.36067977499791,
+            "lambda_max": 2.0000000000000018,
+            "lambda_min": -1.6180339887498965,
+            "triangle_count": 0
+          }
+        }
+      },
+      "checker_a": "bitset Bron--Kerbosch plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "input": "research\\full_solution_scout\\erdos151_folkman_spectral_max_2026-08-03\\scan_abelian_n50.result.json",
+      "minimum_beta_among_alpha_threshold_survivors": 20,
+      "minimum_record_count_at_that_value": 45,
+      "tested_levels": [
+        {
+          "sat_count": 128,
+          "size": 12,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 13,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 14,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 15,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 16,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 17,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 18,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 19,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 128,
+          "size": 20,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 83,
+          "size": 21,
+          "unsat_count": 45
+        }
+      ],
+      "threshold_survivor_count": 128
+    },
+    "cyclic_50": {
+      "checked_minimizer": {
+        "alpha": 10,
+        "beta_checker_a": 16,
+        "beta_checker_a_witness": [
+          0,
+          2,
+          4,
+          6,
+          11,
+          13,
+          15,
+          17,
+          22,
+          24,
+          26,
+          28,
+          33,
+          35,
+          37,
+          39
+        ],
+        "beta_checker_b": 16,
+        "beta_checker_b_witness": [
+          0,
+          5,
+          9,
+          11,
+          15,
+          22,
+          24,
+          26,
+          28,
+          33,
+          35,
+          37,
+          39,
+          44,
+          46,
+          48
+        ],
+        "degree": 10,
+        "id": "818df23b7a3f4a89eb179b4a79dd707193d7669c2389128976f1d9aa998b5182",
+        "m": 250,
+        "maximal_clique_count": 160,
+        "maximal_clique_size_distribution": {
+          "2": 150,
+          "5": 10
+        },
+        "n": 50,
+        "parameters": {
+          "steps": [
+            1,
+            3,
+            8,
+            10,
+            20
+          ]
+        },
+        "spectrum": {
+          "hoffman_independence_upper_bound_integer": 18,
+          "hoffman_independence_upper_bound_real": 18.143412662855134,
+          "lambda_max": 10.000000000000005,
+          "lambda_min": -5.695340957535606,
+          "lambda_second": 5.6180339887499,
+          "triangle_free_edge_graph": {
+            "degree_max": 6,
+            "degree_min": 6,
+            "edge_count": 150,
+            "hoffman_independence_upper_bound_integer": 21,
+            "hoffman_independence_upper_bound_real": 21.95040334000485,
+            "lambda_max": 6.000000000000005,
+            "lambda_min": -4.695340957535605,
+            "triangle_count": 0
+          }
+        }
+      },
+      "checker_a": "bitset Bron--Kerbosch plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "input": "research\\full_solution_scout\\erdos151_folkman_spectral_max_2026-08-03\\scan_circulants_n50.result.json",
+      "minimum_beta_among_alpha_threshold_survivors": 16,
+      "minimum_record_count_at_that_value": 1,
+      "tested_levels": [
+        {
+          "sat_count": 610,
+          "size": 12,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 610,
+          "size": 13,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 610,
+          "size": 14,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 610,
+          "size": 15,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 610,
+          "size": 16,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 609,
+          "size": 17,
+          "unsat_count": 1
+        }
+      ],
+      "threshold_survivor_count": 610
+    },
+    "cyclic_59": {
+      "checked_minimizer": {
+        "alpha": 11,
+        "beta_checker_a": 25,
+        "beta_checker_a_witness": [
+          0,
+          1,
+          4,
+          7,
+          10,
+          13,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          26,
+          29,
+          32,
+          35,
+          38,
+          41,
+          44,
+          47,
+          50,
+          53,
+          54,
+          56,
+          57
+        ],
+        "beta_checker_b": 25,
+        "beta_checker_b_witness": [
+          1,
+          3,
+          4,
+          7,
+          10,
+          13,
+          16,
+          19,
+          20,
+          22,
+          23,
+          25,
+          26,
+          29,
+          32,
+          35,
+          38,
+          41,
+          44,
+          47,
+          50,
+          51,
+          53,
+          56,
+          57
+        ],
+        "degree": 10,
+        "id": "fd0c60dbcdc3ea5feec3779a48d438c611be4d4eecb5e7f25c0726ed8cd168ba",
+        "m": 295,
+        "maximal_clique_count": 177,
+        "maximal_clique_size_distribution": {
+          "2": 118,
+          "4": 59
+        },
+        "n": 59,
+        "parameters": {
+          "steps": [
+            1,
+            2,
+            3,
+            8,
+            14
+          ]
+        },
+        "spectrum": {
+          "hoffman_independence_upper_bound_integer": 22,
+          "hoffman_independence_upper_bound_real": 22.164415007057045,
+          "lambda_max": 9.999999999999995,
+          "lambda_min": -6.0171204044413455,
+          "lambda_second": 7.318866566229011,
+          "triangle_free_edge_graph": {
+            "degree_max": 4,
+            "degree_min": 4,
+            "edge_count": 118,
+            "hoffman_independence_upper_bound_integer": 28,
+            "hoffman_independence_upper_bound_real": 28.63407597865274,
+            "lambda_max": 4.000000000000003,
+            "lambda_min": -3.771869541466674,
+            "triangle_count": 0
+          }
+        }
+      },
+      "checker_a": "bitset Bron--Kerbosch plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "input": "research\\full_solution_scout\\erdos151_folkman_spectral_max_2026-08-03\\scan_circulants_n59.result.json",
+      "minimum_beta_among_alpha_threshold_survivors": 25,
+      "minimum_record_count_at_that_value": 1,
+      "tested_levels": [
+        {
+          "sat_count": 39,
+          "size": 13,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 14,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 15,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 16,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 17,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 18,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 19,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 20,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 21,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 22,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 23,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 24,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 39,
+          "size": 25,
+          "unsat_count": 0
+        },
+        {
+          "sat_count": 38,
+          "size": 26,
+          "unsat_count": 1
+        }
+      ],
+      "threshold_survivor_count": 39
+    }
+  },
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.4"
+  },
+  "runtime_seconds": 17.242083072662354,
+  "schema": "erdos151-cayley-alpha-threshold-survivor-minima-audit-v2"
+}

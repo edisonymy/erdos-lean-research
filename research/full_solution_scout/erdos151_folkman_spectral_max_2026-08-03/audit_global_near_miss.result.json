@@ -1,0 +1,316 @@
+{
+  "claim_boundary": "Minima are exact only for the three stated connected Cayley families and their stated degree bounds.",
+  "families": {
+    "abelian_50": {
+      "checked_minimizer": {
+        "beta_checker_a": 12,
+        "beta_checker_a_witness": [
+          0,
+          2,
+          6,
+          8,
+          16,
+          19,
+          25,
+          27,
+          31,
+          35,
+          41,
+          44
+        ],
+        "beta_checker_b": 12,
+        "beta_checker_b_witness": [
+          6,
+          9,
+          15,
+          17,
+          21,
+          23,
+          25,
+          31,
+          34,
+          37,
+          40,
+          46
+        ],
+        "degree": 10,
+        "id": "43677cb8c43aa12b40676b2f2877e71dcf841380d2060261d67df073c600f5ae",
+        "m": 250,
+        "maximal_clique_count": 250,
+        "maximal_clique_size_distribution": {
+          "2": 250
+        },
+        "n": 50,
+        "parameters": {
+          "inverse_pair_generators": [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ]
+          ],
+          "involution": false
+        },
+        "spectrum": {
+          "hoffman_independence_upper_bound_integer": 18,
+          "hoffman_independence_upper_bound_real": 18.462420573274773,
+          "lambda_max": 10.000000000000007,
+          "lambda_min": -5.854101966249686,
+          "lambda_second": 4.47213595499958,
+          "triangle_free_edge_graph": {
+            "degree_max": 10,
+            "degree_min": 10,
+            "edge_count": 250,
+            "hoffman_independence_upper_bound_integer": 18,
+            "hoffman_independence_upper_bound_real": 18.462420573274773,
+            "lambda_max": 10.000000000000007,
+            "lambda_min": -5.854101966249686,
+            "triangle_count": 0
+          }
+        }
+      },
+      "checker_a": "bitset maximal cliques plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "family_orbit_count": 401,
+      "gap_above_counterexample_target": 2,
+      "minimum_beta_entire_scanned_family": 12,
+      "minimum_record_count": 3,
+      "target_beta_upper": 10,
+      "tested_levels": [
+        {
+          "certified_by_general_admissible_set": 143,
+          "certified_by_independent_set": 258,
+          "sat_count": 401,
+          "size": 12,
+          "unsat_count": 0
+        },
+        {
+          "certified_by_general_admissible_set": 197,
+          "certified_by_independent_set": 201,
+          "sat_count": 398,
+          "size": 13,
+          "unsat_count": 3
+        }
+      ]
+    },
+    "cyclic_50": {
+      "checked_minimizer": {
+        "beta_checker_a": 12,
+        "beta_checker_a_witness": [
+          0,
+          7,
+          11,
+          17,
+          23,
+          29,
+          33,
+          35,
+          39,
+          44,
+          46,
+          48
+        ],
+        "beta_checker_b": 12,
+        "beta_checker_b_witness": [
+          5,
+          9,
+          11,
+          15,
+          21,
+          26,
+          28,
+          30,
+          32,
+          37,
+          43,
+          49
+        ],
+        "degree": 10,
+        "id": "00c29592b639b540e5b9fc68914a792700b76e49e34f727d6604432e36c402da",
+        "m": 250,
+        "maximal_clique_count": 250,
+        "maximal_clique_size_distribution": {
+          "2": 250
+        },
+        "n": 50,
+        "parameters": {
+          "steps": [
+            1,
+            3,
+            8,
+            14,
+            20
+          ]
+        },
+        "spectrum": {
+          "hoffman_independence_upper_bound_integer": 19,
+          "hoffman_independence_upper_bound_real": 19.78381668896536,
+          "lambda_max": 9.999999999999993,
+          "lambda_min": -6.547424102282473,
+          "lambda_second": 4.490902946440332,
+          "triangle_free_edge_graph": {
+            "degree_max": 10,
+            "degree_min": 10,
+            "edge_count": 250,
+            "hoffman_independence_upper_bound_integer": 19,
+            "hoffman_independence_upper_bound_real": 19.78381668896536,
+            "lambda_max": 9.999999999999993,
+            "lambda_min": -6.547424102282473,
+            "triangle_count": 0
+          }
+        }
+      },
+      "checker_a": "bitset maximal cliques plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "family_orbit_count": 6693,
+      "gap_above_counterexample_target": 2,
+      "minimum_beta_entire_scanned_family": 12,
+      "minimum_record_count": 30,
+      "target_beta_upper": 10,
+      "tested_levels": [
+        {
+          "certified_by_general_admissible_set": 1024,
+          "certified_by_independent_set": 5669,
+          "sat_count": 6693,
+          "size": 12,
+          "unsat_count": 0
+        },
+        {
+          "certified_by_general_admissible_set": 2983,
+          "certified_by_independent_set": 3680,
+          "sat_count": 6663,
+          "size": 13,
+          "unsat_count": 30
+        }
+      ]
+    },
+    "cyclic_59": {
+      "checked_minimizer": {
+        "beta_checker_a": 14,
+        "beta_checker_a_witness": [
+          0,
+          4,
+          6,
+          8,
+          10,
+          17,
+          19,
+          21,
+          23,
+          30,
+          32,
+          36,
+          43,
+          52
+        ],
+        "beta_checker_b": 14,
+        "beta_checker_b_witness": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          16,
+          18,
+          22,
+          29,
+          38,
+          45,
+          49,
+          51,
+          58
+        ],
+        "degree": 10,
+        "id": "02302dd5f61a49b87ebda1abbc1f852f3ce2365486f1104143e190475f1f19e3",
+        "m": 295,
+        "maximal_clique_count": 295,
+        "maximal_clique_size_distribution": {
+          "2": 295
+        },
+        "n": 59,
+        "parameters": {
+          "steps": [
+            1,
+            3,
+            5,
+            18,
+            25
+          ]
+        },
+        "spectrum": {
+          "hoffman_independence_upper_bound_integer": 21,
+          "hoffman_independence_upper_bound_real": 21.55636428877163,
+          "lambda_max": 10.000000000000007,
+          "lambda_min": -5.757016881324759,
+          "lambda_second": 4.452786102710204,
+          "triangle_free_edge_graph": {
+            "degree_max": 10,
+            "degree_min": 10,
+            "edge_count": 295,
+            "hoffman_independence_upper_bound_integer": 21,
+            "hoffman_independence_upper_bound_real": 21.55636428877163,
+            "lambda_max": 10.000000000000007,
+            "lambda_min": -5.757016881324759,
+            "triangle_count": 0
+          }
+        }
+      },
+      "checker_a": "bitset maximal cliques plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "family_orbit_count": 5055,
+      "gap_above_counterexample_target": 3,
+      "minimum_beta_entire_scanned_family": 14,
+      "minimum_record_count": 14,
+      "target_beta_upper": 11,
+      "tested_levels": [
+        {
+          "certified_by_general_admissible_set": 185,
+          "certified_by_independent_set": 4870,
+          "sat_count": 5055,
+          "size": 13,
+          "unsat_count": 0
+        },
+        {
+          "certified_by_general_admissible_set": 598,
+          "certified_by_independent_set": 4457,
+          "sat_count": 5055,
+          "size": 14,
+          "unsat_count": 0
+        },
+        {
+          "certified_by_general_admissible_set": 1519,
+          "certified_by_independent_set": 3522,
+          "sat_count": 5041,
+          "size": 15,
+          "unsat_count": 14
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.4"
+  },
+  "runtime_seconds": 202.9199981689453,
+  "schema": "erdos151-global-cayley-near-miss-audit-v1"
+}

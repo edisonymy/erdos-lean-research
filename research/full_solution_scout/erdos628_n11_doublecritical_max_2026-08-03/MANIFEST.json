@@ -1,0 +1,35 @@
+{
+  "schema": "erdos628-n11-no-launch-manifest-v1",
+  "generated_utc_date": "2026-08-03",
+  "scope": "fresh priority audit and no-launch closure for the proposed order-11 (2,5) Tihany counterexample search",
+  "files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 6573,
+      "sha256": "14b5065f7c3c1d0a605ba07d5191fde75ae5780b35f82752c69f1dfaa9769d9a"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 1811,
+      "sha256": "f449d5303d5faa05a149c0939bbdef33b3ffa2da0e1803bc5f5ca28252c0fdb1"
+    },
+    {
+      "path": "PRIORITY_GATE.json",
+      "bytes": 1387,
+      "sha256": "d74c69430c3e4afff2a886d9352d0b877b4957c775da4e9d62b0b84dee97eaf3"
+    },
+    {
+      "path": "CLOSURE.md",
+      "bytes": 488,
+      "sha256": "8e160b59973f63fa2f34b3bf4b682d5f2d43d445878ab720467c89e08ac4b710"
+    }
+  ],
+  "compute": {
+    "launched": false,
+    "reason": "published 2010 analytic nonexistence theorem at order 11; later computation through order 12",
+    "models": 0,
+    "timeouts": 0,
+    "solver_cpu_seconds": 0
+  },
+  "claim_boundary": "No new theorem and no Erdős #628 solution. This package records that the assigned finite target is established prior art and must not be computed or claimed."
+}

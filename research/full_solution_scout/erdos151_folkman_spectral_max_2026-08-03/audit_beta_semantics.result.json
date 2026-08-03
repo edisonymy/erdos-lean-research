@@ -1,0 +1,108 @@
+{
+  "alpha_threshold_survivor_minima": {
+    "abelian_50": {
+      "checked_values_agree": true,
+      "checker_a": "bitset Bron--Kerbosch plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "minimum_beta_among_alpha_threshold_survivors": 20,
+      "minimum_record_count_at_that_value": 45
+    },
+    "cyclic_50": {
+      "checked_values_agree": true,
+      "checker_a": "bitset Bron--Kerbosch plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "minimum_beta_among_alpha_threshold_survivors": 16,
+      "minimum_record_count_at_that_value": 1
+    },
+    "cyclic_59": {
+      "checked_values_agree": true,
+      "checker_a": "bitset Bron--Kerbosch plus CaDiCaL exact-cardinality SAT",
+      "checker_b": "NetworkX find_cliques plus RC2 weighted MaxSAT",
+      "minimum_beta_among_alpha_threshold_survivors": 25,
+      "minimum_record_count_at_that_value": 1
+    }
+  },
+  "families": {
+    "abelian_50": {
+      "all_maximal_clique_sets_agree": true,
+      "all_recorded_witnesses_definition_checked": true,
+      "candidate_count": 0,
+      "complete_scan": true,
+      "maximal_clique_count_distribution": {
+        "100": 22,
+        "110": 12,
+        "125": 11,
+        "135": 9,
+        "150": 14,
+        "160": 35,
+        "175": 2,
+        "200": 3,
+        "210": 2,
+        "35": 1,
+        "45": 1,
+        "50": 2,
+        "60": 4,
+        "70": 2,
+        "75": 5,
+        "85": 3
+      },
+      "maximal_clique_enumerators": [
+        "custom bitset Bron--Kerbosch with pivot",
+        "NetworkX find_cliques"
+      ],
+      "recorded_admissible_witness_size": 11,
+      "threshold_survivors_cross_checked": 128
+    },
+    "cyclic_50": {
+      "all_maximal_clique_sets_agree": true,
+      "all_recorded_witnesses_definition_checked": true,
+      "candidate_count": 0,
+      "complete_scan": true,
+      "maximal_clique_count_distribution": {
+        "100": 173,
+        "110": 43,
+        "125": 41,
+        "135": 21,
+        "150": 146,
+        "160": 112,
+        "175": 4,
+        "200": 29,
+        "210": 2,
+        "25": 1,
+        "250": 1,
+        "35": 1,
+        "50": 10,
+        "60": 5,
+        "75": 17,
+        "85": 4
+      },
+      "maximal_clique_enumerators": [
+        "custom bitset Bron--Kerbosch with pivot",
+        "NetworkX find_cliques"
+      ],
+      "recorded_admissible_witness_size": 11,
+      "threshold_survivors_cross_checked": 610
+    },
+    "cyclic_59": {
+      "all_maximal_clique_sets_agree": true,
+      "all_recorded_witnesses_definition_checked": true,
+      "candidate_count": 0,
+      "complete_scan": true,
+      "maximal_clique_count_distribution": {
+        "118": 29,
+        "177": 7,
+        "236": 1,
+        "59": 2
+      },
+      "maximal_clique_enumerators": [
+        "custom bitset Bron--Kerbosch with pivot",
+        "NetworkX find_cliques"
+      ],
+      "recorded_admissible_witness_size": 12,
+      "threshold_survivors_cross_checked": 39
+    }
+  },
+  "schema": "erdos151-cayley-beta-semantics-audit-v2",
+  "semantic_statement": "A set S is admissible iff no enumerated inclusion-maximal clique of size at least two is a subset of S; every SAT clique clause is exactly the negation of one such containment.",
+  "translation_fix": "Every tested graph is Cayley and translations are graph automorphisms. Any nonempty admissible set can be translated to contain the identity vertex 0, so the unit clause x_0 is equisatisfiable."
+}
