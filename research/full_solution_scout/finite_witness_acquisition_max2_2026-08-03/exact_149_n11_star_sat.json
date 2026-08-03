@@ -1,0 +1,27 @@
+{
+  "certification_warning": "A raw DRUP trace is recorded if UNSAT, but no independent proof checker was run in this pulse; solver agreement is computational evidence, not certification.",
+  "claim_scope": "exact labelled existence after symmetry fixing 01 centre, 23 leaf",
+  "encoding": {
+    "clauses": 2016,
+    "cnf_path": "exact_149_n11_star.cnf",
+    "cnf_sha256": "68d10bdf41a1cf9d897f0bff103468e9509bcc2dfba094c047d93f21be4daa18",
+    "cnf_variables": 583,
+    "graph_edge_variables": 55,
+    "vertices": 11
+  },
+  "primary": {
+    "elapsed_seconds": 0.08100152015686035,
+    "proof_lines": 15520,
+    "proof_path": "exact_149_n11_star_glucose.drup",
+    "sat": false,
+    "solver": "glucose4"
+  },
+  "sat_edges": null,
+  "schema": "erdos149-n11-star-sat-v1",
+  "secondary": {
+    "elapsed_seconds": 0.11296820640563965,
+    "sat": false,
+    "solver": "cadical195"
+  },
+  "solvers_agree": true
+}

@@ -1,0 +1,211 @@
+{
+  "best_score": [
+    1,
+    44,
+    11
+  ],
+  "compatibility_edges": [
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      3,
+      10
+    ],
+    [
+      3,
+      21
+    ],
+    [
+      4,
+      17
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      5,
+      17
+    ],
+    [
+      11,
+      13
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      12,
+      15
+    ],
+    [
+      15,
+      21
+    ]
+  ],
+  "counterexample_candidate": false,
+  "edges": [
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      10
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      9,
+      10
+    ]
+  ],
+  "explicit_strong_colouring": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    2,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    3
+  ],
+  "parameters": {
+    "restarts": 32,
+    "seed": 14920260803,
+    "steps_requested": 1000000
+  },
+  "schema": "erdos149-delta4-n11-pulse-v1",
+  "scope": {
+    "degree_sequence": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "edge_count": 22,
+    "exhaustive": false,
+    "n": 11,
+    "search": "seeded degree-preserving 2-switch hill-climb"
+  },
+  "statistics": {
+    "elapsed_seconds": 33.04331350326538,
+    "proposals_accepted": 24775,
+    "proposals_evaluated": 379911
+  },
+  "twenty_colour_savings_witness": {
+    "classes": [
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        21
+      ]
+    ],
+    "kind": "matching2"
+  }
+}

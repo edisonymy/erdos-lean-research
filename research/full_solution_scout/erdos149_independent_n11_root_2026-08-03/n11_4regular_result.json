@@ -1,0 +1,4472 @@
+{
+  "candidate_count": 0,
+  "candidates": [],
+  "catalogue": {
+    "line_count": 265,
+    "path": ".research-cache\\erdos149\\11_4reg.txt",
+    "sha256": "b24bfe74bed5dc8d3f9758ef61ae2b4503d0c4687c49d9a43ec481e2face13fd",
+    "url": "https://webhome.cs.uvic.ca/~wendym/manjeet/11_4reg.txt"
+  },
+  "claim_scope": "all 265 connected 4-regular graphs of order 11 in the cited geng catalogue; the only possible disconnected order split is 5+6, and each component then has at most 12 edges, so colouring each component edge distinctly and reusing colours between components gives a strong colouring with at most 12 colours",
+  "graphs_checked": 265,
+  "graphs_with_matching_size_two_certificate": 265,
+  "graphs_with_triangle_certificate": 39,
+  "records": [
+    {
+      "catalogue_index": 0,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 1,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 2,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 3,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 20,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 4,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 15,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 5,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 28,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 6,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 21,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 7,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 8,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 9,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 10,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 28,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 11,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 12,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          18
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 25,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 13,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 23,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 14,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 21,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 15,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 11,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 16,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          10
+        ],
+        [
+          2,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 26,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 17,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 17,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 18,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 31,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 19,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 20,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 43,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 21,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 22,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 23,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 24,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 31,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 25,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 26,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 27,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 24,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 28,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 29,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 30,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 31,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 32,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 43,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 33,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 21,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 34,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 38,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 35,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 36,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 37,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 20,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 38,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 12,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 39,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 33,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 40,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 26,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 41,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 14,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 42,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": [
+        3,
+        7,
+        11
+      ]
+    },
+    {
+      "catalogue_index": 43,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 21,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 44,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 45,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 46,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 47,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 48,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 49,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 50,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 25,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 51,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 52,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 53,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 54,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 55,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 46,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 56,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 57,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 46,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 58,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 59,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 60,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 61,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 62,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 25,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 63,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 64,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 53,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 65,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 66,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 46,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 67,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 68,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 69,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 70,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 71,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 72,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 73,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 74,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 46,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 75,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 76,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 77,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 61,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 78,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 79,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 47,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 80,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 68,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 81,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 82,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 31,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 83,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 84,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 85,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 56,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 86,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 26,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 87,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 21,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 88,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 31,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 89,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 24,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 90,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 91,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 22,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 92,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 24,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 93,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 94,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 17,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 95,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 22,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 96,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 31,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 97,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 98,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 99,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 33,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 100,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 26,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 101,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 24,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 102,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 24,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 103,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 104,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 105,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 106,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 107,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 108,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 109,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 110,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 29,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 111,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 112,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 26,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 113,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 114,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 33,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 115,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 38,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 116,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 55,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 117,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 58,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 118,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 41,
+      "triangle": [
+        2,
+        7,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 119,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 31,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 120,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": [
+        3,
+        7,
+        11
+      ]
+    },
+    {
+      "catalogue_index": 121,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 25,
+      "triangle": [
+        3,
+        7,
+        11
+      ]
+    },
+    {
+      "catalogue_index": 122,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 51,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 123,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 124,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 30,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 125,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 126,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 127,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 128,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 129,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 130,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 131,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 132,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 133,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 134,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 135,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 136,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 63,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 137,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 138,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": [
+        17,
+        18,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 139,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 140,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 141,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": [
+        0,
+        9,
+        20
+      ]
+    },
+    {
+      "catalogue_index": 142,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 143,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 46,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 144,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 145,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 146,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          20
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 147,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 148,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 149,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 150,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 25,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 151,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 30,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 152,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          21
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 153,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 154,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 155,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 156,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": [
+        17,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 157,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 22,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 158,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 159,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          21
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 160,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 33,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 161,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          18
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 162,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          18
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 163,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 164,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 53,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 165,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 166,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 57,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 167,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          10
+        ]
+      ],
+      "strongly_independent_pair_count": 57,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 168,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 64,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 169,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 170,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 93,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 171,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 172,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 56,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 173,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 174,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 47,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 175,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 176,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 177,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 178,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 179,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 40,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 180,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 181,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 50,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 182,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 183,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 184,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 46,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 185,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 56,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 186,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 187,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": [
+        16,
+        19,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 188,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          13
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 189,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": [
+        10,
+        14,
+        17
+      ]
+    },
+    {
+      "catalogue_index": 190,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          12
+        ]
+      ],
+      "strongly_independent_pair_count": 36,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 191,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 192,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 22,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 193,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 194,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 195,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 196,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 197,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 198,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          18
+        ]
+      ],
+      "strongly_independent_pair_count": 25,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 199,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          19
+        ]
+      ],
+      "strongly_independent_pair_count": 18,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 200,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 28,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 201,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          11
+        ]
+      ],
+      "strongly_independent_pair_count": 44,
+      "triangle": [
+        0,
+        4,
+        8
+      ]
+    },
+    {
+      "catalogue_index": 202,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 203,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 204,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 47,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 205,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 28,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 206,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 207,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 208,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 209,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 30,
+      "triangle": [
+        3,
+        6,
+        10
+      ]
+    },
+    {
+      "catalogue_index": 210,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": [
+        3,
+        7,
+        10
+      ]
+    },
+    {
+      "catalogue_index": 211,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 27,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 212,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 30,
+      "triangle": [
+        5,
+        13,
+        18
+      ]
+    },
+    {
+      "catalogue_index": 213,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 32,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 214,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 30,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 215,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 40,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 216,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 217,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 34,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 218,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": [
+        0,
+        11,
+        17
+      ]
+    },
+    {
+      "catalogue_index": 219,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 220,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 45,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 221,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 222,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 45,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 223,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 54,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 224,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 40,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 225,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 226,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 53,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 227,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 38,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 228,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 62,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 229,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 45,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 230,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 40,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 231,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 33,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 232,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 40,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 233,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 48,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 234,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 54,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 235,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 45,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 236,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 52,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 237,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 60,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 238,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 54,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 239,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 66,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 240,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 241,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": [
+        1,
+        7,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 242,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 39,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 243,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 244,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 37,
+      "triangle": [
+        1,
+        7,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 245,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": [
+        1,
+        7,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 246,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 247,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 30,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 248,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 43,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 249,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          8
+        ]
+      ],
+      "strongly_independent_pair_count": 35,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 250,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "strongly_independent_pair_count": 62,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 251,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 49,
+      "triangle": [
+        0,
+        7,
+        21
+      ]
+    },
+    {
+      "catalogue_index": 252,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 50,
+      "triangle": [
+        0,
+        7,
+        11
+      ]
+    },
+    {
+      "catalogue_index": 253,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 63,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 254,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 68,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 255,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 53,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 256,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "strongly_independent_pair_count": 55,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 257,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 51,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 258,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          16
+        ]
+      ],
+      "strongly_independent_pair_count": 47,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 259,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 42,
+      "triangle": [
+        0,
+        9,
+        16
+      ]
+    },
+    {
+      "catalogue_index": 260,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          17
+        ]
+      ],
+      "strongly_independent_pair_count": 68,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 261,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 57,
+      "triangle": [
+        3,
+        4,
+        11
+      ]
+    },
+    {
+      "catalogue_index": 262,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 83,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 263,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 84,
+      "triangle": null
+    },
+    {
+      "catalogue_index": 264,
+      "colour_count": 20,
+      "matching_size_two": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "strongly_independent_pair_count": 74,
+      "triangle": null
+    }
+  ],
+  "schema": "erdos149-n11-4regular-catalogue-check-v1",
+  "status": "NO_CANDIDATE_IN_SCOPE",
+  "strongly_independent_pair_count_distribution": {
+    "11": 1,
+    "12": 1,
+    "14": 1,
+    "15": 1,
+    "17": 2,
+    "18": 1,
+    "20": 2,
+    "21": 5,
+    "22": 4,
+    "23": 1,
+    "24": 5,
+    "25": 6,
+    "26": 5,
+    "27": 11,
+    "28": 4,
+    "29": 10,
+    "30": 6,
+    "31": 6,
+    "32": 15,
+    "33": 5,
+    "34": 10,
+    "35": 12,
+    "36": 12,
+    "37": 14,
+    "38": 3,
+    "39": 15,
+    "40": 5,
+    "41": 9,
+    "42": 14,
+    "43": 3,
+    "44": 8,
+    "45": 4,
+    "46": 6,
+    "47": 4,
+    "48": 7,
+    "49": 11,
+    "50": 2,
+    "51": 2,
+    "52": 1,
+    "53": 4,
+    "54": 3,
+    "55": 2,
+    "56": 3,
+    "57": 3,
+    "58": 1,
+    "60": 1,
+    "61": 1,
+    "62": 2,
+    "63": 2,
+    "64": 1,
+    "66": 1,
+    "68": 3,
+    "74": 1,
+    "83": 1,
+    "84": 1,
+    "93": 1
+  }
+}

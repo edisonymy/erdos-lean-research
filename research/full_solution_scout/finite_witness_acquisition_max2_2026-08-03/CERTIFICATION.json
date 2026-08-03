@@ -1,0 +1,38 @@
+{
+  "schema": "erdos149-n11-star-certification-v1",
+  "checked_utc_date": "2026-08-03",
+  "scope": "UNSAT of the symmetry-fixed 11-vertex 4-regular star-compatibility CNF only",
+  "cnf": {
+    "path": "exact_149_n11_star.cnf",
+    "bytes": 32798,
+    "variables": 583,
+    "clauses": 2016,
+    "sha256": "68d10bdf41a1cf9d897f0bff103468e9509bcc2dfba094c047d93f21be4daa18"
+  },
+  "drat": {
+    "path": "exact_149_n11_star_cadical.drat",
+    "bytes": 226875,
+    "sha256": "32c57573f9b6c0ae911cbf95439405e2ee26dfaa0243a2edeb5a5e016047963f",
+    "producer": "pinned CaDiCaL 1.9.5 image",
+    "checker": "pinned Linux drat-trim",
+    "checker_result": "VERIFIED"
+  },
+  "lrat": {
+    "path": "exact_149_n11_star_cadical.lrat",
+    "bytes": 1384084,
+    "sha256": "e1e63c016f3f5b20fa55a5baa1b3419c80149dec06695930151e632def91531a",
+    "checker": "native Windows lrat-check",
+    "checker_result": "VERIFIED",
+    "additions": 10972,
+    "deletions": 10951,
+    "maximum_live_clauses": 2016
+  },
+  "excluded_discovery_trace": {
+    "path": "exact_149_n11_star_glucose.drup",
+    "bytes": 487425,
+    "sha256": "99c63e98670c8d8fb773539bfe28463c532ceb48ab6d1fef61fa8d1357b1950f",
+    "status": "INVALID",
+    "reason": "drat-trim reported no conflict; preserved only for forensic reproducibility and excluded from the core manifest"
+  },
+  "claim_boundary": "This certificate excludes the star-shaped compatibility graph forced for a hypothetical 22-edge, 11-vertex, maximum-degree-4 counterexample. The reduction in REPORT.md is required to obtain the order-at-most-11 theorem. It does not solve Erdos problem 149."
+}

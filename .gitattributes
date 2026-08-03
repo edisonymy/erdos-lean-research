@@ -47,6 +47,13 @@ research/full_solution_scout/triage-2026-08-02/erdos719_exact61_audit/** text eo
 research/full_solution_scout/fable_long_horizon_2026-08-03/codex_verify719_strict*.py text eol=lf
 research/full_solution_scout/fable_long_horizon_2026-08-03/CODEX_VERIFY719_STRICT_READINESS.md text eol=lf
 
+# The bounded finite-witness scout packages carry byte-level manifests.
+research/full_solution_scout/fresh_false_conjecture_scout_max_2026-08-03/** text eol=lf
+research/full_solution_scout/erdos982_isosceles_pattern_max_2026-08-03/** text eol=lf
+research/full_solution_scout/finite_witness_acquisition_max2_2026-08-03/** text eol=lf
+research/full_solution_scout/finite_witness_acquisition_max2_2026-08-03/*.drat binary -eol
+research/full_solution_scout/erdos149_independent_n11_root_2026-08-03/** text eol=lf
+
 # Reproducible Windows DRAT/LRAT checker build and validation records.
 tools/proof_checkers/windows_drat/** text eol=lf
 tools/proof_checkers/windows_drat/bin/*.exe binary -eol

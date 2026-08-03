@@ -1,0 +1,95 @@
+{
+  "schema": "finite-witness-acquisition-manifest-v1",
+  "generated_utc_date": "2026-08-03",
+  "scope": "second independent full-solution target-acquisition sweep plus bounded Erdos 149 order-11 gate",
+  "input_pool": {
+    "path": "../pool-2026-08-03.json",
+    "bytes": 223526,
+    "sha256": "1ed914bda3d6a3b2cd4c2cec804946ee2770505f524db0948093446a5f4b1ed0"
+  },
+  "core_files": [
+    {
+      "path": "REPORT.md",
+      "bytes": 12188,
+      "sha256": "ff22f3a18ec35d8405690bdd370aa3589c9e5016d1840f196454460f5e4303d4"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2211,
+      "sha256": "1026906f8e61c603a09cc760a109f472b160512aaab06d354ab9cd1a59f3c082"
+    },
+    {
+      "path": "CLOSURE.md",
+      "bytes": 722,
+      "sha256": "ea43fd90bbafcd2710d46547b548bb95e4688b5f1e03718fbef6f1dc2688fe0f"
+    },
+    {
+      "path": "CERTIFICATION.json",
+      "bytes": 1611,
+      "sha256": "2268fc7bd991d45406d8d04c53322aec4c86f57eb1a0ff889c436cf6886dc74d"
+    },
+    {
+      "path": "exact_149_n11_star.cnf",
+      "bytes": 32798,
+      "sha256": "68d10bdf41a1cf9d897f0bff103468e9509bcc2dfba094c047d93f21be4daa18"
+    },
+    {
+      "path": "exact_149_n11_star_cadical.drat",
+      "bytes": 226875,
+      "sha256": "32c57573f9b6c0ae911cbf95439405e2ee26dfaa0243a2edeb5a5e016047963f"
+    },
+    {
+      "path": "exact_149_n11_star_cadical.lrat",
+      "bytes": 1384084,
+      "sha256": "e1e63c016f3f5b20fa55a5baa1b3419c80149dec06695930151e632def91531a"
+    },
+    {
+      "path": "exact_149_n11_star_sat.py",
+      "bytes": 5144,
+      "sha256": "44b7c5824f9519a40bd3a62007368557cbfed0fd6c322c4440b5d1f8afb4c420"
+    },
+    {
+      "path": "exact_149_n11_star_sat.json",
+      "bytes": 907,
+      "sha256": "446f0374a7ec33ed9704989947e5c172b73641bd3b3cb2d159fd9d381d6025bd"
+    },
+    {
+      "path": "pulse_149.py",
+      "bytes": 7599,
+      "sha256": "a3ab4f05a8b7371af335531dd57e80a4b390a0ecb3912acc7a60d33fa414f41b"
+    },
+    {
+      "path": "pulse_149_result.json",
+      "bytes": 2053,
+      "sha256": "dbc175baf380a99db272a83c105415f72c5e8767e2ee277523e15a52dd76772b"
+    },
+    {
+      "path": "verify_pulse_149.py",
+      "bytes": 1901,
+      "sha256": "0b8d88278fd050fd22a3ab10cfe4c019f181990c7de37fe6efb335f78c6c8cbe"
+    }
+  ],
+  "excluded_files": [
+    {
+      "path": "exact_149_n11_star_glucose.drup",
+      "bytes": 487425,
+      "sha256": "99c63e98670c8d8fb773539bfe28463c532ceb48ab6d1fef61fa8d1357b1950f",
+      "reason": "INVALID discovery trace: drat-trim reported no conflict; never use as evidence"
+    }
+  ],
+  "independent_external_cross_check": {
+    "directory": "../erdos149_independent_n11_root_2026-08-03",
+    "scope": "265 connected 4-regular graphs on 11 vertices from the public Myrvold catalogue",
+    "catalogue_sha256": "b24bfe74bed5dc8d3f9758ef61ae2b4503d0c4687c49d9a43ec481e2face13fd",
+    "checker": {
+      "path": "check_n11_4regular.py",
+      "sha256": "85c5e18f87dc65bcb4caec2672506a0a796b1b3dd93248741b3e5a84d9c7aba4"
+    },
+    "result": {
+      "path": "n11_4regular_result.json",
+      "sha256": "4d6f09cf4dd2b5b20c86a6fbfc12da05548a83300d4e391c616f0c5228765f44",
+      "summary": "265 checked; all have matching-size-2 compatibility certificates; 39 also have triangles; zero candidates"
+    }
+  },
+  "claim_boundary": "No full Erdos problem was solved. The certified result excludes the only 22-edge order-11 Delta-4 counterexample shape; REPORT.md supplies the analytic reduction to all graphs of order at most 11."
+}
