@@ -13,3 +13,17 @@ pure_nosym_sigma1*.drat
 pure_sigma18.drat
 pure_sigma19.drat
 __pycache__/
+# remaining oversized regenerable proofs/formulas (hashes in CERT_SHA256SUMS.txt)
+pure_nosym_sigma7.drat
+pure_nosym_sigma8.drat
+pure_nosym_sigma9.drat
+pure_sigma14.drat
+pure_sigma15.cnf
+pure_sigma15.drat
+pure_sigma16.cnf
+pure_sigma16.drat
+pure_sigma17.cnf
+pure_sigma17.drat
+pure_sigma18.cnf
+pure_sigma19.cnf
+td_h22_r1.cnf

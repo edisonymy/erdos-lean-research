@@ -4,3 +4,4 @@ h=19 round 1: +512 C16 blocks (total 512)
 sigma=20 m=20 vars~36716 clauses=168101
 {"h": 20, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h20_r1.cnf", "final_drat": "td_h20_r1.drat", "seconds": 539.1}
 sigma=21 m=21 vars~43829 clauses=202945
+h=21 round 1: +512 C16 blocks (total 512)
