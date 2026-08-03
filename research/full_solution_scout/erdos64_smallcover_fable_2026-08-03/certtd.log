@@ -1,0 +1,14 @@
+sigma=12 m=12 vars~6116 clauses=24247
+{"h": 12, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h12_r1.cnf", "final_drat": "td_h12_r1.drat", "seconds": 2.5}
+sigma=13 m=13 vars~8037 clauses=32679
+{"h": 13, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h13_r1.cnf", "final_drat": "td_h13_r1.drat", "seconds": 1.9}
+sigma=14 m=14 vars~10376 clauses=43156
+{"h": 14, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h14_r1.cnf", "final_drat": "td_h14_r1.drat", "seconds": 3.3}
+sigma=15 m=15 vars~13191 clauses=55991
+{"h": 15, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h15_r1.cnf", "final_drat": "td_h15_r1.drat", "seconds": 7.7}
+sigma=16 m=16 vars~16544 clauses=71520
+{"h": 16, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h16_r1.cnf", "final_drat": "td_h16_r1.drat", "seconds": 12.2}
+sigma=17 m=17 vars~20501 clauses=90102
+{"h": 17, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h17_r1.cnf", "final_drat": "td_h17_r1.drat", "seconds": 24.0}
+sigma=18 m=18 vars~25132 clauses=112119
+{"h": 18, "status": "UNSAT", "rounds": 1, "blocks": 0, "drat_verified": true, "final_cnf": "td_h18_r1.cnf", "final_drat": "td_h18_r1.drat", "seconds": 39.8}

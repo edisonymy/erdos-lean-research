@@ -1,0 +1,10 @@
+{"base": "heawood", "m": 3, "n": 42, "rank": 8, "tried": 6561, "girth9_examples": {"volts": [0, 0, 0, 0, 0, 0, 0, 0], "girth": 6, "C8": true}, "survivors": 0, "seconds": 0.7}
+{"base": "heawood", "m": 4, "n": 56, "rank": 8, "tried": 65536, "girth9_examples": {"volts": [0, 0, 0, 0, 0, 0, 0, 0], "girth": 6, "C8": true}, "survivors": 0, "seconds": 7.1}
+{"base": "heawood", "m": 5, "n": 70, "rank": 8, "tried": 555925, "girth9_examples": {"volts": [1, 1, 4, 2, 0, 2, 2, 2], "girth": 6, "C8": true}, "survivors": 0, "seconds": 90.0}
+{"base": "heawood", "m": 6, "n": 84, "rank": 8, "tried": 334791, "girth9_examples": {"volts": [1, 1, 4, 5, 2, 0, 2, 5], "girth": 6, "C8": true}, "survivors": 0, "seconds": 90.0}
+{"base": "heawood", "m": 7, "n": 98, "rank": 8, "tried": 228878, "girth9_examples": {"volts": [6, 1, 1, 4, 5, 2, 0, 6], "girth": 6, "C8": true}, "survivors": 0, "seconds": 90.0}
+{"base": "heawood", "m": 8, "n": 112, "rank": 8, "tried": 163939, "girth9_examples": {"volts": [2, 3, 5, 1, 4, 5, 5, 4], "girth": 6, "C8": true}, "survivors": 0, "seconds": 90.0}
+{"base": "heawood", "m": 9, "n": 126, "rank": 8, "tried": 110404, "girth9_examples": {"volts": [2, 3, 8, 5, 1, 4, 5, 5], "girth": 6, "C8": false, "C16": true}, "survivors": 0, "seconds": 90.0}
+{"base": "moebiuskantor", "m": 3, "n": 48, "rank": 9, "tried": 19683, "girth9_examples": {"volts": [0, 0, 0, 0, 0, 0, 0, 0, 0], "girth": 6, "C8": true}, "survivors": 0, "seconds": 2.2}
+{"base": "moebiuskantor", "m": 4, "n": 64, "rank": 9, "tried": 690433, "girth9_examples": {"volts": [1, 1, 2, 0, 2, 2, 2, 2, 1], "girth": 6, "C8": true}, "survivors": 0, "seconds": 90.0}
+{"base": "moebiuskantor", "m": 5, "n": 80, "rank": 9, "tried": 549800, "girth9_examples": {"volts": [1, 1, 4, 2, 0, 2, 2, 2, 2], "girth": 6, "C8": true}, "survivors": 0, "seconds": 90.0}

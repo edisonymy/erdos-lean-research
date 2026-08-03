@@ -1,0 +1,26 @@
+{
+ "n": 112,
+ "m_edges": 168,
+ "simple": true,
+ "min_degree": 3,
+ "degree_sequence_head": [
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3,
+  3
+ ],
+ "power_of_two_cycles": {
+  "4": false,
+  "8": false,
+  "16": true,
+  "32": true,
+  "64": true
+ },
+ "is_counterexample": false
+}

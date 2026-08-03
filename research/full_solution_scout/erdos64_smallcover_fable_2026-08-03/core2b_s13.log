@@ -1,0 +1,2 @@
+sigma=13 M=26 vars~15483 clauses=451928 t3=386100
+... iter 100 blocked {8: 4159} hist {1: 1633, 2: 1902, 0: 624} t=738s
