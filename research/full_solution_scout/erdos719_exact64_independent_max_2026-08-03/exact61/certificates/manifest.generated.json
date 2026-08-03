@@ -1,0 +1,224 @@
+{
+  "status": "THREE_EXACT61_SOLVER_PROOFS_UNCHECKED",
+  "entries": [
+    {
+      "type": 1,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "core_intersection": 0,
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          7
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 84,
+      "variables": 8932,
+      "clauses": 18359,
+      "encoding": "independent signed Sinz counters; exact23 z; c iff clean; maximal core; atmost14 c",
+      "solver": "PySAT glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 4,
+      "cnf": "type_01.cnf",
+      "cnf_bytes": 281222,
+      "cnf_sha256": "425959814d8d400633f67ea5c664017c63cb7de62995de8047143ce5d368e56d",
+      "drat": "type_01.drat",
+      "drat_bytes": 219433417,
+      "drat_sha256": "184f32f974dc02195b2e56bbf038dd88ff64b75ab54aeecb7306ea679a9a2bc8"
+    },
+    {
+      "type": 2,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5,
+          6
+        ]
+      ],
+      "core_intersection": 1,
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "compatible_blocks": 84,
+      "variables": 8932,
+      "clauses": 18359,
+      "encoding": "independent signed Sinz counters; exact23 z; c iff clean; maximal core; atmost14 c",
+      "solver": "PySAT glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 5,
+      "cnf": "type_02.cnf",
+      "cnf_bytes": 281230,
+      "cnf_sha256": "8694b8c5a94225669d5bc951534043e3b59b652eaa08f90f7a0aa60290c1c256",
+      "drat": "type_02.drat",
+      "drat_bytes": 143518724,
+      "drat_sha256": "29ef4a071fa710b05b9cbec29588302ff489ebd0a7dbc7c2a68243c72bfe1d42"
+    },
+    {
+      "type": 3,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ]
+      ],
+      "core_intersection": 2,
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "compatible_blocks": 88,
+      "variables": 8932,
+      "clauses": 18363,
+      "encoding": "independent signed Sinz counters; exact23 z; c iff clean; maximal core; atmost14 c",
+      "solver": "PySAT glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 6,
+      "cnf": "type_03.cnf",
+      "cnf_bytes": 281295,
+      "cnf_sha256": "834f843b48456b5e5009cc6f7876c2f8dac312c642e8c907903d42733498db49",
+      "drat": "type_03.drat",
+      "drat_bytes": 57462325,
+      "drat_sha256": "337a5cd4f77950a302f17b3dcaf22089a8a3ffc6ed84b90ca5954bffedbb464f"
+    }
+  ]
+}

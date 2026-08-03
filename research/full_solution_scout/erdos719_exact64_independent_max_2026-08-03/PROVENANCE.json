@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-03",
+  "status": "INDEPENDENTLY_CERTIFIED_ERDOS719_R3_N9_INSTANCE",
+  "theorem_boundary": {
+    "proved": "Every 3-uniform hypergraph on 9 vertices decomposes into at most ex_3(9;K_4^3)=54 pairwise edge-disjoint copies of K_3^3 and K_4^3.",
+    "not_proved": "The Erdős-Sauer conjecture for every r and n; a full solution of Erdős Problem #719; priority over unpublished work."
+  },
+  "runtime": {
+    "python": "3.12.4 (Anaconda build, MSC v.1929 64 bit)",
+    "python_sat": "1.9.dev7",
+    "solver_backend": "PySAT glucose4; the exact bundled upstream Glucose revision is not exposed by PySAT",
+    "pysolvers_cp312_win_amd64_pyd_sha256": "a395a4f0c618a102f47cb92b4ec701e289daa0baac7962b2f2d902c37be8711c"
+  },
+  "native_checkers": {
+    "pinned_drat_trim_git_revision": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+    "compiler": "Microsoft C/C++ Optimizing Compiler 19.35.32216.1 for x64",
+    "drat_trim_c_sha256": "78026871882de3f2fee66034e549e9c1a0a9a5291abd817d06f611f9ba0f355d",
+    "lrat_check_c_sha256": "6283834a55a39b2b879ee18e7542ad3e969eba564eee5e4ec28cdf39d68a95d0",
+    "drat_trim_exe_sha256": "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc",
+    "lrat_check_exe_sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+  },
+  "exact64": {
+    "verified_manifest_sha256": "8937b0a31bb987720f302a4f393c78ca1bb4d41ca9766d07bd07ec0a3ddc7d73",
+    "structural_audit_result_sha256": "2850c9edaf6aca4a5ca5672798e5693b05fe22708dbe0a602e0d5b0923da11c5",
+    "source_sha256": {
+      "independent_certificate.py": "81949ea848057346573b3dcf16593947f9210f792c8ab582d045e83932d277d8",
+      "check_certificates.py": "e0bdce7510d0efc923466c9d032b3e39906cd2036e94a05290b09df2dea0d9b8",
+      "structural_audit.py": "798a24e088c19a97656986ec3259eb846e49654048148f4153676380874decfe",
+      "replay_all.py": "d59c310f725fe4095e53d048e81918fd08a6ceba2616d154a69728be9de8d477"
+    },
+    "certified_artifact_bytes": {
+      "cnf": 3094165,
+      "drat": 191660122,
+      "lrat": 532074406,
+      "total": 726828693
+    },
+    "native_replay": "10/10 DRAT accepted; 10/10 converted LRAT accepted"
+  },
+  "exact61": {
+    "verified_manifest_sha256": "4b8ea16d4c574c644083b9013a1768281614a83e9ba510947c37c3e46c196656",
+    "structural_audit_result_sha256": "8617127fe09da1440bcc110b15106c7f702090bbbe006c961f3e61aeae312dd5",
+    "source_sha256": {
+      "exact61/independent_certificate61.py": "ccd7777c558a949263d9cce719a2f82aa3f57ccfc9857e07db20904ed9396746",
+      "exact61/check_certificates61.py": "226342dc3ef1cfa34e1d2032e6b92b9393af2e3ae690c3394cac965a1d3b6cd3",
+      "exact61/structural_audit61.py": "554fdc2c279a9b16c6a7329a2e5337ce95efa83ee833d7b5d9ba426f90e79ab4",
+      "exact61/replay_all61.py": "7d937c28155f796c39e5693149669934e8d1a790de4b0682101321266b05cb31"
+    },
+    "certified_artifact_bytes": {
+      "cnf": 843747,
+      "drat": 420414466,
+      "lrat": 1021524148,
+      "total": 1442782361
+    },
+    "native_replay": "3/3 DRAT accepted; 3/3 converted LRAT accepted"
+  },
+  "combined": {
+    "certified_artifact_bytes": 2169611054,
+    "replay_n9_py_sha256": "000567b92cf628ca3ed2be95862e11137248ec6d3860a5ac2288e8e3c52b77b7",
+    "success_marker": "ALL_ERDOS719_N9_INDEPENDENT_AUDITS_PASS",
+    "observed_free_space_after_certificate_generation_gib": 86.529,
+    "storage_note": "The certified CNF/DRAT/LRAT corpus occupies exactly 2,169,611,054 bytes. These are checked proofs and must not be deleted under the campaign cleanup policy."
+  },
+  "documentation_sha256": {
+    "README.md": "a64820c4adfdf2ab48a123db3ed477317afdd4704c2f9253310ff0017fab4ee0",
+    "exact61/README.md": "5c81824fa5c53742731de6354238900056b2d7c6aa87efcc1b96061e54ea8696"
+  }
+}

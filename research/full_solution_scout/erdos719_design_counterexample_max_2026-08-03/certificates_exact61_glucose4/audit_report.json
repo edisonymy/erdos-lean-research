@@ -1,0 +1,64 @@
+{
+  "status": "ALL_3_DRAT_VERIFIED_AND_ORBITS_REPLAYED",
+  "manifest_sha256": "1af646b0aa29f9ac576ee34cda1960651e10a42baae30b94b45193cade92cb9d",
+  "drat_trim_sha256": "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc",
+  "orbit_replay": {
+    "orbit_count": 3,
+    "orbit_sizes_by_intersection": {
+      "0": 315,
+      "1": 2520,
+      "2": 3780
+    },
+    "packing_cores": 6615
+  },
+  "entries": [
+    {
+      "type": 1,
+      "intersection_size": 0,
+      "cnf_sha256": "25260c0f0cdf62afbbfb41a1d4d4ed5cfcd4f6778b69161a90548651a6bdac5e",
+      "drat_sha256": "bf76ae98ac575221252d478d920b3c5c10278fdc0adb28261553cac8f0de585d",
+      "semantics": {
+        "core_edges": 8,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 84,
+        "variables": 2178,
+        "clauses": 17540
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17540 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1915 of 17540 clauses in core                            \n\nc 1865669 of 2164789 lemmas in core using 68585987 resolution steps\n\nc 0 RAT lemmas in core; 866532 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 242.372 seconds\n"
+    },
+    {
+      "type": 2,
+      "intersection_size": 1,
+      "cnf_sha256": "89cdc00219c0af498e6470e7c16cfdaae13fe381ba72b8350f3ac2d327ec8359",
+      "drat_sha256": "9c13bb11b17d1020f8df707c1084acba1488c4e93a481b9a687a57aea4c1474a",
+      "semantics": {
+        "core_edges": 8,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 84,
+        "variables": 2178,
+        "clauses": 17540
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17540 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1801 of 17540 clauses in core                            \n\nc 1244252 of 1466873 lemmas in core using 48529120 resolution steps\n\nc 0 RAT lemmas in core; 534632 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 124.462 seconds\n"
+    },
+    {
+      "type": 3,
+      "intersection_size": 2,
+      "cnf_sha256": "39caadcd906743fa164d5321ea68afa0e2b8e12e044a561d30d7e0670e29d825",
+      "drat_sha256": "48166a6895e8c6aa1c22cfc0923c3453150fe58c2867a72ecdab82db9582518a",
+      "semantics": {
+        "core_edges": 8,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 88,
+        "variables": 2178,
+        "clauses": 17544
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17544 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1665 of 17544 clauses in core                            \n\nc 597654 of 714873 lemmas in core using 23347534 resolution steps\n\nc 0 RAT lemmas in core; 274642 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 47.626 seconds\n"
+    }
+  ]
+}

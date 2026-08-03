@@ -1,0 +1,1086 @@
+{
+  "status": "GENERATED_UNCHECKED_DRAT",
+  "core_type_count": 10,
+  "entries": [
+    {
+      "type": 1,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          7,
+          8
+        ]
+      ],
+      "core_key": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        1,
+        0,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "compatible_blocks": 67,
+      "variables": 2178,
+      "clauses": 17527,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 4,
+      "cnf": "type_01.cnf",
+      "cnf_sha256": "e91e91f3f36eba42ed667ab4df6d7b49bbaad67af60b8260f78a7bf125792e42",
+      "cnf_bytes": 313214,
+      "drat": "type_01.drat",
+      "drat_sha256": "135259892e0af86cd6b3fab9bf9d1aa9e49798031e7690efeb0c212897a581a9",
+      "drat_bytes": 43334944
+    },
+    {
+      "type": 2,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          7,
+          8
+        ]
+      ],
+      "core_key": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          7
+        ],
+        [
+          1,
+          4,
+          8
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          7,
+          8
+        ]
+      ],
+      "compatible_blocks": 63,
+      "variables": 2178,
+      "clauses": 17523,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 5,
+      "cnf": "type_02.cnf",
+      "cnf_sha256": "6960e0259e4bf1ee8ad7e484c9ef186782f4648ed14729b606dcbb8bfabf1bda",
+      "cnf_bytes": 313155,
+      "drat": "type_02.drat",
+      "drat_sha256": "10b09ba738eb191eb9dc93a1659058d7f62b6d8eed26066fb22d2b94af3c7d39",
+      "drat_bytes": 93983698
+    },
+    {
+      "type": 3,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7,
+          8
+        ]
+      ],
+      "core_key": [
+        0,
+        2,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "compatible_blocks": 67,
+      "variables": 2178,
+      "clauses": 17527,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 6,
+      "cnf": "type_03.cnf",
+      "cnf_sha256": "e4559b1f307a5c3df996f4a7b75bef9dbcd47788f3dbf49d74148bc5b21a0482",
+      "cnf_bytes": 313220,
+      "drat": "type_03.drat",
+      "drat_sha256": "bf368f7201aa534d2c16d38fee8c4597b271176cc2e083ca4dc5668f566c7dd3",
+      "drat_bytes": 45404199
+    },
+    {
+      "type": 4,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "core_key": [
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          3,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 71,
+      "variables": 2178,
+      "clauses": 17531,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 7,
+      "cnf": "type_04.cnf",
+      "cnf_sha256": "b1bbd3e2eb17499cfb615244125dc4d38d9e02d2df651201285d403886df0054",
+      "cnf_bytes": 313274,
+      "drat": "type_04.drat",
+      "drat_sha256": "36fbfb528571075591c756807ce0629d64d7b4f6c00c1d1c34086cc0ce0c67df",
+      "drat_bytes": 37612632
+    },
+    {
+      "type": 5,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "core_key": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 67,
+      "variables": 2178,
+      "clauses": 17527,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 8,
+      "cnf": "type_05.cnf",
+      "cnf_sha256": "9288db440ef9c526f95665b9f195be813cd8f3cb32c00591a08315f06ccebd36",
+      "cnf_bytes": 313216,
+      "drat": "type_05.drat",
+      "drat_sha256": "a8fa0bb87b2d2a9e26b42c81fef11c47a494eb5029cc23f940c2b49a14d0ff86",
+      "drat_bytes": 54077356
+    },
+    {
+      "type": 6,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      "core_key": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 71,
+      "variables": 2178,
+      "clauses": 17531,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 9,
+      "cnf": "type_06.cnf",
+      "cnf_sha256": "a02195c60c099898dee6e6664b8f6addf078dc10ed523adc473fe8b981718931",
+      "cnf_bytes": 313278,
+      "drat": "type_06.drat",
+      "drat_sha256": "a0ef4260d77ddf1fe988c2b2e991388486ea589da7db380ebcf6e049a11aef04",
+      "drat_bytes": 34520473
+    },
+    {
+      "type": 7,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          6,
+          7
+        ]
+      ],
+      "core_key": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 75,
+      "variables": 2178,
+      "clauses": 17535,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 10,
+      "cnf": "type_07.cnf",
+      "cnf_sha256": "b82041d10979a8ecd5ba2bd3aef2add210afbe079bf36d6a2596ec882b0c3368",
+      "cnf_bytes": 313338,
+      "drat": "type_07.drat",
+      "drat_sha256": "ec9865c48c948c874b5055ee086a1b4b153bd19a8c5645c7e4f069e4211d7ab0",
+      "drat_bytes": 21543343
+    },
+    {
+      "type": 8,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          6
+        ]
+      ],
+      "core_key": [
+        2,
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          6
+        ]
+      ],
+      "compatible_blocks": 71,
+      "variables": 2178,
+      "clauses": 17531,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 11,
+      "cnf": "type_08.cnf",
+      "cnf_sha256": "b873e6cbd1cb8546eb2166bc8cc07a5bacdb6ec9c584fb3b14c81ebba0d4ad93",
+      "cnf_bytes": 313275,
+      "drat": "type_08.drat",
+      "drat_sha256": "5d2573d6c093afc125eb42664f7c03fc800058cd3a4da373bd43ac6ee5727b3c",
+      "drat_bytes": 45400675
+    },
+    {
+      "type": 9,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          6
+        ]
+      ],
+      "core_key": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "compatible_blocks": 74,
+      "variables": 2178,
+      "clauses": 17534,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 12,
+      "cnf": "type_09.cnf",
+      "cnf_sha256": "b8149c0787850ad22088e2e94224da4ba55034a74543331af5b9f162612ee81a",
+      "cnf_bytes": 313321,
+      "drat": "type_09.drat",
+      "drat_sha256": "4dce67823e845aa4c4e4846676df26890484352f912af2b4523c52a99862671d",
+      "drat_bytes": 20946838
+    },
+    {
+      "type": 10,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "core_key": [
+        3,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "compatible_blocks": 75,
+      "variables": 2178,
+      "clauses": 17535,
+      "encoding": "PySAT totalizer: exactly20 z; c_B iff clean; maximal core; atmost21 c",
+      "solver": "PySAT glucose4 with_proof=True",
+      "solver_status": "UNSAT",
+      "ucrt_flushall_return": 13,
+      "cnf": "type_10.cnf",
+      "cnf_sha256": "a07aff0672a033ed30ebfa1d6994dd4cfe9c89c8568c573bbfb5c889b928a9f8",
+      "cnf_bytes": 313334,
+      "drat": "type_10.drat",
+      "drat_sha256": "0900763849adb7cd93a96c8ed116b25844cc52bad6819afeb63dd3ec8654d8db",
+      "drat_bytes": 26397488
+    }
+  ]
+}

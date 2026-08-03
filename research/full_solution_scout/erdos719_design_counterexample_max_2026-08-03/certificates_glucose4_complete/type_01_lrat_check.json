@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED",
+  "date": "2026-08-03",
+  "command_generation": "drat-trim.exe type_01.cnf type_01.drat -I -L type_01.lrat",
+  "generation_returncode": 0,
+  "generation_output_marker": "s VERIFIED",
+  "command_check": "lrat-check.exe type_01.cnf type_01.lrat",
+  "check_returncode": 0,
+  "check_output_marker": "c VERIFIED",
+  "added_clauses": 321998,
+  "deleted_clauses": 321912,
+  "max_live_clauses": 17527,
+  "cnf_sha256": "e91e91f3f36eba42ed667ab4df6d7b49bbaad67af60b8260f78a7bf125792e42",
+  "drat_sha256": "135259892e0af86cd6b3fab9bf9d1aa9e49798031e7690efeb0c212897a581a9",
+  "lrat_sha256": "26732fac2a630a991eabf2629c437ed68957912c8bb16dccd22f616264266e3b",
+  "drat_trim_sha256": "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc",
+  "lrat_check_sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+}

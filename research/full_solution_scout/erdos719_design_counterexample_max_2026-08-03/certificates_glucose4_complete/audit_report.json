@@ -1,0 +1,177 @@
+{
+  "status": "ALL_10_DRAT_VERIFIED_AND_ORBITS_REPLAYED",
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "manifest": "research\\full_solution_scout\\erdos719_design_counterexample_max_2026-08-03\\certificates_glucose4_complete\\manifest.generated.json",
+  "manifest_sha256": "1ff6312495d6504b618b8ec45827411aeae4bd265f8a4c6b171ed9e515464966",
+  "drat_trim": "tools\\proof_checkers\\windows_drat\\bin\\drat-trim.exe",
+  "drat_trim_sha256": "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc",
+  "orbit_replay": {
+    "packing_cores": 190260,
+    "orbit_count": 10,
+    "orbit_sizes": {
+      "0/1/2/2/3/1/0/0": 15120,
+      "0/2/2/1/2/1/1/0": 7560,
+      "0/2/2/1/3/0/0/1": 7560,
+      "1/0/2/2/2/2/0/0": 11340,
+      "1/1/1/2/2/1/1/0": 45360,
+      "1/1/2/1/2/1/0/1": 45360,
+      "1/2/2/0/2/0/0/2": 3780,
+      "2/0/1/2/1/2/1/0": 22680,
+      "2/1/1/1/1/1/1/1": 30240,
+      "3/0/0/2/0/2/2/0": 1260
+    }
+  },
+  "entries": [
+    {
+      "type": 1,
+      "cnf_sha256": "e91e91f3f36eba42ed667ab4df6d7b49bbaad67af60b8260f78a7bf125792e42",
+      "drat_sha256": "135259892e0af86cd6b3fab9bf9d1aa9e49798031e7690efeb0c212897a581a9",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 67,
+        "variables": 2178,
+        "clauses": 17527
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17527 clauses\n\nc WARNING: deleted clause on proof line 713041 does not occur: [335575027] 33 34 49 155 0\n\nc WARNING: deleted clause on proof line 713063 does not occur: [335575027] 47 48 49 175 0\n\nc WARNING: deleted clause on proof line 732624 does not occur: [335575027] 5 23 44 100 0\n\nc WARNING: deleted clause on proof line 732646 does not occur: [335575027] 41 44 75 166 0\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1842 of 17527 clauses in core                            \n\nc 304471 of 363056 lemmas in core using 11611524 resolution steps\n\nc 0 RAT lemmas in core; 121006 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 18.390 seconds\n"
+    },
+    {
+      "type": 2,
+      "cnf_sha256": "6960e0259e4bf1ee8ad7e484c9ef186782f4648ed14729b606dcbb8bfabf1bda",
+      "drat_sha256": "10b09ba738eb191eb9dc93a1659058d7f62b6d8eed26066fb22d2b94af3c7d39",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 63,
+        "variables": 2178,
+        "clauses": 17523
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17523 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 2155 of 17523 clauses in core                            \n\nc 584139 of 669273 lemmas in core using 26916539 resolution steps\n\nc 0 RAT lemmas in core; 272777 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 57.123 seconds\n"
+    },
+    {
+      "type": 3,
+      "cnf_sha256": "e4559b1f307a5c3df996f4a7b75bef9dbcd47788f3dbf49d74148bc5b21a0482",
+      "drat_sha256": "bf368f7201aa534d2c16d38fee8c4597b271176cc2e083ca4dc5668f566c7dd3",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 67,
+        "variables": 2178,
+        "clauses": 17527
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17527 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1863 of 17527 clauses in core                            \n\nc 309010 of 361766 lemmas in core using 11685478 resolution steps\n\nc 0 RAT lemmas in core; 135393 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 22.141 seconds\n"
+    },
+    {
+      "type": 4,
+      "cnf_sha256": "b1bbd3e2eb17499cfb615244125dc4d38d9e02d2df651201285d403886df0054",
+      "drat_sha256": "36fbfb528571075591c756807ce0629d64d7b4f6c00c1d1c34086cc0ce0c67df",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 71,
+        "variables": 2178,
+        "clauses": 17531
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17531 clauses\n\nc WARNING: deleted clause on proof line 620901 does not occur: [335586043] 50 56 66 177 0\n\nc WARNING: deleted clause on proof line 620911 does not occur: [335586043] 56 57 78 189 0\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1648 of 17531 clauses in core                            \n\nc 268331 of 308736 lemmas in core using 9495606 resolution steps\n\nc 0 RAT lemmas in core; 119014 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 16.244 seconds\n"
+    },
+    {
+      "type": 5,
+      "cnf_sha256": "9288db440ef9c526f95665b9f195be813cd8f3cb32c00591a08315f06ccebd36",
+      "drat_sha256": "a8fa0bb87b2d2a9e26b42c81fef11c47a494eb5029cc23f940c2b49a14d0ff86",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 67,
+        "variables": 2178,
+        "clauses": 17527
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17527 clauses\n\nc WARNING: deleted clause on proof line 19643 does not occur: [335609270] -188 1718 0\n\nc WARNING: deleted clause on proof line 816920 does not occur: [335609270] 58 64 80 191 0\n\nc WARNING: deleted clause on proof line 816930 does not occur: [335609270] 63 64 84 195 0\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1946 of 17527 clauses in core                            \n\nc 362189 of 412506 lemmas in core using 14137170 resolution steps\n\nc 0 RAT lemmas in core; 157255 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 29.516 seconds\n"
+    },
+    {
+      "type": 6,
+      "cnf_sha256": "a02195c60c099898dee6e6664b8f6addf078dc10ed523adc473fe8b981718931",
+      "drat_sha256": "a0ef4260d77ddf1fe988c2b2e991388486ea589da7db380ebcf6e049a11aef04",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 71,
+        "variables": 2178,
+        "clauses": 17531
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17531 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1733 of 17531 clauses in core                            \n\nc 255952 of 298340 lemmas in core using 9006003 resolution steps\n\nc 0 RAT lemmas in core; 99046 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 16.030 seconds\n"
+    },
+    {
+      "type": 7,
+      "cnf_sha256": "b82041d10979a8ecd5ba2bd3aef2add210afbe079bf36d6a2596ec882b0c3368",
+      "drat_sha256": "ec9865c48c948c874b5055ee086a1b4b153bd19a8c5645c7e4f069e4211d7ab0",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 75,
+        "variables": 2178,
+        "clauses": 17535
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17535 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1467 of 17535 clauses in core                            \n\nc 164690 of 193613 lemmas in core using 5986108 resolution steps\n\nc 0 RAT lemmas in core; 65582 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 8.081 seconds\n"
+    },
+    {
+      "type": 8,
+      "cnf_sha256": "b873e6cbd1cb8546eb2166bc8cc07a5bacdb6ec9c584fb3b14c81ebba0d4ad93",
+      "drat_sha256": "5d2573d6c093afc125eb42664f7c03fc800058cd3a4da373bd43ac6ee5727b3c",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 71,
+        "variables": 2178,
+        "clauses": 17531
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17531 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1824 of 17531 clauses in core                            \n\nc 319013 of 370424 lemmas in core using 12320612 resolution steps\n\nc 0 RAT lemmas in core; 137911 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 20.858 seconds\n"
+    },
+    {
+      "type": 9,
+      "cnf_sha256": "b8149c0787850ad22088e2e94224da4ba55034a74543331af5b9f162612ee81a",
+      "drat_sha256": "4dce67823e845aa4c4e4846676df26890484352f912af2b4523c52a99862671d",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 74,
+        "variables": 2178,
+        "clauses": 17534
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17534 clauses\n\nc WARNING: deleted clause on proof line 380307 does not occur: [335582690] 30 86 0\n\nc WARNING: deleted clause on proof line 380489 does not occur: [335582690] -86 2176 0\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1580 of 17534 clauses in core                            \n\nc 157860 of 188469 lemmas in core using 5382203 resolution steps\n\nc 0 RAT lemmas in core; 59196 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 7.257 seconds\n"
+    },
+    {
+      "type": 10,
+      "cnf_sha256": "a07aff0672a033ed30ebfa1d6994dd4cfe9c89c8568c573bbfb5c889b928a9f8",
+      "drat_sha256": "0900763849adb7cd93a96c8ed116b25844cc52bad6819afeb63dd3ec8654d8db",
+      "semantics": {
+        "core_edges": 12,
+        "all_clean_equivalences": 126,
+        "compatible_block_hitting_clauses": 75,
+        "variables": 2178,
+        "clauses": 17535
+      },
+      "checker_returncode": 0,
+      "checker_verified": true,
+      "checker_output": "\nc parsing input formula with 2178 variables and 17535 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 1303 of 17535 clauses in core                            \n\nc 185246 of 216955 lemmas in core using 6660915 resolution steps\n\nc 0 RAT lemmas in core; 82439 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 8.902 seconds\n"
+    }
+  ]
+}

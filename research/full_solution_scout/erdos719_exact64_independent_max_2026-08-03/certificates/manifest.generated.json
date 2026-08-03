@@ -1,0 +1,978 @@
+{
+  "status": "GENERATED_UNCHECKED_SOLVER_PROOFS",
+  "independent_core_type_count": 10,
+  "entries": [
+    {
+      "type": 1,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          7,
+          8
+        ]
+      ],
+      "signature": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        1,
+        0,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          7,
+          8
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "compatible_blocks": 67,
+      "variables": 9807,
+      "clauses": 20089,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 4,
+      "cnf": "type_01.cnf",
+      "cnf_sha256": "f57f09e3839c0826ca452e902c967c8e28e552d2fe0292007a5c459de96ff44c",
+      "cnf_bytes": 309368,
+      "drat": "type_01.drat",
+      "drat_sha256": "22401b0bfa605eb46e5f29c0db61ab54820a653aa71626ddc0cd46739ecc3859",
+      "drat_bytes": 18201236
+    },
+    {
+      "type": 2,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          4,
+          7,
+          8
+        ]
+      ],
+      "signature": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          7
+        ],
+        [
+          1,
+          4,
+          8
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          7,
+          8
+        ]
+      ],
+      "compatible_blocks": 63,
+      "variables": 9807,
+      "clauses": 20085,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 5,
+      "cnf": "type_02.cnf",
+      "cnf_sha256": "5f55fbb5b3762431674afa86dfbd6d1d47db1099b6af3b2306a0e801e591363a",
+      "cnf_bytes": 309309,
+      "drat": "type_02.drat",
+      "drat_sha256": "cf90020a2a38fe726ee65989f3e725378df78556aca7dd90b228542e923996bd",
+      "drat_bytes": 50293926
+    },
+    {
+      "type": 3,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7,
+          8
+        ]
+      ],
+      "signature": [
+        0,
+        2,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          0,
+          6,
+          8
+        ],
+        [
+          0,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ],
+      "compatible_blocks": 67,
+      "variables": 9807,
+      "clauses": 20089,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 6,
+      "cnf": "type_03.cnf",
+      "cnf_sha256": "6c30b88c0d33764433e670f8c3ef35af4bcdf7d32e32ae3bc4c0af3cf4b5dab0",
+      "cnf_bytes": 309374,
+      "drat": "type_03.drat",
+      "drat_sha256": "43be00dbd399d7198423120e0c9195b6ad658fa260228ff1d3c003fad2145a53",
+      "drat_bytes": 27519348
+    },
+    {
+      "type": 4,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          6,
+          7
+        ]
+      ],
+      "signature": [
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          3,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 71,
+      "variables": 9807,
+      "clauses": 20093,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 7,
+      "cnf": "type_04.cnf",
+      "cnf_sha256": "dc1c9ef6ab95f7353203d739ab2247e558ccd139c45b9187c7e632366dda6667",
+      "cnf_bytes": 309428,
+      "drat": "type_04.drat",
+      "drat_sha256": "80998ef87089483ff589bc1a6e097306d2d1e6df65c48676bed63ef0552026cc",
+      "drat_bytes": 10906120
+    },
+    {
+      "type": 5,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6,
+          7
+        ]
+      ],
+      "signature": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          4,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 67,
+      "variables": 9807,
+      "clauses": 20089,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 8,
+      "cnf": "type_05.cnf",
+      "cnf_sha256": "081e78c45e1b6d8ff986546de849c2d5806ea3ee397a5da0fcc1f1e5f3175ad6",
+      "cnf_bytes": 309370,
+      "drat": "type_05.drat",
+      "drat_sha256": "e1b53a5e67dd3078851160254fcfe85451864fc44c124b9c1cf7301ade7a454b",
+      "drat_bytes": 19756457
+    },
+    {
+      "type": 6,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      "signature": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          2,
+          7
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 71,
+      "variables": 9807,
+      "clauses": 20093,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 9,
+      "cnf": "type_06.cnf",
+      "cnf_sha256": "f42440dc74eaf17d95612d0191a2e8e999183dfe75c49e02997e215622328063",
+      "cnf_bytes": 309432,
+      "drat": "type_06.drat",
+      "drat_sha256": "2597abd50473b22efdc3062626048a1532d7919abee89078d16b3e8a8a11145b",
+      "drat_bytes": 13430287
+    },
+    {
+      "type": 7,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          6,
+          7
+        ]
+      ],
+      "signature": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          7
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          6,
+          7
+        ]
+      ],
+      "compatible_blocks": 75,
+      "variables": 9807,
+      "clauses": 20097,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 10,
+      "cnf": "type_07.cnf",
+      "cnf_sha256": "038a125ac38cd84450f11bda472d32d0abb7d01143582427ded700adb9c2adb6",
+      "cnf_bytes": 309492,
+      "drat": "type_07.drat",
+      "drat_sha256": "4a380459f3efeccdd37e1b6effee93884a53790cca9243444b5f715afc8b1109",
+      "drat_bytes": 8515238
+    },
+    {
+      "type": 8,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          6
+        ]
+      ],
+      "signature": [
+        2,
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          6
+        ]
+      ],
+      "compatible_blocks": 71,
+      "variables": 9807,
+      "clauses": 20093,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 11,
+      "cnf": "type_08.cnf",
+      "cnf_sha256": "04b3c4ac0e30ed0415fbbf2c42bf34e9adbc6afe5d1ee16ba454a7eb8ebf96b8",
+      "cnf_bytes": 309429,
+      "drat": "type_08.drat",
+      "drat_sha256": "6c044da81b6057ab19dd44c9fadb4d57a971589ddd87e880243a8aa1b621b489",
+      "drat_bytes": 18460922
+    },
+    {
+      "type": 9,
+      "core": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          6
+        ]
+      ],
+      "signature": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "core_edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          6
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          6
+        ]
+      ],
+      "compatible_blocks": 74,
+      "variables": 9807,
+      "clauses": 20096,
+      "cardinality_encoding": "independent signed Sinz sequential counters",
+      "solver": "glucose4",
+      "solver_status": "UNSAT_UNCHECKED",
+      "ucrt_flushall_return": 12,
+      "cnf": "type_09.cnf",
+      "cnf_sha256": "192696ac62116580e17ddbb24408e72cac9ca0f84a331f5521df57e72fbc21dd",
+      "cnf_bytes": 309475,
+      "drat": "type_09.drat",
+      "drat_sha256": "ca8c8930998b3cf2eddc22bfcc76c637d8491ff8a40065006b2f05609133e1bb",
+      "drat_bytes": 9200452
+    }
+  ]
+}

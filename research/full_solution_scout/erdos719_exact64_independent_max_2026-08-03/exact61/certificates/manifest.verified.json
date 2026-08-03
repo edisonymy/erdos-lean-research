@@ -1,0 +1,86 @@
+{
+  "status": "ALL_THREE_EXACT61_INDEPENDENT_CERTIFICATES_NATIVE_VERIFIED",
+  "claim_scope": "fixed-core exact23/maximal-core/q<=14 formulas only",
+  "drat_trim": {
+    "binary": "drat-trim.exe",
+    "sha256": "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc"
+  },
+  "lrat_check": {
+    "binary": "lrat-check.exe",
+    "sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+  },
+  "entries": [
+    {
+      "type": 1,
+      "cnf": "type_01.cnf",
+      "cnf_bytes": 281222,
+      "cnf_sha256": "425959814d8d400633f67ea5c664017c63cb7de62995de8047143ce5d368e56d",
+      "drat": "type_01.drat",
+      "drat_bytes": 219433417,
+      "drat_sha256": "184f32f974dc02195b2e56bbf038dd88ff64b75ab54aeecb7306ea679a9a2bc8",
+      "lrat": "type_01.lrat",
+      "lrat_bytes": 512234610,
+      "lrat_sha256": "5055d0ad962c9b6fb21cdff4a810027bf9661bbfcafc70b5563f734861ce31c6",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_01.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_01.lrat-check.log"
+      }
+    },
+    {
+      "type": 2,
+      "cnf": "type_02.cnf",
+      "cnf_bytes": 281230,
+      "cnf_sha256": "8694b8c5a94225669d5bc951534043e3b59b652eaa08f90f7a0aa60290c1c256",
+      "drat": "type_02.drat",
+      "drat_bytes": 143518724,
+      "drat_sha256": "29ef4a071fa710b05b9cbec29588302ff489ebd0a7dbc7c2a68243c72bfe1d42",
+      "lrat": "type_02.lrat",
+      "lrat_bytes": 364447817,
+      "lrat_sha256": "4f9540eda9f1a498281c5ea61e9bcccfd1d82200395c5850e627d54e2d9a8ec1",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_02.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_02.lrat-check.log"
+      }
+    },
+    {
+      "type": 3,
+      "cnf": "type_03.cnf",
+      "cnf_bytes": 281295,
+      "cnf_sha256": "834f843b48456b5e5009cc6f7876c2f8dac312c642e8c907903d42733498db49",
+      "drat": "type_03.drat",
+      "drat_bytes": 57462325,
+      "drat_sha256": "337a5cd4f77950a302f17b3dcaf22089a8a3ffc6ed84b90ca5954bffedbb464f",
+      "lrat": "type_03.lrat",
+      "lrat_bytes": 144841721,
+      "lrat_sha256": "c8d1ae7b8bf42bf53903b6271efde2f4a896b179057676fcc693b2da71f27ba9",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_03.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_03.lrat-check.log"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "EXACT61_STRUCTURAL_AUDIT_PASS",
+  "packing18_distinct_triples": 72,
+  "labeled_two_packings": 6615,
+  "core_types_by_intersection": {
+    "0": 315,
+    "1": 2520,
+    "2": 3780
+  },
+  "formulas": [
+    {
+      "type": 1,
+      "intersection": 0,
+      "compatible_blocks": 84,
+      "cnf_sha256": "425959814d8d400633f67ea5c664017c63cb7de62995de8047143ce5d368e56d"
+    },
+    {
+      "type": 2,
+      "intersection": 1,
+      "compatible_blocks": 84,
+      "cnf_sha256": "8694b8c5a94225669d5bc951534043e3b59b652eaa08f90f7a0aa60290c1c256"
+    },
+    {
+      "type": 3,
+      "intersection": 2,
+      "compatible_blocks": 88,
+      "cnf_sha256": "834f843b48456b5e5009cc6f7876c2f8dac312c642e8c907903d42733498db49"
+    }
+  ],
+  "verified_manifest_sha256": "4b8ea16d4c574c644083b9013a1768281614a83e9ba510947c37c3e46c196656"
+}

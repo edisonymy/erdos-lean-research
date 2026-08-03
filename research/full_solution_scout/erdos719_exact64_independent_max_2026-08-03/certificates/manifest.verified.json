@@ -1,0 +1,254 @@
+{
+  "status": "ALL_TEN_INDEPENDENT_CERTIFICATES_NATIVE_VERIFIED",
+  "claim_scope": "fixed-core exact20/maximal-core/q<=21 formulas only",
+  "drat_trim": {
+    "binary": "drat-trim.exe",
+    "sha256": "0d4f4684f2bc492ad7fe48b4fa24cf1c50d7c91e33c16c0183c20f2d3ae50ddc"
+  },
+  "lrat_check": {
+    "binary": "lrat-check.exe",
+    "sha256": "e0a8eb3c7f5e917ad5e049623671a465d4119ec4704077a3762a7ed8ae2c8fd9"
+  },
+  "entries": [
+    {
+      "type": 1,
+      "cnf": "type_01.cnf",
+      "cnf_bytes": 309368,
+      "cnf_sha256": "f57f09e3839c0826ca452e902c967c8e28e552d2fe0292007a5c459de96ff44c",
+      "drat": "type_01.drat",
+      "drat_bytes": 18201236,
+      "drat_sha256": "22401b0bfa605eb46e5f29c0db61ab54820a653aa71626ddc0cd46739ecc3859",
+      "lrat": "type_01.lrat",
+      "lrat_bytes": 45627798,
+      "lrat_sha256": "10e65f76a8abb2537c28f15ef0c39c456f6cf6c4dffecd68fd7416ab7c7de1cf",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_01.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_01.lrat-check.log"
+      }
+    },
+    {
+      "type": 2,
+      "cnf": "type_02.cnf",
+      "cnf_bytes": 309309,
+      "cnf_sha256": "5f55fbb5b3762431674afa86dfbd6d1d47db1099b6af3b2306a0e801e591363a",
+      "drat": "type_02.drat",
+      "drat_bytes": 50293926,
+      "drat_sha256": "cf90020a2a38fe726ee65989f3e725378df78556aca7dd90b228542e923996bd",
+      "lrat": "type_02.lrat",
+      "lrat_bytes": 162865438,
+      "lrat_sha256": "710896bebdcb6e170f2dfdc021d3ed80826ca03caee67f05144eaa0a3bfa7933",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_02.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_02.lrat-check.log"
+      }
+    },
+    {
+      "type": 3,
+      "cnf": "type_03.cnf",
+      "cnf_bytes": 309374,
+      "cnf_sha256": "6c30b88c0d33764433e670f8c3ef35af4bcdf7d32e32ae3bc4c0af3cf4b5dab0",
+      "drat": "type_03.drat",
+      "drat_bytes": 27519348,
+      "drat_sha256": "43be00dbd399d7198423120e0c9195b6ad658fa260228ff1d3c003fad2145a53",
+      "lrat": "type_03.lrat",
+      "lrat_bytes": 75321610,
+      "lrat_sha256": "635a75419dedac651c31f05f9a6c561e95ff943e87194952439733fba45522de",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_03.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_03.lrat-check.log"
+      }
+    },
+    {
+      "type": 4,
+      "cnf": "type_04.cnf",
+      "cnf_bytes": 309428,
+      "cnf_sha256": "dc1c9ef6ab95f7353203d739ab2247e558ccd139c45b9187c7e632366dda6667",
+      "drat": "type_04.drat",
+      "drat_bytes": 10906120,
+      "drat_sha256": "80998ef87089483ff589bc1a6e097306d2d1e6df65c48676bed63ef0552026cc",
+      "lrat": "type_04.lrat",
+      "lrat_bytes": 24530642,
+      "lrat_sha256": "84b89783fa44e7c3a6c2d6f90ccbb7b0890270f9dc55486861e402b5780bbf1a",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_04.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_04.lrat-check.log"
+      }
+    },
+    {
+      "type": 5,
+      "cnf": "type_05.cnf",
+      "cnf_bytes": 309370,
+      "cnf_sha256": "081e78c45e1b6d8ff986546de849c2d5806ea3ee397a5da0fcc1f1e5f3175ad6",
+      "drat": "type_05.drat",
+      "drat_bytes": 19756457,
+      "drat_sha256": "e1b53a5e67dd3078851160254fcfe85451864fc44c124b9c1cf7301ade7a454b",
+      "lrat": "type_05.lrat",
+      "lrat_bytes": 51130886,
+      "lrat_sha256": "f575e7cf8b9cc5861d5fe8a9430a0244e2cfaa51bb9bcb48460e37e7c3cbce2d",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_05.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_05.lrat-check.log"
+      }
+    },
+    {
+      "type": 6,
+      "cnf": "type_06.cnf",
+      "cnf_bytes": 309432,
+      "cnf_sha256": "f42440dc74eaf17d95612d0191a2e8e999183dfe75c49e02997e215622328063",
+      "drat": "type_06.drat",
+      "drat_bytes": 13430287,
+      "drat_sha256": "2597abd50473b22efdc3062626048a1532d7919abee89078d16b3e8a8a11145b",
+      "lrat": "type_06.lrat",
+      "lrat_bytes": 34186412,
+      "lrat_sha256": "dbd075b1c327ca7e2550a0c94a7cdf930d162f9ff3c8589e3ddd2fe13fa7ba17",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_06.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_06.lrat-check.log"
+      }
+    },
+    {
+      "type": 7,
+      "cnf": "type_07.cnf",
+      "cnf_bytes": 309492,
+      "cnf_sha256": "038a125ac38cd84450f11bda472d32d0abb7d01143582427ded700adb9c2adb6",
+      "drat": "type_07.drat",
+      "drat_bytes": 8515238,
+      "drat_sha256": "4a380459f3efeccdd37e1b6effee93884a53790cca9243444b5f715afc8b1109",
+      "lrat": "type_07.lrat",
+      "lrat_bytes": 21848578,
+      "lrat_sha256": "260b77f88df065a95cece1b7e6430ba5f337d60a0b28957619045c1961945f9a",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_07.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_07.lrat-check.log"
+      }
+    },
+    {
+      "type": 8,
+      "cnf": "type_08.cnf",
+      "cnf_bytes": 309429,
+      "cnf_sha256": "04b3c4ac0e30ed0415fbbf2c42bf34e9adbc6afe5d1ee16ba454a7eb8ebf96b8",
+      "drat": "type_08.drat",
+      "drat_bytes": 18460922,
+      "drat_sha256": "6c044da81b6057ab19dd44c9fadb4d57a971589ddd87e880243a8aa1b621b489",
+      "lrat": "type_08.lrat",
+      "lrat_bytes": 50715471,
+      "lrat_sha256": "31a6f99fcfa9989dd6708cd20cbba2cdbcfd98bf9f1d8f2d82460395ff00411a",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_08.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_08.lrat-check.log"
+      }
+    },
+    {
+      "type": 9,
+      "cnf": "type_09.cnf",
+      "cnf_bytes": 309475,
+      "cnf_sha256": "192696ac62116580e17ddbb24408e72cac9ca0f84a331f5521df57e72fbc21dd",
+      "drat": "type_09.drat",
+      "drat_bytes": 9200452,
+      "drat_sha256": "ca8c8930998b3cf2eddc22bfcc76c637d8491ff8a40065006b2f05609133e1bb",
+      "lrat": "type_09.lrat",
+      "lrat_bytes": 19843865,
+      "lrat_sha256": "a0dd79bd07a8ad4ff889fafe6ff7f364fece19f78f203fe4fd9a05652b9d3b1f",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_09.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_09.lrat-check.log"
+      }
+    },
+    {
+      "type": 10,
+      "cnf": "type_10.cnf",
+      "cnf_bytes": 309488,
+      "cnf_sha256": "13f4980114e845f8c2c780192bac9d778fb6891bde0779096dd49c8642904f38",
+      "drat": "type_10.drat",
+      "drat_bytes": 15376136,
+      "drat_sha256": "92a89f2e3a4fc97fa9d161eafd08391bdad65aeec51bfbcc6e731b1383e6ee21",
+      "lrat": "type_10.lrat",
+      "lrat_bytes": 46003706,
+      "lrat_sha256": "c16a8898369ccf20d9fd3314881ad3f5806d83ecf3d8b2783f9435ac52c7b233",
+      "drat_check": {
+        "checker": "drat-trim.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_10.drat-trim.log"
+      },
+      "lrat_check": {
+        "checker": "lrat-check.exe",
+        "exit_code": 0,
+        "verified_marker": true,
+        "log": "type_10.lrat-check.log"
+      }
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "status": "STRUCTURAL_AUDIT_PASS",
+  "packing18_blocks": 18,
+  "packing18_distinct_triples": 72,
+  "labeled_three_packings": 190260,
+  "core_isomorphism_types": 10,
+  "orbit_counts": [
+    15120,
+    7560,
+    7560,
+    11340,
+    45360,
+    45360,
+    3780,
+    22680,
+    30240,
+    1260
+  ],
+  "formulas": [
+    {
+      "type": 1,
+      "signature": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        1,
+        0,
+        0
+      ],
+      "labeled_cores": 15120,
+      "compatible_blocks": 67,
+      "cnf_sha256": "f57f09e3839c0826ca452e902c967c8e28e552d2fe0292007a5c459de96ff44c"
+    },
+    {
+      "type": 2,
+      "signature": [
+        0,
+        2,
+        2,
+        1,
+        2,
+        1,
+        1,
+        0
+      ],
+      "labeled_cores": 7560,
+      "compatible_blocks": 63,
+      "cnf_sha256": "5f55fbb5b3762431674afa86dfbd6d1d47db1099b6af3b2306a0e801e591363a"
+    },
+    {
+      "type": 3,
+      "signature": [
+        0,
+        2,
+        2,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "labeled_cores": 7560,
+      "compatible_blocks": 67,
+      "cnf_sha256": "6c30b88c0d33764433e670f8c3ef35af4bcdf7d32e32ae3bc4c0af3cf4b5dab0"
+    },
+    {
+      "type": 4,
+      "signature": [
+        1,
+        0,
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ],
+      "labeled_cores": 11340,
+      "compatible_blocks": 71,
+      "cnf_sha256": "dc1c9ef6ab95f7353203d739ab2247e558ccd139c45b9187c7e632366dda6667"
+    },
+    {
+      "type": 5,
+      "signature": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "labeled_cores": 45360,
+      "compatible_blocks": 67,
+      "cnf_sha256": "081e78c45e1b6d8ff986546de849c2d5806ea3ee397a5da0fcc1f1e5f3175ad6"
+    },
+    {
+      "type": 6,
+      "signature": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0,
+        1
+      ],
+      "labeled_cores": 45360,
+      "compatible_blocks": 71,
+      "cnf_sha256": "f42440dc74eaf17d95612d0191a2e8e999183dfe75c49e02997e215622328063"
+    },
+    {
+      "type": 7,
+      "signature": [
+        1,
+        2,
+        2,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      "labeled_cores": 3780,
+      "compatible_blocks": 75,
+      "cnf_sha256": "038a125ac38cd84450f11bda472d32d0abb7d01143582427ded700adb9c2adb6"
+    },
+    {
+      "type": 8,
+      "signature": [
+        2,
+        0,
+        1,
+        2,
+        1,
+        2,
+        1,
+        0
+      ],
+      "labeled_cores": 22680,
+      "compatible_blocks": 71,
+      "cnf_sha256": "04b3c4ac0e30ed0415fbbf2c42bf34e9adbc6afe5d1ee16ba454a7eb8ebf96b8"
+    },
+    {
+      "type": 9,
+      "signature": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "labeled_cores": 30240,
+      "compatible_blocks": 74,
+      "cnf_sha256": "192696ac62116580e17ddbb24408e72cac9ca0f84a331f5521df57e72fbc21dd"
+    },
+    {
+      "type": 10,
+      "signature": [
+        3,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0
+      ],
+      "labeled_cores": 1260,
+      "compatible_blocks": 75,
+      "cnf_sha256": "13f4980114e845f8c2c780192bac9d778fb6891bde0779096dd49c8642904f38"
+    }
+  ],
+  "verified_manifest_sha256": "8937b0a31bb987720f302a4f393c78ca1bb4d41ca9766d07bd07ec0a3ddc7d73"
+}
