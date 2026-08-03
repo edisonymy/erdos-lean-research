@@ -1,0 +1,129 @@
+{
+  "schema": "erdos149-order13-combined-certification-v1",
+  "date": "2026-08-03",
+  "claim": "Every finite simple graph G with |V(G)| <= 13 and Delta(G) <= 4 has chi(L(G)^2) <= 20.",
+  "claim_boundary": "Bounded theorem only. This does not resolve Erdos problem 149 and is not a public novelty claim.",
+  "target_lock": {
+    "path": "TARGET_LOCK.md",
+    "bytes": 1111,
+    "sha256": "f623f41a1257bc07e9865c0cca68f80173e2bc6230f0009c0babc947dd82fad8"
+  },
+  "theorem_document": {
+    "path": "ORDER13_THEOREM.md",
+    "bytes": 3887,
+    "sha256": "25621be291ccde05c25aa1cd6186fa77967c1c9556bf2ac98f9a15e06ead88ba"
+  },
+  "order12_dependency": {
+    "theorem": {
+      "path": "ORDER12_THEOREM.md",
+      "bytes": 4766,
+      "sha256": "b7163d882066d40cba768b1e46abac7ac5e3d36e5798d8c7ad830b21af456878"
+    },
+    "certification": {
+      "path": "CERTIFICATION.json",
+      "bytes": 5272,
+      "sha256": "1086a0bbe6c28b8a89a873b927707f6d4aaee1c9c1915d99aa25e51e5c1aedad"
+    }
+  },
+  "degree_three_reduction": {
+    "proof": {
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "bytes": 4037,
+      "sha256": "95023312e6ff9fdc5670d63353b0708ef4835a44ed819c390d623e06cffabbda"
+    },
+    "hall_audit_script": {
+      "path": "audit_local_extension.py",
+      "bytes": 1412,
+      "sha256": "9e9e9ab80b1e56efd434f4a563492a7a10f3fb64208cc961b9bb8d22c25fe899"
+    },
+    "hall_audit_result": {
+      "path": "local_extension_audit.json",
+      "bytes": 165,
+      "sha256": "48e339ddc6f309a00db3b42e19866107611603c767a5c90484cab4c7c1ac6e5c",
+      "status": "VERIFIED",
+      "list_triples_checked": 17576,
+      "mismatches": 0
+    },
+    "order13_consequence": "A smallest counterexample has t degree-three vertices with 3t <= 13-t and t=52-2m even, hence t is 0 or 2 and m is 26 or 25."
+  },
+  "catalogue_generator": {
+    "name": "nauty geng",
+    "package_version": "2.6.11",
+    "package_build": "h2fa13f4_1",
+    "binary_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "package_archive_sha256": "48155aab7b379a3fe4e765592dfe39b91cf7f20134d19dc1172258fbc633b504"
+  },
+  "m25_degree_sequence_4_11_3_2": {
+    "catalogue": {
+      "path": "13_m25_min3.g6",
+      "generator_command": "geng -q -c -d3 -D4 13 25 13_m25_min3.g6",
+      "records": 300361,
+      "bytes": 4805776,
+      "sha256": "fb25f684d2d15d3cb6a77a796d1f8fe487d545d72f92251b4a3ef0437c456f1c"
+    },
+    "primary_checker": {
+      "path": "verify_n13_almost_regular.py",
+      "bytes": 7215,
+      "sha256": "cfccdfbf98daf977dcb98cec55f70f666ffa5a5867ee73cc88851d20c117bebb"
+    },
+    "primary_result": {
+      "path": "n13_almost_regular_result.json",
+      "bytes": 1450,
+      "sha256": "b76c72606f780331331de8c85554bda7429ea4d1a3fea8ef722cc471fd2e9ba5",
+      "status": "VERIFIED",
+      "records_with_five_pairs": 300361,
+      "failures": 0
+    },
+    "fresh_checker": {
+      "path": "audit_n13_almost_regular.py",
+      "bytes": 5917,
+      "sha256": "d09f4ff9a8ef53168db719d7b73a5c109c2baeb007d4ccca6275cfc810b24c33"
+    },
+    "fresh_result": {
+      "path": "n13_almost_regular_fresh_audit.json",
+      "bytes": 1219,
+      "sha256": "43b1cdac7cb8425652643e5053ebb38b0225131880e358a311688f15a0970a31",
+      "status": "VERIFIED",
+      "records_with_reverse_greedy_five_pairs": 300361,
+      "networkx_parser_samples": 257,
+      "parser_mismatches": 0,
+      "geng_count": 300361
+    }
+  },
+  "m26_4regular": {
+    "catalogue": {
+      "path": "13_4reg.txt",
+      "url": "https://webhome.cs.uvic.ca/~wendym/manjeet/13_4reg.txt",
+      "records": 10778,
+      "bytes": 894574,
+      "sha256": "bce601e43bf1f6274c6d550c112196ff1c5f5c167ca8aa40eabb4e779da168cd"
+    },
+    "primary_checker": {
+      "path": "verify_n13_4regular.py",
+      "bytes": 3506,
+      "sha256": "ce13b4e9dc26a31a91cf7591bdbc7ab8f35052ef6cefff96e6dab5739860841a"
+    },
+    "primary_result": {
+      "path": "n13_4regular_result.json",
+      "bytes": 2689,
+      "sha256": "0b9cf0b2fd2df81a703081637d77d0582e3d931df6b54303f5c0b3f29ae223df",
+      "status": "VERIFIED",
+      "minimum_matching_size": 10,
+      "matching_distribution": {"10": 1, "11": 18, "12": 108, "13": 10651},
+      "failures_below_six": 0
+    },
+    "fresh_checker": {
+      "path": "audit_n13_4regular.py",
+      "bytes": 3418,
+      "sha256": "d32b16e6931fdf1fe6e363ee187bcc576c8da2d6a5dcc0aedf1487d7fbd37bea"
+    },
+    "fresh_result": {
+      "path": "n13_4regular_fresh_audit.json",
+      "bytes": 673,
+      "sha256": "e6c0f5a9e51a517de7560a06b2f3e68100301141fda6a3c191b1b0a00ee6bc8d",
+      "status": "VERIFIED",
+      "records_with_reverse_greedy_six_pairs": 10778,
+      "failures": 0
+    }
+  }
+}

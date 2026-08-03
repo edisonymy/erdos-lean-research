@@ -1,0 +1,92 @@
+{
+  "assertions": {
+    "m27_all_witnesses": true,
+    "m27_count_unique": true,
+    "m27_hash": true,
+    "m27_regenerated_identically": true,
+    "m28_all_witnesses": true,
+    "m28_count_unique": true,
+    "m28_hash": true,
+    "m28_regenerated_identically": true,
+    "structural_survivors": true
+  },
+  "catalogue_27_edges": {
+    "bytes": 52650311,
+    "failures": [],
+    "fallback_successes": 0,
+    "min_degree_greedy_successes": 2771069,
+    "records": 2771069,
+    "sha256": "2ce9cbfdaeaad95ae2b897aeb589996573175d8ceb89c1e3fabe5020878ae610",
+    "unique_records": 2771069
+  },
+  "catalogue_28_edges": {
+    "bytes": 1675192,
+    "failures": [],
+    "fallback_successes": 0,
+    "min_degree_greedy_successes": 88168,
+    "records": 88168,
+    "sha256": "0ba93c3c6d8bd00bd0b0fff7513a0873f22c3d68e5160bc04df41e346c5d822c",
+    "unique_records": 88168
+  },
+  "claim": "Every simple graph G with |V(G)| <= 14 and Delta(G) <= 4 has strong chromatic index at most 20.",
+  "claim_boundary": "Bounded theorem only; not a resolution of Erdos problem 149.",
+  "elapsed_seconds": 315.72220360001666,
+  "geng": {
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "regeneration_27_edges": {
+    "bytes": 52650311,
+    "bytes_identical": true,
+    "sha256": "2ce9cbfdaeaad95ae2b897aeb589996573175d8ceb89c1e3fabe5020878ae610"
+  },
+  "regeneration_28_edges": {
+    "bytes": 1675192,
+    "bytes_identical": true,
+    "sha256": "0ba93c3c6d8bd00bd0b0fff7513a0873f22c3d68e5160bc04df41e346c5d822c"
+  },
+  "schema": "erdos149-order14-independent-root-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "degree_three_vertices": 14,
+      "edges": 21,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 12,
+      "edges": 22,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 10,
+      "edges": 23,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 8,
+      "edges": 24,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 6,
+      "edges": 25,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 4,
+      "edges": 26,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 2,
+      "edges": 27,
+      "packing_holds": true
+    },
+    {
+      "degree_three_vertices": 0,
+      "edges": 28,
+      "packing_holds": true
+    }
+  ]
+}

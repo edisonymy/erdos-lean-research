@@ -1,0 +1,12 @@
+{
+  "schema": "erdos149-order14-release-assets-v1",
+  "release_tag": "erdos149-order14-2026-08-03",
+  "asset": {
+    "name": "erdos149-order13-14-catalogues.zip",
+    "bytes": 10801294,
+    "sha256": "0ed45c1ca309e01f577ce6cfca2c19baba9e2767d9e95907c258a67de84c653e",
+    "url": "https://github.com/edisonymy/erdos-lean-research/releases/download/erdos149-order14-2026-08-03/erdos149-order13-14-catalogues.zip"
+  },
+  "contents": "Four complete catalogues for the order-13 and order-14 slices, preserving repository-relative paths. Individual catalogue hashes are in CERTIFICATION_ORDER13.json and CERTIFICATION_ORDER14.json.",
+  "claim_boundary": "Catalogue archive for a bounded order-at-most-14 theorem only; not a resolution of Erdos problem 149."
+}

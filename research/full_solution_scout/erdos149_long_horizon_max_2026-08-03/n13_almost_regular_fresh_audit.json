@@ -1,0 +1,34 @@
+{
+  "assertions": {
+    "all_records_unique": true,
+    "catalogue_hash_matches_primary": true,
+    "fresh_full_failures_empty": true,
+    "networkx_sample_mismatches_zero": true,
+    "primary_failures_empty": true,
+    "primary_status_verified": true,
+    "stored_records_equal_geng_count": true
+  },
+  "catalogue": {
+    "bytes": 4805776,
+    "records": 300361,
+    "sha256": "fb25f684d2d15d3cb6a77a796d1f8fe487d545d72f92251b4a3ef0437c456f1c",
+    "unique_records": 300361
+  },
+  "claim_boundary": "This audit covers only the connected order-13, m=25, degree-3/4 catalogue slice.",
+  "elapsed_seconds": 79.0126375000109,
+  "fresh_checker": {
+    "failures": [],
+    "networkx_parser_mismatches": 0,
+    "networkx_parser_samples": 257,
+    "records_checked": 300361,
+    "reverse_order_greedy_matchings_of_five": 300361
+  },
+  "geng": {
+    "command": "geng -c -d3 -D4 -u 13 25",
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "reported_records": 300361,
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "schema": "erdos149-n13-almost-regular-fresh-audit-v1",
+  "status": "VERIFIED"
+}

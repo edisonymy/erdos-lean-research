@@ -1,0 +1,172 @@
+{
+  "assertions": {
+    "all_dependency_files_match": true,
+    "m25_fresh_verified": true,
+    "m25_primary_verified": true,
+    "m26_fresh_verified": true,
+    "m26_primary_verified": true,
+    "structural_survivors_are_25_26": true,
+    "target_hash_file_matches": true
+  },
+  "claim_boundary": "This meta-audit validates the bounded order-at-most-13 certificate only.",
+  "dependency_file_checks": [
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.target_lock",
+      "path": "TARGET_LOCK.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.theorem_document",
+      "path": "ORDER13_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.order12_dependency.theorem",
+      "path": "ORDER12_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.order12_dependency.certification",
+      "path": "CERTIFICATION.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.degree_three_reduction.proof",
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.degree_three_reduction.hall_audit_script",
+      "path": "audit_local_extension.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.degree_three_reduction.hall_audit_result",
+      "path": "local_extension_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m25_degree_sequence_4_11_3_2.catalogue",
+      "path": "13_m25_min3.g6",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m25_degree_sequence_4_11_3_2.primary_checker",
+      "path": "verify_n13_almost_regular.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m25_degree_sequence_4_11_3_2.primary_result",
+      "path": "n13_almost_regular_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m25_degree_sequence_4_11_3_2.fresh_checker",
+      "path": "audit_n13_almost_regular.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m25_degree_sequence_4_11_3_2.fresh_result",
+      "path": "n13_almost_regular_fresh_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m26_4regular.catalogue",
+      "path": "13_4reg.txt",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m26_4regular.primary_checker",
+      "path": "verify_n13_4regular.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m26_4regular.primary_result",
+      "path": "n13_4regular_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m26_4regular.fresh_checker",
+      "path": "audit_n13_4regular.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "logical_path": "root.m26_4regular.fresh_result",
+      "path": "n13_4regular_fresh_audit.json",
+      "sha256_match": true
+    }
+  ],
+  "schema": "erdos149-order13-certification-meta-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "m": 20,
+      "survives_packing": false,
+      "t": 12
+    },
+    {
+      "m": 21,
+      "survives_packing": false,
+      "t": 10
+    },
+    {
+      "m": 22,
+      "survives_packing": false,
+      "t": 8
+    },
+    {
+      "m": 23,
+      "survives_packing": false,
+      "t": 6
+    },
+    {
+      "m": 24,
+      "survives_packing": false,
+      "t": 4
+    },
+    {
+      "m": 25,
+      "survives_packing": true,
+      "t": 2
+    },
+    {
+      "m": 26,
+      "survives_packing": true,
+      "t": 0
+    }
+  ]
+}

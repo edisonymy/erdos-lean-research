@@ -1,0 +1,30 @@
+{
+  "assertions": {
+    "catalogue_hash_matches_primary": true,
+    "fresh_failures_empty": true,
+    "networkx_parser_samples_match": true,
+    "primary_verified": true,
+    "stored_count_matches_geng": true
+  },
+  "catalogue": {
+    "bytes": 52650311,
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\14_m27_min3.g6",
+    "records": 2771069,
+    "sha256": "2ce9cbfdaeaad95ae2b897aeb589996573175d8ceb89c1e3fabe5020878ae610"
+  },
+  "claim_boundary": "This audit covers only the stated order-14 catalogue slice.",
+  "edge_count": 27,
+  "elapsed_seconds": 156.8451217999973,
+  "failures": [],
+  "fresh_reverse_matchings": 2771069,
+  "geng": {
+    "binary_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "command": "geng -c -d3 -D4 -u 14 27",
+    "reported_records": 2771069
+  },
+  "networkx_parser_mismatches": 0,
+  "networkx_parser_samples": 257,
+  "required_compatibility_matching": 7,
+  "schema": "erdos149-n14-slice-fresh-audit-v1",
+  "status": "VERIFIED"
+}

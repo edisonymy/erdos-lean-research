@@ -1,0 +1,77 @@
+{
+  "catalogue": {
+    "bytes": 1675192,
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\14_m28_4regular.g6",
+    "records": 88168,
+    "records_checked": 88168,
+    "sha256": "0ba93c3c6d8bd00bd0b0fff7513a0873f22c3d68e5160bc04df41e346c5d822c"
+  },
+  "claim_boundary": "A matching of m-20 compatibility edges gives a strong 20-edge-colouring; this result covers only the stated catalogue slice.",
+  "degree_sequence": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "edge_count": 28,
+  "elapsed_seconds": 4.4784542999987025,
+  "failures": [],
+  "first_witness": {
+    "graph6": "M???FborC[HoM_L_?",
+    "index": 0,
+    "matching": [
+      [
+        0,
+        17
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        4,
+        18
+      ],
+      [
+        5,
+        14
+      ],
+      [
+        6,
+        15
+      ],
+      [
+        7,
+        19
+      ]
+    ],
+    "method": "low-first"
+  },
+  "methods": {
+    "blossom_success": 0,
+    "high_first_success": 0,
+    "low_first_success": 88168
+  },
+  "required_compatibility_matching": 8,
+  "schema": "erdos149-n14-slice-v1",
+  "scope": "Connected order-14 subquartic graphs with 28 edges.",
+  "status": "VERIFIED"
+}

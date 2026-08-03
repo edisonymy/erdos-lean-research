@@ -1,0 +1,177 @@
+{
+  "backend": {
+    "algorithm": "max_weight_matching",
+    "networkx": "3.5"
+  },
+  "catalogue": {
+    "bytes": 894574,
+    "records": 10778,
+    "sha256": "bce601e43bf1f6274c6d550c112196ff1c5f5c167ca8aa40eabb4e779da168cd",
+    "url": "https://webhome.cs.uvic.ca/~wendym/manjeet/13_4reg.txt"
+  },
+  "failures": [],
+  "graphs_below_six": 0,
+  "matching_size_distribution": {
+    "10": 1,
+    "11": 18,
+    "12": 108,
+    "13": 10651
+  },
+  "minimum_examples": [
+    {
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "index": 1754,
+      "matching": [
+        [
+          0,
+          19
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          2,
+          18
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          21
+        ],
+        [
+          5,
+          17
+        ],
+        [
+          6,
+          22
+        ],
+        [
+          9,
+          16
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          20,
+          23
+        ]
+      ]
+    }
+  ],
+  "minimum_matching_size": 10,
+  "schema": "erdos149-n13-4regular-catalogue-v1",
+  "scope": "All connected 4-regular graphs in the public order-13 catalogue. Six disjoint compatibility pairs save six colours from 26, giving a strong 20-edge-colouring.",
+  "status": "VERIFIED"
+}

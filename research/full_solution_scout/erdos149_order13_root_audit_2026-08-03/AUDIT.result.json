@@ -1,0 +1,91 @@
+{
+  "assertions": {
+    "m25_all_witnesses": true,
+    "m25_complete_count": true,
+    "m25_expected_hash": true,
+    "m25_regeneration_identical": true,
+    "m26_all_witnesses": true,
+    "m26_complete_count": true,
+    "m26_expected_hash": true,
+    "m26_isomorphism_sets_identical": true,
+    "structural_survivors": true
+  },
+  "catalogue_25_edges": {
+    "bytes": 4805776,
+    "failures": [],
+    "graphs_with_five_pairs": 300361,
+    "records": 300361,
+    "sha256": "fb25f684d2d15d3cb6a77a796d1f8fe487d545d72f92251b4a3ef0437c456f1c",
+    "unique_records": 300361
+  },
+  "catalogue_26_edges": {
+    "bytes": 894574,
+    "failures": [],
+    "graphs_with_six_pairs": 10778,
+    "records": 10778,
+    "sha256": "bce601e43bf1f6274c6d550c112196ff1c5f5c167ca8aa40eabb4e779da168cd",
+    "unique_records": 10778
+  },
+  "catalogue_completeness_replay": {
+    "labelg_path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\labelg.exe",
+    "labelg_sha256": "99d7cd21c70a10bf60f7e5291dc9c7b87f2e8e58b39adbdf91f9e3186c10bd88",
+    "m25_regenerated_bytes_identical": true,
+    "m25_regenerated_sha256": "fb25f684d2d15d3cb6a77a796d1f8fe487d545d72f92251b4a3ef0437c456f1c",
+    "m26_canonical_sets_identical": true,
+    "m26_geng_canonical_records": 10778,
+    "m26_only_in_geng": 0,
+    "m26_only_in_public": 0,
+    "m26_public_canonical_records": 10778
+  },
+  "claim": "Every simple graph G with |V(G)| <= 13 and Delta(G) <= 4 has strong chromatic index at most 20.",
+  "claim_boundary": "Bounded theorem only; not a resolution of Erdos problem 149.",
+  "elapsed_seconds": 160.98269589999109,
+  "geng": {
+    "m25_count": 300361,
+    "m25_transcript": ">A C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe -cd3D4 n=13 e=25\n>Z 300361 graphs generated in 0.00 sec",
+    "m26_count": 10778,
+    "m26_transcript": ">A C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe -cd4D4 n=13 e=26\n>Z 10778 graphs generated in 0.00 sec",
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\.tmp\\nauty-env\\Library\\bin\\geng.exe",
+    "sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef"
+  },
+  "package": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03",
+  "schema": "erdos149-order13-independent-root-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "degree_three_vertices": 12,
+      "edges": 20,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 10,
+      "edges": 21,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 8,
+      "edges": 22,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 6,
+      "edges": 23,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 4,
+      "edges": 24,
+      "packing_holds": false
+    },
+    {
+      "degree_three_vertices": 2,
+      "edges": 25,
+      "packing_holds": true
+    },
+    {
+      "degree_three_vertices": 0,
+      "edges": 26,
+      "packing_holds": true
+    }
+  ]
+}

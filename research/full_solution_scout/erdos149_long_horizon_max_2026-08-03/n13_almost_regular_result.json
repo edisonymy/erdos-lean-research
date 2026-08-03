@@ -1,0 +1,50 @@
+{
+  "backend": {
+    "compatibility": "direct induced-2K2 test",
+    "matching": "deterministic first-fit matching, with NetworkX 3.5 max_weight_matching(maxcardinality=True) fallback"
+  },
+  "blossom_fallbacks": 0,
+  "catalogue": {
+    "bytes": 4805776,
+    "generator": "nauty geng -q -c -d3 -D4 13 25",
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\13_m25_min3.g6",
+    "records": 300361,
+    "sha256": "fb25f684d2d15d3cb6a77a796d1f8fe487d545d72f92251b4a3ef0437c456f1c"
+  },
+  "certified_matching_lower_bound_distribution": {
+    "5": 300361
+  },
+  "claim_boundary": "Five disjoint compatibility pairs yield a strong 20-edge-colouring. This checks only the stated catalogue slice.",
+  "elapsed_seconds": 22.964818299980834,
+  "failures": [],
+  "first_witness": {
+    "graph6": "L??CBpwxEKBom?",
+    "index": 0,
+    "matching_of_five": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        12
+      ],
+      [
+        5,
+        19
+      ]
+    ]
+  },
+  "minimum_certified_matching_size": 5,
+  "schema": "erdos149-n13-almost-regular-catalogue-v1",
+  "scope": "All connected simple graphs on 13 vertices with minimum degree 3, maximum degree 4, and 25 edges (equivalently degree sequence 4^11 3^2).",
+  "status": "VERIFIED"
+}

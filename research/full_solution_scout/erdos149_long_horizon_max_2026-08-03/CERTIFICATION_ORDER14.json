@@ -1,0 +1,115 @@
+{
+  "schema": "erdos149-order14-combined-certification-v1",
+  "date": "2026-08-03",
+  "claim": "Every finite simple graph G with |V(G)| <= 14 and Delta(G) <= 4 has chi(L(G)^2) <= 20.",
+  "claim_boundary": "Bounded theorem only. This does not resolve Erdos problem 149 and is not a public novelty claim.",
+  "target_lock": {
+    "path": "TARGET_LOCK.md",
+    "bytes": 1111,
+    "sha256": "f623f41a1257bc07e9865c0cca68f80173e2bc6230f0009c0babc947dd82fad8"
+  },
+  "theorem_document": {
+    "path": "ORDER14_THEOREM.md",
+    "bytes": 3287,
+    "sha256": "ab9b11841680762306901f1c40788cdd1d248c9d8ce7293a5f9c82181dbfadc2"
+  },
+  "order13_dependency": {
+    "theorem": {
+      "path": "ORDER13_THEOREM.md",
+      "bytes": 3887,
+      "sha256": "25621be291ccde05c25aa1cd6186fa77967c1c9556bf2ac98f9a15e06ead88ba"
+    },
+    "certification": {
+      "path": "CERTIFICATION_ORDER13.json",
+      "bytes": 4670,
+      "sha256": "d310160815c7b720a80bffd9309507ef49a207cace92bae2daa728fd7827ce1c"
+    },
+    "meta_audit": {
+      "path": "order13_certification_audit.json",
+      "bytes": 4476,
+      "sha256": "5436463c75d2d8f41265779e15596f80f9896fe4889fd1dca5b402afb9dcf7a9",
+      "status": "VERIFIED"
+    }
+  },
+  "structural_reduction": {
+    "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+    "bytes": 4037,
+    "sha256": "95023312e6ff9fdc5670d63353b0708ef4835a44ed819c390d623e06cffabbda",
+    "order14_consequence": "For t degree-three vertices, 3t <= 14-t and t=56-2m is even, hence t is 0 or 2 and m is 28 or 27."
+  },
+  "catalogue_generator": {
+    "name": "nauty geng",
+    "package_version": "2.6.11",
+    "package_build": "h2fa13f4_1",
+    "binary_sha256": "64fa2d95bdaff155ce0fc748d4cba83a50e5ffb03e3acc5f41d86581c0bba7ef",
+    "package_archive_sha256": "48155aab7b379a3fe4e765592dfe39b91cf7f20134d19dc1172258fbc633b504"
+  },
+  "primary_checker": {
+    "path": "verify_n14_slices.py",
+    "bytes": 6615,
+    "sha256": "e9aa8ef2d9b68f1876857ea472bb069ed5d99845fe74680a1fbc25f3fb80b149"
+  },
+  "fresh_checker": {
+    "path": "audit_n14_slices.py",
+    "bytes": 6208,
+    "sha256": "608848ff4099aeb7a2118bfc5f16aba1e33b2495d9dcb2c58061380ac697d990"
+  },
+  "m27_degree_sequence_4_12_3_2": {
+    "catalogue": {
+      "path": "14_m27_min3.g6",
+      "generator_command": "geng -q -c -d3 -D4 14 27 14_m27_min3.g6",
+      "records": 2771069,
+      "bytes": 52650311,
+      "sha256": "2ce9cbfdaeaad95ae2b897aeb589996573175d8ceb89c1e3fabe5020878ae610"
+    },
+    "primary_result": {
+      "path": "n14_m27_result.json",
+      "bytes": 1428,
+      "sha256": "4c7f33ed2f31e345811538e358a7a0b14321dd25a5583d0624b4e8d4cf979197",
+      "status": "VERIFIED",
+      "records_with_seven_pairs": 2771069,
+      "fallbacks": 0,
+      "failures": 0
+    },
+    "fresh_result": {
+      "path": "n14_m27_fresh_audit.json",
+      "bytes": 1104,
+      "sha256": "d19f3c18a149f5f2ed03543c3b449289e9d1baacee69911e2b17d16962817c5c",
+      "status": "VERIFIED",
+      "records_with_reverse_seven_pairs": 2771069,
+      "networkx_parser_samples": 257,
+      "parser_mismatches": 0,
+      "geng_count": 2771069,
+      "failures": 0
+    }
+  },
+  "m28_4regular": {
+    "catalogue": {
+      "path": "14_m28_4regular.g6",
+      "generator_command": "geng -q -c -d4 -D4 14 28 14_m28_4regular.g6",
+      "records": 88168,
+      "bytes": 1675192,
+      "sha256": "0ba93c3c6d8bd00bd0b0fff7513a0873f22c3d68e5160bc04df41e346c5d822c"
+    },
+    "primary_result": {
+      "path": "n14_m28_result.json",
+      "bytes": 1472,
+      "sha256": "7ab352131fdc3152e95259da5acc2a4a415a2906e1a28bebe80b9e099e4a7feb",
+      "status": "VERIFIED",
+      "records_with_eight_pairs": 88168,
+      "fallbacks": 0,
+      "failures": 0
+    },
+    "fresh_result": {
+      "path": "n14_m28_fresh_audit.json",
+      "bytes": 1102,
+      "sha256": "8d0bd2320a1a18e03301f87c72661eac22e828857cd8caf211142eac6eafad39",
+      "status": "VERIFIED",
+      "records_with_reverse_eight_pairs": 88168,
+      "networkx_parser_samples": 257,
+      "parser_mismatches": 0,
+      "geng_count": 88168,
+      "failures": 0
+    }
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "assertions": {
+    "all_dependency_files_match": true,
+    "m27_fresh_verified": true,
+    "m27_primary_verified": true,
+    "m28_fresh_verified": true,
+    "m28_primary_verified": true,
+    "structural_survivors_are_27_28": true
+  },
+  "claim_boundary": "This meta-audit validates the bounded order-at-most-14 certificate only.",
+  "dependency_file_checks": [
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.target_lock",
+      "path": "TARGET_LOCK.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.theorem_document",
+      "path": "ORDER14_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order13_dependency.theorem",
+      "path": "ORDER13_THEOREM.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order13_dependency.certification",
+      "path": "CERTIFICATION_ORDER13.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.order13_dependency.meta_audit",
+      "path": "order13_certification_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.structural_reduction",
+      "path": "MINIMAL_COUNTEREXAMPLE_LOCAL.md",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.primary_checker",
+      "path": "verify_n14_slices.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.fresh_checker",
+      "path": "audit_n14_slices.py",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m27_degree_sequence_4_12_3_2.catalogue",
+      "path": "14_m27_min3.g6",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m27_degree_sequence_4_12_3_2.primary_result",
+      "path": "n14_m27_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m27_degree_sequence_4_12_3_2.fresh_result",
+      "path": "n14_m27_fresh_audit.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m28_4regular.catalogue",
+      "path": "14_m28_4regular.g6",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m28_4regular.primary_result",
+      "path": "n14_m28_result.json",
+      "sha256_match": true
+    },
+    {
+      "bytes_match": true,
+      "exists": true,
+      "location": "root.m28_4regular.fresh_result",
+      "path": "n14_m28_fresh_audit.json",
+      "sha256_match": true
+    }
+  ],
+  "schema": "erdos149-order14-certification-meta-audit-v1",
+  "status": "VERIFIED",
+  "structural_cases": [
+    {
+      "m": 21,
+      "survives_packing": false,
+      "t": 14
+    },
+    {
+      "m": 22,
+      "survives_packing": false,
+      "t": 12
+    },
+    {
+      "m": 23,
+      "survives_packing": false,
+      "t": 10
+    },
+    {
+      "m": 24,
+      "survives_packing": false,
+      "t": 8
+    },
+    {
+      "m": 25,
+      "survives_packing": false,
+      "t": 6
+    },
+    {
+      "m": 26,
+      "survives_packing": false,
+      "t": 4
+    },
+    {
+      "m": 27,
+      "survives_packing": true,
+      "t": 2
+    },
+    {
+      "m": 28,
+      "survives_packing": true,
+      "t": 0
+    }
+  ]
+}

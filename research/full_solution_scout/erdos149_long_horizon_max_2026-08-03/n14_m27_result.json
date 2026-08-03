@@ -1,0 +1,73 @@
+{
+  "catalogue": {
+    "bytes": 52650311,
+    "path": "C:\\Users\\Edison Yi\\Documents\\Math Frontier\\research\\full_solution_scout\\erdos149_long_horizon_max_2026-08-03\\14_m27_min3.g6",
+    "records": 2771069,
+    "records_checked": 2771069,
+    "sha256": "2ce9cbfdaeaad95ae2b897aeb589996573175d8ceb89c1e3fabe5020878ae610"
+  },
+  "claim_boundary": "A matching of m-20 compatibility edges gives a strong 20-edge-colouring; this result covers only the stated catalogue slice.",
+  "degree_sequence": [
+    3,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "edge_count": 27,
+  "elapsed_seconds": 139.260884599993,
+  "failures": [],
+  "first_witness": {
+    "graph6": "M???FA[fFCJOX_N??",
+    "index": 0,
+    "matching": [
+      [
+        0,
+        16
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        15
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        7,
+        18
+      ],
+      [
+        8,
+        13
+      ]
+    ],
+    "method": "low-first"
+  },
+  "methods": {
+    "blossom_success": 0,
+    "high_first_success": 0,
+    "low_first_success": 2771069
+  },
+  "required_compatibility_matching": 7,
+  "schema": "erdos149-n14-slice-v1",
+  "scope": "Connected order-14 subquartic graphs with 27 edges.",
+  "status": "VERIFIED"
+}

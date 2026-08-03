@@ -1,0 +1,21 @@
+{
+  "assertions": {
+    "catalogue_hash_matches_primary": true,
+    "fresh_failures_empty": true,
+    "primary_verified": true,
+    "record_count_is_10778": true,
+    "records_unique": true
+  },
+  "catalogue": {
+    "bytes": 894574,
+    "records": 10778,
+    "sha256": "bce601e43bf1f6274c6d550c112196ff1c5f5c167ca8aa40eabb4e779da168cd",
+    "unique_records": 10778
+  },
+  "claim_boundary": "This audit covers only the connected order-13 4-regular catalogue slice.",
+  "elapsed_seconds": 0.3499016000132542,
+  "failures": [],
+  "fresh_reverse_greedy_matchings_of_six": 10778,
+  "schema": "erdos149-n13-4regular-fresh-audit-v1",
+  "status": "VERIFIED"
+}
