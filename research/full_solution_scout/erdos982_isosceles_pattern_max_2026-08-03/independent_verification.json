@@ -1,0 +1,301 @@
+{
+  "lattice": {
+    "best_profile": [
+      5,
+      7,
+      6,
+      6,
+      7,
+      5,
+      7,
+      6,
+      6,
+      7
+    ],
+    "path": "research\\full_solution_scout\\erdos982_isosceles_pattern_max_2026-08-03\\triangular_lattice_n10.json",
+    "sha256": "4a60e56046e4fe1b2b79069b02bfde05a4c5b90b09e4bf78d47552528f6571ff",
+    "verified": true
+  },
+  "pattern_files": [
+    {
+      "path": "research\\full_solution_scout\\erdos982_isosceles_pattern_max_2026-08-03\\q5_sat_smoke.json",
+      "pattern_checks": [
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "retained_checked": 13,
+      "sha256": "0f50f98c64920d35f937683aec03e0018e21754ec569d8bcb98388a64fa5cd25",
+      "verified": true
+    },
+    {
+      "path": "research\\full_solution_scout\\erdos982_isosceles_pattern_max_2026-08-03\\q5_case_audit.json",
+      "pattern_checks": [
+        {
+          "compatible_total_orders": 1,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "retained_checked": 1,
+      "sha256": "c382f163d08979ac92137be2643793f59aba833e0aa573111fa6b17f26ac59ab",
+      "verified": true
+    },
+    {
+      "path": "research\\full_solution_scout\\erdos982_isosceles_pattern_max_2026-08-03\\q5_atmost4_case_sweep.json",
+      "pattern_checks": [
+        {
+          "compatible_total_orders": 3,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 1,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "compatible_total_orders": 1,
+          "local_colour_counts": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "retained_checked": 3,
+      "sha256": "ad3cff17a431a5338a66eff2d6d43849289068b88af2a55a333b3765d8afa3e2",
+      "verified": true
+    }
+  ],
+  "status": "VERIFIED"
+}

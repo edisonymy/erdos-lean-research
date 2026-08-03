@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-03",
+  "problem": 982,
+  "status": "NO_SOLUTION_OR_COUNTEREXAMPLE_LANE_KILLED",
+  "authoritative_report": "REPORT.md",
+  "core_files_sha256": {
+    "enumerate_q5_patterns.py": "4c1e8b3e063655312d772d58567aeeae938939015ff7aa3d7ab174c18d4eb229",
+    "enumerate_q5_patterns_sat.py": "931b24aed0a631b0db1e266465bc5caf6fa47920c7dc46fba7b0fc06c8143cf2",
+    "independent_verification.json": "05fee2286b1f3e8dcacc4f44d02e015fac36bcb8f35ba8607495ef1c58fc8a86",
+    "independent_verify.py": "f71581afc1fc66360b39215aaab38bdb31bee4bcc615311a9cfa06b91782bb71",
+    "q5_atmost4_case_sweep.json": "ad3cff17a431a5338a66eff2d6d43849289068b88af2a55a333b3765d8afa3e2",
+    "q5_atmost4_edm_screen.json": "07ec083b1178ebd260bd0345ce49a8306170f0828f7026510f14fbd4da54062c",
+    "q5_case_audit.json": "c382f163d08979ac92137be2643793f59aba833e0aa573111fa6b17f26ac59ab",
+    "q5_case_audit_edm.json": "8ff8d9ab7c7f237687adfbc0f38a1e70af8c66c4a788868fdb3c473110d6ad69",
+    "q5_sat_edm_screen.json": "62cff3f21465053e310bac6dafe86e7bbe2be9d06aab73853818309f63ec5334",
+    "q5_sat_smoke.json": "0f50f98c64920d35f937683aec03e0018e21754ec569d8bcb98388a64fa5cd25",
+    "realize_q5_patterns.py": "75c7d13c0d67b19ff3ad0482b6c1ff8a0648f287a8327e54a39dc6957f447a6d",
+    "REPORT.md": "ce29d93a3bed41287107c35cb62e3da68fc8aa9774c08360c6dbb2e3a84d3318",
+    "triangular_lattice_decagon_search.py": "159ba640a412a4388c118cc8c00d666951f596e409a112b504275bba7a411340",
+    "triangular_lattice_n10.json": "4a60e56046e4fe1b2b79069b02bfde05a4c5b90b09e4bf78d47552528f6571ff"
+  },
+  "scope_notes": [
+    "The q5 case sweep is bounded and contains 10 UNKNOWN cases; it is not exhaustive.",
+    "EDM residuals are numerical candidate-screening evidence only.",
+    "The triangular-lattice search is heuristic and exact only for evaluated candidates.",
+    "No claim is made for six or more global distances."
+  ]
+}

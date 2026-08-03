@@ -1,0 +1,958 @@
+{
+  "best": {
+    "axial_points_counterclockwise": [
+      [
+        -8,
+        4
+      ],
+      [
+        -5,
+        1
+      ],
+      [
+        -1,
+        -2
+      ],
+      [
+        1,
+        -3
+      ],
+      [
+        5,
+        -4
+      ],
+      [
+        8,
+        -4
+      ],
+      [
+        5,
+        -1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        -1,
+        3
+      ],
+      [
+        -5,
+        4
+      ]
+    ],
+    "cartesian_points_approx": [
+      [
+        -6.0,
+        3.4641016151377544
+      ],
+      [
+        -4.5,
+        0.8660254037844386
+      ],
+      [
+        -2.0,
+        -1.7320508075688772
+      ],
+      [
+        -0.5,
+        -2.598076211353316
+      ],
+      [
+        3.0,
+        -3.4641016151377544
+      ],
+      [
+        6.0,
+        -3.4641016151377544
+      ],
+      [
+        4.5,
+        -0.8660254037844386
+      ],
+      [
+        2.0,
+        1.7320508075688772
+      ],
+      [
+        0.5,
+        2.598076211353316
+      ],
+      [
+        -3.0,
+        3.4641016151377544
+      ]
+    ],
+    "counterexample": false,
+    "local_distance_counts": [
+      5,
+      7,
+      6,
+      6,
+      7,
+      5,
+      7,
+      6,
+      6,
+      7
+    ],
+    "maximum": 7,
+    "squared_distance_sets": [
+      [
+        9,
+        43,
+        67,
+        129,
+        192
+      ],
+      [
+        9,
+        13,
+        28,
+        43,
+        75,
+        84,
+        129
+      ],
+      [
+        3,
+        13,
+        25,
+        28,
+        43,
+        67
+      ],
+      [
+        3,
+        13,
+        25,
+        28,
+        43,
+        67
+      ],
+      [
+        9,
+        13,
+        28,
+        43,
+        75,
+        84,
+        129
+      ],
+      [
+        9,
+        43,
+        67,
+        129,
+        192
+      ],
+      [
+        9,
+        13,
+        28,
+        43,
+        75,
+        84,
+        129
+      ],
+      [
+        3,
+        13,
+        25,
+        28,
+        43,
+        67
+      ],
+      [
+        3,
+        13,
+        25,
+        28,
+        43,
+        67
+      ],
+      [
+        9,
+        13,
+        28,
+        43,
+        75,
+        84,
+        129
+      ]
+    ],
+    "turn_determinants": [
+      3,
+      2,
+      2,
+      3,
+      9,
+      3,
+      2,
+      2,
+      3,
+      9
+    ]
+  },
+  "claim_scope": "exact candidate search only; absence is not an exclusion",
+  "elapsed_seconds": 30.39100000000326,
+  "lattice": "triangular axial; squared distance dx^2+dx*dy+dy^2",
+  "parameters": {
+    "beam_width": 80,
+    "bound": 10,
+    "coefficient_bound": 7,
+    "generations": 40,
+    "mutations_per_generation": 30000,
+    "random_attempts": 20000,
+    "seconds": 150.0,
+    "seed": 982620026
+  },
+  "problem": 982,
+  "quadratic_seed_count": 9530,
+  "random_seed_count": 2382,
+  "states_ranked_approximately": 79932,
+  "status": "NO_CANDIDATE_BOUNDED_HEURISTIC",
+  "target": "strictly convex n=10 with at most four local distances",
+  "trace": [
+    {
+      "elapsed_seconds": 17.625,
+      "generation": 0,
+      "maximum_local_distances": 8,
+      "profile": [
+        5,
+        8,
+        5,
+        5,
+        8,
+        5,
+        8,
+        5,
+        5,
+        8
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 17.969000000011874,
+      "generation": 1,
+      "maximum_local_distances": 8,
+      "profile": [
+        5,
+        7,
+        5,
+        6,
+        8,
+        5,
+        8,
+        6,
+        5,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 18.328000000008615,
+      "generation": 2,
+      "maximum_local_distances": 8,
+      "profile": [
+        5,
+        7,
+        5,
+        6,
+        8,
+        5,
+        8,
+        6,
+        5,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 18.64100000000326,
+      "generation": 3,
+      "maximum_local_distances": 8,
+      "profile": [
+        5,
+        7,
+        5,
+        6,
+        8,
+        5,
+        8,
+        6,
+        5,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 18.985000000000582,
+      "generation": 4,
+      "maximum_local_distances": 8,
+      "profile": [
+        5,
+        7,
+        5,
+        6,
+        8,
+        5,
+        8,
+        6,
+        5,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 19.297000000005937,
+      "generation": 5,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 19.610000000000582,
+      "generation": 6,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 19.922000000005937,
+      "generation": 7,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 20.235000000000582,
+      "generation": 8,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 20.547000000005937,
+      "generation": 9,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 20.860000000000582,
+      "generation": 10,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 21.203000000008615,
+      "generation": 11,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 21.563000000009197,
+      "generation": 12,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 21.875,
+      "generation": 13,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 22.188000000009197,
+      "generation": 14,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 22.51600000000326,
+      "generation": 15,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 22.828000000008615,
+      "generation": 16,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 23.125,
+      "generation": 17,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 23.422000000005937,
+      "generation": 18,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 23.735000000000582,
+      "generation": 19,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 24.047000000005937,
+      "generation": 20,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 24.360000000000582,
+      "generation": 21,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 24.65700000000652,
+      "generation": 22,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 24.969000000011874,
+      "generation": 23,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 25.26600000000326,
+      "generation": 24,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 25.578000000008615,
+      "generation": 25,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 25.90700000000652,
+      "generation": 26,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 26.203000000008615,
+      "generation": 27,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 26.51600000000326,
+      "generation": 28,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 26.844000000011874,
+      "generation": 29,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 27.14100000000326,
+      "generation": 30,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 27.5,
+      "generation": 31,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 27.813000000009197,
+      "generation": 32,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 28.110000000000582,
+      "generation": 33,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 28.40700000000652,
+      "generation": 34,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 28.75,
+      "generation": 35,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 29.047000000005937,
+      "generation": 36,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 29.39100000000326,
+      "generation": 37,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 29.735000000000582,
+      "generation": 38,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 30.063000000009197,
+      "generation": 39,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    },
+    {
+      "elapsed_seconds": 30.39100000000326,
+      "generation": 40,
+      "maximum_local_distances": 7,
+      "profile": [
+        5,
+        7,
+        6,
+        6,
+        7,
+        5,
+        7,
+        6,
+        6,
+        7
+      ],
+      "sum_local_distances": 62
+    }
+  ],
+  "unique_seed_count": 11912
+}

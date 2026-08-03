@@ -1,0 +1,361 @@
+{
+  "case_summaries": [
+    {
+      "cap_order_at_4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "longest_colour": 4,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 1,
+      "shortest_colour": 4,
+      "terminal": "SAMPLE_CAP"
+    },
+    {
+      "cap_order_at_4": [
+        0,
+        1,
+        4,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        0,
+        2,
+        4,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        0,
+        4,
+        1,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        0,
+        4,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        1,
+        2,
+        4,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        1,
+        4,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        4,
+        0,
+        1,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 4,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        4,
+        0,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 4,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 0,
+      "terminal": "UNKNOWN_NO_MODEL"
+    },
+    {
+      "cap_order_at_4": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "longest_colour": 3,
+      "models_sampled": 0,
+      "shortest_colour": 4,
+      "terminal": "UNKNOWN_NO_MODEL"
+    }
+  ],
+  "cases_proved_unsat_without_model": 0,
+  "cases_sampled_sat": 1,
+  "cases_started": 13,
+  "cases_terminated_unknown": 12,
+  "cases_with_model": 1,
+  "clause_count_range": [
+    23793,
+    23793
+  ],
+  "conflict_budget_per_solve": -1,
+  "dihedral_colour_orbits_seen": 1,
+  "elapsed_seconds": 64.625,
+  "global_distance_colours": 5,
+  "max_models": 100,
+  "n": 10,
+  "per_case": 1,
+  "raw_models": 1,
+  "retained": [
+    {
+      "canonical_dihedral": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        2,
+        0,
+        1,
+        2,
+        2,
+        0,
+        4,
+        3,
+        3,
+        4,
+        2,
+        0,
+        2,
+        0,
+        4,
+        2,
+        3,
+        3,
+        4,
+        2,
+        0,
+        1,
+        4,
+        0,
+        4,
+        2,
+        0,
+        4,
+        3,
+        3,
+        0,
+        0,
+        2,
+        4,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "cap_order_at_0": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cap_order_at_4": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "degree_profiles": [
+        [
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2,
+          2
+        ]
+      ],
+      "edge_colours": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        2,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        3,
+        3,
+        2,
+        1,
+        0,
+        1,
+        4,
+        2,
+        1,
+        2,
+        4,
+        0,
+        1,
+        2,
+        3,
+        3,
+        0,
+        1,
+        1,
+        0,
+        2,
+        3,
+        0,
+        4,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        4,
+        0
+      ],
+      "edge_counts": [
+        12,
+        14,
+        8,
+        7,
+        4
+      ],
+      "longest_colour": 3,
+      "shortest_colour": 4,
+      "support_sizes": [
+        10,
+        10,
+        7,
+        9,
+        4
+      ]
+    }
+  ],
+  "scope": "necessary global-five-distance colour patterns with cap, witness-side, shortest and diameter constraints; not Euclidean realizability",
+  "seconds": 120.0,
+  "solver": "glucose42",
+  "status": "BOUNDED_CASE_SWEEP_COMPLETE",
+  "variable_count": 275,
+  "wall_seconds_per_solve": 5.0
+}
