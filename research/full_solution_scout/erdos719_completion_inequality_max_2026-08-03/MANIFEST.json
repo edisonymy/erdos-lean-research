@@ -1,0 +1,38 @@
+{
+  "claim_boundary": "No full #719 solution and no counterexample. The global completion lemma is Tuza-hard. The n=10 q>=14 premise is unproved; the q<=13 SAT query was terminated UNKNOWN.",
+  "cutoff_date": "2026-08-03",
+  "n10_leave_probe": {
+    "milp": {
+      "best_construction_q": 14,
+      "independently_verified_packing_number": 8,
+      "relative_gap_at_stop": 0.6428571428571344,
+      "status": "TIME_LIMIT_NO_OPTIMALITY_PROOF",
+      "time_limit_seconds": 300
+    },
+    "sat_at_most_13": {
+      "certificate": null,
+      "result_file": null,
+      "status": "UNKNOWN_TERMINATED_BY_CAMPAIGN_KILL_GATE"
+    }
+  },
+  "sha256": {
+    "REPORT.md": "20683be0e110fdc9ce01205f14ef0c9b68c1b846fcc4960f54e18325a07d545b",
+    "allU_n5_s3.json": "7f3a7251ab6e5f47db63393061ae1328196402e7a025fa94b9f30b663ba89e7d",
+    "allU_n6_s4_first.json": "8a90c7505c7cc465e2cc86838aeb581071931f2887e9d04f07fd3a0b1701adfe",
+    "exhaustive_n4_s2.json": "d64ad641d55d396bfe599658395ad15bb6f1f7b497bc6a6fd8878d4760d3f073",
+    "exhaustive_n5_s2.json": "b8faead9442a3fd5dcd5c28a3f0e195638bac8154364a29b6527ff70a7bb7c74",
+    "exhaustive_n5_s3.json": "32a4f549ba25bcfea486316c3150e001f8762aa2b7a40deb0460a3f92c3cd012",
+    "exhaustive_n6_s2.json": "e063bf88119e1404ae68f8bd30444e9901723d3f38f5e8a629e90a559629a49f",
+    "exhaustive_n6_s3.json": "74931e238322222e10576228c6eb3064f0e3a05b3e8f11989be0426bfccb947a",
+    "exhaustive_n6_s4.json": "292fb0bc95608468f08986c8b3ac5cb43168161b4e83d1af4f96da0e2a8d27a1",
+    "exhaustive_small.py": "93c69b7ebbcb4556e60f00e5e0a56abf4fbc97a70f44c15cef07b848b0a833dc",
+    "independent_verify_n10_leave.py": "0b5fb61f65b71dc1954be9b8019de9dd6e3c70516089499be4be7d3b2559899c",
+    "n10_leave_atmost13.cnf": "f7f9c305f92d0ff829a23d660fbcf272701ed60b238f2d6ccb4a2949811ab01c",
+    "n10_leave_independent_check.json": "56e04f756f44826d77b8a7249e34384c4be712901759462ab2a2ad2210018bed",
+    "n10_leave_milp.py": "61a803141aa9cf8a2d56c61ddddf743aef925989956ce3ce034d560654c965f5",
+    "n10_leave_milp_result.json": "09fe1f01ac99bf97902f112f86e949a12129fbef371f78f1d7723e57b9f2c706",
+    "n10_leave_sat.py": "f22d6f5517c1437a9e3a1b5f7169617fec3b27a051ceb940e9dfd5dcdbbeabe2",
+    "two_star_obstruction_check.json": "c7fd9f05d5c2ab738a17cc68197fc8080f2653e5dcdc1b7daf24e8299d4e68f8",
+    "verify_two_star_obstruction.py": "a2e83f0f530badea6118129263aaa411b60298c81f1cd2751eff2df7a9ebbfd8"
+  }
+}

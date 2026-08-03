@@ -1,0 +1,33 @@
+{
+  "H_count": 64,
+  "distinct_U_checked": 12,
+  "first_violation": null,
+  "mode": "realizable_U_from_all_H",
+  "n": 4,
+  "r": 2,
+  "s": 2,
+  "violation_count": 0,
+  "worst_gap": 0,
+  "worst_instance": {
+    "H": [],
+    "H_mask": 0,
+    "U": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "U_mask": 15,
+    "gap": 0,
+    "rho": 1,
+    "tau": 2
+  }
+}

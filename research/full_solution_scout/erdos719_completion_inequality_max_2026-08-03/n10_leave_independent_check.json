@@ -1,0 +1,58 @@
+{
+  "claim_boundary": "38 missing triples leave exactly 14 clean quads; their exact packing number is 8. No optimality claim for 14.",
+  "clean_quad_count": 14,
+  "exact_clean_quad_packing_number": 8,
+  "missing_count": 38,
+  "packing_witness": [
+    [
+      0,
+      1,
+      3,
+      7
+    ],
+    [
+      0,
+      2,
+      4,
+      9
+    ],
+    [
+      0,
+      3,
+      5,
+      6
+    ],
+    [
+      0,
+      6,
+      7,
+      8
+    ],
+    [
+      1,
+      2,
+      5,
+      6
+    ],
+    [
+      1,
+      3,
+      6,
+      8
+    ],
+    [
+      1,
+      5,
+      8,
+      9
+    ],
+    [
+      2,
+      3,
+      5,
+      8
+    ]
+  ],
+  "source_sha256": "09fe1f01ac99bf97902f112f86e949a12129fbef371f78f1d7723e57b9f2c706",
+  "verdict": "VERIFIED_CONSTRUCTION_ONLY"
+}
