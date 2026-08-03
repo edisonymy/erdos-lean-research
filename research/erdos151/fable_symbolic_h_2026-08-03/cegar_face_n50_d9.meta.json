@@ -1,7 +1,19 @@
 {
   "schema": "erdos151-cegar-run-metadata-v1",
   "launched_at": "2026-08-03T11:55:18.1187813+01:00",
-  "status": "RUNNING",
+  "status": "STOPPED_NO_TERMINAL_RESULT",
+  "stop_audit": {
+    "observed_at": "2026-08-03T16:57:20.6464815+01:00",
+    "last_log_write": "2026-08-03T16:26:23+01:00",
+    "last_logged_round": 22360,
+    "worker_pid": 60196,
+    "worker_present": false,
+    "stderr_bytes": 0,
+    "result_file_present": false,
+    "cause": "unknown",
+    "resume_status": "learned lazy clauses were not serialized; this process cannot be resumed",
+    "claim_boundary": "No SAT, UNSAT, convergence, or proximity inference is permitted from this stop."
+  },
   "parameters": {
     "n": 50,
     "h": 11,
