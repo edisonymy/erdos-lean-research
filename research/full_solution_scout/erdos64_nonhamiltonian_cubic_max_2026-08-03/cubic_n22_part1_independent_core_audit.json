@@ -1,0 +1,45 @@
+{
+  "schema": "erdos64-independent-literal-core-replay-v1",
+  "independence": "no import from producer; separate graph6 decoder; literal cycle-edge-mask intersection rather than per-edge avoiding-cycle searches",
+  "inputs": [
+    {
+      "path": "cubic_n22_part1.g6",
+      "sha256": "4F53504C0F28841844766DE869DBA10C3B386A6394631F1DC0F6DF9F5325C081",
+      "bytes": 27500176,
+      "order": 22,
+      "expected_count": 670736,
+      "count_matches_expected": true,
+      "stats": {
+        "validated_connected_simple_cubic": 670736,
+        "dyadic_cycles_enumerated_until_decision": 1585731,
+        "empty_dyadic_core": 670736
+      },
+      "greedy_empty_intersection_certificate_histogram": {
+        "2": 512211,
+        "3": 119247,
+        "4": 16162,
+        "5": 10419,
+        "6": 6218,
+        "7": 3681,
+        "8": 1764,
+        "9": 782,
+        "10": 202,
+        "11": 39,
+        "12": 7,
+        "13": 2,
+        "14": 1,
+        "27": 1
+      },
+      "largest_greedy_certificate": {
+        "cycles": 27,
+        "physical_line": 665390,
+        "graph6": "U???C@?G?_@?`?O_OOOM?WG?S_?oO?AW?GS?GCO?"
+      },
+      "first_survivor": null,
+      "complete_empty_core_replay": true,
+      "seconds": 145.937
+    }
+  ],
+  "complete": true,
+  "seconds": 145.937
+}

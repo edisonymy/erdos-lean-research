@@ -1,0 +1,15 @@
+{
+  "schema": "erdos64-order22-partition-avoiding-cycle-replay-v1",
+  "input": "cubic_n22_part1.g6",
+  "sha256": "4F53504C0F28841844766DE869DBA10C3B386A6394631F1DC0F6DF9F5325C081",
+  "partition": 1,
+  "modulus": 8,
+  "expected_count": 670736,
+  "stats": {
+    "validated_connected_simple_cubic": 670736,
+    "empty_dyadic_core": 670736
+  },
+  "candidate": null,
+  "complete": true,
+  "seconds": 224.609
+}

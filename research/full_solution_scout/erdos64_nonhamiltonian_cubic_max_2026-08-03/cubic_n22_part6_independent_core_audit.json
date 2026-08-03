@@ -1,0 +1,43 @@
+{
+  "schema": "erdos64-independent-literal-core-replay-v1",
+  "independence": "no import from producer; separate graph6 decoder; literal cycle-edge-mask intersection rather than per-edge avoiding-cycle searches",
+  "inputs": [
+    {
+      "path": "cubic_n22_part6.g6",
+      "sha256": "928E9C7A3052BF79F709731692E9A432BFDF82EE2D23AEB481029C0EAD38F6A9",
+      "bytes": 40108947,
+      "order": 22,
+      "expected_count": 978267,
+      "count_matches_expected": true,
+      "stats": {
+        "validated_connected_simple_cubic": 978267,
+        "dyadic_cycles_enumerated_until_decision": 2491836,
+        "empty_dyadic_core": 978267
+      },
+      "greedy_empty_intersection_certificate_histogram": {
+        "2": 680356,
+        "3": 191620,
+        "4": 42933,
+        "5": 26532,
+        "6": 18088,
+        "7": 10310,
+        "8": 5527,
+        "9": 2237,
+        "10": 583,
+        "11": 70,
+        "12": 10,
+        "105": 1
+      },
+      "largest_greedy_certificate": {
+        "cycles": 105,
+        "physical_line": 977340,
+        "graph6": "U???C@?G?_@?@?_oWCBC?Cc?HO?WG?@K?CI?KA??"
+      },
+      "first_survivor": null,
+      "complete_empty_core_replay": true,
+      "seconds": 217.86
+    }
+  ],
+  "complete": true,
+  "seconds": 217.86
+}

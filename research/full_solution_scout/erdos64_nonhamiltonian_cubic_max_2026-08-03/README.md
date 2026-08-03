@@ -7,6 +7,13 @@
 No universal proof or counterexample was found.  This packet makes no
 publication, openness, novelty, or priority claim.
 
+**Successor update (2026-08-03):** `FULL_N22_SUCCESSOR.md` supersedes the
+order-22 scope below.  A complete canonical census of all 7,319,447 connected
+simple cubic graphs of order 22 has now passed both full core replays, with no
+survivor.  The exact one-defect consequences are therefore block order 23 in
+the nonadjacent-terminal case and block order 25 in the adjacent-terminal
+case.  This remains a finite route closure, not a solution of problem 64.
+
 It does close the predeclared exact finite route.  Official nauty `geng`
 generated every connected simple cubic graph through order 20: 556,471
 isomorphism classes in total.  Exact Hamiltonicity classification found

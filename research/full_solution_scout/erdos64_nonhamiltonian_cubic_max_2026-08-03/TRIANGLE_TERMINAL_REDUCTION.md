@@ -75,20 +75,21 @@ rejection certificate.
 
 ## Exact finite consequence
 
-The canonical census in this packet proves that every connected simple cubic
-graph through order 20 has empty dyadic edge core.  Since the triangle
-reduction lowers block order by three, no connected exact one-defect block
-with adjacent terminal neighbours exists through block order 23.
+The canonical census and its full order-22 successor prove that every
+connected simple cubic graph through order 22 has empty dyadic edge core.
+Since the triangle reduction lowers block order by three, no connected exact
+one-defect block with adjacent terminal neighbours exists through block order
+25.
 
 Together with the predecessor's suppression lemma and the full simple-cubic
 census through order 20, this gives:
 
-- no non-triangular-terminal exact one-defect block through order 21; and
-- no triangular-terminal exact one-defect block through order 23.
+- no non-triangular-terminal exact one-defect block through order 23; and
+- no triangular-terminal exact one-defect block through order 25.
 
-The separate exact non-Hamiltonian order-22 catalogue also excludes the
-non-Hamiltonian suppressed-cubic slice of the non-triangular block case at
-block order 23.  It does not cover Hamiltonian cubic graphs of order 22.
+The earlier separate non-Hamiltonian catalogue check is now subsumed by the
+complete order-22 census, which includes all Hamiltonian and non-Hamiltonian
+connected cubic graphs.
 
 Disconnected blocks require no extra case: discard every component not
 containing `t`.  The retained terminal component has the same degree pattern

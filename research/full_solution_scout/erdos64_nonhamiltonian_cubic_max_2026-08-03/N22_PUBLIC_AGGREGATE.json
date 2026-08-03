@@ -1,0 +1,58 @@
+{
+  "schema": "erdos64-n22-public-aggregate-v1",
+  "status": "complete",
+  "partition_count": 8,
+  "partitions": [
+    {"part": 0, "residue": "0/8", "count": 518580, "bytes": 21261780, "sha256": "995C0FA902B3AEF0F2CBE2CAEA5861C98AD208634CBC6F792C85AD9AE9DE84C3"},
+    {"part": 1, "residue": "1/8", "count": 670736, "bytes": 27500176, "sha256": "4F53504C0F28841844766DE869DBA10C3B386A6394631F1DC0F6DF9F5325C081"},
+    {"part": 2, "residue": "2/8", "count": 982556, "bytes": 40284796, "sha256": "4B2F1F67B8552297CA1C23DBA1467A108692A097D71B55CDC5958ED1DE7E48CE"},
+    {"part": 3, "residue": "3/8", "count": 1068280, "bytes": 43799480, "sha256": "98CE6135DAD2DDFC54C0A9D3ECD0E973A7225A9335BD3BC386500C61CAFF1FF6"},
+    {"part": 4, "residue": "4/8", "count": 1569040, "bytes": 64330640, "sha256": "1E392F748B9C3365A94707ECABB0DC92EC38318A5F964F3C1958BEE431DEFE3B"},
+    {"part": 5, "residue": "5/8", "count": 879959, "bytes": 36078319, "sha256": "F04D9CD2693B2CE19AD1E1F9B033B7AF1E54975C28F58FF54E03FE77AEF6BA9F"},
+    {"part": 6, "residue": "6/8", "count": 978267, "bytes": 40108947, "sha256": "928E9C7A3052BF79F709731692E9A432BFDF82EE2D23AEB481029C0EAD38F6A9"},
+    {"part": 7, "residue": "7/8", "count": 652029, "bytes": 26733189, "sha256": "2F53F9C4960194E9E58AC441F16CFC5BDE028E544AA7DA53114B6708E2CF7AB0"}
+  ],
+  "total": {
+    "count": 7319447,
+    "bytes": 300097327,
+    "empty_dyadic_core": 7319447,
+    "survivors": 0
+  },
+  "methods": {
+    "literal_cycle_intersection": {
+      "implementation": "verify_cubic_core_independent.py",
+      "independent_parser_and_core_code": true,
+      "partitions_complete": 8,
+      "validated": 7319447,
+      "empty": 7319447,
+      "survivor": null
+    },
+    "avoiding_cycle_search": {
+      "implementation": "scan_cubic_n22_partition.py",
+      "method_independent_from_literal_cycle_intersection": true,
+      "reuses_frozen_producer_primitives": true,
+      "partitions_complete": 8,
+      "validated": 7319447,
+      "empty": 7319447,
+      "candidate": null,
+      "candidate_directory_created": false
+    }
+  },
+  "one_defect_block_bounds": {
+    "nonadjacent_terminal": 23,
+    "adjacent_triangle_terminal": 25,
+    "order_drops": {"nonadjacent": 1, "adjacent": 3}
+  },
+  "public_files": [
+    "FULL_N22_SUCCESSOR.md",
+    "N22_PUBLIC_AGGREGATE.json",
+    "GENERATOR_PROVENANCE.md",
+    "verify_cubic_core_independent.py",
+    "scan_cubic_n22_partition.py",
+    "scan_cubic_census.py",
+    "cubic_n22_part[0-7].log",
+    "cubic_n22_part[0-7]_independent_core_audit.json",
+    "cubic_n22_part[0-7]_avoiding_core_audit.json"
+  ],
+  "git_exclude": ["cubic_n22_part*.g6"]
+}

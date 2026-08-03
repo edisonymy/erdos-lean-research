@@ -65,16 +65,15 @@ because the original problem lacked a public Lean statement.
   necessary condition, not a solution of #151.  Routine construction
   expansion and the bounded global CEGAR siege remain stopped.
 - **Erdős #64:** the exact one-defect cubic-block route has now been
-  independently exhausted through block order 21 for nonadjacent terminal
-  neighbours and through order 23 for adjacent terminal neighbours.  An
-  official-nauty census covers all 556,471 connected cubic graphs through
-  order 20, and a separate published catalogue covers all 148,790
-  non-Hamiltonian cubic graphs of order 22; every graph checked has empty
-  dyadic edge core.  A new triangle-terminal reduction closes the adjacent
-  case, with a 213,329-instance cycle-correspondence audit.  This eliminates a
-  natural counterexample mechanism but is not a solution: arbitrary
-  minimum-degree-three graphs and Hamiltonian cubic graphs of order 22 remain
-  outside this finite result.  See
+  independently exhausted through block order 23 for nonadjacent terminal
+  neighbours and through order 25 for adjacent terminal neighbours.  An
+  official-nauty census covers all 7,319,447 connected cubic graphs of order
+  22, in addition to every smaller even order; two complete implementations
+  find empty dyadic edge core in every case.  The triangle-terminal reduction
+  closes the adjacent case, with a separate 213,329-instance correspondence
+  audit.  This eliminates a natural counterexample mechanism but is not a
+  solution: arbitrary minimum-degree-three graphs remain outside this finite
+  result.  See
   [`research/full_solution_scout/erdos64_nonhamiltonian_cubic_max_2026-08-03/`](research/full_solution_scout/erdos64_nonhamiltonian_cubic_max_2026-08-03/).
 - **Erdős #128 (paused):** exact finite census of the triangle-free sparse-half condition.
   Two independent native-cardinality encodings exclude the three remaining order-16 cases

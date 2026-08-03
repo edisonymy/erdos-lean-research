@@ -1,0 +1,121 @@
+{
+  "schema": "erdos64-full-canonical-cubic-order22-successor-v1",
+  "date": "2026-08-03",
+  "status": "complete",
+  "claim": {
+    "exact": "Every connected simple cubic graph of order at most 22 has empty dyadic edge core.",
+    "order22_graphs": 7319447,
+    "order22_empty_dyadic_core": 7319447,
+    "order22_survivors": 0,
+    "problem64_resolved": false
+  },
+  "generator": {
+    "program": "nauty 2.9.3 geng",
+    "condition": "connected simple, minimum degree 3, maximum degree 3, order 22, size 33",
+    "partition_coverage": "all canonical residue classes 0/8 through 7/8",
+    "archive_sha256": "9FC4EDAE04F88A0F5883985BE3B39CF7F898FD6CC96E96B9EE25452743CC1B5B",
+    "geng_sha256": "54905DF2D5262992CE80ABABA785FF5A41B223A2A6B03C1274D5A9BE4A9A181A",
+    "image_digest": "sha256:c9de640c09ecd5223afa907847a97a7397f11a5b45970095c967c4bb99f40b5c",
+    "record_bytes": 41,
+    "total_bytes": 300097327,
+    "total_records": 7319447,
+    "published_total_agrees": true
+  },
+  "partitions": [
+    {
+      "residue": "0/8",
+      "path": "cubic_n22_part0.g6",
+      "records": 518580,
+      "bytes": 21261780,
+      "sha256": "995C0FA902B3AEF0F2CBE2CAEA5861C98AD208634CBC6F792C85AD9AE9DE84C3"
+    },
+    {
+      "residue": "1/8",
+      "path": "cubic_n22_part1.g6",
+      "records": 670736,
+      "bytes": 27500176,
+      "sha256": "4F53504C0F28841844766DE869DBA10C3B386A6394631F1DC0F6DF9F5325C081"
+    },
+    {
+      "residue": "2/8",
+      "path": "cubic_n22_part2.g6",
+      "records": 982556,
+      "bytes": 40284796,
+      "sha256": "4B2F1F67B8552297CA1C23DBA1467A108692A097D71B55CDC5958ED1DE7E48CE"
+    },
+    {
+      "residue": "3/8",
+      "path": "cubic_n22_part3.g6",
+      "records": 1068280,
+      "bytes": 43799480,
+      "sha256": "98CE6135DAD2DDFC54C0A9D3ECD0E973A7225A9335BD3BC386500C61CAFF1FF6"
+    },
+    {
+      "residue": "4/8",
+      "path": "cubic_n22_part4.g6",
+      "records": 1569040,
+      "bytes": 64330640,
+      "sha256": "1E392F748B9C3365A94707ECABB0DC92EC38318A5F964F3C1958BEE431DEFE3B"
+    },
+    {
+      "residue": "5/8",
+      "path": "cubic_n22_part5.g6",
+      "records": 879959,
+      "bytes": 36078319,
+      "sha256": "F04D9CD2693B2CE19AD1E1F9B033B7AF1E54975C28F58FF54E03FE77AEF6BA9F"
+    },
+    {
+      "residue": "6/8",
+      "path": "cubic_n22_part6.g6",
+      "records": 978267,
+      "bytes": 40108947,
+      "sha256": "928E9C7A3052BF79F709731692E9A432BFDF82EE2D23AEB481029C0EAD38F6A9"
+    },
+    {
+      "residue": "7/8",
+      "path": "cubic_n22_part7.g6",
+      "records": 652029,
+      "bytes": 26733189,
+      "sha256": "2F53F9C4960194E9E58AC441F16CFC5BDE028E544AA7DA53114B6708E2CF7AB0"
+    }
+  ],
+  "literal_core_replay": {
+    "implementation": "verify_cubic_core_independent.py",
+    "independent_graph6_decoder": true,
+    "independent_core_algorithm": true,
+    "method": "literal dyadic-cycle edge-mask intersection",
+    "validated_connected_simple_cubic": 7319447,
+    "empty_dyadic_core": 7319447,
+    "dyadic_cycles_enumerated_until_decision": 18515894,
+    "first_survivor": null,
+    "all_eight_complete": true
+  },
+  "avoiding_cycle_replay": {
+    "implementation": "scan_cubic_n22_partition.py using frozen scan_cubic_census.py primitives",
+    "code_independent_from_producer": false,
+    "method_independent_from_literal_replay": true,
+    "method": "per-edge search for a dyadic cycle avoiding that edge",
+    "validated_connected_simple_cubic": 7319447,
+    "empty_dyadic_core": 7319447,
+    "candidate": null,
+    "candidate_directory_created": false,
+    "all_eight_complete": true
+  },
+  "reduction_consequences": {
+    "normal_form": "exact one-defect (2,3,...,3) block",
+    "nonadjacent_terminal": {
+      "order_drop": 1,
+      "excluded_through_block_order": 23
+    },
+    "adjacent_triangle_terminal": {
+      "order_drop": 3,
+      "excluded_through_block_order": 25
+    },
+    "audited_asymmetric_bounds": "23/25"
+  },
+  "claim_boundary": [
+    "This is a finite computational theorem, not a resolution of Erdos problem 64.",
+    "The block consequences require the exact one-defect normal form and the stated terminal reductions.",
+    "No general reduction from arbitrary minimum-degree-three graphs to cubic graphs is claimed."
+  ]
+}
