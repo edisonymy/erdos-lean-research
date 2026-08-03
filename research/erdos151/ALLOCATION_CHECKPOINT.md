@@ -340,3 +340,31 @@ telemetry because the new global oracle is active, but it is not evidence for
 SAT, UNSAT, or proximity.  The inherited and matching-three-only runs remain
 live because stopping them would discard unpersisted learned clauses; no such
 destructive scheduler change was made.
+
+## Host-stop and portfolio decision: 3 August 2026, 17:30 BST
+
+All three order-50 processes later stopped without a result file, terminal
+message, or stderr.  Independent Windows-event forensics attributes the common
+stop with high confidence to destruction of the Codex AppX container at
+16:26:29.005 BST; their last writes occurred 5.098, 3.119, and 31.542 seconds
+earlier.  No nearby resource-exhaustion event was found.  This was an
+infrastructure failure, not SAT/UNSAT evidence, and the exact exit instruction
+remains unproved.  Since the old processes did not serialize learned cuts,
+none can resume.
+
+A crash-safe successor now journals every semantic lazy cut in a hash chain,
+binds the static formula/configuration, stores RNG and telemetry state, checks
+the per-round reconstructed-formula hash, exports a terminal CNF, and holds an
+OS-level exclusive writer lock.  Its bounded interruption/corruption controls
+and independent Glucose replay pass.  The guarantee is deliberately limited
+to ordinary process/AppX failure; it is not a sudden-power-loss claim.  Future
+long workers must be launched by an OS-brokered Task Scheduler supervisor,
+because detached children remain vulnerable to Codex's kill-on-close jobs.
+
+The contemporaneous campaign rerank places Erdős #64 narrowly above #151.
+Accordingly, #151 returns to a **15--25% maintenance allocation**.  Do not
+replay the weaker inherited degree-nine run.  A bounded relaunch, if funded,
+must use the matching-three plus TCG-3 successor and renew only on a checked
+candidate, genuinely global phase transition, or certificate-producing UNSAT
+path.  The main candidate-first compute allocation moves to #64's marked-edge
+bridge construction at cubic orders 24--30.

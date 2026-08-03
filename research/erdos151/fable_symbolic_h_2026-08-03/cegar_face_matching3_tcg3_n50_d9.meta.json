@@ -10,7 +10,13 @@
     "worker_present": false,
     "stderr_bytes": 0,
     "result_file_present": false,
-    "cause": "unknown",
+    "cause": "Codex AppX/job teardown (high-confidence attribution; exact exit instruction unproved)",
+    "cause_evidence": {
+      "report": "research/erdos151/fable_symbolic_h_2026-08-03/stopped_run_forensics_max_2026-08-03/REPORT.md",
+      "report_sha256": "a9931185a0072fe84f047f9345dd9ca5e5f15312ba5b59d48b0e81c82284b0a9",
+      "container_destroyed_at": "2026-08-03T16:26:29.005472+01:00",
+      "last_write_before_destruction_s": 31.542
+    },
     "resume_status": "learned lazy clauses were not serialized; this process cannot be resumed",
     "claim_boundary": "No SAT, UNSAT, convergence, or proximity inference is permitted from this stop."
   },

@@ -7,7 +7,8 @@ the graph's triangle hypergraph is two-colorable.  A positive partition adds
 one sound clause over the inherited one-way triangle witnesses.
 
 Usage:
-    python -X utf8 cegar_face_matching3_tcg3.py N H ROUNDS OUT.json [MIN_DEGREE]
+    python -X utf8 cegar_face_matching3_tcg3.py N H ROUNDS OUT.json \
+        [MIN_DEGREE] [CHECKPOINT.jsonl]
 """
 
 from __future__ import annotations
@@ -22,6 +23,16 @@ from pathlib import Path
 from pysat.card import CardEnc, EncType
 from pysat.formula import IDPool
 from pysat.solvers import Cadical195
+
+from cegar_checkpoint import (
+    CutJournal,
+    ExclusiveRunLock,
+    RecordingCadical,
+    atomic_write_text,
+    file_hash,
+    rng_state_from_json,
+    rng_state_to_json,
+)
 
 from cegar_face_matching3 import (
     actual_maximal_edges,
@@ -54,7 +65,7 @@ def build_static_formula(n: int, h: int, min_degree: int = 0):
     def ev(u: int, v: int) -> int:
         return edges[(min(u, v), max(u, v))]
 
-    solver = Cadical195()
+    solver = RecordingCadical()
     k4_clauses = 0
     for four in itertools.combinations(range(n), 4):
         solver.add_clause([-ev(a, b) for a, b in itertools.combinations(four, 2)])
@@ -272,7 +283,7 @@ def new_telemetry() -> dict[str, object]:
     }
 
 
-def solve_face(
+def _solve_face_locked(
     n: int,
     h: int,
     max_rounds: int,
@@ -280,6 +291,7 @@ def solve_face(
     cuts_per_round: int = 24,
     seed: int = 2026,
     min_degree: int = 0,
+    checkpoint_path: str | Path | None = None,
 ) -> dict[str, object]:
     (
         solver,
@@ -290,6 +302,8 @@ def solve_face(
         selected,
         base_stats,
     ) = build_static_formula(n, h, min_degree)
+    if not isinstance(solver, RecordingCadical):
+        raise TypeError("checkpointed runner requires a recording solver")
     rng = random.Random(seed)
     triangle_witnesses: dict[tuple[int, int, int], int] = {}
     dynamic_definition_clauses = 0
@@ -323,6 +337,71 @@ def solve_face(
             "tcg3_cut_clauses": int(cuts["tcg3_clauses"]),
         }
 
+    outpath = Path(outpath)
+    checkpoint = Path(checkpoint_path or (str(outpath) + ".cuts.jsonl"))
+    state_path = Path(str(checkpoint) + ".state.json")
+    final_cnf_path = Path(str(outpath) + ".final.cnf")
+    static_formula_sha256 = solver.formula_hash()
+    journal_config: dict[str, object] = {
+        "n": n,
+        "h": h,
+        "min_degree": min_degree,
+        "cuts_per_round": cuts_per_round,
+        "seed": seed,
+        "semantic_order": "tcg3-cut-then-admissible-cuts",
+    }
+    journal = CutJournal(checkpoint, journal_config, static_formula_sha256)
+
+    def validate_vertex_set(values: object, expected_size: int | None) -> tuple[int, ...]:
+        if not isinstance(values, list) or not all(isinstance(value, int) for value in values):
+            raise ValueError("checkpoint vertex set is not an integer list")
+        result = tuple(values)
+        if tuple(sorted(set(result))) != result:
+            raise ValueError("checkpoint vertex set is not sorted and unique")
+        if any(value < 0 or value >= n for value in result):
+            raise ValueError("checkpoint vertex is out of range")
+        if expected_size is not None and len(result) != expected_size:
+            raise ValueError("checkpoint vertex set has the wrong size")
+        return result
+
+    def replay_record(record: dict[str, object]) -> None:
+        partition_payload = record.get("tcg3_partition")
+        if partition_payload is not None:
+            if not isinstance(partition_payload, list) or len(partition_payload) != 2:
+                raise ValueError("checkpoint TCG-3 partition has the wrong shape")
+            side_zero = validate_vertex_set(partition_payload[0], None)
+            side_one = validate_vertex_set(partition_payload[1], None)
+            if set(side_zero).intersection(side_one) or set(side_zero).union(side_one) != set(range(n)):
+                raise ValueError("checkpoint TCG-3 sides do not partition the vertices")
+            solver.add_clause(tcg3_cut(side_zero, side_one, triangle_var))
+        sets_payload = record.get("admissible_sets")
+        if not isinstance(sets_payload, list):
+            raise ValueError("checkpoint admissible_sets is not a list")
+        for values in sets_payload:
+            vertex_set = validate_vertex_set(values, h)
+            clause = [triangle_var(triple) for triple in itertools.combinations(vertex_set, 3)]
+            clause.extend(
+                maximal_witnesses[pair]
+                for pair in itertools.combinations(vertex_set, 2)
+            )
+            solver.add_clause(clause)
+
+    for expected_round, record in enumerate(journal.records):
+        if record.get("round") != expected_round:
+            raise ValueError(f"checkpoint round mismatch at {expected_round}")
+        replay_record(record)
+        if record.get("formula_sha256_after_round") != solver.formula_hash():
+            raise ValueError(f"checkpoint formula replay mismatch at {expected_round}")
+    if journal.records:
+        latest = journal.records[-1]
+        saved_telemetry = latest.get("telemetry")
+        saved_rng_state = latest.get("rng_state")
+        if not isinstance(saved_telemetry, dict) or not isinstance(saved_rng_state, dict):
+            raise ValueError("checkpoint lacks telemetry or RNG state")
+        telemetry = saved_telemetry
+        rng.setstate(rng_state_from_json(saved_rng_state))
+    start_round = len(journal.records)
+
     def write_payload(summary: dict[str, object]) -> None:
         payload = {
             "summary": summary,
@@ -330,18 +409,26 @@ def solve_face(
             "final_formula": final_formula_stats(),
             "telemetry": telemetry,
             "log": round_log,
+            "checkpoint": {
+                "path": checkpoint.as_posix(),
+                "sha256": file_hash(checkpoint),
+                "completed_rounds": len(journal.records),
+                "last_record_sha256": journal.last_hash,
+                "resumed": bool(start_round),
+            },
         }
-        Path(outpath).write_text(
-            json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+        atomic_write_text(
+            outpath, json.dumps(payload, indent=2, sort_keys=True) + "\n"
         )
 
     started = time.perf_counter()
-    for round_index in range(max_rounds):
+    for round_index in range(start_round, max_rounds):
         solver_started = time.perf_counter()
         satisfiable = solver.solve()
         solver_seconds = time.perf_counter() - solver_started
         telemetry["solver_calls"] = int(telemetry["solver_calls"]) + 1
         if not satisfiable:
+            solver.write_dimacs_atomic(final_cnf_path)
             summary = {
                 "n": n,
                 "h": h,
@@ -350,6 +437,9 @@ def solve_face(
                 "cuts_per_round": cuts_per_round,
                 "result": "UNSAT",
                 "rounds": round_index,
+                "final_cnf": final_cnf_path.as_posix(),
+                "final_cnf_sha256": file_hash(final_cnf_path),
+                "final_formula_sha256": solver.formula_hash(),
                 "elapsed_s": round(time.perf_counter() - started, 6),
                 "claim_boundary": (
                     "requires final-CNF serialization and independent proof "
@@ -486,7 +576,7 @@ def solve_face(
         }
         round_log.append(round_record)
 
-        if not sets_found and partition is None:
+        if not sets_found and raw_partition is None:
             summary = {
                 "n": n,
                 "h": h,
@@ -510,6 +600,33 @@ def solve_face(
             solver.delete()
             return summary
 
+        journal.append_round(
+            {
+                "round": round_index,
+                "tcg3_partition": (
+                    [list(partition[0]), list(partition[1])]
+                    if raw_partition is not None
+                    else None
+                ),
+                "admissible_sets": [list(vertex_set) for vertex_set in sets_found],
+                "rng_state": rng_state_to_json(rng.getstate()),
+                "telemetry": telemetry,
+                "round_summary": round_record,
+                "formula_sha256_after_round": solver.formula_hash(),
+            }
+        )
+        if round_index % 10 == 0:
+            journal.write_state(
+                state_path,
+                {
+                    "next_round": round_index + 1,
+                    "variables": pool.top,
+                    "clauses": len(solver.clauses),
+                    "formula_sha256": solver.formula_hash(),
+                    "triangle_witness_variables": len(triangle_witnesses),
+                },
+            )
+
         if round_index % 10 == 0:
             print(
                 f"[combined n={n}] round {round_index} edges={edge_count} "
@@ -531,13 +648,59 @@ def solve_face(
         "elapsed_s": round(time.perf_counter() - started, 6),
         "claim_boundary": "bounded control only; no mathematical result",
     }
+    journal.write_state(
+        state_path,
+        {
+            "next_round": max_rounds,
+            "variables": pool.top,
+            "clauses": len(solver.clauses),
+            "formula_sha256": solver.formula_hash(),
+            "triangle_witness_variables": len(triangle_witnesses),
+        },
+    )
     write_payload(summary)
     print(json.dumps(summary, sort_keys=True), flush=True)
     solver.delete()
     return summary
 
 
+def solve_face(
+    n: int,
+    h: int,
+    max_rounds: int,
+    outpath: str | Path,
+    cuts_per_round: int = 24,
+    seed: int = 2026,
+    min_degree: int = 0,
+    checkpoint_path: str | Path | None = None,
+) -> dict[str, object]:
+    """Run with one exclusive writer for the checkpoint and result pair."""
+
+    output = Path(outpath)
+    checkpoint = Path(checkpoint_path or (str(output) + ".cuts.jsonl"))
+    lock_path = Path(str(checkpoint) + ".writer.lock")
+    with ExclusiveRunLock(lock_path):
+        return _solve_face_locked(
+            n,
+            h,
+            max_rounds,
+            output,
+            cuts_per_round=cuts_per_round,
+            seed=seed,
+            min_degree=min_degree,
+            checkpoint_path=checkpoint,
+        )
+
+
 if __name__ == "__main__":
     n_arg, h_arg, rounds_arg = int(sys.argv[1]), int(sys.argv[2]), int(sys.argv[3])
     minimum = int(sys.argv[5]) if len(sys.argv) >= 6 else 0
-    solve_face(n_arg, h_arg, rounds_arg, sys.argv[4], min_degree=minimum)
+    checkpoint_arg = sys.argv[6] if len(sys.argv) >= 7 else None
+    solve_face(
+        n_arg,
+        h_arg,
+        rounds_arg,
+        sys.argv[4],
+        min_degree=minimum,
+        checkpoint_path=checkpoint_arg,
+    )

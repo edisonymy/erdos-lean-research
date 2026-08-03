@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "concurrent_writer_rejected": true,
+    "configuration_mismatch_rejected": true,
+    "fresh_cnf_independently_unsat_glucose42": true,
+    "fresh_result_unsat": true,
+    "journal_append_after_tail_repair": true,
+    "lock_released_after_exit": true,
+    "middle_corruption_rejected": true,
+    "partial_tail_detected": true,
+    "partial_tail_quarantined": true,
+    "resume_formula_may_diverge_after_checkpoint": true,
+    "split_cnf_independently_unsat_glucose42": true,
+    "split_prefix_formula_hashes_equal_fresh": true,
+    "split_resume_result_unsat": true
+  },
+  "fresh_terminal": {
+    "claim_boundary": "requires final-CNF serialization and independent proof certification before theorem use",
+    "cuts_per_round": 24,
+    "elapsed_s": 0.142962,
+    "final_cnf": "C:/Users/Edison Yi/Documents/Math Frontier/research/erdos151/fable_symbolic_h_2026-08-03/cegar-checkpoint-audit-6anzgnmb/fresh.json.final.cnf",
+    "final_cnf_sha256": "091f59ea59c2c607f1d5eeb562b0e828f8e3aa272d77bba9285fb896cbe5f751",
+    "final_formula_sha256": "550583b2c390e4cb7349cbb0622b38b6bdbf179b56f81e048228e45e189dfb64",
+    "h": 4,
+    "min_degree": 0,
+    "n": 10,
+    "result": "UNSAT",
+    "rounds": 4,
+    "seed": 2026
+  },
+  "interpretation": "The persisted input formula is reconstructed exactly through the checkpoint. Future solver models may diverge because private CaDiCaL learned state is intentionally not serialized.",
+  "source_sha256": {
+    "audit_cegar_checkpoint.py": "db41581d8026a5939bc8de1e21b4f871471ff90f61facd149ccb27c50097a5d5",
+    "cegar_checkpoint.py": "0862f5f4ca6719c4a211133379619d3777387f79d9ed6024e87e00bf0d2fdc09",
+    "cegar_face_matching3_tcg3.py": "e9f69347eee7d077421188bfcccf20f0173dc3e1767c3b1e643d7f0942be9bf7"
+  },
+  "split_terminal": {
+    "claim_boundary": "requires final-CNF serialization and independent proof certification before theorem use",
+    "cuts_per_round": 24,
+    "elapsed_s": 0.128315,
+    "final_cnf": "C:/Users/Edison Yi/Documents/Math Frontier/research/erdos151/fable_symbolic_h_2026-08-03/cegar-checkpoint-audit-6anzgnmb/split.json.final.cnf",
+    "final_cnf_sha256": "4fe85e69261da05de9b5e6cd91643db193dc1cdd8b4d9e6b1e8cf7f5d4ac75cb",
+    "final_formula_sha256": "c3517233ece490e8868c064999e607fc77689e14f56cbb779d9b12e0f28a3c09",
+    "h": 4,
+    "min_degree": 0,
+    "n": 10,
+    "result": "UNSAT",
+    "rounds": 4,
+    "seed": 2026
+  },
+  "status": "PASS"
+}

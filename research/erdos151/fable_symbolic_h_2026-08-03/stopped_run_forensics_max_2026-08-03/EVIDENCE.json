@@ -1,0 +1,137 @@
+{
+  "schema": "erdos151-n50-stopped-run-forensics-evidence-v1",
+  "captured_local": "2026-08-03T17:08:31.4091239+01:00",
+  "timezone": "Europe/London (BST, UTC+01:00)",
+  "runs": [
+    {
+      "name": "cegar_face_n50_d9",
+      "worker_pid": 60196,
+      "last_round": 22360,
+      "last_stdout_write_local": "2026-08-03T16:26:23.9075529+01:00",
+      "stdout_bytes": 133075,
+      "stdout_sha256": "35018b195fecc7fd6aa610af073639335695e1aa8d9518f1fff38c6e8d52ebdc",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result_present": false,
+      "metadata_sha256": "a58965d27efc824dc1219e711957f3b2f5ff0213ba129675209cd116ebb34cc5"
+    },
+    {
+      "name": "cegar_face_matching3_n50_d9",
+      "wrapper_pid": 24144,
+      "worker_pid": 62672,
+      "last_round": 6480,
+      "last_stdout_write_local": "2026-08-03T16:26:25.8863248+01:00",
+      "stdout_bytes": 42341,
+      "stdout_sha256": "d124e1a37118fc0439f393a3f28eddb5f0015b55e1a70cf67a333ef4b7707895",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result_present": false,
+      "metadata_sha256": "ed3e80a531cd36a73e09af9eb23e9dc77a8f41732e92bd45928802da52fd23fb"
+    },
+    {
+      "name": "cegar_face_matching3_tcg3_n50_d9",
+      "command_wrapper_pid": 85600,
+      "venv_wrapper_pid": 85568,
+      "worker_pid": 76636,
+      "last_round": 1100,
+      "last_stdout_write_local": "2026-08-03T16:25:57.4638721+01:00",
+      "stdout_bytes": 12841,
+      "stdout_sha256": "ea29a15964ea01354169c80c482a096e73f485774722f5153346c8f2b4f9c63a",
+      "stderr_bytes": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result_present": false,
+      "metadata_sha256": "78fec987f642206a6e8948362ca281b13d97ba3ac62b9b6c52b5e2ca88687eb2"
+    }
+  ],
+  "windows_appmodel_events": [
+    {
+      "record_id": 78898,
+      "event_id": 211,
+      "time_local": "2026-08-03T16:25:07.2708882+01:00",
+      "xml_sha256": "1d2f623c685542229040fcc1f414501acfc99d147f9a8acb6d84ce3947fc3019",
+      "message": "Added process 59556 to Desktop AppX container 68d6bfef-8de8-11f1-8400-ac74b1e7ae13 for package OpenAI.Codex_26.727.6591.0_x64__2p2nqsd0c76g0."
+    },
+    {
+      "record_id": 78899,
+      "event_id": 201,
+      "time_local": "2026-08-03T16:25:07.2823204+01:00",
+      "xml_sha256": "422561381c969cdc0eda6a61d7362372dbf7fa695b9ceb865d16cd3f94e1ce5e",
+      "message": "Created process 59556 for application OpenAI.Codex_2p2nqsd0c76g0!App in package OpenAI.Codex_26.727.6591.0_x64__2p2nqsd0c76g0. [LaunchProcess]"
+    },
+    {
+      "record_id": 78902,
+      "event_id": 217,
+      "time_local": "2026-08-03T16:26:29.0054716+01:00",
+      "xml_sha256": "f81bcbdbd8721cf8a3889807f0e2fffce8329f8d6abac48e63dbff8b9b527652",
+      "message": "Destroyed Desktop AppX container {68D6BFEF-8DE8-11F1-8400-AC74B1E7AE13} for package OpenAI.Codex_26.727.6591.0_x64__2p2nqsd0c76g0."
+    },
+    {
+      "record_id": 78904,
+      "event_id": 210,
+      "time_local": "2026-08-03T16:26:39.2774838+01:00",
+      "xml_sha256": "e6e15092ed423109ae4f374c7976968591db76928c28934c08a441aad4e2d262",
+      "message": "Created Desktop AppX container {0D3FBB92-8F4F-11F1-8400-AC74B1E7AE13} for package OpenAI.Codex_26.727.6591.0_x64__2p2nqsd0c76g0."
+    },
+    {
+      "record_id": 78905,
+      "event_id": 211,
+      "time_local": "2026-08-03T16:26:39.2776302+01:00",
+      "xml_sha256": "34ab25e762d5147fd07d02c6a741810e886c7a206aa89aba7de02d8b5b091cf0",
+      "message": "Added process 54360 to Desktop AppX container 0d3fbb92-8f4f-11f1-8400-ac74b1e7ae13 for package OpenAI.Codex_26.727.6591.0_x64__2p2nqsd0c76g0."
+    },
+    {
+      "record_id": 78906,
+      "event_id": 201,
+      "time_local": "2026-08-03T16:26:39.2823521+01:00",
+      "xml_sha256": "67a9e19f60203569c6c92c4808a70346b0c969a1187d7c8352cf89c1328e6380",
+      "message": "Created process 54360 for application OpenAI.Codex_2p2nqsd0c76g0!App in package OpenAI.Codex_26.727.6591.0_x64__2p2nqsd0c76g0. [LaunchProcess]"
+    }
+  ],
+  "launcher_transcript": {
+    "path": "C:/Users/Edison Yi/.codex/sessions/2026/08/03/rollout-2026-08-03T11-17-55-019fc721-4aad-7270-9920-61d2821f30d0.jsonl",
+    "sha256": "088b3ee253e3df16ee0f20d75531dd33d1eba11800a79b8b2cc03c24e3f6fff7",
+    "matching3_launch_timestamp_utc": "2026-08-03T14:42:23.687Z",
+    "matching3_creation_flags": [
+      "CREATE_NO_WINDOW",
+      "DETACHED_PROCESS",
+      "CREATE_NEW_PROCESS_GROUP"
+    ],
+    "matching3_missing_flag": "CREATE_BREAKAWAY_FROM_JOB",
+    "combined_launch_timestamp_utc": "2026-08-03T15:15:39.001Z",
+    "combined_launcher": "System.Diagnostics.ProcessStartInfo -> cmd.exe -> venv redirector -> Python worker",
+    "combined_breakaway_requested": false
+  },
+  "live_job_probe": {
+    "current_powershell": {
+      "is_process_in_job": true,
+      "limit_flags_hex": "0x00002800",
+      "kill_on_job_close": true,
+      "breakaway_ok": true,
+      "silent_breakaway_ok": false
+    },
+    "short_child_without_breakaway": {
+      "creation_flags_hex": "0x08000000",
+      "is_process_in_job": true,
+      "associated_job_limit_flags_hex": "0x00002800",
+      "kill_on_job_close": true
+    },
+    "short_child_with_breakaway": {
+      "creation_flags_hex": "0x09000000",
+      "is_process_in_job": true,
+      "associated_job_limit_flags_hex": "0x00000000",
+      "kill_on_job_close": false,
+      "qualification": "The process still reports membership in a nested/outer job, so this does not certify survival of a full AppX-container teardown."
+    }
+  },
+  "negative_event_checks_2026-08-03T16_20_to_16_35_BST": {
+    "application_error_or_wer_event_ids_1000_1001_1002": 0,
+    "system_power_shutdown_or_resource_event_ids_41_1074_6006_6008_2004": 0,
+    "wer_report_archive_directories_created_in_window": 0,
+    "codex_session_process_kill_tool_calls_2026-08-03T16_23_to_16_28_BST": 0,
+    "qualification": "Absence in accessible logs lowers but does not eliminate crash, resource-exhaustion, or external-manual-kill hypotheses."
+  },
+  "task_scheduler_service": {
+    "status": "Running",
+    "start_type": "Automatic"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "claim_boundary": "This is a code/artifact audit.  It makes no SAT, UNSAT, or proximity claim for the n=50 mathematical instance.",
+  "findings": [
+    {
+      "finding": "All learned clauses existed only in solver memory.  Stdout samples every ten rounds and stores counts but no h-sets or partitions; terminal JSON was never written.  No exact or partial semantic replay can be reconstructed from artifacts.",
+      "id": "NO-RECOVERABLE-CUTS",
+      "severity": "CRITICAL"
+    },
+    {
+      "finding": "In the combined implementation, partition is assigned only on the partition-found branch (line 395) but is read in the candidate condition at line 489.  The desired conjunction raw_partition is None and no admissible h-set therefore raises UnboundLocalError instead of preserving a candidate.",
+      "id": "COMBINED-SAT-TERMINAL-UNBOUND",
+      "severity": "HIGH"
+    },
+    {
+      "finding": "All terminal/result writes use direct write_text/json.dump to the final path without temporary-file fsync, atomic rename, or read-back.  A crash can leave a truncated apparent result.",
+      "id": "TERMINAL-WRITES-NONATOMIC",
+      "severity": "HIGH"
+    },
+    {
+      "finding": "The combined lane records only formula counts.  It cannot emit the exact final DIMACS formula, and no proof-producing solver/checker path is invoked after in-memory UNSAT.",
+      "id": "NO-FINAL-CNF",
+      "severity": "HIGH"
+    },
+    {
+      "finding": "Triangle-witness variable IDs are allocated lazily in cut discovery order.  Exact numeric CNF replay therefore requires the full ordered cut stream and pinned encoder environment; the logs preserve neither.",
+      "id": "DYNAMIC-VARIABLE-ORDER",
+      "severity": "MEDIUM"
+    }
+  ],
+  "lanes": [
+    {
+      "durable_cut_payload_in_result": false,
+      "durable_cut_payload_in_stdout": false,
+      "name": "inherited-degree9",
+      "partition_ast": {
+        "loads": [],
+        "stores": []
+      },
+      "result_exists": false,
+      "script": {
+        "current_worktree_differs": false,
+        "current_worktree_sha256": "331da93ec645f6015988ddc96817a9b4c651786bd3053e2f40bb418bb092c358",
+        "path": "research\\erdos151\\fable_symbolic_h_2026-08-03\\cegar_face.py",
+        "pinned_bytes": 8613,
+        "pinned_commit": "26c37d7041e9c422e0f8606af2c105b617708968",
+        "pinned_sha256": "331da93ec645f6015988ddc96817a9b4c651786bd3053e2f40bb418bb092c358"
+      },
+      "stderr_bytes": 0,
+      "stdout": {
+        "bytes": 133075,
+        "last_sample": "[n=50] round 22360 edges=244 cuts+=24 y=19600 m=1225 16310s",
+        "last_sampled_round": 22360,
+        "path": "cegar_face_n50_d9.stdout.log",
+        "sample_lines": 2237,
+        "sha256": "35018b195fecc7fd6aa610af073639335695e1aa8d9518f1fff38c6e8d52ebdc"
+      }
+    },
+    {
+      "durable_cut_payload_in_result": false,
+      "durable_cut_payload_in_stdout": false,
+      "name": "matching3",
+      "partition_ast": {
+        "loads": [],
+        "stores": []
+      },
+      "result_exists": false,
+      "script": {
+        "current_worktree_differs": false,
+        "current_worktree_sha256": "f50becfa7bb5fc6934ded04769b3b5f5b326084889998a02c927dcaa57663ead",
+        "path": "research\\erdos151\\fable_symbolic_h_2026-08-03\\cegar_face_matching3.py",
+        "pinned_bytes": 13640,
+        "pinned_commit": "26c37d7041e9c422e0f8606af2c105b617708968",
+        "pinned_sha256": "f50becfa7bb5fc6934ded04769b3b5f5b326084889998a02c927dcaa57663ead"
+      },
+      "stderr_bytes": 0,
+      "stdout": {
+        "bytes": 42341,
+        "last_sample": "[n=50] round 6480 edges=243 cuts+=24 y=19600 m=1225 nuM=25 2639s",
+        "last_sampled_round": 6480,
+        "path": "cegar_face_matching3_n50_d9.stdout.log",
+        "sample_lines": 649,
+        "sha256": "d124e1a37118fc0439f393a3f28eddb5f0015b55e1a70cf67a333ef4b7707895"
+      }
+    },
+    {
+      "durable_cut_payload_in_result": false,
+      "durable_cut_payload_in_stdout": false,
+      "name": "matching3-tcg3",
+      "partition_ast": {
+        "loads": [
+          210,
+          210,
+          397,
+          421,
+          421,
+          489
+        ],
+        "stores": [
+          395
+        ]
+      },
+      "result_exists": false,
+      "script": {
+        "current_worktree_differs": true,
+        "current_worktree_sha256": "e57520b2c2fd0c163b1a2081d367875000d08d937c0cf520465d12ae60cc6797",
+        "path": "research\\erdos151\\fable_symbolic_h_2026-08-03\\cegar_face_matching3_tcg3.py",
+        "pinned_bytes": 19911,
+        "pinned_commit": "26c37d7041e9c422e0f8606af2c105b617708968",
+        "pinned_sha256": "2fc09b1f1101d9f6d38b66f91b1f555c74edab06365abd7eeda0231c9b55813e"
+      },
+      "stderr_bytes": 0,
+      "stdout": {
+        "bytes": 12841,
+        "last_sample": "[combined n=50] round 1100 edges=243 tcg3=partition-found adm=24 phase=randomized-full-batch y=19600 nuM=24 615.00s",
+        "last_sampled_round": 1100,
+        "path": "cegar_face_matching3_tcg3_n50_d9.stdout.log",
+        "sample_lines": 111,
+        "sha256": "ea29a15964ea01354169c80c482a096e73f485774722f5153346c8f2b4f9c63a"
+      }
+    }
+  ],
+  "schema": "erdos151-stopped-cegar-forensic-audit-v1",
+  "status": "PASS"
+}

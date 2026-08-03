@@ -1,0 +1,22 @@
+{
+  "expected_failures": [
+    "tampered-middle: record 0 envelope hash mismatch",
+    "fork: fork at record index 0",
+    "wrong-h-set-size: vertices has length 3, expected 4",
+    "noncanonical-partition: canonical TCG-3 side_zero must contain vertex 0",
+    "partition-omits-vertex: partition sides do not cover exactly range(n)"
+  ],
+  "schema": "erdos151-checkpoint-protocol-tests-v1",
+  "scope": "protocol and semantic-record validation only; this does not audit the static graph CNF or certify an n=50 result",
+  "status": "PASS",
+  "tests": {
+    "canonical_complement_selection": "PASS",
+    "clean_two-record_roundtrip": "PASS",
+    "committed_bitflip_rejected": "PASS",
+    "noncanonical_partition_rejected": "PASS",
+    "partial_temp_ignored_and_reported": "PASS",
+    "partition_coverage_rejected": "PASS",
+    "same-index_fork_rejected": "PASS",
+    "wrong_h_set_rejected": "PASS"
+  }
+}

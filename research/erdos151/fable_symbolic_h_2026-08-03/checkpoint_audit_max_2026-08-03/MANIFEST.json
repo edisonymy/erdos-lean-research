@@ -1,0 +1,22 @@
+{
+  "schema": "erdos151-checkpoint-audit-max-manifest-v1",
+  "date": "2026-08-03",
+  "status": "CONDITIONAL-PASS",
+  "claim_boundary": "Infrastructure audit only; no n=50 SAT or UNSAT claim.",
+  "reviewed_successor_sha256": {
+    "research/erdos151/fable_symbolic_h_2026-08-03/audit_cegar_checkpoint.py": "db41581d8026a5939bc8de1e21b4f871471ff90f61facd149ccb27c50097a5d5",
+    "research/erdos151/fable_symbolic_h_2026-08-03/cegar_checkpoint.py": "0862f5f4ca6719c4a211133379619d3777387f79d9ed6024e87e00bf0d2fdc09",
+    "research/erdos151/fable_symbolic_h_2026-08-03/cegar_face_matching3_tcg3.py": "e9f69347eee7d077421188bfcccf20f0173dc3e1767c3b1e643d7f0942be9bf7"
+  },
+  "files_sha256": {
+    "CHECKPOINT_RESUME_AUDIT.md": "6620237a6d97cb620d5911f4eadf6e38a10d019404ecfdd9569477de15b1e34d",
+    "audit_existing_runs.py": "c08898a3eac491216d853e566b556511e88f66ea256eeb6bcfeaf05466f6db24",
+    "audit_existing_runs.result.json": "4c778e3b065bac424b227f9e89f2fa3ebedda0f6184add5c8432ed5c1b40b78c",
+    "audit_root_successor.py": "1a2703f704a39fc420e8d7421b5cd33afc36d97a28494b5d84ea01525f34e3db",
+    "audit_root_successor.result.json": "5b2dc42c812ae33214c13e3e024909bf11e58513603fa67ab0f571d1a421eabc",
+    "checkpoint_protocol.py": "4f47312d21bc6d8942199eaeb0ec551cd4804c82d810b16d5cdb564b593d9a62",
+    "root_regression_replay.result.json": "f7c356a796bcb4e80af1c6178120611c778f7b4e8a337907e1c73c10bb866aac",
+    "test_checkpoint_protocol.py": "5964b3d07c3fddae65d8d1371060a15bcf7a155136f1d5690cddc67b8e593422",
+    "test_checkpoint_protocol.result.json": "c1c7905ad669cf5e012530e8e43f33ba786d775ac2c9e703564d12f917b1d30b"
+  }
+}
